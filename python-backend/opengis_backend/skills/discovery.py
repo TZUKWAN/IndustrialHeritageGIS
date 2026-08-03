@@ -84,6 +84,7 @@ class UserSkillDiscovery:
 
     def _roots(self) -> list[tuple[Path, str]]:
         roots: list[tuple[Path, str]] = []
+        roots.append((Path(__file__).parent / "builtin", "builtin"))
         home = Path.home()
         roots.append((home / ".opengis" / "skills", "global"))
 

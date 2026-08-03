@@ -28,8 +28,10 @@ from opengis_backend.agent.loop.retry_policy import (
 from opengis_backend.agent.execution.tool_materializer import ToolMaterializer, is_tool_visibility_miss
 from opengis_backend.agent.execution.tool_runtime import ToolRuntime
 from opengis_backend.agent.loop.types import AgentStep, CodeExecResult
+from opengis_backend.agent.loop.auto_final import maybe_auto_final_tool_results
 from opengis_backend.agent.loop.policy import LoopPolicy, final_turn_instruction
 from opengis_backend.agent.loop.runtime_control import RuntimeControl
+from opengis_backend.agent.loop.runner_state import RunnerState, RunnerTermination, RunnerTerminationKind
 from opengis_backend.agent.governance.profile import AgentProfile
 logger = logging.getLogger(__name__)
 
@@ -92,6 +94,8 @@ class AgentLoop:
     # the DYNAMIC TAIL (after history), never into the cacheable stable prefix.
     project_memory: str = ""
     exclude_workflow_context: bool = True
+    feature_flags: dict[str, Any] = field(default_factory=dict)
+    terminal_state: RunnerTermination = field(default_factory=RunnerTermination, init=False, repr=False)
     # Set by external code (e.g. cancel handler) to signal the loop to
     # stop at the next safe point. Checked at the top of each iteration.
     _interrupted: bool = field(default=False, init=False, repr=False)
@@ -128,16 +132,15 @@ class AgentLoop:
         if self.tool_materializer is None and self.tool_schemas:
             self.tool_materializer = ToolMaterializer(self.tool_schemas)
 
-        code_steps = 0  # Only count code execution steps toward the limit.
-        tool_steps = 0  # Count non-code tool settlements for telemetry/guardrails.
-        force_all_tools_once = False
-        force_final_reason: str | None = None
+        state = RunnerState()
+        self.terminal_state = state.terminal
         profile = self.agent_profile or AgentProfile.gis_build()
         policy = LoopPolicy.from_profile(profile)
         runtime_control = RuntimeControl.from_user_message(
             user_message,
             workspace_path=workspace_path,
             pending_intent=pending_intent,
+            feature_flags=self.feature_flags,
         )
         kernel = LoopKernel(
             llm_call=self.llm_call,
@@ -161,32 +164,41 @@ class AgentLoop:
             ),
         )
 
-        iteration = 0
         while True:
-            current_iteration = iteration
-            iteration += 1
+            current_iteration = state.next_iteration()
             # Check for external interruption.
-            logger.debug("[AGENT] iteration=%d, code_steps=%d, tool_steps=%d, _interrupted=%s, thread=%d",
-                        current_iteration, code_steps, tool_steps, self._interrupted, threading.get_ident())
+            logger.debug(
+                "[AGENT] iteration=%d, code_steps=%d, tool_steps=%d, _interrupted=%s, thread=%d",
+                current_iteration,
+                state.code_steps,
+                state.tool_steps,
+                self._interrupted,
+                threading.get_ident(),
+            )
             if self._interrupted:
                 logger.debug("[AGENT] EXITING due to _interrupted=True at iteration top")
+                state.mark_terminal(
+                    RunnerTerminationKind.INTERRUPTED,
+                    reason="user_interrupt",
+                )
+                self.terminal_state = state.terminal
                 logger.info(
                     "Agent loop interrupted externally after %d code steps and %d tool steps.",
-                    code_steps,
-                    tool_steps,
+                    state.code_steps,
+                    state.tool_steps,
                 )
                 return "(Task interrupted by user.)"
-            tentative_step = code_steps + 1
+            tentative_step = state.code_steps + 1
 
             logger.debug("[AGENT] LLM call START, _interrupted=%s", self._interrupted)
             policy_decision = policy.before_provider_turn(
                 iteration=current_iteration,
-                code_steps=code_steps,
-                tool_steps=tool_steps,
-                force_final_reason=force_final_reason,
+                code_steps=state.code_steps,
+                tool_steps=state.tool_steps,
+                force_final_reason=state.force_final_reason,
             )
-            stage = "finalizing" if policy_decision.force_final else ("calling_llm" if code_steps == 0 else "thinking_next_step")
-            detail = "Finalizing..." if policy_decision.force_final else ("Thinking..." if code_steps == 0 else f"Thinking through step {code_steps + 1}...")
+            stage = "finalizing" if policy_decision.force_final else ("calling_llm" if state.code_steps == 0 else "thinking_next_step")
+            detail = "Finalizing..." if policy_decision.force_final else ("Thinking..." if state.code_steps == 0 else f"Thinking through step {state.code_steps + 1}...")
             extra_system_messages = (
                 [final_turn_instruction(policy_decision.reason)]
                 if policy_decision.force_final
@@ -198,11 +210,13 @@ class AgentLoop:
             if self.project_memory:
                 system_inserts.append(self.project_memory)
             system_inserts.append(runtime_control.system_prompt())
+            materialization_options = policy.materialization_options()
+            materialization_options.setdefault("selected_packs", sorted(runtime_control.tool_packs()))
             outcome = kernel.run_turn(
                 LoopTurnRequest(
                     iteration=current_iteration,
-                    code_steps=code_steps,
-                    tool_steps=tool_steps,
+                    code_steps=state.code_steps,
+                    tool_steps=state.tool_steps,
                     system_prompt=self.system_prompt,
                     user_instructions=self.user_instructions,
                     exclude_workflow_context=self.exclude_workflow_context,
@@ -212,15 +226,15 @@ class AgentLoop:
                     code_step_for_tool=lambda tool_index: tentative_step + tool_index,
                     retry_detail="Connection error",
                     logger_prefix="LOOP",
-                    force_all_tools=force_all_tools_once,
+                    force_all_tools=state.force_all_tools_once,
                     disable_tools=policy_decision.force_final,
                     disabled_tools_reason=policy_decision.reason,
-                    materialization_options=policy.materialization_options(),
+                    materialization_options=materialization_options,
                     extra_system_messages=system_inserts,
                     tool_call_guard=runtime_control.guard_tool_calls,
                 )
             )
-            force_all_tools_once = False
+            state.reset_force_all_tools()
             provider_result = outcome.provider_result
             telemetry = outcome.telemetry
             duration_ms = provider_result.duration_ms
@@ -234,15 +248,14 @@ class AgentLoop:
             if tool_calls:
                 code_step_delta = sum(1 for item in outcome.settlements if item.counts_as_code_step)
                 tool_step_delta = sum(1 for item in outcome.settlements if not item.counts_as_code_step)
-                code_steps += code_step_delta
-                tool_steps += tool_step_delta
-                telemetry.code_steps = code_steps
-                telemetry.tool_steps = tool_steps
+                state.add_steps(code_delta=code_step_delta, tool_delta=tool_step_delta)
+                telemetry.code_steps = state.code_steps
+                telemetry.tool_steps = state.tool_steps
                 telemetry.continuation = "tool_results"
                 settle_decision = policy.after_settlements(
                     outcome.settlements,
-                    code_steps=code_steps,
-                    tool_steps=tool_steps,
+                    code_steps=state.code_steps,
+                    tool_steps=state.tool_steps,
                 )
                 control_decision = runtime_control.observe_settlements(outcome.settlements)
                 if control_decision.has_correction:
@@ -252,20 +265,60 @@ class AgentLoop:
                     )
                     telemetry.continuation = "runner_control_correction"
                     telemetry.log()
-                    if control_decision.force_final_reason:
-                        force_final_reason = control_decision.force_final_reason
+                    state.set_force_final(control_decision.force_final_reason)
                     continue
                 if control_decision.force_final_reason:
-                    force_final_reason = control_decision.force_final_reason
+                    state.set_force_final(control_decision.force_final_reason)
                     telemetry.continuation = "runner_control_force_final"
                     telemetry.log()
                     continue
-                telemetry.log()
                 if settle_decision.force_final:
-                    force_final_reason = settle_decision.reason
+                    state.set_force_final(settle_decision.reason)
+                auto_final = None if state.force_final_reason else maybe_auto_final_tool_results(outcome.settlements)
+                if auto_final is not None:
+                    response = auto_final.text
+                    logger.info(
+                        "Tool results auto-finalized after %d settlement(s): %s",
+                        len(outcome.settlements),
+                        auto_final.reason,
+                    )
+                    self.context.add_assistant_message(
+                        response,
+                        meta={
+                            "kind": "tool_result_auto_final",
+                            "reason": auto_final.reason,
+                        },
+                    )
+                    if self.on_thought_delta:
+                        try:
+                            self.on_thought_delta(response)
+                        except Exception:
+                            logger.exception("on_thought_delta failed for auto-final text response")
+                    step = AgentStep(
+                        step_num=state.code_steps + 1,
+                        thought=response,
+                        is_text_reply=True,
+                        text_reply=response,
+                        duration_ms=duration_ms,
+                    )
+                    if self.step_callback:
+                        try:
+                            self.step_callback(step)
+                        except Exception:
+                            logger.exception("step_callback failed")
+                    telemetry.continuation = "tool_result_auto_final"
+                    telemetry.log()
+                    state.mark_terminal(
+                        RunnerTerminationKind.COMPLETED,
+                        reason=auto_final.reason,
+                        detail="tool_result_auto_final",
+                    )
+                    self.terminal_state = state.terminal
+                    return response
                 # Keep nudge state scoped to the whole user turn. Resetting it
                 # after every tool call lets a short completed task be pushed
                 # into unrelated follow-up work repeatedly.
+                telemetry.log()
                 continue  # Let LLM see the tool results
 
             # ── No tool_calls: handle as text response ──
@@ -298,10 +351,10 @@ class AgentLoop:
                 )
                 telemetry.continuation = "tool_visibility_retry"
                 telemetry.log()
-                force_all_tools_once = True
+                state.request_full_tool_surface()
                 continue
 
-            total_work_steps = code_steps + tool_steps
+            total_work_steps = state.code_steps + state.tool_steps
             logger.info(
                 "Text response accepted after %d tool/code steps.",
                 total_work_steps,
@@ -313,7 +366,7 @@ class AgentLoop:
                 except Exception:
                     logger.exception("on_thought_delta failed for final text response")
             step = AgentStep(
-                step_num=code_steps + 1,
+                step_num=state.code_steps + 1,
                 thought=thought,
                 is_text_reply=True,
                 text_reply=response,
@@ -327,13 +380,18 @@ class AgentLoop:
 
             logger.info(
                 "Text reply after %d code steps and %d tool steps -- treating as task complete.",
-                code_steps,
-                tool_steps,
+                state.code_steps,
+                state.tool_steps,
             )
-            telemetry.code_steps = code_steps
-            telemetry.tool_steps = tool_steps
+            telemetry.code_steps = state.code_steps
+            telemetry.tool_steps = state.tool_steps
             telemetry.continuation = "complete"
             telemetry.log()
+            state.mark_terminal(
+                RunnerTerminationKind.COMPLETED,
+                reason="text_response",
+            )
+            self.terminal_state = state.terminal
             return response
 
 

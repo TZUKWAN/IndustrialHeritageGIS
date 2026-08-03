@@ -19,6 +19,7 @@ import {
 import { useT } from '@/i18n'
 import { useSettingsStore } from '@/stores/settingsStore'
 import { useRunsStore } from '@/stores/runsStore'
+import { THREE_D_MODE_AVAILABLE } from '@/stores/settingsStore'
 import type { ProtocolType, ModelPreset } from '@/stores/settingsStore'
 import type { RunDetail, RunLLMUsageRecord, RunSummary } from '@/stores/runsStore'
 import { BUILTIN_BASEMAPS } from '@/services/geo'
@@ -1456,6 +1457,24 @@ export function SettingsView() {
                         }
                       }}
                       label={t.settings.showMapLabels}
+                    />
+                  </SettingItem>
+
+                  {/* 3D mode is feature-gated. Keep the control visible so the
+                      future release has a stable entry point, but do not allow
+                      it to mutate state yet. */}
+                  <SettingItem
+                    id="appearance-3d-mode"
+                    label={t.settings.threeDMode}
+                    description={t.settings.threeDModeDesc}
+                  >
+                    <SettingCheckbox
+                      id="appearance-3d-mode"
+                      checked={THREE_D_MODE_AVAILABLE && appearance.enable3DMode}
+                      onChange={() => {}}
+                      disabled
+                      title={t.settings.threeDModeComingSoon}
+                      label={t.settings.threeDModeComingSoon}
                     />
                   </SettingItem>
 

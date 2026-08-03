@@ -23,6 +23,10 @@ _MEMORY_REQUIRED_RE = re.compile(
     r"(报告|学术|论文|分析|统计|workflow|工作流|继续|上次|之前|数据|文件|csv|geojson|shp|gpkg|report|analysis)",
     re.IGNORECASE,
 )
+_FAILURE_CONTEXT_RE = re.compile(
+    r"(失败|报错|错误|不对|不生效|没变|无法|不能|修|fix|repair|failed|error|wrong)",
+    re.IGNORECASE,
+)
 
 
 def is_short_scoped_map_request(user_message: str) -> bool:
@@ -43,20 +47,15 @@ class ContextProjector:
         if not self.workspace_path:
             return ""
         if is_short_scoped_map_request(user_message):
+            if not _FAILURE_CONTEXT_RE.search(user_message or ""):
+                return ""
             failure_lessons = FailureMemoryProjector(self.workspace_path).project(user_message, limit=3)
             if failure_lessons:
                 return (
-                    "Project memory is intentionally hidden for this short scoped map/UI request, "
-                    "except directly relevant learned failure lessons.\n"
-                    f"{failure_lessons}\n"
-                    "Use only the current user request, current map/layer state, and the matching failure lessons. "
-                    "Do not start workflows, subagents, reports, or broad analysis unless explicitly asked."
+                    "Relevant failure lessons for this scoped map/UI request:\n"
+                    f"{_compact_text(failure_lessons, 600)}"
                 )
-            return (
-                "Project memory is intentionally hidden for this short scoped map/UI request. "
-                "Use only the current user request and current map/layer state. "
-                "Do not start workflows, subagents, reports, or broad analysis unless explicitly asked."
-            )
+            return ""
 
         # touch=False: projecting memory into the prompt must not mutate
         # last_used_at, otherwise the next retrieval reorders and the injected
@@ -86,6 +85,15 @@ class ContextProjector:
                 scope = f" scope={record.scope}" if record.scope else ""
                 lines.append(f"- [{record.id[:8]}]{scope}{source} {title}{record.content[:700]}")
         return "\n".join(lines).strip()
+
+
+def _compact_text(text: str, max_chars: int) -> str:
+    compact = " ".join(str(text or "").split())
+    if len(compact) <= max_chars:
+        return compact
+    head = max(80, max_chars // 2)
+    tail = max(0, max_chars - head - 24)
+    return compact[:head].rstrip() + " ... " + compact[-tail:].lstrip()
 
 
 __all__ = ["ContextProjector", "is_short_scoped_map_request"]

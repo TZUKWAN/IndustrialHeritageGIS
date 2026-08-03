@@ -19,6 +19,7 @@ interface ToolSchemaDict {
   display_name: string
   description: string
   category: string
+  group?: string
   params: ToolParamDict[]
   returns: string
   examples: string[]
@@ -304,6 +305,11 @@ export function ToolAndSkillPanel() {
                           <span className="text-[11px] font-mono text-accent-primary truncate flex-1">
                             {skill.name}
                           </span>
+                          {skill.group && (
+                            <span className="text-[9px] px-1 py-0.5 rounded bg-bg-tertiary text-text-muted">
+                              {skill.group}
+                            </span>
+                          )}
                           {skill.tags.slice(0, 1).map(t => (
                             <span
                               key={t}

@@ -1276,6 +1276,50 @@ describe('rpc.ui.map.list_layers', () => {
     // 精简表示不带 features
     expect('features' in l1).toBe(false);
   });
+
+  it('does not crash when an extension layer has no bbox', async () => {
+    const d = makeDispatcher();
+    useMapStore.setState({
+      layers: [
+        {
+          id: 'tiles3d_1',
+          name: 'Campus 3D Tiles',
+          sourceType: '3dtiles',
+          visible: true,
+          style: { renderType: 'fill', color: '#999999', opacity: 1 },
+          data: {
+            kind: 'tiles3d',
+            crs: 'EPSG:4978',
+          },
+          meta: {
+            fileName: 'tileset.json',
+            extension: '.json',
+            sourceType: '3dtiles',
+            fileSize: 0,
+          },
+          addedAt: 1,
+          extension: '3dtiles',
+        } as any,
+      ],
+    });
+
+    const resp = await d.handleRequest(req('rpc.ui.map.list_layers', {}));
+    expect(resp).toMatchObject({
+      result: {
+        count: 1,
+        layers: [
+          {
+            layer_id: 'tiles3d_1',
+            name: 'Campus 3D Tiles',
+            bbox: null,
+            feature_count: 0,
+            geometry_type: null,
+            crs: 'EPSG:4978',
+          },
+        ],
+      },
+    });
+  });
 });
 
 describe('rpc.ui.map.get_layer', () => {
@@ -1291,6 +1335,45 @@ describe('rpc.ui.map.get_layer', () => {
         feature_count: 3,
         geometry_type: 'Point',
         source_type: 'geojson',
+      },
+    });
+  });
+
+  it('returns extension layer meta when bbox is unavailable', async () => {
+    const d = makeDispatcher();
+    useMapStore.setState({
+      layers: [
+        {
+          id: 'tiles3d_1',
+          name: 'Campus 3D Tiles',
+          sourceType: '3dtiles',
+          visible: true,
+          style: { renderType: 'fill', color: '#999999', opacity: 1 },
+          data: {
+            kind: 'tiles3d',
+            crs: 'EPSG:4978',
+          },
+          meta: {
+            fileName: 'tileset.json',
+            extension: '.json',
+            sourceType: '3dtiles',
+            fileSize: 0,
+          },
+          addedAt: 1,
+          extension: '3dtiles',
+        } as any,
+      ],
+    });
+
+    const resp = await d.handleRequest(req('rpc.ui.map.get_layer', { layer_id: 'tiles3d_1' }));
+    expect(resp).toMatchObject({
+      result: {
+        layer_id: 'tiles3d_1',
+        name: 'Campus 3D Tiles',
+        bbox: null,
+        feature_count: 0,
+        geometry_type: null,
+        crs: 'EPSG:4978',
       },
     });
   });

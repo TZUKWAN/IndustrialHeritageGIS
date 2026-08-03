@@ -10,7 +10,6 @@ import {
   globalRegistry,
   registerAllHandlers,
 } from '@/services/rpc'
-import { installExtensions } from '@/features/map/extensions'
 
 function App() {
   const loadFromElectron = useSettingsStore((s) => s.loadFromElectron)
@@ -23,7 +22,6 @@ function App() {
   useEffect(() => {
     registerAllHandlers(globalRegistry, { override: true })
     pythonClient.setDispatcher(globalDispatcher)
-    installExtensions()
 
     // Listen for project selection from loading window via main process
     // Must register BEFORE signalRendererReady to avoid missing messages

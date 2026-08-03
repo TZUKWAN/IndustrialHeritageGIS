@@ -72,6 +72,7 @@ export class MapEngine {
   private basemapHidden = false
   private moveEndHandler: (() => void) | null = null
   private onStyleReload?: StyleReloadCallback
+  private styleReloadGeneration = 0
 
   /**
    * 地图首个 style.load 是否完成。controller / hook 的挂载需要等这个标志，
@@ -347,6 +348,7 @@ export class MapEngine {
 
     const style = this.buildStyle(basemap)
     this.currentBasemap = basemap
+    const reloadGeneration = ++this.styleReloadGeneration
 
     // 保存当前 camera，避免 setStyle 因远程 style JSON 中的
     // center/zoom 字段重置用户视图
@@ -362,22 +364,42 @@ export class MapEngine {
     // 之前注册：内联 raster style 可能很快完成加载，先 setStyle 再 once
     // 会错过 style.load，导致用户图层没有重挂。
     const handleStyleReload = () => {
-      if (styleReloadHandled || this.map !== map) return
+      if (
+        styleReloadHandled ||
+        this.map !== map ||
+        reloadGeneration !== this.styleReloadGeneration
+      ) return
       styleReloadHandled = true
-      // 恢复 camera
-      this.map?.jumpTo({
-        center: savedCenter,
-        zoom: savedZoom,
-        bearing: savedBearing,
-        pitch: savedPitch,
-      })
-      // 清空跟踪集合 — 图层将在下面重新挂载
-      this.managedSourceIds.clear()
-      this.managedLayerIds.clear()
 
-      // Wait for the style to be fully rendered before re-applying
-      // visibility settings — layers must exist in the new style first.
-      const applyVisibility = () => {
+      // Defer one frame after style.load. MapLibre has replaced the style at
+      // this point, but a frame boundary avoids racing same-tick effects that
+      // also respond to theme/label changes.
+      const finishReload = () => {
+        if (this.map !== map || reloadGeneration !== this.styleReloadGeneration) return
+
+        // 恢复 camera
+        this.map?.jumpTo({
+          center: savedCenter,
+          zoom: savedZoom,
+          bearing: savedBearing,
+          pitch: savedPitch,
+        })
+
+        // setStyle 清掉了所有非底图 source/layer；跟踪集合必须同步清空，
+        // 然后由 MapView 重新挂载 store 中的用户图层。
+        this.managedSourceIds.clear()
+        this.managedLayerIds.clear()
+        this.renderLayerToDef.clear()
+
+        // 通知 MapView 将所有用户图层重新同步到新样式。必须先重挂用户层，
+        // 再应用底图/标注可见性，否则 setBasemapVisible / setLabelsVisible
+        // 在 managedLayerIds 为空时无法正确跳过用户图层。
+        try {
+          this.onStyleReload?.()
+        } catch (err) {
+          console.error('[MapEngine] style reload layer resync failed:', err)
+        }
+
         if (this.basemapHidden) {
           this.setBasemapVisible(false)
         }
@@ -386,15 +408,10 @@ export class MapEngine {
         }
       }
 
-      if (this.map?.isStyleLoaded()) {
-        applyVisibility()
+      if (typeof requestAnimationFrame === 'function') {
+        requestAnimationFrame(finishReload)
       } else {
-        this.map?.once('style.load', applyVisibility)
-      }
-
-      // 通知 MapView 将所有用户图层重新同步到新样式
-      if (this.onStyleReload) {
-        this.onStyleReload()
+        setTimeout(finishReload, 0)
       }
     }
 
@@ -467,7 +484,7 @@ export class MapEngine {
 
     const ctx = this.buildRendererContext()
 
-    // vector 类 renderer（fill/line/circle/heatmap/graduated/categorized/extrusion）
+    // vector 类 renderer（fill/line/circle/graduated/categorized/extrusion）
     // 共用 geojson source；cluster/raster 的 source 由 renderer 自己管理
     const managesOwnSource = ['cluster', 'raster'].includes(layer.style.renderType)
 
@@ -727,6 +744,37 @@ export class MapEngine {
       duration: update.duration,
       essential: true,
     })
+  }
+
+  /**
+   * Reserved 3D entry point. The Settings feature flag currently keeps this
+   * path unavailable to users and autonomous tools, but the camera preset is
+   * centralized here so enabling 3D later does not require another map path.
+   */
+  enterPreset3DMode(duration = 600): void {
+    this.setCamera({
+      pitch: 60,
+      bearing: -25,
+      duration,
+    })
+  }
+
+  /** Return to the canonical top-down 2D camera preset. */
+  exitPreset3DMode(duration = 600): void {
+    this.setCamera({
+      pitch: 0,
+      bearing: 0,
+      duration,
+    })
+  }
+
+  /** Toggle the reserved camera preset through one stable future UI entry point. */
+  setPreset3DMode(enabled: boolean, duration = 600): void {
+    if (enabled) {
+      this.enterPreset3DMode(duration)
+    } else {
+      this.exitPreset3DMode(duration)
+    }
   }
 
   /**

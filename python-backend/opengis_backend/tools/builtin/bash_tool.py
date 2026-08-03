@@ -52,7 +52,61 @@ def _is_dangerous(cmd: str) -> bool:
 
 
 def _split_shell_segments(command: str) -> list[str]:
-    return [part.strip() for part in re.split(r"\s*(?:&&|\|\||;|\|)\s*", command) if part.strip()]
+    """Split a shell command into top-level segments.
+
+    The safety parser only needs a coarse command chain breakdown. We still
+    must respect shell quoting so inline Python such as
+    ``python -c 'print("a; b")'`` is not misread as a chained command.
+    """
+    segments: list[str] = []
+    current: list[str] = []
+    i = 0
+    length = len(command)
+    quote: str | None = None
+    escaped = False
+
+    def flush() -> None:
+        segment = "".join(current).strip()
+        if segment:
+            segments.append(segment)
+        current.clear()
+
+    while i < length:
+        ch = command[i]
+        if escaped:
+            current.append(ch)
+            escaped = False
+            i += 1
+            continue
+        if ch == "\\":
+            current.append(ch)
+            escaped = True
+            i += 1
+            continue
+        if quote is not None:
+            current.append(ch)
+            if ch == quote:
+                quote = None
+            i += 1
+            continue
+        if ch in ("'", '"'):
+            current.append(ch)
+            quote = ch
+            i += 1
+            continue
+        if command.startswith("&&", i) or command.startswith("||", i):
+            flush()
+            i += 2
+            continue
+        if ch in ("|", ";"):
+            flush()
+            i += 1
+            continue
+        current.append(ch)
+        i += 1
+
+    flush()
+    return segments
 
 
 def _parse_command(command: str, cwd: str) -> dict[str, Any]:

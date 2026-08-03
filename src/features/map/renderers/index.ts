@@ -9,7 +9,6 @@
 import { fillRenderer } from './fillRenderer'
 import { lineRenderer } from './lineRenderer'
 import { circleRenderer } from './circleRenderer'
-import { heatmapRenderer } from './heatmapRenderer'
 import { graduatedRenderer } from './graduatedRenderer'
 import { categorizedRenderer } from './categorizedRenderer'
 import { clusterRenderer } from './clusterRenderer'
@@ -22,7 +21,6 @@ export const ALL_RENDERERS: LayerRenderer[] = [
   fillRenderer,
   lineRenderer,
   circleRenderer,
-  heatmapRenderer,
   graduatedRenderer,
   categorizedRenderer,
   clusterRenderer,

@@ -323,6 +323,7 @@ class OpenGISAgent:
             "status": "running",
             "final_answer": None,
             "error": None,
+            "termination": None,
         }
 
         def _cleanup() -> None:
@@ -376,6 +377,7 @@ class OpenGISAgent:
                     status=final_state["status"],
                     final_answer=final_state["final_answer"],
                     error=final_state["error"],
+                    termination=final_state.get("termination"),
                 )
             except Exception:
                 logger.exception("run_archive.close failed")
@@ -405,7 +407,10 @@ class OpenGISAgent:
                 # Track terminal state for the archive.
                 if event.type == AgentEventType.ERROR:
                     final_state["status"] = "error"
-                    final_state["error"] = str(event.data) if event.data else None
+                    if isinstance(event.data, dict):
+                        final_state["error"] = str(event.data.get("error") or event.data)
+                    else:
+                        final_state["error"] = str(event.data) if event.data else None
                 elif (
                     event.type == AgentEventType.STREAM_DELTA and final_state["status"] == "running"
                 ):
@@ -413,8 +418,17 @@ class OpenGISAgent:
                         final_state["final_answer"] = event.data
                     elif isinstance(event.data, dict) and isinstance(event.data.get("content"), str):
                         final_state["final_answer"] = event.data.get("content")
-                elif event.type == AgentEventType.STREAM_END and final_state["status"] == "running":
-                    final_state["status"] = "success"
+                elif event.type == AgentEventType.STREAM_END:
+                    if isinstance(event.data, dict):
+                        terminal_kind = event.data.get("terminal_kind")
+                        if terminal_kind:
+                            final_state["termination"] = {
+                                "kind": terminal_kind,
+                                "reason": event.data.get("terminal_reason") or "",
+                                "detail": event.data.get("terminal_detail") or "",
+                            }
+                    if final_state["status"] == "running":
+                        final_state["status"] = "success"
                 yield event
         except asyncio.CancelledError:
             final_state["status"] = "cancelled"

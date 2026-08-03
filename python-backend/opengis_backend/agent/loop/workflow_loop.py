@@ -34,6 +34,7 @@ from opengis_backend.agent.loop.turn_runner import (
     decide_text_continuation,
 )
 from opengis_backend.agent.loop.types import AgentStep, CodeExecResult
+from opengis_backend.agent.loop.runner_state import RunnerState, RunnerTermination, RunnerTerminationKind
 from opengis_backend.agent.workflow.workflow_outputs import (
     build_workflow_plan_payload,
     summarize_step_output,
@@ -109,6 +110,7 @@ class WorkflowLoop:
     halt_on_failure: bool = False
     # Set by external code (e.g. cancel handler) to signal the loop to
     # stop at the next safe point.
+    terminal_state: RunnerTermination = field(default_factory=RunnerTermination, init=False, repr=False)
     _interrupted: bool = field(default=False, init=False, repr=False)
 
     def interrupt(self) -> None:
@@ -137,6 +139,8 @@ class WorkflowLoop:
         total_steps = len(execution_order)
         node_outputs: dict[str, str] = {}
         completed_nodes: list[str] = []
+        state = RunnerState()
+        self.terminal_state = state.terminal
 
         # Add initial context about the workflow.
         workflow_intro = (
@@ -157,6 +161,11 @@ class WorkflowLoop:
             # Check for external interruption.
             if self._interrupted:
                 logger.info("Workflow loop interrupted externally at step %d.", step_index)
+                state.mark_terminal(
+                    RunnerTerminationKind.INTERRUPTED,
+                    reason="user_interrupt",
+                )
+                self.terminal_state = state.terminal
                 return "(Workflow interrupted by user.)"
 
             logger.info(
@@ -188,6 +197,14 @@ class WorkflowLoop:
                 step_index=step_index,
                 step_prompt=step_prompt,
             )
+            if self._interrupted:
+                logger.info("Workflow loop interrupted after node %s returned.", node.id)
+                state.mark_terminal(
+                    RunnerTerminationKind.INTERRUPTED,
+                    reason="user_interrupt",
+                )
+                self.terminal_state = state.terminal
+                return "(Workflow interrupted by user.)"
 
             node_outputs[node.id] = node_result
             completed_nodes.append(node.id)
@@ -202,6 +219,12 @@ class WorkflowLoop:
                     "Workflow halted: node '%s' failed and halt_on_failure=True",
                     node.title,
                 )
+                state.mark_terminal(
+                    RunnerTerminationKind.HALTED,
+                    reason="halt_on_failure",
+                    detail=node.title,
+                )
+                self.terminal_state = state.terminal
                 return (
                     f"Workflow '{self.workflow.name}' halted at step {step_index}/{total_steps} "
                     f"('{node.title}') due to failure.\n\n"
@@ -214,11 +237,17 @@ class WorkflowLoop:
                 )
 
         # Generate final summary.
-        return self._generate_workflow_summary(
+        summary = self._generate_workflow_summary(
             user_message=user_message,
             node_outputs=node_outputs,
             execution_order=execution_order,
         )
+        state.mark_terminal(
+            RunnerTerminationKind.COMPLETED,
+            reason="workflow_summary",
+        )
+        self.terminal_state = state.terminal
+        return summary
 
     # ── Internal ───────────────────────────────────────────────────
 
@@ -247,6 +276,7 @@ class WorkflowLoop:
         )
         if self.tool_materializer is None and self.tool_schemas:
             self.tool_materializer = ToolMaterializer(self.tool_schemas)
+        state = RunnerState()
         kernel = LoopKernel(
             llm_call=self.llm_call,
             context=self.context,
@@ -272,22 +302,23 @@ class WorkflowLoop:
         error_count = 0
         max_errors = node.max_retries or self.max_retries_per_node
         accumulated_output: list[str] = []
-        nudged = False  # Track whether we've nudged the LLM to call tools.
-        tool_steps = 0
-        force_all_tools_once = False
-        tool_visibility_retried = False
 
         for iteration in range(max_iterations):
             # Check for external interruption.
             if self._interrupted:
                 logger.info("Workflow node %s interrupted externally.", node.id)
+                state.mark_terminal(
+                    RunnerTerminationKind.INTERRUPTED,
+                    reason="user_interrupt",
+                )
+                self.terminal_state = state.terminal
                 return "(Node interrupted by user.)"
 
             outcome = kernel.run_turn(
                 LoopTurnRequest(
                     iteration=iteration,
                     code_steps=0,
-                    tool_steps=tool_steps,
+                    tool_steps=state.tool_steps,
                     system_prompt=self.system_prompt,
                     progress_stage="calling_llm",
                     progress_detail=f"Step {step_index}: {node.title} — thinking...",
@@ -299,11 +330,11 @@ class WorkflowLoop:
                     assistant_tool_scope_kind="workflow_tool_calls",
                     tool_result_scope_kind="workflow_tool_result",
                     tool_progress_label=f"Step {step_index}: {node.title}",
-                    force_all_tools=force_all_tools_once,
+                    force_all_tools=state.force_all_tools_once,
                     extra_system_messages=[self.project_memory] if self.project_memory else None,
                 )
             )
-            force_all_tools_once = False
+            state.reset_force_all_tools()
             provider_result = outcome.provider_result
             duration_ms = provider_result.duration_ms
             response_text = provider_result.response_text
@@ -312,7 +343,7 @@ class WorkflowLoop:
             if tool_calls:
                 for settlement in outcome.settlements:
                     accumulated_output.append(f"[{settlement.name}] {settlement.content}")
-                    tool_steps += 1
+                    state.add_steps(tool_delta=1)
 
                     if settlement.error:
                         error_count += 1
@@ -340,14 +371,14 @@ class WorkflowLoop:
                             meta={"kind": "workflow_tool_error_feedback", "scope": "workflow"},
                         )
 
-                nudged = False
+                state.nudged = False
                 continue
 
             # Function-call architecture rule: plain text is never executed.
             # Python must arrive through the execute_code tool.
             thought = response_text
             if (
-                not tool_visibility_retried
+                not state.tool_visibility_retried
                 and outcome.materialization is not None
                 and outcome.materialization.reason != "all"
                 and is_tool_visibility_miss(response_text)
@@ -356,8 +387,8 @@ class WorkflowLoop:
                     "Workflow node %s appears to hit tool visibility confusion; retrying once with all tools.",
                     node.id,
                 )
-                tool_visibility_retried = True
-                force_all_tools_once = True
+                state.tool_visibility_retried = True
+                state.request_full_tool_surface()
                 self.context.add_assistant_message(
                     response_text,
                     meta={"kind": "workflow_node_response", "scope": "workflow"},
@@ -374,13 +405,13 @@ class WorkflowLoop:
             decision = decide_text_continuation(
                 response_text,
                 code_steps=0,
-                tool_steps=tool_steps,
-                nudged=nudged,
+                tool_steps=state.tool_steps,
+                nudged=state.nudged,
                 accept_after_any_tool=True,
                 accept_text_without_tools=node.node_type in {"output", "decision"},
             )
             if decision.should_nudge:
-                nudged = True
+                state.nudged = True
                 logger.info(
                     "Text-only reply before node %s completed (iteration %d, reason=%s) — nudging to call tools.",
                     node.id,

@@ -52,6 +52,9 @@ class ToolParam:
 
     def to_json_schema(self, *, compact: bool = False) -> dict:
         """Convert to JSON Schema for OpenAI Function Calling."""
+        flexible = self._flexible_schema(compact=compact)
+        if flexible is not None:
+            return flexible
         type_map = {
             ParamType.FILE_PATH: "string",
             ParamType.NUMBER: "number",
@@ -108,6 +111,32 @@ class ToolParam:
         if self.default is not None and not compact:
             schema["default"] = self.default
         return schema
+
+    def _flexible_schema(self, *, compact: bool) -> dict | None:
+        description = _compact_description(self.description, 130 if compact else 2000)
+        if self.name == "palette":
+            return {
+                "description": description,
+                "anyOf": [
+                    {"type": "string"},
+                    {"type": "array", "items": {"type": "string"}},
+                ],
+            }
+        if self.name in {"breaks", "size_range", "opacity_range"}:
+            return {
+                "description": description,
+                "type": "array",
+                "items": {"type": "number"},
+            }
+        if self.name in {"layer_ids", "categories"}:
+            return {
+                "description": description,
+                "anyOf": [
+                    {"type": "string"},
+                    {"type": "array", "items": {"type": "string"}},
+                ],
+            }
+        return None
 
     def _array_items_schema(self) -> dict:
         """Infer a useful item schema for common array parameters."""

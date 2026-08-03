@@ -268,7 +268,7 @@ class RequestBudgetManager:
 def _system_bucket(content: str) -> str:
     if "Retrieved Project Memory" in content or "Learned Failure Lessons" in content:
         return "memory"
-    if "Current Turn Objective" in content or "Runner " in content or "Active Function Tools" in content:
+    if "Current Turn Objective" in content or "## Turn Objective" in content or "Runner " in content or "Active Function Tools" in content:
         return "runtime"
     if "Working State" in content:
         return "working_state"

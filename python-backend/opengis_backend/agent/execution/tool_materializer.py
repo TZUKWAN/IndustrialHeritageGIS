@@ -12,7 +12,10 @@ import re
 from dataclasses import dataclass
 from typing import Any
 
-from opengis_backend.agent.execution.tool_capabilities import capability_for
+from opengis_backend.agent.execution.tool_packs import (
+    ALWAYS_AVAILABLE_SCHEMA_NAMES,
+    tool_pack_for_name,
+)
 
 _TOOL_VISIBILITY_MISS_RE = re.compile(
     r"(没有|不存在|无法|不能).{0,12}(工具|tool|接口)|"
@@ -37,6 +40,7 @@ class ToolMaterializer:
     def materialize(
         self,
         force_all: bool = False,
+        selected_packs: list[str] | set[str] | tuple[str, ...] | None = None,
     ) -> ToolMaterialization:
         # If a profile registered a tool, the model sees its schema until
         # permission/profile filtering removes it upstream.
@@ -48,12 +52,25 @@ class ToolMaterializer:
                 reason="all",
             )
         selected = self._dedupe(self.schemas)
+        if selected_packs:
+            selected_pack_set = {str(pack) for pack in selected_packs if str(pack)}
+            selected = [
+                schema
+                for schema in selected
+                if (
+                    tool_pack_for_name(self._name(schema)) in selected_pack_set
+                    or self._name(schema) in ALWAYS_AVAILABLE_SCHEMA_NAMES
+                )
+            ]
+            reason = "packs:" + ",".join(sorted(selected_pack_set))
+        else:
+            reason = "profile"
 
         return ToolMaterialization(
             schemas=selected,
             selected_names=[self._name(schema) for schema in selected],
             total_count=len(self.schemas),
-            reason="profile",
+            reason=reason,
         )
 
     @staticmethod
@@ -83,28 +100,18 @@ def format_active_tool_prompt(materialization: ToolMaterialization | None) -> st
     names = [name for name in materialization.selected_names if name]
     if not names:
         return ""
-    capability_lines = []
+    packs: dict[str, list[str]] = {}
     for name in names:
-        capability = capability_for(name)
-        if capability.domain != "general" or capability.side_effect != "none":
-            capability_lines.append(
-                f"- {name}: domain={capability.domain}, side_effect={capability.side_effect}, object={capability.object_type or '-'}"
-            )
-    capability_text = ""
-    if capability_lines:
-        capability_text = (
-            "\nTool capability metadata for runner/task alignment:\n"
-            + "\n".join(capability_lines[:40])
-        )
+        packs.setdefault(tool_pack_for_name(name), []).append(name)
+    lines = []
+    for pack in sorted(packs):
+        lines.append(f"- {pack}: {', '.join(sorted(packs[pack]))}")
     return (
         "## Active Function Tools For This Agent Profile\n"
-        "The registered function schemas for this agent profile are available "
-        "to this provider turn. Treat them as the authoritative tool surface; "
-        "do not discuss internal provider-tool assembly or profile tool counts "
+        "The provider function schemas are the authoritative tool surface for "
+        "exact parameters. Do not discuss internal tool assembly or tool counts "
         "with the user.\n"
-        "Function tool names:\n"
-        + ", ".join(names)
-        + capability_text
+        + "\n".join(lines)
     )
 
 

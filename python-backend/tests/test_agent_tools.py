@@ -54,6 +54,7 @@ from opengis_backend.agent.open_gis_agent import _ensure_required_tool_groups
 from opengis_backend.agent.tools import filter_agent_tools
 from opengis_backend.agent.governance.profile import AgentProfile
 from opengis_backend.agent.execution.tool_runtime import ToolRuntime, build_tool_schemas, validate_execute_code_payload
+from opengis_backend.agent.execution.tool_packs import infer_tool_packs_for_text
 from opengis_backend.agent.context.context_manager import ContextManager
 from opengis_backend.agent.context.context_persistence import save_context
 from opengis_backend.agent.session.session import SessionStore
@@ -307,6 +308,34 @@ Path(args.output).write_text(json.dumps({"success": True, "input_path": input_pa
             self.assertIn("## Executable Tools", prompt)
             self.assertIn("Do not switch the basemap", prompt)
 
+    def test_provider_request_builder_keeps_dynamic_tail_after_history(self) -> None:
+        ctx = ContextManager()
+        ctx.add_user_message("first user message")
+        ctx.add_assistant_message("assistant reply")
+
+        request = ctx.build_provider_request(
+            "system core",
+            user_instructions="be concise",
+            stable_system_sections=[("system.active_tools", "## Active Tools\nlist_layers")],
+            dynamic_tail_sections=[("runtime.control_1", "## Turn Objective\nrequest=zoom")],
+        )
+
+        section_ids = [section.id for section in request.sections]
+        self.assertEqual(
+            section_ids[:4],
+            [
+                "system.base",
+                "system.active_tools",
+                "system.user_preferences",
+                "context.history",
+            ],
+        )
+        self.assertIn("runtime.control_1", section_ids)
+        self.assertLess(section_ids.index("context.history"), section_ids.index("runtime.control_1"))
+        self.assertTrue(section_ids[-1] == "runtime.working_state" or "runtime.working_state" in section_ids)
+        self.assertNotEqual(request.system_prefix_hash, request.dynamic_suffix_hash)
+        self.assertTrue(request.cacheable_prefix_hash)
+
     def test_agent_tool_filter_removes_set_basemap(self) -> None:
         set_basemap_record = SimpleNamespace(schema=SimpleNamespace(name="set_basemap"))
         list_layers_record = SimpleNamespace(schema=SimpleNamespace(name="list_layers"))
@@ -314,6 +343,25 @@ Path(args.output).write_text(json.dumps({"success": True, "input_path": input_pa
         filtered = filter_agent_tools([set_basemap_record, list_layers_record])
 
         self.assertEqual([item.schema.name for item in filtered], ["list_layers"])
+
+    def test_3d_tools_are_hidden_until_feature_flag_is_enabled(self) -> None:
+        camera_record = SimpleNamespace(
+            schema=SimpleNamespace(name="enter_3d_view", group="map_3d"),
+        )
+        map_record = SimpleNamespace(
+            schema=SimpleNamespace(name="list_layers", group="core"),
+        )
+
+        disabled = filter_agent_tools([camera_record, map_record])
+        enabled = filter_agent_tools([camera_record, map_record], allow_3d=True)
+
+        self.assertEqual([item.schema.name for item in disabled], ["list_layers"])
+        self.assertEqual(
+            [item.schema.name for item in enabled],
+            ["enter_3d_view", "list_layers"],
+        )
+        self.assertNotIn("map_3d", infer_tool_packs_for_text("切换到三维视角"))
+        self.assertIn("map_3d", infer_tool_packs_for_text("切换到三维视角", allow_3d=True))
 
     def test_default_build_profile_includes_worker_but_excludes_orchestration_tool_groups(self) -> None:
         profile = AgentProfile.gis_build(max_steps=4)
@@ -698,6 +746,15 @@ Path(args.output).write_text(json.dumps({"success": True, "input_path": input_pa
 
         self.assertEqual(result["exit_code"], 0)
         self.assertEqual(Path(str(result["output"]).strip()).resolve(), Path(sys.executable).resolve())
+
+    def test_bash_parser_keeps_quoted_shell_separators_intact(self) -> None:
+        result = _bash_sync(
+            "python -c 'import sys; print(\"a; b | c && d\")'",
+            timeout=30_000,
+        )
+
+        self.assertEqual(result["exit_code"], 0)
+        self.assertIn("a; b | c && d", result["output"])
 
     def test_execute_code_rejects_think_tag_before_execution(self) -> None:
         calls: list[str] = []

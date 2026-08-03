@@ -16,20 +16,21 @@ import logging
 from typing import Callable
 from opengis_backend.tools.context import ToolContext
 from opengis_backend.tools.registry import RegisteredTool
+from opengis_backend.agent.execution.tool_packs import visible_agent_tools
 
 logger = logging.getLogger(__name__)
 
-AGENT_FORBIDDEN_TOOL_NAMES = {
-    # Basemap choice is treated as user/UI state. Agent runs may hide/show the
-    # basemap when explicitly asked, but must not switch the user's selected
-    # basemap style.
-    "set_basemap",
-}
+AGENT_FORBIDDEN_TOOL_NAMES = {"set_basemap"}
 
 
-def filter_agent_tools(registered: list[RegisteredTool]) -> list[RegisteredTool]:
+def filter_agent_tools(
+    registered: list[RegisteredTool],
+    *,
+    allow_3d: bool = False,
+) -> list[RegisteredTool]:
     """Remove tools that should not be exposed to autonomous agent loops."""
-    return [rs for rs in registered if rs.schema.name not in AGENT_FORBIDDEN_TOOL_NAMES]
+    base = [rs for rs in registered if rs.schema.name not in AGENT_FORBIDDEN_TOOL_NAMES]
+    return visible_agent_tools(base, allow_3d=allow_3d)
 
 
 def build_tool_callables(
