@@ -16,6 +16,7 @@ from typing import Any
 from opengis_backend.agent.context.failure_memory import FailureMemoryProjector
 from opengis_backend.agent.context.pending_intent import PendingIntent
 from opengis_backend.agent.execution.tool_capabilities import capability_for, tools_with_side_effect
+from opengis_backend.agent.execution.tool_packs import infer_tool_packs_for_text
 from opengis_backend.agent.loop.turn_runner import ToolSettlement
 
 
@@ -38,15 +39,13 @@ class TurnObjective:
     constraints: tuple[str, ...] = ()
 
     def to_prompt(self) -> str:
-        constraints = "\n".join(f"- {item}" for item in self.constraints) or "- No extra constraints."
+        constraints = "; ".join(_compact_text(item, 180) for item in self.constraints) or "none"
         return (
-            "## Current Turn Objective\n"
-            f"Mode: {self.mode.value}\n"
-            f"User request, verbatim: {self.user_request}\n"
-            "The current provider turn must serve this objective. Prefer the latest "
-            "verbatim user request over older assistant summaries or stale tool logs.\n"
-            "Constraints:\n"
-            f"{constraints}"
+            "## Turn Objective\n"
+            f"mode={self.mode.value}\n"
+            f"request={_compact_text(self.user_request, 900)}\n"
+            f"constraints={constraints}\n"
+            "rule=serve this request; prefer it over older assistant summaries/tool logs."
         )
 
 
@@ -135,6 +134,7 @@ class RuntimeControl:
     tool_history: list[str] = field(default_factory=list)
     workspace_path: str | None = None
     pending_intent: PendingIntent | None = None
+    feature_flags: dict[str, Any] = field(default_factory=dict)
 
     @classmethod
     def from_user_message(
@@ -143,37 +143,38 @@ class RuntimeControl:
         *,
         workspace_path: str | None = None,
         pending_intent: PendingIntent | None = None,
+        feature_flags: dict[str, Any] | None = None,
     ) -> "RuntimeControl":
         mode = TaskMode.MAP_RENDERING if pending_intent and pending_intent.kind == "confirm_map_load" else infer_task_mode(user_message)
         constraints: list[str] = []
         if pending_intent and pending_intent.kind == "confirm_map_load":
             constraints.extend(
                 [
-                    "The user confirmed the previous assistant offer. Execute the resolved objective, not the literal short confirmation.",
-                    "Load/style/zoom the previous result artifacts on the map. Do not rerun analysis, test the operation again, or scan the workspace unless loading fails.",
+                    "User confirmed previous offer; execute resolved objective, not literal confirmation.",
+                    "Load/style/zoom previous result artifacts; do not rerun analysis unless loading fails.",
                 ]
             )
         elif mode is TaskMode.OPERATION_REPAIR:
             constraints.extend(
                 [
-                    "Repair the existing Operation in place. Do not bypass it with a one-off script unless the user explicitly asks for a separate implementation.",
-                    "After a failed run_operation, inspect the operation contract/code and use edit_operation or edit_file, then rerun the same operation.",
-                    "Do not perform map rendering, layer styling, or data conversion as the primary path until the operation has been repaired or the user changes the objective.",
+                    "Repair existing Operation in place; do not bypass with one-off script.",
+                    "After failed run_operation: inspect contract/code, edit, rerun same operation.",
+                    "Avoid map/data-conversion side paths until operation is repaired or user changes objective.",
                 ]
             )
         elif mode is TaskMode.MAP_RENDERING:
-            constraints.append("Operate on current map/layer state and avoid unrelated file or operation repair work.")
+            constraints.append("Use current map/layer state; avoid unrelated file/operation repair work.")
         elif mode is TaskMode.DATA_ANALYSIS:
             constraints.append(
-                "Answer the analysis question once there is enough evidence. "
-                "Do not create reports, charts, derived map layers, or extra files unless the user explicitly asks for those deliverables."
+                "Answer once evidence is enough; do not create reports/charts/layers/files unless asked."
             )
         elif mode is TaskMode.WORKER:
-            constraints.append("Use worker lifecycle tools for continuous/background behavior; do not emulate long-running workers with one-shot scripts.")
+            constraints.append("Use worker lifecycle tools; do not emulate background behavior with one-shot scripts.")
         return cls(
             objective=TurnObjective(user_request=user_message, mode=mode, constraints=tuple(constraints)),
             workspace_path=workspace_path,
             pending_intent=pending_intent,
+            feature_flags=dict(feature_flags or {}),
         )
 
     def system_prompt(self) -> str:
@@ -182,22 +183,43 @@ class RuntimeControl:
             parts.append(self.pending_intent.to_prompt(self.objective.user_request))
         if self.recent_failures:
             parts.append(
-                "## Recent Tool Failures\n"
-                + "\n".join(f"- {item}" for item in self.recent_failures[-4:])
-                + "\nTreat these failures as current state. Fix the failed object or explain why it cannot be fixed."
+                "## Recent Failures\n"
+                + "\n".join(f"- {_compact_text(item, 220)}" for item in self.recent_failures[-3:])
+                + "\nrule=change input/code/contract or explain blocker; do not retry unchanged."
             )
             learned = self._project_failure_lessons()
             if learned:
-                parts.append(f"## Learned Failure Lessons\n{learned}")
+                parts.append(f"## Failure Lessons\n{_compact_text(learned, 700)}")
         if self.objective.mode is TaskMode.OPERATION_REPAIR and self.saw_operation_failure and not self.saw_operation_edit:
             parts.append(
-                "## Repair Policy Active\n"
-                "A run_operation call has failed in this turn and no operation edit has happened yet. "
-                "The next meaningful action should inspect or repair the existing operation "
-                "(get_operation/validate_operation/read_file/edit_operation/edit_file) and then rerun it. "
-                "Do not switch to execute_code, data conversion, or map styling as a bypass."
+                "## Repair Policy\n"
+                "run_operation failed and no edit happened. Next: inspect/edit existing operation, then rerun. "
+                "Do not bypass with execute_code/data conversion/map styling."
             )
         return "\n\n".join(parts)
+
+    def tool_packs(self) -> set[str]:
+        text_parts = [self.objective.user_request]
+        if self.pending_intent:
+            text_parts.append(self.pending_intent.resolved_objective)
+        text_parts.extend(self.recent_failures[-2:])
+        packs = infer_tool_packs_for_text(
+            "\n".join(text_parts),
+            allow_3d=bool(self.feature_flags.get("enable_3d")),
+        )
+        if self.objective.mode is TaskMode.OPERATION_REPAIR:
+            packs.add("operation")
+        elif self.objective.mode is TaskMode.OPERATION_RUN:
+            packs.add("operation")
+        elif self.objective.mode is TaskMode.WORKFLOW:
+            packs.add("workflow")
+        elif self.objective.mode is TaskMode.WORKER:
+            packs.add("worker")
+        elif self.objective.mode is TaskMode.MAP_RENDERING:
+            packs.add("style")
+        elif self.objective.mode is TaskMode.DATA_ANALYSIS:
+            packs.add("data")
+        return packs
 
     def _project_failure_lessons(self) -> str:
         if not self.workspace_path or not self.recent_failures:
@@ -238,11 +260,9 @@ class RuntimeControl:
                     self.recent_failures.append(failure)
                     correction = (
                         "## Runner Correction\n"
-                        "The current objective is to repair an existing Operation. "
-                        f"The latest run_operation failed: {failure}\n"
-                        "Continue by inspecting and editing the existing operation. "
-                        "Use get_operation(include_code=true), validate_operation, and edit_operation/edit_file, then rerun run_operation. "
-                        "Do not replace this with a standalone execute_code solution."
+                        f"mode=operation_repair failed={_compact_text(failure, 260)}\n"
+                        "next=get_operation(include_code=true)|validate_operation|edit_operation/edit_file; then rerun run_operation.\n"
+                        "forbidden=standalone execute_code bypass."
                     )
             elif settlement.error:
                 self.recent_failures.append(_summarize_failure(settlement))
@@ -253,9 +273,8 @@ class RuntimeControl:
                 if structured.get("do_not_retry_same_request") is True or structured.get("retryable") is False:
                     correction = (
                         "## Runner Correction\n"
-                        f"The latest `{settlement.name}` call returned a structured failure: {failure}\n"
-                        "Do not retry the exact same request. Use the returned expected schema/suggestion, "
-                        "change the input materially, or explain the external/tool blocker."
+                        f"tool={settlement.name} structured_failure={_compact_text(failure, 260)}\n"
+                        "next=use expected schema/suggestion, change input materially, or explain blocker."
                     )
             elif (
                 self.objective.mode is TaskMode.DATA_ANALYSIS
@@ -272,9 +291,7 @@ class RuntimeControl:
                 return ControlDecision(
                     corrective_message=(
                         "## Runner Control\n"
-                        "The resident worker is running and has passed the worker health/update check. "
-                        "Stop further self-inspection, file rewrites, or restarts. "
-                        "Prepare a concise final answer with the worker id, current health, and what it is rendering."
+                        "worker=healthy; stop inspection/rewrites/restarts; final answer with worker id, health, rendering."
                     ),
                     force_final_reason="worker_running_verified",
                 )
@@ -291,10 +308,10 @@ class RuntimeControl:
                 self.deviation_count += 1
                 correction = (
                     "## Runner Correction\n"
-                    f"The tool call `{settlement.name}` was blocked because it did not serve the current turn objective.\n"
-                    f"Objective: {self.objective.user_request}\n"
-                    f"Reason: {settlement.metadata.get('runner_guard_reason')}\n"
-                    "Return to the current objective and choose a directly relevant next tool."
+                    f"blocked_tool={settlement.name}\n"
+                    f"objective={_compact_text(self.objective.user_request, 260)}\n"
+                    f"reason={_compact_text(str(settlement.metadata.get('runner_guard_reason') or ''), 260)}\n"
+                    "next=choose directly relevant tool."
                 )
 
             if (
@@ -308,9 +325,7 @@ class RuntimeControl:
                 return ControlDecision(
                     corrective_message=(
                         "## Runner Control\n"
-                        "The latest analysis output already contains enough evidence and a user-facing conclusion. "
-                        "Stop broad exploration now. Do not create extra reports, charts, files, or map layers unless the user asks. "
-                        "Prepare a concise final answer from the settled results."
+                        "analysis_answer_ready=true; stop exploration; no extra reports/charts/files/layers unless asked; final answer from results."
                     ),
                     force_final_reason="analysis_answer_ready",
                 )
@@ -319,7 +334,7 @@ class RuntimeControl:
             if self.deviation_count >= 2:
                 return ControlDecision(
                     corrective_message=correction
-                    + "\nThis is the second deviation in the same turn; stop broad exploration and either repair the target object or explain the blocker.",
+                    + "\nsecond_deviation=true; repair target object or explain blocker.",
                     force_final_reason=None,
                 )
             return ControlDecision(corrective_message=correction)
@@ -330,11 +345,9 @@ class RuntimeControl:
             return ControlDecision(
                 corrective_message=(
                     "## Runner Correction\n"
-                    f"Loop anomaly detected: {anomaly.kind}.\n"
-                    f"{anomaly.message}\n"
-                    f"Objective: {self.objective.user_request}\n"
-                    "Inspect the failed/current object, repair the input/contract/code, "
-                    "or explain the blocker instead of continuing the same pattern."
+                    f"anomaly={anomaly.kind} message={_compact_text(anomaly.message, 220)}\n"
+                    f"objective={_compact_text(self.objective.user_request, 260)}\n"
+                    "next=inspect current/failed object, repair input/contract/code, or explain blocker."
                 )
             )
         return ControlDecision()
@@ -435,8 +448,17 @@ def _summarize_failure(settlement: ToolSettlement) -> str:
                 error = str(data.get("error") or data.get("message") or "")
         except Exception:
             error = ""
-    error = " ".join(error.split())[:500] or "unknown error"
+    error = _compact_text(error, 260) or "unknown error"
     return f"{settlement.name}({settlement.call_id}) failed: {error}"
+
+
+def _compact_text(text: str, max_chars: int) -> str:
+    compact = " ".join(str(text or "").split())
+    if len(compact) <= max_chars:
+        return compact
+    head = max(40, max_chars // 2)
+    tail = max(0, max_chars - head - 22)
+    return compact[:head].rstrip() + " ... " + compact[-tail:].lstrip()
 
 
 def _structured_tool_failure(content: str) -> dict[str, Any]:

@@ -26,6 +26,29 @@ from opengis_backend.agent.telemetry.events import AgentEvent, AgentEventType, _
 logger = logging.getLogger(__name__)
 
 
+def _termination_payload(loop: RunnableLoop, *, fallback_kind: str = "completed") -> dict[str, Any]:
+    raw = getattr(loop, "terminal_state", None)
+    if raw is not None:
+        try:
+            payload = raw.to_dict()
+        except Exception:
+            payload = {
+                "kind": str(getattr(raw, "kind", fallback_kind)),
+                "reason": str(getattr(raw, "reason", "")),
+                "detail": str(getattr(raw, "detail", "")),
+            }
+    else:
+        payload = {"kind": fallback_kind, "reason": "", "detail": ""}
+    kind = str(payload.get("kind") or fallback_kind)
+    if "." in kind:
+        kind = kind.rsplit(".", 1)[-1]
+    return {
+        "terminal_kind": kind,
+        "terminal_reason": str(payload.get("reason") or ""),
+        "terminal_detail": str(payload.get("detail") or ""),
+    }
+
+
 # ──────────────────────────────────────────────────────────────────────
 # Protocol for any driveable loop
 # ──────────────────────────────────────────────────────────────────────
@@ -182,13 +205,32 @@ class AgentRunner:
             except KeyboardInterrupt:
                 yield AgentEvent(
                     type=AgentEventType.ERROR,
-                    data="Agent interrupted by user",
+                    data={"error": "Agent interrupted by user", "run_id": self.run_id},
                 )
-                yield AgentEvent(type=AgentEventType.STREAM_END)
+                yield AgentEvent(
+                    type=AgentEventType.STREAM_END,
+                    data={
+                        "run_id": self.run_id,
+                        "terminal_kind": "interrupted",
+                        "terminal_reason": "keyboard_interrupt",
+                        "terminal_detail": "",
+                    },
+                )
                 return
             except Exception as e:
-                yield AgentEvent(type=AgentEventType.ERROR, data=f"Agent error: {e}")
-                yield AgentEvent(type=AgentEventType.STREAM_END)
+                yield AgentEvent(
+                    type=AgentEventType.ERROR,
+                    data={"error": f"Agent error: {e}", "run_id": self.run_id},
+                )
+                yield AgentEvent(
+                    type=AgentEventType.STREAM_END,
+                    data={
+                        "run_id": self.run_id,
+                        "terminal_kind": "failed",
+                        "terminal_reason": type(e).__name__,
+                        "terminal_detail": str(e),
+                    },
+                )
                 return
 
             if final_answer and self.on_final_answer is not None:
@@ -206,7 +248,10 @@ class AgentRunner:
                     type=AgentEventType.STREAM_DELTA,
                     data={"content": str(final_answer), "run_id": self.run_id},
                 )
-            yield AgentEvent(type=AgentEventType.STREAM_END, data={"run_id": self.run_id})
+            yield AgentEvent(
+                type=AgentEventType.STREAM_END,
+                data={"run_id": self.run_id, **_termination_payload(loop)},
+            )
 
         finally:
             if on_cleanup is not None:

@@ -1132,8 +1132,8 @@ def _resolve_color_ramp(value: Any, classes: int) -> list[str]:
          "description": "Classification method: 'quantile', 'equal-interval', 'jenks', or 'manual'."},
         {"name": "classes", "type": "number", "required": False, "default": 5,
          "description": "Number of classes (2-12)."},
-        {"name": "palette", "type": "string", "required": False, "default": "viridis",
-         "description": f"Color ramp name or JSON/list of colors. Options: {', '.join(_COLOR_RAMPS)}."},
+        {"name": "palette", "type": "any", "required": False, "default": "viridis",
+         "description": f"Color ramp name, comma-separated colors, or array of hex colors. Options: {', '.join(_COLOR_RAMPS)}."},
         {"name": "breaks", "type": "array", "required": False,
          "description": "Manual numeric breaks. If provided, method becomes 'manual' unless explicitly set."},
     ],
@@ -2078,6 +2078,7 @@ def set_raster_style(
     display_name="Layout: Get State",
     description="Read the current print/layout composer state: page, elements, selected element, and map snapshot availability.",
     category="visualization",
+    group="layout",
     params=[],
     returns="dict with page, elements, selected_element_id, map_scale_denominator, has_map_snapshot",
     examples=["Inspect the current layout canvas"],
@@ -2093,6 +2094,7 @@ def layout_get_state(ctx: ToolContext) -> dict:
     display_name="Layout: Set Page",
     description="Set the layout page preset or custom dimensions. Presets include a4-landscape, a4-portrait, letter-landscape, screen-16-9, screen-4-3, square-1-1.",
     category="visualization",
+    group="layout",
     params=[
         {"name": "preset", "type": "string", "required": False, "description": "Page preset id."},
         {"name": "width_mm", "type": "number", "required": False, "description": "Custom page width in millimeters."},
@@ -2128,6 +2130,7 @@ def layout_set_page(
     display_name="Layout: Add Element",
     description="Add one layout element: map-frame, scale-bar, north-arrow, legend, or text. Coordinates are percentages of the page.",
     category="visualization",
+    group="layout",
     params=[
         {"name": "element_type", "type": "string", "required": True, "description": "map-frame | scale-bar | north-arrow | legend | text"},
         {"name": "element_id", "type": "string", "required": False, "description": "Optional stable element id."},
@@ -2168,6 +2171,7 @@ def layout_add_element(
     display_name="Layout: Update Element Frame",
     description="Move or resize one layout element. Values are percentages of the page and are clamped to stay inside the page.",
     category="visualization",
+    group="layout",
     params=[
         {"name": "element_id", "type": "string", "required": True, "description": "Layout element id."},
         {"name": "x", "type": "number", "required": False, "description": "Left position, percent."},
@@ -2197,6 +2201,7 @@ def layout_update_frame(
     display_name="Layout: Update Element Style",
     description="Update visual style for a layout element: variant, colors, opacity, border, font size, padding.",
     category="visualization",
+    group="layout",
     params=[
         {"name": "element_id", "type": "string", "required": True, "description": "Layout element id."},
         {"name": "variant", "type": "string", "required": False, "description": "Style variant, e.g. boxed, alternating, compass."},
@@ -2259,6 +2264,7 @@ def layout_update_style(
     display_name="Layout: Update Element Properties",
     description="Update semantic properties such as text content, scale bar label, or segment count.",
     category="visualization",
+    group="layout",
     params=[
         {"name": "element_id", "type": "string", "required": True, "description": "Layout element id."},
         {"name": "text", "type": "string", "required": False, "description": "Text element content."},
@@ -2311,6 +2317,7 @@ def layout_update_props(
     display_name="Layout: Update Map Frame View",
     description="Adjust the internal image position and scale of a map-frame without moving the outer frame.",
     category="visualization",
+    group="layout",
     params=[
         {"name": "element_id", "type": "string", "required": True, "description": "Map frame element id."},
         {"name": "x", "type": "number", "required": False, "description": "Internal horizontal pan percent -100 to 100."},
@@ -2338,6 +2345,7 @@ def layout_update_map_view(
     display_name="Layout: Capture Current Map",
     description="Capture the current map canvas into the layout map frame snapshot.",
     category="visualization",
+    group="layout",
     params=[],
     returns="dict with success and has_snapshot",
     examples=["Refresh the layout map frame from the current map"],
@@ -2353,6 +2361,7 @@ def layout_capture_map(ctx: ToolContext) -> dict:
     display_name="Layout: Remove Element",
     description="Remove a layout element by id.",
     category="visualization",
+    group="layout",
     params=[
         {"name": "element_id", "type": "string", "required": True, "description": "Layout element id."},
     ],
@@ -2370,6 +2379,7 @@ def layout_remove_element(ctx: ToolContext, element_id: str) -> dict:
     display_name="Layout: Export PNG",
     description="Export the current layout composer canvas as a PNG. Provide save_path to write a file.",
     category="visualization",
+    group="layout",
     params=[
         {"name": "save_path", "type": "string", "required": False, "description": "Absolute or workspace-relative output path."},
         {"name": "pixel_ratio", "type": "number", "required": False, "default": 2, "description": "Export pixel ratio 1-4."},

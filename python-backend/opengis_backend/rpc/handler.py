@@ -773,6 +773,16 @@ class RpcHandler:
 
         # Optional user instructions — global personalization prompt
         user_instructions = params.get("user_instructions") or None
+        raw_feature_flags = params.get("feature_flags")
+        feature_flags = (
+            {
+                str(key): bool(value)
+                for key, value in raw_feature_flags.items()
+                if str(key) in {"enable_3d"}
+            }
+            if isinstance(raw_feature_flags, dict)
+            else {}
+        )
 
         # Optional workspace root — used by ScriptArchive to decide where
         # to persist step scripts. None means "no workspace open → fall
@@ -831,6 +841,7 @@ class RpcHandler:
                 "workspace_path": workspace_path,
                 "has_workflow": workflow_doc is not None,
                 "tool_groups": tool_groups,
+                "feature_flags": feature_flags,
                 "generate_title": bool(params.get("generate_title", False)),
                 **workflow_meta,
             },
@@ -850,6 +861,7 @@ class RpcHandler:
                 metadata={
                     "has_workflow": workflow_doc is not None,
                     "tool_groups": tool_groups,
+                    "feature_flags": feature_flags,
                     "workspace_path": workspace_path,
                     "generate_title": bool(params.get("generate_title", False)),
                     **workflow_meta,
@@ -924,6 +936,7 @@ class RpcHandler:
         ctx.meta["_approval_callback"] = self._approval_callback
         ctx.meta["_inbox_id"] = queue_item.inbox.id
         ctx.meta["_queue_id"] = queue_item.id
+        ctx.meta["feature_flags"] = dict(queue_item.metadata.get("feature_flags") or {})
         if agent_profile is not None:
             ctx.meta["agent_profile"] = agent_profile
 

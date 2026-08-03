@@ -13,6 +13,10 @@ export interface ModelPreset {
   baseURL: string
 }
 
+// Release gate for the reserved 3D capability. Keep this false until the
+// renderer, UI, and agent tool contract are intentionally released together.
+export const THREE_D_MODE_AVAILABLE = false
+
 interface SettingsState {
   model: {
     protocol: ProtocolType
@@ -35,6 +39,7 @@ interface SettingsState {
     basemapId: string
     customTileUrl: string
     showMapLabels: boolean
+    enable3DMode: boolean
   }
   agent: {
     maxConsecutiveMistakes: number
@@ -78,6 +83,7 @@ export const useSettingsStore = create<SettingsState>((set, get) => ({
     basemapId: 'osm-streets',
     customTileUrl: '',
     showMapLabels: false,
+    enable3DMode: false,
   },
   agent: {
     maxConsecutiveMistakes: 3,
@@ -102,16 +108,19 @@ export const useSettingsStore = create<SettingsState>((set, get) => ({
 
   updateAppearance: (updates) =>
     set((state) => {
-      const newAppearance = { ...state.appearance, ...updates }
+      const safeUpdates = THREE_D_MODE_AVAILABLE
+        ? updates
+        : { ...updates, enable3DMode: false }
+      const newAppearance = { ...state.appearance, ...safeUpdates }
       // Auto-switch basemap when theme changes (but not vice versa)
-      if (updates.theme !== undefined && updates.theme !== state.appearance.theme) {
-        if (updates.theme === 'dark') {
+      if (safeUpdates.theme !== undefined && safeUpdates.theme !== state.appearance.theme) {
+        if (safeUpdates.theme === 'dark') {
           newAppearance.basemapId = 'carto-dark-nolabels'
-        } else if (updates.theme === 'light') {
+        } else if (safeUpdates.theme === 'light') {
           newAppearance.basemapId = 'carto-light-nolabels'
         }
         // 'system' → detect OS theme
-        if (updates.theme === 'system') {
+        if (safeUpdates.theme === 'system') {
           const isDark = window.matchMedia?.('(prefers-color-scheme: dark)').matches
           newAppearance.basemapId = isDark ? 'carto-dark-nolabels' : 'carto-light-nolabels'
         }
@@ -133,7 +142,11 @@ export const useSettingsStore = create<SettingsState>((set, get) => ({
         set({
           model: { ...get().model, ...settings.model },
           python: { ...get().python, ...settings.python },
-          appearance: { ...get().appearance, ...settings.appearance },
+          appearance: {
+            ...get().appearance,
+            ...settings.appearance,
+            enable3DMode: THREE_D_MODE_AVAILABLE && Boolean(settings.appearance?.enable3DMode),
+          },
           agent: { ...get().agent, ...agentSettings },
         })
       } catch (error) {

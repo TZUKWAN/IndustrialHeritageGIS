@@ -70,6 +70,15 @@ def compose_system_prompt(
     manifest = format_capability_manifest([rs.schema.name for rs in registered_tools])
     if manifest:
         prompt += "\n" + manifest + "\n"
+    feature_flags = (getattr(ctx, "meta", None) or {}).get("feature_flags")
+    allow_3d = isinstance(feature_flags, dict) and bool(feature_flags.get("enable_3d"))
+    if not allow_3d:
+        prompt += (
+            "\n## Disabled Capability\n"
+            "3D viewpoint, camera pitch/bearing, and extrusion tools are disabled "
+            "for this run. Do not attempt to call or emulate them. Use the normal "
+            "2D map tools unless the 3D feature is explicitly enabled in Settings.\n"
+        )
     if not workspace:
         return prompt
 
@@ -128,7 +137,9 @@ def build_loop_runtime_bundle(
     effective_groups = tool_groups if tool_groups is not None else profile.tool_groups
     if effective_groups is not None:
         registered = [s for s in registered if s.schema.group in effective_groups]
-    registered = filter_agent_tools(registered)
+    feature_flags = (getattr(ctx, "meta", None) or {}).get("feature_flags")
+    allow_3d = isinstance(feature_flags, dict) and bool(feature_flags.get("enable_3d"))
+    registered = filter_agent_tools(registered, allow_3d=allow_3d)
 
     tool_callables = build_tool_callables(registered, ctx_provider=lambda: ctx)
     tool_schemas = build_tool_schemas(registered)

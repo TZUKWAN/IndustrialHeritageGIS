@@ -1,3 +1,4 @@
+import asyncio
 import unittest
 
 from opengis_backend.agent.context.context_manager import ContextManager
@@ -6,7 +7,10 @@ from opengis_backend.agent.governance.profile import AgentMode, AgentProfile, Pe
 from opengis_backend.agent.llm import LLMResponse, _extract_xmlish_tool_calls
 from opengis_backend.agent.loop.agent_loop import AgentLoop
 from opengis_backend.agent.loop.loop_kernel import _ensure_provider_tool_protocol
+from opengis_backend.agent.loop.runner_state import RunnerTerminationKind
 from opengis_backend.agent.loop.turn_runner import tool_intent_progress
+from opengis_backend.agent.telemetry.events import AgentEventType
+from opengis_backend.agent.telemetry.runner import AgentRunner
 
 
 class FakeToolRuntime:
@@ -75,7 +79,7 @@ print("上海饮品店")
         self.assertNotIn("<tool_call>", cleaned or "")
         self.assertIn("上海饮品店", tool_calls[0]["function"]["arguments"])  # type: ignore[index]
 
-    def test_tool_call_turn_text_is_not_streamed_as_visible_answer(self) -> None:
+    def test_simple_map_tool_success_auto_finalizes_without_second_llm_call(self) -> None:
         responses = iter([
             LLMResponse(
                 content="请告诉我您想缩放到哪个图层。",
@@ -90,14 +94,19 @@ print("上海饮品店")
                     }
                 ],
             ),
-            LLMResponse(content='已缩放到"道路"图层。', tool_calls=None),
         ])
+        llm_calls = 0
         visible_text: list[str] = []
         progress_events: list[tuple[str, str]] = []
         runtime = FakeToolRuntime()
 
+        def llm_call(_messages, **_kwargs):
+            nonlocal llm_calls
+            llm_calls += 1
+            return next(responses)
+
         loop = AgentLoop(
-            llm_call=lambda _messages, **_kwargs: next(responses),
+            llm_call=llm_call,
             executor_call=lambda _code: None,
             system_prompt="system",
             context=ContextManager(),
@@ -118,10 +127,14 @@ print("上海饮品店")
 
         result = loop.run("缩放到路网")
 
-        self.assertEqual(result, '已缩放到"道路"图层。')
+        self.assertEqual(result, "已缩放到目标图层。")
+        self.assertEqual(llm_calls, 1)
         self.assertEqual(runtime.calls, [("zoom_to_layer", {"layer_id": "roads"})])
-        self.assertEqual(visible_text, ['已缩放到"道路"图层。'])
+        self.assertEqual(visible_text, ["已缩放到目标图层。"])
         self.assertIn(("tool_intent", "缩放到目标图层 · roads"), progress_events)
+        self.assertEqual(loop.context.messages[-1].get("_meta", {}).get("kind"), "tool_result_auto_final")
+        self.assertEqual(loop.terminal_state.kind, RunnerTerminationKind.COMPLETED)
+        self.assertEqual(loop.terminal_state.detail, "tool_result_auto_final")
 
     def test_plain_text_reply_finishes_without_system_nudge(self) -> None:
         visible_text: list[str] = []
@@ -149,12 +162,37 @@ print("上海饮品店")
 
         self.assertEqual(result, "红色、绿色、蓝色是三类颜色。")
         self.assertEqual(visible_text, ["红色、绿色、蓝色是三类颜色。"])
+        self.assertEqual(loop.terminal_state.kind, RunnerTerminationKind.COMPLETED)
+        self.assertEqual(loop.terminal_state.reason, "text_response")
         system_nudges = [
             message
             for message in loop.context.messages
             if message.get("role") == "user" and "[System] You are mid-task" in str(message.get("content", ""))
         ]
         self.assertEqual(system_nudges, [])
+
+    def test_runner_stream_end_includes_loop_terminal_state(self) -> None:
+        async def collect_events():
+            loop = AgentLoop(
+                llm_call=lambda _messages, **_kwargs: LLMResponse(content="已完成。"),
+                executor_call=lambda _code: None,
+                system_prompt="system",
+                context=ContextManager(),
+            )
+            runner = AgentRunner(run_id="run-terminal", emit_final_answer=False)
+            queue: asyncio.Queue = asyncio.Queue()
+            events = []
+            async for event in runner.drive(loop, "你好", queue=queue):
+                events.append(event)
+            return events
+
+        events = asyncio.run(collect_events())
+        end_events = [event for event in events if event.type == AgentEventType.STREAM_END]
+
+        self.assertEqual(len(end_events), 1)
+        self.assertEqual(end_events[0].data["run_id"], "run-terminal")
+        self.assertEqual(end_events[0].data["terminal_kind"], "completed")
+        self.assertEqual(end_events[0].data["terminal_reason"], "text_response")
 
     def test_successful_probe_code_does_not_force_final_before_delivery(self) -> None:
         calls: list[list[str]] = []
@@ -413,8 +451,9 @@ print("上海饮品店")
 
         self.assertIn("颜色", result)
         self.assertIn("execute_code", calls[0])
-        self.assertIn("create_workflow", calls[0])
-        self.assertIn("start_subagent", calls[0])
+        self.assertNotIn("create_workflow", calls[0])
+        self.assertNotIn("start_subagent", calls[0])
+        self.assertEqual(len(calls), 1)
 
     def test_operation_repair_blocks_bypass_after_failed_run_operation(self) -> None:
         responses = iter([

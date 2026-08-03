@@ -98,3 +98,13 @@ export function computeBBox(fc: GeoJSONFeatureCollection): BBox {
 export function bboxToTuple(bbox: BBox): [number, number, number, number] {
   return [bbox.minX, bbox.minY, bbox.maxX, bbox.maxY];
 }
+
+export function bboxToTupleOrNull(bbox: unknown): [number, number, number, number] | null {
+  if (!bbox || typeof bbox !== 'object') return null;
+  const value = bbox as Partial<BBox>;
+  const tuple = [value.minX, value.minY, value.maxX, value.maxY];
+  if (!tuple.every((item) => typeof item === 'number' && Number.isFinite(item))) {
+    return null;
+  }
+  return tuple as [number, number, number, number];
+}

@@ -340,11 +340,14 @@ class RunArchive:
         status: str,
         final_answer: Optional[str] = None,
         error: Optional[str] = None,
+        termination: Optional[dict[str, Any]] = None,
     ) -> None:
         """Finalise the archive: flip status, stamp finished_at, dump final answer."""
         self._finalize_open_records(status=status, error=error)
         self._meta["status"] = status
         self._meta["finished_at"] = datetime.now().isoformat(timespec="seconds")
+        if termination:
+            self._meta["termination"] = dict(termination)
         if error is not None:
             self._meta["error"] = error
         if final_answer:

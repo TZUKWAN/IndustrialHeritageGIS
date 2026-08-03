@@ -1,4 +1,4 @@
-import { bboxToTuple, computeBBox } from '../_map_util';
+import { bboxToTupleOrNull, computeBBox } from '../_map_util';
 import { useMapStore } from '@/stores/mapStore';
 import { hasVectorGeoJSON, makeHandledVectorData, shouldHandleLayer, type GeoJSONFeature, type GeoJSONFeatureCollection, type GeometryType, type LayerStyle, type MapLayerDefinition, type ParsedVectorData } from '@/services/geo';
 import { parseCSV, parseGeoJSON } from '@/services/geo/parsers';
@@ -229,47 +229,49 @@ export function basenameWithoutExt(filePath: string): string {
  * 只留 bbox/feature_count/fields 这些 LLM 决策需要的元信息。
  */
 export function summarizeLayer(layer: MapLayerDefinition) {
-  const isVector = layer.data.kind === 'vector';
-  const vector = isVector ? (layer.data as ParsedVectorData) : null;
+  const data = (layer as any).data;
+  const style = (layer as any).style ?? {};
+  const meta = (layer as any).meta ?? {};
+  const isVector = data?.kind === 'vector';
+  const vector = isVector ? (data as ParsedVectorData) : null;
   return {
     layer_id: layer.id,
     name: layer.name,
     source_type: layer.sourceType,
     visible: layer.visible,
-    bbox: bboxToTuple(layer.data.bbox),
+    bbox: bboxToTupleOrNull(data?.bbox),
     feature_count: vector ? vector.featureCount : 0,
     geometry_type: vector ? vector.geometryType : null,
-    crs: layer.data.crs,
+    crs: typeof data?.crs === 'string' ? data.crs : null,
     fields: vector ? vector.fields.map((f) => ({ name: f.name, type: f.type })) : [],
     style: {
-      render_type: layer.style.renderType,
-      color: layer.style.color,
-      opacity: layer.style.opacity,
-      stroke_color: layer.style.strokeColor,
-      stroke_width: layer.style.strokeWidth,
-      stroke_opacity: layer.style.strokeOpacity,
-      line_dasharray: layer.style.lineDasharray ?? null,
-      fill_opacity: layer.style.fillOpacity,
-      radius: layer.style.radius,
-      size_variable: layer.style.sizeVariable ?? null,
-      opacity_variable: layer.style.opacityVariable ?? null,
-      sort_variable: layer.style.sortVariable ?? null,
-      label: layer.style.label ?? null,
-      icon: layer.style.icon ?? null,
-      filter: layer.style.filter ?? null,
-      legend: layer.style.legend ?? null,
-      categorized: layer.style.categorized ?? null,
-      graduated: layer.style.graduated ?? null,
-      heatmap: layer.style.heatmap ?? null,
-      cluster: layer.style.cluster ?? null,
-      extrusion: layer.style.extrusion ?? null,
+      render_type: style.renderType ?? null,
+      color: style.color ?? null,
+      opacity: style.opacity ?? null,
+      stroke_color: style.strokeColor ?? null,
+      stroke_width: style.strokeWidth ?? null,
+      stroke_opacity: style.strokeOpacity ?? null,
+      line_dasharray: style.lineDasharray ?? null,
+      fill_opacity: style.fillOpacity ?? null,
+      radius: style.radius ?? null,
+      size_variable: style.sizeVariable ?? null,
+      opacity_variable: style.opacityVariable ?? null,
+      sort_variable: style.sortVariable ?? null,
+      label: style.label ?? null,
+      icon: style.icon ?? null,
+      filter: style.filter ?? null,
+      legend: style.legend ?? null,
+      categorized: style.categorized ?? null,
+      graduated: style.graduated ?? null,
+      cluster: style.cluster ?? null,
+      extrusion: style.extrusion ?? null,
     },
     meta: {
-      source_type: layer.meta?.sourceType ?? layer.sourceType,
-      extension: layer.meta?.extension ?? null,
-      file_name: layer.meta?.fileName ?? null,
-      file_size: layer.meta?.fileSize ?? null,
-      dynamic: Boolean(layer.meta?.dynamic),
+      source_type: meta.sourceType ?? layer.sourceType,
+      extension: meta.extension ?? null,
+      file_name: meta.fileName ?? null,
+      file_size: meta.fileSize ?? null,
+      dynamic: Boolean(meta.dynamic),
     },
     sampled: vector ? Boolean(vector.sampled) : false,
     sample_feature_count: vector?.sampleFeatureCount ?? null,

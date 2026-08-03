@@ -185,17 +185,26 @@ interface SettingCheckboxProps {
   checked: boolean
   onChange: (checked: boolean) => void
   label?: string
+  disabled?: boolean
+  title?: string
 }
 
-export function SettingCheckbox({ id, checked, onChange, label }: SettingCheckboxProps) {
+export function SettingCheckbox({ id, checked, onChange, label, disabled = false, title }: SettingCheckboxProps) {
   return (
-    <label htmlFor={id} className="inline-flex items-center gap-2 cursor-pointer select-none">
+    <label
+      htmlFor={id}
+      title={title}
+      className={`inline-flex items-center gap-2 select-none ${
+        disabled ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'
+      }`}
+    >
       <div className="relative">
         <input
           id={id}
           type="checkbox"
           checked={checked}
           onChange={(e) => onChange(e.target.checked)}
+          disabled={disabled}
           className="sr-only peer"
         />
         <div
@@ -205,6 +214,7 @@ export function SettingCheckbox({ id, checked, onChange, label }: SettingCheckbo
             bg-bg-tertiary
             peer-checked:bg-accent-primary peer-checked:border-accent-primary
             peer-focus-visible:ring-2 peer-focus-visible:ring-accent-primary/30
+            peer-disabled:cursor-not-allowed peer-disabled:opacity-60
             transition-all duration-150
             flex items-center justify-center
           "

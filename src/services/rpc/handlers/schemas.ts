@@ -145,12 +145,6 @@ const SortVisualVariableSchema = z.object({
   order: z.enum(['ascending', 'descending']).optional(),
 });
 
-const HeatmapSchema = z.object({
-  weightField: z.string().optional(),
-  radius: z.number().positive().optional(),
-  intensity: z.number().min(0).optional(),
-});
-
 const ClusterSchema = z.object({
   radius: z.number().positive().optional(),
   maxZoom: z.number().min(0).max(22).optional(),
@@ -190,7 +184,6 @@ export const SetLayerRendererSchema = z.object({
     'fill',
     'line',
     'circle',
-    'heatmap',
     'graduated',
     'categorized',
     'cluster',
@@ -202,7 +195,6 @@ export const SetLayerRendererSchema = z.object({
   sizeVariable: NumericVisualVariableSchema.nullable().optional(),
   opacityVariable: NumericVisualVariableSchema.nullable().optional(),
   sortVariable: SortVisualVariableSchema.nullable().optional(),
-  heatmap: HeatmapSchema.optional(),
   cluster: ClusterSchema.optional(),
   extrusion: ExtrusionSchema.optional(),
 });

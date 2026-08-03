@@ -180,7 +180,6 @@ export type LayerRenderType =
   | 'line'
   | 'circle'
   | 'symbol'
-  | 'heatmap'
   | 'raster'
   /**
    * 分级专题（choropleth）：按某个数值字段分档（分位数/等距/自定义断点），
@@ -290,17 +289,6 @@ export interface LegendSpec {
   order?: string[]
 }
 
-export interface HeatmapSettings {
-  /**
-   * 权重字段。未设置时所有点权重 1。字段必须是数值。
-   */
-  weightField?: string
-  /** 影响半径（像素），默认 30。 */
-  radius?: number
-  /** 整体强度 0-1，默认 1。 */
-  intensity?: number
-}
-
 export interface ClusterSettings {
   /** 聚合半径（像素），默认 50。 */
   radius?: number
@@ -388,8 +376,6 @@ export interface LayerStyle {
   graduated?: GraduatedClassification
   /** `renderType='categorized'` 时必填 */
   categorized?: CategorizedClassification
-  /** `renderType='heatmap'` 时可选，给默认 */
-  heatmap?: HeatmapSettings
   /** `renderType='cluster'` 时可选 */
   cluster?: ClusterSettings
   /** `renderType='extrusion'` 时必填 heightField */

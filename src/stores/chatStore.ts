@@ -775,8 +775,9 @@ export const useChatStore = create<ChatStore>((set, get) => {
           return
         }
 
-        const { useSettingsStore: settingsStore } = await import('./settingsStore')
-        const userInstructions = settingsStore.getState().agent.customInstructions || undefined
+        const { useSettingsStore: settingsStore, THREE_D_MODE_AVAILABLE } = await import('./settingsStore')
+        const settings = settingsStore.getState()
+        const userInstructions = settings.agent.customInstructions || undefined
 
         await pythonClient.send('chat.user_message', {
           message: text,
@@ -793,6 +794,9 @@ export const useChatStore = create<ChatStore>((set, get) => {
             }
           }) || undefined,
           user_instructions: userInstructions,
+          feature_flags: {
+            enable_3d: THREE_D_MODE_AVAILABLE && Boolean(settings.appearance.enable3DMode),
+          },
         })
       } catch (error: any) {
         console.error('[chatStore] chat.user_message 失败:', error)

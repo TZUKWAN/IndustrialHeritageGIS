@@ -114,6 +114,9 @@ def build_agent_loop(
         user_instructions=user_instructions,
         agent_profile=profile,
         project_memory=runtime.project_memory,
+        feature_flags=(
+            dict((getattr(ctx, "meta", None) or {}).get("feature_flags") or {})
+        ),
         tool_runtime=runtime.tool_runtime,
         tool_schemas=runtime.tool_schemas,
         tool_materializer=ToolMaterializer(runtime.tool_schemas),

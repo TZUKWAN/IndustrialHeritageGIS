@@ -57,28 +57,18 @@ Just reply with text.
    show/hide the current basemap only when the user explicitly asks for
    basemap visibility changes.
 
-6a. **Treat 3D viewpoint and 3D extrusion as separate capabilities.**
-   For camera/viewpoint changes such as 3D view, oblique view, pitch, bearing,
-   or rotation, call `enter_3d_view`, `exit_3d_view`, or `set_map_camera`.
-   These tools change only the camera; they do not extrude layer data. Do not
-   write Python just to change the map camera.
+6a. **Treat 3D viewpoint and 3D extrusion as separate capabilities when enabled.**
+   The current run may disable 3D tools. Only when the 3D tools are visible in
+   the active function-tool set, use `enter_3d_view`, `exit_3d_view`, or
+   `set_map_camera` for 3D view, oblique view, pitch, bearing, or rotation.
+   These tools change only the camera; they do not extrude layer data.
 
-6b. **Use extrusion tools for layer height, only when extrusion is requested.**
-   When the user asks for 3D buildings, extrusion, 拉伸, 拔起, or height-based
-   polygons, use `set_extrusion_style(layer_id, height_field, ...)` after the
-   polygon layer is loaded and has a numeric height field. This changes the
-   layer renderer; it does not need to change the camera unless the user also
-   asks for a 3D/oblique view or explicitly wants to see the extrusion from an
-   angle. If the user asks for both extrusion and 3D view, combine
-   `set_extrusion_style(..., enter_3d=true)` or call `enter_3d_view` after
-   extrusion. If you create or modify that height field on disk after
-   `add_layer`, remove/re-add the layer or add it only after the file is
-   updated, then call `set_extrusion_style`. This reload rule only applies to
-   layers whose backing data file was changed after loading; normal data
-   loading does not need remove/re-add. Do NOT use `set_layer_visual_variables`
-   for extrusion. Do NOT import a Python package named `opengis` or call
-   `help()` inside `execute_code` to discover tool APIs; use the registered
-   function tools and their schemas.
+6b. **Use extrusion tools for layer height only when the 3D capability is enabled.**
+   When the 3D tools are visible and the user asks for 3D buildings, extrusion,
+   拉伸, 拔起, or height-based polygons, use
+   `set_extrusion_style(layer_id, height_field, ...)`. This changes the layer
+   renderer; it does not need to change the camera unless the user also asks
+   for a 3D/oblique view. Do NOT emulate disabled 3D tools with Python.
 
 6c. **Load raster files with `add_raster`, not Python SDK guesses.**
    For GeoTIFF / TIFF raster display, call `add_raster(path=...)` directly,
@@ -189,6 +179,9 @@ Just reply with text.
 
 ## Executable Tools
 
+The list below is a compact capability-pack summary. Exact function names and
+parameters come only from the provider tool schemas for the current turn.
+
 {tool_signatures}
 
 ## User Skills
@@ -240,6 +233,19 @@ User: "Do a buffer analysis with 500m radius"
 
 _CATEGORY_LABELS = {
     "system": "File & System Operations",
+    "skill": "Skill Loading & Preferences",
+    "file": "Files",
+    "code": "Code Execution & Reusable Scripts",
+    "map": "Map Layers & View",
+    "style": "Layer Styling",
+    "raster": "Raster Layers",
+    "map_3d": "3D Map View",
+    "operation": "Reusable Operations",
+    "web": "Web Access",
+    "datasource": "Datasource Connectors",
+    "osm": "OpenStreetMap",
+    "qgis": "QGIS Bridge",
+    "debug": "Agent Debugging",
     "visualization": "Map Visualization & Styling",
     "data": "Data Conversion & Inspection",
     "report": "Report Generation",
@@ -320,35 +326,52 @@ def build_tool_catalog_summary(registered_tools) -> str:
     each turn. Keeping the static prompt compact prevents long sessions from
     paying the full tool signature cost repeatedly.
     """
-    groups: dict[str, list[str]] = {}
+    from opengis_backend.agent.execution.tool_packs import tool_pack_for_name
+
+    groups: dict[str, int] = {}
     for rs in registered_tools:
         if rs.schema.name == "save_plot":
             continue
-        cat = rs.schema.category or "other"
-        groups.setdefault(cat, []).append(rs.schema.name)
+        pack = tool_pack_for_name(rs.schema.name, rs.schema.group)
+        groups[pack] = groups.get(pack, 0) + 1
 
     lines = [
-        "Tool schemas are dynamically materialized per turn. Use the provider",
-        "function list as the source of truth for exact parameters. The catalog",
-        "below is only a capability map:",
+        "Provider function schemas are the only source of truth for exact tool",
+        "names and parameters. This stable section lists capability packs only;",
+        "do not call a function unless it appears in the current provider tool list.",
         "",
     ]
-    order = ["system", "data", "visualization", "worker", "report", "writing", "orchestration"]
+    order = [
+        "skill",
+        "file",
+        "code",
+        "system",
+        "map",
+        "style",
+        "raster",
+        "map_3d",
+        "operation",
+        "data",
+        "web",
+        "worker",
+        "workflow",
+        "subagent",
+        "datasource",
+        "osm",
+        "qgis",
+        "debug",
+    ]
     seen: set[str] = set()
     for cat in order:
-        names = groups.get(cat, [])
-        if not names:
+        count = groups.get(cat, 0)
+        if not count:
             continue
         seen.add(cat)
         label = _CATEGORY_LABELS.get(cat, cat.title())
-        lines.append(f"### {label}")
-        lines.append(", ".join(sorted(names)))
-        lines.append("")
-    for cat, names in sorted(groups.items()):
+        lines.append(f"- {cat}: {label} ({count} tools)")
+    for cat, count in sorted(groups.items()):
         if cat in seen:
             continue
         label = _CATEGORY_LABELS.get(cat, cat.title())
-        lines.append(f"### {label}")
-        lines.append(", ".join(sorted(names)))
-        lines.append("")
+        lines.append(f"- {cat}: {label} ({count} tools)")
     return "\n".join(lines).strip()

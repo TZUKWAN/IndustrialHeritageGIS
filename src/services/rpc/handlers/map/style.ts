@@ -31,7 +31,6 @@ export const styleHandlers: Record<string, RpcHandler> = {
       renderType: parsed.renderer,
       graduated: undefined,
       categorized: undefined,
-      heatmap: undefined,
       cluster: undefined,
       extrusion: undefined,
     };
@@ -54,9 +53,6 @@ export const styleHandlers: Record<string, RpcHandler> = {
           );
         }
         nextStyle.categorized = normalizeCategorizedConfig(layer, parsed.categorized);
-        break;
-      case 'heatmap':
-        nextStyle.heatmap = parsed.heatmap ?? {};
         break;
       case 'cluster':
         nextStyle.cluster = parsed.cluster ?? {};
