@@ -44,6 +44,7 @@ export const zh = {
 
   // ─── Sidebar ───────────────────────────────────────────────────
   sidebar: {
+    heritage: '工业遗产',
     files: '文件',
     layers: '图层',
     canvas: '画布',
@@ -754,7 +755,7 @@ export const zh = {
     production: '投产',
     closure: '停产',
     currentUse: '当前利用',
-    industry: '行业',
+
     applicant: '申报单位',
     datePrecision: '日期精度',
     disputed: '资料存在不同记载',

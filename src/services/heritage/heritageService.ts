@@ -89,6 +89,7 @@ export const DEFAULT_FILTERS: HeritageFilters = {
   enrichedOnly: null,
   hideLowConfidenceGeo: false,
   temporal: null,
+  text: '',
 }
 
 export function filtersAreDefault(f: HeritageFilters): boolean {

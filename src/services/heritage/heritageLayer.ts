@@ -4,11 +4,9 @@
  * 把内置遗产数据包装成 OpenGIS 原生 MapLayerDefinition(分类/分级/栅格渲染器),
  * 使遗产点、省级统计、核密度图层走与其他图层完全一致的同步/过滤/identify 管道。
  */
-import kdePng from '@/data/heritage/analysis/kde_raster.png?inline'
 import kdeMetaRaw from '@/data/heritage/analysis/kde_meta.json'
-import provinceBoundaries from '@/data/heritage/analysis/province_boundaries.geojson'
-import type { GeoJSONFeatureCollection } from '@/services/geo'
 import type {
+  GeoJSONFeatureCollection,
   MapLayerDefinition,
   LayerFilterSpec,
   LayerAttributeFilter,
@@ -147,8 +145,10 @@ export function buildHeritageLayerDef(
   }
 }
 
-export function buildProvinceLayerDef(): MapLayerDefinition {
-  const gj = provinceBoundaries as unknown as GeoJSONFeatureCollection
+export function buildProvinceLayerDef(
+  provinceGeojson: GeoJSONFeatureCollection,
+): MapLayerDefinition {
+  const gj = provinceGeojson
   const data: ParsedVectorData = {
     kind: 'vector',
     geojson: gj,
@@ -194,13 +194,12 @@ export function buildProvinceLayerDef(): MapLayerDefinition {
   }
 }
 
-export function buildKdeLayerDef(): MapLayerDefinition {
+export function buildKdeLayerDef(imageUrl: string): MapLayerDefinition {
   const corners = kdeMeta.extent_wgs84_corners
   const data: ParsedRasterData = {
     kind: 'raster',
     source: 'image',
-    imageUrl: kdePng as unknown as string,
-    bbox: {
+    imageUrl,    bbox: {
       minX: Math.min(...corners.map((c) => c[0])),
       minY: Math.min(...corners.map((c) => c[1])),
       maxX: Math.max(...corners.map((c) => c[0])),

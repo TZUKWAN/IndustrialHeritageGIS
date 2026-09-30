@@ -19,10 +19,7 @@ import { buildHeritageLayerDef, compileHeritageFilter } from '@/services/heritag
 let bootstrapped = false
 let chinaViewApplied = false
 
-const CHINA_BBOX: [[number, number], [number, number]] = [
-  [73.5, 18.0],
-  [135.0, 53.6],
-]
+const CHINA_BBOX = [73.5, 18.0, 135.0, 53.6] as [number, number, number, number]
 
 /**
  * 遗产图层生命周期与交互。必须在 MapView(持有 MapEngine 的组件)内调用一次。
@@ -49,7 +46,7 @@ export function useHeritageBootstrap(enabled: boolean): void {
         window.clearInterval(t)
         if (!chinaViewApplied) {
           try {
-            mapEngine.fitBounds(CHINA_BBOX, { padding: 40, maxZoom: 5, duration: 0 })
+            mapEngine.fitBounds(CHINA_BBOX, { padding: 40 })
           } catch {
             // fitBounds 失败不阻塞
           }
@@ -132,16 +129,13 @@ export function toggleAnalysisLayer(id: string, want: boolean): void {
 }
 
 function requireProvinceLayer() {
-  // 延迟 require 避免 boot 顺序耦合
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
-  const mod = require('@/services/heritage/heritageLayer') as typeof import('@/services/heritage/heritageLayer')
-  return mod.buildProvinceLayerDef()
+  // 延迟动态导入资产模块, 避免测试/无资产环境触碰资源链
+  const { makeProvinceLayerDef } = require('@/features/heritage/heritageAssets') as typeof import('@/features/heritage/heritageAssets')
+  return makeProvinceLayerDef()
 }
 
 function requireKdeLayer() {
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
-  const mod = require('@/services/heritage/heritageLayer') as typeof import('@/services/heritage/heritageLayer')
-  return mod.buildKdeLayerDef()
+  const { makeKdeLayerDef } = require('@/features/heritage/heritageAssets') as typeof import('@/features/heritage/heritageAssets')
+  return makeKdeLayerDef()
 }
-
 export { HERITAGE_KDE_LAYER_ID, HERITAGE_PROVINCE_LAYER_ID }

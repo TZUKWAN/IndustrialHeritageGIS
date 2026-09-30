@@ -8,6 +8,9 @@ import { BUILTIN_BASEMAPS } from '@/services/geo'  // 新增：导入底图列�
 import { mapEngine } from './engine/MapEngine'
 import { loadGeoFiles } from '@/services/geo'
 import { useIdentify, useBoxSelect, FeatureAttributePanel, BoxSelectResultPanel } from './identify'
+import { useHeritageBootstrap } from '@/features/heritage/heritageBootstrap'
+import { HeritageDetailPanel } from '@/features/heritage/HeritageDetailPanel'
+import { HeritageTemporalBar } from '@/features/heritage/HeritageTemporalBar'
 import { ExportButton } from './export'
 import { PinnedImagePanel } from './PinnedImagePanel'
 
@@ -188,6 +191,9 @@ export function MapView({
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Attach identify controller (订阅 mapEngine.onReady 自行处理 ready 时机)
+  // 工业文化遗产GIS智能体: 遗产图层装载/筛选同步/点选详情
+  useHeritageBootstrap(true)
+
   useIdentify()
   // Attach box-select controller
   useBoxSelect()
@@ -529,6 +535,10 @@ export function MapView({
         visible={boxSelectPanelVisible}
         onClose={clearBoxSelectedFeatures}
       />
+
+      {/* 工业文化遗产GIS智能体: 详情抽屉与时间维度控件 */}
+      <HeritageDetailPanel />
+      <HeritageTemporalBar />
 
       {/* Pinned Image Panels (from "Pin to map" in chat) */}
       {pinnedImages.map((img) => (

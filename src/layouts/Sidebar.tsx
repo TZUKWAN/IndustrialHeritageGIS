@@ -11,6 +11,7 @@ import {
   Monitor,
   Activity,
   PackageOpen,
+  Landmark,
 } from 'lucide-react'
 import { useT } from '@/i18n'
 
@@ -40,6 +41,7 @@ export function Sidebar({
   const t = useT()
 
   const sidebarTabs = [
+    { id: 'heritage', icon: Landmark, label: t.sidebar.heritage },
     { id: 'files', icon: FolderOpen, label: t.sidebar.files },
     { id: 'layers', icon: Layers, label: t.sidebar.layers },
     { id: 'canvas', icon: LayoutTemplate, label: t.sidebar.canvas },

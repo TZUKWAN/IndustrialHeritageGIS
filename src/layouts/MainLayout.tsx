@@ -8,6 +8,7 @@ import { ChatView } from '@/features/chat/ChatView'
 import { DataTable } from '@/features/data/DataTable'
 import { SettingsView } from '@/features/settings/SettingsView'
 import { LayerPanel } from '@/features/layers/LayerPanel'
+import { HeritagePanel } from '@/features/heritage/HeritagePanel'
 import { AssetExplorer } from '@/features/assets/AssetExplorer'
 import { CodeViewer, CodeTabHeader } from '@/features/code/CodeViewer'
 import { CsvTableView } from '@/features/code/CsvTableView'
@@ -389,6 +390,8 @@ function ResizableSidebarPanel({ activeTab }: { activeTab: string }) {
  */
 function SidebarContent({ activeTab }: { activeTab: string }) {
   switch (activeTab) {
+    case 'heritage':
+      return <HeritagePanel />
     case 'layers':
       return <LayerPanel />
     case 'files':

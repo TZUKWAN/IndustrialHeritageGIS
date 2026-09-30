@@ -44,6 +44,7 @@ export const en = {
 
   // ─── Sidebar ───────────────────────────────────────────────────
   sidebar: {
+    heritage: 'Heritage',
     files: 'Files',
     layers: 'Layers',
     canvas: 'Canvas',
@@ -755,7 +756,7 @@ export const en = {
     production: 'Production start',
     closure: 'Closure',
     currentUse: 'Current use',
-    industry: 'Industry',
+
     applicant: 'Applicant unit',
     datePrecision: 'Date precision',
     disputed: 'Conflicting records',
