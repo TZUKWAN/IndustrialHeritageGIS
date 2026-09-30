@@ -136,7 +136,7 @@ export function MainLayout() {
   }
 
   // Determine if sidebar content panel should be shown
-  const showSidebarContent = sidebarContentVisible && !isSettingsView && !isCanvasView && !isWorkersView && (activeSidebarTab === 'layers' || activeSidebarTab === 'files' || activeSidebarTab === 'tools' || activeSidebarTab === 'workflows' || activeSidebarTab === 'runs' || activeSidebarTab === 'operations')
+  const showSidebarContent = sidebarContentVisible && !isSettingsView && !isCanvasView && !isWorkersView && (activeSidebarTab === 'heritage' || activeSidebarTab === 'layers' || activeSidebarTab === 'files' || activeSidebarTab === 'tools' || activeSidebarTab === 'workflows' || activeSidebarTab === 'runs' || activeSidebarTab === 'operations')
 
   return (
     <div className="relative h-screen w-screen overflow-hidden select-none">

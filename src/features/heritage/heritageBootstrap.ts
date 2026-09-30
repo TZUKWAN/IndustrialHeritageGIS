@@ -15,7 +15,7 @@ import {
   sites as allSites,
 } from '@/services/heritage/heritageService'
 import { buildHeritageLayerDef, compileHeritageFilter } from '@/services/heritage/heritageLayer'
-
+import { makeKdeLayerDef, makeProvinceLayerDef } from './heritageAssets' 
 let bootstrapped = false
 let chinaViewApplied = false
 
@@ -128,14 +128,11 @@ export function toggleAnalysisLayer(id: string, want: boolean): void {
   }
 }
 
+// 资产模块静态导入: heritageAssets 仅被运行时路径(bootstrap/面板)引用, 不进入测试链
 function requireProvinceLayer() {
-  // 延迟动态导入资产模块, 避免测试/无资产环境触碰资源链
-  const { makeProvinceLayerDef } = require('@/features/heritage/heritageAssets') as typeof import('@/features/heritage/heritageAssets')
   return makeProvinceLayerDef()
 }
 
 function requireKdeLayer() {
-  const { makeKdeLayerDef } = require('@/features/heritage/heritageAssets') as typeof import('@/features/heritage/heritageAssets')
   return makeKdeLayerDef()
-}
-export { HERITAGE_KDE_LAYER_ID, HERITAGE_PROVINCE_LAYER_ID }
+}export { HERITAGE_KDE_LAYER_ID, HERITAGE_PROVINCE_LAYER_ID }

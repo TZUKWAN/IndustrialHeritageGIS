@@ -3,7 +3,7 @@
  * 把 KDE 栅格与省界 GeoJSON 注入图层构建器; 集中在此以便测试与运行时解耦。
  */
 import kdePng from '@/data/heritage/analysis/kde_raster.png?inline'
-import provinceBoundaries from '@/data/heritage/analysis/province_boundaries.geojson'
+import provinceBoundaries from '@/data/heritage/analysis/province_boundaries.json'
 import type { GeoJSONFeatureCollection } from '@/services/geo'
 import { buildKdeLayerDef, buildProvinceLayerDef } from '@/services/heritage/heritageLayer'
 import type { MapLayerDefinition } from '@/services/geo'

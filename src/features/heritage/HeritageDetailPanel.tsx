@@ -41,16 +41,21 @@ export function HeritageDetailPanel(): JSX.Element | null {
   const [tab, setTab] = useState<Tab>('overview')
 
   const site = detail ?? (selectedId ? peekDetail(selectedId) : null)
+  // Hooks 必须在条件返回之前(否则挂载/数据到达时钩子数变化导致整树卸载)
+  const events = useMemo(() => (selectedId ? eventsOf(selectedId) : []), [selectedId])
+  const siteRelations = useMemo(
+    () => relations.filter((r) => r.source_entity === selectedId),
+    [selectedId],
+  )
+  const sourceIds = useMemo(() => {
+    const ids = new Set<string>(site?.source_ids ?? [])
+    events.forEach((e) => e.source_ids.forEach((id) => ids.add(id)))
+    return sourcesOf([...ids])
+  }, [site, events])
+
   if (!visible || !selectedId || !site) return null
 
   const profile = profiles[selectedId]
-  const events = useMemo(() => eventsOf(selectedId), [selectedId])
-  const siteRelations = relations.filter((r) => r.source_entity === selectedId)
-  const sourceIds = useMemo(() => {
-    const ids = new Set<string>(site.source_ids ?? [])
-    events.forEach((e) => e.source_ids.forEach((id) => ids.add(id)))
-    return sourcesOf([...ids])
-  }, [selectedId, events, site.source_ids])
 
   const tabs: { key: Tab; label: string }[] = [
     { key: 'overview', label: t.heritage.overview },
