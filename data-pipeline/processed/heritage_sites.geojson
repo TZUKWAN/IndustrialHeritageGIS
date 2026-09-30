@@ -1,0 +1,5271 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "crs": "EPSG:4326 (WGS84)",
+  "note": "点坐标由 DataV 行政区划中心点(GCJ-02)转换为 WGS84",
+  "count": 263,
+  "data_version": "v1.0.0"
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.3801842131619,
+     37.538543103017595
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-9583a27cb840",
+    "name": "张裕酿酒公司",
+    "initial_batch": 1,
+    "province": "山东省",
+    "city": "烟台市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     122.9659697053071,
+     41.10926994447316
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-3714508c3156",
+    "name": "鞍山钢铁厂",
+    "initial_batch": 1,
+    "province": "辽宁省",
+    "city": "鞍山市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.26151774801137,
+     38.810068019537084
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-5a9fc0deeafb",
+    "name": "旅顺船坞",
+    "initial_batch": 1,
+    "province": "辽宁省",
+    "city": "大连市",
+    "industry_category_l1": "船舶工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.20920600367823,
+     29.291687504183933
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-7ff3d9d08333",
+    "name": "景德镇国营宇宙瓷厂",
+    "initial_batch": 1,
+    "province": "江西省",
+    "city": "景德镇市",
+    "industry_category_l1": "建材陶瓷",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.356825368112,
+     25.396094966712536
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-ef75e812b2b4",
+    "name": "西华山钨矿",
+    "initial_batch": 1,
+    "province": "江西省",
+    "city": "赣州市",
+    "industry_category_l1": "金属与非金属采矿",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     123.75885383200321,
+     41.328492618297105
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b652f983bcaa",
+    "name": "本溪湖煤铁公司",
+    "initial_batch": 1,
+    "province": "辽宁省",
+    "city": "本溪市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.14490597769839,
+     34.37348027495813
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-484598c6dd59",
+    "name": "宝鸡申新纱厂",
+    "initial_batch": 1,
+    "province": "陕西省",
+    "city": "宝鸡市",
+    "industry_category_l1": "纺织工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.40151663116272,
+     27.506714374100522
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-f6e0454fb02b",
+    "name": "温州矾矿",
+    "initial_batch": 1,
+    "province": "浙江省",
+    "city": "温州市",
+    "industry_category_l1": "金属与非金属采矿",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.4121848536767,
+     30.870862247970244
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-1d1453b43e34",
+    "name": "菱湖丝厂",
+    "initial_batch": 1,
+    "province": "浙江省",
+    "city": "湖州市",
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.48202254043427,
+     29.480032497197136
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-efd17b0eab9d",
+    "name": "重钢型钢厂",
+    "initial_batch": 1,
+    "province": "重庆市",
+    "city": null,
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.26008576900142,
+     30.548003691045967
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-3318e785a779",
+    "name": "汉冶萍公司--汉阳铁厂",
+    "initial_batch": 1,
+    "province": "湖北省",
+    "city": "武汉市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.47997146362455,
+     39.919857687739224
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-9611e3ec365b",
+    "name": "国营738厂",
+    "initial_batch": 2,
+    "province": "北京市",
+    "city": null,
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.47997146362455,
+     39.919857687739224
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-66be236235e7",
+    "name": "国营751厂",
+    "initial_batch": 2,
+    "province": "北京市",
+    "city": null,
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.30383976893184,
+     39.95445267717977
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-60673a3943fa",
+    "name": "北京卫星制造厂",
+    "initial_batch": 2,
+    "province": "北京市",
+    "city": null,
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.13254219443283,
+     39.733681885534125
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b6a6c15c83b0",
+    "name": "原子能“一堆一器”",
+    "initial_batch": 2,
+    "province": "北京市",
+    "city": null,
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.0513305219151,
+     38.06774456135445
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-61afd2c64f32",
+    "name": "井陉煤矿",
+    "initial_batch": 2,
+    "province": "河北省",
+    "city": "石家庄市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.59003231919779,
+     39.94196425958486
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-3402f24ff899",
+    "name": "秦皇岛西港",
+    "initial_batch": 2,
+    "province": "河北省",
+    "city": "秦皇岛市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.59003231919779,
+     39.94196425958486
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-e3bceca36251",
+    "name": "开滦矿务局秦皇岛电厂",
+    "initial_batch": 2,
+    "province": "河北省",
+    "city": "秦皇岛市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.74726593377032,
+     39.99637826078471
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-1a7f427bdf6a",
+    "name": "山海关桥梁厂",
+    "initial_batch": 2,
+    "province": "河北省",
+    "city": "秦皇岛市",
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.16804467005824,
+     39.62662325695999
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-7e38d2eaacda",
+    "name": "开滦唐山矿",
+    "initial_batch": 2,
+    "province": "河北省",
+    "city": "唐山市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.16804467005824,
+     39.62662325695999
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-3f02e34f45ec",
+    "name": "启新水泥厂",
+    "initial_batch": 2,
+    "province": "河北省",
+    "city": "唐山市",
+    "industry_category_l1": "建材陶瓷",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.55415010265328,
+     37.877570251848525
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-2f21c0412b49",
+    "name": "太原兵工厂",
+    "initial_batch": 2,
+    "province": "山西省",
+    "city": "太原市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.55228930320968,
+     37.868327180415
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-46d6d55b891c",
+    "name": "阳泉三矿",
+    "initial_batch": 2,
+    "province": "山西省",
+    "city": "阳泉市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     123.34413208796097,
+     41.786151534417485
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-74bf65465f7b",
+    "name": "沈阳铸造厂",
+    "initial_batch": 2,
+    "province": "辽宁省",
+    "city": "沈阳市",
+    "industry_category_l1": "建材陶瓷",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     123.18197361172808,
+     41.265162135770446
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-ed14d4d7c545",
+    "name": "国营庆阳化工厂",
+    "initial_batch": 2,
+    "province": "辽宁省",
+    "city": "辽阳市",
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     124.8825977274969,
+     46.401263855722604
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-dd30a90e9242",
+    "name": "铁人一口井",
+    "initial_batch": 2,
+    "province": "黑龙江省",
+    "city": "大庆市",
+    "industry_category_l1": "石油天然气",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.78052164248726,
+     32.031684107107836
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-2845032e8d49",
+    "name": "金陵机器局",
+    "initial_batch": 2,
+    "province": "江苏省",
+    "city": "南京市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.76182633625795,
+     32.03939347432198
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-84af583665b6",
+    "name": "永利化学工业公司铔厂",
+    "initial_batch": 2,
+    "province": "江苏省",
+    "city": "南京市",
+    "industry_category_l1": "医药化工",
+    "geocode_quality": "city_fallback",
+    "geocode_precision": "city_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.29161480455592,
+     31.57349245985916
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-48b865e76a6f",
+    "name": "茂新面粉厂旧址",
+    "initial_batch": 2,
+    "province": "江苏省",
+    "city": "无锡市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.85996912974272,
+     32.01415534687126
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-a1c1af53bf84",
+    "name": "大生纱厂",
+    "initial_batch": 2,
+    "province": "江苏省",
+    "city": "南通市",
+    "industry_category_l1": "纺织工业",
+    "geocode_quality": "city_fallback",
+    "geocode_precision": "city_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.30941466394833,
+     31.8674072720648
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-061b2557d5fe",
+    "name": "合肥钢铁厂",
+    "initial_batch": 2,
+    "province": "安徽省",
+    "city": "合肥市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.40668998881249,
+     30.68428695996765
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-93e6f17e8d49",
+    "name": "泾县宣纸厂",
+    "initial_batch": 2,
+    "province": "安徽省",
+    "city": "宣城市",
+    "industry_category_l1": "轻工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.26245015651635,
+     28.3650006723435
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-9f904121b6ca",
+    "name": "李渡烧酒作坊遗址",
+    "initial_batch": 2,
+    "province": "江西省",
+    "city": "南昌市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.94191492444992,
+     36.66661698047988
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-a75647ad84e9",
+    "name": "济南第二机床厂",
+    "initial_batch": 2,
+    "province": "山东省",
+    "city": "济南市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.3495111321916,
+     36.081835137813556
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-2986a1df182b",
+    "name": "青岛啤酒厂",
+    "initial_batch": 2,
+    "province": "山东省",
+    "city": "青岛市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.3495111321916,
+     36.081835137813556
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-a9d5417e03dc",
+    "name": "青岛国棉五厂",
+    "initial_batch": 2,
+    "province": "山东省",
+    "city": "青岛市",
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.39261383599693,
+     34.65240221425869
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-fdaf810de211",
+    "name": "第一拖拉机制造厂",
+    "initial_batch": 2,
+    "province": "河南省",
+    "city": "洛阳市",
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.39261383599693,
+     34.65240221425869
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-e0dadacd727f",
+    "name": "洛阳矿山机器厂",
+    "initial_batch": 2,
+    "province": "河南省",
+    "city": "洛阳市",
+    "industry_category_l1": "金属与非金属采矿",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.9693670632033,
+     30.09766777533979
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-56bf3cbc55cf",
+    "name": "铜绿山古铜矿遗址",
+    "initial_batch": 2,
+    "province": "湖北省",
+    "city": "黄石市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.21614129430779,
+     28.376847193540225
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-3906e6d89ca3",
+    "name": "安化第一茶厂",
+    "initial_batch": 2,
+    "province": "湖南省",
+    "city": "益阳市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.10033541185142,
+     30.65895641435801
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b87d6f31c085",
+    "name": "成都国营红光电子管厂",
+    "initial_batch": 2,
+    "province": "四川省",
+    "city": "成都市",
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.44133314496115,
+     28.882160276422702
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-3d9f42f7fc19",
+    "name": "泸州老窖窖池群及酿酒作坊",
+    "initial_batch": 2,
+    "province": "四川省",
+    "city": "泸州市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid_multi_district"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.15989791885616,
+     31.633315119517157
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-1a060e671fb0",
+    "name": "中国工程物理研究院院部机关旧址",
+    "initial_batch": 2,
+    "province": "四川省",
+    "city": "绵阳市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.6276797725314,
+     28.759839431487727
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-66b2d6d88d73",
+    "name": "五粮液窖池群及酿酒作坊",
+    "initial_batch": 2,
+    "province": "四川省",
+    "city": "宜宾市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid_multi_district"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.40834215788118,
+     27.80265423029256
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-3af0508bcf2e",
+    "name": "茅台酒酿酒作坊",
+    "initial_batch": 2,
+    "province": "贵州省",
+    "city": "遵义市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.25613781243861,
+     26.406159119139307
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-62d2654b7bcf",
+    "name": "黎阳航空发动机公司",
+    "initial_batch": 2,
+    "province": "贵州省",
+    "city": "安顺市",
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     102.70429933943959,
+     25.025307648283018
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-c1bf9347e31e",
+    "name": "石龙坝水电站",
+    "initial_batch": 2,
+    "province": "云南省",
+    "city": "昆明市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     102.48392547470496,
+     24.922771682519148
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-eeb5ddec0e36",
+    "name": "昆明钢铁厂",
+    "initial_batch": 2,
+    "province": "云南省",
+    "city": "昆明市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.09530732630053,
+     35.11011389688332
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-c329f56765d1",
+    "name": "王石凹煤矿",
+    "initial_batch": 2,
+    "province": "陕西省",
+    "city": "铜川市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.00720965169756,
+     36.5767750145392
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b8902e44b338",
+    "name": "延长石油厂",
+    "initial_batch": 2,
+    "province": "陕西省",
+    "city": "延安市",
+    "industry_category_l1": "石油天然气",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.82092235192414,
+     36.05676366841044
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-bcd6809bc514",
+    "name": "中核四0四厂",
+    "initial_batch": 2,
+    "province": "甘肃省",
+    "city": null,
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "province_fallback",
+    "geocode_precision": "province_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.31726662661694,
+     35.93746549861814
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-fa234e8c25df",
+    "name": "刘家峡水电站",
+    "initial_batch": 2,
+    "province": "甘肃省",
+    "city": "临夏回族自治州",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     89.52213980073888,
+     46.992435446802226
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-2602ebe85654",
+    "name": "可可托海矿务局",
+    "initial_batch": 2,
+    "province": "新疆维吾尔自治区",
+    "city": "阿勒泰地区",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.41214379972372,
+     39.91577416682774
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-c54e6935a72a",
+    "name": "北京珐琅厂",
+    "initial_batch": 3,
+    "province": "北京市",
+    "city": null,
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.3602025340527,
+     39.91355799032356
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-3c01f17956a9",
+    "name": "度支部印刷局",
+    "initial_batch": 3,
+    "province": "北京市",
+    "city": null,
+    "industry_category_l1": "轻工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.64762148899297,
+     39.031088724885464
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-2a5a17295e93",
+    "name": "大港油田港5井",
+    "initial_batch": 3,
+    "province": "天津市",
+    "city": null,
+    "industry_category_l1": "石油天然气",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.44764621908247,
+     39.71382130740623
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b6ef8394932b",
+    "name": "开滦赵各庄矿",
+    "initial_batch": 3,
+    "province": "河北省",
+    "city": "唐山市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.10712337893763,
+     36.18611926063394
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-ad6365da55a8",
+    "name": "“刘伯承工厂”旧址",
+    "initial_batch": 3,
+    "province": "山西省",
+    "city": "长治市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.10712337893763,
+     36.18611926063394
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-1e4a089da185",
+    "name": "石圪节煤矿",
+    "initial_batch": 3,
+    "province": "山西省",
+    "city": "长治市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.92424282529304,
+     35.78980479094311
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-65ceaa27a924",
+    "name": "高平丝织印染厂",
+    "initial_batch": 3,
+    "province": "山西省",
+    "city": "晋城市",
+    "industry_category_l1": "纺织工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     123.79512094826067,
+     41.850327882105375
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-23ba3693818a",
+    "name": "抚顺西露天矿",
+    "initial_batch": 3,
+    "province": "辽宁省",
+    "city": "抚顺市",
+    "industry_category_l1": "金属与非金属采矿",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     122.2476150867393,
+     40.66852778458912
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-378db866b478",
+    "name": "营口造纸厂",
+    "initial_batch": 3,
+    "province": "辽宁省",
+    "city": "营口市",
+    "industry_category_l1": "轻工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.58832509599856,
+     38.91104926170856
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-8b50b8dc20c3",
+    "name": "大连冷冻机厂铸造工厂",
+    "initial_batch": 3,
+    "province": "辽宁省",
+    "city": "大连市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     123.63174764482919,
+     47.204986047839476
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-f2ec0721d29d",
+    "name": "一重富拉尔基厂区",
+    "initial_batch": 3,
+    "province": "黑龙江省",
+    "city": "齐齐哈尔市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.56214191558024,
+     46.23805798367136
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-1a460fed2d5f",
+    "name": "龙江森工桦南森林铁路",
+    "initial_batch": 3,
+    "province": "黑龙江省",
+    "city": "佳木斯市",
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid_multi_district"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.38745393612265,
+     31.239489924179807
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-76d04b757253",
+    "name": "上海造币厂",
+    "initial_batch": 3,
+    "province": "上海市",
+    "city": null,
+    "industry_category_l1": "轻工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.94330917242017,
+     31.778897157042124
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-d867a1652663",
+    "name": "常州恒源畅厂",
+    "initial_batch": 3,
+    "province": "江苏省",
+    "city": "常州市",
+    "industry_category_l1": "纺织工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.40903972826773,
+     32.21116492221711
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-62f62ab6ed2b",
+    "name": "恒顺镇江香醋传统酿造区",
+    "initial_batch": 3,
+    "province": "江苏省",
+    "city": "镇江市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.27310740774148,
+     33.935577349092405
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-1ad94a4eee2f",
+    "name": "洋河老窖池群及酿酒作坊",
+    "initial_batch": 3,
+    "province": "江苏省",
+    "city": "宿迁市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.47128774631514,
+     30.07662455560175
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-5e1b302b21e8",
+    "name": "绍兴鉴湖黄酒作坊",
+    "initial_batch": 3,
+    "province": "浙江省",
+    "city": "绍兴市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.7753357032946,
+     33.867197707100274
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-1a22e8c17fac",
+    "name": "古井贡酒年份原浆传统酿造区",
+    "initial_batch": 3,
+    "province": "安徽省",
+    "city": "亳州市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.48251657165783,
+     30.655880196174657
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-936b0f3dd37f",
+    "name": "贵池茶厂",
+    "initial_batch": 3,
+    "province": "安徽省",
+    "city": "池州市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.42241201674597,
+     29.866295108152084
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-0019d431e9a9",
+    "name": "歙县老胡开文墨厂",
+    "initial_batch": 3,
+    "province": "安徽省",
+    "city": "黄山市",
+    "industry_category_l1": "轻工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.5841389759682,
+     24.9085645740202
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-5694d41d4aca",
+    "name": "泉州源和堂蜜饯厂",
+    "initial_batch": 3,
+    "province": "福建省",
+    "city": "泉州市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.35583418066831,
+     25.842146816870784
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-d077697be2ac",
+    "name": "福建红旗机器厂",
+    "initial_batch": 3,
+    "province": "福建省",
+    "city": "龙岩市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.20920600367823,
+     29.291687504183933
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-08259d5ca73e",
+    "name": "景德镇明清御窑厂遗址",
+    "initial_batch": 3,
+    "province": "江西省",
+    "city": "景德镇市",
+    "industry_category_l1": "建材陶瓷",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.20920600367823,
+     29.291687504183933
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-d627be0ee19b",
+    "name": "景德镇国营为民瓷厂",
+    "initial_batch": 3,
+    "province": "江西省",
+    "city": "景德镇市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.90002668793011,
+     27.0397353834928
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-e60020aa2e11",
+    "name": "吉州窑遗址",
+    "initial_batch": 3,
+    "province": "江西省",
+    "city": "吉安市",
+    "industry_category_l1": "建材陶瓷",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.3464314560128,
+     26.33026736605191
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-60c0bb0d831a",
+    "name": "兴国官田中央兵工厂",
+    "initial_batch": 3,
+    "province": "江西省",
+    "city": "赣州市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.1310306541827,
+     36.70753231036537
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b5604d9b23bb",
+    "name": "潍坊大英烟公司",
+    "initial_batch": 3,
+    "province": "山东省",
+    "city": "潍坊市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.24287951335654,
+     36.334338685800965
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-3d9cdf94a90b",
+    "name": "东阿阿胶厂78号旧址",
+    "initial_batch": 3,
+    "province": "山东省",
+    "city": "聊城市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.66959272259066,
+     32.383582258249405
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-407fe7b65baa",
+    "name": "湖北5133厂",
+    "initial_batch": 3,
+    "province": "湖北省",
+    "city": "襄阳市",
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.08435913608433,
+     30.21067677578899
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-0577e36e0167",
+    "name": "华新水泥厂旧址",
+    "initial_batch": 3,
+    "province": "湖北省",
+    "city": "黄石市",
+    "industry_category_l1": "建材陶瓷",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.62079596284008,
+     26.89089560373927
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-e3373769c90a",
+    "name": "中核二七二厂铀水冶纯化生产线及配套工程",
+    "initial_batch": 3,
+    "province": "湖南省",
+    "city": "衡阳市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.1066463481594,
+     23.02134243591964
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-00195fa64361",
+    "name": "南风古灶",
+    "initial_batch": 3,
+    "province": "广东省",
+    "city": "佛山市",
+    "industry_category_l1": "建材陶瓷",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.39003945458448,
+     29.702466287059575
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-40dcf7bfb650",
+    "name": "核工业816工程",
+    "initial_batch": 3,
+    "province": "重庆市",
+    "city": null,
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.07017232498178,
+     29.832491841070652
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-ac27828c4e30",
+    "name": "重庆长风化工厂",
+    "initial_batch": 3,
+    "province": "重庆市",
+    "city": null,
+    "industry_category_l1": "医药化工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.07825975642757,
+     30.656378424885723
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-76eac55f1261",
+    "name": "成都水井街酒坊",
+    "initial_batch": 3,
+    "province": "四川省",
+    "city": "成都市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.71155034802514,
+     29.34486597172293
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-e6da22111b35",
+    "name": "自贡井盐——大安盐厂自贡井盐——东源井自贡井盐——燊海井",
+    "initial_batch": 3,
+    "province": "四川省",
+    "city": "自贡市",
+    "industry_category_l1": "金属与非金属采矿",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid_multi_district"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.71339427935584,
+     26.580994663047022
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-73fca2668c0a",
+    "name": "攀枝花钢铁厂",
+    "initial_batch": 3,
+    "province": "四川省",
+    "city": "攀枝花市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.43141872374707,
+     28.89681864720042
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-520797c1fc83",
+    "name": "洞窝水电站",
+    "initial_batch": 3,
+    "province": "四川省",
+    "city": "泸州市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.28453193306169,
+     29.337294519996245
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-e36033cf58fe",
+    "name": "隆昌气矿圣灯山气田旧址",
+    "initial_batch": 3,
+    "province": "四川省",
+    "city": "内江市",
+    "industry_category_l1": "石油天然气",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.75298377298856,
+     29.58742987892293
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-c7c7adbf1635",
+    "name": "核工业受控核聚变实验旧址",
+    "initial_batch": 3,
+    "province": "四川省",
+    "city": "乐山市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.94200231094813,
+     29.209181134432495
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b7f5ed85aac9",
+    "name": "嘉阳煤矿老矿区",
+    "initial_batch": 3,
+    "province": "四川省",
+    "city": "乐山市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.47063581798731,
+     26.210744354762546
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-483581dbf4f6",
+    "name": "六枝矿区",
+    "initial_batch": 3,
+    "province": "贵州省",
+    "city": "六盘水市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.20720435149697,
+     27.518405401510982
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-1c103a68d0b8",
+    "name": "贵州万山汞矿",
+    "initial_batch": 3,
+    "province": "贵州省",
+    "city": "铜仁市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.91768106580952,
+     24.594310815804544
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-76e668fdc4ca",
+    "name": "云南凤庆茶厂老厂区",
+    "initial_batch": 3,
+    "province": "云南省",
+    "city": "临沧市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.10189074161262,
+     30.473877306721295
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-851154e90826",
+    "name": "羊八井地热发电试验设施",
+    "initial_batch": 3,
+    "province": "西藏自治区",
+    "city": "拉萨市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.52091985177609,
+     33.91071716972189
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-4c3c80502838",
+    "name": "红光沟航天六院旧址",
+    "initial_batch": 3,
+    "province": "陕西省",
+    "city": "宝鸡市",
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.58436208261216,
+     34.954606573697234
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-c2ca03b2eac5",
+    "name": "中科院国家授时中心蒲城长短波授时台",
+    "initial_batch": 3,
+    "province": "陕西省",
+    "city": "渭南市",
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.59616876677842,
+     37.59364095969401
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-302153de1606",
+    "name": "定边盐场",
+    "initial_batch": 3,
+    "province": "陕西省",
+    "city": "榆林市",
+    "industry_category_l1": "金属与非金属采矿",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.61986205188035,
+     36.09919963664592
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-561b0f678c8b",
+    "name": "中核504厂",
+    "initial_batch": 3,
+    "province": "甘肃省",
+    "city": "兰州市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.3602025340527,
+     39.91355799032356
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-360695d763ad",
+    "name": "北京电报大楼",
+    "initial_batch": 4,
+    "province": "北京市",
+    "city": null,
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.64762148899297,
+     39.031088724885464
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-815d3688e43b",
+    "name": "海鸥表业手表制作生产线",
+    "initial_batch": 4,
+    "province": "天津市",
+    "city": null,
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.21991067538971,
+     39.120234139557546
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-22e1d21f698e",
+    "name": "天津第三棉纺织厂",
+    "initial_batch": 4,
+    "province": "天津市",
+    "city": null,
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.51418287005093,
+     40.4042108275268
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-3e17a22e3784",
+    "name": "张家口沙城酒厂",
+    "initial_batch": 4,
+    "province": "河北省",
+    "city": "张家口市",
+    "industry_category_l1": "医药化工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.64305011603149,
+     39.01871274677456
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-1bceae49c203",
+    "name": "刘伶醉古烧锅",
+    "initial_batch": 4,
+    "province": "河北省",
+    "city": "保定市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.77852413112494,
+     37.26592059432504
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-2d48c413c8da",
+    "name": "杏花村汾酒老作坊及传统酿造区",
+    "initial_batch": 4,
+    "province": "山西省",
+    "city": "吕梁市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     123.46342989780794,
+     41.80689570707679
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-d9992f44ad45",
+    "name": "老龙口酒厂",
+    "initial_batch": 4,
+    "province": "辽宁省",
+    "city": "沈阳市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.61073106324292,
+     38.91244876220747
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-d9f0c3cee4f8",
+    "name": "大连造船厂修船南坞",
+    "initial_batch": 4,
+    "province": "辽宁省",
+    "city": "大连市",
+    "industry_category_l1": "船舶工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.65180161985332,
+     42.00987830028947
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-8d3790c5a8ce",
+    "name": "阜新煤炭工业遗产群",
+    "initial_batch": 4,
+    "province": "辽宁省",
+    "city": "阜新市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid_multi_district"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     125.31102179540389,
+     43.862770061156006
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-770eb9e86335",
+    "name": "长春电影制片厂",
+    "initial_batch": 4,
+    "province": "吉林省",
+    "city": "长春市",
+    "industry_category_l1": "轻工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.73914012252582,
+     42.97029392794664
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-dc6c97ac96d9",
+    "name": "夹皮沟金矿",
+    "initial_batch": 4,
+    "province": "吉林省",
+    "city": "吉林市",
+    "industry_category_l1": "金属与非金属采矿",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.64554677158704,
+     45.75382843560094
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-4c8ee8df1041",
+    "name": "哈尔滨卷烟厂旧址",
+    "initial_batch": 4,
+    "province": "黑龙江省",
+    "city": "哈尔滨市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.62278357340459,
+     45.60341934178797
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-41a215e60f0f",
+    "name": "东北轻合金加工厂",
+    "initial_batch": 4,
+    "province": "黑龙江省",
+    "city": "哈尔滨市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.66046336188815,
+     45.710882688132344
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-69af79fec07c",
+    "name": "哈尔滨电机厂",
+    "initial_batch": 4,
+    "province": "黑龙江省",
+    "city": "哈尔滨市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.66046336188815,
+     45.710882688132344
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-508c4eb52764",
+    "name": "哈尔滨锅炉厂",
+    "initial_batch": 4,
+    "province": "黑龙江省",
+    "city": "哈尔滨市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     123.63174764482919,
+     47.204986047839476
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-90e03ce6c762",
+    "name": "北满钢厂",
+    "initial_batch": 4,
+    "province": "黑龙江省",
+    "city": "齐齐哈尔市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.48545558487503,
+     31.220725385503684
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-273d1b476b3f",
+    "name": "大北电报局",
+    "initial_batch": 4,
+    "province": "上海市",
+    "city": null,
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56307714573407,
+     31.24407327321834
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-0509fb1abff4",
+    "name": "运十飞机",
+    "initial_batch": 4,
+    "province": "上海市",
+    "city": null,
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.94189693876241,
+     31.770692393679607
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-3f9a3c49b1d9",
+    "name": "常州大明纱厂",
+    "initial_batch": 4,
+    "province": "江苏省",
+    "city": null,
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "city_fallback",
+    "geocode_precision": "city_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.20595617224211,
+     33.45418528376785
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-7885e297fb71",
+    "name": "双沟老窖池群及酿酒作坊",
+    "initial_batch": 4,
+    "province": "江苏省",
+    "city": "宿迁市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.4121848536767,
+     30.870862247970244
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-91c5efc7b07a",
+    "name": "善琏湖笔厂",
+    "initial_batch": 4,
+    "province": "浙江省",
+    "city": "湖州市",
+    "industry_category_l1": "轻工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.2840185390023,
+     31.24952898083726
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b8bbbe41fd7e",
+    "name": "庐江矾矿",
+    "initial_batch": 4,
+    "province": "安徽省",
+    "city": "合肥市",
+    "industry_category_l1": "金属与非金属采矿",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.76166177135094,
+     33.9143088500393
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-fbc675993aaa",
+    "name": "口子窖窖池群及酿酒作坊",
+    "initial_batch": 4,
+    "province": "安徽省",
+    "city": "淮北市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.41181558212045,
+     30.891244578108253
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-bdb0c0922263",
+    "name": "中国航天603基地",
+    "initial_batch": 4,
+    "province": "安徽省",
+    "city": "宣城市",
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.0288008937045,
+     30.50416923871135
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-4edbe22e8aab",
+    "name": "安庆胡玉美酱园",
+    "initial_batch": 4,
+    "province": "安徽省",
+    "city": "安庆市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid_multi_district"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.45352946320618,
+     25.991776219665454
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-4de5bd523e5d",
+    "name": "福建船政",
+    "initial_batch": 4,
+    "province": "福建省",
+    "city": "福州市",
+    "industry_category_l1": "船舶工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.18082768745421,
+     25.057333319589013
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-7f8dc027b8cd",
+    "name": "安溪茶厂",
+    "initial_batch": 4,
+    "province": "福建省",
+    "city": "泉州市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.90213398743211,
+     28.63519531858149
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-ae1ea213c947",
+    "name": "洪都机械厂旧址",
+    "initial_batch": 4,
+    "province": "江西省",
+    "city": "南昌市",
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.80368272617324,
+     29.017363357702262
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-280359499761",
+    "name": "江西星火化工厂",
+    "initial_batch": 4,
+    "province": "江西省",
+    "city": "九江市",
+    "industry_category_l1": "医药化工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.66365129358918,
+     29.675501787970884
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-7a30441fdbb1",
+    "name": "铜岭铜矿遗址",
+    "initial_batch": 4,
+    "province": "江西省",
+    "city": "九江市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.20920600367823,
+     29.291687504183933
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-d6a3838ea53f",
+    "name": "景德镇国营建国瓷厂",
+    "initial_batch": 4,
+    "province": "江西省",
+    "city": "景德镇市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.94191492444992,
+     36.66661698047988
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-4b779c93fa7b",
+    "name": "津浦铁路局济南机器厂",
+    "initial_batch": 4,
+    "province": "山东省",
+    "city": "济南市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.99277587210871,
+     36.65563245715252
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-ef3c9223dfa4",
+    "name": "山东省邮电管理局旧址",
+    "initial_batch": 4,
+    "province": "山东省",
+    "city": "济南市",
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.82353180903456,
+     37.16768940849767
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-5abf2c0f09a2",
+    "name": "扳倒井窖池群及酿酒作坊",
+    "initial_batch": 4,
+    "province": "山东省",
+    "city": "淄博市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.5013852924397,
+     37.45948495320703
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-9f98e3e9660c",
+    "name": "胜利油田功勋井",
+    "initial_batch": 4,
+    "province": "山东省",
+    "city": "东营市",
+    "industry_category_l1": "石油天然气",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.20074130376703,
+     36.425632363712204
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-1ab26d8347e2",
+    "name": "景芝酒窖池群和酿酒作坊",
+    "initial_batch": 4,
+    "province": "山东省",
+    "city": "潍坊市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.3012680083159,
+     37.451876713827566
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-700c1120c2b9",
+    "name": "德州机床厂",
+    "initial_batch": 4,
+    "province": "山东省",
+    "city": null,
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "city_fallback",
+    "geocode_precision": "city_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.39261383599693,
+     34.65240221425869
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-f346c5ed97ac",
+    "name": "洛阳耐火材料厂",
+    "initial_batch": 4,
+    "province": "河南省",
+    "city": "洛阳市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.39261383599693,
+     34.65240221425869
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-e1e3cbe4b1f2",
+    "name": "洛阳铜加工厂",
+    "initial_batch": 4,
+    "province": "河南省",
+    "city": "洛阳市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.28950826865925,
+     30.70110033475718
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-f578fba063bf",
+    "name": "葛洲坝水利枢纽",
+    "initial_batch": 4,
+    "province": "湖北省",
+    "city": "宜昌市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.87794746454634,
+     29.715897303261052
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-d0daf5a12b29",
+    "name": "二三四八蒲纺总厂",
+    "initial_batch": 4,
+    "province": "湖北省",
+    "city": "咸宁市",
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.87794746454634,
+     29.715897303261052
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-61bb352b4593",
+    "name": "湖北省赵李桥茶厂",
+    "initial_batch": 4,
+    "province": "湖北省",
+    "city": "咸宁市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.10680804774508,
+     27.87108524167985
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-3b724d935a4b",
+    "name": "粤汉铁路株洲总机厂",
+    "initial_batch": 4,
+    "province": "湖南省",
+    "city": "株洲市",
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.16961948651557,
+     27.359257391048605
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-0d80e6a1b8f9",
+    "name": "新晃汞矿",
+    "initial_batch": 4,
+    "province": "湖南省",
+    "city": "怀化市",
+    "industry_category_l1": "石油天然气",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.42874237380786,
+     27.68493596420794
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-92cb2012e15e",
+    "name": "锡矿山锑矿",
+    "initial_batch": 4,
+    "province": "湖南省",
+    "city": "娄底市",
+    "industry_category_l1": "金属与非金属采矿",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.47686416790683,
+     29.522494135985433
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-9073417cf637",
+    "name": "兵工署第一兵工厂旧址",
+    "initial_batch": 4,
+    "province": "重庆市",
+    "city": null,
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.07017232498178,
+     29.832491841070652
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-2d4a65e4fe70",
+    "name": "狮子滩梯级水电站枢纽",
+    "initial_batch": 4,
+    "province": "重庆市",
+    "city": null,
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.8303752235917,
+     28.809875809466387
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-1397ab0405bc",
+    "name": "先市酱油酿造作坊",
+    "initial_batch": 4,
+    "province": "四川省",
+    "city": "泸州市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.74142847120568,
+     31.774579918269804
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-fde24b036554",
+    "name": "航空发动机高空模拟试验基地旧址",
+    "initial_batch": 4,
+    "province": "四川省",
+    "city": "绵阳市",
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.81450728481501,
+     29.40541853051631
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-263a12341825",
+    "name": "乐山永利川厂旧址",
+    "initial_batch": 4,
+    "province": "四川省",
+    "city": "乐山市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.82922466529236,
+     30.04728959571903
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-8d4704cf9de4",
+    "name": "四川国际电台旧址",
+    "initial_batch": 4,
+    "province": "四川省",
+    "city": "眉山市",
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.93319763912443,
+     27.706222894036042
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-8784948683a8",
+    "name": "长征电器十二厂",
+    "initial_batch": 4,
+    "province": "贵州省",
+    "city": "遵义市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.76499339745708,
+     26.056289145216063
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-be6e48f0bfdf",
+    "name": "贵飞强度试验中心旧址",
+    "initial_batch": 4,
+    "province": "贵州省",
+    "city": "安顺市",
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "fuzzy",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     102.70429933943959,
+     25.025307648283018
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-dd4a86681d1a",
+    "name": "国营第二九八厂旧址",
+    "initial_batch": 4,
+    "province": "云南省",
+    "city": "昆明市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     102.16040123835934,
+     24.67077712950043
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-affba94b7b36",
+    "name": "易门铜矿",
+    "initial_batch": 4,
+    "province": "云南省",
+    "city": "玉溪市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.13129489947246,
+     29.6586575371046
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-6dd4eefcec8b",
+    "name": "纳金电站",
+    "initial_batch": 4,
+    "province": "西藏自治区",
+    "city": "拉萨市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.13129489947246,
+     29.6586575371046
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-909b2fe4fae3",
+    "name": "夺底电站",
+    "initial_batch": 4,
+    "province": "西藏自治区",
+    "city": "拉萨市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.07038965087051,
+     35.06730500865248
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-ed943e689cb7",
+    "name": "耀州陶瓷工业遗产群",
+    "initial_batch": 4,
+    "province": "陕西省",
+    "city": "铜川市",
+    "industry_category_l1": "建材陶瓷",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid_multi_district"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     97.03635890906867,
+     40.28599321744209
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-360c8f5ca2b3",
+    "name": "玉门油田老君庙油矿",
+    "initial_batch": 4,
+    "province": "甘肃省",
+    "city": "酒泉市",
+    "industry_category_l1": "石油天然气",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.85451098496927,
+     38.24615689111148
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-d975b5338960",
+    "name": "茫崖石棉矿老矿区",
+    "initial_batch": 4,
+    "province": "青海省",
+    "city": "海西蒙古族藏族自治州",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.87989145632221,
+     44.32680828026923
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-3bf618356e50",
+    "name": "独山子炼油厂",
+    "initial_batch": 4,
+    "province": "新疆维吾尔自治区",
+    "city": "克拉玛依市",
+    "industry_category_l1": "石油天然气",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.47997146362455,
+     39.919857687739224
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b2a81f9157d8",
+    "name": "北京电子管厂",
+    "initial_batch": 5,
+    "province": "北京市",
+    "city": null,
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.47997146362455,
+     39.919857687739224
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-7bb65d4f3ddc",
+    "name": "北京化工研究院",
+    "initial_batch": 5,
+    "province": "北京市",
+    "city": null,
+    "industry_category_l1": "石油天然气",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.28300057506345,
+     42.03982561683208
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-0656fe1c09c5",
+    "name": "元宝山发电厂",
+    "initial_batch": 5,
+    "province": "内蒙古自治区",
+    "city": "赤峰市",
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     123.46342989780794,
+     41.80689570707679
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-45c15d54eeb2",
+    "name": "沈阳造币厂",
+    "initial_batch": 5,
+    "province": "辽宁省",
+    "city": "沈阳市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56307714573407,
+     31.24407327321834
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-5b0e0e5936e2",
+    "name": "上海船厂",
+    "initial_batch": 5,
+    "province": "上海市",
+    "city": null,
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.94189693876241,
+     31.770692393679607
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-e4048f71ceec",
+    "name": "常州戚墅堰机厂",
+    "initial_batch": 5,
+    "province": "江苏省",
+    "city": "常州市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "city_fallback",
+    "geocode_precision": "city_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.43645817175107,
+     32.389856216577904
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-8f61fc105161",
+    "name": "扬州谢馥春香粉厂旧址",
+    "initial_batch": 5,
+    "province": "江苏省",
+    "city": "扬州市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.55390946946126,
+     29.8304560905858
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-8a1b43d9c70c",
+    "name": "宁波和丰纱厂",
+    "initial_batch": 5,
+    "province": "浙江省",
+    "city": "宁波市",
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.09617818992636,
+     30.86537989559968
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-78dbb14a4168",
+    "name": "湖州七〇一三液体火箭发动机试车台",
+    "initial_batch": 5,
+    "province": "浙江省",
+    "city": "湖州市",
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.36883181168263,
+     28.367821006918096
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-a1eafa330f21",
+    "name": "温岭江厦潮汐试验电站",
+    "initial_batch": 5,
+    "province": "浙江省",
+    "city": "台州市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.7380407111897,
+     26.57722867750892
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-ae0a7e8746d6",
+    "name": "古田溪水电厂",
+    "initial_batch": 5,
+    "province": "福建省",
+    "city": "宁德市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.53440181735925,
+     36.71044395860962
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-d21e35ab97e1",
+    "name": "山东明水浅井粘土矿",
+    "initial_batch": 5,
+    "province": "山东省",
+    "city": "济南市",
+    "industry_category_l1": "金属与非金属采矿",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.3801842131619,
+     37.538543103017595
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-264a3b9bde90",
+    "name": "烟台醴泉啤酒股份有限公司旧址",
+    "initial_batch": 5,
+    "province": "山东省",
+    "city": "烟台市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.16870961486062,
+     35.23428895657205
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-755ae7eb6f10",
+    "name": "焦作煤矿",
+    "initial_batch": 5,
+    "province": "河南省",
+    "city": "焦作市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid_multi_district"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.39120439405245,
+     30.632659719025465
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-017dc5485fea",
+    "name": "青山热电厂",
+    "initial_batch": 5,
+    "province": "湖北省",
+    "city": "武汉市",
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.39120439405245,
+     30.632659719025465
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-d3a06065269d",
+    "name": "武钢一号高炉",
+    "initial_batch": 5,
+    "province": "湖北省",
+    "city": "武汉市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.03282489012497,
+     25.793153665585645
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-af8e1135a710",
+    "name": "中核711铀矿",
+    "initial_batch": 5,
+    "province": "湖南省",
+    "city": "郴州市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.07286457754228,
+     22.598710036508695
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-a7e7c40a5961",
+    "name": "江门甘蔗化工厂",
+    "initial_batch": 5,
+    "province": "广东省",
+    "city": "江门市",
+    "industry_category_l1": "医药化工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.3995205873919,
+     24.18731310151052
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-a4a0c63d6484",
+    "name": "英德红旗茶厂",
+    "initial_batch": 5,
+    "province": "广东省",
+    "city": "清远市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.40172427673163,
+     24.360343033410178
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-cdac875d1360",
+    "name": "柳州空气压缩机厂",
+    "initial_batch": 5,
+    "province": "广西壮族自治区",
+    "city": "柳州市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.88444637323029,
+     23.814845360193388
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b4f9e945075b",
+    "name": "合山煤矿",
+    "initial_batch": 5,
+    "province": "广西壮族自治区",
+    "city": "来宾市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.73798991315265,
+     31.46182418648473
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-a7f4147715e2",
+    "name": "西南应用磁学研究所旧址",
+    "initial_batch": 5,
+    "province": "四川省",
+    "city": "绵阳市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "fuzzy",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.2486431236026,
+     30.580459642150597
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-8bc23c33dd73",
+    "name": "卓筒井和蓬基井",
+    "initial_batch": 5,
+    "province": "四川省",
+    "city": "遂宁市",
+    "industry_category_l1": "石油天然气",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.5767072131364,
+     29.740276807865396
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-42c99ba63c2b",
+    "name": "中国核动力九〇九基地",
+    "initial_batch": 5,
+    "province": "四川省",
+    "city": "乐山市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.10475904467243,
+     30.78035880074234
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-bf87957735c4",
+    "name": "六合丝厂",
+    "initial_batch": 5,
+    "province": "四川省",
+    "city": "南充市",
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.81708685895798,
+     25.601333191802752
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-468f97c288b1",
+    "name": "昆明电波观测站110雷达",
+    "initial_batch": 5,
+    "province": "云南省",
+    "city": "曲靖市",
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.92171655170098,
+     34.21185566120165
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-172605b39f7b",
+    "name": "西安电影制片厂",
+    "initial_batch": 5,
+    "province": "陕西省",
+    "city": "西安市",
+    "industry_category_l1": "轻工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.39532792085971,
+     34.51994387269815
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-40f0bdd254ad",
+    "name": "西凤酒厂",
+    "initial_batch": 5,
+    "province": "陕西省",
+    "city": "宝鸡市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.89885495429469,
+     36.958347161447165
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-79be637fd012",
+    "name": "核武器研制基地国营二二一厂",
+    "initial_batch": 5,
+    "province": "青海省",
+    "city": "海北藏族自治州",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.371700033806,
+     39.01247056467431
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-fdb947d7a8b5",
+    "name": "西北煤机一厂",
+    "initial_batch": 5,
+    "province": "宁夏回族自治区",
+    "city": "石嘴山市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.86647376597914,
+     45.599854331056186
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-c0c15785e862",
+    "name": "克拉玛依油田",
+    "initial_batch": 5,
+    "province": "新疆维吾尔自治区",
+    "city": "克拉玛依市",
+    "industry_category_l1": "石油天然气",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.47997146362455,
+     39.919857687739224
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-f564301ee4c6",
+    "name": "北京国际电台中央发信台",
+    "initial_batch": 6,
+    "province": "北京市",
+    "city": null,
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.18895729074364,
+     39.912964073922794
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-5a8b0b6d7da7",
+    "name": "首钢石景山厂区",
+    "initial_batch": 6,
+    "province": "北京市",
+    "city": null,
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.64762148899297,
+     39.031088724885464
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-bfb5cc926eb8",
+    "name": "长芦汉沽古盐场",
+    "initial_batch": 6,
+    "province": "天津市",
+    "city": null,
+    "industry_category_l1": "金属与非金属采矿",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.83390128233344,
+     38.30566135448957
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-ec900ef41c67",
+    "name": "沧州化肥厂",
+    "initial_batch": 6,
+    "province": "河北省",
+    "city": "沧州市",
+    "industry_category_l1": "医药化工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.10022881030098,
+     38.70453655184226
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b8b3f9e78d97",
+    "name": "任丘古潜山油田",
+    "initial_batch": 6,
+    "province": "河北省",
+    "city": "沧州市",
+    "industry_category_l1": "石油天然气",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.55228930320968,
+     37.868327180415
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-54e5854d40a3",
+    "name": "110千伏马家坪变电站",
+    "initial_batch": 6,
+    "province": "山西省",
+    "city": "阳泉市",
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.71774215231578,
+     39.500801894006415
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-357ccb851e20",
+    "name": "乌达矿务局和海勃湾矿务局",
+    "initial_batch": 6,
+    "province": "内蒙古自治区",
+    "city": "乌海市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     125.35248213165445,
+     41.26723352506147
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-8e5771fb498c",
+    "name": "桓仁水电站",
+    "initial_batch": 6,
+    "province": "辽宁省",
+    "city": "本溪市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.41716516114653,
+     31.215935651137922
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-df9b81eba852",
+    "name": "虹桥卫星通信试验地面站",
+    "initial_batch": 6,
+    "province": "上海市",
+    "city": null,
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51804656377891,
+     31.268770372931936
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-2b911268ab1f",
+    "name": "上海第十七棉纺织总厂",
+    "initial_batch": 6,
+    "province": "上海市",
+    "city": null,
+    "industry_category_l1": "纺织工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51804656377891,
+     31.268770372931936
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-4fb2da7cf1f9",
+    "name": "上海闸北发电厂",
+    "initial_batch": 6,
+    "province": "上海市",
+    "city": null,
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.48505541281452,
+     31.39673475479575
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-a8745cd8a8c6",
+    "name": "上海大中华纱厂及华丰纱厂",
+    "initial_batch": 6,
+    "province": "上海市",
+    "city": null,
+    "industry_category_l1": "纺织工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     118.78052164248726,
+     32.031684107107836
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-57dc9be7a91b",
+    "name": "南京第二机床厂",
+    "initial_batch": 6,
+    "province": "江苏省",
+    "city": "南京市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.94330917242017,
+     31.778897157042124
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-9c35ee629ab8",
+    "name": "常州第二无线电厂",
+    "initial_batch": 6,
+    "province": "江苏省",
+    "city": "常州市",
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.34633445888647,
+     34.090346560036004
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-f30e5c0a5afe",
+    "name": "汤沟窖池群及酿酒作坊",
+    "initial_batch": 6,
+    "province": "江苏省",
+    "city": "连云港市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.66984556514296,
+     28.002618381991276
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b4f50d1000f0",
+    "name": "温州东屿电厂",
+    "initial_batch": 6,
+    "province": "浙江省",
+    "city": "温州市",
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.30498076572765,
+     26.05845929663242
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-d783e5fd8bb6",
+    "name": "福州电气股份有限公司",
+    "initial_batch": 6,
+    "province": "福建省",
+    "city": "福州市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.20920600367823,
+     29.291687504183933
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-59ce9f69e7e9",
+    "name": "景德镇陶瓷机械厂",
+    "initial_batch": 6,
+    "province": "江西省",
+    "city": "景德镇市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.0354517714415,
+     27.632798962338317
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b98407d04572",
+    "name": "萍乡电瓷厂",
+    "initial_batch": 6,
+    "province": "江西省",
+    "city": "萍乡市",
+    "industry_category_l1": "建材陶瓷",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.52655093004276,
+     24.74373264280293
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-091ba65f7b58",
+    "name": "大吉山钨矿",
+    "initial_batch": 6,
+    "province": "江西省",
+    "city": "赣州市",
+    "industry_category_l1": "金属与非金属采矿",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.40571124822628,
+     25.95485898336858
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-a19e7fab29a3",
+    "name": "中华钨矿公司",
+    "initial_batch": 6,
+    "province": "江西省",
+    "city": "赣州市",
+    "industry_category_l1": "金属与非金属采矿",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.39042593158834,
+     36.06886146217728
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-97172eeaa702",
+    "name": "青岛德国邮局",
+    "initial_batch": 6,
+    "province": "山东省",
+    "city": "青岛市",
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.55124499055341,
+     34.85497623424899
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-38557224269f",
+    "name": "中兴煤矿公司",
+    "initial_batch": 6,
+    "province": "山东省",
+    "city": "枣庄市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.21943339967166,
+     35.23957144840805
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-23c21caf5d67",
+    "name": "焦作电厂",
+    "initial_batch": 6,
+    "province": "河南省",
+    "city": "焦作市",
+    "industry_category_l1": "煤炭工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.39120439405245,
+     30.632659719025465
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-7eefab99baa1",
+    "name": "一米七轧机工程",
+    "initial_batch": 6,
+    "province": "湖北省",
+    "city": "武汉市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.6373679845366,
+     31.0581350679841
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-4343cf13a43c",
+    "name": "航天066导弹基地",
+    "initial_batch": 6,
+    "province": "湖北省",
+    "city": "宜昌市",
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.50124842342308,
+     27.657186836998513
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-1b8427336f63",
+    "name": "醴陵窑",
+    "initial_batch": 6,
+    "province": "湖南省",
+    "city": "株洲市",
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.27508749043983,
+     23.127409311084307
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-a327b9274cc2",
+    "name": "广州电业局旧址（华安楼）",
+    "initial_batch": 6,
+    "province": "广东省",
+    "city": "广州市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.9157853110286,
+     21.662686228072022
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-28c6cfc56d13",
+    "name": "茂名油页岩炼油厂",
+    "initial_batch": 6,
+    "province": "广东省",
+    "city": "茂名市",
+    "industry_category_l1": "石油天然气",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.5725332056563,
+     19.52034758094931
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-f21fefcea1df",
+    "name": "洋浦盐田",
+    "initial_batch": 6,
+    "province": "海南省",
+    "city": "儋州市",
+    "industry_category_l1": "金属与非金属采矿",
+    "geocode_quality": "city_fallback",
+    "geocode_precision": "city_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.45000713274415,
+     29.540152627408148
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-9aa1d8a47190",
+    "name": "220千伏凉亭变电站",
+    "initial_batch": 6,
+    "province": "重庆市",
+    "city": null,
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.80964195084016,
+     28.03906650047502
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-319153b31823",
+    "name": "郎酒酿酒作坊",
+    "initial_batch": 6,
+    "province": "四川省",
+    "city": "泸州市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.4663007426987,
+     26.55121436687578
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-506f1204434d",
+    "name": "红枫电厂猫跳河梯级电站",
+    "initial_batch": 6,
+    "province": "贵州省",
+    "city": "贵阳市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.48112385733481,
+     27.765227765659915
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-94539dd597c3",
+    "name": "湄潭中央实验茶场旧址",
+    "initial_batch": 6,
+    "province": "贵州省",
+    "city": "遵义市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     102.70429933943959,
+     25.025307648283018
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-fd9bf2c87ec1",
+    "name": "国营第三五六厂",
+    "initial_batch": 6,
+    "province": "云南省",
+    "city": "昆明市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     102.70429933943959,
+     25.025307648283018
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-dd9825ceea5e",
+    "name": "云南水泥厂立窑",
+    "initial_batch": 6,
+    "province": "云南省",
+    "city": "昆明市",
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.24012263921361,
+     25.593507689290014
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-e039599188d7",
+    "name": "云南省下关茶厂",
+    "initial_batch": 6,
+    "province": "云南省",
+    "city": "大理白族自治州",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.28054632922746,
+     39.861992999508814
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-f3140055ce81",
+    "name": "火箭总装厂",
+    "initial_batch": 7,
+    "province": "北京市",
+    "city": null,
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.28054632922746,
+     39.861992999508814
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-43df0a751fdc",
+    "name": "二七机车总组装厂房",
+    "initial_batch": 7,
+    "province": "北京市",
+    "city": null,
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.22945258286883,
+     40.216703495819495
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-20e39d3934fd",
+    "name": "京张制造厂",
+    "initial_batch": 7,
+    "province": "北京市",
+    "city": null,
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.54195140048182,
+     38.04575393413235
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-f3528018a835",
+    "name": "华北制药厂",
+    "initial_batch": 7,
+    "province": "河北省",
+    "city": "石家庄市",
+    "industry_category_l1": "医药化工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.13772200546866,
+     38.03160054647872
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-103c9cceb8e8",
+    "name": "3502被服总厂",
+    "initial_batch": 7,
+    "province": "河北省",
+    "city": "石家庄市",
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.69746720605667,
+     38.84581010207273
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b2a3afa6f83f",
+    "name": "吉兰泰盐场",
+    "initial_batch": 7,
+    "province": "内蒙古自治区",
+    "city": "阿拉善盟",
+    "industry_category_l1": "金属与非金属采矿",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.6912933717751,
+     40.8068158427336
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-3a4b1ed7ed51",
+    "name": "固体火箭发动机地面试验台",
+    "initial_batch": 7,
+    "province": "内蒙古自治区",
+    "city": "呼和浩特市",
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     123.34413208796097,
+     41.786151534417485
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-1d3f093e7777",
+    "name": "沈阳红梅味精厂旧址",
+    "initial_batch": 7,
+    "province": "辽宁省",
+    "city": "沈阳市",
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.63834179416946,
+     38.91970039188146
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-f0be2ff919d8",
+    "name": "大连市交通公司电车工厂",
+    "initial_batch": 7,
+    "province": "辽宁省",
+    "city": "大连市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     123.07336277551539,
+     41.214774693160486
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-ba98cfafdf36",
+    "name": "首山变电所",
+    "initial_batch": 7,
+    "province": "辽宁省",
+    "city": "辽阳市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     125.31745839973192,
+     43.8846910160891
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b70c3ba422ec",
+    "name": "第一汽车制造厂",
+    "initial_batch": 7,
+    "province": "吉林省",
+    "city": "长春市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "city_fallback",
+    "geocode_precision": "city_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.5545635780787,
+     43.814633565546345
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-c5049a9ad151",
+    "name": "丰满水电站",
+    "initial_batch": 7,
+    "province": "吉林省",
+    "city": "吉林市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     126.64554677158704,
+     45.75382843560094
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-bacbbae147a4",
+    "name": "中国人民解放军军事工程学院旧址",
+    "initial_batch": 7,
+    "province": "黑龙江省",
+    "city": "哈尔滨市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     129.46211730510967,
+     44.34458867751072
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-2e556b76ea68",
+    "name": "镜泊湖发电厂",
+    "initial_batch": 7,
+    "province": "黑龙江省",
+    "city": "牡丹江市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.21873036667799,
+     31.02860286497639
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-303332bd9067",
+    "name": "上海航天红旗楼建筑群",
+    "initial_batch": 7,
+    "province": "上海市",
+    "city": null,
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     119.81532121918609,
+     31.362395214752944
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-a213b4c33a07",
+    "name": "宜兴前墅龙窑",
+    "initial_batch": 7,
+    "province": "江苏省",
+    "city": "无锡市",
+    "industry_category_l1": "建材陶瓷",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.9374874055178,
+     30.520903384720413
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-a2582e08f2dd",
+    "name": "秦山核电站",
+    "initial_batch": 7,
+    "province": "浙江省",
+    "city": "嘉兴市",
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.04536505258389,
+     33.56522677964965
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-9753b7c48835",
+    "name": "3515皮革皮鞋厂",
+    "initial_batch": 7,
+    "province": "河南省",
+    "city": "漯河市",
+    "industry_category_l1": "铁路交通",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.26008576900142,
+     30.548003691045967
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-4c71d600d918",
+    "name": "武汉市健民制药厂",
+    "initial_batch": 7,
+    "province": "湖北省",
+    "city": "武汉市",
+    "industry_category_l1": "医药化工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.9447362418976,
+     27.08318561000506
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-8cbf658f4103",
+    "name": "核工业七一二矿",
+    "initial_batch": 7,
+    "province": "湖南省",
+    "city": "衡阳市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.21614129430779,
+     28.376847193540225
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-881fd798b50e",
+    "name": "湖南省白沙溪茶厂",
+    "initial_batch": 7,
+    "province": "湖南省",
+    "city": "益阳市",
+    "industry_category_l1": "电子通信",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.44501802591412,
+     23.10492130810727
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-01a80935ad07",
+    "name": "黄埔船厂",
+    "initial_batch": 7,
+    "province": "广东省",
+    "city": "广州市",
+    "industry_category_l1": "船舶工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.12579805789473,
+     24.35501864196301
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-39e992d68dac",
+    "name": "中核韶关铀矿",
+    "initial_batch": 7,
+    "province": "广东省",
+    "city": "韶关市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid_multi_district"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.47686416790683,
+     29.522494135985433
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-6de083a1e054",
+    "name": "重庆发电厂",
+    "initial_batch": 7,
+    "province": "重庆市",
+    "city": null,
+    "industry_category_l1": "电力能源",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.04899612273512,
+     30.629610047181007
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-2838912ef883",
+    "name": "国营锦江机器厂",
+    "initial_batch": 7,
+    "province": "四川省",
+    "city": "成都市",
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.19752269812523,
+     31.341381080659623
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-28722fd38208",
+    "name": "剑南春天益老号酒坊遗址及传统酿造区",
+    "initial_batch": 7,
+    "province": "四川省",
+    "city": "德阳市",
+    "industry_category_l1": "食品酿酒",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.75807286808576,
+     26.630892735657103
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-2497f59f9711",
+    "name": "新添光学仪器厂",
+    "initial_batch": 7,
+    "province": "贵州省",
+    "city": "贵阳市",
+    "industry_category_l1": "机械装备",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.93970011237498,
+     27.693980265075243
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-e0a47c3e0a6f",
+    "name": "中国航天061基地总部",
+    "initial_batch": 7,
+    "province": "贵州省",
+    "city": "遵义市",
+    "industry_category_l1": "核工业军工",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.60580426173229,
+     27.14334506220099
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-0de4bd0b1d94",
+    "name": "中国第一航空发动机制造厂旧址",
+    "initial_batch": 7,
+    "province": "贵州省",
+    "city": "毕节市",
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.95492842536888,
+     34.26770606887731
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-b0cbe6b026e9",
+    "name": "长安大华纺织厂",
+    "initial_batch": 7,
+    "province": "陕西省",
+    "city": "西安市",
+    "industry_category_l1": "纺织工业",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.52091985177609,
+     33.91071716972189
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-5b27256d19ad",
+    "name": "航天七一〇七厂黄牛埔旧址",
+    "initial_batch": 7,
+    "province": "陕西省",
+    "city": "宝鸡市",
+    "industry_category_l1": "航空航天",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.17128527983657,
+     36.54424698047781
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-e7d9ebb4153d",
+    "name": "白银有色金属公司",
+    "initial_batch": 7,
+    "province": "甘肃省",
+    "city": "白银市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  }
+ ]
+}

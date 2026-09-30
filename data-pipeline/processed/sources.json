@@ -1,0 +1,86 @@
+[
+ {
+  "source_id": "src-batch1",
+  "source_type": "government_document",
+  "title": "国家工业遗产名单（第一批）",
+  "publisher": "中华人民共和国工业和信息化部",
+  "authority_level": "A",
+  "origin_file": "7799881.xls",
+  "sha256": "8fbfba28354009fb6f9e0623ff30ec759012325d447509c1d7205fc67b8125ab",
+  "url": null,
+  "accessed_at": null,
+  "notes": "工作空间原始名单文件, 见 data-pipeline/raw/; url 待联网采集阶段补充"
+ },
+ {
+  "source_id": "src-batch2",
+  "source_type": "government_document",
+  "title": "国家工业遗产名单（第二批）",
+  "publisher": "中华人民共和国工业和信息化部",
+  "authority_level": "A",
+  "origin_file": "7799405.pdf",
+  "sha256": "ffa074aa4786130fa9a87060dafe488f8ccf655a9a934312dc89621baa070e0b",
+  "url": null,
+  "accessed_at": null,
+  "notes": "工作空间原始名单文件, 见 data-pipeline/raw/; url 待联网采集阶段补充"
+ },
+ {
+  "source_id": "src-batch3",
+  "source_type": "government_document",
+  "title": "国家工业遗产名单（第三批）",
+  "publisher": "中华人民共和国工业和信息化部",
+  "authority_level": "A",
+  "origin_file": "7576103.pdf",
+  "sha256": "419f73c1a7f6e3830bcad083cac100a3faae577fe65fd52d22856c3dbcae88c4",
+  "url": null,
+  "accessed_at": null,
+  "notes": "工作空间原始名单文件, 见 data-pipeline/raw/; url 待联网采集阶段补充"
+ },
+ {
+  "source_id": "src-batch4",
+  "source_type": "government_document",
+  "title": "国家工业遗产名单（第四批）",
+  "publisher": "中华人民共和国工业和信息化部",
+  "authority_level": "A",
+  "origin_file": "国家工业遗产名单（第四批）.docx",
+  "sha256": "5426744b20e9363e73f2d60827280edf6bd12a5b1f9c97c3ab386677d4574491",
+  "url": null,
+  "accessed_at": null,
+  "notes": "工作空间原始名单文件, 见 data-pipeline/raw/; url 待联网采集阶段补充"
+ },
+ {
+  "source_id": "src-batch5",
+  "source_type": "government_document",
+  "title": "国家工业遗产名单（第五批）",
+  "publisher": "中华人民共和国工业和信息化部",
+  "authority_level": "A",
+  "origin_file": "ec7698fcea41463885cd22e31943d9db.pdf",
+  "sha256": "e562ffb6054142d8cfde983140af36d41ee0129094d94a6fcb4076990fda1aab",
+  "url": null,
+  "accessed_at": null,
+  "notes": "工作空间原始名单文件, 见 data-pipeline/raw/; url 待联网采集阶段补充"
+ },
+ {
+  "source_id": "src-batch6",
+  "source_type": "government_document",
+  "title": "第六批国家工业遗产名单",
+  "publisher": "中华人民共和国工业和信息化部",
+  "authority_level": "A",
+  "origin_file": "907087582fcb435c9f2ab3e828162f61.pdf",
+  "sha256": "13e840b539d5d269ad1e31fc4f99a012a375e8a617310e74581c660281a0f571",
+  "url": null,
+  "accessed_at": null,
+  "notes": "工作空间原始名单文件, 见 data-pipeline/raw/; url 待联网采集阶段补充"
+ },
+ {
+  "source_id": "src-batch7",
+  "source_type": "government_document",
+  "title": "第七批国家工业遗产名单",
+  "publisher": "中华人民共和国工业和信息化部",
+  "authority_level": "A",
+  "origin_file": "e3061bbc941c419c9413f8ac35678a8f.pdf",
+  "sha256": "29f66efafc0daff9d9c01a9b28e263a1c4088d5bd678ebc3103cd6393d931da0",
+  "url": null,
+  "accessed_at": null,
+  "notes": "工作空间原始名单文件, 见 data-pipeline/raw/; url 待联网采集阶段补充"
+ }
+]

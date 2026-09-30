@@ -1,0 +1,52 @@
+{
+ "data_version": "v1.0.0",
+ "raw_rows": 264,
+ "records": 263,
+ "auto_merged": [
+  {
+   "canonical": "北京卫星制造厂",
+   "province": "北京市",
+   "merged_batch": 4,
+   "merged_no": 62,
+   "rule": "same_normalized_name_and_province"
+  }
+ ],
+ "duplicate_candidates": [
+  {
+   "a": "b4#20 双沟老窖池群及酿酒作坊",
+   "b": "b6#15 汤沟窖池群及酿酒作坊",
+   "province": "江苏省",
+   "similarity": 0.857,
+   "action": "flag_only_not_merged"
+  }
+ ],
+ "geocoding": {
+  "total": 263,
+  "exact_district": 253,
+  "fuzzy_district": 2,
+  "city_fallback": 7,
+  "province_fallback": 1,
+  "failed": 0
+ },
+ "industry_freq": {
+  "食品酿酒": 35,
+  "冶金": 20,
+  "船舶工业": 4,
+  "建材陶瓷": 10,
+  "金属与非金属采矿": 15,
+  "煤炭工业": 20,
+  "纺织工业": 7,
+  "电子通信": 17,
+  "电力能源": 28,
+  "航空航天": 19,
+  "核工业军工": 20,
+  "铁路交通": 19,
+  "石油天然气": 13,
+  "医药化工": 8,
+  "轻工业": 8,
+  "机械装备": 20
+ },
+ "needs_review_geo": 19,
+ "needs_review_classification": 0,
+ "completeness_avg": 98.2
+}
