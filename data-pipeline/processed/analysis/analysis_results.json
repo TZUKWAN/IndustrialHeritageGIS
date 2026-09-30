@@ -1,0 +1,25 @@
+{
+ "data_version": "v1.0.0",
+ "algorithm_version": "heritage-analysis-v1",
+ "created_at": "2026-09-30T19:44:31+00:00",
+ "crs_input": "EPSG:4326 (WGS84)",
+ "crs_analysis": "Albers_Con Equal_Area (lon_0=105, lat_1=25, lat_2=47, Krasovsky ellipsoid)",
+ "projection_params": {
+  "lon_0": 105.0,
+  "lat_1": 25.0,
+  "lat_2": 47.0,
+  "ellipsoid": "Krassovsky 1940 (a=6378245, e2≈0.0066934)"
+ },
+ "inputs": [
+  "processed/heritage_sites.geojson (WGS84)"
+ ],
+ "outputs": [
+  "kde_raster.png",
+  "ann_stats.json",
+  "moran_stats.json",
+  "province_stats.json",
+  "province_boundaries.geojson",
+  "batch_stats.json"
+ ],
+ "reproducibility": "重跑 data-pipeline/scripts/analysis.py 即可复现全部结果"
+}

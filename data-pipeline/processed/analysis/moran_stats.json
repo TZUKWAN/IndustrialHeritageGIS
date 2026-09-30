@@ -1,0 +1,21 @@
+{
+ "analysis_id": "moran_province_count_v1",
+ "analysis_type": "global_morans_i",
+ "data_version": "v1.0.0",
+ "algorithm_version": "heritage-analysis-v1",
+ "unit": "province",
+ "variable": "heritage_count",
+ "weights": "KNN k=4 (row-standardized binary)",
+ "crs_note": "邻接关系基于省会/省级中心点 KNN, 非面邻接",
+ "result": {
+  "I": 0.0132,
+  "E_I": -0.0333,
+  "z_value": 0.43,
+  "variance": 0.011721,
+  "n_units": 31,
+  "weights": "KNN k=4 (row-standardized binary)"
+ },
+ "created_at": "2026-09-30T19:44:31+00:00",
+ "interpretation_note": "未发现显著空间自相关",
+ "limitation": "全局指数, 不能定位局部聚集区; 变量为计数, 受省域面积影响"
+}
