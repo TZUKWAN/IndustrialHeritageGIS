@@ -43,7 +43,7 @@ import { useSettingsStore } from '@/stores/settingsStore'
 import { useViewStore, type ViewTab } from '@/stores/viewStore'
 import { useScriptRunner, type OutputChunk } from './useScriptRunner'
 
-const DEFAULT_SCRIPT = `# OpenGIS Script Runner
+const DEFAULT_SCRIPT = `# 工业文化遗产GIS智能体 脚本运行器
 # ----------------------------------------------------------------------
 # This script runs in the same subprocess sandbox that the AI agent uses.
 # All registered tools are available as top-level functions.

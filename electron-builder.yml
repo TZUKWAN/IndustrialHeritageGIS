@@ -1,5 +1,5 @@
 appId: com.opengis.desktop
-productName: OpenGIS
+productName: 工业文化遗产GIS智能体
 directories:
   buildResources: resources
   output: dist
@@ -29,7 +29,7 @@ win:
     - nsis
     - portable
   icon: resources/icons/app-icon.png
-  artifactName: "${productName}-${version}-win-${arch}.${ext}"
+  artifactName: "IndustrialHeritageGIS-${version}-win-${arch}.${ext}"
 
 nsis:
   oneClick: false
@@ -43,7 +43,7 @@ mac:
   # 1254×1254 PNG，electron-builder 会在打包阶段自动转成 .icns。
   icon: resources/icons/app-icon.png
   category: public.app-category.developer-tools
-  artifactName: "${productName}-${version}-mac-${arch}.${ext}"
+  artifactName: "IndustrialHeritageGIS-${version}-mac-${arch}.${ext}"
   # 暂未配置代码签名 / 公证：未签名 .dmg 在 macOS 12+ 首次打开
   # 需用户右键→打开。正式发版前需补 identity + notarize。
 
@@ -67,4 +67,4 @@ linux:
     - deb
   icon: resources/icons/app-icon.png
   category: Science
-  artifactName: "${productName}-${version}-linux-${arch}.${ext}"
+  artifactName: "IndustrialHeritageGIS-${version}-linux-${arch}.${ext}"

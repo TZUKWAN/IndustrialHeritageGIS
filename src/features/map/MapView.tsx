@@ -455,10 +455,10 @@ export function MapView({
       {/* Map overlay controls */}
       {showControls && (
       <div className="absolute top-3 left-3 z-10 flex items-center gap-2">
-        <div className="glass rounded-lg px-3 py-1.5 text-xs text-text-secondary">
-          <span className="text-accent-geo font-display font-semibold">OpenGIS</span>
+        <div className="glass rounded-lg px-3 py-1.5 text-xs text-text-secondary flex items-center max-w-[calc(100%_-_140px)]">
+          <span className="text-accent-geo font-display font-semibold whitespace-nowrap text-[11px]">工业文化遗产GIS智能体</span>
           <span className="mx-2 text-border">|</span>
-          <span>{layers.length} layer{layers.length !== 1 ? 's' : ''}</span>
+          <span className="whitespace-nowrap">{layers.length} layer{layers.length !== 1 ? 's' : ''}</span>
         </div>
 
         {/* Basemap toggle */}

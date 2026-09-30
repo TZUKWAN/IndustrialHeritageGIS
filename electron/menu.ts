@@ -32,7 +32,7 @@ export function createMenu(mainWindow: BrowserWindow): void {
       label: 'File',
       submenu: [
         {
-          label: 'Open GIS File...',
+          label: '打开文件...',
           accelerator: 'CmdOrCtrl+O',
           click: () => {
             mainWindow.webContents.send('menu:open-file')

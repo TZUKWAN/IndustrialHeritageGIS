@@ -82,7 +82,7 @@ export default function OrbLogo({ size = 80 }: { size?: number }) {
       {/* Logo */}
       <img
         src={logoImg}
-        alt="OpenGIS"
+        alt="工业文化遗产GIS智能体"
         className="relative z-[2] rounded-2xl"
         style={{ width: size, height: size, objectFit: 'contain' }}
       />

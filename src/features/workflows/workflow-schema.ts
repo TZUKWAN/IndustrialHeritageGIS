@@ -196,7 +196,7 @@ export function parseWorkflow(raw: string, fallbackName = 'Untitled'): Workflow 
     obj.schemaVersion = WORKFLOW_SCHEMA_VERSION
   } else if (version > WORKFLOW_SCHEMA_VERSION) {
     throw new Error(
-      `Workflow was saved by a newer version of OpenGIS (schema v${version}). ` +
+      `此工作流由更新版本的工业文化遗产GIS智能体保存 (schema v${version}). ` +
       `Please upgrade.`
     )
   }
