@@ -15,7 +15,7 @@
   "n_units": 31,
   "weights": "KNN k=4 (row-standardized binary)"
  },
- "created_at": "2026-09-30T20:01:56+00:00",
+ "created_at": "2026-09-30T21:27:09+00:00",
  "interpretation_note": "未发现显著空间自相关",
  "limitation": "全局指数, 不能定位局部聚集区; 变量为计数, 受省域面积影响"
 }

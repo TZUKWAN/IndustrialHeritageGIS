@@ -262,3 +262,40 @@ class TestDataRegression:
     def test_sources_complete(self, sites):
         for s in sites:
             assert s['source_ids'], s['name']
+
+
+# ---------------------------------------------------------------- 第2轮: 边界与对抗
+class TestEdgeCases:
+    def test_parse_address_garbage(self):
+        p, c, d = parse_address('火星基地')
+        assert p is None
+
+    def test_parse_address_empty(self):
+        p, c, d = parse_address('')
+        assert p is None and c is None and d == []
+
+    def test_gcj02_boundary_cases(self):
+        # 国界附近不崩溃
+        gcj02_to_wgs84(135.0, 53.5)
+        gcj02_to_wgs84(74.0, 40.0)
+
+    def test_stable_id_unicode_safe(self):
+        a = stable_id('抚顺西露天矿', '辽宁省', 3)
+        b = stable_id('抚顺西露天矿 ', '辽宁省', 3)  # 尾随空格会改变ID(按设计: 名称先清洗)
+        assert a != b
+
+    def test_kde_single_cell_extent(self):
+        pts = np.array([[0.0, 0.0]])
+        grid, extent, bw = compute_kde(pts, cell_m=10000.0, bandwidth_m=50000.0)
+        assert grid.shape[0] > 0 and grid.shape[1] > 0
+        assert float(grid.sum()) > 0
+
+    def test_moran_uniform_values_zero_variance(self):
+        # 全相同值 -> 方差为0, 指数未定义: 应安全返回 I=None 而非崩溃
+        coords = [(i * 10.0, j * 10.0) for i in range(4) for j in range(4)]
+        res = morans_i([5.0] * 16, coords, k=3)
+        assert res['I'] is None
+        assert 'zero variance' in res.get('note', '')
+
+    def test_dp_two_points(self):
+        assert len(douglas_peucker([(0, 0), (1, 1)], 0.1)) == 2

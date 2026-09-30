@@ -1,3 +1,51 @@
+
+---
+
+## 工业文化遗产GIS智能体（基于 OpenGIS 的行业改造版）
+
+> 本仓库在 OpenGIS 之上构建了面向**中国国家工业遗产（第 1—7 批，263 处）**的完整 GIS 应用，
+> 用户可见产品名为【工业文化遗产GIS智能体】。上游 OpenGIS 的全部能力（地图、图层、Agent、制版等）保持可用，
+> MIT 许可与上游署名完整保留。
+
+### 快速体验（遗产功能）
+
+```bash
+npm install
+npm run dev:electron        # 桌面应用(首次会自动安装 Python 后端依赖)
+# 或纯浏览器模式: npm run dev  → http://localhost:5173
+```
+
+- 左侧栏【工业遗产】面板：批次/省份/行业/历史时期/资料状态筛选、检索、列表定位。
+- 地图：263 处遗产点位（按行业着色）、省级行政区统计、核密度(KDE) 分析图层。
+- 点击点位 → 详情抽屉：概览 / 历史故事 / 时间线 / 核心物项 / 关系与谱系 / 资料来源(A–D 分级, 可点击溯源) / 数据质量。
+- 底部时间轴：【形成时间】(已核实始建/投产年份) 与【认定时间】(工信部公布年份) 双维度回放。
+- 聊天：在设置中配置 OpenRouter/OpenAI 兼容服务后，Agent 可调用 `heritage_data` 工具基于本地数据集回答问题（如"第三批里有哪些煤炭类遗产？"）。
+
+### 遗产相关文档
+
+| 文档 | 内容 |
+|---|---|
+| [docs/DATA_DICTIONARY.md](docs/DATA_DICTIONARY.md) | 主表/事件/关系/来源/档案字段与坐标系统 |
+| [docs/DATA_PROVENANCE.md](docs/DATA_PROVENANCE.md) | 7 批名单原件指纹、处理链、来源分级、已知数据边界 |
+| [docs/ANALYSIS_METHODS.md](docs/ANALYSIS_METHODS.md) | KDE/ANN/Moran's I 参数与解释边界 |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | 新增模块与数据流 |
+| [docs/TEST_REPORT.md](docs/TEST_REPORT.md) | 五轮测试记录与最终门禁 |
+| [docs/IMPLEMENTATION_SUMMARY.md](docs/IMPLEMENTATION_SUMMARY.md) | 按阶段实施摘要 |
+
+### 数据再生产
+
+```bash
+python data-pipeline/scripts/parse_raw.py        # 原件 → interim
+python data-pipeline/scripts/fetch_admin.py      # 行政区划索引(有磁盘缓存)
+python data-pipeline/scripts/normalize.py        # 清洗+地理编码+质检报告
+python data-pipeline/scripts/analysis.py         # KDE/ANN/Moran/统计
+python data-pipeline/scripts/build_enrichment.py # 史实+认定事件合并
+python data-pipeline/scripts/export_frontend.py  # 打包前端/后端数据
+python -m pytest data-pipeline/tests -q          # 47 项数据/算法测试
+```
+
+---
+
 <p align="center">
   <img src="resources/icons/app-icon.png" alt="OpenGIS" width="120" />
 </p>
