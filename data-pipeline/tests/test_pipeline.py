@@ -19,8 +19,8 @@ sys.path.insert(0, SCRIPTS)
 
 from normalize import (gcj02_to_wgs84, stable_id, parse_address, match_admin,
                        classify_industry, classify_core_items)  # noqa: E402
-from analysis import (project, project_array, douglas_peucker, compute_kde,
-                      average_nearest_neighbor, morans_i)  # noqa: E402
+from analysis import (project, project_array, inv_project, douglas_peucker,
+                      compute_kde, average_nearest_neighbor, morans_i)  # noqa: E402
 
 
 # ---------------------------------------------------------------- 坐标转换
@@ -150,6 +150,15 @@ class TestProjection:
         x, y = project_array([74, 134], [20, 52])
         assert 3e6 < abs(x[1] - x[0]) < 7e6
         assert 2e6 < abs(y[1] - y[0]) < 6e6
+
+    def test_roundtrip(self):
+        # Albers 正逆投影往返误差 < 1e-8 度(全国范围样本)
+        for lon, lat in [(116.4, 39.9), (121.5, 31.2), (87.5, 43.8),
+                         (108.9, 34.3), (126.6, 45.7), (104.0, 30.6)]:
+            x, y = project(lon, lat)
+            lo, la = inv_project(x, y)
+            assert abs(lo - lon) < 1e-8, (lon, lat, lo)
+            assert abs(la - lat) < 1e-8, (lon, lat, la)
 
 
 class TestDouglasPeucker:

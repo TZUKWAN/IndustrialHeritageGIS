@@ -1,0 +1,81 @@
+{
+ "batches": [
+  {
+   "batch": 1,
+   "title": "国家工业遗产名单（第一批）",
+   "announcement_date": "2017-12-22",
+   "date_precision": "day",
+   "url": "https://www.miit.gov.cn/jgsj/zfs/gzdt/art/2020/art_115692bf444d448db1cacf2f8ddb0465.html",
+   "url_org": "工业和信息化部",
+   "doc_number": "工信部产业函〔2017〕589号",
+   "accessed_at": "2026-10-01",
+   "conflict_note": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
+  },
+  {
+   "batch": 2,
+   "title": "国家工业遗产名单（第二批）",
+   "announcement_date": "2018-11-21",
+   "date_precision": "day",
+   "url": "https://wap.miit.gov.cn/jgsj/zfs/gywh/art/2020/art_ee3889957a914ec0badcfc0d7cca7134.html",
+   "url_org": "工业和信息化部（官网移动版）",
+   "doc_number": "工信部产业函〔2018〕417号",
+   "accessed_at": "2026-10-01",
+   "conflict_note": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+  },
+  {
+   "batch": 3,
+   "title": "国家工业遗产名单（第三批）",
+   "announcement_date": "2019-12-19",
+   "date_precision": "day",
+   "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tg/art/2020/art_f0218af351e44c599f6a56c0e71c2cfb.html",
+   "url_org": "工业和信息化部",
+   "doc_number": "工信部产业函〔2019〕403号",
+   "accessed_at": "2026-10-01",
+   "conflict_note": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+  },
+  {
+   "batch": 4,
+   "title": "国家工业遗产名单（第四批）",
+   "announcement_date": "2020-12-24",
+   "date_precision": "day",
+   "url": "https://www.miit.gov.cn/jgsj/zfs/gywh/art/2020/art_dd963681daba4268baf072aa27109d37.html",
+   "url_org": "工业和信息化部",
+   "doc_number": "工信部政法函〔2020〕348号",
+   "accessed_at": "2026-10-01",
+   "conflict_note": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+  },
+  {
+   "batch": 5,
+   "title": "国家工业遗产名单（第五批）",
+   "announcement_date": "2021-12-13",
+   "date_precision": "day",
+   "url": "https://wap.miit.gov.cn/zwgk/zcwj/wjfb/tg/art/2021/art_8b45289012b8445c8c1b146c728acd1b.html",
+   "url_org": "工业和信息化部（官网移动版）",
+   "doc_number": "工信部政法函〔2021〕332号",
+   "accessed_at": "2026-10-01",
+   "conflict_note": "成文2021-11-30，发布2021-12-13。"
+  },
+  {
+   "batch": 6,
+   "title": "第六批国家工业遗产名单（含通过复核的第一批、第二批名单）",
+   "announcement_date": "2024-10-23",
+   "date_precision": "day",
+   "url": "https://www.miit.gov.cn/jgsj/zfs/gzdt/art/2024/art_46a8ba5d8aa94c23910407471107a2bf.html",
+   "url_org": "工业和信息化部",
+   "doc_number": "工信部政法函〔2024〕301号",
+   "accessed_at": "2026-10-01",
+   "conflict_note": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+  },
+  {
+   "batch": 7,
+   "title": "第七批国家工业遗产名单（含通过复核的第三批名单）",
+   "announcement_date": "2025-10-22",
+   "date_precision": "day",
+   "url": "https://www.miit.gov.cn/jgsj/zfs/wjfb/art/2025/art_d74121666fff4dedbf5b0cbb08c83e73.html",
+   "url_org": "工业和信息化部",
+   "doc_number": "工信部政法函〔2025〕273号",
+   "accessed_at": "2026-10-01",
+   "conflict_note": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+  }
+ ]
+}

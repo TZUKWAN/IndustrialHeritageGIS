@@ -1,0 +1,1442 @@
+[
+ {
+  "heritage_id": "HER-f578fba063bf",
+  "name": "葛洲坝水利枢纽",
+  "founded_year": {
+   "value": 1970,
+   "date_precision": "year",
+   "source_idxs": [
+    0,
+    1,
+    2
+   ]
+  },
+  "production_start_year": {
+   "value": 1981,
+   "date_precision": "year",
+   "source_idxs": [
+    0,
+    2
+   ]
+  },
+  "closure_year": null,
+  "current_use": "由中国长江三峡集团运行管理，仍在发电、通航（2021年通航船舶208万余艘、货运量6.29亿吨）",
+  "events": [
+   {
+    "date_start": "1970-12-25",
+    "date_end": "1970-12-26",
+    "date_precision": "exact_date",
+    "event_type": "创建/筹建",
+    "title": "中共中央批准兴建，毛泽东批示赞成",
+    "description": "中共中央批准兴建长江葛洲坝水利枢纽工程，毛泽东批示'赞成兴建此坝'，并预言兴建中需准备修改设计。",
+    "place_name": "湖北省宜昌市",
+    "related_people": [
+     "毛泽东",
+     "周恩来"
+    ],
+    "related_orgs": [],
+    "source_idxs": [
+     0,
+     1,
+     3
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "共产党员网载12月25日中共中央批准；维基/葛洲坝集团载毛泽东12月26日批示"
+   },
+   {
+    "date_start": "1970-12-30",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "开工",
+    "title": "开工典礼举行，工程代号'330'",
+    "description": "8万军民在宜昌市郊绵羊洞河滩举行开工典礼，张体学任指挥长奠基；代号'330'纪念毛泽东1958年3月30日视察三峡坝址。",
+    "place_name": "湖北省宜昌市",
+    "related_people": [
+     "张体学"
+    ],
+    "related_orgs": [
+     "三三〇工程指挥部"
+    ],
+    "source_idxs": [
+     0,
+     1,
+     2
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1972",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "停工",
+    "title": "停工修改设计",
+    "description": "因混凝土浇筑等质量问题，周恩来抱病主持国务院会议决定停工修改设计，成立以林一山为首的葛洲坝工程技术委员会。",
+    "place_name": "湖北省宜昌市",
+    "related_people": [
+     "周恩来",
+     "林一山"
+    ],
+    "related_orgs": [
+     "葛洲坝工程技术委员会"
+    ],
+    "source_idxs": [
+     0,
+     2
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "维基载11月21日决定；新华网笼统称1972年底"
+   },
+   {
+    "date_start": "1974-10-20",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "复工",
+    "title": "主体工程复工",
+    "description": "国务院批准修改初步设计，总装机调整为271.5万千瓦，10月20日主体工程复工，一期（二江、三江）先行建设。",
+    "place_name": "湖北省宜昌市",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0,
+     2
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1981-01-04",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "截流",
+    "title": "大江截流胜利合龙",
+    "description": "1月3日7时30分开始进占，1月4日19时50分大江截流合龙，历时36小时23分，实现人类首次横锁长江。",
+    "place_name": "湖北省宜昌市",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0,
+     1,
+     3
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1981",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "投产/发电",
+    "title": "开始通航发电",
+    "description": "6月27日2号船闸试航成功；7月30日二江电厂1号17万千瓦机组并网试发电，枢纽开始发挥效益，一期工程当年基本建成。",
+    "place_name": "湖北省宜昌市",
+    "related_people": [],
+    "related_orgs": [
+     "葛洲坝水力发电厂"
+    ],
+    "source_idxs": [
+     0,
+     2
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1988",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "全面建成",
+    "title": "最后一台机组并网，工程全部建成",
+    "description": "大江电厂21号（最后一台）机组并网发电，271.5万千瓦21台机组全面投产；1989年1月3日宣布建成，1991年11月通过国家竣工验收。",
+    "place_name": "湖北省宜昌市",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0,
+     1,
+     2
+    ],
+    "confidence": "high",
+    "disputed": true,
+    "notes": "并网日期两说：维基葛洲坝词条载1988年12月6日，新华网与葛洲坝集团官网载12月10日"
+   },
+   {
+    "date_start": "2020",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "遗产认定",
+    "title": "入选第四批国家工业遗产",
+    "description": "工信部公布第四批国家工业遗产名单，葛洲坝水利枢纽（宜昌市西陵区）入选，核心物项含三线船闸、二江/大江电站、泄水冲沙闸等。",
+    "place_name": "湖北省宜昌市西陵区",
+    "related_people": [],
+    "related_orgs": [
+     "工业和信息化部"
+    ],
+    "source_idxs": [
+     4
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "维基名单载2020年12月17日公布"
+   }
+  ],
+  "people": [
+   {
+    "name": "毛泽东",
+    "role": "批示'赞成兴建此坝'，工程决策者",
+    "source_idxs": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "name": "周恩来",
+    "role": "主持中央批准与停工修改设计决策",
+    "source_idxs": [
+     0,
+     2
+    ]
+   },
+   {
+    "name": "张体学",
+    "role": "开工典礼指挥长、湖北省革委会负责人",
+    "source_idxs": [
+     0
+    ]
+   },
+   {
+    "name": "林一山",
+    "role": "葛洲坝工程技术委员会牵头人（长办）",
+    "source_idxs": [
+     0
+    ]
+   },
+   {
+    "name": "文伏波",
+    "role": "工程设计负责人",
+    "source_idxs": [
+     0
+    ]
+   }
+  ],
+  "relations": [
+   {
+    "relation_type": "关联工程",
+    "target_entity": "三峡工程",
+    "description": "葛洲坝是三峡工程的航运反调节梯级和组成部分；1996年起电厂由中国三峡总公司直管。",
+    "source_idxs": [
+     0
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "战备用电",
+    "target_entity": "大三线战备建设项目",
+    "description": "1970年兴建报告提出葛洲坝为湘西、鄂西、豫西、川东等大三线国家重点战备建设项目生产用电。",
+    "source_idxs": [
+     0
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "设备研制",
+    "target_entity": "东方电机厂、哈尔滨电机厂、武汉汽轮发电机厂",
+    "description": "17万千瓦转桨式水轮发电机组由东方电机厂牵头，三厂共同承担设计制造。",
+    "source_idxs": [
+     0
+    ],
+    "inferred": false
+   }
+  ],
+  "historical_period_tags": [
+   "三线建设",
+   "改革开放后"
+  ],
+  "sources": [
+   {
+    "title": "葛洲坝水利枢纽 - 维基百科",
+    "org": "维基百科",
+    "url": "https://zh.wikipedia.org/wiki/%E8%91%9B%E6%B4%B2%E5%9D%9D%E6%B0%B4%E5%88%A9%E6%9E%A2%E7%BA%BD",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   },
+   {
+    "title": "中国葛洲坝集团有限公司 历史沿革",
+    "org": "中国葛洲坝集团",
+    "url": "http://www.cggc.cn/col/col48686/",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "enterprise"
+   },
+   {
+    "title": "【百个瞬间说百年】1970，万里长江第一坝",
+    "org": "新华网",
+    "url": "https://www.xinhuanet.com/politics/2021-06/23/c_1211212462.htm",
+    "pub_date": "2021-06",
+    "authority": "C",
+    "source_type": "news"
+   },
+   {
+    "title": "百年瞬间｜中共中央批准兴建长江葛洲坝水利枢纽工程",
+    "org": "共产党员网(12371.cn)",
+    "url": "https://www.12371.cn/2021/12/27/VIDE1640590087369916.shtml",
+    "pub_date": "2021-12",
+    "authority": "A",
+    "source_type": "news"
+   },
+   {
+    "title": "国家工业遗产 - 维基百科",
+    "org": "维基百科",
+    "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   }
+  ]
+ },
+ {
+  "heritage_id": "HER-2d4a65e4fe70",
+  "name": "狮子滩梯级水电站枢纽",
+  "founded_year": {
+   "value": 1954,
+   "date_precision": "year",
+   "source_idxs": [
+    0,
+    1
+   ]
+  },
+  "production_start_year": {
+   "value": 1956,
+   "date_precision": "year",
+   "source_idxs": [
+    0,
+    1
+   ]
+  },
+  "closure_year": null,
+  "current_use": "电站至今仍在正常运行发电，建有狮子滩水电文化展厅与水电实体博物馆，开展研学与红色文旅",
+  "events": [
+   {
+    "date_start": "1930",
+    "date_end": null,
+    "date_precision": "decade",
+    "event_type": "前期规划",
+    "title": "国民政府资源委员会规划龙溪河开发",
+    "description": "抗战时期重庆用电激增，国民政府资源委员会于20世纪30年代末开始对龙溪河流域进行水电开发规划，拟建四级电站。",
+    "place_name": "重庆市长寿区",
+    "related_people": [],
+    "related_orgs": [
+     "国民政府资源委员会"
+    ],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "medium",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1953",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "国家计划立项",
+    "title": "列入'一五'计划156项重点工程",
+    "description": "龙溪河全流域梯级开发列入第一个五年计划156项重点建设工程，规划狮子滩、上硐、回龙寨、下硐四级电站。",
+    "place_name": "重庆市长寿区",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1954-08-01",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "开工",
+    "title": "狮子滩水电站主体工程动工",
+    "description": "黄育贤、吴震寰、张光斗、李鹗鼎等第一代水电专家与全国近4万名建设者参与建设，为当时西南最大水电站。",
+    "place_name": "重庆市长寿区",
+    "related_people": [
+     "黄育贤",
+     "吴震寰",
+     "张光斗",
+     "李鹗鼎"
+    ],
+    "related_orgs": [],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "澎湃原文人名作'李鄂鼎'，人民日报报道作'李鹗鼎'"
+   },
+   {
+    "date_start": "1956",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "投产/发电",
+    "title": "水库蓄水、机组相继发电",
+    "description": "1956年8月人民日报报道狮子滩水库开始蓄水；10月1日起狮子滩电站机组相继建成发电。",
+    "place_name": "重庆市长寿区",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1957",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "全部投产",
+    "title": "四台机组全部投产",
+    "description": "全部四台机组投产，为'一五'期间依靠本国力量设计、施工、安装的第一座中型水电站；蓄水形成西南最大人工淡水湖长寿湖。",
+    "place_name": "重庆市长寿区",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1958-03-05",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "视察题词",
+    "title": "周恩来视察狮子滩并题词",
+    "description": "周恩来视察狮子滩，题词'为综合利用四川水力资源树立榜样，为全面发展四川经济开辟道路'。",
+    "place_name": "重庆市长寿区",
+    "related_people": [
+     "周恩来"
+    ],
+    "related_orgs": [],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1959",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "梯级建成",
+    "title": "龙溪河四级电站竣工",
+    "description": "狮子滩、上硐、回龙寨、下硐四级电站全部竣工，龙溪河成为我国第一条完成梯级开发的河流，显著缓解重庆用电紧张。",
+    "place_name": "重庆市长寿区",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "2020",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "遗产认定",
+    "title": "入选第四批国家工业遗产",
+    "description": "工信部公布第四批国家工业遗产名单，狮子滩梯级水电站枢纽入选，核心物项含大坝、厂房、发电设备及上硐、回龙寨、下硐梯级。",
+    "place_name": "重庆市长寿区",
+    "related_people": [],
+    "related_orgs": [
+     "工业和信息化部"
+    ],
+    "source_idxs": [
+     1,
+     2
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   }
+  ],
+  "people": [
+   {
+    "name": "黄育贤",
+    "role": "主持建设的新中国第一代水电专家",
+    "source_idxs": [
+     0
+    ]
+   },
+   {
+    "name": "吴震寰",
+    "role": "建设专家",
+    "source_idxs": [
+     0
+    ]
+   },
+   {
+    "name": "张光斗",
+    "role": "参与建设的水电专家",
+    "source_idxs": [
+     0
+    ]
+   },
+   {
+    "name": "李鹗鼎",
+    "role": "参与建设的水电专家（后为著名水电工程专家）",
+    "source_idxs": [
+     0,
+     1
+    ]
+   },
+   {
+    "name": "周恩来",
+    "role": "1958年3月5日视察并题词",
+    "source_idxs": [
+     0
+    ]
+   }
+  ],
+  "relations": [
+   {
+    "relation_type": "国家计划",
+    "target_entity": "'一五'计划156项重点工程",
+    "description": "1953年龙溪河梯级开发列入第一个五年计划156项重点建设工程之一。",
+    "source_idxs": [
+     0,
+     1
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "建设模式",
+    "target_entity": "中国自主设计施工",
+    "description": "为'一五'期间依靠自身力量设计、施工、安装的第一座中型水电站，'南有狮子滩，北有小丰满'。",
+    "source_idxs": [
+     0
+    ],
+    "inferred": false
+   }
+  ],
+  "historical_period_tags": [
+   "民国时期",
+   "一五二五时期"
+  ],
+  "sources": [
+   {
+    "title": "了不起！这座水电站全靠自己设计、施工、安装",
+    "org": "澎湃新闻（中国水事，综合重庆日报、中国电力报等）",
+    "url": "https://www.thepaper.cn/newsDetail_forward_26344202",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "news"
+   },
+   {
+    "title": "重庆龙溪河，为何能成大国水电'第一梯'（人民日报2025-02-22第7版）",
+    "org": "人民日报中央厨房（网易号转载）",
+    "url": "https://www.163.com/dy/article/JP3M4NLU0530MKMJ.html",
+    "pub_date": "2025-02",
+    "authority": "C",
+    "source_type": "news"
+   },
+   {
+    "title": "国家工业遗产 - 维基百科",
+    "org": "维基百科",
+    "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   }
+  ]
+ },
+ {
+  "heritage_id": "HER-5a8b0b6d7da7",
+  "name": "首钢石景山厂区",
+  "founded_year": {
+   "value": 1919,
+   "date_precision": "year",
+   "source_idxs": [
+    0,
+    2
+   ]
+  },
+  "production_start_year": null,
+  "closure_year": {
+   "value": 2011,
+   "date_precision": "year",
+   "source_idxs": [
+    1
+   ]
+  },
+  "current_use": "改造为首钢园：冬奥滑雪大跳台场馆、服贸会会场、体育文创业态与会展中心等城市更新空间",
+  "events": [
+   {
+    "date_start": "1919",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "创建",
+    "title": "石景山钢铁厂始建",
+    "description": "首钢前身为1919年在北京石景山成立的石景山钢铁厂，后发展为北京市属大型钢铁联合企业。",
+    "place_name": "北京市石景山区",
+    "related_people": [],
+    "related_orgs": [
+     "首钢集团"
+    ],
+    "source_idxs": [
+     0,
+     2
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1958",
+    "date_end": "1992",
+    "date_precision": "year",
+    "event_type": "改制更名",
+    "title": "企业体制数次更名",
+    "description": "1958年改称石景山钢铁公司，1967年改称首都钢铁公司，1992年改称首钢总公司，1996年成为首钢集团核心控股公司。",
+    "place_name": "北京市石景山区",
+    "related_people": [],
+    "related_orgs": [
+     "首钢集团"
+    ],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "medium",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "2005-02-18",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "搬迁决定",
+    "title": "国务院批复首钢搬迁方案",
+    "description": "国务院批复首钢实施搬迁、结构调整和环境治理方案，钢铁冶炼陆续迁往河北曹妃甸，服务北京奥运环境目标。",
+    "place_name": "北京市石景山区",
+    "related_people": [],
+    "related_orgs": [
+     "国务院",
+     "国家发展改革委"
+    ],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "2011-01-13",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "停产",
+    "title": "石景山厂区钢铁主流程停产",
+    "description": "首钢石景山厂区钢铁主流程全部停产，结束在北京城区的钢铁冶炼历史；同年新首钢高端产业综合服务区规划编制启动。",
+    "place_name": "北京市石景山区",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "2013",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "转型启动",
+    "title": "西十筒仓改造启动",
+    "description": "10月西十筒仓改造项目一期启动，为首钢老厂区更新首个项目；2015年厂东门拆除、构件编号保存。",
+    "place_name": "北京市石景山区",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     1
+    ],
+    "confidence": "medium",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "2016",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "再利用",
+    "title": "北京冬奥组委入驻西十筒仓",
+    "description": "冬奥组委将西十筒仓区域选为办公区；老厂房后改建为国家队冰雪训练场馆，2018年6月投入使用。",
+    "place_name": "北京市石景山区",
+    "related_people": [],
+    "related_orgs": [
+     "北京冬奥组委"
+    ],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "2019-10-31",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "地标建成",
+    "title": "首钢滑雪大跳台建成",
+    "description": "首钢滑雪大跳台建成，成为2022年北京冬奥会比赛场地；2021年起中国国际服务贸易交易会在首钢园设会场。",
+    "place_name": "北京市石景山区",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "2024",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "遗产认定",
+    "title": "入选第六批国家工业遗产",
+    "description": "工信部公布第六批国家工业遗产名单，首钢石景山厂区入选，核心物项含3号高炉及附属设施、日伪时期高炉基座、龙烟别墅等。",
+    "place_name": "北京市石景山区",
+    "related_people": [],
+    "related_orgs": [
+     "工业和信息化部",
+     "首钢集团"
+    ],
+    "source_idxs": [
+     3
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "维基名单载第六批2024年10月22日公布"
+   }
+  ],
+  "people": [],
+  "relations": [],
+  "historical_period_tags": [
+   "民国时期",
+   "改革开放后"
+  ],
+  "sources": [
+   {
+    "title": "首钢集团 - 维基百科",
+    "org": "维基百科",
+    "url": "https://zh.wikipedia.org/wiki/%E9%A6%96%E9%92%A2%E9%9B%86%E5%9B%A2",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   },
+   {
+    "title": "首钢园 - 维基百科",
+    "org": "维基百科",
+    "url": "https://zh.wikipedia.org/wiki/%E9%A6%96%E9%92%A2%E5%9B%AD",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   },
+   {
+    "title": "首钢集团企业介绍",
+    "org": "中国经济网企业库",
+    "url": "http://shougang.ces.cn/",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "enterprise"
+   },
+   {
+    "title": "国家工业遗产 - 维基百科",
+    "org": "维基百科",
+    "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   }
+  ]
+ },
+ {
+  "heritage_id": "HER-20e39d3934fd",
+  "name": "京张制造厂(京张铁路历史建筑群与设备)",
+  "founded_year": {
+   "value": 1906,
+   "date_precision": "year",
+   "source_idxs": [
+    0
+   ]
+  },
+  "production_start_year": null,
+  "closure_year": null,
+  "current_use": null,
+  "events": [
+   {
+    "date_start": "1905-10-02",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "关联工程开工",
+    "title": "京张铁路正式开工",
+    "description": "袁世凯、胡燏棻奏准筹办，詹天佑任会办兼总工程司，京张铁路正式开工；为中国人自行设计建造的第一条干线铁路。",
+    "place_name": "北京市",
+    "related_people": [
+     "詹天佑",
+     "袁世凯"
+    ],
+    "related_orgs": [
+     "京张铁路总局"
+    ],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1906",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "创建",
+    "title": "京张制造厂在南口建厂",
+    "description": "为配合铁路修筑，南口地区开始生产石碴，同年相配套的机车制造厂'京张制造厂'正式建厂。",
+    "place_name": "北京市昌平区南口",
+    "related_people": [
+     "詹天佑"
+    ],
+    "related_orgs": [
+     "京张铁路总局"
+    ],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1909-09-24",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "建成通车",
+    "title": "京张铁路全线通车，制造厂扩大规模",
+    "description": "京张铁路8月竣工、9月24日全线通车、10月2日南口站举行通车典礼；通车后京张制造厂在原基础上扩大生产规模。",
+    "place_name": "北京市昌平区/张家口市",
+    "related_people": [
+     "詹天佑"
+    ],
+    "related_orgs": [],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "2013",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "保护认定",
+    "title": "列入第七批全国重点文物保护单位",
+    "description": "'京张铁路南口段至八达岭段'（含南口机车车辆厂近现代建筑遗存、南口火车站站房、人字形铁路、青龙桥车站等）列入第七批国保。",
+    "place_name": "北京市昌平区、延庆区",
+    "related_people": [],
+    "related_orgs": [
+     "国务院"
+    ],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "2022-02-03",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "文化活化",
+    "title": "冬奥火炬在百年京张老铁轨传递",
+    "description": "北京冬奥会火炬在百年京张铁路老铁轨上行驶的小火车间传递，老铁路遗产获得广泛关注。",
+    "place_name": "北京市延庆区青龙桥",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "medium",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "2025",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "遗产认定",
+    "title": "入选第七批国家工业遗产",
+    "description": "工信部公布第七批国家工业遗产名单，位于北京昌平的京张制造厂入选，核心物项为动力房、机车养成房、单梁桥式起重机。",
+    "place_name": "北京市昌平区",
+    "related_people": [],
+    "related_orgs": [
+     "工业和信息化部"
+    ],
+    "source_idxs": [
+     1
+    ],
+    "confidence": "medium",
+    "disputed": false,
+    "notes": "工信部通知页面日期2025-10-22，维基名单载2025-10-17公布"
+   }
+  ],
+  "people": [
+   {
+    "name": "詹天佑",
+    "role": "京张铁路会办兼总工程司，后升任总办",
+    "source_idxs": [
+     0
+    ]
+   }
+  ],
+  "relations": [
+   {
+    "relation_type": "关联工程",
+    "target_entity": "京张铁路",
+    "description": "京张制造厂为京张铁路配套机车制造厂，随铁路修建而设，铁路通车后扩大生产规模。",
+    "source_idxs": [
+     0
+    ],
+    "inferred": false
+   }
+  ],
+  "historical_period_tags": [
+   "晚清近代工业"
+  ],
+  "sources": [
+   {
+    "title": "京张铁路 - 维基百科（引北京志等地方志与《京张铁路工程纪略》）",
+    "org": "维基百科",
+    "url": "https://zh.wikipedia.org/wiki/%E4%BA%AC%E5%BC%A0%E9%93%81%E8%B7%AF",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   },
+   {
+    "title": "国家工业遗产 - 维基百科",
+    "org": "维基百科",
+    "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   }
+  ]
+ },
+ {
+  "heritage_id": "HER-f3528018a835",
+  "name": "华北制药厂",
+  "founded_year": {
+   "value": 1953,
+   "date_precision": "year",
+   "source_idxs": [
+    0,
+    1
+   ]
+  },
+  "production_start_year": {
+   "value": 1958,
+   "date_precision": "year",
+   "source_idxs": [
+    0,
+    1
+   ]
+  },
+  "closure_year": null,
+  "current_use": "华北制药集团仍在石家庄和平东路388号经营制药业务；老厂区2025年入选第七批国家工业遗产",
+  "events": [
+   {
+    "date_start": "1953",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "创建/筹建",
+    "title": "华北制药厂开始筹建",
+    "description": "'一五'计划重点建设项目，由苏联援建156项工程中的抗生素厂、淀粉厂和民主德国引进的药用玻璃厂组成，总投资7588万元。",
+    "place_name": "河北省石家庄市",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "360百科载1953年6月开始筹建"
+   },
+   {
+    "date_start": "1958",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "投产",
+    "title": "建成投产",
+    "description": "1958年6月建成投产（全部投产），开创我国大规模生产抗生素的历史，显著改善缺医少药局面。",
+    "place_name": "河北省石家庄市",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1958",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "产品突破",
+    "title": "第一批青霉素下线",
+    "description": "投产后第一批青霉素下线，结束中国青霉素、链霉素依赖进口的历史。",
+    "place_name": "河北省石家庄市",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     1
+    ],
+    "confidence": "medium",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1958",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "技术突破",
+    "title": "选育成功XP-58-01青霉素菌种",
+    "description": "1958年底选育成功第一株生产用青霉素菌种XP-58-01，打破苏联专家'只有科研单位才能搞育种'的断言，结束从苏联空运孢子的历史。",
+    "place_name": "河北省石家庄市",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "medium",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1992",
+    "date_end": "1994",
+    "date_precision": "year",
+    "event_type": "改制上市",
+    "title": "股份制改组并上市",
+    "description": "以华北制药厂生产经营性资产发起组建华北制药股份有限公司，1994年1月14日在上海证券交易所挂牌上市。",
+    "place_name": "河北省石家庄市",
+    "related_people": [],
+    "related_orgs": [
+     "华北制药股份有限公司"
+    ],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "2009",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "重组",
+    "title": "冀中能源收购重组",
+    "description": "2009年6月华北制药被冀中能源收购，成为其旗下企业，原因包括母公司长期负债。",
+    "place_name": "河北省石家庄市",
+    "related_people": [],
+    "related_orgs": [
+     "冀中能源集团"
+    ],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "medium",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "2025",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "遗产认定",
+    "title": "入选第七批国家工业遗产",
+    "description": "工信部公布第七批国家工业遗产名单，位于石家庄市长安区的华北制药厂入选，核心物项含南北办公楼、玉米机械化仓库、干淀粉车间等。",
+    "place_name": "河北省石家庄市长安区",
+    "related_people": [],
+    "related_orgs": [
+     "工业和信息化部"
+    ],
+    "source_idxs": [
+     3
+    ],
+    "confidence": "medium",
+    "disputed": false,
+    "notes": "工信部通知页面日期2025-10-22，维基名单载2025-10-17公布"
+   }
+  ],
+  "people": [],
+  "relations": [
+   {
+    "relation_type": "技术援助",
+    "target_entity": "苏联",
+    "description": "抗生素厂、淀粉厂为前苏联援建'156项重点工程'的组成部分。",
+    "source_idxs": [
+     1
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "技术援助",
+    "target_entity": "民主德国",
+    "description": "药用玻璃厂由前民主德国引进（援建）。",
+    "source_idxs": [
+     1
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "国家计划",
+    "target_entity": "'一五'计划156项重点工程",
+    "description": "华北制药厂是中国'一五'计划期间的重点建设项目，属156项重点工程。",
+    "source_idxs": [
+     1
+    ],
+    "inferred": false
+   }
+  ],
+  "historical_period_tags": [
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "sources": [
+   {
+    "title": "华北制药 - 维基百科",
+    "org": "维基百科",
+    "url": "https://zh.wikipedia.org/wiki/%E5%8D%8E%E5%8C%97%E5%88%B6%E8%8D%AF",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   },
+   {
+    "title": "华北制药 - 360百科",
+    "org": "360百科",
+    "url": "https://baike.so.com/doc/3808885-4000198.html",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   },
+   {
+    "title": "华北制药官网（企业现址与在营业务）",
+    "org": "华北制药集团",
+    "url": "http://www.ncpc.com/",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "enterprise"
+   },
+   {
+    "title": "国家工业遗产 - 维基百科",
+    "org": "维基百科",
+    "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   }
+  ]
+ },
+ {
+  "heritage_id": "HER-b70c3ba422ec",
+  "name": "第一汽车制造厂",
+  "founded_year": {
+   "value": 1953,
+   "date_precision": "year",
+   "source_idxs": [
+    0,
+    1
+   ]
+  },
+  "production_start_year": {
+   "value": 1956,
+   "date_precision": "year",
+   "source_idxs": [
+    0,
+    1
+   ]
+  },
+  "closure_year": null,
+  "current_use": "中国一汽仍在长春生产经营；一汽早期建筑为全国重点文物保护单位，2025年入选第七批国家工业遗产",
+  "events": [
+   {
+    "date_start": "1950",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "创建/筹建",
+    "title": "汽车工业筹备组成立并选址",
+    "description": "中央重工业部设立汽车工业筹备组，组长郭力、副组长孟少农，先后在长沙-湘潭、西安-宝鸡、太原-太谷一线比较选择厂址。",
+    "place_name": "北京市",
+    "related_people": [
+     "郭力",
+     "孟少农"
+    ],
+    "related_orgs": [
+     "中央重工业部"
+    ],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1951",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "选址定案",
+    "title": "厂址定于长春，苏方完成初步设计",
+    "description": "陈云主持中财委决定厂址建在东北四平至长春之间，后确定长春；1951年12月苏联设计院完成工厂初步设计（斯大林汽车厂包建）。",
+    "place_name": "吉林省长春市",
+    "related_people": [
+     "陈云"
+    ],
+    "related_orgs": [
+     "中财委",
+     "苏联汽车工业部"
+    ],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "medium",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1953",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "中央决策",
+    "title": "三年建成一汽决策",
+    "description": "中共中央作出三年建成一汽的决定，毛泽东签发《关于力争三年建设长春汽车厂的指示》；饶斌调任厂长，郭力改任第一副厂长兼总工程师。",
+    "place_name": "吉林省长春市",
+    "related_people": [
+     "毛泽东",
+     "饶斌",
+     "郭力"
+    ],
+    "related_orgs": [
+     "中共中央"
+    ],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "medium",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1953-07-15",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "开工奠基",
+    "title": "施工典礼，工厂动工兴建",
+    "description": "在苏联帮助下动土开工；至1956年共派9批518名人员赴苏联斯大林汽车厂（吉尔厂）实习，覆盖厂长至调整工各关键岗位。",
+    "place_name": "吉林省长春市",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1956-07-13",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "投产/产品突破",
+    "title": "第一辆解放牌卡车下线",
+    "description": "第一辆解放牌卡车下线，结束中国不能自行大批量生产汽车的历史；1956年建成投产，当年生产1654辆。",
+    "place_name": "吉林省长春市",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1958",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "产品突破",
+    "title": "东风牌轿车与红旗牌高级轿车问世",
+    "description": "1958年制造出新中国第一辆小轿车（东风牌）和第一辆高级轿车（红旗牌）。",
+    "place_name": "吉林省长春市",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1981-12-15",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "技术改造",
+    "title": "国务院批准换型改造方案",
+    "description": "国务院批准一汽解放卡车产品换型与技术改造（换产CA141型5吨车，投资2.14亿元），1986年如期完成垂直转产。",
+    "place_name": "吉林省长春市",
+    "related_people": [],
+    "related_orgs": [
+     "国务院"
+    ],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "medium",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "2025",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "遗产认定",
+    "title": "入选第七批国家工业遗产",
+    "description": "第一汽车制造厂入选第七批国家工业遗产（长春汽开区），核心物项含车身厂、CA10解放牌卡车等；其1956年建成早期建筑已于2013年列入第七批国保。",
+    "place_name": "吉林省长春市",
+    "related_people": [],
+    "related_orgs": [
+     "工业和信息化部"
+    ],
+    "source_idxs": [
+     0,
+     2
+    ],
+    "confidence": "medium",
+    "disputed": false,
+    "notes": "工信部通知页面日期2025-10-22，维基名单载2025-10-17公布"
+   }
+  ],
+  "people": [
+   {
+    "name": "饶斌",
+    "role": "首任厂长（1952-1959在任），基本建设负责人",
+    "source_idxs": [
+     0
+    ]
+   },
+   {
+    "name": "郭力",
+    "role": "汽车工业筹备组组长、后任厂长兼总工程师",
+    "source_idxs": [
+     0
+    ]
+   },
+   {
+    "name": "孟少农",
+    "role": "筹备组副组长、驻莫斯科订货代表小组成员",
+    "source_idxs": [
+     0
+    ]
+   },
+   {
+    "name": "毛泽东",
+    "role": "签发中共中央《关于力争三年建设长春汽车厂的指示》",
+    "source_idxs": [
+     0
+    ]
+   }
+  ],
+  "relations": [
+   {
+    "relation_type": "技术援助",
+    "target_entity": "苏联",
+    "description": "苏联斯大林汽车厂包建、苏联设计院完成设计并派专家组来华；中方派9批518人赴苏实习。",
+    "source_idxs": [
+     0
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "国家计划",
+    "target_entity": "'一五'计划重点建设项目",
+    "description": "中国一汽官网：一汽是国家'一五'计划重点建设项目之一，1953年奠基、1956年建成投产。",
+    "source_idxs": [
+     1
+    ],
+    "inferred": false
+   }
+  ],
+  "historical_period_tags": [
+   "新中国初期",
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "sources": [
+   {
+    "title": "中国第一汽车集团 - 维基百科",
+    "org": "维基百科",
+    "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E7%AC%AC%E4%B8%80%E6%B1%BD%E8%BD%A6%E9%9B%86%E5%9B%A2",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   },
+   {
+    "title": "集团简介 - 中国第一汽车集团有限公司官网",
+    "org": "中国一汽",
+    "url": "https://www.faw.com.cn/fawcn/373692/jtgl/jtjj42/index.html",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "enterprise"
+   },
+   {
+    "title": "国家工业遗产 - 维基百科",
+    "org": "维基百科",
+    "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   }
+  ]
+ }
+]

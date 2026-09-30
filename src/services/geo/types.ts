@@ -280,6 +280,11 @@ export interface LayerAttributeFilter {
 
 export interface LayerFilterSpec {
   attribute?: LayerAttributeFilter[]
+  /**
+   * OR 语义的条件(与 attribute 各条件之间为 AND)。
+   * 由工业文化遗产图层的历史时期筛选引入; 旧调用方不受影响。
+   */
+  anyAttribute?: LayerAttributeFilter[]
 }
 
 export interface LegendSpec {

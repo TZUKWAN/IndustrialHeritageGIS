@@ -9,34 +9,35 @@ import { resolveVectorGeoJSON } from '@/services/geo'
 
 export function compileLayerFilter(filter: LayerFilterSpec | undefined): unknown[] | undefined {
   const attribute = filter?.attribute?.filter((item) => item.field) ?? []
-  if (attribute.length === 0) return undefined
+  const anyAttribute = filter?.anyAttribute?.filter((item) => item.field) ?? []
+  if (attribute.length === 0 && anyAttribute.length === 0) return undefined
 
-  const clauses: unknown[] = []
-  for (const item of attribute) {
+  const compileClause = (item: (typeof attribute)[number]): unknown[] => {
     const fieldValue = ['get', item.field]
     const stringValue = ['to-string', fieldValue]
     switch (item.op) {
       case '=':
-        clauses.push(['==', stringValue, String(item.value)])
-        break
+        return ['==', stringValue, String(item.value)]
       case '!=':
-        clauses.push(['!=', stringValue, String(item.value)])
-        break
+        return ['!=', stringValue, String(item.value)]
       case '>':
       case '<':
       case '>=':
       case '<=':
-        clauses.push([item.op, ['to-number', fieldValue], Number(item.value)])
-        break
+        return [item.op, ['to-number', fieldValue], Number(item.value)]
       case 'contains':
-        clauses.push(['in', String(item.value ?? ''), stringValue])
-        break
+        return ['in', String(item.value ?? ''), stringValue]
       case 'in': {
         const values = Array.isArray(item.value) ? item.value.map(String) : [String(item.value)]
-        clauses.push(['in', stringValue, ['literal', values]])
-        break
+        return ['in', stringValue, ['literal', values]]
       }
     }
+  }
+
+  const clauses: unknown[] = attribute.map(compileClause)
+  if (anyAttribute.length > 0) {
+    const anyClauses = anyAttribute.map(compileClause)
+    clauses.push(anyClauses.length === 1 ? anyClauses[0] : (['any', ...anyClauses] as unknown[]))
   }
 
   if (clauses.length === 0) return undefined

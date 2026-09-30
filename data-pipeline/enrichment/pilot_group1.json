@@ -1,0 +1,233 @@
+[
+  {
+    "heritage_id": "HER-9583a27cb840",
+    "name": "张裕酿酒公司",
+    "founded_year": {"value": 1892, "date_precision": "year", "source_idxs": [0, 1, 2]},
+    "production_start_year": null,
+    "closure_year": null,
+    "current_use": "公司仍在烟台原址生产经营葡萄酒，1992年设张裕酒文化博物馆（国家一级博物馆、4A级景区），原址入选第一批国家工业遗产",
+    "events": [
+      {"date_start": "1892", "date_end": null, "date_precision": "year", "event_type": "创建/筹建", "title": "张弼士创办烟台张裕酿酒公司", "description": "爱国华侨张弼士投资300万两白银在烟台创办张裕酿酒公司，为中国最早的工业化葡萄酒生产企业，公司名'张裕'寓意昌裕兴隆。", "place_name": "山东省烟台市", "related_people": ["张弼士"], "related_orgs": ["烟台张裕酿酒公司"], "source_idxs": [0, 1, 2, 3], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1892", "date_end": "1899", "date_precision": "approximate", "event_type": "技术引进", "title": "引进欧洲葡萄品种与西方酿酒师、设备", "description": "初创期自欧洲引进124个葡萄品种、69万株苗木；聘奥匈帝国驻烟台副领事、酿酒世家出身的巴保男爵任酿酒师；设备购自法国、德国、日本，橡木购自奥地利、意大利。", "place_name": "山东省烟台市", "related_people": ["巴保男爵"], "related_orgs": [], "source_idxs": [3], "confidence": "medium", "disputed": false, "notes": ""},
+      {"date_start": "1899", "date_end": "1914", "date_precision": "year", "event_type": "产品突破", "title": "酿出中国第一瓶葡萄酒与第一瓶白兰地", "description": "1899年张裕酿出中国第一瓶葡萄酒；1914年酿出中国第一瓶白兰地（可雅白兰地）。", "place_name": "山东省烟台市", "related_people": [], "related_orgs": [], "source_idxs": [3], "confidence": "medium", "disputed": false, "notes": "来源未称某年'正式投产'，故production_start_year留空"},
+      {"date_start": "1912", "date_end": null, "date_precision": "year", "event_type": "其他", "title": "孙中山题词'品重醴泉'", "description": "1912年孙中山为公司题词'品重醴泉'，题词原件列为第一批国家工业遗产核心物项；公司官网亦载孙中山曾题赠此四字。", "place_name": "山东省烟台市", "related_people": ["孙中山"], "related_orgs": [], "source_idxs": [0, 4], "confidence": "high", "disputed": false, "notes": "年份依据工信部第一批名单核心物项表述"},
+      {"date_start": "1915", "date_end": null, "date_precision": "year", "event_type": "产品突破", "title": "巴拿马万国博览会获头等金奖", "description": "张弼士率团参展巴拿马太平洋万国博览会，可雅白兰地、红玫瑰红葡萄酒、雷司令干白、琼瑶浆味美思获最高奖头等金牌（Grand Prize）；奖牌列为国家工业遗产核心物项。", "place_name": "巴拿马太平洋万国博览会", "related_people": ["张弼士"], "related_orgs": [], "source_idxs": [3, 4], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1931", "date_end": null, "date_precision": "year", "event_type": "产品突破", "title": "推出中国第一个干红品牌'解百纳'", "description": "1931年张裕以蛇龙珠为主料推出中国第一个干红葡萄酒品牌'解百纳'，由总经理徐望之命名；1937年解百纳注册证书列为国家工业遗产核心物项。", "place_name": "山东省烟台市", "related_people": ["徐望之"], "related_orgs": [], "source_idxs": [3, 4], "confidence": "medium", "disputed": false, "notes": ""},
+      {"date_start": "1992", "date_end": null, "date_precision": "year", "event_type": "博物馆/园区再利用", "title": "张裕酒文化博物馆开馆", "description": "1992年张裕酒文化博物馆正式启用，为中国第一座世界级葡萄酒博物馆，现为国家一级博物馆、国家4A级旅游景区，并入选首批国家工业旅游示范基地十佳。", "place_name": "山东省烟台市", "related_people": [], "related_orgs": ["张裕酒文化博物馆"], "source_idxs": [1], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "2017", "date_end": null, "date_precision": "year", "event_type": "遗产认定", "title": "列入第一批国家工业遗产", "description": "工信部2017年12月20日公布第一批国家工业遗产名单（11项），'张裕酿酒公司'（烟台市芝罘区）入选，核心物项含地下酒窖、老门头、1892俱乐部（张弼士故居）等。", "place_name": "山东省烟台市芝罘区", "related_people": [], "related_orgs": ["工业和信息化部"], "source_idxs": [4], "confidence": "high", "disputed": false, "notes": "批次与名单转引自维基百科对工信部通告的转录"}
+    ],
+    "people": [
+      {"name": "张弼士", "role": "创办人", "source_idxs": [0, 1, 2, 3]},
+      {"name": "巴保男爵", "role": "酿酒师（奥匈帝国驻烟台副领事）", "source_idxs": [3]},
+      {"name": "孙中山", "role": "1912年题词'品重醴泉'", "source_idxs": [0, 4]},
+      {"name": "翁同龢", "role": "题写'张裕'字号", "source_idxs": [2]}
+    ],
+    "relations": [
+      {"relation_type": "技术引进", "target_entity": "奥匈帝国", "description": "聘请奥匈帝国驻烟台副领事巴保男爵任酿酒师；橡木购自奥地利、意大利", "source_idxs": [3], "inferred": false},
+      {"relation_type": "设备来源国", "target_entity": "法国、德国、日本", "description": "早期酿酒设备自法国、德国、日本采购", "source_idxs": [3], "inferred": false}
+    ],
+    "historical_period_tags": ["晚清近代工业", "民国时期", "改革开放后"],
+    "sources": [
+      {"title": "烟台张裕集团—集团简介（前身1892年张弼士创办的烟台张裕酿酒公司）", "org": "烟台张裕集团有限公司官网", "url": "https://ytgfjt.cn/index.php/Index/view/id/203", "pub_date": "2020-08", "authority": "C", "source_type": "enterprise"},
+      {"title": "张裕酒文化博物馆官网首页（1992年开馆、1892年张弼士投资300万两创办）", "org": "张裕酒文化博物馆", "url": "https://www.cymuseum.cn/", "pub_date": "2024-02", "authority": "B", "source_type": "museum"},
+      {"title": "张裕葡萄酒（维基百科条目）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E8%A3%95%E8%91%A1%E8%90%84%E9%85%92", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
+      {"title": "张裕：中国葡萄酒传奇先锋", "org": "Decanter China 醇鉴中国", "url": "https://www.decanterchina.com/zh/%E7%89%B9%E5%88%AB%E6%8E%A8%E5%B9%BF/%E5%BC%A0%E8%A3%95-%E4%B8%AD%E5%9B%BD%E8%91%A1%E8%90%84%E9%85%92%E4%BC%A0%E5%A5%87%E5%85%88%E9%94%8B", "pub_date": "2024-11", "authority": "C", "source_type": "news"},
+      {"title": "国家工业遗产（第一批至第七批名单，转引工信部历次通告）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7", "pub_date": null, "authority": "C", "source_type": "encyclopedia"}
+    ]
+  },
+  {
+    "heritage_id": "HER-3714508c3156",
+    "name": "鞍山钢铁厂",
+    "founded_year": {"value": 1916, "date_precision": "year", "source_idxs": [0, 1, 3]},
+    "production_start_year": {"value": 1919, "date_precision": "year", "source_idxs": [0]},
+    "closure_year": null,
+    "current_use": "鞍钢集团仍在鞍山生产经营，原厂区入选第一批国家工业遗产",
+    "events": [
+      {"date_start": "1916", "date_end": "1918", "date_precision": "year", "event_type": "创建/筹建", "title": "满铁获准设厂，成立鞍山制铁所", "description": "1916年10月4日日本内阁总理大臣大隈重信向满铁颁发经营制铁许可证，1917年开工，1918年5月鞍山制铁所正式成立；另一来源称集团始建于1916年。", "place_name": "辽宁省鞍山市", "related_people": ["大隈重信", "中村是公"], "related_orgs": ["南满洲铁道", "鞍山制铁所"], "source_idxs": [0, 1, 3], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1919", "date_end": null, "date_precision": "year", "event_type": "投产", "title": "1号高炉开炉", "description": "1919年4月1日鞍山制铁所1号高炉开炉，标志鞍山制铁所生产开始；后因一战结束钢铁需求减少一度经营困难。", "place_name": "辽宁省鞍山市", "related_people": [], "related_orgs": ["鞍山制铁所"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1933", "date_end": "1937", "date_precision": "year", "event_type": "合并重组", "title": "昭和制钢所迁鞍山合并，后划归满业", "description": "1933年昭和制钢所总部迁至鞍山并与鞍山制铁所合并，成为日本本土外最大钢铁企业；1937年由满铁转让至鲇川义介的满洲重工业开发株式会社（满业）旗下。", "place_name": "辽宁省鞍山市", "related_people": ["鲇川义介"], "related_orgs": ["昭和制钢所", "满洲重工业开发"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1941", "date_end": "1945", "date_precision": "year", "event_type": "战争影响", "title": "太平洋战争轰炸与苏军拆迁", "description": "1941年12月太平洋战争爆发后遭美军轰炸被迫减产；1944年改组为满洲制铁株式会社鞍山本部；1945年日本战败，苏军撤离东北时拆迁设备，损失惨重。", "place_name": "辽宁省鞍山市", "related_people": [], "related_orgs": ["满洲制铁"], "source_idxs": [0, 1], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1948", "date_end": "1949", "date_precision": "year", "event_type": "其他", "title": "鞍山解放，更名鞍山钢铁公司恢复运营", "description": "1948年2月19日中国人民解放军控制鞍山；1949年7月9日昭和制钢所更名鞍山钢铁公司恢复运营，成为新中国第一个恢复建设的大型钢铁联合企业。", "place_name": "辽宁省鞍山市", "related_people": [], "related_orgs": ["鞍山钢铁公司"], "source_idxs": [0, 1], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1950", "date_end": "1959", "date_precision": "decade", "event_type": "扩建", "title": "列入156项重点工程重建", "description": "中华人民共和国成立后作为156项重点工程之一重建，为新中国第一个恢复建设的大型钢铁联合企业。", "place_name": "辽宁省鞍山市", "related_people": [], "related_orgs": [], "source_idxs": [1], "confidence": "high", "disputed": false, "notes": "'156项工程'通常指苏联援建项目，来源页未明言苏联，苏联援助属推断（inferred）"},
+      {"date_start": "1997", "date_end": "2021", "date_precision": "year", "event_type": "改制", "title": "鞍钢股份上市、攀钢与本钢重组", "description": "1997年鞍钢将冷轧厂、线材厂、厚板厂资产注入鞍钢股份并在香港、深圳两地上市；2010年5月与攀钢联合重组获批；2021年8月20日本钢51%股权无偿转入鞍钢。", "place_name": "辽宁省鞍山市", "related_people": [], "related_orgs": ["鞍钢股份", "攀钢集团", "本钢集团"], "source_idxs": [1], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "2017", "date_end": null, "date_precision": "year", "event_type": "遗产认定", "title": "列入第一批国家工业遗产", "description": "工信部2017年12月20日公布第一批国家工业遗产名单，'鞍山钢铁厂'（鞍山市铁西区）入选，核心物项含昭和制钢所1号高炉、本社事务所、鞍钢宪法等。", "place_name": "辽宁省鞍山市铁西区", "related_people": [], "related_orgs": ["工业和信息化部"], "source_idxs": [2], "confidence": "high", "disputed": false, "notes": ""}
+    ],
+    "people": [
+      {"name": "中村是公", "role": "满铁总裁，1913年向日本政府提出在鞍山建设炼钢厂", "source_idxs": [0]},
+      {"name": "大隈重信", "role": "日本内阁总理大臣，1916年向满铁颁发制铁许可证", "source_idxs": [0]},
+      {"name": "鲇川义介", "role": "满洲重工业开发（满业）创立者，1937年昭和制钢所转入满业", "source_idxs": [0]}
+    ],
+    "relations": [
+      {"relation_type": "企业谱系", "target_entity": "南满洲铁道（满铁）", "description": "满铁1916年获许可创办鞍山制铁所（1918年成立），为鞍钢前身；铁矿由满铁实质控制的'振兴铁矿无限公司'供应", "source_idxs": [0], "inferred": false},
+      {"relation_type": "企业谱系", "target_entity": "昭和制钢所→满洲制铁→鞍山钢铁公司", "description": "1933年昭和制钢所与鞍山制铁所合并；1944年改组为满洲制铁鞍山本部；1949年7月9日更名鞍山钢铁公司恢复运营", "source_idxs": [0], "inferred": false},
+      {"relation_type": "重点工程/技术援助", "target_entity": "156项重点工程（苏联援建）", "description": "鞍钢作为156项重点工程之一重建；'156项即苏联援建'为通说，来源页未明言苏联", "source_idxs": [1], "inferred": true},
+      {"relation_type": "合并重组", "target_entity": "攀钢集团（2010）、本钢集团（2021）", "description": "2010年5月鞍钢与攀钢联合重组；2021年8月辽宁省国资委将本钢51%股权无偿转让给鞍钢", "source_idxs": [1], "inferred": false}
+    ],
+    "historical_period_tags": ["民国时期", "新中国初期", "一五二五时期", "改革开放后"],
+    "sources": [
+      {"title": "昭和制钢所（维基百科条目）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E6%98%AD%E5%92%8C%E5%88%B6%E9%92%A2%E6%89%80", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
+      {"title": "鞍山钢铁集团公司（维基百科条目）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E9%9E%8D%E5%B1%B1%E9%92%A2%E9%93%81%E9%9B%86%E5%9B%A2%E5%85%AC%E5%8F%B8", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
+      {"title": "国家工业遗产（第一批至第七批名单，转引工信部历次通告）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
+      {"title": "鞍钢集团有限公司（百度百科，搜索摘要：始建于1916年）", "org": "百度百科", "url": "https://baike.baidu.com/item/%E9%9E%8D%E9%92%A2%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/22364248", "pub_date": "2026-04", "authority": "D", "source_type": "encyclopedia"}
+    ]
+  },
+  {
+    "heritage_id": "HER-5a9fc0deeafb",
+    "name": "旅顺船坞",
+    "founded_year": {"value": 1880, "date_precision": "decade", "source_idxs": [0]},
+    "production_start_year": null,
+    "closure_year": null,
+    "current_use": "仍由中国人民解放军海军（大连辽南船厂/4810工厂厂区）使用",
+    "events": [
+      {"date_start": "1880", "date_end": "1889", "date_precision": "decade", "event_type": "创建/筹建", "title": "清政府为北洋水师兴建旅顺船坞", "description": "清政府1880年代为北洋水师修建旅顺军港及配套工程，船坞为主要工程之一。", "place_name": "辽宁省大连市旅顺口区", "related_people": [], "related_orgs": ["北洋水师"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": "来源仅称1880年代，未给出始建确切年份"},
+      {"date_start": "1890", "date_end": null, "date_precision": "year", "event_type": "投产", "title": "船坞竣工，号称'远东第一大坞'", "description": "1890年工程竣工，时称'远东第一大坞'，为中国近代船舶工业'四局二坞'之一；并建有东北第一条国内电报线、中国第一条国际电报线和第一条自来水管线。", "place_name": "辽宁省大连市旅顺口区", "related_people": [], "related_orgs": [], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": null, "date_end": "1945", "date_precision": null, "event_type": "战争影响", "title": "随旅顺港先后被沙俄、日本占领", "description": "船坞随旅顺港先后被俄罗斯帝国、日本占领；1945年日本无条件投降后被苏联接管。", "place_name": "辽宁省大连市旅顺口区", "related_people": [], "related_orgs": [], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": "来源页未给出被俄、日占领的具体年份"},
+      {"date_start": "1955", "date_end": null, "date_precision": "year", "event_type": "其他", "title": "中国收回旅顺港，船坞继续为海军服务", "description": "1955年中国收回旅顺港，船坞至今仍为中国人民解放军海军服务。", "place_name": "辽宁省大连市旅顺口区", "related_people": [], "related_orgs": ["中国人民解放军海军", "大连辽南船厂"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "2013", "date_end": null, "date_precision": "year", "event_type": "保护启动", "title": "列为第七批全国重点文物保护单位", "description": "2013年3月国务院以'旅顺船坞旧址'将其列入第七批全国重点文物保护单位（近现代重要史迹及代表性建筑，编号7-1660-5-053）。", "place_name": "辽宁省大连市旅顺口区", "related_people": [], "related_orgs": ["国务院"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "2017", "date_end": "2018", "date_precision": "year", "event_type": "遗产认定", "title": "申报并入选中国工业遗产保护名录，另列入第一批国家工业遗产", "description": "2017年旅顺口区政府与大连辽南船厂为其申报中国工业遗产；2018年1月列入中国工业遗产保护名录第一批；另以'旅顺船坞'列入工信部第一批国家工业遗产（2017年12月20日）。", "place_name": "辽宁省大连市旅顺口区", "related_people": [], "related_orgs": ["旅顺口区人民政府", "大连辽南船厂", "工业和信息化部"], "source_idxs": [0, 1], "confidence": "high", "disputed": false, "notes": "两份名录（科协名录与工信部名录）为不同体系，均已入选"}
+    ],
+    "people": [],
+    "relations": [
+      {"relation_type": "隶属", "target_entity": "北洋水师（清政府）", "description": "清政府1880年代为北洋水师修建军港及配套工程，船坞为主要工程之一", "source_idxs": [0], "inferred": false},
+      {"relation_type": "占领", "target_entity": "俄罗斯帝国、日本、苏联", "description": "船坞随旅顺港先后被俄罗斯帝国、日本占领，1945年后被苏联接管，1955年中国收回", "source_idxs": [0], "inferred": false},
+      {"relation_type": "现属单位", "target_entity": "大连辽南船厂（中国人民解放军海军4810工厂）", "description": "船坞旧址位于大连辽南船厂（海军4810工厂）厂区内，至今仍为海军服务", "source_idxs": [0], "inferred": false}
+    ],
+    "historical_period_tags": ["晚清近代工业", "新中国初期"],
+    "sources": [
+      {"title": "旅顺船坞旧址（维基百科条目）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E6%97%85%E9%A1%BA%E8%88%B9%E5%9D%9E%E6%97%A7%E5%9D%80", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
+      {"title": "国家工业遗产（第一批至第七批名单，转引工信部历次通告）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7", "pub_date": null, "authority": "C", "source_type": "encyclopedia"}
+    ]
+  },
+  {
+    "heritage_id": "HER-84af583665b6",
+    "name": "永利化学工业公司铔厂",
+    "founded_year": {"value": 1934, "date_precision": "year", "source_idxs": [0]},
+    "production_start_year": {"value": 1937, "date_precision": "year", "source_idxs": [0, 1]},
+    "closure_year": null,
+    "current_use": "厂区现为中国石化南化公司（南京化学工业有限公司）所在地，所在南京'大厂'地名即源于该厂",
+    "events": [
+      {"date_start": "1934", "date_end": null, "date_precision": "year", "event_type": "创建/筹建", "title": "范旭东创办永利南京铔厂", "description": "1934年范旭东创办永利南京铔厂，侯德榜任厂长；该厂为中国首座合成氨工厂，亦是当时亚洲最大的化工厂，被称为'远东第一大厂'。", "place_name": "江苏省南京市六合区卸甲甸（今大厂街道）", "related_people": ["范旭东", "侯德榜"], "related_orgs": ["永利化学工业公司"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1936", "date_end": null, "date_precision": "year", "event_type": "技术引进", "title": "采购德国A·BORSIG公司压缩机等设备", "description": "1936年采购自德国A·BORSIG公司的压缩机列为该厂国家工业遗产核心物项，反映建厂时的国外设备引进。", "place_name": "江苏省南京市", "related_people": [], "related_orgs": ["A·BORSIG公司"], "source_idxs": [2], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1937", "date_end": null, "date_precision": "year", "event_type": "投产", "title": "产出中国第一批硫酸铵与第一包化学肥料", "description": "1937年2月5日工厂生产出中国第一批硫酸铵产品、中国第一包化学肥料。", "place_name": "江苏省南京市", "related_people": [], "related_orgs": [], "source_idxs": [0, 1], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1937", "date_end": "1945", "date_precision": "year", "event_type": "战争影响", "title": "日军轰炸占领，硝酸装置被拆运日本", "description": "抗战爆发后日军多次轰炸工厂；1937年12月17日日军占领，改为'永礼化学工业株式会社浦口工业所硫铵工厂'，并将硝酸生产装置拆运日本。", "place_name": "江苏省南京市", "related_people": [], "related_orgs": [], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": "范旭东拒绝与日军合营，转而在西南后方开辟'新塘沽'化工基地"},
+      {"date_start": "1952", "date_end": null, "date_precision": "year", "event_type": "改制", "title": "索回硝酸装置，公私合营更名永利宁厂", "description": "1952年经侯德榜等与盟军谈判索回硝酸生产装置并原址重新投产（该设备使用至2011年）；同年永利公司成立公私合营委员会，铔厂更名公私合营永利宁厂。", "place_name": "江苏省南京市", "related_people": ["侯德榜"], "related_orgs": ["公私合营永利宁厂"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": "'与盟军谈判'为来源页原文表述"},
+      {"date_start": "1957", "date_end": "1998", "date_precision": "year", "event_type": "合并重组", "title": "并入南化公司，后加入中国石化", "description": "1957年永利宁厂与南京磷肥厂等合并成立南京化学工业公司；1998年7月南化公司并入中国石化集团公司。", "place_name": "江苏省南京市", "related_people": [], "related_orgs": ["南京化学工业公司", "中国石化"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "2018", "date_end": null, "date_precision": "year", "event_type": "遗产认定", "title": "列入第二批国家工业遗产", "description": "工信部2018年11月15日公布第二批国家工业遗产名单，'永利化学工业公司铔厂'（南京市江北新区）入选，核心物项含1936年德国压缩机、硝酸塔、硫酸铔厂房等。", "place_name": "江苏省南京市江北新区", "related_people": [], "related_orgs": ["工业和信息化部"], "source_idxs": [2], "confidence": "high", "disputed": false, "notes": ""}
+    ],
+    "people": [
+      {"name": "范旭东", "role": "创办人（永利化学工业公司创办者，1918年创办永利制碱公司）", "source_idxs": [0, 1]},
+      {"name": "侯德榜", "role": "铔厂厂长，1952年参与索回硝酸装置谈判", "source_idxs": [0]}
+    ],
+    "relations": [
+      {"relation_type": "企业谱系", "target_entity": "永利化学工业公司→永利宁厂→南化公司→中国石化", "description": "1934年范旭东永利公司所建；1952年公私合营更名永利宁厂，1957年并入南化公司，1998年随南化并入中国石化", "source_idxs": [0], "inferred": false},
+      {"relation_type": "设备来源国", "target_entity": "德国（A·BORSIG公司）", "description": "1936年采购自德国A·BORSIG公司的压缩机为核心物项", "source_idxs": [2], "inferred": false},
+      {"relation_type": "地名由来", "target_entity": "南京市大厂区/大厂街道", "description": "该厂被称为'远东第一大厂'，大厂区、大厂街道等行政区划因此得名", "source_idxs": [0], "inferred": false}
+    ],
+    "historical_period_tags": ["民国时期", "新中国初期"],
+    "sources": [
+      {"title": "南化公司（维基百科条目：前身1934年永利化学工业公司铔厂）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E5%8C%96%E5%85%AC%E5%8F%B8", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
+      {"title": "范旭东（维基百科条目）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E8%8C%83%E6%97%AD%E4%B8%9C", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
+      {"title": "国家工业遗产（第一批至第七批名单，转引工信部历次通告）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7", "pub_date": null, "authority": "C", "source_type": "encyclopedia"}
+    ]
+  },
+  {
+    "heritage_id": "HER-a1c1af53bf84",
+    "name": "大生纱厂",
+    "founded_year": {"value": 1895, "date_precision": "year", "source_idxs": [0]},
+    "production_start_year": {"value": 1899, "date_precision": "year", "source_idxs": [0]},
+    "closure_year": null,
+    "current_use": "现属江苏大生集团有限公司继续纺织生产，公事厅改为厂史陈列馆，旧址为全国重点文物保护单位",
+    "events": [
+      {"date_start": "1895", "date_end": "1898", "date_precision": "year", "event_type": "创建/筹建", "title": "张謇筹办大生纱厂", "description": "1895年（光绪二十一年）甲午战争后张謇在南通筹办纱厂；1896年11月张之洞为湖北织造局购置的2.04万枚纱锭作价25万两以官股入股；1898年在唐家闸动工建设。", "place_name": "江苏省南通市唐闸", "related_people": ["张謇", "张之洞"], "related_orgs": [], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1899", "date_end": null, "date_precision": "year", "event_type": "投产", "title": "建成投产", "description": "1899年5月大生纱厂建成投产。", "place_name": "江苏省南通市唐闸", "related_people": [], "related_orgs": [], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1907", "date_end": "1925", "date_precision": "year", "event_type": "扩建", "title": "扩张为中国最大华商棉纺企业", "description": "1907年建大生二厂（崇明），1921年三厂建成（海门），1924年八厂建成（南通城南）；至1924年共有4个纺织厂、纱锭16万余枚，为当时中国最大华商棉纺企业；1925年被上海财团接管。", "place_name": "江苏省南通市", "related_people": ["张謇"], "related_orgs": ["大生资本集团"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": "张謇1926年病逝"},
+      {"date_start": "1938", "date_end": "1939", "date_precision": "year", "event_type": "战争影响", "title": "日军占领与军管", "description": "1938年南通被日军占领，董事会将一厂、三厂资产抵押给德国蔼益吉公司；1939年3月被侵华日军'军管'，委托日本钟渊纺纱厂经营。", "place_name": "江苏省南通市", "related_people": [], "related_orgs": ["钟渊纺纱厂", "蔼益吉公司"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1945", "date_end": null, "date_precision": "year", "event_type": "改制", "title": "战后接管与公私合营", "description": "1945年抗战胜利后由国民政府派员接管；中华人民共和国成立后改造为公私合营企业。", "place_name": "江苏省南通市", "related_people": [], "related_orgs": [], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": "公私合营具体年份来源未载"},
+      {"date_start": "1992", "date_end": null, "date_precision": "year", "event_type": "改制", "title": "改组为江苏大生集团", "description": "1992年10月改组为国有独资的江苏大生集团有限公司。", "place_name": "江苏省南通市", "related_people": [], "related_orgs": ["江苏大生集团"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "2006", "date_end": "2013", "date_precision": "year", "event_type": "保护启动", "title": "列入全国重点文物保护单位", "description": "2006年作为南通博物苑扩展项目列入全国重点文物保护单位；2013年3月单独公布并与'南通大生第三纺织公司旧址'合并，名称'大生纱厂'（7-1979-5-003）。", "place_name": "江苏省南通市", "related_people": [], "related_orgs": ["国务院"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": "遗存含钟楼、公事厅、清花间厂房、仓库等"},
+      {"date_start": "2018", "date_end": null, "date_precision": "year", "event_type": "遗产认定", "title": "列入第二批国家工业遗产", "description": "工信部2018年11月15日公布第二批国家工业遗产名单，'大生纱厂'（南通市港闸区，现崇川区）入选，核心物项含钟楼、公事厅、专家楼、清花间厂房、南通纺织专门学校旧址等。", "place_name": "江苏省南通市崇川区", "related_people": [], "related_orgs": ["工业和信息化部"], "source_idxs": [1], "confidence": "high", "disputed": false, "notes": ""}
+    ],
+    "people": [
+      {"name": "张謇", "role": "创办人（清末状元、实业家）", "source_idxs": [0]}
+    ],
+    "relations": [
+      {"relation_type": "官股入股", "target_entity": "清政府（张之洞购置官机）", "description": "1896年11月清政府将张之洞为湖北织造局从国外购买的2.04万枚纱锭作价25万两以官股形式入股", "source_idxs": [0], "inferred": false},
+      {"relation_type": "企业谱系", "target_entity": "大生一厂—二厂（1907）—三厂（1921）—八厂（1924）→江苏大生集团（1992）", "description": "以大生纱厂为核心形成大生资本集团，1992年改组为国有独资江苏大生集团", "source_idxs": [0], "inferred": false},
+      {"relation_type": "战时占用", "target_entity": "日本钟渊纺纱厂", "description": "1939年3月被日军'军管'后委托日本钟渊纺纱厂经营", "source_idxs": [0], "inferred": false}
+    ],
+    "historical_period_tags": ["晚清近代工业", "民国时期", "新中国初期", "改革开放后"],
+    "sources": [
+      {"title": "大生纱厂（维基百科条目）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%94%9F%E7%BA%B1%E5%8E%82", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
+      {"title": "国家工业遗产（第一批至第七批名单，转引工信部历次通告）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7", "pub_date": null, "authority": "C", "source_type": "encyclopedia"}
+    ]
+  },
+  {
+    "heritage_id": "HER-b6ef8394932b",
+    "name": "开滦赵各庄矿",
+    "founded_year": {"value": 1908, "date_precision": "approximate", "source_idxs": [0]},
+    "production_start_year": null,
+    "closure_year": null,
+    "current_use": null,
+    "events": [
+      {"date_start": "1908", "date_end": null, "date_precision": "year", "event_type": "创建/筹建", "title": "滦州官矿成立并以西法建设赵各庄矿", "description": "1908年5月北洋滦州官矿有限公司在天津成立，周学熙任总理，以官矿'抵开'为目的，用西法建设马家沟矿、赵各庄矿、陈家岭矿等14处矿井。", "place_name": "河北省唐山市古冶区赵各庄", "related_people": ["周学熙", "袁世凯"], "related_orgs": ["北洋滦州官矿有限公司"], "source_idxs": [0], "confidence": "medium", "disputed": false, "notes": "赵各庄矿具体建成投产年份来源未载，1908年为滦州官矿成立并建矿年份，故精度取approximate"},
+      {"date_start": "1912", "date_end": null, "date_precision": "year", "event_type": "合并重组", "title": "开平、滦州合并设开滦矿务总局", "description": "1912年6月开平公司与滦州官矿签订联合经营合同，设立中外合办的开滦矿务总局，总部设天津，股本2000万两，红利开六滦四分配；赵各庄矿自此属开滦系统。", "place_name": "天津", "related_people": [], "related_orgs": ["开滦矿务总局"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1938-03-22", "date_end": "1938-05-04", "date_precision": "exact_date", "event_type": "战争影响", "title": "赵各庄矿工率先罢工，发展为开滦五矿同盟大罢工", "description": "1938年3月因'井下记工制'赵各庄矿工率先罢工，波及林西、唐家庄、唐山、马家沟矿；5月4日英资签订劳资协议16条；7月矿工武装暴动加入冀东抗日联军。", "place_name": "河北省唐山市古冶区赵各庄", "related_people": ["周文彬", "节振国", "蒋振元"], "related_orgs": ["开滦矿务局", "中国共产党"], "source_idxs": [1], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1941", "date_end": null, "date_precision": "year", "event_type": "战争影响", "title": "日军对开滦实行'军管理'", "description": "1941年12月8日日本发动太平洋战争当天对开滦实行'军管理'。", "place_name": "河北省唐山市", "related_people": [], "related_orgs": ["日军"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1948", "date_end": null, "date_precision": "year", "event_type": "其他", "title": "唐山解放，军代表进驻开滦", "description": "1948年12月12日解放军占领唐山，军代表进驻开滦煤矿（时辖4个生产矿井、5万矿工）。", "place_name": "河北省唐山市", "related_people": [], "related_orgs": ["开滦矿务局"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1952", "date_end": null, "date_precision": "year", "event_type": "改制", "title": "中央燃料工业部代管开滦煤矿", "description": "1952年5月17日中央人民政府燃料工业部代管开滦煤矿。", "place_name": "河北省唐山市", "related_people": [], "related_orgs": ["燃料工业部"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1999", "date_end": null, "date_precision": "year", "event_type": "改制", "title": "开滦矿务局改制为开滦集团", "description": "1998年8月开滦下放河北省管理；1999年改制为开滦（集团）有限责任公司。", "place_name": "河北省唐山市", "related_people": [], "related_orgs": ["开滦（集团）有限责任公司"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "2019", "date_end": null, "date_precision": "year", "event_type": "遗产认定", "title": "列入第三批国家工业遗产", "description": "工信部2019年12月6日公布第三批国家工业遗产名单，'开滦赵各庄矿'（唐山市古冶区）入选，核心物项含1、2、3、4号井井架，1号井绞车房及绞车设备，建矿初期工具工牌，9、10号洋房子等。", "place_name": "河北省唐山市古冶区", "related_people": [], "related_orgs": ["工业和信息化部"], "source_idxs": [2], "confidence": "high", "disputed": false, "notes": ""}
+    ],
+    "people": [
+      {"name": "周学熙", "role": "北洋滦州官矿有限公司总理（赵各庄矿属其建设的矿井）", "source_idxs": [0]},
+      {"name": "唐廷枢", "role": "开平矿务局负责人（开滦前身创办主持人）", "source_idxs": [0]},
+      {"name": "李鸿章", "role": "委派唐廷枢创办开平矿务局（开滦前身）", "source_idxs": [3]},
+      {"name": "周文彬", "role": "中共唐山市工委书记，1938年开滦五矿大罢工领导者", "source_idxs": [1]},
+      {"name": "节振国", "role": "1938年罢工纠察大队大队长", "source_idxs": [1]}
+    ],
+    "relations": [
+      {"relation_type": "企业谱系", "target_entity": "滦州官矿（1908）→开滦矿务总局（1912）→开滦矿务局→开滦集团（1999）", "description": "赵各庄矿由滦州官矿以西法建设，1912年随开滦合并进入中英合办的开滦矿务总局系统", "source_idxs": [0], "inferred": false},
+      {"relation_type": "资本结构", "target_entity": "中英合办（开六滦四）", "description": "1912年开滦矿务总局为中外合办，总股本2000万两、开滦各半，红利开六滦四分配", "source_idxs": [0], "inferred": false}
+    ],
+    "historical_period_tags": ["晚清近代工业", "民国时期", "新中国初期", "改革开放后"],
+    "sources": [
+      {"title": "开滦矿务局（维基百科条目）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E5%BC%80%E6%BB%A6%E7%9F%BF%E5%8A%A1%E5%B1%80", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
+      {"title": "开滦五矿大罢工 (1938年)（维基百科条目）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E5%BC%80%E6%BB%A6%E4%BA%94%E7%9F%BF%E5%A4%A7%E7%BD%A2%E5%B7%A5_(1938%E5%B9%B4)", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
+      {"title": "国家工业遗产（第一批至第七批名单，转引工信部历次通告）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
+      {"title": "开滦煤矿（百度百科，搜索摘要：前身1878年李鸿章委派唐廷枢创办的开平矿务局）", "org": "百度百科", "url": "https://baike.baidu.com/item/%E5%BC%80%E6%BB%A6%E7%85%A4%E7%9F%BF/2026083", "pub_date": "2018-01", "authority": "D", "source_type": "encyclopedia"}
+    ]
+  },
+  {
+    "heritage_id": "HER-4de5bd523e5d",
+    "name": "福建船政",
+    "founded_year": {"value": 1866, "date_precision": "year", "source_idxs": [0]},
+    "production_start_year": null,
+    "closure_year": null,
+    "current_use": "福建船政建筑为全国重点文物保护单位（2001年），马尾造船厂现为马尾造船股份有限公司，并以'福建船政'列入第四批国家工业遗产",
+    "events": [
+      {"date_start": "1866", "date_end": null, "date_precision": "year", "event_type": "创建/筹建", "title": "左宗棠创办福州船政局，沈葆桢接任", "description": "1866年（清同治五年）8月19日左宗棠在福州马尾建立福州船政局（福建船政局）；同年9月左调任陕甘总督，荐沈葆桢任总理船政大臣执掌局务。", "place_name": "福建省福州市马尾", "related_people": ["左宗棠", "沈葆桢"], "related_orgs": ["福州船政局"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1866", "date_end": null, "date_precision": "approximate", "event_type": "技术引进", "title": "聘法国监督与技师，设船政学堂", "description": "船政初期委任法国人为监督，雇佣法国技师和工头；设铁厂、马尾造船厂和船政学堂，为中国近代第一个新式造船厂、清政府经营的最大造船厂。", "place_name": "福建省福州市马尾", "related_people": [], "related_orgs": ["船政学堂"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1866", "date_end": "1907", "date_precision": "year", "event_type": "产品突破", "title": "造船约40艘，自建钢甲巡洋舰平远舰", "description": "1866至1907年共制造各种船舶约40艘；平远舰为船政首次自行设计建造的全钢甲巡洋舰（排水量2150吨，造价白银52.4万两）。", "place_name": "福建省福州市马尾", "related_people": [], "related_orgs": ["福建船政水师"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": "平远舰具体建造年份来源页未载"},
+      {"date_start": "1907", "date_end": null, "date_precision": "year", "event_type": "停产", "title": "造船业务停办", "description": "清末马尾造船厂造船业务于1907年停办，中国造船业务重心此后转向江南造船厂。", "place_name": "福建省福州市马尾", "related_people": [], "related_orgs": ["马尾造船厂"], "source_idxs": [1], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1918", "date_end": "1919", "date_precision": "year", "event_type": "技术引进", "title": "设海军飞机工程处，造出中国第一架水上飞机", "description": "1918年北京政府海军部在马尾造船厂内开办海军飞机工程处，为中国第一个正规飞机制造厂；1919年8月制成中国第一架水上飞机'甲型一号'，后又造各型飞机17架。", "place_name": "福建省福州市马尾", "related_people": [], "related_orgs": ["海军飞机工程处"], "source_idxs": [0], "confidence": "high", "disputed": false, "notes": ""},
+      {"date_start": "1926", "date_end": null, "date_precision": "year", "event_type": "改制", "title": "改称海军马尾造船所", "description": "辛亥革命后的1926年，改称海军马尾造船所；另于1924年在新船坞设福建造币厂（1930年停铸）。", "place_name": "福建省福州市马尾", "related_people": [], "related_orgs": ["海军马尾造船所"], "source_idxs": [0], "confidence": "medium", "disputed": false, "notes": ""},
+      {"date_start": null, "date_end": null, "date_precision": null, "event_type": "战争影响", "title": "抗战中严重破坏，战后接收", "description": "抗日战争期间船政建筑大部分因轰炸毁损，生产停顿，战后由国民政府接收。", "place_name": "福建省福州市马尾", "related_people": [], "related_orgs": [], "source_idxs": [0, 1], "confidence": "high", "disputed": false, "notes": "来源页未给出具体年份"},
+      {"date_start": "2001", "date_end": "2020", "date_precision": "year", "event_type": "遗产认定", "title": "列入全国重点文保与第四批国家工业遗产", "description": "2001年'福建船政建筑'列为全国重点文物保护单位（491-18，清代）；2020年12月17日'福建船政'列入第四批国家工业遗产，核心物项含轮机厂、绘事院、一号船坞、船政衙门遗址等。", "place_name": "福建省福州市马尾区", "related_people": [], "related_orgs": ["国务院", "工业和信息化部"], "source_idxs": [0, 2], "confidence": "high", "disputed": false, "notes": ""}
+    ],
+    "people": [
+      {"name": "左宗棠", "role": "创办人（1866年奏设并建立福州船政局）", "source_idxs": [0]},
+      {"name": "沈葆桢", "role": "首任总理船政大臣", "source_idxs": [0]}
+    ],
+    "relations": [
+      {"relation_type": "技术援助", "target_entity": "法国", "description": "船政初期委任法国人为监督，并雇佣法国技师和工头", "source_idxs": [0], "inferred": false},
+      {"relation_type": "企业谱系", "target_entity": "福州船政局→马尾造船厂→马尾造船股份有限公司", "description": "马尾造船厂1866年始建，由福州船政局管理，现为马尾造船股份有限公司", "source_idxs": [1], "inferred": false},
+      {"relation_type": "附属机构", "target_entity": "船政学堂", "description": "船政设铁厂、马尾造船厂和船政学堂", "source_idxs": [0], "inferred": false}
+    ],
+    "historical_period_tags": ["晚清近代工业", "民国时期"],
+    "sources": [
+      {"title": "福州船政局（维基百科条目）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E7%A6%8F%E5%B7%9E%E8%88%B9%E6%94%BF%E5%B1%80", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
+      {"title": "马尾造船厂（维基百科条目）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%B0%BE%E9%80%A0%E8%88%B9%E5%8E%82", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
+      {"title": "国家工业遗产（第一批至第七批名单，转引工信部历次通告）", "org": "维基百科", "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7", "pub_date": null, "authority": "C", "source_type": "encyclopedia"}
+    ]
+  }
+]

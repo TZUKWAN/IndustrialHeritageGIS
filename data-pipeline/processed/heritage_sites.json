@@ -10,7 +10,9 @@
    1
   ],
   "source_no": 1,
-  "recognition_years": [],
+  "recognition_years": [
+   2017
+  ],
   "province": "山东省",
   "city": "烟台市",
   "district_county": "芝罘区",
@@ -41,10 +43,14 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
+  "founded_year": 1892,
   "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "改革开放后"
+  ],
+  "current_use": "公司仍在烟台原址生产经营葡萄酒，1992年设张裕酒文化博物馆（国家一级博物馆、4A级景区），原址入选第一批国家工业遗产",
   "longitude": 121.3801842131619,
   "latitude": 37.538543103017595,
   "coordinate_system": "WGS84",
@@ -67,9 +73,11 @@
   "source_ids": [
    "src-batch1"
   ],
-  "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "enrichment_status": "verified",
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": "year",
+  "closure_year": null
  },
  {
   "heritage_id": "HER-3714508c3156",
@@ -82,7 +90,9 @@
    1
   ],
   "source_no": 2,
-  "recognition_years": [],
+  "recognition_years": [
+   2017
+  ],
   "province": "辽宁省",
   "city": "鞍山市",
   "district_county": "铁西区",
@@ -111,10 +121,15 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1916,
+  "production_start_year": 1919,
+  "historical_period": [
+   "民国时期",
+   "新中国初期",
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "current_use": "鞍钢集团仍在鞍山生产经营，原厂区入选第一批国家工业遗产",
   "longitude": 122.9659697053071,
   "latitude": 41.10926994447316,
   "coordinate_system": "WGS84",
@@ -137,9 +152,11 @@
   "source_ids": [
    "src-batch1"
   ],
-  "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "enrichment_status": "verified",
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": "year",
+  "closure_year": null
  },
  {
   "heritage_id": "HER-5a9fc0deeafb",
@@ -152,7 +169,9 @@
    1
   ],
   "source_no": 3,
-  "recognition_years": [],
+  "recognition_years": [
+   2017
+  ],
   "province": "辽宁省",
   "city": "大连市",
   "district_county": "旅顺口区",
@@ -179,10 +198,13 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
+  "founded_year": 1880,
   "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "historical_period": [
+   "晚清近代工业",
+   "新中国初期"
+  ],
+  "current_use": "仍由中国人民解放军海军（大连辽南船厂/4810工厂厂区）使用",
   "longitude": 121.26151774801137,
   "latitude": 38.810068019537084,
   "coordinate_system": "WGS84",
@@ -205,9 +227,11 @@
   "source_ids": [
    "src-batch1"
   ],
-  "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "enrichment_status": "verified",
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": "decade",
+  "closure_year": null
  },
  {
   "heritage_id": "HER-7ff3d9d08333",
@@ -220,7 +244,9 @@
    1
   ],
   "source_no": 4,
-  "recognition_years": [],
+  "recognition_years": [
+   2017
+  ],
   "province": "江西省",
   "city": "景德镇市",
   "district_county": "珠山区",
@@ -277,8 +303,10 @@
    "src-batch1"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-ef75e812b2b4",
@@ -291,7 +319,9 @@
    1
   ],
   "source_no": 5,
-  "recognition_years": [],
+  "recognition_years": [
+   2017
+  ],
   "province": "江西省",
   "city": "赣州市",
   "district_county": "大余县",
@@ -347,8 +377,10 @@
    "src-batch1"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b652f983bcaa",
@@ -361,7 +393,9 @@
    1
   ],
   "source_no": 6,
-  "recognition_years": [],
+  "recognition_years": [
+   2017
+  ],
   "province": "辽宁省",
   "city": "本溪市",
   "district_county": "溪湖区",
@@ -416,8 +450,10 @@
    "src-batch1"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-484598c6dd59",
@@ -430,7 +466,9 @@
    1
   ],
   "source_no": 7,
-  "recognition_years": [],
+  "recognition_years": [
+   2017
+  ],
   "province": "陕西省",
   "city": "宝鸡市",
   "district_county": "金台区",
@@ -485,8 +523,10 @@
    "src-batch1"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-f6e0454fb02b",
@@ -499,7 +539,9 @@
    1
   ],
   "source_no": 8,
-  "recognition_years": [],
+  "recognition_years": [
+   2017
+  ],
   "province": "浙江省",
   "city": "温州市",
   "district_county": "苍南县",
@@ -552,8 +594,10 @@
    "src-batch1"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-1d1453b43e34",
@@ -566,7 +610,9 @@
    1
   ],
   "source_no": 9,
-  "recognition_years": [],
+  "recognition_years": [
+   2017
+  ],
   "province": "浙江省",
   "city": "湖州市",
   "district_county": "南浔区",
@@ -621,8 +667,10 @@
    "src-batch1"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-efd17b0eab9d",
@@ -635,7 +683,9 @@
    1
   ],
   "source_no": 10,
-  "recognition_years": [],
+  "recognition_years": [
+   2017
+  ],
   "province": "重庆市",
   "city": null,
   "district_county": "大渡口区",
@@ -692,8 +742,10 @@
    "src-batch1"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-3318e785a779",
@@ -706,7 +758,9 @@
    1
   ],
   "source_no": 11,
-  "recognition_years": [],
+  "recognition_years": [
+   2017
+  ],
   "province": "湖北省",
   "city": "武汉市",
   "district_county": "汉阳区",
@@ -764,8 +818,10 @@
    "src-batch1"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-9611e3ec365b",
@@ -778,7 +834,9 @@
    2
   ],
   "source_no": 1,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "北京市",
   "city": null,
   "district_county": "朝阳区",
@@ -835,8 +893,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-66be236235e7",
@@ -849,7 +909,9 @@
    2
   ],
   "source_no": 2,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "北京市",
   "city": null,
   "district_county": "朝阳区",
@@ -904,8 +966,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-60673a3943fa",
@@ -919,7 +983,10 @@
    4
   ],
   "source_no": 3,
-  "recognition_years": [],
+  "recognition_years": [
+   2018,
+   2020
+  ],
   "province": "北京市",
   "city": null,
   "district_county": "海淀区",
@@ -974,8 +1041,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b6a6c15c83b0",
@@ -988,7 +1057,9 @@
    2
   ],
   "source_no": 4,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "北京市",
   "city": null,
   "district_county": "房山区",
@@ -1041,8 +1112,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-61afd2c64f32",
@@ -1055,7 +1128,9 @@
    2
   ],
   "source_no": 5,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "河北省",
   "city": "石家庄市",
   "district_county": "井陉矿区",
@@ -1109,8 +1184,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-3402f24ff899",
@@ -1123,7 +1200,9 @@
    2
   ],
   "source_no": 6,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "河北省",
   "city": "秦皇岛市",
   "district_county": "海港区",
@@ -1178,8 +1257,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-e3bceca36251",
@@ -1192,7 +1273,9 @@
    2
   ],
   "source_no": 7,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "河北省",
   "city": "秦皇岛市",
   "district_county": "海港区",
@@ -1249,8 +1332,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-1a7f427bdf6a",
@@ -1263,7 +1348,9 @@
    2
   ],
   "source_no": 8,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "河北省",
   "city": "秦皇岛市",
   "district_county": "山海关区",
@@ -1319,8 +1406,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-7e38d2eaacda",
@@ -1333,7 +1422,9 @@
    2
   ],
   "source_no": 9,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "河北省",
   "city": "唐山市",
   "district_county": "路北区",
@@ -1389,8 +1480,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-3f02e34f45ec",
@@ -1403,7 +1496,9 @@
    2
   ],
   "source_no": 10,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "河北省",
   "city": "唐山市",
   "district_county": "路北区",
@@ -1458,8 +1553,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-2f21c0412b49",
@@ -1472,7 +1569,9 @@
    2
   ],
   "source_no": 11,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "山西省",
   "city": "太原市",
   "district_county": "杏花岭区",
@@ -1526,8 +1625,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-46d6d55b891c",
@@ -1540,7 +1641,9 @@
    2
   ],
   "source_no": 12,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "山西省",
   "city": "阳泉市",
   "district_county": "矿区",
@@ -1597,8 +1700,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-74bf65465f7b",
@@ -1611,7 +1716,9 @@
    2
   ],
   "source_no": 13,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "辽宁省",
   "city": "沈阳市",
   "district_county": "铁西区",
@@ -1665,8 +1772,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-ed14d4d7c545",
@@ -1679,7 +1788,9 @@
    2
   ],
   "source_no": 14,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "辽宁省",
   "city": "辽阳市",
   "district_county": "文圣区",
@@ -1734,8 +1845,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-dd30a90e9242",
@@ -1748,7 +1861,9 @@
    2
   ],
   "source_no": 15,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "黑龙江省",
   "city": "大庆市",
   "district_county": "红岗区",
@@ -1801,8 +1916,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-2845032e8d49",
@@ -1815,7 +1932,9 @@
    2
   ],
   "source_no": 16,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "江苏省",
   "city": "南京市",
   "district_county": "秦淮区",
@@ -1869,8 +1988,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-84af583665b6",
@@ -1883,7 +2004,9 @@
    2
   ],
   "source_no": 17,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "江苏省",
   "city": "南京市",
   "district_county": "江北新区",
@@ -1910,10 +2033,13 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1934,
+  "production_start_year": 1937,
+  "historical_period": [
+   "民国时期",
+   "新中国初期"
+  ],
+  "current_use": "厂区现为中国石化南化公司（南京化学工业有限公司）所在地，所在南京'大厂'地名即源于该厂",
   "longitude": 118.76182633625795,
   "latitude": 32.03939347432198,
   "coordinate_system": "WGS84",
@@ -1936,9 +2062,11 @@
   "source_ids": [
    "src-batch2"
   ],
-  "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "enrichment_status": "verified",
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": "year",
+  "closure_year": null
  },
  {
   "heritage_id": "HER-48b865e76a6f",
@@ -1951,7 +2079,9 @@
    2
   ],
   "source_no": 18,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "江苏省",
   "city": "无锡市",
   "district_county": "梁溪区",
@@ -2005,8 +2135,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-a1c1af53bf84",
@@ -2019,7 +2151,9 @@
    2
   ],
   "source_no": 19,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "江苏省",
   "city": "南通市",
   "district_county": "港闸区",
@@ -2046,10 +2180,15 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1895,
+  "production_start_year": 1899,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期",
+   "改革开放后"
+  ],
+  "current_use": "现属江苏大生集团有限公司继续纺织生产，公事厅改为厂史陈列馆，旧址为全国重点文物保护单位",
   "longitude": 120.85996912974272,
   "latitude": 32.01415534687126,
   "coordinate_system": "WGS84",
@@ -2072,9 +2211,11 @@
   "source_ids": [
    "src-batch2"
   ],
-  "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "enrichment_status": "verified",
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": "year",
+  "closure_year": null
  },
  {
   "heritage_id": "HER-061b2557d5fe",
@@ -2087,7 +2228,9 @@
    2
   ],
   "source_no": 20,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "安徽省",
   "city": "合肥市",
   "district_county": "瑶海区",
@@ -2143,8 +2286,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-93e6f17e8d49",
@@ -2157,7 +2302,9 @@
    2
   ],
   "source_no": 21,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "安徽省",
   "city": "宣城市",
   "district_county": "泾县",
@@ -2211,8 +2358,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-9f904121b6ca",
@@ -2225,7 +2374,9 @@
    2
   ],
   "source_no": 22,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "江西省",
   "city": "南昌市",
   "district_county": "进贤县",
@@ -2279,8 +2430,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-a75647ad84e9",
@@ -2293,7 +2446,9 @@
    2
   ],
   "source_no": 23,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "山东省",
   "city": "济南市",
   "district_county": "槐荫区",
@@ -2348,8 +2503,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-2986a1df182b",
@@ -2362,7 +2519,9 @@
    2
   ],
   "source_no": 24,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "山东省",
   "city": "青岛市",
   "district_county": "市北区",
@@ -2419,8 +2578,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-a9d5417e03dc",
@@ -2433,7 +2594,9 @@
    2
   ],
   "source_no": 25,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "山东省",
   "city": "青岛市",
   "district_county": "市北区",
@@ -2488,8 +2651,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-fdaf810de211",
@@ -2502,7 +2667,9 @@
    2
   ],
   "source_no": 26,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "河南省",
   "city": "洛阳市",
   "district_county": "涧西区",
@@ -2556,8 +2723,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-e0dadacd727f",
@@ -2570,7 +2739,9 @@
    2
   ],
   "source_no": 27,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "河南省",
   "city": "洛阳市",
   "district_county": "涧西区",
@@ -2624,8 +2795,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-56bf3cbc55cf",
@@ -2638,7 +2811,9 @@
    2
   ],
   "source_no": 28,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "湖北省",
   "city": "黄石市",
   "district_county": "大冶市",
@@ -2691,8 +2866,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-3906e6d89ca3",
@@ -2705,7 +2882,9 @@
    2
   ],
   "source_no": 29,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "湖南省",
   "city": "益阳市",
   "district_county": "安化县",
@@ -2760,8 +2939,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b87d6f31c085",
@@ -2774,7 +2955,9 @@
    2
   ],
   "source_no": 30,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "四川省",
   "city": "成都市",
   "district_county": "成华区",
@@ -2829,8 +3012,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-3d9f42f7fc19",
@@ -2843,7 +3028,9 @@
    2
   ],
   "source_no": 31,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "四川省",
   "city": "泸州市",
   "district_county": "江阳区、龙马潭区",
@@ -2898,8 +3085,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-1a060e671fb0",
@@ -2912,7 +3101,9 @@
    2
   ],
   "source_no": 32,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "四川省",
   "city": "绵阳市",
   "district_county": "梓潼县",
@@ -2966,8 +3157,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-66b2d6d88d73",
@@ -2980,7 +3173,9 @@
    2
   ],
   "source_no": 33,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "四川省",
   "city": "宜宾市",
   "district_county": "翠屏区、叙州区",
@@ -3037,8 +3232,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-3af0508bcf2e",
@@ -3051,7 +3248,9 @@
    2
   ],
   "source_no": 34,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "贵州省",
   "city": "遵义市",
   "district_county": "仁怀市",
@@ -3104,8 +3303,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-62d2654b7bcf",
@@ -3118,7 +3319,9 @@
    2
   ],
   "source_no": 35,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "贵州省",
   "city": "安顺市",
   "district_county": "平坝区",
@@ -3172,8 +3375,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-c1bf9347e31e",
@@ -3186,7 +3391,9 @@
    2
   ],
   "source_no": 36,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "云南省",
   "city": "昆明市",
   "district_county": "西山区",
@@ -3245,8 +3452,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-eeb5ddec0e36",
@@ -3259,7 +3468,9 @@
    2
   ],
   "source_no": 37,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "云南省",
   "city": "昆明市",
   "district_county": "安宁市",
@@ -3318,8 +3529,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-c329f56765d1",
@@ -3332,7 +3545,9 @@
    2
   ],
   "source_no": 38,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "陕西省",
   "city": "铜川市",
   "district_county": "印台区",
@@ -3388,8 +3603,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b8902e44b338",
@@ -3402,7 +3619,9 @@
    2
   ],
   "source_no": 39,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "陕西省",
   "city": "延安市",
   "district_county": "延长县",
@@ -3456,8 +3675,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-bcd6809bc514",
@@ -3470,7 +3691,9 @@
    2
   ],
   "source_no": 40,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "甘肃省",
   "city": null,
   "district_county": "",
@@ -3524,8 +3747,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 78
+  "data_version": "v1.1.0",
+  "field_completeness": 78,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-fa234e8c25df",
@@ -3538,7 +3763,9 @@
    2
   ],
   "source_no": 41,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "甘肃省",
   "city": "临夏回族自治州",
   "district_county": "永靖县",
@@ -3595,8 +3822,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-2602ebe85654",
@@ -3609,7 +3838,9 @@
    2
   ],
   "source_no": 42,
-  "recognition_years": [],
+  "recognition_years": [
+   2018
+  ],
   "province": "新疆维吾尔自治区",
   "city": "阿勒泰地区",
   "district_county": "富蕴县",
@@ -3663,8 +3894,10 @@
    "src-batch2"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-c54e6935a72a",
@@ -3677,7 +3910,9 @@
    3
   ],
   "source_no": 1,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "北京市",
   "city": null,
   "district_county": "东城区",
@@ -3732,8 +3967,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-3c01f17956a9",
@@ -3746,7 +3983,9 @@
    3
   ],
   "source_no": 2,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "北京市",
   "city": null,
   "district_county": "西城区",
@@ -3800,8 +4039,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-2a5a17295e93",
@@ -3814,7 +4055,9 @@
    3
   ],
   "source_no": 3,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "天津市",
   "city": null,
   "district_county": "滨海新区",
@@ -3869,8 +4112,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b6ef8394932b",
@@ -3883,7 +4128,9 @@
    3
   ],
   "source_no": 4,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "河北省",
   "city": "唐山市",
   "district_county": "古冶区",
@@ -3911,9 +4158,14 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
+  "founded_year": 1908,
   "production_start_year": null,
-  "historical_period": [],
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期",
+   "改革开放后"
+  ],
   "current_use": null,
   "longitude": 118.44764621908247,
   "latitude": 39.71382130740623,
@@ -3937,9 +4189,11 @@
   "source_ids": [
    "src-batch3"
   ],
-  "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "enrichment_status": "verified",
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": "approximate",
+  "closure_year": null
  },
  {
   "heritage_id": "HER-ad6365da55a8",
@@ -3952,7 +4206,9 @@
    3
   ],
   "source_no": 5,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "山西省",
   "city": "长治市",
   "district_county": "潞州区",
@@ -4007,8 +4263,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-1e4a089da185",
@@ -4021,7 +4279,9 @@
    3
   ],
   "source_no": 6,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "山西省",
   "city": "长治市",
   "district_county": "潞州区",
@@ -4076,8 +4336,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-65ceaa27a924",
@@ -4090,7 +4352,9 @@
    3
   ],
   "source_no": 7,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "山西省",
   "city": "晋城市",
   "district_county": "高平市",
@@ -4146,8 +4410,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-23ba3693818a",
@@ -4160,7 +4426,9 @@
    3
   ],
   "source_no": 8,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "辽宁省",
   "city": "抚顺市",
   "district_county": "望花区",
@@ -4214,8 +4482,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-378db866b478",
@@ -4228,7 +4498,9 @@
    3
   ],
   "source_no": 9,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "辽宁省",
   "city": "营口市",
   "district_county": "站前区",
@@ -4283,8 +4555,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-8b50b8dc20c3",
@@ -4297,7 +4571,9 @@
    3
   ],
   "source_no": 10,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "辽宁省",
   "city": "大连市",
   "district_county": "沙河口区",
@@ -4352,8 +4628,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-f2ec0721d29d",
@@ -4366,7 +4644,9 @@
    3
   ],
   "source_no": 11,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "黑龙江省",
   "city": "齐齐哈尔市",
   "district_county": "富拉尔基区",
@@ -4422,8 +4702,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-1a460fed2d5f",
@@ -4436,7 +4718,9 @@
    3
   ],
   "source_no": 12,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "黑龙江省",
   "city": "佳木斯市",
   "district_county": "桦南县、勃利县、宝清县、七台河市",
@@ -4499,8 +4783,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-76d04b757253",
@@ -4513,7 +4799,9 @@
    3
   ],
   "source_no": 13,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "上海市",
   "city": null,
   "district_county": "普陀区",
@@ -4567,8 +4855,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-d867a1652663",
@@ -4581,7 +4871,9 @@
    3
   ],
   "source_no": 14,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "江苏省",
   "city": "常州市",
   "district_county": "钟楼区",
@@ -4637,8 +4929,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-62f62ab6ed2b",
@@ -4651,7 +4945,9 @@
    3
   ],
   "source_no": 15,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "江苏省",
   "city": "镇江市",
   "district_county": "润州区",
@@ -4708,8 +5004,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-1ad94a4eee2f",
@@ -4722,7 +5020,9 @@
    3
   ],
   "source_no": 16,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "江苏省",
   "city": "宿迁市",
   "district_county": "宿城区",
@@ -4780,8 +5080,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-5e1b302b21e8",
@@ -4794,7 +5096,9 @@
    3
   ],
   "source_no": 17,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "浙江省",
   "city": "绍兴市",
   "district_county": "柯桥区",
@@ -4850,8 +5154,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-1a22e8c17fac",
@@ -4864,7 +5170,9 @@
    3
   ],
   "source_no": 18,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "安徽省",
   "city": "亳州市",
   "district_county": "谯城区",
@@ -4919,8 +5227,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-936b0f3dd37f",
@@ -4933,7 +5243,9 @@
    3
   ],
   "source_no": 19,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "安徽省",
   "city": "池州市",
   "district_county": "贵池区",
@@ -4987,8 +5299,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-0019d431e9a9",
@@ -5001,7 +5315,9 @@
    3
   ],
   "source_no": 20,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "安徽省",
   "city": "黄山市",
   "district_county": "歙县",
@@ -5057,8 +5373,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-5694d41d4aca",
@@ -5071,7 +5389,9 @@
    3
   ],
   "source_no": 21,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "福建省",
   "city": "泉州市",
   "district_county": "鲤城区",
@@ -5126,8 +5446,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-d077697be2ac",
@@ -5140,7 +5462,9 @@
    3
   ],
   "source_no": 22,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "福建省",
   "city": "龙岩市",
   "district_county": "长汀县",
@@ -5193,8 +5517,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-08259d5ca73e",
@@ -5207,7 +5533,9 @@
    3
   ],
   "source_no": 23,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "江西省",
   "city": "景德镇市",
   "district_county": "珠山区",
@@ -5261,8 +5589,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-d627be0ee19b",
@@ -5275,7 +5605,9 @@
    3
   ],
   "source_no": 24,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "江西省",
   "city": "景德镇市",
   "district_county": "珠山区",
@@ -5330,8 +5662,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-e60020aa2e11",
@@ -5344,7 +5678,9 @@
    3
   ],
   "source_no": 25,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "江西省",
   "city": "吉安市",
   "district_county": "吉安县",
@@ -5398,8 +5734,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-60c0bb0d831a",
@@ -5412,7 +5750,9 @@
    3
   ],
   "source_no": 26,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "江西省",
   "city": "赣州市",
   "district_county": "兴国县",
@@ -5468,8 +5808,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b5604d9b23bb",
@@ -5482,7 +5824,9 @@
    3
   ],
   "source_no": 27,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "山东省",
   "city": "潍坊市",
   "district_county": "奎文区",
@@ -5538,8 +5882,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-3d9cdf94a90b",
@@ -5552,7 +5898,9 @@
    3
   ],
   "source_no": 28,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "山东省",
   "city": "聊城市",
   "district_county": "东阿县",
@@ -5607,8 +5955,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-407fe7b65baa",
@@ -5621,7 +5971,9 @@
    3
   ],
   "source_no": 29,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "湖北省",
   "city": "襄阳市",
   "district_county": "老河口市",
@@ -5676,8 +6028,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-0577e36e0167",
@@ -5690,7 +6044,9 @@
    3
   ],
   "source_no": 30,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "湖北省",
   "city": "黄石市",
   "district_county": "黄石港区",
@@ -5744,8 +6100,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-e3373769c90a",
@@ -5758,7 +6116,9 @@
    3
   ],
   "source_no": 31,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "湖南省",
   "city": "衡阳市",
   "district_county": "珠晖区",
@@ -5813,8 +6173,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-00195fa64361",
@@ -5827,7 +6189,9 @@
    3
   ],
   "source_no": 32,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "广东省",
   "city": "佛山市",
   "district_county": "禅城区",
@@ -5881,8 +6245,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-40dcf7bfb650",
@@ -5895,7 +6261,9 @@
    3
   ],
   "source_no": 33,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "重庆市",
   "city": null,
   "district_county": "涪陵区",
@@ -5949,8 +6317,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-ac27828c4e30",
@@ -5963,7 +6333,9 @@
    3
   ],
   "source_no": 34,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "重庆市",
   "city": null,
   "district_county": "长寿区",
@@ -6018,8 +6390,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-76eac55f1261",
@@ -6032,7 +6406,9 @@
    3
   ],
   "source_no": 35,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "四川省",
   "city": "成都市",
   "district_county": "锦江区",
@@ -6086,8 +6462,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-e6da22111b35",
@@ -6100,7 +6478,9 @@
    3
   ],
   "source_no": 36,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "四川省",
   "city": "自贡市",
   "district_county": "贡井区、大安区",
@@ -6155,8 +6535,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-73fca2668c0a",
@@ -6169,7 +6551,9 @@
    3
   ],
   "source_no": 37,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "四川省",
   "city": "攀枝花市",
   "district_county": "东区",
@@ -6228,8 +6612,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-520797c1fc83",
@@ -6242,7 +6628,9 @@
    3
   ],
   "source_no": 38,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "四川省",
   "city": "泸州市",
   "district_county": "龙马潭区",
@@ -6300,8 +6688,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-e36033cf58fe",
@@ -6314,7 +6704,9 @@
    3
   ],
   "source_no": 39,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "四川省",
   "city": "内江市",
   "district_county": "隆昌市",
@@ -6370,8 +6762,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-c7c7adbf1635",
@@ -6384,7 +6778,9 @@
    3
   ],
   "source_no": 40,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "四川省",
   "city": "乐山市",
   "district_county": "市中区",
@@ -6439,8 +6835,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b7f5ed85aac9",
@@ -6453,7 +6851,9 @@
    3
   ],
   "source_no": 41,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "四川省",
   "city": "乐山市",
   "district_county": "犍为县",
@@ -6508,8 +6908,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-483581dbf4f6",
@@ -6522,7 +6924,9 @@
    3
   ],
   "source_no": 42,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "贵州省",
   "city": "六盘水市",
   "district_county": "六枝特区",
@@ -6577,8 +6981,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-1c103a68d0b8",
@@ -6591,7 +6997,9 @@
    3
   ],
   "source_no": 43,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "贵州省",
   "city": "铜仁市",
   "district_county": "万山区",
@@ -6645,8 +7053,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-76e668fdc4ca",
@@ -6659,7 +7069,9 @@
    3
   ],
   "source_no": 44,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "云南省",
   "city": "临沧市",
   "district_county": "凤庆县",
@@ -6714,8 +7126,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-851154e90826",
@@ -6728,7 +7142,9 @@
    3
   ],
   "source_no": 45,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "西藏自治区",
   "city": "拉萨市",
   "district_county": "当雄县",
@@ -6782,8 +7198,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-4c3c80502838",
@@ -6796,7 +7214,9 @@
    3
   ],
   "source_no": 46,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "陕西省",
   "city": "宝鸡市",
   "district_county": "凤县",
@@ -6851,8 +7271,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-c2ca03b2eac5",
@@ -6865,7 +7287,9 @@
    3
   ],
   "source_no": 47,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "陕西省",
   "city": "渭南市",
   "district_county": "蒲城县",
@@ -6921,8 +7345,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-302153de1606",
@@ -6935,7 +7361,9 @@
    3
   ],
   "source_no": 48,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "陕西省",
   "city": "榆林市",
   "district_county": "定边县",
@@ -6992,8 +7420,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-561b0f678c8b",
@@ -7006,7 +7436,9 @@
    3
   ],
   "source_no": 49,
-  "recognition_years": [],
+  "recognition_years": [
+   2019
+  ],
   "province": "甘肃省",
   "city": "兰州市",
   "district_county": "西固区",
@@ -7062,8 +7494,10 @@
    "src-batch3"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-360695d763ad",
@@ -7076,7 +7510,9 @@
    4
   ],
   "source_no": 1,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "北京市",
   "city": null,
   "district_county": "西城区",
@@ -7134,8 +7570,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-815d3688e43b",
@@ -7148,7 +7586,9 @@
    4
   ],
   "source_no": 2,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "天津市",
   "city": null,
   "district_county": "滨海新区",
@@ -7203,8 +7643,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-22e1d21f698e",
@@ -7217,7 +7659,9 @@
    4
   ],
   "source_no": 3,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "天津市",
   "city": null,
   "district_county": "河东区",
@@ -7273,8 +7717,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-3e17a22e3784",
@@ -7287,7 +7733,9 @@
    4
   ],
   "source_no": 4,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "河北省",
   "city": "张家口市",
   "district_county": "怀来县",
@@ -7344,8 +7792,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-1bceae49c203",
@@ -7358,7 +7808,9 @@
    4
   ],
   "source_no": 5,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "河北省",
   "city": "保定市",
   "district_county": "徐水区",
@@ -7412,8 +7864,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-2d48c413c8da",
@@ -7426,7 +7880,9 @@
    4
   ],
   "source_no": 6,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "山西省",
   "city": "吕梁市",
   "district_county": "汾阳市",
@@ -7483,8 +7939,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-d9992f44ad45",
@@ -7497,7 +7955,9 @@
    4
   ],
   "source_no": 7,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "辽宁省",
   "city": "沈阳市",
   "district_county": "大东区",
@@ -7555,8 +8015,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-d9f0c3cee4f8",
@@ -7569,7 +8031,9 @@
    4
   ],
   "source_no": 8,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "辽宁省",
   "city": "大连市",
   "district_county": "西岗区",
@@ -7623,8 +8087,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-8d3790c5a8ce",
@@ -7637,7 +8103,9 @@
    4
   ],
   "source_no": 9,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "辽宁省",
   "city": "阜新市",
   "district_county": "海州区、新丘区",
@@ -7694,8 +8162,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-770eb9e86335",
@@ -7708,7 +8178,9 @@
    4
   ],
   "source_no": 10,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "吉林省",
   "city": "长春市",
   "district_county": "朝阳区",
@@ -7765,8 +8237,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-dc6c97ac96d9",
@@ -7779,7 +8253,9 @@
    4
   ],
   "source_no": 11,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "吉林省",
   "city": "吉林市",
   "district_county": "桦甸市",
@@ -7835,8 +8311,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-4c8ee8df1041",
@@ -7849,7 +8327,9 @@
    4
   ],
   "source_no": 12,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "黑龙江省",
   "city": "哈尔滨市",
   "district_county": "南岗区",
@@ -7905,8 +8385,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-41a215e60f0f",
@@ -7919,7 +8401,9 @@
    4
   ],
   "source_no": 13,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "黑龙江省",
   "city": "哈尔滨市",
   "district_county": "平房区",
@@ -7974,8 +8458,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-69af79fec07c",
@@ -7988,7 +8474,9 @@
    4
   ],
   "source_no": 14,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "黑龙江省",
   "city": "哈尔滨市",
   "district_county": "香坊区",
@@ -8042,8 +8530,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-508c4eb52764",
@@ -8056,7 +8546,9 @@
    4
   ],
   "source_no": 15,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "黑龙江省",
   "city": "哈尔滨市",
   "district_county": "香坊区",
@@ -8111,8 +8603,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-90e03ce6c762",
@@ -8125,7 +8619,9 @@
    4
   ],
   "source_no": 16,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "黑龙江省",
   "city": "齐齐哈尔市",
   "district_county": "富拉尔基区",
@@ -8181,8 +8677,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-273d1b476b3f",
@@ -8195,7 +8693,9 @@
    4
   ],
   "source_no": 17,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "上海市",
   "city": null,
   "district_county": "黄浦区",
@@ -8249,8 +8749,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-0509fb1abff4",
@@ -8263,7 +8765,9 @@
    4
   ],
   "source_no": 18,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "上海市",
   "city": null,
   "district_county": "浦东新区",
@@ -8320,8 +8824,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-3f9a3c49b1d9",
@@ -8334,7 +8840,9 @@
    4
   ],
   "source_no": 19,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "江苏省",
   "city": null,
   "district_county": "",
@@ -8387,8 +8895,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 78
+  "data_version": "v1.1.0",
+  "field_completeness": 78,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-7885e297fb71",
@@ -8401,7 +8911,9 @@
    4
   ],
   "source_no": 20,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "江苏省",
   "city": "宿迁市",
   "district_county": "泗洪县",
@@ -8457,8 +8969,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-91c5efc7b07a",
@@ -8471,7 +8985,9 @@
    4
   ],
   "source_no": 21,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "浙江省",
   "city": "湖州市",
   "district_county": "南浔区",
@@ -8526,8 +9042,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b8bbbe41fd7e",
@@ -8540,7 +9058,9 @@
    4
   ],
   "source_no": 22,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "安徽省",
   "city": "合肥市",
   "district_county": "庐江县",
@@ -8597,8 +9117,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-fbc675993aaa",
@@ -8611,7 +9133,9 @@
    4
   ],
   "source_no": 23,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "安徽省",
   "city": "淮北市",
   "district_county": "濉溪县",
@@ -8666,8 +9190,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-bdb0c0922263",
@@ -8680,7 +9206,9 @@
    4
   ],
   "source_no": 24,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "安徽省",
   "city": "宣城市",
   "district_county": "广德市",
@@ -8734,8 +9262,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-4edbe22e8aab",
@@ -8748,7 +9278,9 @@
    4
   ],
   "source_no": 25,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "安徽省",
   "city": "安庆市",
   "district_county": "大观区、迎江区",
@@ -8802,8 +9334,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-4de5bd523e5d",
@@ -8816,7 +9350,9 @@
    4
   ],
   "source_no": 26,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "福建省",
   "city": "福州市",
   "district_county": "马尾区",
@@ -8844,10 +9380,13 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
+  "founded_year": 1866,
   "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期"
+  ],
+  "current_use": "福建船政建筑为全国重点文物保护单位（2001年），马尾造船厂现为马尾造船股份有限公司，并以'福建船政'列入第四批国家工业遗产",
   "longitude": 119.45352946320618,
   "latitude": 25.991776219665454,
   "coordinate_system": "WGS84",
@@ -8870,9 +9409,11 @@
   "source_ids": [
    "src-batch4"
   ],
-  "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "enrichment_status": "verified",
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": "year",
+  "closure_year": null
  },
  {
   "heritage_id": "HER-7f8dc027b8cd",
@@ -8885,7 +9426,9 @@
    4
   ],
   "source_no": 27,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "福建省",
   "city": "泉州市",
   "district_county": "安溪县",
@@ -8941,8 +9484,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-ae1ea213c947",
@@ -8955,7 +9500,9 @@
    4
   ],
   "source_no": 28,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "江西省",
   "city": "南昌市",
   "district_county": "青云谱区",
@@ -9011,8 +9558,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-280359499761",
@@ -9025,7 +9574,9 @@
    4
   ],
   "source_no": 29,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "江西省",
   "city": "九江市",
   "district_county": "永修县",
@@ -9080,8 +9631,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-7a30441fdbb1",
@@ -9094,7 +9647,9 @@
    4
   ],
   "source_no": 30,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "江西省",
   "city": "九江市",
   "district_county": "瑞昌市",
@@ -9147,8 +9702,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-d6a3838ea53f",
@@ -9161,7 +9718,9 @@
    4
   ],
   "source_no": 31,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "江西省",
   "city": "景德镇市",
   "district_county": "珠山区",
@@ -9216,8 +9775,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-4b779c93fa7b",
@@ -9230,7 +9791,9 @@
    4
   ],
   "source_no": 32,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "山东省",
   "city": "济南市",
   "district_county": "槐荫区",
@@ -9286,8 +9849,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-ef3c9223dfa4",
@@ -9300,7 +9865,9 @@
    4
   ],
   "source_no": 33,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "山东省",
   "city": "济南市",
   "district_county": "市中区",
@@ -9357,8 +9924,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-5abf2c0f09a2",
@@ -9371,7 +9940,9 @@
    4
   ],
   "source_no": 34,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "山东省",
   "city": "淄博市",
   "district_county": "高青县",
@@ -9427,8 +9998,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-9f98e3e9660c",
@@ -9441,7 +10014,9 @@
    4
   ],
   "source_no": 35,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "山东省",
   "city": "东营市",
   "district_county": "东营区",
@@ -9494,8 +10069,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-1ab26d8347e2",
@@ -9508,7 +10085,9 @@
    4
   ],
   "source_no": 36,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "山东省",
   "city": "潍坊市",
   "district_county": "安丘市",
@@ -9568,8 +10147,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-700c1120c2b9",
@@ -9582,7 +10163,9 @@
    4
   ],
   "source_no": 37,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "山东省",
   "city": null,
   "district_county": "",
@@ -9635,8 +10218,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 78
+  "data_version": "v1.1.0",
+  "field_completeness": 78,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-f346c5ed97ac",
@@ -9649,7 +10234,9 @@
    4
   ],
   "source_no": 38,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "河南省",
   "city": "洛阳市",
   "district_county": "涧西区",
@@ -9703,8 +10290,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-e1e3cbe4b1f2",
@@ -9717,7 +10306,9 @@
    4
   ],
   "source_no": 39,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "河南省",
   "city": "洛阳市",
   "district_county": "涧西区",
@@ -9771,8 +10362,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-f578fba063bf",
@@ -9785,7 +10378,9 @@
    4
   ],
   "source_no": 40,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "湖北省",
   "city": "宜昌市",
   "district_county": "西陵区",
@@ -9812,10 +10407,13 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1970,
+  "production_start_year": 1981,
+  "historical_period": [
+   "三线建设",
+   "改革开放后"
+  ],
+  "current_use": "由中国长江三峡集团运行管理，仍在发电、通航（2021年通航船舶208万余艘、货运量6.29亿吨）",
   "longitude": 111.28950826865925,
   "latitude": 30.70110033475718,
   "coordinate_system": "WGS84",
@@ -9838,9 +10436,11 @@
   "source_ids": [
    "src-batch4"
   ],
-  "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "enrichment_status": "verified",
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": "year",
+  "closure_year": null
  },
  {
   "heritage_id": "HER-d0daf5a12b29",
@@ -9853,7 +10453,9 @@
    4
   ],
   "source_no": 41,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "湖北省",
   "city": "咸宁市",
   "district_county": "赤壁市",
@@ -9908,8 +10510,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-61bb352b4593",
@@ -9922,7 +10526,9 @@
    4
   ],
   "source_no": 42,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "湖北省",
   "city": "咸宁市",
   "district_county": "赤壁市",
@@ -9976,8 +10582,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-3b724d935a4b",
@@ -9990,7 +10598,9 @@
    4
   ],
   "source_no": 43,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "湖南省",
   "city": "株洲市",
   "district_county": "石峰区",
@@ -10047,8 +10657,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-0d80e6a1b8f9",
@@ -10061,7 +10673,9 @@
    4
   ],
   "source_no": 44,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "湖南省",
   "city": "怀化市",
   "district_county": "新晃侗族自治县",
@@ -10116,8 +10730,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-92cb2012e15e",
@@ -10130,7 +10746,9 @@
    4
   ],
   "source_no": 45,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "湖南省",
   "city": "娄底市",
   "district_county": "冷水江市",
@@ -10188,8 +10806,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-9073417cf637",
@@ -10202,7 +10822,9 @@
    4
   ],
   "source_no": 46,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "重庆市",
   "city": null,
   "district_county": "九龙坡区",
@@ -10261,8 +10883,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-2d4a65e4fe70",
@@ -10275,7 +10899,9 @@
    4
   ],
   "source_no": 47,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "重庆市",
   "city": null,
   "district_county": "长寿区",
@@ -10305,10 +10931,13 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1954,
+  "production_start_year": 1956,
+  "historical_period": [
+   "民国时期",
+   "一五二五时期"
+  ],
+  "current_use": "电站至今仍在正常运行发电，建有狮子滩水电文化展厅与水电实体博物馆，开展研学与红色文旅",
   "longitude": 107.07017232498178,
   "latitude": 29.832491841070652,
   "coordinate_system": "WGS84",
@@ -10331,9 +10960,11 @@
   "source_ids": [
    "src-batch4"
   ],
-  "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "enrichment_status": "verified",
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": "year",
+  "closure_year": null
  },
  {
   "heritage_id": "HER-1397ab0405bc",
@@ -10346,7 +10977,9 @@
    4
   ],
   "source_no": 48,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "四川省",
   "city": "泸州市",
   "district_county": "合江县",
@@ -10400,8 +11033,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-fde24b036554",
@@ -10414,7 +11049,9 @@
    4
   ],
   "source_no": 49,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "四川省",
   "city": "绵阳市",
   "district_county": "江油市",
@@ -10469,8 +11106,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-263a12341825",
@@ -10483,7 +11122,9 @@
    4
   ],
   "source_no": 50,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "四川省",
   "city": "乐山市",
   "district_county": "五通桥区",
@@ -10538,8 +11179,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-8d4704cf9de4",
@@ -10552,7 +11195,9 @@
    4
   ],
   "source_no": 51,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "四川省",
   "city": "眉山市",
   "district_county": "东坡区",
@@ -10611,8 +11256,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-8784948683a8",
@@ -10625,7 +11272,9 @@
    4
   ],
   "source_no": 52,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "贵州省",
   "city": "遵义市",
   "district_county": "汇川区",
@@ -10681,8 +11330,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-be6e48f0bfdf",
@@ -10695,7 +11346,9 @@
    4
   ],
   "source_no": 53,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "贵州省",
   "city": "安顺市",
   "district_county": "镇宁县",
@@ -10751,8 +11404,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-dd4a86681d1a",
@@ -10765,7 +11420,9 @@
    4
   ],
   "source_no": 54,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "云南省",
   "city": "昆明市",
   "district_county": "西山区",
@@ -10820,8 +11477,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-affba94b7b36",
@@ -10834,7 +11493,9 @@
    4
   ],
   "source_no": 55,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "云南省",
   "city": "玉溪市",
   "district_county": "易门县",
@@ -10889,8 +11550,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-6dd4eefcec8b",
@@ -10903,7 +11566,9 @@
    4
   ],
   "source_no": 56,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "西藏自治区",
   "city": "拉萨市",
   "district_county": "城关区",
@@ -10956,8 +11621,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-909b2fe4fae3",
@@ -10970,7 +11637,9 @@
    4
   ],
   "source_no": 57,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "西藏自治区",
   "city": "拉萨市",
   "district_county": "城关区",
@@ -11025,8 +11694,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-ed943e689cb7",
@@ -11039,7 +11710,9 @@
    4
   ],
   "source_no": 58,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "陕西省",
   "city": "铜川市",
   "district_county": "王益区、印台区",
@@ -11096,8 +11769,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-360c8f5ca2b3",
@@ -11110,7 +11785,9 @@
    4
   ],
   "source_no": 59,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "甘肃省",
   "city": "酒泉市",
   "district_county": "玉门市",
@@ -11165,8 +11842,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-d975b5338960",
@@ -11179,7 +11858,9 @@
    4
   ],
   "source_no": 60,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "青海省",
   "city": "海西蒙古族藏族自治州",
   "district_county": "茫崖市",
@@ -11233,8 +11914,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-3bf618356e50",
@@ -11247,7 +11930,9 @@
    4
   ],
   "source_no": 61,
-  "recognition_years": [],
+  "recognition_years": [
+   2020
+  ],
   "province": "新疆维吾尔自治区",
   "city": "克拉玛依市",
   "district_county": "独山子区",
@@ -11305,8 +11990,10 @@
    "src-batch4"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b2a81f9157d8",
@@ -11319,7 +12006,9 @@
    5
   ],
   "source_no": 1,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "北京市",
   "city": null,
   "district_county": "朝阳区",
@@ -11375,8 +12064,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-7bb65d4f3ddc",
@@ -11389,7 +12080,9 @@
    5
   ],
   "source_no": 2,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "北京市",
   "city": null,
   "district_county": "朝阳区",
@@ -11446,8 +12139,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-0656fe1c09c5",
@@ -11460,7 +12155,9 @@
    5
   ],
   "source_no": 3,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "内蒙古自治区",
   "city": "赤峰市",
   "district_county": "元宝山区",
@@ -11516,8 +12213,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-45c15d54eeb2",
@@ -11530,7 +12229,9 @@
    5
   ],
   "source_no": 4,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "辽宁省",
   "city": "沈阳市",
   "district_county": "大东区",
@@ -11584,8 +12285,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-5b0e0e5936e2",
@@ -11598,7 +12301,9 @@
    5
   ],
   "source_no": 5,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "上海市",
   "city": null,
   "district_county": "浦东新区",
@@ -11652,8 +12357,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-e4048f71ceec",
@@ -11666,7 +12373,9 @@
    5
   ],
   "source_no": 6,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "江苏省",
   "city": "常州市",
   "district_county": "",
@@ -11719,8 +12428,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-8f61fc105161",
@@ -11733,7 +12444,9 @@
    5
   ],
   "source_no": 7,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "江苏省",
   "city": "扬州市",
   "district_county": "广陵区",
@@ -11789,8 +12502,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-8a1b43d9c70c",
@@ -11803,7 +12518,9 @@
    5
   ],
   "source_no": 8,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "浙江省",
   "city": "宁波市",
   "district_county": "鄞州区",
@@ -11858,8 +12575,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-78dbb14a4168",
@@ -11872,7 +12591,9 @@
    5
   ],
   "source_no": 9,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "浙江省",
   "city": "湖州市",
   "district_county": "吴兴区",
@@ -11928,8 +12649,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-a1eafa330f21",
@@ -11942,7 +12665,9 @@
    5
   ],
   "source_no": 10,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "浙江省",
   "city": "台州市",
   "district_county": "温岭市",
@@ -11999,8 +12724,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-ae0a7e8746d6",
@@ -12013,7 +12740,9 @@
    5
   ],
   "source_no": 11,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "福建省",
   "city": "宁德市",
   "district_county": "古田县",
@@ -12071,8 +12800,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-d21e35ab97e1",
@@ -12085,7 +12816,9 @@
    5
   ],
   "source_no": 12,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "山东省",
   "city": "济南市",
   "district_county": "章丘区",
@@ -12140,8 +12873,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-264a3b9bde90",
@@ -12154,7 +12889,9 @@
    5
   ],
   "source_no": 13,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "山东省",
   "city": "烟台市",
   "district_county": "芝罘区",
@@ -12209,8 +12946,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-755ae7eb6f10",
@@ -12223,7 +12962,9 @@
    5
   ],
   "source_no": 14,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "河南省",
   "city": "焦作市",
   "district_county": "中站区、解放区",
@@ -12280,8 +13021,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-017dc5485fea",
@@ -12294,7 +13037,9 @@
    5
   ],
   "source_no": 15,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "湖北省",
   "city": "武汉市",
   "district_county": "青山区",
@@ -12350,8 +13095,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-d3a06065269d",
@@ -12364,7 +13111,9 @@
    5
   ],
   "source_no": 16,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "湖北省",
   "city": "武汉市",
   "district_county": "青山区",
@@ -12420,8 +13169,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-af8e1135a710",
@@ -12434,7 +13185,9 @@
    5
   ],
   "source_no": 17,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "湖南省",
   "city": "郴州市",
   "district_county": "苏仙区",
@@ -12490,8 +13243,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-a7e7c40a5961",
@@ -12504,7 +13259,9 @@
    5
   ],
   "source_no": 18,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "广东省",
   "city": "江门市",
   "district_county": "蓬江区",
@@ -12560,8 +13317,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-a4a0c63d6484",
@@ -12574,7 +13333,9 @@
    5
   ],
   "source_no": 19,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "广东省",
   "city": "清远市",
   "district_county": "英德市",
@@ -12628,8 +13389,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-cdac875d1360",
@@ -12642,7 +13405,9 @@
    5
   ],
   "source_no": 20,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "广西壮族自治区",
   "city": "柳州市",
   "district_county": "柳北区",
@@ -12697,8 +13462,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b4f9e945075b",
@@ -12711,7 +13478,9 @@
    5
   ],
   "source_no": 21,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "广西壮族自治区",
   "city": "来宾市",
   "district_county": "合山市",
@@ -12767,8 +13536,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-a7f4147715e2",
@@ -12781,7 +13552,9 @@
    5
   ],
   "source_no": 22,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "四川省",
   "city": "绵阳市",
   "district_county": "培城区",
@@ -12836,8 +13609,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-8bc23c33dd73",
@@ -12850,7 +13625,9 @@
    5
   ],
   "source_no": 23,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "四川省",
   "city": "遂宁市",
   "district_county": "大英县",
@@ -12904,8 +13681,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-42c99ba63c2b",
@@ -12918,7 +13697,9 @@
    5
   ],
   "source_no": 24,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "四川省",
   "city": "乐山市",
   "district_county": "夹江县",
@@ -12972,8 +13753,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-bf87957735c4",
@@ -12986,7 +13769,9 @@
    5
   ],
   "source_no": 25,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "四川省",
   "city": "南充市",
   "district_county": "高坪区",
@@ -13042,8 +13827,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-468f97c288b1",
@@ -13056,7 +13843,9 @@
    5
   ],
   "source_no": 26,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "云南省",
   "city": "曲靖市",
   "district_county": "沾益区",
@@ -13112,8 +13901,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-172605b39f7b",
@@ -13126,7 +13917,9 @@
    5
   ],
   "source_no": 27,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "陕西省",
   "city": "西安市",
   "district_county": "雁塔区",
@@ -13182,8 +13975,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-40f0bdd254ad",
@@ -13196,7 +13991,9 @@
    5
   ],
   "source_no": 28,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "陕西省",
   "city": "宝鸡市",
   "district_county": "凤翔区",
@@ -13252,8 +14049,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-79be637fd012",
@@ -13266,7 +14065,9 @@
    5
   ],
   "source_no": 29,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "青海省",
   "city": "海北藏族自治州",
   "district_county": "海晏县",
@@ -13320,8 +14121,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-fdb947d7a8b5",
@@ -13334,7 +14137,9 @@
    5
   ],
   "source_no": 30,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "宁夏回族自治区",
   "city": "石嘴山市",
   "district_county": "大武口区",
@@ -13388,8 +14193,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-c0c15785e862",
@@ -13402,7 +14209,9 @@
    5
   ],
   "source_no": 31,
-  "recognition_years": [],
+  "recognition_years": [
+   2021
+  ],
   "province": "新疆维吾尔自治区",
   "city": "克拉玛依市",
   "district_county": "克拉玛依区",
@@ -13457,8 +14266,10 @@
    "src-batch5"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-f564301ee4c6",
@@ -13471,7 +14282,9 @@
    6
   ],
   "source_no": 1,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "北京市",
   "city": null,
   "district_county": "朝阳区",
@@ -13529,8 +14342,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-5a8b0b6d7da7",
@@ -13543,7 +14358,9 @@
    6
   ],
   "source_no": 2,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "北京市",
   "city": null,
   "district_county": "石景山区",
@@ -13570,10 +14387,13 @@
    "name_hit": false,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
+  "founded_year": 1919,
   "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "historical_period": [
+   "民国时期",
+   "改革开放后"
+  ],
+  "current_use": "改造为首钢园：冬奥滑雪大跳台场馆、服贸会会场、体育文创业态与会展中心等城市更新空间",
   "longitude": 116.18895729074364,
   "latitude": 39.912964073922794,
   "coordinate_system": "WGS84",
@@ -13596,9 +14416,11 @@
   "source_ids": [
    "src-batch6"
   ],
-  "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "enrichment_status": "verified",
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": "year",
+  "closure_year": 2011
  },
  {
   "heritage_id": "HER-bfb5cc926eb8",
@@ -13611,7 +14433,9 @@
    6
   ],
   "source_no": 3,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "天津市",
   "city": null,
   "district_county": "滨海新区",
@@ -13668,8 +14492,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-ec900ef41c67",
@@ -13682,7 +14508,9 @@
    6
   ],
   "source_no": 4,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "河北省",
   "city": "沧州市",
   "district_county": "运河区",
@@ -13738,8 +14566,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b8b3f9e78d97",
@@ -13752,7 +14582,9 @@
    6
   ],
   "source_no": 5,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "河北省",
   "city": "沧州市",
   "district_county": "任丘市",
@@ -13808,8 +14640,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-54e5854d40a3",
@@ -13822,7 +14656,9 @@
    6
   ],
   "source_no": 6,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "山西省",
   "city": "阳泉市",
   "district_county": "矿区",
@@ -13876,8 +14712,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-357ccb851e20",
@@ -13890,7 +14728,9 @@
    6
   ],
   "source_no": 7,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "内蒙古自治区",
   "city": "乌海市",
   "district_county": "乌达区",
@@ -13949,8 +14789,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-8e5771fb498c",
@@ -13963,7 +14805,9 @@
    6
   ],
   "source_no": 8,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "辽宁省",
   "city": "本溪市",
   "district_county": "桓仁满族自治县",
@@ -14019,8 +14863,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-df9b81eba852",
@@ -14033,7 +14879,9 @@
    6
   ],
   "source_no": 9,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "上海市",
   "city": null,
   "district_county": "长宁区",
@@ -14088,8 +14936,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-2b911268ab1f",
@@ -14102,7 +14952,9 @@
    6
   ],
   "source_no": 10,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "上海市",
   "city": null,
   "district_county": "杨浦区",
@@ -14159,8 +15011,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-4fb2da7cf1f9",
@@ -14173,7 +15027,9 @@
    6
   ],
   "source_no": 11,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "上海市",
   "city": null,
   "district_county": "杨浦区",
@@ -14233,8 +15089,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-a8745cd8a8c6",
@@ -14247,7 +15105,9 @@
    6
   ],
   "source_no": 12,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "上海市",
   "city": null,
   "district_county": "宝山区",
@@ -14303,8 +15163,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-57dc9be7a91b",
@@ -14317,7 +15179,9 @@
    6
   ],
   "source_no": 13,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "江苏省",
   "city": "南京市",
   "district_county": "秦淮区",
@@ -14373,8 +15237,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-9c35ee629ab8",
@@ -14387,7 +15253,9 @@
    6
   ],
   "source_no": 14,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "江苏省",
   "city": "常州市",
   "district_county": "钟楼区",
@@ -14447,8 +15315,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-f30e5c0a5afe",
@@ -14461,7 +15331,9 @@
    6
   ],
   "source_no": 15,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "江苏省",
   "city": "连云港市",
   "district_county": "灌南县",
@@ -14520,8 +15392,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b4f50d1000f0",
@@ -14534,7 +15408,9 @@
    6
   ],
   "source_no": 16,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "浙江省",
   "city": "温州市",
   "district_county": "鹿城区",
@@ -14589,8 +15465,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-d783e5fd8bb6",
@@ -14603,7 +15481,9 @@
    6
   ],
   "source_no": 17,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "福建省",
   "city": "福州市",
   "district_county": "台江区",
@@ -14662,8 +15542,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-59ce9f69e7e9",
@@ -14676,7 +15558,9 @@
    6
   ],
   "source_no": 18,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "江西省",
   "city": "景德镇市",
   "district_county": "珠山区",
@@ -14731,8 +15615,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b98407d04572",
@@ -14745,7 +15631,9 @@
    6
   ],
   "source_no": 19,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "江西省",
   "city": "萍乡市",
   "district_county": "芦溪县",
@@ -14803,8 +15691,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-091ba65f7b58",
@@ -14817,7 +15707,9 @@
    6
   ],
   "source_no": 20,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "江西省",
   "city": "赣州市",
   "district_county": "全南县",
@@ -14873,8 +15765,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-a19e7fab29a3",
@@ -14887,7 +15781,9 @@
    6
   ],
   "source_no": 21,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "江西省",
   "city": "赣州市",
   "district_county": "于都县",
@@ -14944,8 +15840,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-97172eeaa702",
@@ -14958,7 +15856,9 @@
    6
   ],
   "source_no": 22,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "山东省",
   "city": "青岛市",
   "district_county": "市南区",
@@ -15014,8 +15914,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-38557224269f",
@@ -15028,7 +15930,9 @@
    6
   ],
   "source_no": 23,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "山东省",
   "city": "枣庄市",
   "district_county": "市中区",
@@ -15085,8 +15989,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-23c21caf5d67",
@@ -15099,7 +16005,9 @@
    6
   ],
   "source_no": 24,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "河南省",
   "city": "焦作市",
   "district_county": "解放区",
@@ -15155,8 +16063,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-7eefab99baa1",
@@ -15169,7 +16079,9 @@
    6
   ],
   "source_no": 25,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "湖北省",
   "city": "武汉市",
   "district_county": "青山区",
@@ -15226,8 +16138,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-4343cf13a43c",
@@ -15240,7 +16154,9 @@
    6
   ],
   "source_no": 26,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "湖北省",
   "city": "宜昌市",
   "district_county": "远安县",
@@ -15295,8 +16211,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-1b8427336f63",
@@ -15309,7 +16227,9 @@
    6
   ],
   "source_no": 27,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "湖南省",
   "city": "株洲市",
   "district_county": "醴陵市",
@@ -15365,8 +16285,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-a327b9274cc2",
@@ -15379,7 +16301,9 @@
    6
   ],
   "source_no": 28,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "广东省",
   "city": "广州市",
   "district_county": "越秀区",
@@ -15439,8 +16363,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-28c6cfc56d13",
@@ -15453,7 +16379,9 @@
    6
   ],
   "source_no": 29,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "广东省",
   "city": "茂名市",
   "district_county": "茂南区",
@@ -15509,8 +16437,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-f21fefcea1df",
@@ -15523,7 +16453,9 @@
    6
   ],
   "source_no": 30,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "海南省",
   "city": "儋州市",
   "district_county": "",
@@ -15574,8 +16506,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-9aa1d8a47190",
@@ -15588,7 +16522,9 @@
    6
   ],
   "source_no": 31,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "重庆市",
   "city": null,
   "district_county": "沙坪坝区",
@@ -15645,8 +16581,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-319153b31823",
@@ -15659,7 +16597,9 @@
    6
   ],
   "source_no": 32,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "四川省",
   "city": "泸州市",
   "district_county": "古蔺县",
@@ -15718,8 +16658,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-506f1204434d",
@@ -15732,7 +16674,9 @@
    6
   ],
   "source_no": 33,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "贵州省",
   "city": "贵阳市",
   "district_county": "清镇市",
@@ -15790,8 +16734,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-94539dd597c3",
@@ -15804,7 +16750,9 @@
    6
   ],
   "source_no": 34,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "贵州省",
   "city": "遵义市",
   "district_county": "湄潭县",
@@ -15860,8 +16808,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-fd9bf2c87ec1",
@@ -15874,7 +16824,9 @@
    6
   ],
   "source_no": 35,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "云南省",
   "city": "昆明市",
   "district_county": "西山区",
@@ -15928,8 +16880,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-dd9825ceea5e",
@@ -15942,7 +16896,9 @@
    6
   ],
   "source_no": 36,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "云南省",
   "city": "昆明市",
   "district_county": "西山区",
@@ -15996,8 +16952,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-e039599188d7",
@@ -16010,7 +16968,9 @@
    6
   ],
   "source_no": 37,
-  "recognition_years": [],
+  "recognition_years": [
+   2024
+  ],
   "province": "云南省",
   "city": "大理白族自治州",
   "district_county": "大理市",
@@ -16067,8 +17027,10 @@
    "src-batch6"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-f3140055ce81",
@@ -16081,7 +17043,9 @@
    7
   ],
   "source_no": 1,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "北京市",
   "city": null,
   "district_county": "丰台区",
@@ -16137,8 +17101,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-43df0a751fdc",
@@ -16151,7 +17117,9 @@
    7
   ],
   "source_no": 2,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "北京市",
   "city": null,
   "district_county": "丰台区",
@@ -16204,8 +17172,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-20e39d3934fd",
@@ -16218,7 +17188,9 @@
    7
   ],
   "source_no": 3,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "北京市",
   "city": null,
   "district_county": "昌平区",
@@ -16245,9 +17217,11 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
+  "founded_year": 1906,
   "production_start_year": null,
-  "historical_period": [],
+  "historical_period": [
+   "晚清近代工业"
+  ],
   "current_use": null,
   "longitude": 116.22945258286883,
   "latitude": 40.216703495819495,
@@ -16271,9 +17245,11 @@
   "source_ids": [
    "src-batch7"
   ],
-  "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "enrichment_status": "verified",
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": "year",
+  "closure_year": null
  },
  {
   "heritage_id": "HER-f3528018a835",
@@ -16286,7 +17262,9 @@
    7
   ],
   "source_no": 4,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "河北省",
   "city": "石家庄市",
   "district_county": "长安区",
@@ -16315,10 +17293,13 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1953,
+  "production_start_year": 1958,
+  "historical_period": [
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "current_use": "华北制药集团仍在石家庄和平东路388号经营制药业务；老厂区2025年入选第七批国家工业遗产",
   "longitude": 114.54195140048182,
   "latitude": 38.04575393413235,
   "coordinate_system": "WGS84",
@@ -16341,9 +17322,11 @@
   "source_ids": [
    "src-batch7"
   ],
-  "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "enrichment_status": "verified",
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": "year",
+  "closure_year": null
  },
  {
   "heritage_id": "HER-103c9cceb8e8",
@@ -16356,7 +17339,9 @@
    7
   ],
   "source_no": 5,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "河北省",
   "city": "石家庄市",
   "district_county": "井陉县",
@@ -16412,8 +17397,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b2a3afa6f83f",
@@ -16426,7 +17413,9 @@
    7
   ],
   "source_no": 6,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "内蒙古自治区",
   "city": "阿拉善盟",
   "district_county": "阿拉善左旗",
@@ -16482,8 +17471,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-3a4b1ed7ed51",
@@ -16496,7 +17487,9 @@
    7
   ],
   "source_no": 7,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "内蒙古自治区",
   "city": "呼和浩特市",
   "district_county": "赛罕区",
@@ -16551,8 +17544,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-1d3f093e7777",
@@ -16565,7 +17560,9 @@
    7
   ],
   "source_no": 8,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "辽宁省",
   "city": "沈阳市",
   "district_county": "铁西区",
@@ -16621,8 +17618,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-f0be2ff919d8",
@@ -16635,7 +17634,9 @@
    7
   ],
   "source_no": 9,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "辽宁省",
   "city": "大连市",
   "district_county": "中山区",
@@ -16690,8 +17691,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-ba98cfafdf36",
@@ -16704,7 +17707,9 @@
    7
   ],
   "source_no": 10,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "辽宁省",
   "city": "辽阳市",
   "district_county": "辽阳县",
@@ -16762,8 +17767,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b70c3ba422ec",
@@ -16776,7 +17783,9 @@
    7
   ],
   "source_no": 11,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "吉林省",
   "city": "长春市",
   "district_county": "",
@@ -16800,10 +17809,14 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1953,
+  "production_start_year": 1956,
+  "historical_period": [
+   "新中国初期",
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "current_use": "中国一汽仍在长春生产经营；一汽早期建筑为全国重点文物保护单位，2025年入选第七批国家工业遗产",
   "longitude": 125.31745839973192,
   "latitude": 43.8846910160891,
   "coordinate_system": "WGS84",
@@ -16826,9 +17839,11 @@
   "source_ids": [
    "src-batch7"
   ],
-  "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "enrichment_status": "verified",
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": "year",
+  "closure_year": null
  },
  {
   "heritage_id": "HER-c5049a9ad151",
@@ -16841,7 +17856,9 @@
    7
   ],
   "source_no": 12,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "吉林省",
   "city": "吉林市",
   "district_county": "丰满区",
@@ -16900,8 +17917,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-bacbbae147a4",
@@ -16914,7 +17933,9 @@
    7
   ],
   "source_no": 13,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "黑龙江省",
   "city": "哈尔滨市",
   "district_county": "南岗区",
@@ -16969,8 +17990,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-2e556b76ea68",
@@ -16983,7 +18006,9 @@
    7
   ],
   "source_no": 14,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "黑龙江省",
   "city": "牡丹江市",
   "district_county": "宁安市",
@@ -17042,8 +18067,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-303332bd9067",
@@ -17056,7 +18083,9 @@
    7
   ],
   "source_no": 15,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "上海市",
   "city": null,
   "district_county": "松江区",
@@ -17109,8 +18138,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-a213b4c33a07",
@@ -17123,7 +18154,9 @@
    7
   ],
   "source_no": 16,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "江苏省",
   "city": "无锡市",
   "district_county": "宜兴市",
@@ -17178,8 +18211,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-a2582e08f2dd",
@@ -17192,7 +18227,9 @@
    7
   ],
   "source_no": 17,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "浙江省",
   "city": "嘉兴市",
   "district_county": "海盐县",
@@ -17246,8 +18283,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-9753b7c48835",
@@ -17260,7 +18299,9 @@
    7
   ],
   "source_no": 18,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "河南省",
   "city": "漯河市",
   "district_county": "召陵区",
@@ -17317,8 +18358,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-4c71d600d918",
@@ -17331,7 +18374,9 @@
    7
   ],
   "source_no": 19,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "湖北省",
   "city": "武汉市",
   "district_county": "汉阳区",
@@ -17388,8 +18433,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-8cbf658f4103",
@@ -17402,7 +18449,9 @@
    7
   ],
   "source_no": 20,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "湖南省",
   "city": "衡阳市",
   "district_county": "衡东县",
@@ -17458,8 +18507,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-881fd798b50e",
@@ -17472,7 +18523,9 @@
    7
   ],
   "source_no": 21,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "湖南省",
   "city": "益阳市",
   "district_county": "安化县",
@@ -17529,8 +18582,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-01a80935ad07",
@@ -17543,7 +18598,9 @@
    7
   ],
   "source_no": 22,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "广东省",
   "city": "广州市",
   "district_county": "黄埔区",
@@ -17598,8 +18655,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-39e992d68dac",
@@ -17612,7 +18671,9 @@
    7
   ],
   "source_no": 23,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "广东省",
   "city": "韶关市",
   "district_county": "翁源县、南雄市",
@@ -17668,8 +18729,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-6de083a1e054",
@@ -17682,7 +18745,9 @@
    7
   ],
   "source_no": 24,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "重庆市",
   "city": null,
   "district_county": "九龙坡区",
@@ -17739,8 +18804,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 89
+  "data_version": "v1.1.0",
+  "field_completeness": 89,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-2838912ef883",
@@ -17753,7 +18820,9 @@
    7
   ],
   "source_no": 25,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "四川省",
   "city": "成都市",
   "district_county": "武侯区",
@@ -17811,8 +18880,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-28722fd38208",
@@ -17825,7 +18896,9 @@
    7
   ],
   "source_no": 26,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "四川省",
   "city": "德阳市",
   "district_county": "绵竹市",
@@ -17882,8 +18955,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-2497f59f9711",
@@ -17896,7 +18971,9 @@
    7
   ],
   "source_no": 27,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "贵州省",
   "city": "贵阳市",
   "district_county": "乌当区",
@@ -17951,8 +19028,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-e0a47c3e0a6f",
@@ -17965,7 +19044,9 @@
    7
   ],
   "source_no": 28,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "贵州省",
   "city": "遵义市",
   "district_county": "红花岗区",
@@ -18021,8 +19102,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-0de4bd0b1d94",
@@ -18035,7 +19118,9 @@
    7
   ],
   "source_no": 29,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "贵州省",
   "city": "毕节市",
   "district_county": "大方县",
@@ -18089,8 +19174,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-b0cbe6b026e9",
@@ -18103,7 +19190,9 @@
    7
   ],
   "source_no": 30,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "陕西省",
   "city": "西安市",
   "district_county": "新城区",
@@ -18160,8 +19249,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-5b27256d19ad",
@@ -18174,7 +19265,9 @@
    7
   ],
   "source_no": 31,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "陕西省",
   "city": "宝鸡市",
   "district_county": "凤县",
@@ -18231,8 +19324,10 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  },
  {
   "heritage_id": "HER-e7d9ebb4153d",
@@ -18245,7 +19340,9 @@
    7
   ],
   "source_no": 32,
-  "recognition_years": [],
+  "recognition_years": [
+   2025
+  ],
   "province": "甘肃省",
   "city": "白银市",
   "district_county": "白银区",
@@ -18300,7 +19397,9 @@
    "src-batch7"
   ],
   "enrichment_status": "not_started",
-  "data_version": "v1.0.0",
-  "field_completeness": 100
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
  }
 ]

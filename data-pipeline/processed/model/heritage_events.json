@@ -1,0 +1,7370 @@
+[
+ {
+  "event_id": "EVT-00195fa64361-R3",
+  "heritage_id": "HER-00195fa64361",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-0019d431e9a9-R3",
+  "heritage_id": "HER-0019d431e9a9",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-017dc5485fea-R5",
+  "heritage_id": "HER-017dc5485fea",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-01a80935ad07-R7",
+  "heritage_id": "HER-01a80935ad07",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-0509fb1abff4-R4",
+  "heritage_id": "HER-0509fb1abff4",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-0577e36e0167-R3",
+  "heritage_id": "HER-0577e36e0167",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-061b2557d5fe-R2",
+  "heritage_id": "HER-061b2557d5fe",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-0656fe1c09c5-R5",
+  "heritage_id": "HER-0656fe1c09c5",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-08259d5ca73e-R3",
+  "heritage_id": "HER-08259d5ca73e",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-091ba65f7b58-R6",
+  "heritage_id": "HER-091ba65f7b58",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-0d80e6a1b8f9-R4",
+  "heritage_id": "HER-0d80e6a1b8f9",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-0de4bd0b1d94-R7",
+  "heritage_id": "HER-0de4bd0b1d94",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-103c9cceb8e8-R7",
+  "heritage_id": "HER-103c9cceb8e8",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-1397ab0405bc-R4",
+  "heritage_id": "HER-1397ab0405bc",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-172605b39f7b-R5",
+  "heritage_id": "HER-172605b39f7b",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-1a060e671fb0-R2",
+  "heritage_id": "HER-1a060e671fb0",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-1a22e8c17fac-R3",
+  "heritage_id": "HER-1a22e8c17fac",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-1a460fed2d5f-R3",
+  "heritage_id": "HER-1a460fed2d5f",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-1a7f427bdf6a-R2",
+  "heritage_id": "HER-1a7f427bdf6a",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-1ab26d8347e2-R4",
+  "heritage_id": "HER-1ab26d8347e2",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-1ad94a4eee2f-R3",
+  "heritage_id": "HER-1ad94a4eee2f",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-1b8427336f63-R6",
+  "heritage_id": "HER-1b8427336f63",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-1bceae49c203-R4",
+  "heritage_id": "HER-1bceae49c203",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-1c103a68d0b8-R3",
+  "heritage_id": "HER-1c103a68d0b8",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-1d1453b43e34-R1",
+  "heritage_id": "HER-1d1453b43e34",
+  "event_date_start": "2017-12-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第一批）",
+  "description": "被工业和信息化部公布为第1批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch1"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
+ },
+ {
+  "event_id": "EVT-1d3f093e7777-R7",
+  "heritage_id": "HER-1d3f093e7777",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-1e4a089da185-R3",
+  "heritage_id": "HER-1e4a089da185",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-20e39d3934fd-01",
+  "heritage_id": "HER-20e39d3934fd",
+  "event_date_start": "1905-10-02",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "关联工程开工",
+  "title": "京张铁路正式开工",
+  "description": "袁世凯、胡燏棻奏准筹办，詹天佑任会办兼总工程司，京张铁路正式开工；为中国人自行设计建造的第一条干线铁路。",
+  "place_name": "北京市",
+  "related_orgs": [
+   "京张铁路总局"
+  ],
+  "related_people": [
+   "詹天佑",
+   "袁世凯"
+  ],
+  "source_ids": [
+   "src-web-756306bc64"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-20e39d3934fd-02",
+  "heritage_id": "HER-20e39d3934fd",
+  "event_date_start": "1906",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建",
+  "title": "京张制造厂在南口建厂",
+  "description": "为配合铁路修筑，南口地区开始生产石碴，同年相配套的机车制造厂'京张制造厂'正式建厂。",
+  "place_name": "北京市昌平区南口",
+  "related_orgs": [
+   "京张铁路总局"
+  ],
+  "related_people": [
+   "詹天佑"
+  ],
+  "source_ids": [
+   "src-web-756306bc64"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-20e39d3934fd-03",
+  "heritage_id": "HER-20e39d3934fd",
+  "event_date_start": "1909-09-24",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "建成通车",
+  "title": "京张铁路全线通车，制造厂扩大规模",
+  "description": "京张铁路8月竣工、9月24日全线通车、10月2日南口站举行通车典礼；通车后京张制造厂在原基础上扩大生产规模。",
+  "place_name": "北京市昌平区/张家口市",
+  "related_orgs": [],
+  "related_people": [
+   "詹天佑"
+  ],
+  "source_ids": [
+   "src-web-756306bc64"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-20e39d3934fd-04",
+  "heritage_id": "HER-20e39d3934fd",
+  "event_date_start": "2013",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "保护认定",
+  "title": "列入第七批全国重点文物保护单位",
+  "description": "'京张铁路南口段至八达岭段'（含南口机车车辆厂近现代建筑遗存、南口火车站站房、人字形铁路、青龙桥车站等）列入第七批国保。",
+  "place_name": "北京市昌平区、延庆区",
+  "related_orgs": [
+   "国务院"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-756306bc64"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-20e39d3934fd-05",
+  "heritage_id": "HER-20e39d3934fd",
+  "event_date_start": "2022-02-03",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "文化活化",
+  "title": "冬奥火炬在百年京张老铁轨传递",
+  "description": "北京冬奥会火炬在百年京张铁路老铁轨上行驶的小火车间传递，老铁路遗产获得广泛关注。",
+  "place_name": "北京市延庆区青龙桥",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-756306bc64"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-20e39d3934fd-R7",
+  "heritage_id": "HER-20e39d3934fd",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-22e1d21f698e-R4",
+  "heritage_id": "HER-22e1d21f698e",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-23ba3693818a-R3",
+  "heritage_id": "HER-23ba3693818a",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-23c21caf5d67-R6",
+  "heritage_id": "HER-23c21caf5d67",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-2497f59f9711-R7",
+  "heritage_id": "HER-2497f59f9711",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-2602ebe85654-R2",
+  "heritage_id": "HER-2602ebe85654",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-263a12341825-R4",
+  "heritage_id": "HER-263a12341825",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-264a3b9bde90-R5",
+  "heritage_id": "HER-264a3b9bde90",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-273d1b476b3f-R4",
+  "heritage_id": "HER-273d1b476b3f",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-280359499761-R4",
+  "heritage_id": "HER-280359499761",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-2838912ef883-R7",
+  "heritage_id": "HER-2838912ef883",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-2845032e8d49-R2",
+  "heritage_id": "HER-2845032e8d49",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-28722fd38208-R7",
+  "heritage_id": "HER-28722fd38208",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-28c6cfc56d13-R6",
+  "heritage_id": "HER-28c6cfc56d13",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-2986a1df182b-R2",
+  "heritage_id": "HER-2986a1df182b",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-2a5a17295e93-R3",
+  "heritage_id": "HER-2a5a17295e93",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-2b911268ab1f-R6",
+  "heritage_id": "HER-2b911268ab1f",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-2d48c413c8da-R4",
+  "heritage_id": "HER-2d48c413c8da",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-2d4a65e4fe70-01",
+  "heritage_id": "HER-2d4a65e4fe70",
+  "event_date_start": "1930",
+  "event_date_end": null,
+  "date_precision": "decade",
+  "event_type": "前期规划",
+  "title": "国民政府资源委员会规划龙溪河开发",
+  "description": "抗战时期重庆用电激增，国民政府资源委员会于20世纪30年代末开始对龙溪河流域进行水电开发规划，拟建四级电站。",
+  "place_name": "重庆市长寿区",
+  "related_orgs": [
+   "国民政府资源委员会"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-419910593d"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2d4a65e4fe70-02",
+  "heritage_id": "HER-2d4a65e4fe70",
+  "event_date_start": "1953",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "国家计划立项",
+  "title": "列入'一五'计划156项重点工程",
+  "description": "龙溪河全流域梯级开发列入第一个五年计划156项重点建设工程，规划狮子滩、上硐、回龙寨、下硐四级电站。",
+  "place_name": "重庆市长寿区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-419910593d",
+   "src-web-28ae79158c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2d4a65e4fe70-03",
+  "heritage_id": "HER-2d4a65e4fe70",
+  "event_date_start": "1954-08-01",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "开工",
+  "title": "狮子滩水电站主体工程动工",
+  "description": "黄育贤、吴震寰、张光斗、李鹗鼎等第一代水电专家与全国近4万名建设者参与建设，为当时西南最大水电站。",
+  "place_name": "重庆市长寿区",
+  "related_orgs": [],
+  "related_people": [
+   "黄育贤",
+   "吴震寰",
+   "张光斗",
+   "李鹗鼎"
+  ],
+  "source_ids": [
+   "src-web-419910593d",
+   "src-web-28ae79158c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "澎湃原文人名作'李鄂鼎'，人民日报报道作'李鹗鼎'"
+ },
+ {
+  "event_id": "EVT-2d4a65e4fe70-04",
+  "heritage_id": "HER-2d4a65e4fe70",
+  "event_date_start": "1956",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产/发电",
+  "title": "水库蓄水、机组相继发电",
+  "description": "1956年8月人民日报报道狮子滩水库开始蓄水；10月1日起狮子滩电站机组相继建成发电。",
+  "place_name": "重庆市长寿区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-419910593d",
+   "src-web-28ae79158c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2d4a65e4fe70-05",
+  "heritage_id": "HER-2d4a65e4fe70",
+  "event_date_start": "1957",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "全部投产",
+  "title": "四台机组全部投产",
+  "description": "全部四台机组投产，为'一五'期间依靠本国力量设计、施工、安装的第一座中型水电站；蓄水形成西南最大人工淡水湖长寿湖。",
+  "place_name": "重庆市长寿区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-419910593d",
+   "src-web-28ae79158c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2d4a65e4fe70-06",
+  "heritage_id": "HER-2d4a65e4fe70",
+  "event_date_start": "1958-03-05",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "视察题词",
+  "title": "周恩来视察狮子滩并题词",
+  "description": "周恩来视察狮子滩，题词'为综合利用四川水力资源树立榜样，为全面发展四川经济开辟道路'。",
+  "place_name": "重庆市长寿区",
+  "related_orgs": [],
+  "related_people": [
+   "周恩来"
+  ],
+  "source_ids": [
+   "src-web-419910593d"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2d4a65e4fe70-07",
+  "heritage_id": "HER-2d4a65e4fe70",
+  "event_date_start": "1959",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "梯级建成",
+  "title": "龙溪河四级电站竣工",
+  "description": "狮子滩、上硐、回龙寨、下硐四级电站全部竣工，龙溪河成为我国第一条完成梯级开发的河流，显著缓解重庆用电紧张。",
+  "place_name": "重庆市长寿区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-28ae79158c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2d4a65e4fe70-R4",
+  "heritage_id": "HER-2d4a65e4fe70",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-2e556b76ea68-R7",
+  "heritage_id": "HER-2e556b76ea68",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-2f21c0412b49-R2",
+  "heritage_id": "HER-2f21c0412b49",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-302153de1606-R3",
+  "heritage_id": "HER-302153de1606",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-303332bd9067-R7",
+  "heritage_id": "HER-303332bd9067",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-319153b31823-R6",
+  "heritage_id": "HER-319153b31823",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-3318e785a779-R1",
+  "heritage_id": "HER-3318e785a779",
+  "event_date_start": "2017-12-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第一批）",
+  "description": "被工业和信息化部公布为第1批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch1"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
+ },
+ {
+  "event_id": "EVT-3402f24ff899-R2",
+  "heritage_id": "HER-3402f24ff899",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-357ccb851e20-R6",
+  "heritage_id": "HER-357ccb851e20",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-360695d763ad-R4",
+  "heritage_id": "HER-360695d763ad",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-360c8f5ca2b3-R4",
+  "heritage_id": "HER-360c8f5ca2b3",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-3714508c3156-01",
+  "heritage_id": "HER-3714508c3156",
+  "event_date_start": "1916",
+  "event_date_end": "1918",
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "满铁获准设厂，成立鞍山制铁所",
+  "description": "1916年10月4日日本内阁总理大臣大隈重信向满铁颁发经营制铁许可证，1917年开工，1918年5月鞍山制铁所正式成立；另一来源称集团始建于1916年。",
+  "place_name": "辽宁省鞍山市",
+  "related_orgs": [
+   "南满洲铁道",
+   "鞍山制铁所"
+  ],
+  "related_people": [
+   "大隈重信",
+   "中村是公"
+  ],
+  "source_ids": [
+   "src-web-f9b9b093f6",
+   "src-web-25bcddc9b1",
+   "src-web-4c6dde6850"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-3714508c3156-02",
+  "heritage_id": "HER-3714508c3156",
+  "event_date_start": "1919",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产",
+  "title": "1号高炉开炉",
+  "description": "1919年4月1日鞍山制铁所1号高炉开炉，标志鞍山制铁所生产开始；后因一战结束钢铁需求减少一度经营困难。",
+  "place_name": "辽宁省鞍山市",
+  "related_orgs": [
+   "鞍山制铁所"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f9b9b093f6"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-3714508c3156-03",
+  "heritage_id": "HER-3714508c3156",
+  "event_date_start": "1933",
+  "event_date_end": "1937",
+  "date_precision": "year",
+  "event_type": "合并重组",
+  "title": "昭和制钢所迁鞍山合并，后划归满业",
+  "description": "1933年昭和制钢所总部迁至鞍山并与鞍山制铁所合并，成为日本本土外最大钢铁企业；1937年由满铁转让至鲇川义介的满洲重工业开发株式会社（满业）旗下。",
+  "place_name": "辽宁省鞍山市",
+  "related_orgs": [
+   "昭和制钢所",
+   "满洲重工业开发"
+  ],
+  "related_people": [
+   "鲇川义介"
+  ],
+  "source_ids": [
+   "src-web-f9b9b093f6"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-3714508c3156-04",
+  "heritage_id": "HER-3714508c3156",
+  "event_date_start": "1941",
+  "event_date_end": "1945",
+  "date_precision": "year",
+  "event_type": "战争影响",
+  "title": "太平洋战争轰炸与苏军拆迁",
+  "description": "1941年12月太平洋战争爆发后遭美军轰炸被迫减产；1944年改组为满洲制铁株式会社鞍山本部；1945年日本战败，苏军撤离东北时拆迁设备，损失惨重。",
+  "place_name": "辽宁省鞍山市",
+  "related_orgs": [
+   "满洲制铁"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f9b9b093f6",
+   "src-web-25bcddc9b1"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-3714508c3156-05",
+  "heritage_id": "HER-3714508c3156",
+  "event_date_start": "1948",
+  "event_date_end": "1949",
+  "date_precision": "year",
+  "event_type": "其他",
+  "title": "鞍山解放，更名鞍山钢铁公司恢复运营",
+  "description": "1948年2月19日中国人民解放军控制鞍山；1949年7月9日昭和制钢所更名鞍山钢铁公司恢复运营，成为新中国第一个恢复建设的大型钢铁联合企业。",
+  "place_name": "辽宁省鞍山市",
+  "related_orgs": [
+   "鞍山钢铁公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f9b9b093f6",
+   "src-web-25bcddc9b1"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-3714508c3156-06",
+  "heritage_id": "HER-3714508c3156",
+  "event_date_start": "1950",
+  "event_date_end": "1959",
+  "date_precision": "decade",
+  "event_type": "扩建",
+  "title": "列入156项重点工程重建",
+  "description": "中华人民共和国成立后作为156项重点工程之一重建，为新中国第一个恢复建设的大型钢铁联合企业。",
+  "place_name": "辽宁省鞍山市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-25bcddc9b1"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "'156项工程'通常指苏联援建项目，来源页未明言苏联，苏联援助属推断（inferred）"
+ },
+ {
+  "event_id": "EVT-3714508c3156-07",
+  "heritage_id": "HER-3714508c3156",
+  "event_date_start": "1997",
+  "event_date_end": "2021",
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "鞍钢股份上市、攀钢与本钢重组",
+  "description": "1997年鞍钢将冷轧厂、线材厂、厚板厂资产注入鞍钢股份并在香港、深圳两地上市；2010年5月与攀钢联合重组获批；2021年8月20日本钢51%股权无偿转入鞍钢。",
+  "place_name": "辽宁省鞍山市",
+  "related_orgs": [
+   "鞍钢股份",
+   "攀钢集团",
+   "本钢集团"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-25bcddc9b1"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-3714508c3156-R1",
+  "heritage_id": "HER-3714508c3156",
+  "event_date_start": "2017-12-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第一批）",
+  "description": "被工业和信息化部公布为第1批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch1"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
+ },
+ {
+  "event_id": "EVT-378db866b478-R3",
+  "heritage_id": "HER-378db866b478",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-38557224269f-R6",
+  "heritage_id": "HER-38557224269f",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-3906e6d89ca3-R2",
+  "heritage_id": "HER-3906e6d89ca3",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-39e992d68dac-R7",
+  "heritage_id": "HER-39e992d68dac",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-3a4b1ed7ed51-R7",
+  "heritage_id": "HER-3a4b1ed7ed51",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-3af0508bcf2e-R2",
+  "heritage_id": "HER-3af0508bcf2e",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-3b724d935a4b-R4",
+  "heritage_id": "HER-3b724d935a4b",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-3bf618356e50-R4",
+  "heritage_id": "HER-3bf618356e50",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-3c01f17956a9-R3",
+  "heritage_id": "HER-3c01f17956a9",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-3d9cdf94a90b-R3",
+  "heritage_id": "HER-3d9cdf94a90b",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-3d9f42f7fc19-R2",
+  "heritage_id": "HER-3d9f42f7fc19",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-3e17a22e3784-R4",
+  "heritage_id": "HER-3e17a22e3784",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-3f02e34f45ec-R2",
+  "heritage_id": "HER-3f02e34f45ec",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-3f9a3c49b1d9-R4",
+  "heritage_id": "HER-3f9a3c49b1d9",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-407fe7b65baa-R3",
+  "heritage_id": "HER-407fe7b65baa",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-40dcf7bfb650-R3",
+  "heritage_id": "HER-40dcf7bfb650",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-40f0bdd254ad-R5",
+  "heritage_id": "HER-40f0bdd254ad",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-41a215e60f0f-R4",
+  "heritage_id": "HER-41a215e60f0f",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-42c99ba63c2b-R5",
+  "heritage_id": "HER-42c99ba63c2b",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-4343cf13a43c-R6",
+  "heritage_id": "HER-4343cf13a43c",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-43df0a751fdc-R7",
+  "heritage_id": "HER-43df0a751fdc",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-45c15d54eeb2-R5",
+  "heritage_id": "HER-45c15d54eeb2",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-468f97c288b1-R5",
+  "heritage_id": "HER-468f97c288b1",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-46d6d55b891c-R2",
+  "heritage_id": "HER-46d6d55b891c",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-483581dbf4f6-R3",
+  "heritage_id": "HER-483581dbf4f6",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-484598c6dd59-R1",
+  "heritage_id": "HER-484598c6dd59",
+  "event_date_start": "2017-12-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第一批）",
+  "description": "被工业和信息化部公布为第1批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch1"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
+ },
+ {
+  "event_id": "EVT-48b865e76a6f-R2",
+  "heritage_id": "HER-48b865e76a6f",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-4b779c93fa7b-R4",
+  "heritage_id": "HER-4b779c93fa7b",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-4c3c80502838-R3",
+  "heritage_id": "HER-4c3c80502838",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-4c71d600d918-R7",
+  "heritage_id": "HER-4c71d600d918",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-4c8ee8df1041-R4",
+  "heritage_id": "HER-4c8ee8df1041",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-4de5bd523e5d-01",
+  "heritage_id": "HER-4de5bd523e5d",
+  "event_date_start": "1866",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "左宗棠创办福州船政局，沈葆桢接任",
+  "description": "1866年（清同治五年）8月19日左宗棠在福州马尾建立福州船政局（福建船政局）；同年9月左调任陕甘总督，荐沈葆桢任总理船政大臣执掌局务。",
+  "place_name": "福建省福州市马尾",
+  "related_orgs": [
+   "福州船政局"
+  ],
+  "related_people": [
+   "左宗棠",
+   "沈葆桢"
+  ],
+  "source_ids": [
+   "src-web-86792ae2f2"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-4de5bd523e5d-02",
+  "heritage_id": "HER-4de5bd523e5d",
+  "event_date_start": "1866",
+  "event_date_end": null,
+  "date_precision": "approximate",
+  "event_type": "技术引进",
+  "title": "聘法国监督与技师，设船政学堂",
+  "description": "船政初期委任法国人为监督，雇佣法国技师和工头；设铁厂、马尾造船厂和船政学堂，为中国近代第一个新式造船厂、清政府经营的最大造船厂。",
+  "place_name": "福建省福州市马尾",
+  "related_orgs": [
+   "船政学堂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-86792ae2f2"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-4de5bd523e5d-03",
+  "heritage_id": "HER-4de5bd523e5d",
+  "event_date_start": "1866",
+  "event_date_end": "1907",
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "造船约40艘，自建钢甲巡洋舰平远舰",
+  "description": "1866至1907年共制造各种船舶约40艘；平远舰为船政首次自行设计建造的全钢甲巡洋舰（排水量2150吨，造价白银52.4万两）。",
+  "place_name": "福建省福州市马尾",
+  "related_orgs": [
+   "福建船政水师"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-86792ae2f2"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "平远舰具体建造年份来源页未载"
+ },
+ {
+  "event_id": "EVT-4de5bd523e5d-04",
+  "heritage_id": "HER-4de5bd523e5d",
+  "event_date_start": "1907",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "停产",
+  "title": "造船业务停办",
+  "description": "清末马尾造船厂造船业务于1907年停办，中国造船业务重心此后转向江南造船厂。",
+  "place_name": "福建省福州市马尾",
+  "related_orgs": [
+   "马尾造船厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-cda5cc98a6"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-4de5bd523e5d-05",
+  "heritage_id": "HER-4de5bd523e5d",
+  "event_date_start": "1918",
+  "event_date_end": "1919",
+  "date_precision": "year",
+  "event_type": "技术引进",
+  "title": "设海军飞机工程处，造出中国第一架水上飞机",
+  "description": "1918年北京政府海军部在马尾造船厂内开办海军飞机工程处，为中国第一个正规飞机制造厂；1919年8月制成中国第一架水上飞机'甲型一号'，后又造各型飞机17架。",
+  "place_name": "福建省福州市马尾",
+  "related_orgs": [
+   "海军飞机工程处"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-86792ae2f2"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-4de5bd523e5d-06",
+  "heritage_id": "HER-4de5bd523e5d",
+  "event_date_start": "1926",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "改称海军马尾造船所",
+  "description": "辛亥革命后的1926年，改称海军马尾造船所；另于1924年在新船坞设福建造币厂（1930年停铸）。",
+  "place_name": "福建省福州市马尾",
+  "related_orgs": [
+   "海军马尾造船所"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-86792ae2f2"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-4de5bd523e5d-R4",
+  "heritage_id": "HER-4de5bd523e5d",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-4de5bd523e5d-07",
+  "heritage_id": "HER-4de5bd523e5d",
+  "event_date_start": "",
+  "event_date_end": null,
+  "date_precision": null,
+  "event_type": "战争影响",
+  "title": "抗战中严重破坏，战后接收",
+  "description": "抗日战争期间船政建筑大部分因轰炸毁损，生产停顿，战后由国民政府接收。",
+  "place_name": "福建省福州市马尾",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-86792ae2f2",
+   "src-web-cda5cc98a6"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "来源页未给出具体年份"
+ },
+ {
+  "event_id": "EVT-4edbe22e8aab-R4",
+  "heritage_id": "HER-4edbe22e8aab",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-4fb2da7cf1f9-R6",
+  "heritage_id": "HER-4fb2da7cf1f9",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-506f1204434d-R6",
+  "heritage_id": "HER-506f1204434d",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-508c4eb52764-R4",
+  "heritage_id": "HER-508c4eb52764",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-520797c1fc83-R3",
+  "heritage_id": "HER-520797c1fc83",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-54e5854d40a3-R6",
+  "heritage_id": "HER-54e5854d40a3",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-561b0f678c8b-R3",
+  "heritage_id": "HER-561b0f678c8b",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-5694d41d4aca-R3",
+  "heritage_id": "HER-5694d41d4aca",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-56bf3cbc55cf-R2",
+  "heritage_id": "HER-56bf3cbc55cf",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-57dc9be7a91b-R6",
+  "heritage_id": "HER-57dc9be7a91b",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-59ce9f69e7e9-R6",
+  "heritage_id": "HER-59ce9f69e7e9",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-5a8b0b6d7da7-01",
+  "heritage_id": "HER-5a8b0b6d7da7",
+  "event_date_start": "1919",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建",
+  "title": "石景山钢铁厂始建",
+  "description": "首钢前身为1919年在北京石景山成立的石景山钢铁厂，后发展为北京市属大型钢铁联合企业。",
+  "place_name": "北京市石景山区",
+  "related_orgs": [
+   "首钢集团"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-96715da57e",
+   "src-web-0cbf01d89a"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-5a8b0b6d7da7-02",
+  "heritage_id": "HER-5a8b0b6d7da7",
+  "event_date_start": "1958",
+  "event_date_end": "1992",
+  "date_precision": "year",
+  "event_type": "改制更名",
+  "title": "企业体制数次更名",
+  "description": "1958年改称石景山钢铁公司，1967年改称首都钢铁公司，1992年改称首钢总公司，1996年成为首钢集团核心控股公司。",
+  "place_name": "北京市石景山区",
+  "related_orgs": [
+   "首钢集团"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-96715da57e"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-5a8b0b6d7da7-03",
+  "heritage_id": "HER-5a8b0b6d7da7",
+  "event_date_start": "2005-02-18",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "搬迁决定",
+  "title": "国务院批复首钢搬迁方案",
+  "description": "国务院批复首钢实施搬迁、结构调整和环境治理方案，钢铁冶炼陆续迁往河北曹妃甸，服务北京奥运环境目标。",
+  "place_name": "北京市石景山区",
+  "related_orgs": [
+   "国务院",
+   "国家发展改革委"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-96715da57e"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-5a8b0b6d7da7-04",
+  "heritage_id": "HER-5a8b0b6d7da7",
+  "event_date_start": "2011-01-13",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "停产",
+  "title": "石景山厂区钢铁主流程停产",
+  "description": "首钢石景山厂区钢铁主流程全部停产，结束在北京城区的钢铁冶炼历史；同年新首钢高端产业综合服务区规划编制启动。",
+  "place_name": "北京市石景山区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-54e5ca537e"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-5a8b0b6d7da7-05",
+  "heritage_id": "HER-5a8b0b6d7da7",
+  "event_date_start": "2013",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "转型启动",
+  "title": "西十筒仓改造启动",
+  "description": "10月西十筒仓改造项目一期启动，为首钢老厂区更新首个项目；2015年厂东门拆除、构件编号保存。",
+  "place_name": "北京市石景山区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-54e5ca537e"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-5a8b0b6d7da7-06",
+  "heritage_id": "HER-5a8b0b6d7da7",
+  "event_date_start": "2016",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "再利用",
+  "title": "北京冬奥组委入驻西十筒仓",
+  "description": "冬奥组委将西十筒仓区域选为办公区；老厂房后改建为国家队冰雪训练场馆，2018年6月投入使用。",
+  "place_name": "北京市石景山区",
+  "related_orgs": [
+   "北京冬奥组委"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-96715da57e",
+   "src-web-54e5ca537e"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-5a8b0b6d7da7-07",
+  "heritage_id": "HER-5a8b0b6d7da7",
+  "event_date_start": "2019-10-31",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "地标建成",
+  "title": "首钢滑雪大跳台建成",
+  "description": "首钢滑雪大跳台建成，成为2022年北京冬奥会比赛场地；2021年起中国国际服务贸易交易会在首钢园设会场。",
+  "place_name": "北京市石景山区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-96715da57e",
+   "src-web-54e5ca537e"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-5a8b0b6d7da7-R6",
+  "heritage_id": "HER-5a8b0b6d7da7",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-5a9fc0deeafb-01",
+  "heritage_id": "HER-5a9fc0deeafb",
+  "event_date_start": "1880",
+  "event_date_end": "1889",
+  "date_precision": "decade",
+  "event_type": "创建/筹建",
+  "title": "清政府为北洋水师兴建旅顺船坞",
+  "description": "清政府1880年代为北洋水师修建旅顺军港及配套工程，船坞为主要工程之一。",
+  "place_name": "辽宁省大连市旅顺口区",
+  "related_orgs": [
+   "北洋水师"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-6da74684c4"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "来源仅称1880年代，未给出始建确切年份"
+ },
+ {
+  "event_id": "EVT-5a9fc0deeafb-02",
+  "heritage_id": "HER-5a9fc0deeafb",
+  "event_date_start": "1890",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产",
+  "title": "船坞竣工，号称'远东第一大坞'",
+  "description": "1890年工程竣工，时称'远东第一大坞'，为中国近代船舶工业'四局二坞'之一；并建有东北第一条国内电报线、中国第一条国际电报线和第一条自来水管线。",
+  "place_name": "辽宁省大连市旅顺口区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-6da74684c4"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-5a9fc0deeafb-04",
+  "heritage_id": "HER-5a9fc0deeafb",
+  "event_date_start": "1955",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "其他",
+  "title": "中国收回旅顺港，船坞继续为海军服务",
+  "description": "1955年中国收回旅顺港，船坞至今仍为中国人民解放军海军服务。",
+  "place_name": "辽宁省大连市旅顺口区",
+  "related_orgs": [
+   "中国人民解放军海军",
+   "大连辽南船厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-6da74684c4"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-5a9fc0deeafb-05",
+  "heritage_id": "HER-5a9fc0deeafb",
+  "event_date_start": "2013",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "保护启动",
+  "title": "列为第七批全国重点文物保护单位",
+  "description": "2013年3月国务院以'旅顺船坞旧址'将其列入第七批全国重点文物保护单位（近现代重要史迹及代表性建筑，编号7-1660-5-053）。",
+  "place_name": "辽宁省大连市旅顺口区",
+  "related_orgs": [
+   "国务院"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-6da74684c4"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-5a9fc0deeafb-R1",
+  "heritage_id": "HER-5a9fc0deeafb",
+  "event_date_start": "2017-12-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第一批）",
+  "description": "被工业和信息化部公布为第1批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch1"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
+ },
+ {
+  "event_id": "EVT-5a9fc0deeafb-03",
+  "heritage_id": "HER-5a9fc0deeafb",
+  "event_date_start": "",
+  "event_date_end": "1945",
+  "date_precision": null,
+  "event_type": "战争影响",
+  "title": "随旅顺港先后被沙俄、日本占领",
+  "description": "船坞随旅顺港先后被俄罗斯帝国、日本占领；1945年日本无条件投降后被苏联接管。",
+  "place_name": "辽宁省大连市旅顺口区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-6da74684c4"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "来源页未给出被俄、日占领的具体年份"
+ },
+ {
+  "event_id": "EVT-5abf2c0f09a2-R4",
+  "heritage_id": "HER-5abf2c0f09a2",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-5b0e0e5936e2-R5",
+  "heritage_id": "HER-5b0e0e5936e2",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-5b27256d19ad-R7",
+  "heritage_id": "HER-5b27256d19ad",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-5e1b302b21e8-R3",
+  "heritage_id": "HER-5e1b302b21e8",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-60673a3943fa-R2",
+  "heritage_id": "HER-60673a3943fa",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-60673a3943fa-R4",
+  "heritage_id": "HER-60673a3943fa",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-60c0bb0d831a-R3",
+  "heritage_id": "HER-60c0bb0d831a",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-61afd2c64f32-R2",
+  "heritage_id": "HER-61afd2c64f32",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-61bb352b4593-R4",
+  "heritage_id": "HER-61bb352b4593",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-62d2654b7bcf-R2",
+  "heritage_id": "HER-62d2654b7bcf",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-62f62ab6ed2b-R3",
+  "heritage_id": "HER-62f62ab6ed2b",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-65ceaa27a924-R3",
+  "heritage_id": "HER-65ceaa27a924",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-66b2d6d88d73-R2",
+  "heritage_id": "HER-66b2d6d88d73",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-66be236235e7-R2",
+  "heritage_id": "HER-66be236235e7",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-69af79fec07c-R4",
+  "heritage_id": "HER-69af79fec07c",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-6dd4eefcec8b-R4",
+  "heritage_id": "HER-6dd4eefcec8b",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-6de083a1e054-R7",
+  "heritage_id": "HER-6de083a1e054",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-700c1120c2b9-R4",
+  "heritage_id": "HER-700c1120c2b9",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-73fca2668c0a-R3",
+  "heritage_id": "HER-73fca2668c0a",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-74bf65465f7b-R2",
+  "heritage_id": "HER-74bf65465f7b",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-755ae7eb6f10-R5",
+  "heritage_id": "HER-755ae7eb6f10",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-76d04b757253-R3",
+  "heritage_id": "HER-76d04b757253",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-76e668fdc4ca-R3",
+  "heritage_id": "HER-76e668fdc4ca",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-76eac55f1261-R3",
+  "heritage_id": "HER-76eac55f1261",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-770eb9e86335-R4",
+  "heritage_id": "HER-770eb9e86335",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-7885e297fb71-R4",
+  "heritage_id": "HER-7885e297fb71",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-78dbb14a4168-R5",
+  "heritage_id": "HER-78dbb14a4168",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-79be637fd012-R5",
+  "heritage_id": "HER-79be637fd012",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-7a30441fdbb1-R4",
+  "heritage_id": "HER-7a30441fdbb1",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-7bb65d4f3ddc-R5",
+  "heritage_id": "HER-7bb65d4f3ddc",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-7e38d2eaacda-R2",
+  "heritage_id": "HER-7e38d2eaacda",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-7eefab99baa1-R6",
+  "heritage_id": "HER-7eefab99baa1",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-7f8dc027b8cd-R4",
+  "heritage_id": "HER-7f8dc027b8cd",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-7ff3d9d08333-R1",
+  "heritage_id": "HER-7ff3d9d08333",
+  "event_date_start": "2017-12-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第一批）",
+  "description": "被工业和信息化部公布为第1批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch1"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
+ },
+ {
+  "event_id": "EVT-815d3688e43b-R4",
+  "heritage_id": "HER-815d3688e43b",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-84af583665b6-01",
+  "heritage_id": "HER-84af583665b6",
+  "event_date_start": "1934",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "范旭东创办永利南京铔厂",
+  "description": "1934年范旭东创办永利南京铔厂，侯德榜任厂长；该厂为中国首座合成氨工厂，亦是当时亚洲最大的化工厂，被称为'远东第一大厂'。",
+  "place_name": "江苏省南京市六合区卸甲甸（今大厂街道）",
+  "related_orgs": [
+   "永利化学工业公司"
+  ],
+  "related_people": [
+   "范旭东",
+   "侯德榜"
+  ],
+  "source_ids": [
+   "src-web-847a20400e"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-84af583665b6-02",
+  "heritage_id": "HER-84af583665b6",
+  "event_date_start": "1936",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "技术引进",
+  "title": "采购德国A·BORSIG公司压缩机等设备",
+  "description": "1936年采购自德国A·BORSIG公司的压缩机列为该厂国家工业遗产核心物项，反映建厂时的国外设备引进。",
+  "place_name": "江苏省南京市",
+  "related_orgs": [
+   "A·BORSIG公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-a33e70ad69"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-84af583665b6-03",
+  "heritage_id": "HER-84af583665b6",
+  "event_date_start": "1937",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产",
+  "title": "产出中国第一批硫酸铵与第一包化学肥料",
+  "description": "1937年2月5日工厂生产出中国第一批硫酸铵产品、中国第一包化学肥料。",
+  "place_name": "江苏省南京市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-847a20400e",
+   "src-web-f3cf42f8bc"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-84af583665b6-04",
+  "heritage_id": "HER-84af583665b6",
+  "event_date_start": "1937",
+  "event_date_end": "1945",
+  "date_precision": "year",
+  "event_type": "战争影响",
+  "title": "日军轰炸占领，硝酸装置被拆运日本",
+  "description": "抗战爆发后日军多次轰炸工厂；1937年12月17日日军占领，改为'永礼化学工业株式会社浦口工业所硫铵工厂'，并将硝酸生产装置拆运日本。",
+  "place_name": "江苏省南京市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-847a20400e"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "范旭东拒绝与日军合营，转而在西南后方开辟'新塘沽'化工基地"
+ },
+ {
+  "event_id": "EVT-84af583665b6-05",
+  "heritage_id": "HER-84af583665b6",
+  "event_date_start": "1952",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "索回硝酸装置，公私合营更名永利宁厂",
+  "description": "1952年经侯德榜等与盟军谈判索回硝酸生产装置并原址重新投产（该设备使用至2011年）；同年永利公司成立公私合营委员会，铔厂更名公私合营永利宁厂。",
+  "place_name": "江苏省南京市",
+  "related_orgs": [
+   "公私合营永利宁厂"
+  ],
+  "related_people": [
+   "侯德榜"
+  ],
+  "source_ids": [
+   "src-web-847a20400e"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "'与盟军谈判'为来源页原文表述"
+ },
+ {
+  "event_id": "EVT-84af583665b6-06",
+  "heritage_id": "HER-84af583665b6",
+  "event_date_start": "1957",
+  "event_date_end": "1998",
+  "date_precision": "year",
+  "event_type": "合并重组",
+  "title": "并入南化公司，后加入中国石化",
+  "description": "1957年永利宁厂与南京磷肥厂等合并成立南京化学工业公司；1998年7月南化公司并入中国石化集团公司。",
+  "place_name": "江苏省南京市",
+  "related_orgs": [
+   "南京化学工业公司",
+   "中国石化"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-847a20400e"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-84af583665b6-R2",
+  "heritage_id": "HER-84af583665b6",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-851154e90826-R3",
+  "heritage_id": "HER-851154e90826",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-8784948683a8-R4",
+  "heritage_id": "HER-8784948683a8",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-881fd798b50e-R7",
+  "heritage_id": "HER-881fd798b50e",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-8a1b43d9c70c-R5",
+  "heritage_id": "HER-8a1b43d9c70c",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-8b50b8dc20c3-R3",
+  "heritage_id": "HER-8b50b8dc20c3",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-8bc23c33dd73-R5",
+  "heritage_id": "HER-8bc23c33dd73",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-8cbf658f4103-R7",
+  "heritage_id": "HER-8cbf658f4103",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-8d3790c5a8ce-R4",
+  "heritage_id": "HER-8d3790c5a8ce",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-8d4704cf9de4-R4",
+  "heritage_id": "HER-8d4704cf9de4",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-8e5771fb498c-R6",
+  "heritage_id": "HER-8e5771fb498c",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-8f61fc105161-R5",
+  "heritage_id": "HER-8f61fc105161",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-9073417cf637-R4",
+  "heritage_id": "HER-9073417cf637",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-909b2fe4fae3-R4",
+  "heritage_id": "HER-909b2fe4fae3",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-90e03ce6c762-R4",
+  "heritage_id": "HER-90e03ce6c762",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-91c5efc7b07a-R4",
+  "heritage_id": "HER-91c5efc7b07a",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-92cb2012e15e-R4",
+  "heritage_id": "HER-92cb2012e15e",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-936b0f3dd37f-R3",
+  "heritage_id": "HER-936b0f3dd37f",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-93e6f17e8d49-R2",
+  "heritage_id": "HER-93e6f17e8d49",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-94539dd597c3-R6",
+  "heritage_id": "HER-94539dd597c3",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-9583a27cb840-01",
+  "heritage_id": "HER-9583a27cb840",
+  "event_date_start": "1892",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "张弼士创办烟台张裕酿酒公司",
+  "description": "爱国华侨张弼士投资300万两白银在烟台创办张裕酿酒公司，为中国最早的工业化葡萄酒生产企业，公司名'张裕'寓意昌裕兴隆。",
+  "place_name": "山东省烟台市",
+  "related_orgs": [
+   "烟台张裕酿酒公司"
+  ],
+  "related_people": [
+   "张弼士"
+  ],
+  "source_ids": [
+   "src-web-9639844089",
+   "src-web-40ed3ee456",
+   "src-web-53d5362478",
+   "src-web-20683de04d"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-9583a27cb840-02",
+  "heritage_id": "HER-9583a27cb840",
+  "event_date_start": "1892",
+  "event_date_end": "1899",
+  "date_precision": "approximate",
+  "event_type": "技术引进",
+  "title": "引进欧洲葡萄品种与西方酿酒师、设备",
+  "description": "初创期自欧洲引进124个葡萄品种、69万株苗木；聘奥匈帝国驻烟台副领事、酿酒世家出身的巴保男爵任酿酒师；设备购自法国、德国、日本，橡木购自奥地利、意大利。",
+  "place_name": "山东省烟台市",
+  "related_orgs": [],
+  "related_people": [
+   "巴保男爵"
+  ],
+  "source_ids": [
+   "src-web-20683de04d"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-9583a27cb840-03",
+  "heritage_id": "HER-9583a27cb840",
+  "event_date_start": "1899",
+  "event_date_end": "1914",
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "酿出中国第一瓶葡萄酒与第一瓶白兰地",
+  "description": "1899年张裕酿出中国第一瓶葡萄酒；1914年酿出中国第一瓶白兰地（可雅白兰地）。",
+  "place_name": "山东省烟台市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-20683de04d"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "来源未称某年'正式投产'，故production_start_year留空"
+ },
+ {
+  "event_id": "EVT-9583a27cb840-04",
+  "heritage_id": "HER-9583a27cb840",
+  "event_date_start": "1912",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "其他",
+  "title": "孙中山题词'品重醴泉'",
+  "description": "1912年孙中山为公司题词'品重醴泉'，题词原件列为第一批国家工业遗产核心物项；公司官网亦载孙中山曾题赠此四字。",
+  "place_name": "山东省烟台市",
+  "related_orgs": [],
+  "related_people": [
+   "孙中山"
+  ],
+  "source_ids": [
+   "src-web-9639844089",
+   "src-web-a33e70ad69"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "年份依据工信部第一批名单核心物项表述"
+ },
+ {
+  "event_id": "EVT-9583a27cb840-05",
+  "heritage_id": "HER-9583a27cb840",
+  "event_date_start": "1915",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "巴拿马万国博览会获头等金奖",
+  "description": "张弼士率团参展巴拿马太平洋万国博览会，可雅白兰地、红玫瑰红葡萄酒、雷司令干白、琼瑶浆味美思获最高奖头等金牌（Grand Prize）；奖牌列为国家工业遗产核心物项。",
+  "place_name": "巴拿马太平洋万国博览会",
+  "related_orgs": [],
+  "related_people": [
+   "张弼士"
+  ],
+  "source_ids": [
+   "src-web-20683de04d",
+   "src-web-a33e70ad69"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-9583a27cb840-06",
+  "heritage_id": "HER-9583a27cb840",
+  "event_date_start": "1931",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "推出中国第一个干红品牌'解百纳'",
+  "description": "1931年张裕以蛇龙珠为主料推出中国第一个干红葡萄酒品牌'解百纳'，由总经理徐望之命名；1937年解百纳注册证书列为国家工业遗产核心物项。",
+  "place_name": "山东省烟台市",
+  "related_orgs": [],
+  "related_people": [
+   "徐望之"
+  ],
+  "source_ids": [
+   "src-web-20683de04d",
+   "src-web-a33e70ad69"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-9583a27cb840-07",
+  "heritage_id": "HER-9583a27cb840",
+  "event_date_start": "1992",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "博物馆/园区再利用",
+  "title": "张裕酒文化博物馆开馆",
+  "description": "1992年张裕酒文化博物馆正式启用，为中国第一座世界级葡萄酒博物馆，现为国家一级博物馆、国家4A级旅游景区，并入选首批国家工业旅游示范基地十佳。",
+  "place_name": "山东省烟台市",
+  "related_orgs": [
+   "张裕酒文化博物馆"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-40ed3ee456"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-9583a27cb840-R1",
+  "heritage_id": "HER-9583a27cb840",
+  "event_date_start": "2017-12-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第一批）",
+  "description": "被工业和信息化部公布为第1批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch1"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
+ },
+ {
+  "event_id": "EVT-9611e3ec365b-R2",
+  "heritage_id": "HER-9611e3ec365b",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-97172eeaa702-R6",
+  "heritage_id": "HER-97172eeaa702",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-9753b7c48835-R7",
+  "heritage_id": "HER-9753b7c48835",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-9aa1d8a47190-R6",
+  "heritage_id": "HER-9aa1d8a47190",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-9c35ee629ab8-R6",
+  "heritage_id": "HER-9c35ee629ab8",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-9f904121b6ca-R2",
+  "heritage_id": "HER-9f904121b6ca",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-9f98e3e9660c-R4",
+  "heritage_id": "HER-9f98e3e9660c",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-a19e7fab29a3-R6",
+  "heritage_id": "HER-a19e7fab29a3",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-a1c1af53bf84-01",
+  "heritage_id": "HER-a1c1af53bf84",
+  "event_date_start": "1895",
+  "event_date_end": "1898",
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "张謇筹办大生纱厂",
+  "description": "1895年（光绪二十一年）甲午战争后张謇在南通筹办纱厂；1896年11月张之洞为湖北织造局购置的2.04万枚纱锭作价25万两以官股入股；1898年在唐家闸动工建设。",
+  "place_name": "江苏省南通市唐闸",
+  "related_orgs": [],
+  "related_people": [
+   "张謇",
+   "张之洞"
+  ],
+  "source_ids": [
+   "src-web-93b7b21c55"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-a1c1af53bf84-02",
+  "heritage_id": "HER-a1c1af53bf84",
+  "event_date_start": "1899",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产",
+  "title": "建成投产",
+  "description": "1899年5月大生纱厂建成投产。",
+  "place_name": "江苏省南通市唐闸",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-93b7b21c55"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-a1c1af53bf84-03",
+  "heritage_id": "HER-a1c1af53bf84",
+  "event_date_start": "1907",
+  "event_date_end": "1925",
+  "date_precision": "year",
+  "event_type": "扩建",
+  "title": "扩张为中国最大华商棉纺企业",
+  "description": "1907年建大生二厂（崇明），1921年三厂建成（海门），1924年八厂建成（南通城南）；至1924年共有4个纺织厂、纱锭16万余枚，为当时中国最大华商棉纺企业；1925年被上海财团接管。",
+  "place_name": "江苏省南通市",
+  "related_orgs": [
+   "大生资本集团"
+  ],
+  "related_people": [
+   "张謇"
+  ],
+  "source_ids": [
+   "src-web-93b7b21c55"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "张謇1926年病逝"
+ },
+ {
+  "event_id": "EVT-a1c1af53bf84-04",
+  "heritage_id": "HER-a1c1af53bf84",
+  "event_date_start": "1938",
+  "event_date_end": "1939",
+  "date_precision": "year",
+  "event_type": "战争影响",
+  "title": "日军占领与军管",
+  "description": "1938年南通被日军占领，董事会将一厂、三厂资产抵押给德国蔼益吉公司；1939年3月被侵华日军'军管'，委托日本钟渊纺纱厂经营。",
+  "place_name": "江苏省南通市",
+  "related_orgs": [
+   "钟渊纺纱厂",
+   "蔼益吉公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-93b7b21c55"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-a1c1af53bf84-05",
+  "heritage_id": "HER-a1c1af53bf84",
+  "event_date_start": "1945",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "战后接管与公私合营",
+  "description": "1945年抗战胜利后由国民政府派员接管；中华人民共和国成立后改造为公私合营企业。",
+  "place_name": "江苏省南通市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-93b7b21c55"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "公私合营具体年份来源未载"
+ },
+ {
+  "event_id": "EVT-a1c1af53bf84-06",
+  "heritage_id": "HER-a1c1af53bf84",
+  "event_date_start": "1992",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "改组为江苏大生集团",
+  "description": "1992年10月改组为国有独资的江苏大生集团有限公司。",
+  "place_name": "江苏省南通市",
+  "related_orgs": [
+   "江苏大生集团"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-93b7b21c55"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-a1c1af53bf84-07",
+  "heritage_id": "HER-a1c1af53bf84",
+  "event_date_start": "2006",
+  "event_date_end": "2013",
+  "date_precision": "year",
+  "event_type": "保护启动",
+  "title": "列入全国重点文物保护单位",
+  "description": "2006年作为南通博物苑扩展项目列入全国重点文物保护单位；2013年3月单独公布并与'南通大生第三纺织公司旧址'合并，名称'大生纱厂'（7-1979-5-003）。",
+  "place_name": "江苏省南通市",
+  "related_orgs": [
+   "国务院"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-93b7b21c55"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "遗存含钟楼、公事厅、清花间厂房、仓库等"
+ },
+ {
+  "event_id": "EVT-a1c1af53bf84-R2",
+  "heritage_id": "HER-a1c1af53bf84",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-a1eafa330f21-R5",
+  "heritage_id": "HER-a1eafa330f21",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-a213b4c33a07-R7",
+  "heritage_id": "HER-a213b4c33a07",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-a2582e08f2dd-R7",
+  "heritage_id": "HER-a2582e08f2dd",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-a327b9274cc2-R6",
+  "heritage_id": "HER-a327b9274cc2",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-a4a0c63d6484-R5",
+  "heritage_id": "HER-a4a0c63d6484",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-a75647ad84e9-R2",
+  "heritage_id": "HER-a75647ad84e9",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-a7e7c40a5961-R5",
+  "heritage_id": "HER-a7e7c40a5961",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-a7f4147715e2-R5",
+  "heritage_id": "HER-a7f4147715e2",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-a8745cd8a8c6-R6",
+  "heritage_id": "HER-a8745cd8a8c6",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-a9d5417e03dc-R2",
+  "heritage_id": "HER-a9d5417e03dc",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-ac27828c4e30-R3",
+  "heritage_id": "HER-ac27828c4e30",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-ad6365da55a8-R3",
+  "heritage_id": "HER-ad6365da55a8",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-ae0a7e8746d6-R5",
+  "heritage_id": "HER-ae0a7e8746d6",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-ae1ea213c947-R4",
+  "heritage_id": "HER-ae1ea213c947",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-af8e1135a710-R5",
+  "heritage_id": "HER-af8e1135a710",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-affba94b7b36-R4",
+  "heritage_id": "HER-affba94b7b36",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-b0cbe6b026e9-R7",
+  "heritage_id": "HER-b0cbe6b026e9",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-b2a3afa6f83f-R7",
+  "heritage_id": "HER-b2a3afa6f83f",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-b2a81f9157d8-R5",
+  "heritage_id": "HER-b2a81f9157d8",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-b4f50d1000f0-R6",
+  "heritage_id": "HER-b4f50d1000f0",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-b4f9e945075b-R5",
+  "heritage_id": "HER-b4f9e945075b",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-b5604d9b23bb-R3",
+  "heritage_id": "HER-b5604d9b23bb",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-b652f983bcaa-R1",
+  "heritage_id": "HER-b652f983bcaa",
+  "event_date_start": "2017-12-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第一批）",
+  "description": "被工业和信息化部公布为第1批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch1"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
+ },
+ {
+  "event_id": "EVT-b6a6c15c83b0-R2",
+  "heritage_id": "HER-b6a6c15c83b0",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-b6ef8394932b-01",
+  "heritage_id": "HER-b6ef8394932b",
+  "event_date_start": "1908",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "滦州官矿成立并以西法建设赵各庄矿",
+  "description": "1908年5月北洋滦州官矿有限公司在天津成立，周学熙任总理，以官矿'抵开'为目的，用西法建设马家沟矿、赵各庄矿、陈家岭矿等14处矿井。",
+  "place_name": "河北省唐山市古冶区赵各庄",
+  "related_orgs": [
+   "北洋滦州官矿有限公司"
+  ],
+  "related_people": [
+   "周学熙",
+   "袁世凯"
+  ],
+  "source_ids": [
+   "src-web-2ebf9fd864"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "赵各庄矿具体建成投产年份来源未载，1908年为滦州官矿成立并建矿年份，故精度取approximate"
+ },
+ {
+  "event_id": "EVT-b6ef8394932b-02",
+  "heritage_id": "HER-b6ef8394932b",
+  "event_date_start": "1912",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "合并重组",
+  "title": "开平、滦州合并设开滦矿务总局",
+  "description": "1912年6月开平公司与滦州官矿签订联合经营合同，设立中外合办的开滦矿务总局，总部设天津，股本2000万两，红利开六滦四分配；赵各庄矿自此属开滦系统。",
+  "place_name": "天津",
+  "related_orgs": [
+   "开滦矿务总局"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-2ebf9fd864"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b6ef8394932b-03",
+  "heritage_id": "HER-b6ef8394932b",
+  "event_date_start": "1938-03-22",
+  "event_date_end": "1938-05-04",
+  "date_precision": "exact_date",
+  "event_type": "战争影响",
+  "title": "赵各庄矿工率先罢工，发展为开滦五矿同盟大罢工",
+  "description": "1938年3月因'井下记工制'赵各庄矿工率先罢工，波及林西、唐家庄、唐山、马家沟矿；5月4日英资签订劳资协议16条；7月矿工武装暴动加入冀东抗日联军。",
+  "place_name": "河北省唐山市古冶区赵各庄",
+  "related_orgs": [
+   "开滦矿务局",
+   "中国共产党"
+  ],
+  "related_people": [
+   "周文彬",
+   "节振国",
+   "蒋振元"
+  ],
+  "source_ids": [
+   "src-web-389957f0b4"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b6ef8394932b-04",
+  "heritage_id": "HER-b6ef8394932b",
+  "event_date_start": "1941",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "战争影响",
+  "title": "日军对开滦实行'军管理'",
+  "description": "1941年12月8日日本发动太平洋战争当天对开滦实行'军管理'。",
+  "place_name": "河北省唐山市",
+  "related_orgs": [
+   "日军"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-2ebf9fd864"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b6ef8394932b-05",
+  "heritage_id": "HER-b6ef8394932b",
+  "event_date_start": "1948",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "其他",
+  "title": "唐山解放，军代表进驻开滦",
+  "description": "1948年12月12日解放军占领唐山，军代表进驻开滦煤矿（时辖4个生产矿井、5万矿工）。",
+  "place_name": "河北省唐山市",
+  "related_orgs": [
+   "开滦矿务局"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-2ebf9fd864"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b6ef8394932b-06",
+  "heritage_id": "HER-b6ef8394932b",
+  "event_date_start": "1952",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "中央燃料工业部代管开滦煤矿",
+  "description": "1952年5月17日中央人民政府燃料工业部代管开滦煤矿。",
+  "place_name": "河北省唐山市",
+  "related_orgs": [
+   "燃料工业部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-2ebf9fd864"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b6ef8394932b-07",
+  "heritage_id": "HER-b6ef8394932b",
+  "event_date_start": "1999",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "开滦矿务局改制为开滦集团",
+  "description": "1998年8月开滦下放河北省管理；1999年改制为开滦（集团）有限责任公司。",
+  "place_name": "河北省唐山市",
+  "related_orgs": [
+   "开滦（集团）有限责任公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-2ebf9fd864"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b6ef8394932b-R3",
+  "heritage_id": "HER-b6ef8394932b",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-b70c3ba422ec-01",
+  "heritage_id": "HER-b70c3ba422ec",
+  "event_date_start": "1950",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "汽车工业筹备组成立并选址",
+  "description": "中央重工业部设立汽车工业筹备组，组长郭力、副组长孟少农，先后在长沙-湘潭、西安-宝鸡、太原-太谷一线比较选择厂址。",
+  "place_name": "北京市",
+  "related_orgs": [
+   "中央重工业部"
+  ],
+  "related_people": [
+   "郭力",
+   "孟少农"
+  ],
+  "source_ids": [
+   "src-web-15887d0481"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b70c3ba422ec-02",
+  "heritage_id": "HER-b70c3ba422ec",
+  "event_date_start": "1951",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "选址定案",
+  "title": "厂址定于长春，苏方完成初步设计",
+  "description": "陈云主持中财委决定厂址建在东北四平至长春之间，后确定长春；1951年12月苏联设计院完成工厂初步设计（斯大林汽车厂包建）。",
+  "place_name": "吉林省长春市",
+  "related_orgs": [
+   "中财委",
+   "苏联汽车工业部"
+  ],
+  "related_people": [
+   "陈云"
+  ],
+  "source_ids": [
+   "src-web-15887d0481"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b70c3ba422ec-03",
+  "heritage_id": "HER-b70c3ba422ec",
+  "event_date_start": "1953",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "中央决策",
+  "title": "三年建成一汽决策",
+  "description": "中共中央作出三年建成一汽的决定，毛泽东签发《关于力争三年建设长春汽车厂的指示》；饶斌调任厂长，郭力改任第一副厂长兼总工程师。",
+  "place_name": "吉林省长春市",
+  "related_orgs": [
+   "中共中央"
+  ],
+  "related_people": [
+   "毛泽东",
+   "饶斌",
+   "郭力"
+  ],
+  "source_ids": [
+   "src-web-15887d0481"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b70c3ba422ec-04",
+  "heritage_id": "HER-b70c3ba422ec",
+  "event_date_start": "1953-07-15",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "开工奠基",
+  "title": "施工典礼，工厂动工兴建",
+  "description": "在苏联帮助下动土开工；至1956年共派9批518名人员赴苏联斯大林汽车厂（吉尔厂）实习，覆盖厂长至调整工各关键岗位。",
+  "place_name": "吉林省长春市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-15887d0481",
+   "src-web-7c97f0a24f"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b70c3ba422ec-05",
+  "heritage_id": "HER-b70c3ba422ec",
+  "event_date_start": "1956-07-13",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "投产/产品突破",
+  "title": "第一辆解放牌卡车下线",
+  "description": "第一辆解放牌卡车下线，结束中国不能自行大批量生产汽车的历史；1956年建成投产，当年生产1654辆。",
+  "place_name": "吉林省长春市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-15887d0481",
+   "src-web-7c97f0a24f"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b70c3ba422ec-06",
+  "heritage_id": "HER-b70c3ba422ec",
+  "event_date_start": "1958",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "东风牌轿车与红旗牌高级轿车问世",
+  "description": "1958年制造出新中国第一辆小轿车（东风牌）和第一辆高级轿车（红旗牌）。",
+  "place_name": "吉林省长春市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-7c97f0a24f"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b70c3ba422ec-07",
+  "heritage_id": "HER-b70c3ba422ec",
+  "event_date_start": "1981-12-15",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "技术改造",
+  "title": "国务院批准换型改造方案",
+  "description": "国务院批准一汽解放卡车产品换型与技术改造（换产CA141型5吨车，投资2.14亿元），1986年如期完成垂直转产。",
+  "place_name": "吉林省长春市",
+  "related_orgs": [
+   "国务院"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-15887d0481"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b70c3ba422ec-R7",
+  "heritage_id": "HER-b70c3ba422ec",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-b7f5ed85aac9-R3",
+  "heritage_id": "HER-b7f5ed85aac9",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-b87d6f31c085-R2",
+  "heritage_id": "HER-b87d6f31c085",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-b8902e44b338-R2",
+  "heritage_id": "HER-b8902e44b338",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-b8b3f9e78d97-R6",
+  "heritage_id": "HER-b8b3f9e78d97",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-b8bbbe41fd7e-R4",
+  "heritage_id": "HER-b8bbbe41fd7e",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-b98407d04572-R6",
+  "heritage_id": "HER-b98407d04572",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-ba98cfafdf36-R7",
+  "heritage_id": "HER-ba98cfafdf36",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-bacbbae147a4-R7",
+  "heritage_id": "HER-bacbbae147a4",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-bcd6809bc514-R2",
+  "heritage_id": "HER-bcd6809bc514",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-bdb0c0922263-R4",
+  "heritage_id": "HER-bdb0c0922263",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-be6e48f0bfdf-R4",
+  "heritage_id": "HER-be6e48f0bfdf",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-bf87957735c4-R5",
+  "heritage_id": "HER-bf87957735c4",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-bfb5cc926eb8-R6",
+  "heritage_id": "HER-bfb5cc926eb8",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-c0c15785e862-R5",
+  "heritage_id": "HER-c0c15785e862",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-c1bf9347e31e-R2",
+  "heritage_id": "HER-c1bf9347e31e",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-c2ca03b2eac5-R3",
+  "heritage_id": "HER-c2ca03b2eac5",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-c329f56765d1-R2",
+  "heritage_id": "HER-c329f56765d1",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-c5049a9ad151-R7",
+  "heritage_id": "HER-c5049a9ad151",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-c54e6935a72a-R3",
+  "heritage_id": "HER-c54e6935a72a",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-c7c7adbf1635-R3",
+  "heritage_id": "HER-c7c7adbf1635",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-cdac875d1360-R5",
+  "heritage_id": "HER-cdac875d1360",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-d077697be2ac-R3",
+  "heritage_id": "HER-d077697be2ac",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-d0daf5a12b29-R4",
+  "heritage_id": "HER-d0daf5a12b29",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-d21e35ab97e1-R5",
+  "heritage_id": "HER-d21e35ab97e1",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-d3a06065269d-R5",
+  "heritage_id": "HER-d3a06065269d",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-d627be0ee19b-R3",
+  "heritage_id": "HER-d627be0ee19b",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-d6a3838ea53f-R4",
+  "heritage_id": "HER-d6a3838ea53f",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-d783e5fd8bb6-R6",
+  "heritage_id": "HER-d783e5fd8bb6",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-d867a1652663-R3",
+  "heritage_id": "HER-d867a1652663",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-d975b5338960-R4",
+  "heritage_id": "HER-d975b5338960",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-d9992f44ad45-R4",
+  "heritage_id": "HER-d9992f44ad45",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-d9f0c3cee4f8-R4",
+  "heritage_id": "HER-d9f0c3cee4f8",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-dc6c97ac96d9-R4",
+  "heritage_id": "HER-dc6c97ac96d9",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-dd30a90e9242-R2",
+  "heritage_id": "HER-dd30a90e9242",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-dd4a86681d1a-R4",
+  "heritage_id": "HER-dd4a86681d1a",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-dd9825ceea5e-R6",
+  "heritage_id": "HER-dd9825ceea5e",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-df9b81eba852-R6",
+  "heritage_id": "HER-df9b81eba852",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-e039599188d7-R6",
+  "heritage_id": "HER-e039599188d7",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-e0a47c3e0a6f-R7",
+  "heritage_id": "HER-e0a47c3e0a6f",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-e0dadacd727f-R2",
+  "heritage_id": "HER-e0dadacd727f",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-e1e3cbe4b1f2-R4",
+  "heritage_id": "HER-e1e3cbe4b1f2",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-e3373769c90a-R3",
+  "heritage_id": "HER-e3373769c90a",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-e36033cf58fe-R3",
+  "heritage_id": "HER-e36033cf58fe",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-e3bceca36251-R2",
+  "heritage_id": "HER-e3bceca36251",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-e4048f71ceec-R5",
+  "heritage_id": "HER-e4048f71ceec",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-e60020aa2e11-R3",
+  "heritage_id": "HER-e60020aa2e11",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-e6da22111b35-R3",
+  "heritage_id": "HER-e6da22111b35",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-e7d9ebb4153d-R7",
+  "heritage_id": "HER-e7d9ebb4153d",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-ec900ef41c67-R6",
+  "heritage_id": "HER-ec900ef41c67",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-ed14d4d7c545-R2",
+  "heritage_id": "HER-ed14d4d7c545",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-ed943e689cb7-R4",
+  "heritage_id": "HER-ed943e689cb7",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-eeb5ddec0e36-R2",
+  "heritage_id": "HER-eeb5ddec0e36",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-ef3c9223dfa4-R4",
+  "heritage_id": "HER-ef3c9223dfa4",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-ef75e812b2b4-R1",
+  "heritage_id": "HER-ef75e812b2b4",
+  "event_date_start": "2017-12-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第一批）",
+  "description": "被工业和信息化部公布为第1批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch1"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
+ },
+ {
+  "event_id": "EVT-efd17b0eab9d-R1",
+  "heritage_id": "HER-efd17b0eab9d",
+  "event_date_start": "2017-12-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第一批）",
+  "description": "被工业和信息化部公布为第1批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch1"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
+ },
+ {
+  "event_id": "EVT-f0be2ff919d8-R7",
+  "heritage_id": "HER-f0be2ff919d8",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-f21fefcea1df-R6",
+  "heritage_id": "HER-f21fefcea1df",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-f2ec0721d29d-R3",
+  "heritage_id": "HER-f2ec0721d29d",
+  "event_date_start": "2019-12-19",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第三批）",
+  "description": "被工业和信息化部公布为第3批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch3"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-f30e5c0a5afe-R6",
+  "heritage_id": "HER-f30e5c0a5afe",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-f3140055ce81-R7",
+  "heritage_id": "HER-f3140055ce81",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-f346c5ed97ac-R4",
+  "heritage_id": "HER-f346c5ed97ac",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-f3528018a835-01",
+  "heritage_id": "HER-f3528018a835",
+  "event_date_start": "1953",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "华北制药厂开始筹建",
+  "description": "'一五'计划重点建设项目，由苏联援建156项工程中的抗生素厂、淀粉厂和民主德国引进的药用玻璃厂组成，总投资7588万元。",
+  "place_name": "河北省石家庄市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-775f1995ff",
+   "src-web-b439e95cb7"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "360百科载1953年6月开始筹建"
+ },
+ {
+  "event_id": "EVT-f3528018a835-02",
+  "heritage_id": "HER-f3528018a835",
+  "event_date_start": "1958",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产",
+  "title": "建成投产",
+  "description": "1958年6月建成投产（全部投产），开创我国大规模生产抗生素的历史，显著改善缺医少药局面。",
+  "place_name": "河北省石家庄市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-775f1995ff",
+   "src-web-b439e95cb7"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-f3528018a835-03",
+  "heritage_id": "HER-f3528018a835",
+  "event_date_start": "1958",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "第一批青霉素下线",
+  "description": "投产后第一批青霉素下线，结束中国青霉素、链霉素依赖进口的历史。",
+  "place_name": "河北省石家庄市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-b439e95cb7"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-f3528018a835-04",
+  "heritage_id": "HER-f3528018a835",
+  "event_date_start": "1958",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "技术突破",
+  "title": "选育成功XP-58-01青霉素菌种",
+  "description": "1958年底选育成功第一株生产用青霉素菌种XP-58-01，打破苏联专家'只有科研单位才能搞育种'的断言，结束从苏联空运孢子的历史。",
+  "place_name": "河北省石家庄市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-775f1995ff"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-f3528018a835-05",
+  "heritage_id": "HER-f3528018a835",
+  "event_date_start": "1992",
+  "event_date_end": "1994",
+  "date_precision": "year",
+  "event_type": "改制上市",
+  "title": "股份制改组并上市",
+  "description": "以华北制药厂生产经营性资产发起组建华北制药股份有限公司，1994年1月14日在上海证券交易所挂牌上市。",
+  "place_name": "河北省石家庄市",
+  "related_orgs": [
+   "华北制药股份有限公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-775f1995ff",
+   "src-web-b439e95cb7"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-f3528018a835-06",
+  "heritage_id": "HER-f3528018a835",
+  "event_date_start": "2009",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "重组",
+  "title": "冀中能源收购重组",
+  "description": "2009年6月华北制药被冀中能源收购，成为其旗下企业，原因包括母公司长期负债。",
+  "place_name": "河北省石家庄市",
+  "related_orgs": [
+   "冀中能源集团"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-775f1995ff"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-f3528018a835-R7",
+  "heritage_id": "HER-f3528018a835",
+  "event_date_start": "2025-10-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第七批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第7批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch7"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-f564301ee4c6-R6",
+  "heritage_id": "HER-f564301ee4c6",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-f578fba063bf-01",
+  "heritage_id": "HER-f578fba063bf",
+  "event_date_start": "1970-12-25",
+  "event_date_end": "1970-12-26",
+  "date_precision": "exact_date",
+  "event_type": "创建/筹建",
+  "title": "中共中央批准兴建，毛泽东批示赞成",
+  "description": "中共中央批准兴建长江葛洲坝水利枢纽工程，毛泽东批示'赞成兴建此坝'，并预言兴建中需准备修改设计。",
+  "place_name": "湖北省宜昌市",
+  "related_orgs": [],
+  "related_people": [
+   "毛泽东",
+   "周恩来"
+  ],
+  "source_ids": [
+   "src-web-3444509a4b",
+   "src-web-50678b9c9b",
+   "src-web-46dd168dbc"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "共产党员网载12月25日中共中央批准；维基/葛洲坝集团载毛泽东12月26日批示"
+ },
+ {
+  "event_id": "EVT-f578fba063bf-02",
+  "heritage_id": "HER-f578fba063bf",
+  "event_date_start": "1970-12-30",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "开工",
+  "title": "开工典礼举行，工程代号'330'",
+  "description": "8万军民在宜昌市郊绵羊洞河滩举行开工典礼，张体学任指挥长奠基；代号'330'纪念毛泽东1958年3月30日视察三峡坝址。",
+  "place_name": "湖北省宜昌市",
+  "related_orgs": [
+   "三三〇工程指挥部"
+  ],
+  "related_people": [
+   "张体学"
+  ],
+  "source_ids": [
+   "src-web-3444509a4b",
+   "src-web-50678b9c9b",
+   "src-web-440c1da4ac"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-f578fba063bf-03",
+  "heritage_id": "HER-f578fba063bf",
+  "event_date_start": "1972",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "停工",
+  "title": "停工修改设计",
+  "description": "因混凝土浇筑等质量问题，周恩来抱病主持国务院会议决定停工修改设计，成立以林一山为首的葛洲坝工程技术委员会。",
+  "place_name": "湖北省宜昌市",
+  "related_orgs": [
+   "葛洲坝工程技术委员会"
+  ],
+  "related_people": [
+   "周恩来",
+   "林一山"
+  ],
+  "source_ids": [
+   "src-web-3444509a4b",
+   "src-web-440c1da4ac"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "维基载11月21日决定；新华网笼统称1972年底"
+ },
+ {
+  "event_id": "EVT-f578fba063bf-04",
+  "heritage_id": "HER-f578fba063bf",
+  "event_date_start": "1974-10-20",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "复工",
+  "title": "主体工程复工",
+  "description": "国务院批准修改初步设计，总装机调整为271.5万千瓦，10月20日主体工程复工，一期（二江、三江）先行建设。",
+  "place_name": "湖北省宜昌市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-3444509a4b",
+   "src-web-440c1da4ac"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-f578fba063bf-06",
+  "heritage_id": "HER-f578fba063bf",
+  "event_date_start": "1981",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产/发电",
+  "title": "开始通航发电",
+  "description": "6月27日2号船闸试航成功；7月30日二江电厂1号17万千瓦机组并网试发电，枢纽开始发挥效益，一期工程当年基本建成。",
+  "place_name": "湖北省宜昌市",
+  "related_orgs": [
+   "葛洲坝水力发电厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-3444509a4b",
+   "src-web-440c1da4ac"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-f578fba063bf-05",
+  "heritage_id": "HER-f578fba063bf",
+  "event_date_start": "1981-01-04",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "截流",
+  "title": "大江截流胜利合龙",
+  "description": "1月3日7时30分开始进占，1月4日19时50分大江截流合龙，历时36小时23分，实现人类首次横锁长江。",
+  "place_name": "湖北省宜昌市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-3444509a4b",
+   "src-web-50678b9c9b",
+   "src-web-46dd168dbc"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-f578fba063bf-07",
+  "heritage_id": "HER-f578fba063bf",
+  "event_date_start": "1988",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "全面建成",
+  "title": "最后一台机组并网，工程全部建成",
+  "description": "大江电厂21号（最后一台）机组并网发电，271.5万千瓦21台机组全面投产；1989年1月3日宣布建成，1991年11月通过国家竣工验收。",
+  "place_name": "湖北省宜昌市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-3444509a4b",
+   "src-web-50678b9c9b",
+   "src-web-440c1da4ac"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "并网日期两说：维基葛洲坝词条载1988年12月6日，新华网与葛洲坝集团官网载12月10日"
+ },
+ {
+  "event_id": "EVT-f578fba063bf-R4",
+  "heritage_id": "HER-f578fba063bf",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-f6e0454fb02b-R1",
+  "heritage_id": "HER-f6e0454fb02b",
+  "event_date_start": "2017-12-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第一批）",
+  "description": "被工业和信息化部公布为第1批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch1"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
+ },
+ {
+  "event_id": "EVT-fa234e8c25df-R2",
+  "heritage_id": "HER-fa234e8c25df",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-fbc675993aaa-R4",
+  "heritage_id": "HER-fbc675993aaa",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-fd9bf2c87ec1-R6",
+  "heritage_id": "HER-fd9bf2c87ec1",
+  "event_date_start": "2024-10-23",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选第六批国家工业遗产名单",
+  "description": "被工业和信息化部公布为第6批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch6"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-fdaf810de211-R2",
+  "heritage_id": "HER-fdaf810de211",
+  "event_date_start": "2018-11-21",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第二批）",
+  "description": "被工业和信息化部公布为第2批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch2"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-fdb947d7a8b5-R5",
+  "heritage_id": "HER-fdb947d7a8b5",
+  "event_date_start": "2021-12-13",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第五批）",
+  "description": "被工业和信息化部公布为第5批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch5"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-fde24b036554-R4",
+  "heritage_id": "HER-fde24b036554",
+  "event_date_start": "2020-12-24",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第四批）",
+  "description": "被工业和信息化部公布为第4批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch4"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ }
+]
