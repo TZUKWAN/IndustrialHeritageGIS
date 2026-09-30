@@ -66,6 +66,7 @@ export class PythonClient {
         return
       }
 
+      // eslint-disable-next-line prefer-const -- timer 在下方条件赋值
       let timer: ReturnType<typeof setTimeout>
       const check = setInterval(() => {
         if (this.ws && this.ws.readyState === WebSocket.OPEN) {

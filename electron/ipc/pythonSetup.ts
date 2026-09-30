@@ -332,7 +332,7 @@ async function pipInstall(
     })
 
     let stderr = ''
-    let stdoutLines: string[] = []
+    const stdoutLines: string[] = []
     let lastActivity = Date.now()
     let stallTimer: ReturnType<typeof setInterval> | null = null
     let totalPkgs = 0

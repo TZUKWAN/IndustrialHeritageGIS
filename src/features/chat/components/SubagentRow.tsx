@@ -22,27 +22,26 @@ interface SubagentRowProps {
 export const SubagentRow = memo(({ data }: SubagentRowProps) => {
   const t = useT()
   const [expanded, setExpanded] = useState(true)
+  const running = !!data && data.status === 'running'
 
-  if (!data) return <div className="h-px" aria-hidden />
+  // Hooks 保持无条件调用(rules-of-hooks); 无数据时渲染占位
+  const elapsed = useElapsed(data?.startedAt, running, data?.updatedAt)
 
-  const running = data.status === 'running'
-  const cancelled = data.status === 'cancelled'
-  const tasks = data.tasks ?? []
-  const total = data.total ?? tasks.length
-  const okCount = data.okCount ?? tasks.filter((t) => t.status === 'done').length
-  const failedCount = tasks.filter((t) => t.status === 'failed').length
-  const parallel = data.parallel
-
-  const elapsed = useElapsed(data.startedAt, running, data.updatedAt)
-
-  // Collapse automatically once the whole delegation finishes — the result
-  // summary is already streamed into the following assistant text.
   useEffect(() => {
     if (!running) {
       const t = window.setTimeout(() => setExpanded(false), 600)
       return () => window.clearTimeout(t)
     }
   }, [running])
+
+  if (!data) return <div className="h-px" aria-hidden />
+
+  const cancelled = data.status === 'cancelled'
+  const tasks = data.tasks ?? []
+  const total = data.total ?? tasks.length
+  const okCount = data.okCount ?? tasks.filter((t) => t.status === 'done').length
+  const failedCount = tasks.filter((t) => t.status === 'failed').length
+  const parallel = data.parallel
 
   const title = parallel ? t.chat.subagents : t.chat.subagent
 

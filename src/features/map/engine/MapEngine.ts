@@ -822,18 +822,20 @@ export class MapEngine {
 
   private buildRendererContext(): RendererContext {
     const map = this.map!
-    const self = this
+    // 类方法内构造回调需捕获实例; 规则误报场景, 显式标注
+    // eslint-disable-next-line @typescript-eslint/no-this-alias
+    const engine = this
     return {
       map,
       addRenderLayer(spec) {
         map.addLayer(spec as any)
-        self.managedLayerIds.add(spec.id)
+        engine.managedLayerIds.add(spec.id)
       },
       registerSourceId(sourceId) {
-        self.managedSourceIds.add(sourceId)
+        engine.managedSourceIds.add(sourceId)
       },
       registerRenderLayerId(defId, renderLayerId) {
-        self.renderLayerToDef.set(renderLayerId, defId)
+        engine.renderLayerToDef.set(renderLayerId, defId)
       },
     }
   }
