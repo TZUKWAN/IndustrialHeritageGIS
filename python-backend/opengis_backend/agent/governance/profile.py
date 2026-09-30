@@ -63,7 +63,7 @@ class AgentProfile:
             name="gis-build",
             mode=AgentMode.BUILD,
             description="Default autonomous GIS task execution agent.",
-            tool_groups=["core", "qgis", "osm", "datasource", "worker"],
+            tool_groups=["core", "qgis", "osm", "datasource", "worker", "heritage"],
             permission_level=PermissionLevel.SAFE_WRITE,
             max_steps=max_steps,
             metadata={},
@@ -76,7 +76,7 @@ class AgentProfile:
             name="gis-plan",
             mode=AgentMode.PLAN,
             description="Read-only planning and decomposition agent.",
-            tool_groups=["core"],
+            tool_groups=["core", "heritage"],
             permission_level=PermissionLevel.READ_ONLY,
             max_steps=steps,
             metadata={
