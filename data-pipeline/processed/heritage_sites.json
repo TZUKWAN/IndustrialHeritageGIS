@@ -12186,10 +12186,12 @@
    "name_hit": false,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1974,
+  "production_start_year": 1978,
+  "historical_period": [
+   "改革开放后"
+  ],
+  "current_use": "国家能源集团内蒙古公司元宝山电厂在运电厂；退役一期老厂房建为国家工业遗产展陈馆、厂风厂史教育基地和工业文化广场",
   "longitude": 119.28300057506345,
   "latitude": 42.03982561683208,
   "coordinate_system": "WGS84",
@@ -12212,10 +12214,10 @@
   "source_ids": [
    "src-batch5"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {
@@ -12330,10 +12332,15 @@
    "name_hit": false,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
+  "founded_year": 1862,
   "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期",
+   "改革开放后"
+  ],
+  "current_use": "浦东陆家嘴原厂址改造为“1862时尚艺术中心”（文化艺术与商业综合体）；船厂迁至崇明后为上海船厂船舶有限公司",
   "longitude": 121.56307714573407,
   "latitude": 31.24407327321834,
   "coordinate_system": "WGS84",
@@ -12356,10 +12363,10 @@
   "source_ids": [
    "src-batch5"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 89,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {
@@ -12548,10 +12555,15 @@
    "name_hit": false,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1905,
+  "production_start_year": 1907,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期",
+   "改革开放后"
+  ],
+  "current_use": "旧址建为和丰创意广场（2011年开园）；留存老厂房、小洋楼为文保建筑，设宁波工业设计博物馆、宁波和丰工人运动纪念馆",
   "longitude": 121.55390946946126,
   "latitude": 29.8304560905858,
   "coordinate_system": "WGS84",
@@ -12574,11 +12586,11 @@
   "source_ids": [
    "src-batch5"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
-  "closure_year": null
+  "founded_year_precision": "year",
+  "closure_year": 1998
  },
  {
   "heritage_id": "HER-78dbb14a4168",
@@ -12994,10 +13006,14 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
+  "founded_year": 1898,
   "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期"
+  ],
+  "current_use": "王封矿旧址建成“西大井1919”文旅景区（国家工业遗产公园），设焦作煤矿反帝大罢工陈列馆等，为红色教育基地",
   "longitude": 113.16870961486062,
   "latitude": 35.23428895657205,
   "coordinate_system": "WGS84",
@@ -13020,10 +13036,10 @@
   "source_ids": [
    "src-batch5"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {
@@ -13143,9 +13159,12 @@
    "basis": "keyword_rule_v1"
   },
   "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "production_start_year": 1958,
+  "historical_period": [
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "current_use": "一号高炉停炉后整体保存，改造为工业遗址公园，是以其为核心的武钢文化旅游区核心景点",
   "longitude": 114.39120439405245,
   "latitude": 30.632659719025465,
   "coordinate_system": "WGS84",
@@ -13168,11 +13187,11 @@
   "source_ids": [
    "src-batch5"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
   "founded_year_precision": null,
-  "closure_year": null
+  "closure_year": 2019
  },
  {
   "heritage_id": "HER-af8e1135a710",
@@ -14022,10 +14041,13 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
+  "founded_year": 1956,
   "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "historical_period": [
+   "新中国初期",
+   "改革开放后"
+  ],
+  "current_use": "陕西西凤酒厂集团有限公司（宝鸡市属国有独资企业）在柳林镇持续从事白酒酿造",
   "longitude": 107.39532792085971,
   "latitude": 34.51994387269815,
   "coordinate_system": "WGS84",
@@ -14048,10 +14070,10 @@
   "source_ids": [
    "src-batch5"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {
@@ -14836,10 +14858,12 @@
    "name_hit": false,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1958,
+  "production_start_year": 1968,
+  "historical_period": [
+   "一五二五时期"
+  ],
+  "current_use": "仍为在运水电站（国电电力所属），已列入电力工业遗产名录",
   "longitude": 125.35248213165445,
   "latitude": 41.26723352506147,
   "coordinate_system": "WGS84",
@@ -14862,10 +14886,10 @@
   "source_ids": [
    "src-batch6"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {

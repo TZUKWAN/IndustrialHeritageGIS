@@ -147,6 +147,180 @@
   "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
  },
  {
+  "event_id": "EVT-0656fe1c09c5-01",
+  "heritage_id": "HER-0656fe1c09c5",
+  "event_date_start": "1973",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "技术引进",
+  "title": "签订30万千瓦机组设备引进合同",
+  "description": "据史料，1973年中国技术进口公司与法国、瑞士公司签订30万千瓦机组设备引进合同（代号CF-7405），元宝山电厂为国家“四三方案”引进项目。",
+  "place_name": "内蒙古自治区赤峰市元宝山区",
+  "related_orgs": [
+   "中国技术进口公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-7206dda4be"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "引自检索摘要，签约外方公司具体名称未逐一核实"
+ },
+ {
+  "event_id": "EVT-0656fe1c09c5-02",
+  "heritage_id": "HER-0656fe1c09c5",
+  "event_date_start": "1974-10-08",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "创建/筹建",
+  "title": "首批建设者进驻荒原开始建厂",
+  "description": "1974年10月8日首批建设者抵达元宝山下开始建设，生活区与生产区同步建设，被称为“元宝山模式”。",
+  "place_name": "内蒙古自治区赤峰市元宝山区",
+  "related_orgs": [
+   "元宝山发电厂"
+  ],
+  "related_people": [
+   "郭景辉"
+  ],
+  "source_ids": [
+   "src-web-1d5d04893b"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-0656fe1c09c5-03",
+  "heritage_id": "HER-0656fe1c09c5",
+  "event_date_start": "1975-07-05",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "创建/建设",
+  "title": "1号机组工程破土动工",
+  "description": "1975年7月5日元宝山发电厂1号机组（30万千瓦）工程正式破土动工。",
+  "place_name": "内蒙古自治区赤峰市元宝山区",
+  "related_orgs": [
+   "元宝山发电厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-1d5d04893b"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-0656fe1c09c5-04",
+  "heritage_id": "HER-0656fe1c09c5",
+  "event_date_start": "1978-12-21",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "投产",
+  "title": "1号机组并网发电",
+  "description": "1978年12月21日1号机组首次并网发电，为新中国第一台整套引进的单机容量最大的30万千瓦火电机组。",
+  "place_name": "内蒙古自治区赤峰市元宝山区",
+  "related_orgs": [
+   "元宝山发电厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-1d5d04893b",
+   "src-web-d9d261c467"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-0656fe1c09c5-05",
+  "heritage_id": "HER-0656fe1c09c5",
+  "event_date_start": "1979-10-01",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "投产/移交生产",
+  "title": "1号机组正式移交生产",
+  "description": "1979年10月1日1号机组正式移交生产，为东北工业基地发展提供电力支撑。",
+  "place_name": "内蒙古自治区赤峰市元宝山区",
+  "related_orgs": [
+   "元宝山发电厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-1d5d04893b",
+   "src-web-a016dada7f"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-0656fe1c09c5-06",
+  "heritage_id": "HER-0656fe1c09c5",
+  "event_date_start": "1981-05-01",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "扩建",
+  "title": "二期60万千瓦机组扩建工程动工",
+  "description": "1981年5月1日，元宝山电厂扩建法国60万千瓦机组（2号机组）工程正式破土动工。",
+  "place_name": "内蒙古自治区赤峰市元宝山区",
+  "related_orgs": [
+   "元宝山发电厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-a016dada7f"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "日期来自澎湃新闻文章检索摘要"
+ },
+ {
+  "event_id": "EVT-0656fe1c09c5-07",
+  "heritage_id": "HER-0656fe1c09c5",
+  "event_date_start": "1985",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产",
+  "title": "2号机组（60万千瓦）建成投产",
+  "description": "1985年2号机组建成，为全国整套引进的第一台60万千瓦火电机组；锅炉自原联邦德国引进，汽轮机、发电机自法国阿尔斯通—大西洋公司引进。",
+  "place_name": "内蒙古自治区赤峰市元宝山区",
+  "related_orgs": [
+   "阿尔斯通—大西洋公司",
+   "元宝山发电厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-d9d261c467",
+   "src-web-a016dada7f"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "百度百科载1985年末移交生产；另有1985年12月并网发电之说"
+ },
+ {
+  "event_id": "EVT-0656fe1c09c5-08",
+  "heritage_id": "HER-0656fe1c09c5",
+  "event_date_start": "2011",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "停产",
+  "title": "1号机组关停",
+  "description": "适应国家“上大压小”政策，2011年5月12日1号机组打闸停机，同年6月1日正式关停。",
+  "place_name": "内蒙古自治区赤峰市元宝山区",
+  "related_orgs": [
+   "元宝山发电厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-1d5d04893b"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
   "event_id": "EVT-0656fe1c09c5-R5",
   "heritage_id": "HER-0656fe1c09c5",
   "event_date_start": "2021-12-13",
@@ -1945,6 +2119,93 @@
   "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
  },
  {
+  "event_id": "EVT-40f0bdd254ad-01",
+  "heritage_id": "HER-40f0bdd254ad",
+  "event_date_start": "1952",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "首届全国评酒会评为中国四大名酒",
+  "description": "1952年第一届全国评酒会上，西凤酒与茅台酒、泸州老窖、汾酒共同被评为“中国四大名酒”。",
+  "place_name": "陕西省凤翔县柳林镇（产地）",
+  "related_orgs": [
+   "第一届全国评酒会"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-2c0de474c8"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-40f0bdd254ad-02",
+  "heritage_id": "HER-40f0bdd254ad",
+  "event_date_start": "1956",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "地方国营陕西省西凤酒厂在柳林镇成立",
+  "description": "1956年5月经陕西省政府批复，同意新建年产1000吨的国营陕西西凤酒厂并选址柳林镇；同年10月陕西省西凤酒厂正式成立。",
+  "place_name": "陕西省宝鸡市凤翔区柳林镇",
+  "related_orgs": [
+   "陕西省西凤酒厂",
+   "陕西省人民委员会"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-57fb694ed2",
+   "src-web-347fe867ec",
+   "src-web-c8fecdc2d0"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "5月批复与10月成立为同一筹建过程的不同节点"
+ },
+ {
+  "event_id": "EVT-40f0bdd254ad-03",
+  "heritage_id": "HER-40f0bdd254ad",
+  "event_date_start": "1958-02",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制/更名",
+  "title": "更名地方国营凤翔县西凤酒厂",
+  "description": "1958年2月，工厂更名为“地方国营凤翔县西凤酒厂”。",
+  "place_name": "陕西省凤翔县柳林镇",
+  "related_orgs": [
+   "地方国营凤翔县西凤酒厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-57fb694ed2"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-40f0bdd254ad-04",
+  "heritage_id": "HER-40f0bdd254ad",
+  "event_date_start": "1999",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "改制设立陕西西凤酒股份有限公司",
+  "description": "1999年改制为陕西西凤酒股份有限公司，其后于2009年、2010年两次增资扩股。",
+  "place_name": "陕西省宝鸡市凤翔区柳林镇",
+  "related_orgs": [
+   "陕西西凤酒股份有限公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-8e4d3a645e"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
   "event_id": "EVT-40f0bdd254ad-R5",
   "heritage_id": "HER-40f0bdd254ad",
   "event_date_start": "2021-12-13",
@@ -2971,6 +3232,186 @@
   "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
  },
  {
+  "event_id": "EVT-5b0e0e5936e2-01",
+  "heritage_id": "HER-5b0e0e5936e2",
+  "event_date_start": "1862",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "英商开设祥生船厂",
+  "description": "1862年（清同治元年），英商尼柯逊、包义德在上海浦东陆家嘴开设祥生船厂，修造船舶，为上海船厂渊源之一。",
+  "place_name": "上海市浦东陆家嘴",
+  "related_orgs": [
+   "祥生船厂"
+  ],
+  "related_people": [
+   "尼柯逊",
+   "包义德"
+  ],
+  "source_ids": [
+   "src-web-e41563df53",
+   "src-web-38bf16544e"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-5b0e0e5936e2-02",
+  "heritage_id": "HER-5b0e0e5936e2",
+  "event_date_start": "1936-05",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "合并重组",
+  "title": "英联船厂股份有限公司成立",
+  "description": "1936年5月，耶松船厂与1900年创办的瑞镕船厂合并成立英联船厂股份有限公司；此前1901年祥生船厂已与耶松船厂（1865年创建）合并为耶松船厂有限公司。",
+  "place_name": "上海市",
+  "related_orgs": [
+   "耶松船厂",
+   "瑞镕船厂",
+   "英联船厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-e41563df53"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-5b0e0e5936e2-03",
+  "heritage_id": "HER-5b0e0e5936e2",
+  "event_date_start": "1941",
+  "event_date_end": "1945",
+  "date_precision": "year",
+  "event_type": "战争影响",
+  "title": "日军接管英联船厂",
+  "description": "太平洋战争爆发后（1941年底）日军接管英联船厂，杨树浦总厂改称“三菱株式会社江南造船所杨树浦工场”；抗战胜利后1945年9月16日归还英商。",
+  "place_name": "上海市杨树浦",
+  "related_orgs": [
+   "英联船厂",
+   "三菱株式会社"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-e41563df53"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "原文称“太平洋战争爆发后”，1941年为对应年份"
+ },
+ {
+  "event_id": "EVT-5b0e0e5936e2-04",
+  "heritage_id": "HER-5b0e0e5936e2",
+  "event_date_start": "1949-05-29",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "改制",
+  "title": "军管会接管招商局机器造船厂",
+  "description": "上海市军事管制委员会航运管理处接管招商局机器造船厂（1914年招商局创办内河机厂，1928年改今名），改名招商局轮船股份有限公司船舶修造厂。",
+  "place_name": "上海市浦东陆家嘴",
+  "related_orgs": [
+   "招商局机器造船厂",
+   "上海市军事管制委员会"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-e41563df53"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-5b0e0e5936e2-05",
+  "heritage_id": "HER-5b0e0e5936e2",
+  "event_date_start": "1952",
+  "event_date_end": "1954",
+  "date_precision": "year",
+  "event_type": "合并重组",
+  "title": "英联船厂军管并入上海船舶修造厂",
+  "description": "1952年8月15日上海市军管会宣布征用英联船厂，改名“军管英联船厂”；1954年1月1日英联船厂并入交通部上海船舶修造厂，两支渊源合流。",
+  "place_name": "上海市",
+  "related_orgs": [
+   "英联船厂",
+   "上海船舶修造厂",
+   "上海市军事管制委员会"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-e41563df53"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-5b0e0e5936e2-06",
+  "heritage_id": "HER-5b0e0e5936e2",
+  "event_date_start": "1978",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "第一艘出口万吨轮“绍兴号”下水",
+  "description": "1978年，中华人民共和国第一艘出口万吨轮“绍兴号”在上海船厂下水，从200米长船台驶向海外。",
+  "place_name": "上海市",
+  "related_orgs": [
+   "上海船厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-e41563df53",
+   "src-web-cdc2137eb3"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "1978年为媒体报道所载年份"
+ },
+ {
+  "event_id": "EVT-5b0e0e5936e2-07",
+  "heritage_id": "HER-5b0e0e5936e2",
+  "event_date_start": "1985-03",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制/更名",
+  "title": "改名为上海船厂",
+  "description": "1985年3月，工厂改名为上海船厂；此前1982年6月由交通部划归中国船舶工业总公司领导。",
+  "place_name": "上海市",
+  "related_orgs": [
+   "上海船厂",
+   "中国船舶工业总公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-e41563df53"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-5b0e0e5936e2-08",
+  "heritage_id": "HER-5b0e0e5936e2",
+  "event_date_start": "2005-05",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "迁建/园区再利用",
+  "title": "陆家嘴厂区搬迁崇明，原址改建1862时尚艺术中心",
+  "description": "2005年5月陆家嘴厂区全部搬迁至崇明岛，原厂房（上海船厂旧址）改建为文化艺术与商业综合体“1862时尚艺术中心”。",
+  "place_name": "上海市浦东陆家嘴",
+  "related_orgs": [
+   "上海船厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-e41563df53"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
   "event_id": "EVT-5b0e0e5936e2-R5",
   "heritage_id": "HER-5b0e0e5936e2",
   "event_date_start": "2021-12-13",
@@ -3368,6 +3809,189 @@
   "confidence": "high",
   "disputed": true,
   "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-755ae7eb6f10-01",
+  "heritage_id": "HER-755ae7eb6f10",
+  "event_date_start": "1898",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "英商福公司在焦作开始机械化采煤",
+  "description": "1898年，英商福公司在焦作地区进行较大规模的机械化煤炭开采，成为焦作煤矿业发端。",
+  "place_name": "河南省焦作市",
+  "related_orgs": [
+   "福公司（Peking Syndicate）"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-1fb9d4548d"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "另有1905年开凿河南省第一口矿井之说，见下条"
+ },
+ {
+  "event_id": "EVT-755ae7eb6f10-02",
+  "heritage_id": "HER-755ae7eb6f10",
+  "event_date_start": "1905",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/建设",
+  "title": "福公司开凿河南省第一口矿井",
+  "description": "1905年，英福公司在焦作开凿了河南省第一口矿井，建起泽煤盛煤矿；其机械维修厂旧址即后来的焦作机械制造有限公司老厂区。",
+  "place_name": "河南省焦作市",
+  "related_orgs": [
+   "福公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-0da6cee429"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-755ae7eb6f10-03",
+  "heritage_id": "HER-755ae7eb6f10",
+  "event_date_start": "1909",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创办学校",
+  "title": "福公司创办焦作路矿学堂",
+  "description": "1909年英国福公司兴办焦作路矿学堂，为中国历史上第一所矿业高等学府，即河南理工大学前身。",
+  "place_name": "河南省焦作市",
+  "related_orgs": [
+   "福公司",
+   "焦作路矿学堂（今河南理工大学）"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f8a7ac6f62"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-755ae7eb6f10-04",
+  "heritage_id": "HER-755ae7eb6f10",
+  "event_date_start": "1919",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "扩建",
+  "title": "福公司开凿王封矿（西大井）",
+  "description": "1919年，英国福公司兴建河南省大型煤矿王封矿，俗称“西大井”，为福公司在焦作所办大型矿井。",
+  "place_name": "河南省焦作市中站区",
+  "related_orgs": [
+   "福公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-0603344cd1",
+   "src-web-248c633c95"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-755ae7eb6f10-05",
+  "heritage_id": "HER-755ae7eb6f10",
+  "event_date_start": "1925",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "工人运动",
+  "title": "焦作煤矿工人大罢工",
+  "description": "1925年（五卅运动后，7月起始）焦作煤矿工人举行反对英商福公司的大罢工，坚持斗争逾8个月，焦作煤矿工人由此以“特别能战斗”著称。",
+  "place_name": "河南省焦作市",
+  "related_orgs": [
+   "福公司",
+   "焦作煤矿工会"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-0603344cd1",
+   "src-web-6052903a10"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "罢工起止时长各来源表述不一（8个月至16个月）"
+ },
+ {
+  "event_id": "EVT-755ae7eb6f10-06",
+  "heritage_id": "HER-755ae7eb6f10",
+  "event_date_start": "1934",
+  "event_date_end": "1935",
+  "date_precision": "year",
+  "event_type": "改制/整理",
+  "title": "翁文灏、孙越崎整理中福煤矿扭亏为盈",
+  "description": "中原公司与福公司合组的中福两公司联合办事处濒临破产，1934年国民政府派翁文灏任整理专员、孙越崎任总工程师；1935年扭亏为盈，年产无烟煤100多万吨。",
+  "place_name": "河南省焦作市",
+  "related_orgs": [
+   "中福两公司联合办事处",
+   "中原公司",
+   "福公司"
+  ],
+  "related_people": [
+   "翁文灏",
+   "孙越崎"
+  ],
+  "source_ids": [
+   "src-web-c3a1b19ae4"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "1935年10月孙越崎接任整理专员，1936年获聘中福公司总经理"
+ },
+ {
+  "event_id": "EVT-755ae7eb6f10-07",
+  "heritage_id": "HER-755ae7eb6f10",
+  "event_date_start": "1937",
+  "event_date_end": "1938",
+  "date_precision": "year",
+  "event_type": "迁建/战争影响",
+  "title": "中福煤矿设备拆迁入川",
+  "description": "七七事变后孙越崎主持将中福煤矿设备拆迁，借民生轮船公司运往四川，成为抗战时期唯一迁入大后方而未被日军控制的近代煤矿，并合作创办天府等四矿。",
+  "place_name": "河南省焦作市→四川",
+  "related_orgs": [
+   "中福公司",
+   "民生轮船公司",
+   "天府煤矿"
+  ],
+  "related_people": [
+   "孙越崎",
+   "卢作孚"
+  ],
+  "source_ids": [
+   "src-web-c3a1b19ae4"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-755ae7eb6f10-08",
+  "heritage_id": "HER-755ae7eb6f10",
+  "event_date_start": "1949",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "焦作矿务局成立，王封矿更名",
+  "description": "1949年焦作矿务局成立后，王封矿更名为“焦作矿务局王封矿”，后成为河南省最大现代化矿井之一。",
+  "place_name": "河南省焦作市",
+  "related_orgs": [
+   "焦作矿务局",
+   "王封矿"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-6052903a10"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-755ae7eb6f10-R5",
@@ -3898,6 +4522,188 @@
   "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
  },
  {
+  "event_id": "EVT-8a1b43d9c70c-01",
+  "heritage_id": "HER-8a1b43d9c70c",
+  "event_date_start": "1887",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建（前身）",
+  "title": "严信厚创办通久源轧花厂",
+  "description": "1887年，宁波帮开山鼻祖严信厚创办宁波通久源轧花厂，为和丰纱厂之前身渊源。",
+  "place_name": "浙江省宁波市",
+  "related_orgs": [
+   "通久源轧花厂"
+  ],
+  "related_people": [
+   "严信厚"
+  ],
+  "source_ids": [
+   "src-web-dbdf56bd5c"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-8a1b43d9c70c-02",
+  "heritage_id": "HER-8a1b43d9c70c",
+  "event_date_start": "1905",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "组建和丰纺织股份有限公司",
+  "description": "1905年，时任通久源股东戴瑞卿与宁波招商局总办顾元琛等组建和丰纺织股份有限公司（即和丰纱厂）。",
+  "place_name": "浙江省宁波市鄞州区",
+  "related_orgs": [
+   "和丰纺织股份有限公司"
+  ],
+  "related_people": [
+   "戴瑞卿",
+   "顾元琛"
+  ],
+  "source_ids": [
+   "src-web-dbdf56bd5c",
+   "src-web-0aca32e50e"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "宁波史志网载由顾元琛、戴瑞卿等筹资60万元银圆创办，筹建两年建成"
+ },
+ {
+  "event_id": "EVT-8a1b43d9c70c-03",
+  "heritage_id": "HER-8a1b43d9c70c",
+  "event_date_start": "1907-03-06",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "投产",
+  "title": "和丰纱厂建成投产",
+  "description": "1907年3月6日，和丰纱厂在江东冰厂跟建成投产，有纱锭1.12万枚、职工1785人。",
+  "place_name": "浙江省宁波市江东冰厂跟（今江东北路317号）",
+  "related_orgs": [
+   "和丰纱厂"
+  ],
+  "related_people": [
+   "顾元琛",
+   "戴瑞卿"
+  ],
+  "source_ids": [
+   "src-web-af68fa9927",
+   "src-web-dbdf56bd5c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-8a1b43d9c70c-04",
+  "heritage_id": "HER-8a1b43d9c70c",
+  "event_date_start": "1913",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "成为浙江省第一纱厂",
+  "description": "至1913年，和丰纱厂已成为浙江省第一纱厂。",
+  "place_name": "浙江省宁波市",
+  "related_orgs": [
+   "和丰纱厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-dbdf56bd5c"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-8a1b43d9c70c-05",
+  "heritage_id": "HER-8a1b43d9c70c",
+  "event_date_start": "1926",
+  "event_date_end": "1928",
+  "date_precision": "year",
+  "event_type": "工人运动",
+  "title": "和丰纱厂工潮与工人党员出席中共六大",
+  "description": "1926年6月和丰纱厂爆发在中共宁波党史上有广泛影响的工潮；1928年和丰工人党员余阿炳（余驾先）作为浙江代表出席在莫斯科举行的中共六大。",
+  "place_name": "浙江省宁波市",
+  "related_orgs": [
+   "和丰纱厂",
+   "中国共产党第六次全国代表大会"
+  ],
+  "related_people": [
+   "余阿炳"
+  ],
+  "source_ids": [
+   "src-web-dbdf56bd5c"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "和丰纱厂为宁波城区第一批工人党支部诞生地"
+ },
+ {
+  "event_id": "EVT-8a1b43d9c70c-06",
+  "heritage_id": "HER-8a1b43d9c70c",
+  "event_date_start": "1998-05",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "合并重组",
+  "title": "重组融入宁波维科集团",
+  "description": "1998年5月，随着宁波市纺织工业大规模重组，和丰纱厂等40多家市属国有纺织企业整合创立宁波维科集团股份有限公司，和丰纱厂完成工业使命。",
+  "place_name": "浙江省宁波市",
+  "related_orgs": [
+   "宁波维科集团股份有限公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-dbdf56bd5c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-8a1b43d9c70c-07",
+  "heritage_id": "HER-8a1b43d9c70c",
+  "event_date_start": "2011-10-20",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "博物馆园区再利用",
+  "title": "和丰创意广场开园",
+  "description": "2009年4月和丰创意广场在和丰纱厂旧址破土动工，保留老厂房与小洋楼，2011年10月20日正式开园，转型工业设计与文创园区。",
+  "place_name": "浙江省宁波市鄞州区江东北路317号",
+  "related_orgs": [
+   "和丰创意广场"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-dbdf56bd5c",
+   "src-web-7964831ba7"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-8a1b43d9c70c-08",
+  "heritage_id": "HER-8a1b43d9c70c",
+  "event_date_start": "2021-06-29",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "博物馆园区再利用",
+  "title": "宁波和丰工人运动纪念馆开馆",
+  "description": "2021年6月29日，宁波和丰工人运动纪念馆在和丰纱厂小洋楼（宁波城区第一党支部旧址）揭牌开馆，共设6个展厅。",
+  "place_name": "浙江省宁波市鄞州区",
+  "related_orgs": [
+   "宁波和丰工人运动纪念馆"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-7964831ba7"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "维基百科引中国宁波网2023-06-10报道"
+ },
+ {
   "event_id": "EVT-8a1b43d9c70c-R5",
   "heritage_id": "HER-8a1b43d9c70c",
   "event_date_start": "2021-12-13",
@@ -4022,6 +4828,91 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-8e5771fb498c-01",
+  "heritage_id": "HER-8e5771fb498c",
+  "event_date_start": "1958-08-01",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "创建/开工",
+  "title": "桓仁水电站正式开工建设",
+  "description": "1958年8月1日桓仁水电站正式开工建设，为浑江干流上第一座梯级水电站，位于五女山脚下，由水电一局承建。",
+  "place_name": "辽宁省本溪市桓仁满族自治县",
+  "related_orgs": [
+   "水电一局（中国电建）"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-dbc8f0b9d6"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "大坝为混凝土单支墩大头坝（空心坝）"
+ },
+ {
+  "event_id": "EVT-8e5771fb498c-02",
+  "heritage_id": "HER-8e5771fb498c",
+  "event_date_start": "1965",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "复工建设",
+  "title": "复工建设",
+  "description": "工程曾一度停建，1965年复工建设。",
+  "place_name": "辽宁省本溪市桓仁满族自治县",
+  "related_orgs": [
+   "水电一局"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-d7296788d3"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-8e5771fb498c-03",
+  "heritage_id": "HER-8e5771fb498c",
+  "event_date_start": "1968",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产",
+  "title": "第一台机组投产发电",
+  "description": "1968年（5月）第一台水轮机组建成并开始发电。",
+  "place_name": "辽宁省本溪市桓仁满族自治县",
+  "related_orgs": [
+   "桓仁水电站"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-dbc8f0b9d6",
+   "src-web-d7296788d3"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "5月为首台机组发电月份"
+ },
+ {
+  "event_id": "EVT-8e5771fb498c-04",
+  "heritage_id": "HER-8e5771fb498c",
+  "event_date_start": "1972",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产/竣工",
+  "title": "工程竣工",
+  "description": "1972年桓仁水电站工程竣工，年平均发电量约4.77亿千瓦时，兼具防洪、灌溉、养殖等综合效益。",
+  "place_name": "辽宁省本溪市桓仁满族自治县",
+  "related_orgs": [
+   "桓仁水电站"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-d7296788d3"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-8e5771fb498c-R6",
@@ -6102,6 +6993,98 @@
   "notes": "成文2021-11-30，发布2021-12-13。"
  },
  {
+  "event_id": "EVT-d3a06065269d-01",
+  "heritage_id": "HER-d3a06065269d",
+  "event_date_start": "1955",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/建设",
+  "title": "武钢作为“一五”156项重点工程开始建设",
+  "description": "武钢为新中国成立后兴建的第一个特大型钢铁联合企业，1955年开始建设（武汉市青山区），属第一个五年计划156项重点工程。",
+  "place_name": "湖北省武汉市青山区",
+  "related_orgs": [
+   "武汉钢铁公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-c3e277960b"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-d3a06065269d-02",
+  "heritage_id": "HER-d3a06065269d",
+  "event_date_start": "1958-09-13",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "投产",
+  "title": "一号高炉建成投产流出第一炉铁水",
+  "description": "1958年9月13日一号高炉建成投产，凌晨武钢总经理李一清点燃炉火，当日15时25分毛泽东亲临炉台观看第一炉铁水流出，标志武钢正式投产。",
+  "place_name": "湖北省武汉市青山区",
+  "related_orgs": [
+   "武汉钢铁公司"
+  ],
+  "related_people": [
+   "毛泽东",
+   "李一清"
+  ],
+  "source_ids": [
+   "src-web-6f43281674",
+   "src-web-248c633c95",
+   "src-web-d7296788d3"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-d3a06065269d-03",
+  "heritage_id": "HER-d3a06065269d",
+  "event_date_start": "2016",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "合并重组",
+  "title": "宝钢与武钢联合重组为中国宝武",
+  "description": "2016年9月经国务院批准，宝钢集团与武汉钢铁（集团）公司实施联合重组，宝钢更名“中国宝武钢铁集团”，武钢集团整体无偿划入成为全资子公司。",
+  "place_name": "湖北省武汉市青山区",
+  "related_orgs": [
+   "宝钢集团",
+   "武钢集团",
+   "中国宝武钢铁集团",
+   "国务院国资委"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-c3e277960b"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-d3a06065269d-04",
+  "heritage_id": "HER-d3a06065269d",
+  "event_date_start": "2019-10-14",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "停产",
+  "title": "一号高炉停炉退役",
+  "description": "2019年10月14日一号高炉正式停炉，自1958年9月13日投产共服役61年1个月零1天（高炉门口标注“61.1.1”）。",
+  "place_name": "湖北省武汉市青山区",
+  "related_orgs": [
+   "武钢有限"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-78c23dde35"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
   "event_id": "EVT-d3a06065269d-R5",
   "heritage_id": "HER-d3a06065269d",
   "event_date_start": "2021-12-13",
@@ -6121,6 +7104,28 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2021-11-30，发布2021-12-13。"
+ },
+ {
+  "event_id": "EVT-d3a06065269d-05",
+  "heritage_id": "HER-d3a06065269d",
+  "event_date_start": "2023",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "博物馆园区再利用",
+  "title": "武钢文化旅游区开园，一号高炉成核心景点",
+  "description": "以一号高炉为核心的武钢文化旅游区于2023年2月开园迎客，一号高炉改造为国家工业遗址公园并免费开放。",
+  "place_name": "湖北省武汉市青山区",
+  "related_orgs": [
+   "武钢集团",
+   "武钢文化旅游区"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-296b90db1c"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "开园日期2月21日来自检索摘要"
  },
  {
   "event_id": "EVT-d627be0ee19b-R3",
