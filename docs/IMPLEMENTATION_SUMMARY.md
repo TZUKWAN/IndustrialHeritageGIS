@@ -20,7 +20,7 @@
 ## 阶段 3/4 — 数据模型与史实采集
 - `build_enrichment.py`: 事件/关系/档案/来源模型; 档案程序化生成可溯源。
 - 3 个研究代理并行采集: 7 批公告日期精确到日+官方 URL+文号(含复核作废链); 13 处试点史实(85 条已核实事件、31 条关系、32 条网络来源, 全部带 A-D 分级与访问日期)。
-- 263 处全部获得官方认定事件(A 级); 13 处 research_status=verified, 其余 250 处诚实标注待补。
+- 263 处全部获得官方认定事件(A 级); 波次2增量采集后 57 处 research_status=verified(第1批全覆盖+第2-7批代表站点), 其余 206 处诚实标注待补。
 
 ## 阶段 5 — 空间分析
 - `analysis.py`: Albers 等积投影(Snyder 14-15, 往返 <1e-8°)、KDE(Silverman, PNG+WGS84 角点)、ANN(R=0.507, z=−15.31 显著聚集)、全局 Moran's I(省级 KNN k=4, z=0.43 不显著)、省界 DP 简化、批次/行业统计; 全部参数与版本入档。
@@ -45,3 +45,10 @@
 
 ## 阶段 10 — 文档
 - docs/: baseline_report / DATA_DICTIONARY / DATA_PROVENANCE / ARCHITECTURE / ANALYSIS_METHODS / TEST_REPORT / IMPLEMENTATION_SUMMARY(本文)。README 更新安装/启动/测试说明。
+
+## 数据增量 (发布后持续更新)
+
+- 仓库已发布: https://github.com/TZUKWAN/IndustrialHeritageGIS (公开, MIT)。
+- 波次 2 史实采集(44 处): F/B/C/A/D/E/G 七组全部入库 — 事件 349→670, 关系 31→144, 网络来源 32→242, 已核实站点 13→57。
+- 修正一次 ID 映射错误(汉阳铁厂史料曾误挂菱湖丝厂 ID, 已纠正并重跑管线)。
+- 每批次增量: build_enrichment.py → export_frontend.py → pytest → commit → push main+feature。

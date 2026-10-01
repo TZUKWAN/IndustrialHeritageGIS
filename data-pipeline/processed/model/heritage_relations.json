@@ -671,8 +671,8 @@
   "inferred": false
  },
  {
-  "relation_id": "REL-1d1453b43e34-01",
-  "source_entity": "HER-1d1453b43e34",
+  "relation_id": "REL-3318e785a779-01",
+  "source_entity": "HER-3318e785a779",
   "relation_type": "企业谱系",
   "target_entity": "汉冶萍煤铁厂矿有限公司",
   "start_date": null,
@@ -685,8 +685,8 @@
   "inferred": false
  },
  {
-  "relation_id": "REL-1d1453b43e34-02",
-  "source_entity": "HER-1d1453b43e34",
+  "relation_id": "REL-3318e785a779-02",
+  "source_entity": "HER-3318e785a779",
   "relation_type": "企业谱系（迁建）",
   "target_entity": "重庆钢铁公司",
   "start_date": null,
@@ -699,8 +699,8 @@
   "inferred": false
  },
  {
-  "relation_id": "REL-1d1453b43e34-03",
-  "source_entity": "HER-1d1453b43e34",
+  "relation_id": "REL-3318e785a779-03",
+  "source_entity": "HER-3318e785a779",
   "relation_type": "企业谱系",
   "target_entity": "武汉钢铁公司",
   "start_date": null,
@@ -713,8 +713,8 @@
   "inferred": false
  },
  {
-  "relation_id": "REL-1d1453b43e34-04",
-  "source_entity": "HER-1d1453b43e34",
+  "relation_id": "REL-3318e785a779-04",
+  "source_entity": "HER-3318e785a779",
   "relation_type": "产业集聚",
   "target_entity": "汉阳兵工厂、汉阳火药厂（“汉阳十里工业长廊”）",
   "start_date": null,
@@ -1824,6 +1824,237 @@
   "description": "桓仁水电站由中国电建所属水电一局承建，该局承建的丰满、桓仁两水电站均入选电力工业遗产名录。",
   "source_ids": [
    "src-web-dbc8f0b9d6"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-bfb5cc926eb8-01",
+  "source_entity": "HER-bfb5cc926eb8",
+  "relation_type": "企业谱系",
+  "target_entity": "芦台场（长芦盐区）",
+  "start_date": null,
+  "end_date": null,
+  "description": "汉沽盐场前身为五代后唐同光三年（925年）设立的芦台场，2025年称置场1100年",
+  "source_ids": [
+   "src-web-77037505ba"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-b8b3f9e78d97-01",
+  "source_entity": "HER-b8b3f9e78d97",
+  "relation_type": "企业谱系",
+  "target_entity": "大港油田",
+  "start_date": null,
+  "end_date": null,
+  "description": "发现井任4井由大港油田钻井二部3269钻井队钻探",
+  "source_ids": [
+   "src-web-591269ae1f"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-b8b3f9e78d97-02",
+  "source_entity": "HER-b8b3f9e78d97",
+  "relation_type": "地质理论",
+  "target_entity": "古潜山成藏理论（新生古储）",
+  "start_date": null,
+  "end_date": null,
+  "description": "任丘油田为中国发现的第一个碳酸盐岩古潜山油藏，相关实践确立了新生古储成藏模式",
+  "source_ids": [
+   "src-web-733cc6e985",
+   "src-web-f02a8b5347"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-2b911268ab1f-01",
+  "source_entity": "HER-2b911268ab1f",
+  "relation_type": "企业谱系",
+  "target_entity": "日本东洋纺织株式会社（裕丰纺织株式会社）",
+  "start_date": null,
+  "end_date": null,
+  "description": "前身为日商东洋纺织系统在上海开设的裕丰纱厂",
+  "source_ids": [
+   "src-web-17a29f7cd0",
+   "src-web-c6c143336a"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-2b911268ab1f-02",
+  "source_entity": "HER-2b911268ab1f",
+  "relation_type": "企业谱系",
+  "target_entity": "中国纺织建设公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "抗战胜利后由中国纺织建设公司接管，转为国营",
+  "source_ids": [
+   "src-web-c6c143336a"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-2b911268ab1f-03",
+  "source_entity": "HER-2b911268ab1f",
+  "relation_type": "企业谱系",
+  "target_entity": "东方国际（集团）有限公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "停产后由东方国际系统推动转型并运营上海国际时尚中心",
+  "source_ids": [
+   "src-web-17a29f7cd0"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-c5049a9ad151-01",
+  "source_entity": "HER-c5049a9ad151",
+  "relation_type": "技术援助",
+  "target_entity": "苏联",
+  "start_date": null,
+  "end_date": null,
+  "description": "1950年代续建采用苏联设计院366号设计书，续建机组多由苏联制造",
+  "source_ids": [
+   "src-web-094ef9b040"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-c5049a9ad151-02",
+  "source_entity": "HER-c5049a9ad151",
+  "relation_type": "建设主体",
+  "target_entity": "伪满洲国水力电气建设局",
+  "start_date": null,
+  "end_date": null,
+  "description": "1937年由伪满水力电气建设局主持修建，服务于日本侵略需要",
+  "source_ids": [
+   "src-web-094ef9b040"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-2e556b76ea68-01",
+  "source_entity": "HER-2e556b76ea68",
+  "relation_type": "建设主体",
+  "target_entity": "伪满洲国（日伪当局）",
+  "start_date": null,
+  "end_date": null,
+  "description": "1937年由日伪筹建，服务于侵略战争能源需求",
+  "source_ids": [
+   "src-web-0e7a64629d",
+   "src-web-bb6822da05"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-43df0a751fdc-01",
+  "source_entity": "HER-43df0a751fdc",
+  "relation_type": "企业谱系",
+  "target_entity": "中国中车集团",
+  "start_date": null,
+  "end_date": null,
+  "description": "2015年改制为中车北京二七机车有限公司，隶属中国中车",
+  "source_ids": [
+   "src-web-519afff1ff",
+   "src-web-2cf9512007"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-43df0a751fdc-02",
+  "source_entity": "HER-43df0a751fdc",
+  "relation_type": "建设方",
+  "target_entity": "比利时铁路工程方（卢保铁路）",
+  "start_date": null,
+  "end_date": null,
+  "description": "1897年卢保铁路卢沟桥机厂由比利时人修建",
+  "source_ids": [
+   "src-web-2cf9512007",
+   "src-web-1d5d1ed483"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-01a80935ad07-01",
+  "source_entity": "HER-01a80935ad07",
+  "relation_type": "企业谱系",
+  "target_entity": "香港黄埔船坞公司（怡和洋行等）",
+  "start_date": null,
+  "end_date": null,
+  "description": "1863年小柯拜将公司转卖怡和洋行等财团，改组为香港黄埔船坞公司",
+  "source_ids": [
+   "src-web-7ee142b428"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-01a80935ad07-02",
+  "source_entity": "HER-01a80935ad07",
+  "relation_type": "企业谱系",
+  "target_entity": "广东机器局·黄埔船局",
+  "start_date": null,
+  "end_date": null,
+  "description": "1876年购回的船坞并入广东机器局，1885年张之洞设黄埔船局",
+  "source_ids": [
+   "src-web-7ee142b428"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-01a80935ad07-03",
+  "source_entity": "HER-01a80935ad07",
+  "relation_type": "企业谱系",
+  "target_entity": "中船黄埔文冲船舶有限公司（黄埔船厂）",
+  "start_date": null,
+  "end_date": null,
+  "description": "柯拜船坞旧址位于今黄埔船厂厂区内，为核心工业遗存",
+  "source_ids": [
+   "src-web-7ee142b428",
+   "src-web-0f61ec83e7"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-6de083a1e054-01",
+  "source_entity": "HER-6de083a1e054",
+  "relation_type": "援建项目",
+  "target_entity": "苏联援建156项重点工程",
+  "start_date": null,
+  "end_date": null,
+  "description": "重庆发电厂为全国一五计划重点工程、苏联援建156项重点工程之一，建厂初期有苏联专家指导",
+  "source_ids": [
+   "src-web-a16ba2403f",
+   "src-web-544a8b5ef2"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-6de083a1e054-02",
+  "source_entity": "HER-6de083a1e054",
+  "relation_type": "企业谱系",
+  "target_entity": "国能重庆电厂（万盛经开区）",
+  "start_date": null,
+  "end_date": null,
+  "description": "老厂关停后环保迁建至万盛，2023年以国能重庆电厂名义全面投产",
+  "source_ids": [
+   "src-web-544a8b5ef2"
   ],
   "confidence": "medium",
   "inferred": false

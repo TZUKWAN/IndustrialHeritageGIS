@@ -1,710 +1,1418 @@
 [
-  {
-    "heritage_id": "HER-7ff3d9d08333",
-    "name": "景德镇国营宇宙瓷厂",
-    "founded_year": {"value": 1958, "date_precision": "year", "source_idxs": [2, 4]},
-    "production_start_year": {"value": 1958, "date_precision": "year", "source_idxs": [2]},
-    "closure_year": {"value": 1995, "date_precision": "approximate", "source_idxs": [1]},
-    "current_use": "原厂区改造为陶溪川文创街区，完整保留22栋老厂房与煤烧圆窑包、隧道窑等四代窑炉，设有陶瓷工业遗产博物馆、美术馆和青年创客空间。",
-    "events": [
-      {
-        "date_start": "1954",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "创建/筹建",
-        "title": "前身建国瓷厂第一分厂建立",
-        "description": "宇宙瓷厂原为建国瓷厂第一分厂，厂址位于景德镇东郊里村童街，建于1954年。",
-        "place_name": "江西省景德镇市东郊里村童街",
-        "related_people": [],
-        "related_orgs": ["建国瓷厂"],
-        "source_idxs": [2, 6],
-        "confidence": "medium",
-        "disputed": true,
-        "notes": "建厂年份有两说：一说厂建于1954年（原建国瓷厂第一分厂），百度百科载宇宙瓷厂始建于1958年9月1日；1954年指前身分厂始建年。"
-      },
-      {
-        "date_start": "1958",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "合并重组",
-        "title": "合并组建国营景德镇市宇宙瓷厂",
-        "description": "1958年，第十三制瓷社、第四瓷厂并入，组成国营景德镇市宇宙瓷厂；建厂初期只能生产工业用瓷和内销粗瓷。",
-        "place_name": "江西省景德镇市",
-        "related_people": [],
-        "related_orgs": ["国营景德镇市宇宙瓷厂"],
-        "source_idxs": [2, 4],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "百度百科载始建于1958年9月1日，系景德镇第一家机械化生产的新型陶瓷企业。"
-      },
-      {
-        "date_start": "1977",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "产品突破/出口",
-        "title": "承接外贸出口瓷订单",
-        "description": "1977年接受省陶瓷进出口公司1000套“米卡沙”外贸出口瓷订单；《红楼梦·十二金钗》系列彩盘后成为出口创汇全国最高的瓷器产品。",
-        "place_name": "江西省景德镇市",
-        "related_people": [],
-        "related_orgs": ["江西省陶瓷进出口公司"],
-        "source_idxs": [5, 2],
-        "confidence": "medium",
-        "disputed": false,
-        "notes": "彩盘出口地位未注明具体年份；该厂经二十余年发展由低中档转向高档成套瓷，首先进入欧美市场。"
-      },
-      {
-        "date_start": "1995",
-        "date_end": null,
-        "date_precision": "approximate",
-        "event_type": "停产",
-        "title": "宇宙瓷厂停产",
-        "description": "因计划经济兴起亦因其没落，20世纪90年代中期宇宙瓷厂停产，厂区逐渐破败闲置。",
-        "place_name": "江西省景德镇市",
-        "related_people": [],
-        "related_orgs": [],
-        "source_idxs": [1, 0],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "来源表述为“20世纪90年代中期”，取中值约1995年。"
-      },
-      {
-        "date_start": "2013",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "保护启动/改造",
-        "title": "以宇宙瓷厂为核心启动区改造陶溪川",
-        "description": "景德镇以宇宙瓷厂为核心启动区改造陶溪川文创街区，不拆一栋老厂房，完整保留22栋老厂房及包豪斯厂房、烟囱、水塔和四代窑炉。",
-        "place_name": "江西省景德镇市",
-        "related_people": ["刘子力"],
-        "related_orgs": ["景德镇陶文旅集团"],
-        "source_idxs": [0, 1],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "另有2012年起启动近现代陶瓷工业遗产综合保护开发项目之说（搜狐转载）。"
-      },
-      {
-        "date_start": "2016-10-18",
-        "date_end": null,
-        "date_precision": "exact_date",
-        "event_type": "博物馆园区再利用",
-        "title": "陶溪川文创街区正式开业",
-        "description": "2016年10月18日陶溪川文创街区正式开业，老厂房改造为陶瓷工业遗产博物馆、美术馆和青年创客聚集的创业空间。",
-        "place_name": "江西省景德镇市",
-        "related_people": [],
-        "related_orgs": ["景德镇陶文旅集团"],
-        "source_idxs": [0, 7],
-        "confidence": "high",
-        "disputed": false,
-        "notes": ""
-      }
-    ],
-    "people": [
-      {"name": "刘子力", "role": "景德镇陶文旅集团董事长、国家陶瓷文化传承创新试验区管委会专职副主任，主持宇宙瓷厂旧址改造为陶溪川", "source_idxs": [0, 1]}
-    ],
-    "relations": [
-      {"relation_type": "企业谱系", "target_entity": "建国瓷厂（第一分厂）", "description": "宇宙瓷厂前身为建国瓷厂第一分厂。", "source_idxs": [2, 6], "inferred": false},
-      {"relation_type": "空间再利用", "target_entity": "陶溪川文创街区（景德镇陶文旅集团）", "description": "停产后宇宙瓷厂厂区被改造为陶溪川文创街区，成为国家级文化产业示范园区。", "source_idxs": [0, 1], "inferred": false}
-    ],
-    "historical_period_tags": ["新中国初期", "一五二五时期", "改革开放后"],
-    "sources": [
-      {"title": "老工矿·新故事丨景德镇陶溪川：老瓷厂焕发年轻态", "org": "新华网（新华社）", "url": "https://www.news.cn/politics/2022-04/18/c_1128570152.htm", "pub_date": "2022-04-18", "authority": "C", "source_type": "news"},
-      {"title": "陶溪川：陶瓷工业“锈迹”成文化创意“高地”", "org": "澎湃号·政务（景德镇市融媒体中心）", "url": "https://www.thepaper.cn/newsDetail_forward_27100786", "pub_date": null, "authority": "C", "source_type": "news"},
-      {"title": "景德镇本土故事丨景德镇国营宇宙瓷厂", "org": "澎湃号", "url": "https://m.thepaper.cn/newsDetail_forward_1895021", "pub_date": "2017-12-06", "authority": "C", "source_type": "news"},
-      {"title": "老瓷厂变身文创街区", "org": "人民日报海外版", "url": "http://paper.people.com.cn/rmrbhwb/html/2024-07/24/content_26070803.htm", "pub_date": "2024-07-24", "authority": "C", "source_type": "newspaper"},
-      {"title": "宇宙瓷厂", "org": "百度百科", "url": "https://baike.baidu.com/item/%E5%AE%87%E5%AE%99%E7%93%B7%E5%8E%82/11033542", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
-      {"title": "宇宙瓷厂，昔日造瓷地，如今造梦园", "org": "搜狐号", "url": "https://www.sohu.com/a/399827563_120206473", "pub_date": null, "authority": "C", "source_type": "media"},
-      {"title": "新中国陶瓷的代表—景德镇十大瓷厂详解分析", "org": "百度文库（转载）", "url": "https://wenku.baidu.com/view/51390f47a717866fb84ae45c3b3567ec102ddc16.html", "pub_date": null, "authority": "D", "source_type": "document"},
-      {"title": "陶溪川陶瓷文化创意园老厂房", "org": "百度百科", "url": "https://baike.baidu.com/item/%E9%99%B6%E6%BA%AA%E5%B7%9D%E9%99%B6%E7%93%B7%E6%96%87%E5%8C%96%E5%88%9B%E6%84%8F%E5%9B%AD%E8%80%81%E5%8E%82%E6%88%BF/51141729", "pub_date": null, "authority": "C", "source_type": "encyclopedia"}
-    ]
+ {
+  "heritage_id": "HER-7ff3d9d08333",
+  "name": "景德镇国营宇宙瓷厂",
+  "founded_year": {
+   "value": 1958,
+   "date_precision": "year",
+   "source_idxs": [
+    2,
+    4
+   ]
   },
-  {
-    "heritage_id": "HER-ef75e812b2b4",
-    "name": "西华山钨矿",
-    "founded_year": {"value": 1907, "date_precision": "year", "source_idxs": [2]},
-    "production_start_year": {"value": 1960, "date_precision": "year", "source_idxs": [2]},
-    "closure_year": {"value": 2002, "date_precision": "year", "source_idxs": [2, 0]},
-    "current_use": "西华山国家矿山公园建设中（废弃矿山与尾矿库复绿、钨矿文化主题旅游）；破产重组后的江西西华山钨业有限公司隶属江钨集团。",
-    "events": [
-      {
-        "date_start": "1906",
-        "date_end": "1908",
-        "date_precision": "year",
-        "event_type": "矿产发现",
-        "title": "德籍牧师发现钨矿与山权收回",
-        "description": "1906年大余福音堂德籍牧师邬利亨在西华山发现黑钨矿石，1907年携德国鉴定为钨并买下山权掠采；1908年清方交涉以千银元赎回山权。",
-        "place_name": "江西省大余县西华山",
-        "related_people": ["邬利亨"],
-        "related_orgs": ["大余福音堂"],
-        "source_idxs": [0, 1, 3],
-        "confidence": "medium",
-        "disputed": true,
-        "notes": "发现/开矿年份诸说不一：1906年发现（搜狐）、1882年发现（大余县融媒）、1909年欧洲旅行团取样化验（《西华山发现钨矿史略》）；期刊《西华山钨矿开矿百年回顾》以2007年为开矿100周年即1907年开矿。"
-      },
-      {
-        "date_start": "1918",
-        "date_end": "1922",
-        "date_precision": "year",
-        "event_type": "民采高峰",
-        "title": "全山开放自由开采",
-        "description": "1918年春西华山全山开放自由开采，万人以上上山采挖钨砂；一战期间各国竞购钨砂，1922年“华记”“瑞记”等收砂公司林立大余。",
-        "place_name": "江西省大余县西华山",
-        "related_people": [],
-        "related_orgs": [],
-        "source_idxs": [3, 0],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "1919年湖南水口山民工带来钢钎凿岩、黑硝爆破技术，掘进小窿子。"
-      },
-      {
-        "date_start": "1932",
-        "date_end": "1934",
-        "date_precision": "year",
-        "event_type": "革命经费筹措",
-        "title": "苏区钨砂贸易",
-        "description": "土地革命时期，中华苏维埃共和国国家银行行长毛泽民在赣南成立中华钨砂公司，钨砂贸易为苏区筹措可观经费，支撑反“围剿”斗争。",
-        "place_name": "江西省大余县西华山及赣南",
-        "related_people": ["毛泽民"],
-        "related_orgs": ["中华钨砂公司"],
-        "source_idxs": [1],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "该文另载1926年西华山钨矿建立党组织，1928年毛泽东、朱德曾在西华山钨矿召开会议。"
-      },
-      {
-        "date_start": "1928",
-        "date_end": "1938",
-        "date_precision": "year",
-        "event_type": "官办化/统制",
-        "title": "从商包专营到官办统制",
-        "description": "1928年利济公司专营赣南钨砂引发6月5日西华山矿工罢工；1934年划定10公顷国营矿区，1936年设西华山矿场，1938年机械掘进东西大巷。",
-        "place_name": "江西省大余县西华山",
-        "related_people": [],
-        "related_orgs": ["利济公司", "建兴公司", "江西省钨矿局", "资源委员会"],
-        "source_idxs": [4, 0, 1],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "1929年建兴公司续办5年赣砂代营；1929年大余十余家收砂公司组成大余钨砂同业公会；1933年起实行官督民办。"
-      },
-      {
-        "date_start": "1949-08-16",
-        "date_end": null,
-        "date_precision": "exact_date",
-        "event_type": "接管/解放",
-        "title": "人民政权接管矿山",
-        "description": "1949年8月16日大余县城解放，解放军第33师军代表接管西华山工程处；人民政府建立重工业部有色金属总局江西分局，全面接管钨业。",
-        "place_name": "江西省大余县",
-        "related_people": [],
-        "related_orgs": ["中国人民解放军第33师", "重工业部有色金属总局江西分局"],
-        "source_idxs": [1, 0],
-        "confidence": "high",
-        "disputed": false,
-        "notes": ""
-      },
-      {
-        "date_start": "1953",
-        "date_end": "1970",
-        "date_precision": "year",
-        "event_type": "新建/投产（苏联援助）",
-        "title": "列入156项重点工程建成投产",
-        "description": "列入“一五”156项重点工程，苏联设计并援助建设；1953年大规模勘探，1954年国营建厂，1959年10月基本建成，1960年2月验收投产；1970年日产能超3000吨。",
-        "place_name": "江西省大余县西华山",
-        "related_people": [],
-        "related_orgs": ["苏联（援助方）"],
-        "source_idxs": [2, 0, 1],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "设计日产能2250吨；钨精矿年产量最高达3280吨；上犹水电站为其供电配套工程；苏联专家楼现存。"
-      },
-      {
-        "date_start": "2002",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "停产/政策性破产",
-        "title": "资源枯竭政策性关闭破产",
-        "description": "1988年起矿山资源渐枯、国际钨价暴跌、连年亏损；2002年11月实行政策性关闭破产，重组为股份制西华山钨业有限公司。",
-        "place_name": "江西省大余县西华山",
-        "related_people": [],
-        "related_orgs": ["西华山钨业有限公司"],
-        "source_idxs": [2, 0, 1],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "停产与破产时间另有2002年4月前停产、5月宣布破产之说（个人回忆文章，仅线索）。"
-      },
-      {
-        "date_start": "2017",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "保护启动/矿山公园",
-        "title": "西华山国家矿山公园建设启动",
-        "description": "2017年大余县启动西华山国家矿山公园建设，包括废弃矿山、尾矿库植被复绿和以矿业遗迹为核心的钨矿文化主题旅游开发，总投资10.5亿元。",
-        "place_name": "江西省大余县",
-        "related_people": [],
-        "related_orgs": ["大余县人民政府"],
-        "source_idxs": [1],
-        "confidence": "high",
-        "disputed": false,
-        "notes": ""
-      }
-    ],
-    "people": [
-      {"name": "邬利亨", "role": "德国传教士（大余福音堂牧师），最早发现西华山钨矿石并买占山权掠采", "source_idxs": [0, 1]},
-      {"name": "毛泽民", "role": "中华苏维埃共和国国家银行行长，在赣南创办中华钨砂公司筹措苏区经费", "source_idxs": [1]}
-    ],
-    "relations": [
-      {"relation_type": "一五计划重点工程", "target_entity": "156项重点工程（苏联援助）", "description": "“一五”期间西华山钨矿列为新中国156项重点工程项目之一，在前苏联援助下改建、扩建。", "source_idxs": [2, 1], "inferred": false},
-      {"relation_type": "配套工程", "target_entity": "上犹水电站", "description": "上犹水电站是西华山钨矿的供电配套工程。", "source_idxs": [1], "inferred": false},
-      {"relation_type": "企业谱系", "target_entity": "江西西华山钨业有限公司（江钨集团）", "description": "2002年政策性关闭破产后重组为股份制西华山钨业有限公司，隶属江钨集团。", "source_idxs": [2, 1], "inferred": false},
-      {"relation_type": "民国钨砂专营", "target_entity": "利济公司、建兴公司", "description": "1928-1929年利济、建兴公司先后承办赣南钨砂专营，西华山为核心产区，引发矿工罢工与反包办风潮。", "source_idxs": [4], "inferred": false}
-    ],
-    "historical_period_tags": ["晚清近代工业", "民国时期", "新中国初期", "一五二五时期", "改革开放后"],
-    "sources": [
-      {"title": "西华山钨矿：“世界钨都”最璀璨的明珠", "org": "搜狐号", "url": "https://www.sohu.com/a/312882151_100176237", "pub_date": null, "authority": "C", "source_type": "media"},
-      {"title": "“世界钨都”西华山的“前世”与“今生”（来源：江西工信/大余县融媒体中心）", "org": "搜狐（转载江西工信）", "url": "https://www.sohu.com/a/467184556_121106994", "pub_date": null, "authority": "C", "source_type": "gov_media"},
-      {"title": "西华山钨矿开矿百年回顾", "org": "《有色金属矿产勘查》（期刊）", "url": "https://html.rhhz.net/YSJSYKXGC/html/200703001.htm", "pub_date": "2007", "authority": "B", "source_type": "academic_journal"},
-      {"title": "西华山发现钨矿史略", "org": "《有色金属矿产勘查》（期刊）", "url": "https://html.rhhz.net/YSJSYKXGC/html/198703015.htm", "pub_date": "1987", "authority": "B", "source_type": "academic_journal"},
-      {"title": "1928—1931年赣粤钨砂专营风潮及各方博弈（《近代史研究》2022年第5期）", "org": "中国历史研究院网", "url": "http://hrczh.cass.cn/sxqy/zgs/202502/t20250228_5854039.shtml", "pub_date": "2022-10-11", "authority": "B", "source_type": "academic_journal"}
-    ]
+  "production_start_year": {
+   "value": 1958,
+   "date_precision": "year",
+   "source_idxs": [
+    2
+   ]
   },
-  {
-    "heritage_id": "HER-b652f983bcaa",
-    "name": "本溪湖煤铁公司",
-    "founded_year": {"value": 1905, "date_precision": "year", "source_idxs": [0, 1]},
-    "production_start_year": {"value": 1905, "date_precision": "year", "source_idxs": [0, 1]},
-    "closure_year": {"value": 2008, "date_precision": "year", "source_idxs": [0, 1]},
-    "current_use": "本溪（溪湖）煤铁工业遗址博览园为红色旅游景区，含本钢一铁厂旧址、彩屯煤矿竖井等9处不可移动遗址；当地拟建本溪湖工业遗产群博物馆。",
-    "events": [
-      {
-        "date_start": "1905",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "创建/殖民设立",
-        "title": "大仓组设立本溪湖大仓煤矿",
-        "description": "日俄战争期间大仓喜八郎派员沿安奉铁路调查，经日本关东总督府批准侵占本溪湖煤矿，命名“本溪湖大仓煤矿”。",
-        "place_name": "辽宁省本溪市溪湖区",
-        "related_people": ["大仓喜八郎"],
-        "related_orgs": ["大仓财阀（大仓组）", "关东总督府"],
-        "source_idxs": [0, 1],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "1904年日俄战争时期日本势力即以军用为名掠夺本溪煤铁资源，揭开本溪近代煤铁工业史序幕。"
-      },
-      {
-        "date_start": "1911",
-        "date_end": "1917",
-        "date_precision": "year",
-        "event_type": "改制/合办与建铁厂",
-        "title": "中日合办与炼铁基地建设",
-        "description": "1911年在中国方面压力下改为中日合办，因增设炼铁部改称本溪湖煤铁有限公司；制铁工厂1913年开建、1915年落成，1917年二号高炉建成。",
-        "place_name": "辽宁省本溪市溪湖区",
-        "related_people": [],
-        "related_orgs": ["本溪湖煤铁有限公司"],
-        "source_idxs": [0, 1],
-        "confidence": "high",
-        "disputed": true,
-        "notes": "合办起始年份记载不一：维基百科载1911年改为中日合办；本溪市政协文章将中日合办时期记为1910-1931年。"
-      },
-      {
-        "date_start": "1927",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "工人运动",
-        "title": "矿工罢工遭日方镇压",
-        "description": "1927年公司员工三度罢工，其中一次工人袭击公司总部，日方动用守备人员镇压，致24人死亡、73人受伤、逾百人失踪，获全国声援。",
-        "place_name": "辽宁省本溪市溪湖区",
-        "related_people": [],
-        "related_orgs": [],
-        "source_idxs": [0],
-        "confidence": "high",
-        "disputed": false,
-        "notes": ""
-      },
-      {
-        "date_start": "1931",
-        "date_end": "1938",
-        "date_precision": "year",
-        "event_type": "战争影响/掠夺性扩建",
-        "title": "日本独占时期的改组与扩建",
-        "description": "九一八事变后中国员工遭驱逐，公司三度增资改组，更名本溪湖煤铁股份有限公司；1937年建成第二发电厂冷却水塔，1938年2月彩屯竖井开工。",
-        "place_name": "辽宁省本溪市溪湖区",
-        "related_people": [],
-        "related_orgs": [],
-        "source_idxs": [0],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "1931-1945年日方掠夺近2000万吨优质煤炭；1938年另建宫原工厂。"
-      },
-      {
-        "date_start": "1942",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "矿难",
-        "title": "本溪湖煤矿矿难",
-        "description": "1942年本溪煤矿中央斜井瓦斯爆炸后日方停止向井下送风，至少1327名矿工遇难，是世界矿业史上死难人数最高的矿难。",
-        "place_name": "辽宁省本溪市溪湖区本溪煤矿",
-        "related_people": [],
-        "related_orgs": [],
-        "source_idxs": [0],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "死亡人数有争议：墓碑记1327人，本溪地方志载1549人，另有逾1800人之说；遇难者葬于“肉丘坟”。"
-      },
-      {
-        "date_start": "1945",
-        "date_end": "1948",
-        "date_precision": "year",
-        "event_type": "接管/更名",
-        "title": "政权更迭中数度更名",
-        "description": "1945年8月日本投降后由民国政府接收，11月本溪市民主政府接管更名本溪湖煤铁总公司；1946年5月国民党军占本溪改名本溪煤铁厂矿，1948年10月本溪解放。",
-        "place_name": "辽宁省本溪市溪湖区",
-        "related_people": [],
-        "related_orgs": ["本溪湖煤铁总公司", "本溪煤铁厂矿"],
-        "source_idxs": [0, 1],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "内战期间大部分设备遭苏联拆走，公司业务停滞并爆发12次罢工。"
-      },
-      {
-        "date_start": "1949",
-        "date_end": "1981",
-        "date_precision": "approximate",
-        "event_type": "国有化/一五建设",
-        "title": "国有化为本钢与一五建设",
-        "description": "新中国成立后公司收归国有，易名本溪钢铁公司并获苏联支援；彩屯竖井列入“一五”重点项目，1958年起一号高炉利用系数连续30年全国第一，号称“功勋炉”。",
-        "place_name": "辽宁省本溪市溪湖区",
-        "related_people": [],
-        "related_orgs": ["本溪钢铁公司"],
-        "source_idxs": [0, 1],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "1981年一号高炉获冶金部“红旗高炉”称号；本溪钢铁曾用于制造共和国第一杆枪、第一门炮、第一艘下海轮船、第一个上天卫星。"
-      },
-      {
-        "date_start": "2008",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "停产",
-        "title": "本钢一铁厂关停",
-        "description": "因设备老化、环保不达标，本钢集团决定本钢一铁厂2008年停止营运；一号高炉在累计生产优质生铁2940万吨后正式关闭。",
-        "place_name": "辽宁省本溪市溪湖区",
-        "related_people": [],
-        "related_orgs": ["本钢集团"],
-        "source_idxs": [0, 1],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "闭炉日期为2008年12月17日（文保亲历者文章，仅线索）。"
-      }
-    ],
-    "people": [
-      {"name": "大仓喜八郎", "role": "日本大仓财阀创始人，本溪湖煤矿（本溪湖煤铁公司前身）的设立者", "source_idxs": [0, 1]}
-    ],
-    "relations": [
-      {"relation_type": "殖民经营", "target_entity": "大仓财阀（大仓组）与日本关东总督府", "description": "公司由大仓财阀经关东总督府批准设立，日本在1905-1945年间长期操控并掠夺资源。", "source_idxs": [0, 1], "inferred": false},
-      {"relation_type": "设备来源", "target_entity": "英国匹亚逊诺尔斯工厂及三家德国工厂", "description": "一号高炉炉体设备购自英国匹亚逊诺尔斯工厂，装料卷扬机、锅炉、鼓风机和发电机分别购自三所德国工厂。", "source_idxs": [0], "inferred": false},
-      {"relation_type": "设备仿制", "target_entity": "满铁大连沙河口工厂", "description": "二号高炉（1917年建成）由满铁大连沙河口工厂按一号高炉工程图仿制。", "source_idxs": [0], "inferred": false},
-      {"relation_type": "企业谱系", "target_entity": "本溪钢铁公司（本钢）", "description": "新中国成立后公司收归国有，易名本溪钢铁公司并恢复生产。", "source_idxs": [0, 1], "inferred": false},
-      {"relation_type": "一五计划重点项目", "target_entity": "彩屯煤矿竖井", "description": "彩屯煤矿竖井列入“一五”计划重点项目，经4年建设成为1950年代中国大陆生产能力最高的煤矿竖井。", "source_idxs": [0, 1], "inferred": false}
-    ],
-    "historical_period_tags": ["晚清近代工业", "民国时期", "新中国初期", "一五二五时期", "改革开放后"],
-    "sources": [
-      {"title": "本溪湖工业遗产群", "org": "维基百科", "url": "https://zh.wikipedia.org/zh-cn/%E6%9C%AC%E6%BA%AA%E6%B9%96%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7%E7%BE%A4", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
-      {"title": "【讲好辽宁（本溪）故事】走进红色工业遗址 传承煤铁之都精神", "org": "中国人民政治协商会议本溪市委员会", "url": "https://zx005.benxi.gov.cn/wysc/content_621056", "pub_date": null, "authority": "A", "source_type": "gov_website"},
-      {"title": "本溪（溪湖）煤铁工业遗址博览园", "org": "百度百科", "url": "https://baike.baidu.com/item/%E6%9C%AC%E6%BA%AA%EF%BC%88%E6%BA%AA%E6%B9%96%EF%BC%89%E7%85%A4%E9%93%81%E5%B7%A5%E4%B8%9A%E9%81%97%E5%9D%80%E5%8D%9A%E8%A7%88%E5%9B%AD/9056737", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
-      {"title": "本溪湖工业遗产保护纪实（转载）", "org": "美篇（文保亲历者文章）", "url": "https://www.meipian.cn/3drrgs3g", "pub_date": null, "authority": "D", "source_type": "blog"}
-    ]
+  "closure_year": {
+   "value": 1995,
+   "date_precision": "approximate",
+   "source_idxs": [
+    1
+   ]
   },
-  {
-    "heritage_id": "HER-484598c6dd59",
-    "name": "宝鸡申新纱厂",
-    "founded_year": {"value": 1938, "date_precision": "year", "source_idxs": [0, 2]},
-    "production_start_year": {"value": 1939, "date_precision": "year", "source_idxs": [0, 1, 2]},
-    "closure_year": null,
-    "current_use": "长乐塬抗战工业遗址公园：窑洞工厂、福新申新大楼、乐农别墅、薄壳车间等遗存开放参观，为全国重点文物保护单位和爱国主义教育基地。",
-    "events": [
-      {
-        "date_start": "1938",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "迁建",
-        "title": "武汉申新四厂西迁宝鸡",
-        "description": "1938年8月8日武汉申新四厂停机迁厂，8月16日首批设备自徐家棚车站启运；年底2万纱锭、400台织布机等2万多箱设备运抵宝鸡斗鸡台，在陈仓峪建厂取名长乐塬。",
-        "place_name": "陕西省宝鸡市斗鸡台、陈仓峪（长乐塬）",
-        "related_people": ["李国伟", "章剑慧", "瞿冠英", "路易·艾黎"],
-        "related_orgs": ["申新第四纺织厂", "福新第五面粉厂"],
-        "source_idxs": [0, 2],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "240多名工人和技术人员随厂西迁；第二批货物在信阳遭日军袭击退回武汉，一批设备在汉江沉没。"
-      },
-      {
-        "date_start": "1939-08-09",
-        "date_end": null,
-        "date_precision": "exact_date",
-        "event_type": "复工/投产",
-        "title": "宝鸡申新纱厂复工投产",
-        "description": "1939年8月9日2000枚纱锭开始试生产，申新纱厂在宝鸡复工；因无电源，曾租用陇海铁路蒸汽机车头发电带动纱锭运转。",
-        "place_name": "陕西省宝鸡市十里铺",
-        "related_people": ["瞿冠英"],
-        "related_orgs": ["陇海铁路局"],
-        "source_idxs": [0, 1],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "经1年筹备，1939年8月正式复工。"
-      },
-      {
-        "date_start": "1940",
-        "date_end": "1941",
-        "date_precision": "year",
-        "event_type": "战时防护建设",
-        "title": "窑洞工厂建成",
-        "description": "1940年1月提出窑洞工厂设想，1941年2月竣工：全长1.75公里、洞内约4800平方米、24孔窑洞，4月19日正式运转，前纺全部设备和1.2万锭细纱机迁入。",
-        "place_name": "陕西省宝鸡市长乐塬",
-        "related_people": ["李国伟", "章剑慧"],
-        "related_orgs": [],
-        "source_idxs": [0, 1, 2],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "动议人记载不一：新华每日电讯称章剑慧提出，宝鸡日报称总经理李国伟提出；1943年林语堂在《枕戈待旦》中称窑洞车间为“中国抗战中最伟大的奇迹”。"
-      },
-      {
-        "date_start": "1942-02-02",
-        "date_end": null,
-        "date_precision": "exact_date",
-        "event_type": "管理创新",
-        "title": "推行“三八工作制”",
-        "description": "1942年2月2日，宝鸡申新纱厂在窑洞车间正式推行每天八小时工作、八小时学习、八小时休息的“三八工作制”，为当时先进的管理制度。",
-        "place_name": "陕西省宝鸡市长乐塬窑洞车间",
-        "related_people": [],
-        "related_orgs": [],
-        "source_idxs": [0, 2],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "1941年6月申新重庆分厂曾在全国首倡八小时工作制。"
-      },
-      {
-        "date_start": "1945",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "战时生产成就",
-        "title": "支援抗战的生产成果",
-        "description": "自1939年复工至1945年抗战胜利，共生产棉纱6.2万吨、棉布43.2万匹，并经工合西北区办事处向陕甘宁边区转运大量棉纱、棉布等物资。",
-        "place_name": "陕西省宝鸡市",
-        "related_people": [],
-        "related_orgs": ["中国工业合作协会西北区办事处"],
-        "source_idxs": [0, 1, 2],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "抗战期间日军曾出动334架次飞机轰炸宝鸡32次，纱厂因主体迁入窑洞而无一伤亡。"
-      },
-      {
-        "date_start": "1949",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "战争影响",
-        "title": "解放军进驻与支前",
-        "description": "1949年7月，第一野战军司令员彭德怀进驻福新申新大楼，指挥扶眉战役后续战斗；申新纱厂为解放军加工棉衣、棉被里的棉胎。",
-        "place_name": "陕西省宝鸡市福新申新大楼",
-        "related_people": ["彭德怀"],
-        "related_orgs": ["中国人民解放军第一野战军"],
-        "source_idxs": [0],
-        "confidence": "high",
-        "disputed": false,
-        "notes": ""
-      },
-      {
-        "date_start": "1951",
-        "date_end": "1966",
-        "date_precision": "year",
-        "event_type": "改制/公私合营",
-        "title": "公私合营与国有化",
-        "description": "1951年实行公私合营，更名新秦企业有限公司申四宝鸡纺织印染厂；1966年更名陕西第十二棉纺织厂转为国营企业，后演变为宝鸡大荣纺织有限公司。",
-        "place_name": "陕西省宝鸡市",
-        "related_people": [],
-        "related_orgs": ["新秦企业有限公司", "陕西第十二棉纺织厂", "宝鸡大荣纺织有限公司"],
-        "source_idxs": [2, 0],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "“一五”期间政府从新秦公司各厂选调200多名干部、2000多名技术骨干支援西北各地企业。"
-      },
-      {
-        "date_start": "2015",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "保护启动/再利用",
-        "title": "长乐塬遗址保护利用启动",
-        "description": "2015年申新纱厂界碑被发现，长乐塬抗战工业遗址博物馆筹建；宝鸡启动长乐塬片区保护开发，遗址公园修缮后对外开放。",
-        "place_name": "陕西省宝鸡市金台区长乐塬",
-        "related_people": [],
-        "related_orgs": ["长乐塬抗战工业遗址管委会"],
-        "source_idxs": [0, 2],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "该遗址已成为全国重点文物保护单位、国家首批工业遗产和爱国主义教育基地。"
-      }
+  "current_use": "原厂区改造为陶溪川文创街区，完整保留22栋老厂房与煤烧圆窑包、隧道窑等四代窑炉，设有陶瓷工业遗产博物馆、美术馆和青年创客空间。",
+  "events": [
+   {
+    "date_start": "1954",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "创建/筹建",
+    "title": "前身建国瓷厂第一分厂建立",
+    "description": "宇宙瓷厂原为建国瓷厂第一分厂，厂址位于景德镇东郊里村童街，建于1954年。",
+    "place_name": "江西省景德镇市东郊里村童街",
+    "related_people": [],
+    "related_orgs": [
+     "建国瓷厂"
     ],
-    "people": [
-      {"name": "李国伟", "role": "申新、福新两厂经理，荣德生的大女婿，内迁考察与建厂复工主持人", "source_idxs": [0, 2]},
-      {"name": "章剑慧", "role": "申新纱厂厂长", "source_idxs": [0]},
-      {"name": "瞿冠英", "role": "受李国伟派遣赴宝鸡考察选址，主持建厂并解决动力问题", "source_idxs": [0]},
-      {"name": "路易·艾黎", "role": "国际友人，促成武汉64家企业西迁，推动申新等15家企业迁宝鸡", "source_idxs": [0, 1]},
-      {"name": "荣德生", "role": "荣氏家族实业家，李国伟之岳父", "source_idxs": [0]}
+    "source_idxs": [
+     2,
+     6
     ],
-    "relations": [
-      {"relation_type": "企业谱系", "target_entity": "申新第四纺织厂（武汉）", "description": "宝鸡申新纱厂由武汉申新第四纺织厂1938年内迁组建。", "source_idxs": [0, 2], "inferred": false},
-      {"relation_type": "企业谱系", "target_entity": "新秦企业有限公司→陕西第十二棉纺织厂→宝鸡大荣纺织有限公司", "description": "公私合营后历经多次改制演变至今。", "source_idxs": [2, 0], "inferred": false},
-      {"relation_type": "战时协作", "target_entity": "中国工业合作协会西北区办事处", "description": "申新生产的大部分棉纱直接销售给工合，并经工合西北区办事处向陕甘宁边区转运物资。", "source_idxs": [0, 1], "inferred": false},
-      {"relation_type": "区域带动", "target_entity": "秦宝十里铺工业区", "description": "以申新为代表的内迁企业带动宝鸡到1941年形成拥有200多家企业的“秦宝十里铺工业区”。", "source_idxs": [0, 2], "inferred": false},
-      {"relation_type": "抗战工业内迁", "target_entity": "武汉西迁64家企业（15家迁宝鸡）", "description": "在路易·艾黎等促成下，申新第四纺织厂等15家企业由武汉等地内迁宝鸡。", "source_idxs": [1, 0], "inferred": false}
+    "confidence": "medium",
+    "disputed": true,
+    "notes": "建厂年份有两说：一说厂建于1954年（原建国瓷厂第一分厂），百度百科载宇宙瓷厂始建于1958年9月1日；1954年指前身分厂始建年。"
+   },
+   {
+    "date_start": "1958",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "合并重组",
+    "title": "合并组建国营景德镇市宇宙瓷厂",
+    "description": "1958年，第十三制瓷社、第四瓷厂并入，组成国营景德镇市宇宙瓷厂；建厂初期只能生产工业用瓷和内销粗瓷。",
+    "place_name": "江西省景德镇市",
+    "related_people": [],
+    "related_orgs": [
+     "国营景德镇市宇宙瓷厂"
     ],
-    "historical_period_tags": ["民国时期", "新中国初期"],
-    "sources": [
-      {"title": "宝鸡“窑洞工厂”里，有一段鲜为人知的抗战工业内迁史（新华每日电讯草地周刊）", "org": "新华每日电讯（搜狐转载）", "url": "https://www.sohu.com/a/431643569_117503", "pub_date": "2020-11-13", "authority": "C", "source_type": "newspaper"},
-      {"title": "窑洞里的“工业奇迹”（来源：中国军网）", "org": "中国共产党新闻网（人民网党史频道）", "url": "https://cpc.people.com.cn/n1/2025/1113/c443712-40602609.html", "pub_date": "2025-11-13", "authority": "C", "source_type": "news"},
-      {"title": "申新纺织厂：宝鸡长乐塬的抗战工业史诗（来源：宝鸡日报）", "org": "中国文明网·宝鸡（宝鸡市委宣传部主办）", "url": "http://sxbj.wenming.cn/2025zt/bjkzjy/202508/t20250829_9012193.html", "pub_date": "2025-08-29", "authority": "A", "source_type": "gov_media"}
+    "source_idxs": [
+     2,
+     4
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "百度百科载始建于1958年9月1日，系景德镇第一家机械化生产的新型陶瓷企业。"
+   },
+   {
+    "date_start": "1977",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "产品突破/出口",
+    "title": "承接外贸出口瓷订单",
+    "description": "1977年接受省陶瓷进出口公司1000套“米卡沙”外贸出口瓷订单；《红楼梦·十二金钗》系列彩盘后成为出口创汇全国最高的瓷器产品。",
+    "place_name": "江西省景德镇市",
+    "related_people": [],
+    "related_orgs": [
+     "江西省陶瓷进出口公司"
+    ],
+    "source_idxs": [
+     5,
+     2
+    ],
+    "confidence": "medium",
+    "disputed": false,
+    "notes": "彩盘出口地位未注明具体年份；该厂经二十余年发展由低中档转向高档成套瓷，首先进入欧美市场。"
+   },
+   {
+    "date_start": "1995",
+    "date_end": null,
+    "date_precision": "approximate",
+    "event_type": "停产",
+    "title": "宇宙瓷厂停产",
+    "description": "因计划经济兴起亦因其没落，20世纪90年代中期宇宙瓷厂停产，厂区逐渐破败闲置。",
+    "place_name": "江西省景德镇市",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     1,
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "来源表述为“20世纪90年代中期”，取中值约1995年。"
+   },
+   {
+    "date_start": "2013",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "保护启动/改造",
+    "title": "以宇宙瓷厂为核心启动区改造陶溪川",
+    "description": "景德镇以宇宙瓷厂为核心启动区改造陶溪川文创街区，不拆一栋老厂房，完整保留22栋老厂房及包豪斯厂房、烟囱、水塔和四代窑炉。",
+    "place_name": "江西省景德镇市",
+    "related_people": [
+     "刘子力"
+    ],
+    "related_orgs": [
+     "景德镇陶文旅集团"
+    ],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "另有2012年起启动近现代陶瓷工业遗产综合保护开发项目之说（搜狐转载）。"
+   },
+   {
+    "date_start": "2016-10-18",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "博物馆园区再利用",
+    "title": "陶溪川文创街区正式开业",
+    "description": "2016年10月18日陶溪川文创街区正式开业，老厂房改造为陶瓷工业遗产博物馆、美术馆和青年创客聚集的创业空间。",
+    "place_name": "江西省景德镇市",
+    "related_people": [],
+    "related_orgs": [
+     "景德镇陶文旅集团"
+    ],
+    "source_idxs": [
+     0,
+     7
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   }
+  ],
+  "people": [
+   {
+    "name": "刘子力",
+    "role": "景德镇陶文旅集团董事长、国家陶瓷文化传承创新试验区管委会专职副主任，主持宇宙瓷厂旧址改造为陶溪川",
+    "source_idxs": [
+     0,
+     1
     ]
+   }
+  ],
+  "relations": [
+   {
+    "relation_type": "企业谱系",
+    "target_entity": "建国瓷厂（第一分厂）",
+    "description": "宇宙瓷厂前身为建国瓷厂第一分厂。",
+    "source_idxs": [
+     2,
+     6
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "空间再利用",
+    "target_entity": "陶溪川文创街区（景德镇陶文旅集团）",
+    "description": "停产后宇宙瓷厂厂区被改造为陶溪川文创街区，成为国家级文化产业示范园区。",
+    "source_idxs": [
+     0,
+     1
+    ],
+    "inferred": false
+   }
+  ],
+  "historical_period_tags": [
+   "新中国初期",
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "sources": [
+   {
+    "title": "老工矿·新故事丨景德镇陶溪川：老瓷厂焕发年轻态",
+    "org": "新华网（新华社）",
+    "url": "https://www.news.cn/politics/2022-04/18/c_1128570152.htm",
+    "pub_date": "2022-04-18",
+    "authority": "C",
+    "source_type": "news"
+   },
+   {
+    "title": "陶溪川：陶瓷工业“锈迹”成文化创意“高地”",
+    "org": "澎湃号·政务（景德镇市融媒体中心）",
+    "url": "https://www.thepaper.cn/newsDetail_forward_27100786",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "news"
+   },
+   {
+    "title": "景德镇本土故事丨景德镇国营宇宙瓷厂",
+    "org": "澎湃号",
+    "url": "https://m.thepaper.cn/newsDetail_forward_1895021",
+    "pub_date": "2017-12-06",
+    "authority": "C",
+    "source_type": "news"
+   },
+   {
+    "title": "老瓷厂变身文创街区",
+    "org": "人民日报海外版",
+    "url": "http://paper.people.com.cn/rmrbhwb/html/2024-07/24/content_26070803.htm",
+    "pub_date": "2024-07-24",
+    "authority": "C",
+    "source_type": "newspaper"
+   },
+   {
+    "title": "宇宙瓷厂",
+    "org": "百度百科",
+    "url": "https://baike.baidu.com/item/%E5%AE%87%E5%AE%99%E7%93%B7%E5%8E%82/11033542",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   },
+   {
+    "title": "宇宙瓷厂，昔日造瓷地，如今造梦园",
+    "org": "搜狐号",
+    "url": "https://www.sohu.com/a/399827563_120206473",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "media"
+   },
+   {
+    "title": "新中国陶瓷的代表—景德镇十大瓷厂详解分析",
+    "org": "百度文库（转载）",
+    "url": "https://wenku.baidu.com/view/51390f47a717866fb84ae45c3b3567ec102ddc16.html",
+    "pub_date": null,
+    "authority": "D",
+    "source_type": "document"
+   },
+   {
+    "title": "陶溪川陶瓷文化创意园老厂房",
+    "org": "百度百科",
+    "url": "https://baike.baidu.com/item/%E9%99%B6%E6%BA%AA%E5%B7%9D%E9%99%B6%E7%93%B7%E6%96%87%E5%8C%96%E5%88%9B%E6%84%8F%E5%9B%AD%E8%80%81%E5%8E%82%E6%88%BF/51141729",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   }
+  ]
+ },
+ {
+  "heritage_id": "HER-ef75e812b2b4",
+  "name": "西华山钨矿",
+  "founded_year": {
+   "value": 1907,
+   "date_precision": "year",
+   "source_idxs": [
+    2
+   ]
   },
-  {
-    "heritage_id": "HER-1d1453b43e34",
-    "name": "汉冶萍公司--汉阳铁厂",
-    "founded_year": {"value": 1890, "date_precision": "year", "source_idxs": [0, 1]},
-    "production_start_year": {"value": 1894, "date_precision": "year", "source_idxs": [0]},
-    "closure_year": null,
-    "current_use": "汉阳铁厂工业遗址园区（约400亩）：“1890拾光”艺术馆、张之洞与武汉博物馆（2018年3月开园）等已开放；2020年设武汉1890工业遗址研究院统筹改造。",
-    "events": [
-      {
-        "date_start": "1890",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "创建/筹建",
-        "title": "清廷批准创办汉阳铁厂",
-        "description": "1889年两广总督张之洞为修卢汉铁路奏请兴办铁厂，1890年5月清廷批准，创办经费初定246万余两；铁厂与汉阳兵工厂等共同开启“汉阳造”时代。",
-        "place_name": "湖北汉阳（今武汉市汉阳区）",
-        "related_people": ["张之洞"],
-        "related_orgs": ["清政府"],
-        "source_idxs": [0, 1],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "新华社报道称1890年张之洞在武汉主持创办汉阳铁厂，与汉阳兵工厂、汉阳火药厂形成“汉阳十里工业长廊”。"
-      },
-      {
-        "date_start": "1891",
-        "date_end": "1893",
-        "date_precision": "year",
-        "event_type": "工程建设",
-        "title": "龟山下动工至竣工",
-        "description": "1891年8月铁厂在汉阳龟山下动工，1893年10月22日竣工，建成生铁厂、贝色麻钢厂、西门士钢厂、钢轨厂等6个大厂和4个小厂，实际支出约500万两。",
-        "place_name": "湖北汉阳龟山下",
-        "related_people": ["张之洞"],
-        "related_orgs": [],
-        "source_idxs": [0],
-        "confidence": "high",
-        "disputed": false,
-        "notes": ""
-      },
-      {
-        "date_start": "1894",
-        "date_end": "1895",
-        "date_precision": "year",
-        "event_type": "投产/技术困境",
-        "title": "首炉开炼与去磷难题",
-        "description": "1894年5月首开一座高炉试炼铁，因马鞍山煤难已成焦一度停炉，高价进口德国焦炭；1895年再开炉因机炉不能去磷、大冶矿石含磷高，钢材脆断陷入困境。",
-        "place_name": "湖北汉阳",
-        "related_people": [],
-        "related_orgs": [],
-        "source_idxs": [0],
-        "confidence": "high",
-        "disputed": false,
-        "notes": ""
-      },
-      {
-        "date_start": "1896",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "改制",
-        "title": "改官督商办",
-        "description": "甲午战后清政府财政濒于崩溃，无力维续铁厂，1896年4月11日汉阳铁厂改为官督商办，由盛宣怀承办。",
-        "place_name": "湖北汉阳",
-        "related_people": ["盛宣怀"],
-        "related_orgs": [],
-        "source_idxs": [0],
-        "confidence": "high",
-        "disputed": false,
-        "notes": ""
-      },
-      {
-        "date_start": "1908",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "合并重组",
-        "title": "组建汉冶萍煤铁厂矿有限公司",
-        "description": "1908年3月26日汉阳铁厂与大冶铁矿、萍乡煤矿合并组成汉冶萍煤铁厂矿有限公司，改为完全商办，盛宣怀任总理，为当时亚洲最大钢铁联合企业。",
-        "place_name": "湖北汉阳",
-        "related_people": ["盛宣怀"],
-        "related_orgs": ["汉冶萍煤铁厂矿有限公司", "大冶铁矿", "萍乡煤矿"],
-        "source_idxs": [0],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "辛亥革命前夕年产钢7万吨、铁砂50万吨，钢铁产量约占全国90%。"
-      },
-      {
-        "date_start": "1923",
-        "date_end": null,
-        "date_precision": "year",
-        "event_type": "设备事故",
-        "title": "高炉坍塌形成凝铁",
-        "description": "1923年高炉坍塌，铁水在炉中冷却凝固成高约2米、直径4米、重200余吨的凝铁，即今“汉阳铁厂凝铁”遗存（位于汉阳区龟山北路）。",
-        "place_name": "湖北汉阳",
-        "related_people": [],
-        "related_orgs": [],
-        "source_idxs": [0],
-        "confidence": "medium",
-        "disputed": false,
-        "notes": ""
-      },
-      {
-        "date_start": "1937",
-        "date_end": "1945",
-        "date_precision": "approximate",
-        "event_type": "迁建",
-        "title": "抗战时期西迁重庆",
-        "description": "抗战时期，汉阳铁厂大批人员及设备西迁重庆，成为重庆钢铁公司的主要组成部分。",
-        "place_name": "湖北汉阳→重庆",
-        "related_people": [],
-        "related_orgs": ["重庆钢铁公司"],
-        "source_idxs": [0],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "来源仅表述为“抗战时期”，起止年份取抗战通期。"
-      },
-      {
-        "date_start": "1949",
-        "date_end": null,
-        "date_precision": "approximate",
-        "event_type": "合并重组",
-        "title": "留汉产业并入武钢",
-        "description": "中华人民共和国成立后，汉阳铁厂留在武汉的产业成为武汉钢铁公司的一部分。",
-        "place_name": "湖北武汉",
-        "related_people": [],
-        "related_orgs": ["武汉钢铁公司"],
-        "source_idxs": [0],
-        "confidence": "high",
-        "disputed": false,
-        "notes": "来源仅表述为“中华人民共和国成立后”。"
-      }
+  "production_start_year": {
+   "value": 1960,
+   "date_precision": "year",
+   "source_idxs": [
+    2
+   ]
+  },
+  "closure_year": {
+   "value": 2002,
+   "date_precision": "year",
+   "source_idxs": [
+    2,
+    0
+   ]
+  },
+  "current_use": "西华山国家矿山公园建设中（废弃矿山与尾矿库复绿、钨矿文化主题旅游）；破产重组后的江西西华山钨业有限公司隶属江钨集团。",
+  "events": [
+   {
+    "date_start": "1906",
+    "date_end": "1908",
+    "date_precision": "year",
+    "event_type": "矿产发现",
+    "title": "德籍牧师发现钨矿与山权收回",
+    "description": "1906年大余福音堂德籍牧师邬利亨在西华山发现黑钨矿石，1907年携德国鉴定为钨并买下山权掠采；1908年清方交涉以千银元赎回山权。",
+    "place_name": "江西省大余县西华山",
+    "related_people": [
+     "邬利亨"
     ],
-    "people": [
-      {"name": "张之洞", "role": "晚清重臣，1889年上奏倡议兴办铁厂，1890年获清廷批准主持创办汉阳铁厂", "source_idxs": [0, 1]},
-      {"name": "盛宣怀", "role": "1896年官督商办承办人，1908年汉冶萍煤铁厂矿有限公司总理", "source_idxs": [0]}
+    "related_orgs": [
+     "大余福音堂"
     ],
-    "relations": [
-      {"relation_type": "企业谱系", "target_entity": "汉冶萍煤铁厂矿有限公司", "description": "1908年汉阳铁厂、大冶铁矿、萍乡煤矿合并组成汉冶萍公司。", "source_idxs": [0], "inferred": false},
-      {"relation_type": "企业谱系（迁建）", "target_entity": "重庆钢铁公司", "description": "抗战时期汉阳铁厂大批人员及设备西迁重庆，成为重庆钢铁公司的主要组成部分。", "source_idxs": [0], "inferred": false},
-      {"relation_type": "企业谱系", "target_entity": "武汉钢铁公司", "description": "中华人民共和国成立后，汉阳铁厂留汉产业并入武钢。", "source_idxs": [0], "inferred": false},
-      {"relation_type": "产业集聚", "target_entity": "汉阳兵工厂、汉阳火药厂（“汉阳十里工业长廊”）", "description": "汉阳铁厂与附近建立的汉阳兵工厂、汉阳火药厂等共同形成“汉阳十里工业长廊”，迎来“汉阳造”时代。", "source_idxs": [1], "inferred": false}
+    "source_idxs": [
+     0,
+     1,
+     3
     ],
-    "historical_period_tags": ["晚清近代工业", "民国时期", "新中国初期"],
-    "sources": [
-      {"title": "汉阳铁厂", "org": "维基百科", "url": "https://zh.wikipedia.org/zh-cn/%E6%B1%89%E9%98%B3%E9%93%81%E5%8E%82", "pub_date": null, "authority": "C", "source_type": "encyclopedia"},
-      {"title": "打卡工业遗存丨百余年后，这里依然处处是“宝藏”", "org": "新华网（新华社）", "url": "https://www.news.cn/2021-12/01/c_1128118926.htm", "pub_date": "2021-12-01", "authority": "C", "source_type": "news"}
+    "confidence": "medium",
+    "disputed": true,
+    "notes": "发现/开矿年份诸说不一：1906年发现（搜狐）、1882年发现（大余县融媒）、1909年欧洲旅行团取样化验（《西华山发现钨矿史略》）；期刊《西华山钨矿开矿百年回顾》以2007年为开矿100周年即1907年开矿。"
+   },
+   {
+    "date_start": "1918",
+    "date_end": "1922",
+    "date_precision": "year",
+    "event_type": "民采高峰",
+    "title": "全山开放自由开采",
+    "description": "1918年春西华山全山开放自由开采，万人以上上山采挖钨砂；一战期间各国竞购钨砂，1922年“华记”“瑞记”等收砂公司林立大余。",
+    "place_name": "江西省大余县西华山",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     3,
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "1919年湖南水口山民工带来钢钎凿岩、黑硝爆破技术，掘进小窿子。"
+   },
+   {
+    "date_start": "1932",
+    "date_end": "1934",
+    "date_precision": "year",
+    "event_type": "革命经费筹措",
+    "title": "苏区钨砂贸易",
+    "description": "土地革命时期，中华苏维埃共和国国家银行行长毛泽民在赣南成立中华钨砂公司，钨砂贸易为苏区筹措可观经费，支撑反“围剿”斗争。",
+    "place_name": "江西省大余县西华山及赣南",
+    "related_people": [
+     "毛泽民"
+    ],
+    "related_orgs": [
+     "中华钨砂公司"
+    ],
+    "source_idxs": [
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "该文另载1926年西华山钨矿建立党组织，1928年毛泽东、朱德曾在西华山钨矿召开会议。"
+   },
+   {
+    "date_start": "1928",
+    "date_end": "1938",
+    "date_precision": "year",
+    "event_type": "官办化/统制",
+    "title": "从商包专营到官办统制",
+    "description": "1928年利济公司专营赣南钨砂引发6月5日西华山矿工罢工；1934年划定10公顷国营矿区，1936年设西华山矿场，1938年机械掘进东西大巷。",
+    "place_name": "江西省大余县西华山",
+    "related_people": [],
+    "related_orgs": [
+     "利济公司",
+     "建兴公司",
+     "江西省钨矿局",
+     "资源委员会"
+    ],
+    "source_idxs": [
+     4,
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "1929年建兴公司续办5年赣砂代营；1929年大余十余家收砂公司组成大余钨砂同业公会；1933年起实行官督民办。"
+   },
+   {
+    "date_start": "1949-08-16",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "接管/解放",
+    "title": "人民政权接管矿山",
+    "description": "1949年8月16日大余县城解放，解放军第33师军代表接管西华山工程处；人民政府建立重工业部有色金属总局江西分局，全面接管钨业。",
+    "place_name": "江西省大余县",
+    "related_people": [],
+    "related_orgs": [
+     "中国人民解放军第33师",
+     "重工业部有色金属总局江西分局"
+    ],
+    "source_idxs": [
+     1,
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1953",
+    "date_end": "1970",
+    "date_precision": "year",
+    "event_type": "新建/投产（苏联援助）",
+    "title": "列入156项重点工程建成投产",
+    "description": "列入“一五”156项重点工程，苏联设计并援助建设；1953年大规模勘探，1954年国营建厂，1959年10月基本建成，1960年2月验收投产；1970年日产能超3000吨。",
+    "place_name": "江西省大余县西华山",
+    "related_people": [],
+    "related_orgs": [
+     "苏联（援助方）"
+    ],
+    "source_idxs": [
+     2,
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "设计日产能2250吨；钨精矿年产量最高达3280吨；上犹水电站为其供电配套工程；苏联专家楼现存。"
+   },
+   {
+    "date_start": "2002",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "停产/政策性破产",
+    "title": "资源枯竭政策性关闭破产",
+    "description": "1988年起矿山资源渐枯、国际钨价暴跌、连年亏损；2002年11月实行政策性关闭破产，重组为股份制西华山钨业有限公司。",
+    "place_name": "江西省大余县西华山",
+    "related_people": [],
+    "related_orgs": [
+     "西华山钨业有限公司"
+    ],
+    "source_idxs": [
+     2,
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "停产与破产时间另有2002年4月前停产、5月宣布破产之说（个人回忆文章，仅线索）。"
+   },
+   {
+    "date_start": "2017",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "保护启动/矿山公园",
+    "title": "西华山国家矿山公园建设启动",
+    "description": "2017年大余县启动西华山国家矿山公园建设，包括废弃矿山、尾矿库植被复绿和以矿业遗迹为核心的钨矿文化主题旅游开发，总投资10.5亿元。",
+    "place_name": "江西省大余县",
+    "related_people": [],
+    "related_orgs": [
+     "大余县人民政府"
+    ],
+    "source_idxs": [
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   }
+  ],
+  "people": [
+   {
+    "name": "邬利亨",
+    "role": "德国传教士（大余福音堂牧师），最早发现西华山钨矿石并买占山权掠采",
+    "source_idxs": [
+     0,
+     1
     ]
-  }
+   },
+   {
+    "name": "毛泽民",
+    "role": "中华苏维埃共和国国家银行行长，在赣南创办中华钨砂公司筹措苏区经费",
+    "source_idxs": [
+     1
+    ]
+   }
+  ],
+  "relations": [
+   {
+    "relation_type": "一五计划重点工程",
+    "target_entity": "156项重点工程（苏联援助）",
+    "description": "“一五”期间西华山钨矿列为新中国156项重点工程项目之一，在前苏联援助下改建、扩建。",
+    "source_idxs": [
+     2,
+     1
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "配套工程",
+    "target_entity": "上犹水电站",
+    "description": "上犹水电站是西华山钨矿的供电配套工程。",
+    "source_idxs": [
+     1
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "企业谱系",
+    "target_entity": "江西西华山钨业有限公司（江钨集团）",
+    "description": "2002年政策性关闭破产后重组为股份制西华山钨业有限公司，隶属江钨集团。",
+    "source_idxs": [
+     2,
+     1
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "民国钨砂专营",
+    "target_entity": "利济公司、建兴公司",
+    "description": "1928-1929年利济、建兴公司先后承办赣南钨砂专营，西华山为核心产区，引发矿工罢工与反包办风潮。",
+    "source_idxs": [
+     4
+    ],
+    "inferred": false
+   }
+  ],
+  "historical_period_tags": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期",
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "sources": [
+   {
+    "title": "西华山钨矿：“世界钨都”最璀璨的明珠",
+    "org": "搜狐号",
+    "url": "https://www.sohu.com/a/312882151_100176237",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "media"
+   },
+   {
+    "title": "“世界钨都”西华山的“前世”与“今生”（来源：江西工信/大余县融媒体中心）",
+    "org": "搜狐（转载江西工信）",
+    "url": "https://www.sohu.com/a/467184556_121106994",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "gov_media"
+   },
+   {
+    "title": "西华山钨矿开矿百年回顾",
+    "org": "《有色金属矿产勘查》（期刊）",
+    "url": "https://html.rhhz.net/YSJSYKXGC/html/200703001.htm",
+    "pub_date": "2007",
+    "authority": "B",
+    "source_type": "academic_journal"
+   },
+   {
+    "title": "西华山发现钨矿史略",
+    "org": "《有色金属矿产勘查》（期刊）",
+    "url": "https://html.rhhz.net/YSJSYKXGC/html/198703015.htm",
+    "pub_date": "1987",
+    "authority": "B",
+    "source_type": "academic_journal"
+   },
+   {
+    "title": "1928—1931年赣粤钨砂专营风潮及各方博弈（《近代史研究》2022年第5期）",
+    "org": "中国历史研究院网",
+    "url": "http://hrczh.cass.cn/sxqy/zgs/202502/t20250228_5854039.shtml",
+    "pub_date": "2022-10-11",
+    "authority": "B",
+    "source_type": "academic_journal"
+   }
+  ]
+ },
+ {
+  "heritage_id": "HER-b652f983bcaa",
+  "name": "本溪湖煤铁公司",
+  "founded_year": {
+   "value": 1905,
+   "date_precision": "year",
+   "source_idxs": [
+    0,
+    1
+   ]
+  },
+  "production_start_year": {
+   "value": 1905,
+   "date_precision": "year",
+   "source_idxs": [
+    0,
+    1
+   ]
+  },
+  "closure_year": {
+   "value": 2008,
+   "date_precision": "year",
+   "source_idxs": [
+    0,
+    1
+   ]
+  },
+  "current_use": "本溪（溪湖）煤铁工业遗址博览园为红色旅游景区，含本钢一铁厂旧址、彩屯煤矿竖井等9处不可移动遗址；当地拟建本溪湖工业遗产群博物馆。",
+  "events": [
+   {
+    "date_start": "1905",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "创建/殖民设立",
+    "title": "大仓组设立本溪湖大仓煤矿",
+    "description": "日俄战争期间大仓喜八郎派员沿安奉铁路调查，经日本关东总督府批准侵占本溪湖煤矿，命名“本溪湖大仓煤矿”。",
+    "place_name": "辽宁省本溪市溪湖区",
+    "related_people": [
+     "大仓喜八郎"
+    ],
+    "related_orgs": [
+     "大仓财阀（大仓组）",
+     "关东总督府"
+    ],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "1904年日俄战争时期日本势力即以军用为名掠夺本溪煤铁资源，揭开本溪近代煤铁工业史序幕。"
+   },
+   {
+    "date_start": "1911",
+    "date_end": "1917",
+    "date_precision": "year",
+    "event_type": "改制/合办与建铁厂",
+    "title": "中日合办与炼铁基地建设",
+    "description": "1911年在中国方面压力下改为中日合办，因增设炼铁部改称本溪湖煤铁有限公司；制铁工厂1913年开建、1915年落成，1917年二号高炉建成。",
+    "place_name": "辽宁省本溪市溪湖区",
+    "related_people": [],
+    "related_orgs": [
+     "本溪湖煤铁有限公司"
+    ],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": true,
+    "notes": "合办起始年份记载不一：维基百科载1911年改为中日合办；本溪市政协文章将中日合办时期记为1910-1931年。"
+   },
+   {
+    "date_start": "1927",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "工人运动",
+    "title": "矿工罢工遭日方镇压",
+    "description": "1927年公司员工三度罢工，其中一次工人袭击公司总部，日方动用守备人员镇压，致24人死亡、73人受伤、逾百人失踪，获全国声援。",
+    "place_name": "辽宁省本溪市溪湖区",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1931",
+    "date_end": "1938",
+    "date_precision": "year",
+    "event_type": "战争影响/掠夺性扩建",
+    "title": "日本独占时期的改组与扩建",
+    "description": "九一八事变后中国员工遭驱逐，公司三度增资改组，更名本溪湖煤铁股份有限公司；1937年建成第二发电厂冷却水塔，1938年2月彩屯竖井开工。",
+    "place_name": "辽宁省本溪市溪湖区",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "1931-1945年日方掠夺近2000万吨优质煤炭；1938年另建宫原工厂。"
+   },
+   {
+    "date_start": "1942",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "矿难",
+    "title": "本溪湖煤矿矿难",
+    "description": "1942年本溪煤矿中央斜井瓦斯爆炸后日方停止向井下送风，至少1327名矿工遇难，是世界矿业史上死难人数最高的矿难。",
+    "place_name": "辽宁省本溪市溪湖区本溪煤矿",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "死亡人数有争议：墓碑记1327人，本溪地方志载1549人，另有逾1800人之说；遇难者葬于“肉丘坟”。"
+   },
+   {
+    "date_start": "1945",
+    "date_end": "1948",
+    "date_precision": "year",
+    "event_type": "接管/更名",
+    "title": "政权更迭中数度更名",
+    "description": "1945年8月日本投降后由民国政府接收，11月本溪市民主政府接管更名本溪湖煤铁总公司；1946年5月国民党军占本溪改名本溪煤铁厂矿，1948年10月本溪解放。",
+    "place_name": "辽宁省本溪市溪湖区",
+    "related_people": [],
+    "related_orgs": [
+     "本溪湖煤铁总公司",
+     "本溪煤铁厂矿"
+    ],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "内战期间大部分设备遭苏联拆走，公司业务停滞并爆发12次罢工。"
+   },
+   {
+    "date_start": "1949",
+    "date_end": "1981",
+    "date_precision": "approximate",
+    "event_type": "国有化/一五建设",
+    "title": "国有化为本钢与一五建设",
+    "description": "新中国成立后公司收归国有，易名本溪钢铁公司并获苏联支援；彩屯竖井列入“一五”重点项目，1958年起一号高炉利用系数连续30年全国第一，号称“功勋炉”。",
+    "place_name": "辽宁省本溪市溪湖区",
+    "related_people": [],
+    "related_orgs": [
+     "本溪钢铁公司"
+    ],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "1981年一号高炉获冶金部“红旗高炉”称号；本溪钢铁曾用于制造共和国第一杆枪、第一门炮、第一艘下海轮船、第一个上天卫星。"
+   },
+   {
+    "date_start": "2008",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "停产",
+    "title": "本钢一铁厂关停",
+    "description": "因设备老化、环保不达标，本钢集团决定本钢一铁厂2008年停止营运；一号高炉在累计生产优质生铁2940万吨后正式关闭。",
+    "place_name": "辽宁省本溪市溪湖区",
+    "related_people": [],
+    "related_orgs": [
+     "本钢集团"
+    ],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "闭炉日期为2008年12月17日（文保亲历者文章，仅线索）。"
+   }
+  ],
+  "people": [
+   {
+    "name": "大仓喜八郎",
+    "role": "日本大仓财阀创始人，本溪湖煤矿（本溪湖煤铁公司前身）的设立者",
+    "source_idxs": [
+     0,
+     1
+    ]
+   }
+  ],
+  "relations": [
+   {
+    "relation_type": "殖民经营",
+    "target_entity": "大仓财阀（大仓组）与日本关东总督府",
+    "description": "公司由大仓财阀经关东总督府批准设立，日本在1905-1945年间长期操控并掠夺资源。",
+    "source_idxs": [
+     0,
+     1
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "设备来源",
+    "target_entity": "英国匹亚逊诺尔斯工厂及三家德国工厂",
+    "description": "一号高炉炉体设备购自英国匹亚逊诺尔斯工厂，装料卷扬机、锅炉、鼓风机和发电机分别购自三所德国工厂。",
+    "source_idxs": [
+     0
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "设备仿制",
+    "target_entity": "满铁大连沙河口工厂",
+    "description": "二号高炉（1917年建成）由满铁大连沙河口工厂按一号高炉工程图仿制。",
+    "source_idxs": [
+     0
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "企业谱系",
+    "target_entity": "本溪钢铁公司（本钢）",
+    "description": "新中国成立后公司收归国有，易名本溪钢铁公司并恢复生产。",
+    "source_idxs": [
+     0,
+     1
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "一五计划重点项目",
+    "target_entity": "彩屯煤矿竖井",
+    "description": "彩屯煤矿竖井列入“一五”计划重点项目，经4年建设成为1950年代中国大陆生产能力最高的煤矿竖井。",
+    "source_idxs": [
+     0,
+     1
+    ],
+    "inferred": false
+   }
+  ],
+  "historical_period_tags": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期",
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "sources": [
+   {
+    "title": "本溪湖工业遗产群",
+    "org": "维基百科",
+    "url": "https://zh.wikipedia.org/zh-cn/%E6%9C%AC%E6%BA%AA%E6%B9%96%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7%E7%BE%A4",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   },
+   {
+    "title": "【讲好辽宁（本溪）故事】走进红色工业遗址 传承煤铁之都精神",
+    "org": "中国人民政治协商会议本溪市委员会",
+    "url": "https://zx005.benxi.gov.cn/wysc/content_621056",
+    "pub_date": null,
+    "authority": "A",
+    "source_type": "gov_website"
+   },
+   {
+    "title": "本溪（溪湖）煤铁工业遗址博览园",
+    "org": "百度百科",
+    "url": "https://baike.baidu.com/item/%E6%9C%AC%E6%BA%AA%EF%BC%88%E6%BA%AA%E6%B9%96%EF%BC%89%E7%85%A4%E9%93%81%E5%B7%A5%E4%B8%9A%E9%81%97%E5%9D%80%E5%8D%9A%E8%A7%88%E5%9B%AD/9056737",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   },
+   {
+    "title": "本溪湖工业遗产保护纪实（转载）",
+    "org": "美篇（文保亲历者文章）",
+    "url": "https://www.meipian.cn/3drrgs3g",
+    "pub_date": null,
+    "authority": "D",
+    "source_type": "blog"
+   }
+  ]
+ },
+ {
+  "heritage_id": "HER-484598c6dd59",
+  "name": "宝鸡申新纱厂",
+  "founded_year": {
+   "value": 1938,
+   "date_precision": "year",
+   "source_idxs": [
+    0,
+    2
+   ]
+  },
+  "production_start_year": {
+   "value": 1939,
+   "date_precision": "year",
+   "source_idxs": [
+    0,
+    1,
+    2
+   ]
+  },
+  "closure_year": null,
+  "current_use": "长乐塬抗战工业遗址公园：窑洞工厂、福新申新大楼、乐农别墅、薄壳车间等遗存开放参观，为全国重点文物保护单位和爱国主义教育基地。",
+  "events": [
+   {
+    "date_start": "1938",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "迁建",
+    "title": "武汉申新四厂西迁宝鸡",
+    "description": "1938年8月8日武汉申新四厂停机迁厂，8月16日首批设备自徐家棚车站启运；年底2万纱锭、400台织布机等2万多箱设备运抵宝鸡斗鸡台，在陈仓峪建厂取名长乐塬。",
+    "place_name": "陕西省宝鸡市斗鸡台、陈仓峪（长乐塬）",
+    "related_people": [
+     "李国伟",
+     "章剑慧",
+     "瞿冠英",
+     "路易·艾黎"
+    ],
+    "related_orgs": [
+     "申新第四纺织厂",
+     "福新第五面粉厂"
+    ],
+    "source_idxs": [
+     0,
+     2
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "240多名工人和技术人员随厂西迁；第二批货物在信阳遭日军袭击退回武汉，一批设备在汉江沉没。"
+   },
+   {
+    "date_start": "1939-08-09",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "复工/投产",
+    "title": "宝鸡申新纱厂复工投产",
+    "description": "1939年8月9日2000枚纱锭开始试生产，申新纱厂在宝鸡复工；因无电源，曾租用陇海铁路蒸汽机车头发电带动纱锭运转。",
+    "place_name": "陕西省宝鸡市十里铺",
+    "related_people": [
+     "瞿冠英"
+    ],
+    "related_orgs": [
+     "陇海铁路局"
+    ],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "经1年筹备，1939年8月正式复工。"
+   },
+   {
+    "date_start": "1940",
+    "date_end": "1941",
+    "date_precision": "year",
+    "event_type": "战时防护建设",
+    "title": "窑洞工厂建成",
+    "description": "1940年1月提出窑洞工厂设想，1941年2月竣工：全长1.75公里、洞内约4800平方米、24孔窑洞，4月19日正式运转，前纺全部设备和1.2万锭细纱机迁入。",
+    "place_name": "陕西省宝鸡市长乐塬",
+    "related_people": [
+     "李国伟",
+     "章剑慧"
+    ],
+    "related_orgs": [],
+    "source_idxs": [
+     0,
+     1,
+     2
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "动议人记载不一：新华每日电讯称章剑慧提出，宝鸡日报称总经理李国伟提出；1943年林语堂在《枕戈待旦》中称窑洞车间为“中国抗战中最伟大的奇迹”。"
+   },
+   {
+    "date_start": "1942-02-02",
+    "date_end": null,
+    "date_precision": "exact_date",
+    "event_type": "管理创新",
+    "title": "推行“三八工作制”",
+    "description": "1942年2月2日，宝鸡申新纱厂在窑洞车间正式推行每天八小时工作、八小时学习、八小时休息的“三八工作制”，为当时先进的管理制度。",
+    "place_name": "陕西省宝鸡市长乐塬窑洞车间",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0,
+     2
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "1941年6月申新重庆分厂曾在全国首倡八小时工作制。"
+   },
+   {
+    "date_start": "1945",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "战时生产成就",
+    "title": "支援抗战的生产成果",
+    "description": "自1939年复工至1945年抗战胜利，共生产棉纱6.2万吨、棉布43.2万匹，并经工合西北区办事处向陕甘宁边区转运大量棉纱、棉布等物资。",
+    "place_name": "陕西省宝鸡市",
+    "related_people": [],
+    "related_orgs": [
+     "中国工业合作协会西北区办事处"
+    ],
+    "source_idxs": [
+     0,
+     1,
+     2
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "抗战期间日军曾出动334架次飞机轰炸宝鸡32次，纱厂因主体迁入窑洞而无一伤亡。"
+   },
+   {
+    "date_start": "1949",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "战争影响",
+    "title": "解放军进驻与支前",
+    "description": "1949年7月，第一野战军司令员彭德怀进驻福新申新大楼，指挥扶眉战役后续战斗；申新纱厂为解放军加工棉衣、棉被里的棉胎。",
+    "place_name": "陕西省宝鸡市福新申新大楼",
+    "related_people": [
+     "彭德怀"
+    ],
+    "related_orgs": [
+     "中国人民解放军第一野战军"
+    ],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1951",
+    "date_end": "1966",
+    "date_precision": "year",
+    "event_type": "改制/公私合营",
+    "title": "公私合营与国有化",
+    "description": "1951年实行公私合营，更名新秦企业有限公司申四宝鸡纺织印染厂；1966年更名陕西第十二棉纺织厂转为国营企业，后演变为宝鸡大荣纺织有限公司。",
+    "place_name": "陕西省宝鸡市",
+    "related_people": [],
+    "related_orgs": [
+     "新秦企业有限公司",
+     "陕西第十二棉纺织厂",
+     "宝鸡大荣纺织有限公司"
+    ],
+    "source_idxs": [
+     2,
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "“一五”期间政府从新秦公司各厂选调200多名干部、2000多名技术骨干支援西北各地企业。"
+   },
+   {
+    "date_start": "2015",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "保护启动/再利用",
+    "title": "长乐塬遗址保护利用启动",
+    "description": "2015年申新纱厂界碑被发现，长乐塬抗战工业遗址博物馆筹建；宝鸡启动长乐塬片区保护开发，遗址公园修缮后对外开放。",
+    "place_name": "陕西省宝鸡市金台区长乐塬",
+    "related_people": [],
+    "related_orgs": [
+     "长乐塬抗战工业遗址管委会"
+    ],
+    "source_idxs": [
+     0,
+     2
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "该遗址已成为全国重点文物保护单位、国家首批工业遗产和爱国主义教育基地。"
+   }
+  ],
+  "people": [
+   {
+    "name": "李国伟",
+    "role": "申新、福新两厂经理，荣德生的大女婿，内迁考察与建厂复工主持人",
+    "source_idxs": [
+     0,
+     2
+    ]
+   },
+   {
+    "name": "章剑慧",
+    "role": "申新纱厂厂长",
+    "source_idxs": [
+     0
+    ]
+   },
+   {
+    "name": "瞿冠英",
+    "role": "受李国伟派遣赴宝鸡考察选址，主持建厂并解决动力问题",
+    "source_idxs": [
+     0
+    ]
+   },
+   {
+    "name": "路易·艾黎",
+    "role": "国际友人，促成武汉64家企业西迁，推动申新等15家企业迁宝鸡",
+    "source_idxs": [
+     0,
+     1
+    ]
+   },
+   {
+    "name": "荣德生",
+    "role": "荣氏家族实业家，李国伟之岳父",
+    "source_idxs": [
+     0
+    ]
+   }
+  ],
+  "relations": [
+   {
+    "relation_type": "企业谱系",
+    "target_entity": "申新第四纺织厂（武汉）",
+    "description": "宝鸡申新纱厂由武汉申新第四纺织厂1938年内迁组建。",
+    "source_idxs": [
+     0,
+     2
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "企业谱系",
+    "target_entity": "新秦企业有限公司→陕西第十二棉纺织厂→宝鸡大荣纺织有限公司",
+    "description": "公私合营后历经多次改制演变至今。",
+    "source_idxs": [
+     2,
+     0
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "战时协作",
+    "target_entity": "中国工业合作协会西北区办事处",
+    "description": "申新生产的大部分棉纱直接销售给工合，并经工合西北区办事处向陕甘宁边区转运物资。",
+    "source_idxs": [
+     0,
+     1
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "区域带动",
+    "target_entity": "秦宝十里铺工业区",
+    "description": "以申新为代表的内迁企业带动宝鸡到1941年形成拥有200多家企业的“秦宝十里铺工业区”。",
+    "source_idxs": [
+     0,
+     2
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "抗战工业内迁",
+    "target_entity": "武汉西迁64家企业（15家迁宝鸡）",
+    "description": "在路易·艾黎等促成下，申新第四纺织厂等15家企业由武汉等地内迁宝鸡。",
+    "source_idxs": [
+     1,
+     0
+    ],
+    "inferred": false
+   }
+  ],
+  "historical_period_tags": [
+   "民国时期",
+   "新中国初期"
+  ],
+  "sources": [
+   {
+    "title": "宝鸡“窑洞工厂”里，有一段鲜为人知的抗战工业内迁史（新华每日电讯草地周刊）",
+    "org": "新华每日电讯（搜狐转载）",
+    "url": "https://www.sohu.com/a/431643569_117503",
+    "pub_date": "2020-11-13",
+    "authority": "C",
+    "source_type": "newspaper"
+   },
+   {
+    "title": "窑洞里的“工业奇迹”（来源：中国军网）",
+    "org": "中国共产党新闻网（人民网党史频道）",
+    "url": "https://cpc.people.com.cn/n1/2025/1113/c443712-40602609.html",
+    "pub_date": "2025-11-13",
+    "authority": "C",
+    "source_type": "news"
+   },
+   {
+    "title": "申新纺织厂：宝鸡长乐塬的抗战工业史诗（来源：宝鸡日报）",
+    "org": "中国文明网·宝鸡（宝鸡市委宣传部主办）",
+    "url": "http://sxbj.wenming.cn/2025zt/bjkzjy/202508/t20250829_9012193.html",
+    "pub_date": "2025-08-29",
+    "authority": "A",
+    "source_type": "gov_media"
+   }
+  ]
+ },
+ {
+  "heritage_id": "HER-3318e785a779",
+  "name": "汉冶萍公司--汉阳铁厂",
+  "founded_year": {
+   "value": 1890,
+   "date_precision": "year",
+   "source_idxs": [
+    0,
+    1
+   ]
+  },
+  "production_start_year": {
+   "value": 1894,
+   "date_precision": "year",
+   "source_idxs": [
+    0
+   ]
+  },
+  "closure_year": null,
+  "current_use": "汉阳铁厂工业遗址园区（约400亩）：“1890拾光”艺术馆、张之洞与武汉博物馆（2018年3月开园）等已开放；2020年设武汉1890工业遗址研究院统筹改造。",
+  "events": [
+   {
+    "date_start": "1890",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "创建/筹建",
+    "title": "清廷批准创办汉阳铁厂",
+    "description": "1889年两广总督张之洞为修卢汉铁路奏请兴办铁厂，1890年5月清廷批准，创办经费初定246万余两；铁厂与汉阳兵工厂等共同开启“汉阳造”时代。",
+    "place_name": "湖北汉阳（今武汉市汉阳区）",
+    "related_people": [
+     "张之洞"
+    ],
+    "related_orgs": [
+     "清政府"
+    ],
+    "source_idxs": [
+     0,
+     1
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "新华社报道称1890年张之洞在武汉主持创办汉阳铁厂，与汉阳兵工厂、汉阳火药厂形成“汉阳十里工业长廊”。"
+   },
+   {
+    "date_start": "1891",
+    "date_end": "1893",
+    "date_precision": "year",
+    "event_type": "工程建设",
+    "title": "龟山下动工至竣工",
+    "description": "1891年8月铁厂在汉阳龟山下动工，1893年10月22日竣工，建成生铁厂、贝色麻钢厂、西门士钢厂、钢轨厂等6个大厂和4个小厂，实际支出约500万两。",
+    "place_name": "湖北汉阳龟山下",
+    "related_people": [
+     "张之洞"
+    ],
+    "related_orgs": [],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1894",
+    "date_end": "1895",
+    "date_precision": "year",
+    "event_type": "投产/技术困境",
+    "title": "首炉开炼与去磷难题",
+    "description": "1894年5月首开一座高炉试炼铁，因马鞍山煤难已成焦一度停炉，高价进口德国焦炭；1895年再开炉因机炉不能去磷、大冶矿石含磷高，钢材脆断陷入困境。",
+    "place_name": "湖北汉阳",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1896",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "改制",
+    "title": "改官督商办",
+    "description": "甲午战后清政府财政濒于崩溃，无力维续铁厂，1896年4月11日汉阳铁厂改为官督商办，由盛宣怀承办。",
+    "place_name": "湖北汉阳",
+    "related_people": [
+     "盛宣怀"
+    ],
+    "related_orgs": [],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1908",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "合并重组",
+    "title": "组建汉冶萍煤铁厂矿有限公司",
+    "description": "1908年3月26日汉阳铁厂与大冶铁矿、萍乡煤矿合并组成汉冶萍煤铁厂矿有限公司，改为完全商办，盛宣怀任总理，为当时亚洲最大钢铁联合企业。",
+    "place_name": "湖北汉阳",
+    "related_people": [
+     "盛宣怀"
+    ],
+    "related_orgs": [
+     "汉冶萍煤铁厂矿有限公司",
+     "大冶铁矿",
+     "萍乡煤矿"
+    ],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "辛亥革命前夕年产钢7万吨、铁砂50万吨，钢铁产量约占全国90%。"
+   },
+   {
+    "date_start": "1923",
+    "date_end": null,
+    "date_precision": "year",
+    "event_type": "设备事故",
+    "title": "高炉坍塌形成凝铁",
+    "description": "1923年高炉坍塌，铁水在炉中冷却凝固成高约2米、直径4米、重200余吨的凝铁，即今“汉阳铁厂凝铁”遗存（位于汉阳区龟山北路）。",
+    "place_name": "湖北汉阳",
+    "related_people": [],
+    "related_orgs": [],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "medium",
+    "disputed": false,
+    "notes": ""
+   },
+   {
+    "date_start": "1937",
+    "date_end": "1945",
+    "date_precision": "approximate",
+    "event_type": "迁建",
+    "title": "抗战时期西迁重庆",
+    "description": "抗战时期，汉阳铁厂大批人员及设备西迁重庆，成为重庆钢铁公司的主要组成部分。",
+    "place_name": "湖北汉阳→重庆",
+    "related_people": [],
+    "related_orgs": [
+     "重庆钢铁公司"
+    ],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "来源仅表述为“抗战时期”，起止年份取抗战通期。"
+   },
+   {
+    "date_start": "1949",
+    "date_end": null,
+    "date_precision": "approximate",
+    "event_type": "合并重组",
+    "title": "留汉产业并入武钢",
+    "description": "中华人民共和国成立后，汉阳铁厂留在武汉的产业成为武汉钢铁公司的一部分。",
+    "place_name": "湖北武汉",
+    "related_people": [],
+    "related_orgs": [
+     "武汉钢铁公司"
+    ],
+    "source_idxs": [
+     0
+    ],
+    "confidence": "high",
+    "disputed": false,
+    "notes": "来源仅表述为“中华人民共和国成立后”。"
+   }
+  ],
+  "people": [
+   {
+    "name": "张之洞",
+    "role": "晚清重臣，1889年上奏倡议兴办铁厂，1890年获清廷批准主持创办汉阳铁厂",
+    "source_idxs": [
+     0,
+     1
+    ]
+   },
+   {
+    "name": "盛宣怀",
+    "role": "1896年官督商办承办人，1908年汉冶萍煤铁厂矿有限公司总理",
+    "source_idxs": [
+     0
+    ]
+   }
+  ],
+  "relations": [
+   {
+    "relation_type": "企业谱系",
+    "target_entity": "汉冶萍煤铁厂矿有限公司",
+    "description": "1908年汉阳铁厂、大冶铁矿、萍乡煤矿合并组成汉冶萍公司。",
+    "source_idxs": [
+     0
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "企业谱系（迁建）",
+    "target_entity": "重庆钢铁公司",
+    "description": "抗战时期汉阳铁厂大批人员及设备西迁重庆，成为重庆钢铁公司的主要组成部分。",
+    "source_idxs": [
+     0
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "企业谱系",
+    "target_entity": "武汉钢铁公司",
+    "description": "中华人民共和国成立后，汉阳铁厂留汉产业并入武钢。",
+    "source_idxs": [
+     0
+    ],
+    "inferred": false
+   },
+   {
+    "relation_type": "产业集聚",
+    "target_entity": "汉阳兵工厂、汉阳火药厂（“汉阳十里工业长廊”）",
+    "description": "汉阳铁厂与附近建立的汉阳兵工厂、汉阳火药厂等共同形成“汉阳十里工业长廊”，迎来“汉阳造”时代。",
+    "source_idxs": [
+     1
+    ],
+    "inferred": false
+   }
+  ],
+  "historical_period_tags": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期"
+  ],
+  "sources": [
+   {
+    "title": "汉阳铁厂",
+    "org": "维基百科",
+    "url": "https://zh.wikipedia.org/zh-cn/%E6%B1%89%E9%98%B3%E9%93%81%E5%8E%82",
+    "pub_date": null,
+    "authority": "C",
+    "source_type": "encyclopedia"
+   },
+   {
+    "title": "打卡工业遗存丨百余年后，这里依然处处是“宝藏”",
+    "org": "新华网（新华社）",
+    "url": "https://www.news.cn/2021-12/01/c_1128118926.htm",
+    "pub_date": "2021-12-01",
+    "authority": "C",
+    "source_type": "news"
+   }
+  ]
+ }
 ]

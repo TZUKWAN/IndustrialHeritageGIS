@@ -63,6 +63,164 @@
   "notes": "成文2021-11-30，发布2021-12-13。"
  },
  {
+  "event_id": "EVT-01a80935ad07-01",
+  "heritage_id": "HER-01a80935ad07",
+  "event_date_start": "1845",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "约翰·柯拜在长洲岛建坞修船",
+  "description": "1845年大英轮船公司派苏格兰人约翰·柯拜赴黄埔监修船舶，他租用长洲岛泥船坞雇工修船并扩建为石船坞，称柯拜船坞，系外国资本在华经营的第一个工业企业",
+  "place_name": "广州市黄埔区长洲岛",
+  "related_orgs": [
+   "大英轮船公司"
+  ],
+  "related_people": [
+   "约翰·柯拜"
+  ],
+  "source_ids": [
+   "src-web-7ee142b428",
+   "src-web-86681456e9",
+   "src-web-d31f2302e1"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "以柯拜船坞创办为厂区工业起点"
+ },
+ {
+  "event_id": "EVT-01a80935ad07-02",
+  "heritage_id": "HER-01a80935ad07",
+  "event_date_start": "1851",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "柯拜船坞（干石船坞）建成（一说1851年）",
+  "description": "百度百科载柯拜船坞由约翰·柯拜于1851年建成，为中国近代第一座干石船坞、外国人在华投资建设的首个船坞",
+  "place_name": "广州市黄埔区长洲岛",
+  "related_orgs": [],
+  "related_people": [
+   "约翰·柯拜"
+  ],
+  "source_ids": [
+   "src-web-0f61ec83e7"
+  ],
+  "confidence": "medium",
+  "disputed": true,
+  "notes": "黄埔区政府文章与维基百科作1845年建坞"
+ },
+ {
+  "event_id": "EVT-01a80935ad07-03",
+  "heritage_id": "HER-01a80935ad07",
+  "event_date_start": "1856",
+  "event_date_end": "1860",
+  "date_precision": "approximate",
+  "event_type": "战争影响",
+  "title": "第二次鸦片战争中被捣毁",
+  "description": "第二次鸦片战争期间船坞被黄埔民众捣毁，柯拜被俘后下落不明；1860年柯拜家属获赔款12万元",
+  "place_name": "广州市黄埔区长洲岛",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-7ee142b428",
+   "src-web-86681456e9"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-01a80935ad07-07",
+  "heritage_id": "HER-01a80935ad07",
+  "event_date_start": "1858",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "录顺船坞合建",
+  "description": "1858年（咸丰八年）卡杜·柯拜与肯特各出资一半在长洲平岗合建录顺船坞，至今仍在使用",
+  "place_name": "广州市黄埔区长洲岛平岗",
+  "related_orgs": [],
+  "related_people": [
+   "约翰·卡杜·柯拜"
+  ],
+  "source_ids": [
+   "src-web-fbf81c4688"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-01a80935ad07-04",
+  "heritage_id": "HER-01a80935ad07",
+  "event_date_start": "1861",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "扩建",
+  "title": "柯拜船坞公司成立",
+  "description": "1861年小柯拜（约翰·卡杜·柯拜）用赔款修复扩建坞厂，成立柯拜船坞公司，拥有4座船坞；1862年建成167.64米花岗石船坞，为1860年代中国最大石船坞",
+  "place_name": "广州市黄埔区长洲岛",
+  "related_orgs": [
+   "柯拜船坞公司"
+  ],
+  "related_people": [
+   "约翰·卡杜·柯拜"
+  ],
+  "source_ids": [
+   "src-web-7ee142b428",
+   "src-web-fbf81c4688"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-01a80935ad07-05",
+  "heritage_id": "HER-01a80935ad07",
+  "event_date_start": "1876",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "合并重组",
+  "title": "清政府购回船坞",
+  "description": "1876年两广总督刘坤一购回香港黄埔船坞公司在黄埔的柯拜、录顺、于仁3座船坞及厂房设备，并入广东机器局",
+  "place_name": "广州市黄埔区",
+  "related_orgs": [
+   "广东机器局",
+   "香港黄埔船坞公司"
+  ],
+  "related_people": [
+   "刘坤一"
+  ],
+  "source_ids": [
+   "src-web-7ee142b428"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-01a80935ad07-06",
+  "heritage_id": "HER-01a80935ad07",
+  "event_date_start": "1885",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "张之洞创办黄埔船局",
+  "description": "1885年两广总督张之洞在此基础上创办黄埔船局，建造浅水炮艇与铁甲炮舰，船坞从外资企业转变为民族军工基地",
+  "place_name": "广州市黄埔区",
+  "related_orgs": [
+   "黄埔船局"
+  ],
+  "related_people": [
+   "张之洞"
+  ],
+  "source_ids": [
+   "src-web-7ee142b428"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
   "event_id": "EVT-01a80935ad07-R7",
   "heritage_id": "HER-01a80935ad07",
   "event_date_start": "2025-10-22",
@@ -1121,177 +1279,6 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
- },
- {
-  "event_id": "EVT-1d1453b43e34-01",
-  "heritage_id": "HER-1d1453b43e34",
-  "event_date_start": "1890",
-  "event_date_end": null,
-  "date_precision": "year",
-  "event_type": "创建/筹建",
-  "title": "清廷批准创办汉阳铁厂",
-  "description": "1889年两广总督张之洞为修卢汉铁路奏请兴办铁厂，1890年5月清廷批准，创办经费初定246万余两；铁厂与汉阳兵工厂等共同开启“汉阳造”时代。",
-  "place_name": "湖北汉阳（今武汉市汉阳区）",
-  "related_orgs": [
-   "清政府"
-  ],
-  "related_people": [
-   "张之洞"
-  ],
-  "source_ids": [
-   "src-web-fb1327e646",
-   "src-web-d80ce7070a"
-  ],
-  "confidence": "high",
-  "disputed": false,
-  "notes": "新华社报道称1890年张之洞在武汉主持创办汉阳铁厂，与汉阳兵工厂、汉阳火药厂形成“汉阳十里工业长廊”。"
- },
- {
-  "event_id": "EVT-1d1453b43e34-02",
-  "heritage_id": "HER-1d1453b43e34",
-  "event_date_start": "1891",
-  "event_date_end": "1893",
-  "date_precision": "year",
-  "event_type": "工程建设",
-  "title": "龟山下动工至竣工",
-  "description": "1891年8月铁厂在汉阳龟山下动工，1893年10月22日竣工，建成生铁厂、贝色麻钢厂、西门士钢厂、钢轨厂等6个大厂和4个小厂，实际支出约500万两。",
-  "place_name": "湖北汉阳龟山下",
-  "related_orgs": [],
-  "related_people": [
-   "张之洞"
-  ],
-  "source_ids": [
-   "src-web-fb1327e646"
-  ],
-  "confidence": "high",
-  "disputed": false,
-  "notes": ""
- },
- {
-  "event_id": "EVT-1d1453b43e34-03",
-  "heritage_id": "HER-1d1453b43e34",
-  "event_date_start": "1894",
-  "event_date_end": "1895",
-  "date_precision": "year",
-  "event_type": "投产/技术困境",
-  "title": "首炉开炼与去磷难题",
-  "description": "1894年5月首开一座高炉试炼铁，因马鞍山煤难已成焦一度停炉，高价进口德国焦炭；1895年再开炉因机炉不能去磷、大冶矿石含磷高，钢材脆断陷入困境。",
-  "place_name": "湖北汉阳",
-  "related_orgs": [],
-  "related_people": [],
-  "source_ids": [
-   "src-web-fb1327e646"
-  ],
-  "confidence": "high",
-  "disputed": false,
-  "notes": ""
- },
- {
-  "event_id": "EVT-1d1453b43e34-04",
-  "heritage_id": "HER-1d1453b43e34",
-  "event_date_start": "1896",
-  "event_date_end": null,
-  "date_precision": "year",
-  "event_type": "改制",
-  "title": "改官督商办",
-  "description": "甲午战后清政府财政濒于崩溃，无力维续铁厂，1896年4月11日汉阳铁厂改为官督商办，由盛宣怀承办。",
-  "place_name": "湖北汉阳",
-  "related_orgs": [],
-  "related_people": [
-   "盛宣怀"
-  ],
-  "source_ids": [
-   "src-web-fb1327e646"
-  ],
-  "confidence": "high",
-  "disputed": false,
-  "notes": ""
- },
- {
-  "event_id": "EVT-1d1453b43e34-05",
-  "heritage_id": "HER-1d1453b43e34",
-  "event_date_start": "1908",
-  "event_date_end": null,
-  "date_precision": "year",
-  "event_type": "合并重组",
-  "title": "组建汉冶萍煤铁厂矿有限公司",
-  "description": "1908年3月26日汉阳铁厂与大冶铁矿、萍乡煤矿合并组成汉冶萍煤铁厂矿有限公司，改为完全商办，盛宣怀任总理，为当时亚洲最大钢铁联合企业。",
-  "place_name": "湖北汉阳",
-  "related_orgs": [
-   "汉冶萍煤铁厂矿有限公司",
-   "大冶铁矿",
-   "萍乡煤矿"
-  ],
-  "related_people": [
-   "盛宣怀"
-  ],
-  "source_ids": [
-   "src-web-fb1327e646"
-  ],
-  "confidence": "high",
-  "disputed": false,
-  "notes": "辛亥革命前夕年产钢7万吨、铁砂50万吨，钢铁产量约占全国90%。"
- },
- {
-  "event_id": "EVT-1d1453b43e34-06",
-  "heritage_id": "HER-1d1453b43e34",
-  "event_date_start": "1923",
-  "event_date_end": null,
-  "date_precision": "year",
-  "event_type": "设备事故",
-  "title": "高炉坍塌形成凝铁",
-  "description": "1923年高炉坍塌，铁水在炉中冷却凝固成高约2米、直径4米、重200余吨的凝铁，即今“汉阳铁厂凝铁”遗存（位于汉阳区龟山北路）。",
-  "place_name": "湖北汉阳",
-  "related_orgs": [],
-  "related_people": [],
-  "source_ids": [
-   "src-web-fb1327e646"
-  ],
-  "confidence": "medium",
-  "disputed": false,
-  "notes": ""
- },
- {
-  "event_id": "EVT-1d1453b43e34-07",
-  "heritage_id": "HER-1d1453b43e34",
-  "event_date_start": "1937",
-  "event_date_end": "1945",
-  "date_precision": "approximate",
-  "event_type": "迁建",
-  "title": "抗战时期西迁重庆",
-  "description": "抗战时期，汉阳铁厂大批人员及设备西迁重庆，成为重庆钢铁公司的主要组成部分。",
-  "place_name": "湖北汉阳→重庆",
-  "related_orgs": [
-   "重庆钢铁公司"
-  ],
-  "related_people": [],
-  "source_ids": [
-   "src-web-fb1327e646"
-  ],
-  "confidence": "high",
-  "disputed": false,
-  "notes": "来源仅表述为“抗战时期”，起止年份取抗战通期。"
- },
- {
-  "event_id": "EVT-1d1453b43e34-08",
-  "heritage_id": "HER-1d1453b43e34",
-  "event_date_start": "1949",
-  "event_date_end": null,
-  "date_precision": "approximate",
-  "event_type": "合并重组",
-  "title": "留汉产业并入武钢",
-  "description": "中华人民共和国成立后，汉阳铁厂留在武汉的产业成为武汉钢铁公司的一部分。",
-  "place_name": "湖北武汉",
-  "related_orgs": [
-   "武汉钢铁公司"
-  ],
-  "related_people": [],
-  "source_ids": [
-   "src-web-fb1327e646"
-  ],
-  "confidence": "high",
-  "disputed": false,
-  "notes": "来源仅表述为“中华人民共和国成立后”。"
  },
  {
   "event_id": "EVT-1d1453b43e34-R1",
@@ -2440,6 +2427,155 @@
   "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
  },
  {
+  "event_id": "EVT-2b911268ab1f-01",
+  "heritage_id": "HER-2b911268ab1f",
+  "event_date_start": "1921",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "日商创办裕丰纱厂",
+  "description": "1921年日商大阪东洋纺织株式会社在杨树浦路2866号开办上海工场（裕丰纱厂），锯齿形厂房由平野勇造设计建造",
+  "place_name": "上海市杨浦区杨树浦路2866号",
+  "related_orgs": [
+   "大阪东洋纺织株式会社"
+  ],
+  "related_people": [
+   "平野勇造"
+  ],
+  "source_ids": [
+   "src-web-17a29f7cd0",
+   "src-web-c6c143336a",
+   "src-web-8823c1438c",
+   "src-web-b839442e92"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "百度百科作1922年筹建；创办主体一说为大阪与东洋纺绩株式会社"
+ },
+ {
+  "event_id": "EVT-2b911268ab1f-02",
+  "heritage_id": "HER-2b911268ab1f",
+  "event_date_start": "1922",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产",
+  "title": "一厂开车投产",
+  "description": "1922年开出第一厂投产，有纱锭24000枚，厂房历时14年才全部建成",
+  "place_name": "上海市杨浦区杨树浦路2866号",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-b839442e92"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "据检索摘要，未逐字核对原文页面"
+ },
+ {
+  "event_id": "EVT-2b911268ab1f-03",
+  "heritage_id": "HER-2b911268ab1f",
+  "event_date_start": "1945",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "中国纺织建设公司接管更名",
+  "description": "抗战胜利后工厂由中国纺织建设公司接管，更名中国纺织建设公司上海第十七纺织厂（棉纺织厂）",
+  "place_name": "上海市杨浦区",
+  "related_orgs": [
+   "中国纺织建设公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-c6c143336a"
+  ],
+  "confidence": "medium",
+  "disputed": true,
+  "notes": "界面新闻作1945年；另有1946年更名上海第十七棉纺织厂之说（新浪财经2022年报道检索摘要）"
+ },
+ {
+  "event_id": "EVT-2b911268ab1f-04",
+  "heritage_id": "HER-2b911268ab1f",
+  "event_date_start": "1949",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "更名为国营上海第十七棉纺织厂",
+  "description": "新中国成立后工厂改为国营上海第十七棉纺织厂，后为上海第十七棉纺织总厂",
+  "place_name": "上海市杨浦区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-c6c143336a",
+   "src-web-8823c1438c",
+   "src-web-983029c116"
+  ],
+  "confidence": "medium",
+  "disputed": true,
+  "notes": "百度百科作1949年定名；杨浦区政府文章仅称中华人民共和国成立后更名"
+ },
+ {
+  "event_id": "EVT-2b911268ab1f-05",
+  "heritage_id": "HER-2b911268ab1f",
+  "event_date_start": "1989",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "企业升级",
+  "title": "获批国家一级企业",
+  "description": "1989年获批国家一级企业；该厂曾以龙头细布等产品闻名",
+  "place_name": "上海市杨浦区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-983029c116"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2b911268ab1f-06",
+  "heritage_id": "HER-2b911268ab1f",
+  "event_date_start": "2007",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "停产",
+  "title": "全面停产、搬迁大丰",
+  "description": "2007年工厂全面停产，搬迁至江苏大丰，纱厂记忆就此封存",
+  "place_name": "上海市杨浦区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-17a29f7cd0",
+   "src-web-8823c1438c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2b911268ab1f-07",
+  "heritage_id": "HER-2b911268ab1f",
+  "event_date_start": "2009",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "博物馆园区再利用",
+  "title": "改造为上海国际时尚中心",
+  "description": "2009年启动改造，老厂房转型为上海国际时尚中心，锯齿形厂房建筑群得以保留，现为国家4A级景区",
+  "place_name": "上海市杨浦区杨树浦路2866号",
+  "related_orgs": [
+   "东方国际（集团）有限公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-17a29f7cd0",
+   "src-web-c6c143336a",
+   "src-web-e47973f1db"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
   "event_id": "EVT-2b911268ab1f-R6",
   "heritage_id": "HER-2b911268ab1f",
   "event_date_start": "2024-10-23",
@@ -2647,6 +2783,177 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-2e556b76ea68-01",
+  "heritage_id": "HER-2e556b76ea68",
+  "event_date_start": "1937",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "日伪筹建镜泊湖发电厂",
+  "description": "九一八事变后，日伪为侵略战争需要于1937年筹建镜泊湖发电厂",
+  "place_name": "黑龙江省宁安市镜泊湖",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-0e7a64629d",
+   "src-web-bb6822da05",
+   "src-web-f5796abc49"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2e556b76ea68-04",
+  "heritage_id": "HER-2e556b76ea68",
+  "event_date_start": "1938",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "战争影响",
+  "title": "抗联袭击北湖头水电工地",
+  "description": "1938年7月东北抗联陈翰章部袭击镜泊湖（北湖头）水电站工地，全歼日军守备队、焚毁工程事务所并解救大批劳工，工程严重受损",
+  "place_name": "黑龙江省宁安市北湖头",
+  "related_orgs": [
+   "东北抗日联军"
+  ],
+  "related_people": [
+   "陈翰章"
+  ],
+  "source_ids": [
+   "src-web-b109479121",
+   "src-web-560f296ba5",
+   "src-web-3f94e85b33"
+  ],
+  "confidence": "medium",
+  "disputed": true,
+  "notes": "红色文化网等作1937年7月；中国军网称此役用150公斤炸药毁设施、致停工3年"
+ },
+ {
+  "event_id": "EVT-2e556b76ea68-02",
+  "heritage_id": "HER-2e556b76ea68",
+  "event_date_start": "1938-12-21",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "开工",
+  "title": "老厂主体工程开工",
+  "description": "1938年12月21日电厂老厂主体工程开工",
+  "place_name": "黑龙江省宁安市镜泊湖",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-bb6822da05"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2e556b76ea68-03",
+  "heritage_id": "HER-2e556b76ea68",
+  "event_date_start": "1942",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产",
+  "title": "建成投产发电",
+  "description": "1942年6月第1台机组发电，9月26日2号机组发电，经110千伏线路向牡丹江、延吉供电，为我国最早建成的中型水电厂之一",
+  "place_name": "黑龙江省宁安市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-0e7a64629d",
+   "src-web-bb6822da05",
+   "src-web-f5796abc49",
+   "src-web-1a1525b0e3"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "黑龙江省委史志研究室数字方志载伪满康德9年（1942年）建成正式送电"
+ },
+ {
+  "event_id": "EVT-2e556b76ea68-05",
+  "heritage_id": "HER-2e556b76ea68",
+  "event_date_start": "1945",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "战争影响",
+  "title": "日军溃败前破坏电厂",
+  "description": "1945年日军溃退前炸沉捞沙船堵塞进水口、砸毁变电站设备并纵火烧毁厂房，电厂遭严重破坏",
+  "place_name": "黑龙江省宁安市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-bb6822da05",
+   "src-web-f5796abc49"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2e556b76ea68-06",
+  "heritage_id": "HER-2e556b76ea68",
+  "event_date_start": "1946",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "修复投产",
+  "title": "人民政权组织修复发电",
+  "description": "1946年电力专家何纯渤带3名党员进厂建立党小组并组织抢修，11月27日1号机组修复送电，保障牡丹江约95%供电，支援解放战争和抗美援朝",
+  "place_name": "黑龙江省宁安市",
+  "related_orgs": [],
+  "related_people": [
+   "何纯渤"
+  ],
+  "source_ids": [
+   "src-web-bb6822da05",
+   "src-web-87c1c8f6f9",
+   "src-web-203653d936",
+   "src-web-1cc0522b8a"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2e556b76ea68-07",
+  "heritage_id": "HER-2e556b76ea68",
+  "event_date_start": "1968",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "扩建",
+  "title": "新厂地下电站开工",
+  "description": "1968年11月新厂动工兴建，为备战时期建设的中国首个全地下式水电站",
+  "place_name": "黑龙江省宁安市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-0e7a64629d",
+   "src-web-bb6822da05"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2e556b76ea68-08",
+  "heritage_id": "HER-2e556b76ea68",
+  "event_date_start": "1978",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产",
+  "title": "新厂建成投产",
+  "description": "1978年10月新厂建成投产，总装机容量6万千瓦",
+  "place_name": "黑龙江省宁安市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-0e7a64629d",
+   "src-web-bb6822da05"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "百度百科等另有1979年全部建成投产之说"
  },
  {
   "event_id": "EVT-2e556b76ea68-R7",
@@ -2939,6 +3246,177 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-3318e785a779-01",
+  "heritage_id": "HER-3318e785a779",
+  "event_date_start": "1890",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "清廷批准创办汉阳铁厂",
+  "description": "1889年两广总督张之洞为修卢汉铁路奏请兴办铁厂，1890年5月清廷批准，创办经费初定246万余两；铁厂与汉阳兵工厂等共同开启“汉阳造”时代。",
+  "place_name": "湖北汉阳（今武汉市汉阳区）",
+  "related_orgs": [
+   "清政府"
+  ],
+  "related_people": [
+   "张之洞"
+  ],
+  "source_ids": [
+   "src-web-fb1327e646",
+   "src-web-d80ce7070a"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "新华社报道称1890年张之洞在武汉主持创办汉阳铁厂，与汉阳兵工厂、汉阳火药厂形成“汉阳十里工业长廊”。"
+ },
+ {
+  "event_id": "EVT-3318e785a779-02",
+  "heritage_id": "HER-3318e785a779",
+  "event_date_start": "1891",
+  "event_date_end": "1893",
+  "date_precision": "year",
+  "event_type": "工程建设",
+  "title": "龟山下动工至竣工",
+  "description": "1891年8月铁厂在汉阳龟山下动工，1893年10月22日竣工，建成生铁厂、贝色麻钢厂、西门士钢厂、钢轨厂等6个大厂和4个小厂，实际支出约500万两。",
+  "place_name": "湖北汉阳龟山下",
+  "related_orgs": [],
+  "related_people": [
+   "张之洞"
+  ],
+  "source_ids": [
+   "src-web-fb1327e646"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-3318e785a779-03",
+  "heritage_id": "HER-3318e785a779",
+  "event_date_start": "1894",
+  "event_date_end": "1895",
+  "date_precision": "year",
+  "event_type": "投产/技术困境",
+  "title": "首炉开炼与去磷难题",
+  "description": "1894年5月首开一座高炉试炼铁，因马鞍山煤难已成焦一度停炉，高价进口德国焦炭；1895年再开炉因机炉不能去磷、大冶矿石含磷高，钢材脆断陷入困境。",
+  "place_name": "湖北汉阳",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-fb1327e646"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-3318e785a779-04",
+  "heritage_id": "HER-3318e785a779",
+  "event_date_start": "1896",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "改官督商办",
+  "description": "甲午战后清政府财政濒于崩溃，无力维续铁厂，1896年4月11日汉阳铁厂改为官督商办，由盛宣怀承办。",
+  "place_name": "湖北汉阳",
+  "related_orgs": [],
+  "related_people": [
+   "盛宣怀"
+  ],
+  "source_ids": [
+   "src-web-fb1327e646"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-3318e785a779-05",
+  "heritage_id": "HER-3318e785a779",
+  "event_date_start": "1908",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "合并重组",
+  "title": "组建汉冶萍煤铁厂矿有限公司",
+  "description": "1908年3月26日汉阳铁厂与大冶铁矿、萍乡煤矿合并组成汉冶萍煤铁厂矿有限公司，改为完全商办，盛宣怀任总理，为当时亚洲最大钢铁联合企业。",
+  "place_name": "湖北汉阳",
+  "related_orgs": [
+   "汉冶萍煤铁厂矿有限公司",
+   "大冶铁矿",
+   "萍乡煤矿"
+  ],
+  "related_people": [
+   "盛宣怀"
+  ],
+  "source_ids": [
+   "src-web-fb1327e646"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "辛亥革命前夕年产钢7万吨、铁砂50万吨，钢铁产量约占全国90%。"
+ },
+ {
+  "event_id": "EVT-3318e785a779-06",
+  "heritage_id": "HER-3318e785a779",
+  "event_date_start": "1923",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "设备事故",
+  "title": "高炉坍塌形成凝铁",
+  "description": "1923年高炉坍塌，铁水在炉中冷却凝固成高约2米、直径4米、重200余吨的凝铁，即今“汉阳铁厂凝铁”遗存（位于汉阳区龟山北路）。",
+  "place_name": "湖北汉阳",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-fb1327e646"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-3318e785a779-07",
+  "heritage_id": "HER-3318e785a779",
+  "event_date_start": "1937",
+  "event_date_end": "1945",
+  "date_precision": "approximate",
+  "event_type": "迁建",
+  "title": "抗战时期西迁重庆",
+  "description": "抗战时期，汉阳铁厂大批人员及设备西迁重庆，成为重庆钢铁公司的主要组成部分。",
+  "place_name": "湖北汉阳→重庆",
+  "related_orgs": [
+   "重庆钢铁公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-fb1327e646"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "来源仅表述为“抗战时期”，起止年份取抗战通期。"
+ },
+ {
+  "event_id": "EVT-3318e785a779-08",
+  "heritage_id": "HER-3318e785a779",
+  "event_date_start": "1949",
+  "event_date_end": null,
+  "date_precision": "approximate",
+  "event_type": "合并重组",
+  "title": "留汉产业并入武钢",
+  "description": "中华人民共和国成立后，汉阳铁厂留在武汉的产业成为武汉钢铁公司的一部分。",
+  "place_name": "湖北武汉",
+  "related_orgs": [
+   "武汉钢铁公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-fb1327e646"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "来源仅表述为“中华人民共和国成立后”。"
  },
  {
   "event_id": "EVT-3318e785a779-R1",
@@ -4066,6 +4544,180 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-43df0a751fdc-01",
+  "heritage_id": "HER-43df0a751fdc",
+  "event_date_start": "1897",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "卢保铁路卢沟桥机厂创建",
+  "description": "1897年清政府修建卢保铁路时建卢沟桥机厂，由比利时工程人员修建，为二七厂前身",
+  "place_name": "北京市丰台区卢沟桥",
+  "related_orgs": [
+   "邮传部卢保铁路卢沟桥机厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-519afff1ff",
+   "src-web-ad820b60cf",
+   "src-web-2cf9512007",
+   "src-web-8cd7cfa872"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-43df0a751fdc-02",
+  "heritage_id": "HER-43df0a751fdc",
+  "event_date_start": "1900",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "迁建",
+  "title": "迁建长辛店",
+  "description": "1900年卢沟桥机厂迁到长辛店，改称长辛店铁路机厂；另一记载为1901年毁于战火后由法比人员迁至长辛店三合庄，成立邮传部京汉铁路长辛店机厂",
+  "place_name": "北京市丰台区长辛店",
+  "related_orgs": [
+   "京汉铁路长辛店机厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-ad820b60cf",
+   "src-web-8cd7cfa872",
+   "src-web-519afff1ff",
+   "src-web-1d5d1ed483"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "迁建年份一说1900年（丰台区政府、百度百科），一说1901年（人民日报、维基百科）"
+ },
+ {
+  "event_id": "EVT-43df0a751fdc-03",
+  "heritage_id": "HER-43df0a751fdc",
+  "event_date_start": "1921-05-01",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "工人运动",
+  "title": "长辛店铁路工人会成立",
+  "description": "1921年5月1日长辛店铁路工人会宣告成立，为中国共产党领导下最早的产业工会之一；李大钊等曾在此向工人传播革命理念",
+  "place_name": "北京市丰台区长辛店",
+  "related_orgs": [
+   "长辛店铁路工人会",
+   "长辛店劳动补习学校"
+  ],
+  "related_people": [
+   "李大钊",
+   "邓中夏"
+  ],
+  "source_ids": [
+   "src-web-519afff1ff"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-43df0a751fdc-04",
+  "heritage_id": "HER-43df0a751fdc",
+  "event_date_start": "1923",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "工人运动",
+  "title": "京汉铁路工人大罢工",
+  "description": "1923年京汉铁路工人大罢工（二七大罢工）爆发，长辛店工人挺身而出；毛泽东曾评价中国工人运动是从长辛店铁路工厂开始的",
+  "place_name": "北京市丰台区长辛店",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-519afff1ff",
+   "src-web-ad820b60cf",
+   "src-web-6b031f4a8a"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-43df0a751fdc-05",
+  "heritage_id": "HER-43df0a751fdc",
+  "event_date_start": "1958",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "造出新中国第一台内燃机车",
+  "description": "1958年全厂职工用88天试制成功新中国第一台内燃机车，获新中国火车头美誉",
+  "place_name": "北京市丰台区长辛店",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-519afff1ff",
+   "src-web-ad820b60cf"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-43df0a751fdc-06",
+  "heritage_id": "HER-43df0a751fdc",
+  "event_date_start": "1966",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "正式命名二七",
+  "description": "1966年工厂正式以二七命名，为（铁道部）北京二七机车车辆工厂",
+  "place_name": "北京市丰台区长辛店",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-519afff1ff",
+   "src-web-ad820b60cf"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-43df0a751fdc-07",
+  "heritage_id": "HER-43df0a751fdc",
+  "event_date_start": "2018-03",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "停产",
+  "title": "老厂区停产转型",
+  "description": "2018年3月老厂区宣告停产转型；同年8月与国家体育总局签约建设国家冰雪运动训练科研基地",
+  "place_name": "北京市丰台区长辛店",
+  "related_orgs": [
+   "国家体育总局"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-ad820b60cf"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-43df0a751fdc-08",
+  "heritage_id": "HER-43df0a751fdc",
+  "event_date_start": "2019-10-18",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "博物馆园区再利用",
+  "title": "二七厂1897科创城开园",
+  "description": "2019年10月18日老厂区以二七厂1897科创城正式开园",
+  "place_name": "北京市丰台区长辛店杨公庄路1号",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-ad820b60cf"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-43df0a751fdc-R7",
@@ -6579,6 +7231,168 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-6de083a1e054-01",
+  "heritage_id": "HER-6de083a1e054",
+  "event_date_start": "1952",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "动工兴建（重庆507电力厂）",
+  "description": "1952年电厂动工建设，时称重庆507电力厂，为全国一五计划重点工程、苏联援建156项重点工程之一",
+  "place_name": "重庆市九龙坡区黄桷坪",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-a16ba2403f",
+   "src-web-544a8b5ef2"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "中新网重庆报道称1952年11月16日动工（页面编码部分乱码）"
+ },
+ {
+  "event_id": "EVT-6de083a1e054-02",
+  "heritage_id": "HER-6de083a1e054",
+  "event_date_start": "1954-04-20",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "投产",
+  "title": "首台机组发电",
+  "description": "1954年4月20日举行发电开车庆典大会，时任西南军政委员会副主席贺龙出席并剪彩，为西南地区首座自动化火力发电厂",
+  "place_name": "重庆市九龙坡区黄桷坪",
+  "related_orgs": [],
+  "related_people": [
+   "贺龙"
+  ],
+  "source_ids": [
+   "src-web-a16ba2403f",
+   "src-web-544a8b5ef2"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-6de083a1e054-04",
+  "heritage_id": "HER-6de083a1e054",
+  "event_date_start": "1980",
+  "event_date_end": null,
+  "date_precision": "decade",
+  "event_type": "扩建",
+  "title": "240米烟囱建成",
+  "description": "上世纪80至90年代建成240米高烟囱，被称为重庆烟囱王，成为黄桷坪地标",
+  "place_name": "重庆市九龙坡区黄桷坪",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-a16ba2403f"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-6de083a1e054-03",
+  "heritage_id": "HER-6de083a1e054",
+  "event_date_start": "1985",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "扩建",
+  "title": "成为西南最大火电厂",
+  "description": "先后建成8台1.2万千瓦、4台5万千瓦机组，1985年装机达69.6万千瓦，为当时西南地区最大火力发电厂，后总装机最高达80万千瓦",
+  "place_name": "重庆市九龙坡区黄桷坪",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-a16ba2403f",
+   "src-web-544a8b5ef2"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-6de083a1e054-05",
+  "heritage_id": "HER-6de083a1e054",
+  "event_date_start": "2014",
+  "event_date_end": "2015",
+  "date_precision": "year",
+  "event_type": "停产",
+  "title": "老厂机组关停",
+  "description": "为落实节能减排与重庆蓝天行动，两台22万千瓦机组分别于2014年、2015年关停，老厂结束发电使命",
+  "place_name": "重庆市九龙坡区黄桷坪",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-544a8b5ef2",
+   "src-web-a16ba2403f"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-6de083a1e054-06",
+  "heritage_id": "HER-6de083a1e054",
+  "event_date_start": "2016-10-18",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "迁建",
+  "title": "万盛环保迁建开工",
+  "description": "2016年在万盛经开区迁建2台66万千瓦超超临界机组，10月18日主厂房第一罐混凝土浇筑、项目开工",
+  "place_name": "重庆市万盛经开区",
+  "related_orgs": [
+   "国能重庆电厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-544a8b5ef2"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-6de083a1e054-07",
+  "heritage_id": "HER-6de083a1e054",
+  "event_date_start": "2020",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "博物馆园区再利用",
+  "title": "重庆美术公园奠基",
+  "description": "2020年5月重庆美术公园在老厂区奠基，电厂旧址拟以工业博物馆、烟囱为核心打造艺术区",
+  "place_name": "重庆市九龙坡区黄桷坪",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-a16ba2403f"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-6de083a1e054-08",
+  "heritage_id": "HER-6de083a1e054",
+  "event_date_start": "2023-05-31",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "投产",
+  "title": "迁建新厂全面投产",
+  "description": "迁建新厂1号机组2022年12月31日投运，2号机组2023年5月31日投运，国能重庆电厂全面投产发电",
+  "place_name": "重庆市万盛经开区",
+  "related_orgs": [
+   "国能重庆电厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-544a8b5ef2"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-6de083a1e054-R7",
@@ -10051,6 +10865,173 @@
   "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
  },
  {
+  "event_id": "EVT-b8b3f9e78d97-01",
+  "heritage_id": "HER-b8b3f9e78d97",
+  "event_date_start": "1975-02-17",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "勘探开发",
+  "title": "任4井开钻",
+  "description": "1975年2月17日大港油田钻井二部3269钻井队在任丘境内开钻任4井",
+  "place_name": "河北省任丘市",
+  "related_orgs": [
+   "大港油田钻井二部3269钻井队"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-591269ae1f"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b8b3f9e78d97-02",
+  "heritage_id": "HER-b8b3f9e78d97",
+  "event_date_start": "1975-07-03",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "投产",
+  "title": "任4井喜喷高产油流",
+  "description": "1975年7月3日任4井经试油、酸化后获日产1014吨高产油流，宣告任丘古潜山油田诞生，结束河北省不产石油的历史",
+  "place_name": "河北省任丘市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-591269ae1f",
+   "src-web-733cc6e985",
+   "src-web-1d479417e2"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b8b3f9e78d97-03",
+  "heritage_id": "HER-b8b3f9e78d97",
+  "event_date_start": "1975-10-16",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "命名",
+  "title": "康世恩提议定名任丘油田",
+  "description": "1975年10月16日国务院副总理康世恩提议将油田定名为任丘油田",
+  "place_name": "河北省任丘市",
+  "related_orgs": [],
+  "related_people": [
+   "康世恩"
+  ],
+  "source_ids": [
+   "src-web-591269ae1f"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b8b3f9e78d97-04",
+  "heritage_id": "HER-b8b3f9e78d97",
+  "event_date_start": "1976",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "开发会战",
+  "title": "华北石油会战",
+  "description": "1976年1月30日国务院批准冀中石油会战报告，成立华北石油会战指挥部，全国石油队伍汇聚冀中开发任丘油田",
+  "place_name": "河北省任丘市",
+  "related_orgs": [
+   "华北石油会战指挥部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-733cc6e985",
+   "src-web-3e1016d6ad"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "中国日报网载1976年3月指挥部成立；维基百科作1976年1月成立"
+ },
+ {
+  "event_id": "EVT-b8b3f9e78d97-05",
+  "heritage_id": "HER-b8b3f9e78d97",
+  "event_date_start": "1976",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "任九井创国内初产最高纪录",
+  "description": "会战中任九井初产达5435吨，至今仍是我国石油工业史上初产量最高的油井",
+  "place_name": "河北省任丘市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-1d479417e2"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "完钻时间按会战初期（1976年）背景推定，来源未直接给出日期"
+ },
+ {
+  "event_id": "EVT-b8b3f9e78d97-06",
+  "heritage_id": "HER-b8b3f9e78d97",
+  "event_date_start": "1981",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "更名华北石油管理局",
+  "description": "1981年6月华北石油会战指挥部更名为华北石油管理局",
+  "place_name": "河北省任丘市",
+  "related_orgs": [
+   "华北石油管理局"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-733cc6e985"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b8b3f9e78d97-07",
+  "heritage_id": "HER-b8b3f9e78d97",
+  "event_date_start": "1999",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "重组分立",
+  "description": "1999年10月重组分立为华北石油管理局和华北油田公司",
+  "place_name": "河北省任丘市",
+  "related_orgs": [
+   "华北油田公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-733cc6e985"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-b8b3f9e78d97-08",
+  "heritage_id": "HER-b8b3f9e78d97",
+  "event_date_start": "2008",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "重组整合为华北油田分公司",
+  "description": "2008年2月重组整合为中国石油天然气股份有限公司华北油田分公司",
+  "place_name": "河北省任丘市",
+  "related_orgs": [
+   "中国石油华北油田分公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-733cc6e985"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
   "event_id": "EVT-b8b3f9e78d97-R6",
   "heritage_id": "HER-b8b3f9e78d97",
   "event_date_start": "2024-10-23",
@@ -10240,6 +11221,66 @@
   "notes": "成文2021-11-30，发布2021-12-13。"
  },
  {
+  "event_id": "EVT-bfb5cc926eb8-02",
+  "heritage_id": "HER-bfb5cc926eb8",
+  "event_date_start": "1522",
+  "event_date_end": "1566",
+  "date_precision": "approximate",
+  "event_type": "产品突破",
+  "title": "芦台玉砂名列贡盐",
+  "description": "明嘉靖年间所产原盐被誉为芦台玉砂，名列贡盐",
+  "place_name": "天津市滨海新区汉沽",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-da33255464",
+   "src-web-77037505ba"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "年份按嘉靖年间（1522-1566）换算"
+ },
+ {
+  "event_id": "EVT-bfb5cc926eb8-03",
+  "heritage_id": "HER-bfb5cc926eb8",
+  "event_date_start": "1622",
+  "event_date_end": null,
+  "date_precision": "approximate",
+  "event_type": "技术引进",
+  "title": "废煎改晒、开滩晒盐",
+  "description": "清初芦台场大面积废煎改晒，采用纳潮、制卤、结晶、收盐集坨的滩晒生产模式",
+  "place_name": "天津市滨海新区汉沽",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-da33255464"
+  ],
+  "confidence": "low",
+  "disputed": false,
+  "notes": "原文作清康熙初年（1622年），纪年换算存疑（康熙元年应为1662年）"
+ },
+ {
+  "event_id": "EVT-bfb5cc926eb8-04",
+  "heritage_id": "HER-bfb5cc926eb8",
+  "event_date_start": "1955",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "开始生产精制食用盐",
+  "description": "1955年起采用化盐法生产精制食用盐，是国内较早生产精制食用盐的企业之一",
+  "place_name": "天津市滨海新区汉沽",
+  "related_orgs": [
+   "天津长芦汉沽盐场有限责任公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-d6e85aa980"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
   "event_id": "EVT-bfb5cc926eb8-R6",
   "heritage_id": "HER-bfb5cc926eb8",
   "event_date_start": "2024-10-23",
@@ -10259,6 +11300,32 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-bfb5cc926eb8-01",
+  "heritage_id": "HER-bfb5cc926eb8",
+  "event_date_start": "925",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "后唐置芦台场",
+  "description": "五代后唐同光三年（925年）置芦台场，为汉沽盐场前身，所产海盐芦台玉砂后为明清贡盐",
+  "place_name": "天津市滨海新区汉沽",
+  "related_orgs": [
+   "芦台场"
+  ],
+  "related_people": [
+   "赵德钧"
+  ],
+  "source_ids": [
+   "src-web-65f468563a",
+   "src-web-77037505ba",
+   "src-web-5c6721e3df",
+   "src-web-330672ec5c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "赵德钧建场细节据天津市社科联盐业展览馆介绍页检索摘要"
  },
  {
   "event_id": "EVT-c0c15785e862-R5",
@@ -10343,6 +11410,165 @@
   "confidence": "high",
   "disputed": true,
   "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-c5049a9ad151-03",
+  "heritage_id": "HER-c5049a9ad151",
+  "event_date_start": "1936",
+  "event_date_end": "1943",
+  "date_precision": "approximate",
+  "event_type": "战争影响",
+  "title": "劳工大规模死亡",
+  "description": "日伪奴役下大量劳工死亡，永吉县警务科长供认1936至1943年间共5110名劳工死亡，遗骸弃于万人坑（今吉林市劳工纪念馆）",
+  "place_name": "吉林省吉林市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-094ef9b040"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "新华社等报道另有6000多名劳工葬身于此之说"
+ },
+ {
+  "event_id": "EVT-c5049a9ad151-01",
+  "heritage_id": "HER-c5049a9ad151",
+  "event_date_start": "1937-11-06",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "创建/筹建",
+  "title": "日伪时期动工兴建",
+  "description": "1937年11月6日丰满发电所全面破土动工，由伪满水力电气建设局主持修建，被誉为亚洲第一工程",
+  "place_name": "吉林省吉林市松花江上",
+  "related_orgs": [
+   "伪满洲国水力电气建设局"
+  ],
+  "related_people": [
+   "本间德雄",
+   "内藤多仲"
+  ],
+  "source_ids": [
+   "src-web-094ef9b040"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "本间德雄指导大坝设计，内藤多仲负责厂房设计"
+ },
+ {
+  "event_id": "EVT-c5049a9ad151-02",
+  "heritage_id": "HER-c5049a9ad151",
+  "event_date_start": "1943-03-25",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "投产",
+  "title": "首台机组发电",
+  "description": "1943年3月25日1号机组开始发电，4月1日以154千伏向新京（长春）送电",
+  "place_name": "吉林省吉林市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-094ef9b040"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-c5049a9ad151-04",
+  "heritage_id": "HER-c5049a9ad151",
+  "event_date_start": "1945",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "战争影响",
+  "title": "苏军拆运发电设备",
+  "description": "1945年苏联军队拆走电站大部分发电设备",
+  "place_name": "吉林省吉林市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-094ef9b040"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-c5049a9ad151-05",
+  "heritage_id": "HER-c5049a9ad151",
+  "event_date_start": "1953-04-27",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "技术引进",
+  "title": "苏联援助下续建",
+  "description": "1950-1951年苏联设计院编制366号设计书作为续建技术设计；1953年4月27日7号机组投产，为中国第一台自行安装的大型水轮发电机组",
+  "place_name": "吉林省吉林市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-094ef9b040"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-c5049a9ad151-06",
+  "heritage_id": "HER-c5049a9ad151",
+  "event_date_start": "1960",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "扩建",
+  "title": "一期工程全部竣工",
+  "description": "1960年8月3号机组并网，丰满水电站一期工程全部竣工",
+  "place_name": "吉林省吉林市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-094ef9b040"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-c5049a9ad151-07",
+  "heritage_id": "HER-c5049a9ad151",
+  "event_date_start": "2012-10-29",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "迁建",
+  "title": "重建工程开工",
+  "description": "2012年10月11日重建工程获国家发改委核准，10月29日举行开工仪式，在原大坝下游120米处新建碾压混凝土重力坝",
+  "place_name": "吉林省吉林市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-094ef9b040"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-c5049a9ad151-08",
+  "heritage_id": "HER-c5049a9ad151",
+  "event_date_start": "2020-09-25",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "投产",
+  "title": "重建工程全面投产",
+  "description": "2019年9月20日首台机组投产，2020年9月25日最后一台（6号）机组投产，重建工程全面投入运行，总装机148万千瓦",
+  "place_name": "吉林省吉林市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-094ef9b040",
+   "src-web-74d00243bc",
+   "src-web-22fefaeb62"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-c5049a9ad151-R7",
