@@ -276,10 +276,14 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1958,
+  "production_start_year": 1958,
+  "historical_period": [
+   "新中国初期",
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "current_use": "原厂区改造为陶溪川文创街区，完整保留22栋老厂房与煤烧圆窑包、隧道窑等四代窑炉，设有陶瓷工业遗产博物馆、美术馆和青年创客空间。",
   "longitude": 117.20920600367823,
   "latitude": 29.291687504183933,
   "coordinate_system": "WGS84",
@@ -302,11 +306,11 @@
   "source_ids": [
    "src-batch1"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
-  "closure_year": null
+  "founded_year_precision": "year",
+  "closure_year": 1995
  },
  {
   "heritage_id": "HER-ef75e812b2b4",
@@ -350,10 +354,16 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1907,
+  "production_start_year": 1960,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期",
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "current_use": "西华山国家矿山公园建设中（废弃矿山与尾矿库复绿、钨矿文化主题旅游）；破产重组后的江西西华山钨业有限公司隶属江钨集团。",
   "longitude": 114.356825368112,
   "latitude": 25.396094966712536,
   "coordinate_system": "WGS84",
@@ -376,11 +386,11 @@
   "source_ids": [
    "src-batch1"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
-  "closure_year": null
+  "founded_year_precision": "year",
+  "closure_year": 2002
  },
  {
   "heritage_id": "HER-b652f983bcaa",
@@ -423,10 +433,16 @@
    "name_hit": false,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1905,
+  "production_start_year": 1905,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期",
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "current_use": "本溪（溪湖）煤铁工业遗址博览园为红色旅游景区，含本钢一铁厂旧址、彩屯煤矿竖井等9处不可移动遗址；当地拟建本溪湖工业遗产群博物馆。",
   "longitude": 123.75885383200321,
   "latitude": 41.328492618297105,
   "coordinate_system": "WGS84",
@@ -449,11 +465,11 @@
   "source_ids": [
    "src-batch1"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
-  "closure_year": null
+  "founded_year_precision": "year",
+  "closure_year": 2008
  },
  {
   "heritage_id": "HER-484598c6dd59",
@@ -496,10 +512,13 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1938,
+  "production_start_year": 1939,
+  "historical_period": [
+   "民国时期",
+   "新中国初期"
+  ],
+  "current_use": "长乐塬抗战工业遗址公园：窑洞工厂、福新申新大楼、乐农别墅、薄壳车间等遗存开放参观，为全国重点文物保护单位和爱国主义教育基地。",
   "longitude": 107.14490597769839,
   "latitude": 34.37348027495813,
   "coordinate_system": "WGS84",
@@ -522,10 +541,10 @@
   "source_ids": [
    "src-batch1"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {
@@ -644,10 +663,14 @@
    "name_hit": false,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1890,
+  "production_start_year": 1894,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期"
+  ],
+  "current_use": "汉阳铁厂工业遗址园区（约400亩）：“1890拾光”艺术馆、张之洞与武汉博物馆（2018年3月开园）等已开放；2020年设武汉1890工业遗址研究院统筹改造。",
   "longitude": 120.4121848536767,
   "latitude": 30.870862247970244,
   "coordinate_system": "WGS84",
@@ -670,10 +693,10 @@
   "source_ids": [
    "src-batch1"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {

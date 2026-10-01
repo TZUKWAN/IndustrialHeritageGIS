@@ -435,6 +435,298 @@
   "inferred": false
  },
  {
+  "relation_id": "REL-7ff3d9d08333-01",
+  "source_entity": "HER-7ff3d9d08333",
+  "relation_type": "企业谱系",
+  "target_entity": "建国瓷厂（第一分厂）",
+  "start_date": null,
+  "end_date": null,
+  "description": "宇宙瓷厂前身为建国瓷厂第一分厂。",
+  "source_ids": [
+   "src-web-3656bcb398",
+   "src-web-0dc404e791"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-7ff3d9d08333-02",
+  "source_entity": "HER-7ff3d9d08333",
+  "relation_type": "空间再利用",
+  "target_entity": "陶溪川文创街区（景德镇陶文旅集团）",
+  "start_date": null,
+  "end_date": null,
+  "description": "停产后宇宙瓷厂厂区被改造为陶溪川文创街区，成为国家级文化产业示范园区。",
+  "source_ids": [
+   "src-web-507299097f",
+   "src-web-e65a533efd"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-ef75e812b2b4-01",
+  "source_entity": "HER-ef75e812b2b4",
+  "relation_type": "一五计划重点工程",
+  "target_entity": "156项重点工程（苏联援助）",
+  "start_date": null,
+  "end_date": null,
+  "description": "“一五”期间西华山钨矿列为新中国156项重点工程项目之一，在前苏联援助下改建、扩建。",
+  "source_ids": [
+   "src-web-7c54bbaee3",
+   "src-web-9f3c177645"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-ef75e812b2b4-02",
+  "source_entity": "HER-ef75e812b2b4",
+  "relation_type": "配套工程",
+  "target_entity": "上犹水电站",
+  "start_date": null,
+  "end_date": null,
+  "description": "上犹水电站是西华山钨矿的供电配套工程。",
+  "source_ids": [
+   "src-web-9f3c177645"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-ef75e812b2b4-03",
+  "source_entity": "HER-ef75e812b2b4",
+  "relation_type": "企业谱系",
+  "target_entity": "江西西华山钨业有限公司（江钨集团）",
+  "start_date": null,
+  "end_date": null,
+  "description": "2002年政策性关闭破产后重组为股份制西华山钨业有限公司，隶属江钨集团。",
+  "source_ids": [
+   "src-web-7c54bbaee3",
+   "src-web-9f3c177645"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-ef75e812b2b4-04",
+  "source_entity": "HER-ef75e812b2b4",
+  "relation_type": "民国钨砂专营",
+  "target_entity": "利济公司、建兴公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "1928-1929年利济、建兴公司先后承办赣南钨砂专营，西华山为核心产区，引发矿工罢工与反包办风潮。",
+  "source_ids": [
+   "src-web-2119ef32ef"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-b652f983bcaa-01",
+  "source_entity": "HER-b652f983bcaa",
+  "relation_type": "殖民经营",
+  "target_entity": "大仓财阀（大仓组）与日本关东总督府",
+  "start_date": null,
+  "end_date": null,
+  "description": "公司由大仓财阀经关东总督府批准设立，日本在1905-1945年间长期操控并掠夺资源。",
+  "source_ids": [
+   "src-web-b2c4580398",
+   "src-web-aa3a5b4205"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-b652f983bcaa-02",
+  "source_entity": "HER-b652f983bcaa",
+  "relation_type": "设备来源",
+  "target_entity": "英国匹亚逊诺尔斯工厂及三家德国工厂",
+  "start_date": null,
+  "end_date": null,
+  "description": "一号高炉炉体设备购自英国匹亚逊诺尔斯工厂，装料卷扬机、锅炉、鼓风机和发电机分别购自三所德国工厂。",
+  "source_ids": [
+   "src-web-b2c4580398"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-b652f983bcaa-03",
+  "source_entity": "HER-b652f983bcaa",
+  "relation_type": "设备仿制",
+  "target_entity": "满铁大连沙河口工厂",
+  "start_date": null,
+  "end_date": null,
+  "description": "二号高炉（1917年建成）由满铁大连沙河口工厂按一号高炉工程图仿制。",
+  "source_ids": [
+   "src-web-b2c4580398"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-b652f983bcaa-04",
+  "source_entity": "HER-b652f983bcaa",
+  "relation_type": "企业谱系",
+  "target_entity": "本溪钢铁公司（本钢）",
+  "start_date": null,
+  "end_date": null,
+  "description": "新中国成立后公司收归国有，易名本溪钢铁公司并恢复生产。",
+  "source_ids": [
+   "src-web-b2c4580398",
+   "src-web-aa3a5b4205"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-b652f983bcaa-05",
+  "source_entity": "HER-b652f983bcaa",
+  "relation_type": "一五计划重点项目",
+  "target_entity": "彩屯煤矿竖井",
+  "start_date": null,
+  "end_date": null,
+  "description": "彩屯煤矿竖井列入“一五”计划重点项目，经4年建设成为1950年代中国大陆生产能力最高的煤矿竖井。",
+  "source_ids": [
+   "src-web-b2c4580398",
+   "src-web-aa3a5b4205"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-484598c6dd59-01",
+  "source_entity": "HER-484598c6dd59",
+  "relation_type": "企业谱系",
+  "target_entity": "申新第四纺织厂（武汉）",
+  "start_date": null,
+  "end_date": null,
+  "description": "宝鸡申新纱厂由武汉申新第四纺织厂1938年内迁组建。",
+  "source_ids": [
+   "src-web-c5eb583894",
+   "src-web-b4304dc036"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-484598c6dd59-02",
+  "source_entity": "HER-484598c6dd59",
+  "relation_type": "企业谱系",
+  "target_entity": "新秦企业有限公司→陕西第十二棉纺织厂→宝鸡大荣纺织有限公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "公私合营后历经多次改制演变至今。",
+  "source_ids": [
+   "src-web-b4304dc036",
+   "src-web-c5eb583894"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-484598c6dd59-03",
+  "source_entity": "HER-484598c6dd59",
+  "relation_type": "战时协作",
+  "target_entity": "中国工业合作协会西北区办事处",
+  "start_date": null,
+  "end_date": null,
+  "description": "申新生产的大部分棉纱直接销售给工合，并经工合西北区办事处向陕甘宁边区转运物资。",
+  "source_ids": [
+   "src-web-c5eb583894",
+   "src-web-6317089307"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-484598c6dd59-04",
+  "source_entity": "HER-484598c6dd59",
+  "relation_type": "区域带动",
+  "target_entity": "秦宝十里铺工业区",
+  "start_date": null,
+  "end_date": null,
+  "description": "以申新为代表的内迁企业带动宝鸡到1941年形成拥有200多家企业的“秦宝十里铺工业区”。",
+  "source_ids": [
+   "src-web-c5eb583894",
+   "src-web-b4304dc036"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-484598c6dd59-05",
+  "source_entity": "HER-484598c6dd59",
+  "relation_type": "抗战工业内迁",
+  "target_entity": "武汉西迁64家企业（15家迁宝鸡）",
+  "start_date": null,
+  "end_date": null,
+  "description": "在路易·艾黎等促成下，申新第四纺织厂等15家企业由武汉等地内迁宝鸡。",
+  "source_ids": [
+   "src-web-6317089307",
+   "src-web-c5eb583894"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-1d1453b43e34-01",
+  "source_entity": "HER-1d1453b43e34",
+  "relation_type": "企业谱系",
+  "target_entity": "汉冶萍煤铁厂矿有限公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "1908年汉阳铁厂、大冶铁矿、萍乡煤矿合并组成汉冶萍公司。",
+  "source_ids": [
+   "src-web-fb1327e646"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-1d1453b43e34-02",
+  "source_entity": "HER-1d1453b43e34",
+  "relation_type": "企业谱系（迁建）",
+  "target_entity": "重庆钢铁公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "抗战时期汉阳铁厂大批人员及设备西迁重庆，成为重庆钢铁公司的主要组成部分。",
+  "source_ids": [
+   "src-web-fb1327e646"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-1d1453b43e34-03",
+  "source_entity": "HER-1d1453b43e34",
+  "relation_type": "企业谱系",
+  "target_entity": "武汉钢铁公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "中华人民共和国成立后，汉阳铁厂留汉产业并入武钢。",
+  "source_ids": [
+   "src-web-fb1327e646"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-1d1453b43e34-04",
+  "source_entity": "HER-1d1453b43e34",
+  "relation_type": "产业集聚",
+  "target_entity": "汉阳兵工厂、汉阳火药厂（“汉阳十里工业长廊”）",
+  "start_date": null,
+  "end_date": null,
+  "description": "汉阳铁厂与附近建立的汉阳兵工厂、汉阳火药厂等共同形成“汉阳十里工业长廊”，迎来“汉阳造”时代。",
+  "source_ids": [
+   "src-web-d80ce7070a"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
   "relation_id": "REL-f6e0454fb02b-01",
   "source_entity": "HER-f6e0454fb02b",
   "relation_type": "行业关联",
