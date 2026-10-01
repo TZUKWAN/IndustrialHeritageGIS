@@ -1126,6 +1126,208 @@
   "inferred": false
  },
  {
+  "relation_id": "REL-2a5a17295e93-01",
+  "source_entity": "HER-2a5a17295e93",
+  "relation_type": "隶属",
+  "target_entity": "大港油田（第一采油厂）",
+  "start_date": null,
+  "end_date": null,
+  "description": "港5井位于滨海新区津歧公路与东风五路交会口以东约200米处，隶属大港油田第一采油厂。",
+  "source_ids": [
+   "src-web-eb95308a81"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-2a5a17295e93-02",
+  "source_entity": "HER-2a5a17295e93",
+  "relation_type": "命名渊源",
+  "target_entity": "大港油田",
+  "start_date": null,
+  "end_date": null,
+  "description": "港5井地处北大港构造带并率先喷出工业油流，大港油田由此得名，其发现标志大港油田诞生。",
+  "source_ids": [
+   "src-web-eb95308a81",
+   "src-web-faa8b53a83"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-2a5a17295e93-03",
+  "source_entity": "HER-2a5a17295e93",
+  "relation_type": "企业谱系",
+  "target_entity": "华北油田、渤海油田、冀东油田",
+  "start_date": null,
+  "end_date": null,
+  "description": "在大港油田的基础上，陆续诞生了华北油田、渤海油田、冀东油田。",
+  "source_ids": [
+   "src-web-0c33c5b8b0"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-1e4a089da185-01",
+  "source_entity": "HER-1e4a089da185",
+  "relation_type": "企业隶属",
+  "target_entity": "潞安矿务局（今潞安化工集团）",
+  "start_date": null,
+  "end_date": null,
+  "description": "康克清1960年曾给潞安矿务局党委写信回忆到矿慰问情景；石圪节长期为潞安矿区所属矿井，潞安矿区第一个党支部在此成立。",
+  "source_ids": [
+   "src-web-80f6e91b15",
+   "src-web-bf96911410"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-1a460fed2d5f-01",
+  "source_entity": "HER-1a460fed2d5f",
+  "relation_type": "隶属",
+  "target_entity": "龙江森工集团桦南林业局有限公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "森林铁路隶属龙江森工集团桦南林业局有限公司管理，为其核心物项。",
+  "source_ids": [
+   "src-web-26a0af14c7",
+   "src-web-f4051a071d"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-1a460fed2d5f-02",
+  "source_entity": "HER-1a460fed2d5f",
+  "relation_type": "政策影响",
+  "target_entity": "天然林保护工程（天保工程）",
+  "start_date": null,
+  "end_date": null,
+  "description": "随着天保工程实施以及木材全面停伐等因素，森林小火车退出运输历史舞台。",
+  "source_ids": [
+   "src-web-26a0af14c7",
+   "src-web-f4051a071d"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-1ad94a4eee2f-01",
+  "source_entity": "HER-1ad94a4eee2f",
+  "relation_type": "权属主体",
+  "target_entity": "江苏洋河酒厂股份有限公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "遗产位于宿迁市宿城区洋河镇洋河酒厂厂区内，核心物项由洋河酒厂保存利用；洋河酒酿造技艺为国家级非物质文化遗产。",
+  "source_ids": [
+   "src-web-781080e17b",
+   "src-web-1f65e123b4"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-d077697be2ac-01",
+  "source_entity": "HER-d077697be2ac",
+  "relation_type": "审批隶属",
+  "target_entity": "国务院国防工办（军工代号9456厂、“3691”工程）",
+  "start_date": null,
+  "end_date": null,
+  "description": "该厂为国务院国防工办按“分散、靠山、隐蔽”方针决定建设的中型军工企业，保密代号9456厂。",
+  "source_ids": [
+   "src-web-e6ad16d648"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-d077697be2ac-02",
+  "source_entity": "HER-d077697be2ac",
+  "relation_type": "迁建承接地",
+  "target_entity": "漳州市",
+  "start_date": null,
+  "end_date": null,
+  "description": "1986年起工厂总部搬迁至漳州，老红旗厂设为分厂，至1995年春搬迁结束。",
+  "source_ids": [
+   "src-web-e6ad16d648"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-d627be0ee19b-01",
+  "source_entity": "HER-d627be0ee19b",
+  "relation_type": "企业谱系",
+  "target_entity": "景德镇“十大瓷厂”",
+  "start_date": null,
+  "end_date": null,
+  "description": "为民瓷厂为新中国成立后景德镇相继组建的建国、人民、艺术、光明等“十大瓷厂”之一。",
+  "source_ids": [
+   "src-web-bd3c6048a1"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-d627be0ee19b-02",
+  "source_entity": "HER-d627be0ee19b",
+  "relation_type": "空间再利用",
+  "target_entity": "陶溪川文创街区",
+  "start_date": null,
+  "end_date": null,
+  "description": "为民瓷厂厂区纳入陶溪川文创街区，与宇宙瓷厂、陶瓷机械厂等区域一并开放运营。",
+  "source_ids": [
+   "src-web-389ce32695",
+   "src-web-020ac204fe"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-60c0bb0d831a-01",
+  "source_entity": "HER-60c0bb0d831a",
+  "relation_type": "合并来源",
+  "target_entity": "白石红军修械厂、江西省苏维埃政府修械所、红三军团修械所、东固养金山修械处、赣县田村龙头修械处",
+  "start_date": null,
+  "end_date": null,
+  "description": "官田兵工厂最初由上述修械厂、所、处等修械组织合并而成。",
+  "source_ids": [
+   "src-web-6d8887544c"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-60c0bb0d831a-02",
+  "source_entity": "HER-60c0bb0d831a",
+  "relation_type": "设备来源",
+  "target_entity": "岩前战斗与漳州战役缴获（含张贞部修械厂设备）",
+  "start_date": null,
+  "end_date": null,
+  "description": "1932年攻克岩前缴获敌兵工厂和造币厂机器设备，攻克漳州后又缴获张贞部修械厂车床、发电机等，充实生产。",
+  "source_ids": [
+   "src-web-6d8887544c"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-60c0bb0d831a-03",
+  "source_entity": "HER-60c0bb0d831a",
+  "relation_type": "企业谱系延续",
+  "target_entity": "吴起镇总供给部兵工厂（陕甘宁边区机器厂）",
+  "start_date": null,
+  "end_date": null,
+  "description": "原官田兵工厂员工随长征到陕北，参与组建总供给部兵工厂，红色军工事业得以延续。",
+  "source_ids": [
+   "src-web-6d8887544c"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
   "relation_id": "REL-0656fe1c09c5-01",
   "source_entity": "HER-0656fe1c09c5",
   "relation_type": "技术引进/国家引进项目",

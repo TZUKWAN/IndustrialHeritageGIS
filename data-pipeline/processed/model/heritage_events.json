@@ -707,6 +707,115 @@
   "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
  },
  {
+  "event_id": "EVT-1a460fed2d5f-01",
+  "heritage_id": "HER-1a460fed2d5f",
+  "event_date_start": "1952",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "桦南林业局森林铁路始建",
+  "description": "龙江森工桦南林业局森林铁路始建；百度百科词条载1952年9月动工，最初修建局址贮木场至三道沟36公里线路。",
+  "place_name": "黑龙江省佳木斯市桦南县",
+  "related_orgs": [
+   "桦南林业局"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-26a0af14c7",
+   "src-web-f4051a071d",
+   "src-web-b617049613"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "1952年9月及首段36公里细节来自百度百科检索摘要（未打开原页）"
+ },
+ {
+  "event_id": "EVT-1a460fed2d5f-02",
+  "heritage_id": "HER-1a460fed2d5f",
+  "event_date_start": "1953",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产",
+  "title": "竣工投入木材运输",
+  "description": "森林铁路竣工投入木材运输（百科载9月竣工）；1953—1985年累计运材8364018立方米，小火车长期承担木材、煤炭、物资与旅客运输。",
+  "place_name": "黑龙江省完达山林区",
+  "related_orgs": [
+   "桦南林业局"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f4051a071d",
+   "src-web-b617049613"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-1a460fed2d5f-03",
+  "heritage_id": "HER-1a460fed2d5f",
+  "event_date_start": "2010",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "停产/停运（异说）",
+  "title": "森林铁路停运（2010年说）",
+  "description": "关注森林网转载文章载：2010年2月5日森林小火车熄灭炉膛，退出木材运输历史舞台。",
+  "place_name": "黑龙江省桦南县",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-a38ade6a9f"
+  ],
+  "confidence": "low",
+  "disputed": true,
+  "notes": "与桦南县政府（2012年停止运营）及桦南林业局（2012年4月全面停止森运）记载冲突"
+ },
+ {
+  "event_id": "EVT-1a460fed2d5f-04",
+  "heritage_id": "HER-1a460fed2d5f",
+  "event_date_start": "2012",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "停产/停运",
+  "title": "全面停止森运（2012年说）",
+  "description": "桦南县政府载铁路于2012年停止运营；桦南林业局载2012年4月全面停止森运，此后完好保存6台28吨蒸汽小火车。",
+  "place_name": "黑龙江省桦南县",
+  "related_orgs": [
+   "桦南林业局有限公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f4051a071d",
+   "src-web-6405cc9923"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "另有2010年2月停运一说（见上一事件）"
+ },
+ {
+  "event_id": "EVT-1a460fed2d5f-05",
+  "heritage_id": "HER-1a460fed2d5f",
+  "event_date_start": "2017",
+  "event_date_end": "2018",
+  "date_precision": "year",
+  "event_type": "保护利用/再利用",
+  "title": "转型森林蒸汽旅游",
+  "description": "2017年起依托蒸汽火车资源转型旅游，打造桦南—向阳湖13.14公里森铁线路；2018年10月旅游区运营并获评国家3A级景区。",
+  "place_name": "黑龙江省桦南县",
+  "related_orgs": [
+   "桦南林业局有限公司",
+   "桦南县人民政府"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f4051a071d",
+   "src-web-6405cc9923"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
   "event_id": "EVT-1a460fed2d5f-R3",
   "heritage_id": "HER-1a460fed2d5f",
   "event_date_start": "2019-12-19",
@@ -726,6 +835,27 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-1a460fed2d5f-06",
+  "heritage_id": "HER-1a460fed2d5f",
+  "event_date_start": "2020-10-31",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "旅游升级",
+  "title": "晋级国家4A级旅游景区",
+  "description": "桦南林区蒸汽火车旅游区达到国家4A级旅游景区等级标准成功晋级，并被黑龙江省确定为影视剧拍摄基地。",
+  "place_name": "黑龙江省桦南县",
+  "related_orgs": [
+   "桦南林业局有限公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f4051a071d"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-1a7f427bdf6a-R2",
@@ -768,6 +898,145 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-1ad94a4eee2f-01",
+  "heritage_id": "HER-1ad94a4eee2f",
+  "event_date_start": "1573",
+  "event_date_end": "1620",
+  "date_precision": "approximate",
+  "event_type": "创建/窖池始建",
+  "title": "明代万历年间老窖池开凿",
+  "description": "现存明清老窖池群2045条，其中明朝万历年间老窖池62条、窖龄400余年，为酿酒发酵主要设备，池壁采用竹签挂泥方式。",
+  "place_name": "江苏省宿迁市宿城区洋河镇",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-781080e17b"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "万历年间（1573—1620）为按年号推算的区间"
+ },
+ {
+  "event_id": "EVT-1ad94a4eee2f-02",
+  "heritage_id": "HER-1ad94a4eee2f",
+  "event_date_start": "1875",
+  "event_date_end": "1908",
+  "date_precision": "approximate",
+  "event_type": "扩建/窖池续建",
+  "title": "清代光绪年间老窖池开凿",
+  "description": "清朝光绪年间老窖池113条、窖龄100余年；窖泥历经数百年自然驯化，富集大量有益酿酒微生物。",
+  "place_name": "江苏省宿迁市宿城区洋河镇",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-781080e17b"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "光绪年间（1875—1908）为按年号推算的区间"
+ },
+ {
+  "event_id": "EVT-1ad94a4eee2f-03",
+  "heritage_id": "HER-1ad94a4eee2f",
+  "event_date_start": "1915",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "巴拿马万国博览会获金质奖章",
+  "description": "1915年洋河大曲获全国名酒展览会一等奖，并获巴拿马万国博览会金质奖章；1923年再获全国物品展览会一等奖及南洋国际名酒赛会“国际名酒”称号。",
+  "place_name": "江苏省泗阳县洋河镇（时属）",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-781080e17b"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-1ad94a4eee2f-04",
+  "heritage_id": "HER-1ad94a4eee2f",
+  "event_date_start": "1949",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/公私合并",
+  "title": "国营洋河槽坊组建",
+  "description": "1949年7月淮海贸易三分公司洋河槽坊在多家私营槽坊基础上组建；1957年划归泗阳县人民政府管理。",
+  "place_name": "江苏省泗阳县洋河镇（时属）",
+  "related_orgs": [
+   "淮海贸易三分公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-781080e17b"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "老酿酒厂房始建于20世纪40年代，形成40—50年代木梁结构与60—70年代水泥横梁结构两大建筑群"
+ },
+ {
+  "event_id": "EVT-1ad94a4eee2f-07",
+  "heritage_id": "HER-1ad94a4eee2f",
+  "event_date_start": "1950",
+  "event_date_end": "1989",
+  "date_precision": "approximate",
+  "event_type": "技术引进/创新",
+  "title": "储酒与人工老窖技术创新",
+  "description": "20世纪50—80年代洋河首创100吨大容器储酒池、多格分级存储与人工老窖技术，并研制38度、28度、18度低度酒系列，填补国内低度酒空白。",
+  "place_name": "江苏省宿迁市洋河酒厂",
+  "related_orgs": [
+   "洋河酒厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-781080e17b"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-1ad94a4eee2f-05",
+  "heritage_id": "HER-1ad94a4eee2f",
+  "event_date_start": "1975",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "扩建/基建",
+  "title": "地下酒窖建成",
+  "description": "地下酒窖建成，平面呈“h”形，建筑面积4571平方米；此前1960年建一号酒库、1966—1967年建二号酒库，窖内存有手工老陶坛3800只。",
+  "place_name": "江苏省宿迁市洋河酒厂",
+  "related_orgs": [
+   "洋河酒厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-781080e17b"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-1ad94a4eee2f-06",
+  "heritage_id": "HER-1ad94a4eee2f",
+  "event_date_start": "1979",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "跻身中国八大名酒",
+  "description": "第三届全国评酒会上洋河大曲以“甜绵软净香”独特风格跻身“中国八大名酒”，此后蝉联“中国名酒”三连冠。",
+  "place_name": "江苏省宿迁市洋河酒厂",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-781080e17b"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-1ad94a4eee2f-R3",
@@ -1065,6 +1334,187 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-1e4a089da185-01",
+  "heritage_id": "HER-1e4a089da185",
+  "event_date_start": "1926",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/投产",
+  "title": "石圪节煤矿建矿投产",
+  "description": "石圪节煤矿1926年正式投产，开采历史可追溯至1897年；同年煤矿工救会成立，工人斗争此后逐步走向有组织阶段。",
+  "place_name": "山西省长治市",
+  "related_orgs": [],
+  "related_people": [
+   "李金榜"
+  ],
+  "source_ids": [
+   "src-web-bf96911410",
+   "src-web-80f6e91b15"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-1e4a089da185-02",
+  "heritage_id": "HER-1e4a089da185",
+  "event_date_start": "1938",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "工人运动",
+  "title": "工人抗日救国会成立与大罢工",
+  "description": "1938年5月石圪节工人抗日救国会成立；6月下旬工救会领导300余名矿工举行7天大罢工获胜，系该矿首次有组织罢工；朱德派康克清率工作组到矿慰问。",
+  "place_name": "山西省长治市石圪节煤矿",
+  "related_orgs": [
+   "八路军总部",
+   "石圪节工人抗日救国会"
+  ],
+  "related_people": [
+   "朱德",
+   "康克清"
+  ],
+  "source_ids": [
+   "src-web-80f6e91b15",
+   "src-web-bf96911410"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "随后成立潞安矿区第一个党支部——石圪节煤矿党支部（山西日报）"
+ },
+ {
+  "event_id": "EVT-1e4a089da185-03",
+  "heritage_id": "HER-1e4a089da185",
+  "event_date_start": "1943-01-15",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "战争影响",
+  "title": "日军强占石圪节煤矿",
+  "description": "侵华日军正式派兵占据石圪节煤矿，挂“山西煤矿黄沙岭采炭所”牌子，架设电网、修筑碉堡，企图“以战养战”，矿工处境极为艰苦。",
+  "place_name": "山西省长治市石圪节煤矿",
+  "related_orgs": [
+   "侵华日军"
+  ],
+  "related_people": [
+   "李金榜"
+  ],
+  "source_ids": [
+   "src-web-80f6e91b15"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-1e4a089da185-04",
+  "heritage_id": "HER-1e4a089da185",
+  "event_date_start": "1945-08-18",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "战争影响/解放",
+  "title": "矿工武装起义解放矿山",
+  "description": "矿工配合八路军黎城独立营于8月17日夜起义，18日凌晨解放矿山，粉碎日军炸毁矿井企图；矿山成为中国共产党接管的第一座煤矿，后建八一八文化广场与解放纪念碑纪念。",
+  "place_name": "山西省长治市石圪节煤矿",
+  "related_orgs": [
+   "八路军黎城独立营",
+   "中共潞城县委收复矿山指挥部",
+   "石圪节矿党支部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-80f6e91b15",
+   "src-web-bf96911410"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-1e4a089da185-05",
+  "heritage_id": "HER-1e4a089da185",
+  "event_date_start": "1949",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "合并重组/更名",
+  "title": "定名“潞安煤矿”",
+  "description": "矿山先后由边区工矿处、太行四分区工商局接管并更名“解放煤矿”；1949年7月定名“潞安煤矿”直属华北公营企业部，建国后改属中央燃料工业部。",
+  "place_name": "山西省长治市",
+  "related_orgs": [
+   "华北公营企业部",
+   "中央燃料工业部华北煤矿管理局"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-80f6e91b15"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-1e4a089da185-06",
+  "heritage_id": "HER-1e4a089da185",
+  "event_date_start": "1963",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "荣誉/技术改造",
+  "title": "被树为全国工交战线勤俭办企业典范",
+  "description": "解放后先后进行5次大技术改造，由年产万吨小煤窑建成年产100多万吨新矿山；1963年以效率最高、成本最低被树为全国工交战线勤俭办企业的典范。",
+  "place_name": "山西省长治市石圪节煤矿",
+  "related_orgs": [],
+  "related_people": [
+   "郝晓明",
+   "屈天富"
+  ],
+  "source_ids": [
+   "src-web-80f6e91b15",
+   "src-web-bf96911410"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "“艰苦奋斗、勤俭办矿”的石圪节精神由此闻名全国煤炭界"
+ },
+ {
+  "event_id": "EVT-1e4a089da185-07",
+  "heritage_id": "HER-1e4a089da185",
+  "event_date_start": "1983",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "技术引进/现代化改造",
+  "title": "建成全国首批现代化矿井",
+  "description": "入选国家首批现代化样板矿建设试点，仅用半套综采支架建成全国首批6座现代化矿井之一，被誉为“中国煤矿一枝花”。",
+  "place_name": "山西省长治市石圪节煤矿",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-80f6e91b15"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-1e4a089da185-08",
+  "heritage_id": "HER-1e4a089da185",
+  "event_date_start": "2016-10-13",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "停产/关闭",
+  "title": "去产能关井",
+  "description": "2016年10月13日石圪节煤矿正式关井，系山西省第一座去产能关闭矿井；10月20日初步通过关闭验收，此后矿山转型为矿山公园与文化地标。",
+  "place_name": "山西省长治市",
+  "related_orgs": [
+   "潞安集团"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-80f6e91b15",
+   "src-web-bf96911410"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-1e4a089da185-R3",
@@ -1686,6 +2136,126 @@
   "confidence": "high",
   "disputed": true,
   "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-2a5a17295e93-01",
+  "heritage_id": "HER-2a5a17295e93",
+  "event_date_start": "1964-01-25",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "会战启动",
+  "title": "华北石油勘探会战启动",
+  "description": "中共中央批转石油工业部《关于组织华北石油勘探会战的报告》，7700余名石油职工由杨文彬带领自大庆挥师入关，在津冀地区展开石油勘探。",
+  "place_name": "天津、河北地区",
+  "related_orgs": [
+   "石油工业部",
+   "大庆油田",
+   "641厂（大港油田对外代号）"
+  ],
+  "related_people": [
+   "杨文彬"
+  ],
+  "source_ids": [
+   "src-web-eb95308a81",
+   "src-web-faa8b53a83"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2a5a17295e93-02",
+  "heritage_id": "HER-2a5a17295e93",
+  "event_date_start": "1964-11-17",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "钻探/创建",
+  "title": "港5井开钻",
+  "description": "3283钻井队承钻的港5井正式开钻，系华北会战部署中最后一口未施工探井；时任石油工业部副部长康世恩认为不钻则功亏一篑，决策开钻。",
+  "place_name": "天津市北大港构造带",
+  "related_orgs": [
+   "3283钻井队"
+  ],
+  "related_people": [
+   "康世恩",
+   "万子俊"
+  ],
+  "source_ids": [
+   "src-web-eb95308a81",
+   "src-web-0c33c5b8b0",
+   "src-web-faa8b53a83"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "搜狐文章载钻井队号为3238，与中国石油报所载3283不一致，从官方记载"
+ },
+ {
+  "event_id": "EVT-2a5a17295e93-03",
+  "heritage_id": "HER-2a5a17295e93",
+  "event_date_start": "1964-12-20",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "投产/出油",
+  "title": "喜喷高产油气流，成为大港油田发现井",
+  "description": "钻至老第三系沙河街组三段上部约2526.34米时喷出高产油气流，日产原油19.74吨、天然气3.4万立方米；因地处北大港构造带，大港油田由此得名。",
+  "place_name": "天津市北大港构造带",
+  "related_orgs": [
+   "大港油田"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-eb95308a81",
+   "src-web-0c33c5b8b0",
+   "src-web-faa8b53a83",
+   "src-web-d4c6fd1d42"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "该井因井喷报废，累计产油552吨（据搜狐资料）"
+ },
+ {
+  "event_id": "EVT-2a5a17295e93-04",
+  "heritage_id": "HER-2a5a17295e93",
+  "event_date_start": "1965",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产/出油（异说）",
+  "title": "港5井、港7井发现工业油流时间异说",
+  "description": "中国石油官网盘点文章称1965年2月布钻在大港区东部的港5井和港7井发现工业油流，同年7月港西10余口探井相继见油，在海河入海口处发现大港油田。",
+  "place_name": "天津市大港区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-43aaf3a8f4"
+  ],
+  "confidence": "low",
+  "disputed": true,
+  "notes": "与主流1964年12月20日出油记载冲突；原页面访问受限（HTTP 412），依据搜索结果摘要"
+ },
+ {
+  "event_id": "EVT-2a5a17295e93-05",
+  "heritage_id": "HER-2a5a17295e93",
+  "event_date_start": "2004",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "保护启动",
+  "title": "建立港5井纪念碑与保护区",
+  "description": "大港油田四十华诞之际建立港5井保护区（东西45米、南北20米，约900平方米），含采油树、浮雕墙、简介碑；2010年扩建改造至2700余平方米。",
+  "place_name": "天津市滨海新区",
+  "related_orgs": [
+   "大港油田集团公司",
+   "大港油田公司",
+   "大港石化公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-eb95308a81",
+   "src-web-0c33c5b8b0",
+   "src-web-faa8b53a83"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-2a5a17295e93-R3",
@@ -4771,6 +5341,178 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-60c0bb0d831a-01",
+  "heritage_id": "HER-60c0bb0d831a",
+  "event_date_start": "1931",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "筹建决策",
+  "title": "第三次反“围剿”胜利与建厂决策",
+  "description": "1931年9月红一方面军在兴国境内粉碎第三次“围剿”，缴获大量零件不全的枪械；中央革命军事委员会决定在原有修械所、修械处基础上组建规模较大的兵工厂。",
+  "place_name": "江西省兴国县",
+  "related_orgs": [
+   "中央革命军事委员会"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-e8956b0538",
+   "src-web-6d8887544c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-60c0bb0d831a-02",
+  "heritage_id": "HER-60c0bb0d831a",
+  "event_date_start": "1931",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/合并重组",
+  "title": "中央兵工厂在官田村创建",
+  "description": "1931年10月中央兵工厂在兴国县莲塘乡官田村成立，朱德选定厂址；由白石红军修械厂等五处修械组织合并而成，吴汉杰任厂长，初建250余人、仅4座打铁炉等简陋设备。",
+  "place_name": "江西省兴国县兴莲乡官田村",
+  "related_orgs": [
+   "中央革命军事委员会"
+  ],
+  "related_people": [
+   "朱德",
+   "吴汉杰",
+   "张健",
+   "陆宗昌",
+   "马文"
+  ],
+  "source_ids": [
+   "src-web-e8956b0538",
+   "src-web-6d8887544c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "对外称“中央兵工厂”，又称“中革军委兵工厂”“中央红军兵工厂”"
+ },
+ {
+  "event_id": "EVT-60c0bb0d831a-06",
+  "heritage_id": "HER-60c0bb0d831a",
+  "event_date_start": "1931",
+  "event_date_end": "1934",
+  "date_precision": "year",
+  "event_type": "生产成就",
+  "title": "驻官田两年余的生产成就",
+  "description": "驻官田两年多共修配步枪4万余支、机枪2000余挺、迫击炮100余门，翻造子弹40余万发，制造手榴弹6万余枚、地雷5000余个，为红军反“围剿”作出重要贡献。",
+  "place_name": "江西省兴国县官田村",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-e8956b0538",
+   "src-web-6d8887544c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-60c0bb0d831a-03",
+  "heritage_id": "HER-60c0bb0d831a",
+  "event_date_start": "1932",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "扩建/设备来源",
+  "title": "缴获设备扩充生产",
+  "description": "1932年红军攻克岩前及漳州等地，缴获敌兵工厂机器、车床与30马力发电机等设备；5月发展为枪炮、杂械、弹药三个分厂，夏在古龙岗寨上、银坑分设厂点。",
+  "place_name": "江西省兴国县官田村",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-6d8887544c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-60c0bb0d831a-04",
+  "heritage_id": "HER-60c0bb0d831a",
+  "event_date_start": "1932",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "技术引进",
+  "title": "外来熟练技工支援",
+  "description": "中共地下组织动员萍乡、汉阳、上海等地兵工厂工人突破封锁赴苏区；1932年9月自沈阳兵工厂调来韩日升、郝希英、刘广臣等熟练技术工人，技术力量进一步充实。",
+  "place_name": "江西省兴国县官田村",
+  "related_orgs": [],
+  "related_people": [
+   "韩日升",
+   "郝希英",
+   "刘广臣"
+  ],
+  "source_ids": [
+   "src-web-6d8887544c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-60c0bb0d831a-05",
+  "heritage_id": "HER-60c0bb0d831a",
+  "event_date_start": "1933",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "扩建/组织调整",
+  "title": "整编为三个分厂",
+  "description": "1933年4月第四次反“围剿”胜利后，官田兵工厂整编为红军弹药厂、红军杂械厂与枪炮厂三个分厂；鼎盛时期人数近千（国防部文稿称工人最多时近600人）。",
+  "place_name": "江西省兴国县官田村",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-e8956b0538",
+   "src-web-6d8887544c"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "两来源对鼎盛人数记载不一（近1000人与近600人）"
+ },
+ {
+  "event_id": "EVT-60c0bb0d831a-07",
+  "heritage_id": "HER-60c0bb0d831a",
+  "event_date_start": "1934",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "迁建/停产",
+  "title": "迁往瑞金岗面",
+  "description": "1934年夏中央兵工厂迁往瑞金岗面，官田厂址结束生产，此后随红军长征。",
+  "place_name": "江西省瑞金县岗面",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-6d8887544c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-60c0bb0d831a-08",
+  "heritage_id": "HER-60c0bb0d831a",
+  "event_date_start": "1935",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "企业谱系延续",
+  "title": "陕北延续红色军工",
+  "description": "1935年红军到达陕北后，将杨砭、贺家湾兵工厂合并并吸纳随长征而来的原官田兵工厂员工，在吴起镇建立总供给部兵工厂（后称陕甘宁边区机器厂）。",
+  "place_name": "陕西省吴起镇",
+  "related_orgs": [
+   "红军总供给部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-6d8887544c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-60c0bb0d831a-R3",
@@ -8680,6 +9422,171 @@
   "notes": "成文2021-11-30，发布2021-12-13。"
  },
  {
+  "event_id": "EVT-d077697be2ac-01",
+  "heritage_id": "HER-d077697be2ac",
+  "event_date_start": "1969",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "三线建设定点筹建红旗机器厂",
+  "description": "国务院国防工办决定在长汀县馆前镇东阳山大峡谷建设中型军工企业（代号9456厂，又称福建红旗机器厂）；1969年5月“3691”保密工程选定厂址。",
+  "place_name": "福建省龙岩市长汀县馆前镇东阳山峡谷",
+  "related_orgs": [
+   "国务院国防工办"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-6bd5b65fac",
+   "src-web-e6a5375f73",
+   "src-web-6dbdf44c10",
+   "src-web-e6ad16d648"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "9456厂代号与1969年5月选厂址细节出自今日头条自媒体文章，权威度有限"
+ },
+ {
+  "event_id": "EVT-d077697be2ac-02",
+  "heritage_id": "HER-d077697be2ac",
+  "event_date_start": "1970",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "基建/建设",
+  "title": "基建基本完成",
+  "description": "1970年底基建收尾，建成50余栋厂房、2.5公里厂区公路、水坝供水系统、变电站及两大人工开凿洞体（总面积5000多平方米）。",
+  "place_name": "福建省长汀县馆前镇东阳山峡谷",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-e6ad16d648"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-d077697be2ac-03",
+  "heritage_id": "HER-d077697be2ac",
+  "event_date_start": "1972-11-29",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "投产/产品突破",
+  "title": "五四式12.7毫米高射机枪批量投产",
+  "description": "20世纪70年代初试制12.7mm高射机枪；1972年11月29日五四式12.7mm高射机枪正式转为大批量生产，1973年年产150挺、1975年达500挺。",
+  "place_name": "福建省长汀县红旗机器厂",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-e6ad16d648"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "批量投产日期出自自媒体文章；闽西日报等仅载该厂生产高射机枪等武器"
+ },
+ {
+  "event_id": "EVT-d077697be2ac-05",
+  "heritage_id": "HER-d077697be2ac",
+  "event_date_start": "1978",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "荣誉/产能",
+  "title": "获评“大庆式企业”",
+  "description": "1978年以超出设计规模两倍的产量实现“一厂顶二厂”，被国家授予“大庆式企业”荣誉称号。",
+  "place_name": "福建省长汀县红旗机器厂",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-e6ad16d648"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-d077697be2ac-04",
+  "heritage_id": "HER-d077697be2ac",
+  "event_date_start": "1979",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品应用/表彰",
+  "title": "高射机枪在对越自卫反击战中立功",
+  "description": "该厂生产的12.7mm高射机枪在对越自卫反击战中摧毁敌方暗堡、山洞枪眼，深受前沿部队青睐，获国防部表扬。",
+  "place_name": "云南省、广西前线",
+  "related_orgs": [
+   "国防部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-e6ad16d648"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-d077697be2ac-06",
+  "heritage_id": "HER-d077697be2ac",
+  "event_date_start": "1980",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "军转民/改制",
+  "title": "军工转民用生产",
+  "description": "20世纪80年代军品订货下调后开始军转民，生产纺织设备有力支撑福建轻工业发展；自媒体另载产有“茶花”牌电风扇等民品。",
+  "place_name": "福建省长汀县红旗机器厂",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-6bd5b65fac",
+   "src-web-e6a5375f73",
+   "src-web-e6ad16d648",
+   "src-web-d046c42347"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "军转民起始时间有“80年代初”与“80年代中期”两说"
+ },
+ {
+  "event_id": "EVT-d077697be2ac-07",
+  "heritage_id": "HER-d077697be2ac",
+  "event_date_start": "1986",
+  "event_date_end": "1995",
+  "date_precision": "year",
+  "event_type": "迁建",
+  "title": "搬迁漳州",
+  "description": "1986年起工厂边生产边搬迁，总部迁至漳州、老厂设为分厂；1995年春搬迁结束，长汀原址遗留百余幢建筑。",
+  "place_name": "福建省漳州市、长汀县",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-e6ad16d648",
+   "src-web-e6a5375f73"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "闽西日报表述为“工厂外迁至沿海城市”，未点明漳州"
+ },
+ {
+  "event_id": "EVT-d077697be2ac-08",
+  "heritage_id": "HER-d077697be2ac",
+  "event_date_start": "2019",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "保护启动",
+  "title": "启动博物馆筹建与史料征集",
+  "description": "长汀县国投公司向原红旗厂职工和社会各界发出《筹建福建红旗机器厂博物馆捐赠倡议书》，征集企业文物史料，拟建长汀县福建红旗机器厂博物馆。",
+  "place_name": "福建省长汀县",
+  "related_orgs": [
+   "长汀县国投公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-6dbdf44c10"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
   "event_id": "EVT-d077697be2ac-R3",
   "heritage_id": "HER-d077697be2ac",
   "event_date_start": "2019-12-19",
@@ -8876,6 +9783,144 @@
   "confidence": "medium",
   "disputed": false,
   "notes": "开园日期2月21日来自检索摘要"
+ },
+ {
+  "event_id": "EVT-d627be0ee19b-01",
+  "heritage_id": "HER-d627be0ee19b",
+  "event_date_start": "1958",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "筹建国营高级美术瓷厂",
+  "description": "1958年开始筹建，原名国营高级美术瓷厂，由江西省轻工业厅直管（另有1957年筹建之说，出自个人回忆文章）。",
+  "place_name": "江西省景德镇市东郊新厂西路",
+  "related_orgs": [
+   "江西省轻工业厅"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-bd3c6048a1"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "1957年筹建说见于美篇个人文章“烟囱里的记忆”，可信度较低"
+ },
+ {
+  "event_id": "EVT-d627be0ee19b-02",
+  "heritage_id": "HER-d627be0ee19b",
+  "event_date_start": "1965",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "投产",
+  "title": "正式投产",
+  "description": "1965年正式投入生产，专门生产新彩出口杯碟和高级美术瓷，为景德镇新彩日用瓷出口重点企业。",
+  "place_name": "江西省景德镇市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-bd3c6048a1"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-d627be0ee19b-03",
+  "heritage_id": "HER-d627be0ee19b",
+  "event_date_start": "1966",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "更名/体制调整",
+  "title": "更名为景德镇市为民瓷厂",
+  "description": "1966年6月改名景德镇市为民瓷厂，划归市属企业。",
+  "place_name": "江西省景德镇市",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-bd3c6048a1"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-d627be0ee19b-04",
+  "heritage_id": "HER-d627be0ee19b",
+  "event_date_start": "1972",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "“尼克松杯”成为访华接待用瓷",
+  "description": "20世纪70年代初，该厂金菊杯（“尼克松杯”）于1972年被选为美国总统尼克松首次访华的接待用瓷，一度成为景德镇佳话。",
+  "place_name": "江西省景德镇市为民瓷厂",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-bd3c6048a1"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-d627be0ee19b-05",
+  "heritage_id": "HER-d627be0ee19b",
+  "event_date_start": "1990",
+  "event_date_end": null,
+  "date_precision": "decade",
+  "event_type": "生产规模",
+  "title": "20世纪90年代初生产规模",
+  "description": "全厂有职工2300人，占地182900平方米，年产日用瓷3000万件（其中出口瓷1220万件），主产“高美”牌中西餐具、茶具、咖啡具。",
+  "place_name": "江西省景德镇市为民瓷厂",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-bd3c6048a1"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-d627be0ee19b-06",
+  "heritage_id": "HER-d627be0ee19b",
+  "event_date_start": "1991",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品荣誉",
+  "title": "获第二届北京国际博览会金质奖",
+  "description": "“高美”牌45头西餐具、15头咖啡具获第二届北京国际博览会金质奖；此前1983年日用陶瓷盖杯获轻工部产品评比第一名。",
+  "place_name": "北京",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-bd3c6048a1"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-d627be0ee19b-07",
+  "heritage_id": "HER-d627be0ee19b",
+  "event_date_start": "1995",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "停产/改制",
+  "title": "十大瓷厂改制关停",
+  "description": "1995年景德镇十大国营瓷厂一夜之间改制、只有关停没有并转（被称“猝死”），工人自谋生路；为民瓷厂作为十大瓷厂之一随之停产。",
+  "place_name": "江西省景德镇市",
+  "related_orgs": [
+   "景德镇十大国营瓷厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-5c61f26247",
+   "src-web-bd3c6048a1"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "1995年改制针对十大瓷厂整体（央广网），为民瓷厂具体关停时间未见单独记载"
  },
  {
   "event_id": "EVT-d627be0ee19b-R3",
