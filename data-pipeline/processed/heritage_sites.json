@@ -2282,10 +2282,14 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1956,
+  "production_start_year": 1958,
+  "historical_period": [
+   "新中国初期",
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "current_use": "原厂区纳入合肥东部新中心，依托高炉区规划建设马（合）钢工业遗址公园、近现代工业博物馆与合肥钢铁厂遗址博物馆",
   "longitude": 117.30941466394833,
   "latitude": 31.8674072720648,
   "coordinate_system": "WGS84",
@@ -2308,11 +2312,11 @@
   "source_ids": [
    "src-batch2"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
-  "closure_year": null
+  "founded_year_precision": "year",
+  "closure_year": 2015
  },
  {
   "heritage_id": "HER-93e6f17e8d49",
@@ -2574,10 +2578,15 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1903,
+  "production_start_year": 1904,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期",
+   "改革开放后"
+  ],
+  "current_use": "登州路56号老厂区仍属青岛啤酒生产厂区，德商旧办公楼现为青岛啤酒博物馆A馆",
   "longitude": 120.3495111321916,
   "latitude": 36.081835137813556,
   "coordinate_system": "WGS84",
@@ -2600,10 +2609,10 @@
   "source_ids": [
    "src-batch2"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {
@@ -2791,10 +2800,14 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1953,
+  "production_start_year": 1958,
+  "historical_period": [
+   "新中国初期",
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "current_use": "现为中信重工机械股份有限公司，仍生产大型矿山机械与重型装备",
   "longitude": 112.39261383599693,
   "latitude": 34.65240221425869,
   "coordinate_system": "WGS84",
@@ -2817,10 +2830,10 @@
   "source_ids": [
    "src-batch2"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {
@@ -2865,7 +2878,7 @@
   "founded_year": null,
   "production_start_year": null,
   "historical_period": [],
-  "current_use": null,
+  "current_use": "建成铜绿山国家考古遗址公园，古铜矿遗址博物馆2023年新馆开放，为考古遗址公园与文旅景点",
   "longitude": 114.9693670632033,
   "latitude": 30.09766777533979,
   "coordinate_system": "WGS84",
@@ -2888,7 +2901,7 @@
   "source_ids": [
    "src-batch2"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
   "founded_year_precision": null,
@@ -8083,10 +8096,14 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1899,
+  "production_start_year": 1902,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期"
+  ],
+  "current_use": "仍可承接5000吨以下船只保修，并对船厂内部驳船、拖轮等辅助船只定期维护保养",
   "longitude": 121.61073106324292,
   "latitude": 38.91244876220747,
   "coordinate_system": "WGS84",
@@ -8109,10 +8126,10 @@
   "source_ids": [
    "src-batch4"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {

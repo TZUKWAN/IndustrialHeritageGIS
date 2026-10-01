@@ -126,6 +126,182 @@
   "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
  },
  {
+  "event_id": "EVT-061b2557d5fe-01",
+  "heritage_id": "HER-061b2557d5fe",
+  "event_date_start": "1956",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "合肥钢铁厂筹建",
+  "description": "1956年6月，合肥钢铁厂在合肥东郊开始筹建，时值'一五'计划期间，为安徽地方钢铁骨干企业。",
+  "place_name": "安徽省合肥市瑶海区",
+  "related_orgs": [
+   "合肥钢铁厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-8042865d2d"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-061b2557d5fe-02",
+  "heritage_id": "HER-061b2557d5fe",
+  "event_date_start": "1958",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "建成投产",
+  "title": "合钢建成投产，开启安徽现代炼钢工业",
+  "description": "1958年合钢成立，'58年小高炉'同年7月前后投产，开启安徽现代炼钢工业历史，合钢成为华东地区重要生铁基地。",
+  "place_name": "安徽省合肥市瑶海区",
+  "related_orgs": [
+   "合肥钢铁厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-8042865d2d",
+   "src-web-5cae85757a"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "流传的'1958年7月1日炼出安徽第一炉钢水'具体日期未能在可核验来源中确认。"
+ },
+ {
+  "event_id": "EVT-061b2557d5fe-03",
+  "heritage_id": "HER-061b2557d5fe",
+  "event_date_start": "1960",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "扩建",
+  "title": "高炉区建设",
+  "description": "高炉区始建于1960年，先后建成一号至五号高炉及配套设施，冶炼生产规模逐步扩大。",
+  "place_name": "安徽省合肥市瑶海区",
+  "related_orgs": [
+   "合肥钢铁厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-5cae85757a"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-061b2557d5fe-04",
+  "heritage_id": "HER-061b2557d5fe",
+  "event_date_start": "2006",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "合并重组",
+  "title": "马钢重组合钢主业",
+  "description": "2006年5月，马钢股份与合肥市工业投资控股公司共同出资5亿元重组成立马钢（合肥）钢铁有限责任公司，马钢持股71%。",
+  "place_name": "安徽省合肥市",
+  "related_orgs": [
+   "马钢股份",
+   "合肥市工业投资控股公司",
+   "马钢（合肥）钢铁有限责任公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-0324f64d71"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-061b2557d5fe-05",
+  "heritage_id": "HER-061b2557d5fe",
+  "event_date_start": "2013",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "停产整顿",
+  "title": "污染曝光与环保停产整顿",
+  "description": "2013年12月央视曝光马钢（合肥）公司污染问题，合肥市环保局确认超标排放，责令其立即停产整顿、停止违法排污。",
+  "place_name": "安徽省合肥市",
+  "related_orgs": [
+   "马钢（合肥）钢铁有限责任公司",
+   "合肥市环保局"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-0324f64d71"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-061b2557d5fe-06",
+  "heritage_id": "HER-061b2557d5fe",
+  "event_date_start": "2014",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "停产",
+  "title": "冶炼生产关停",
+  "description": "焦炉于2014年2月关闭，冶炼生产于2014年10月1日前有序关停转产，初步测算计提资产减值等费用约12亿元。",
+  "place_name": "安徽省合肥市",
+  "related_orgs": [
+   "马钢（合肥）钢铁有限责任公司",
+   "马钢股份"
+  ],
+  "related_people": [
+   "吴存荣"
+  ],
+  "source_ids": [
+   "src-web-0324f64d71"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-061b2557d5fe-08",
+  "heritage_id": "HER-061b2557d5fe",
+  "event_date_start": "2014",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "保护启动",
+  "title": "工业遗产保护利用启动",
+  "description": "2014年以来，瑶海区启动以合钢为代表的工业遗产保护利用，规划建设马（合）钢工业遗址公园、近现代工业博物馆等'合肥记忆'项目。",
+  "place_name": "安徽省合肥市瑶海区",
+  "related_orgs": [
+   "合肥市瑶海区人民政府"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-a41228e69e"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-061b2557d5fe-07",
+  "heritage_id": "HER-061b2557d5fe",
+  "event_date_start": "2015",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "关停退出",
+  "title": "合钢整体关停",
+  "description": "安徽商报、市场星报报道称合钢于2015年底响应国家去产能政策关停。",
+  "place_name": "安徽省合肥市瑶海区",
+  "related_orgs": [
+   "马钢（合肥）钢铁有限责任公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-8042865d2d",
+   "src-web-5cae85757a"
+  ],
+  "confidence": "medium",
+  "disputed": true,
+  "notes": "与每日经济新闻2014年报道'冶炼生产于2014年10月1日前关停'存在年份口径差异。"
+ },
+ {
   "event_id": "EVT-061b2557d5fe-R2",
   "heritage_id": "HER-061b2557d5fe",
   "event_date_start": "2018-11-21",
@@ -1141,6 +1317,183 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2024-10-22，发布2024-10-23。该通知同时宣布第一、第二批通告作废（即第一批、第二批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-2986a1df182b-01",
+  "heritage_id": "HER-2986a1df182b",
+  "event_date_start": "1903",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "日耳曼啤酒公司青岛股份公司创建",
+  "description": "1903年8月（一说8月15日），香港盎格鲁·日耳曼啤酒公司的英德商人在青岛登州路56号创建日耳曼啤酒公司青岛股份公司，资本40万墨西哥银元。",
+  "place_name": "山东省青岛市市北区登州路56号",
+  "related_orgs": [
+   "盎格鲁·日耳曼啤酒公司（香港）",
+   "日耳曼啤酒公司青岛股份公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-dfd4f95710",
+   "src-web-8580290ffa"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "商务部老字号数字博物馆记'1903年8月'；城市档案论坛记1903年8月15日在香港注册。"
+ },
+ {
+  "event_id": "EVT-2986a1df182b-02",
+  "heritage_id": "HER-2986a1df182b",
+  "event_date_start": "1904",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "建成投产",
+  "title": "啤酒厂建成投产",
+  "description": "1904年建成投产，年产能力约2000吨，由德国人经营，按德式工艺酿制淡色与黑色啤酒；12月22日第一瓶工业量产啤酒下线。",
+  "place_name": "山东省青岛市市北区登州路56号",
+  "related_orgs": [
+   "日耳曼啤酒公司青岛股份公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-dfd4f95710",
+   "src-web-8580290ffa"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "商务部记1904年建成投产；城市档案论坛记1904年12月22日第一瓶下线、12月31日上市。"
+ },
+ {
+  "event_id": "EVT-2986a1df182b-03",
+  "heritage_id": "HER-2986a1df182b",
+  "event_date_start": "1906",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "慕尼黑博览会获金牌奖",
+  "description": "1906年，该厂啤酒在慕尼黑博览会展出并获金牌奖。",
+  "place_name": "德国慕尼黑",
+  "related_orgs": [
+   "日耳曼啤酒公司青岛股份公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-dfd4f95710"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2986a1df182b-04",
+  "heritage_id": "HER-2986a1df182b",
+  "event_date_start": "1914",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "战争影响",
+  "title": "一战爆发，停产并被日本接管",
+  "description": "第一次世界大战日德开战后，酒厂1914年8月停产，至1916年停工约两年；日本占领青岛并接管该厂。",
+  "place_name": "山东省青岛市",
+  "related_orgs": [
+   "日军军政府"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-8580290ffa",
+   "src-web-455e179cd2"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2986a1df182b-05",
+  "heritage_id": "HER-2986a1df182b",
+  "event_date_start": "1916",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "合并重组",
+  "title": "售予大日本麦酒株式会社，更名青岛工场",
+  "description": "1916年，酒厂以约50万银元售予大日本麦酒株式会社，更名'大日本麦酒株式会社青岛工场'，此后日本经营约29年。",
+  "place_name": "山东省青岛市",
+  "related_orgs": [
+   "大日本麦酒株式会社"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-455e179cd2",
+   "src-web-8580290ffa"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "青岛新闻网记1916年9月16日正式收购；城市档案论坛记8月16日股东会决议、9月9日获日本军政府批准。"
+ },
+ {
+  "event_id": "EVT-2986a1df182b-06",
+  "heritage_id": "HER-2986a1df182b",
+  "event_date_start": "1945",
+  "event_date_end": "1947",
+  "date_precision": "year",
+  "event_type": "接收与改制",
+  "title": "抗战胜利后的接收与改组",
+  "description": "1945年10月被国民政府军政部查封，1946年12月由敌伪产业处理局接管改名青岛啤酒厂，1947年6月齐鲁企业股份有限公司购得，仅保留'青岛'牌商标。",
+  "place_name": "山东省青岛市",
+  "related_orgs": [
+   "国民政府军政部",
+   "敌伪产业处理局",
+   "齐鲁企业股份有限公司"
+  ],
+  "related_people": [
+   "陈果夫"
+  ],
+  "source_ids": [
+   "src-web-8580290ffa"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2986a1df182b-07",
+  "heritage_id": "HER-2986a1df182b",
+  "event_date_start": "1949",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "国营化",
+  "title": "改称国营青岛啤酒厂并恢复出口",
+  "description": "1949年6月2日青岛解放后改称国营青岛啤酒厂；1954年起出口香港。",
+  "place_name": "山东省青岛市",
+  "related_orgs": [
+   "国营青岛啤酒厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-8580290ffa"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2986a1df182b-08",
+  "heritage_id": "HER-2986a1df182b",
+  "event_date_start": "1993",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "股份制改造与上市",
+  "title": "创立股份公司并两地上市",
+  "description": "1993年6月青岛啤酒股份有限公司创立，7月15日在香港交易所上市（中国内地首家海外上市企业），8月27日在上海证券交易所上市。",
+  "place_name": "山东省青岛市",
+  "related_orgs": [
+   "青岛啤酒股份有限公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-dfd4f95710"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-2986a1df182b-R2",
@@ -3229,6 +3582,159 @@
   "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
  },
  {
+  "event_id": "EVT-56bf3cbc55cf-01",
+  "heritage_id": "HER-56bf3cbc55cf",
+  "event_date_start": "1973",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "考古发现",
+  "title": "铜绿山古铜矿遗址被发现",
+  "description": "1973年（秋）大冶有色金属公司开采剥离表土时，暴露出古采矿井巷、片状冶炼炉渣和铜斧（13柄，最大3.5公斤），经调查确认为古矿冶遗址。",
+  "place_name": "湖北省黄石市大冶市",
+  "related_orgs": [
+   "大冶有色金属公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f774756a70",
+   "src-web-38b19c979b",
+   "src-web-f44ad9a09b"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-56bf3cbc55cf-02",
+  "heritage_id": "HER-56bf3cbc55cf",
+  "event_date_start": "1974",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "考古发掘",
+  "title": "正式考古发掘",
+  "description": "1974年春考古部门正式发掘，揭露约2平方公里古地下采矿系统：西周至汉代竖井、斜井、盲井数百座，平巷百余条，并出土西周晚期至春秋早期炼铜竖炉。",
+  "place_name": "湖北省黄石市大冶市",
+  "related_orgs": [
+   "考古部门"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f774756a70"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "新华网称专家推测主要开采时代为商代中期至西汉，延续1000多年。"
+ },
+ {
+  "event_id": "EVT-56bf3cbc55cf-03",
+  "heritage_id": "HER-56bf3cbc55cf",
+  "event_date_start": "1984",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "博物馆建成开放",
+  "title": "铜绿山古铜矿遗址博物馆建成开放",
+  "description": "1984年12月依托7号矿体建成铜绿山古铜矿遗址博物馆并开放，为中国第一座古矿冶遗址专题博物馆，展厅内原址展示春秋时期竖井、平巷等采矿遗迹。",
+  "place_name": "湖北省黄石市大冶市",
+  "related_orgs": [
+   "铜绿山古铜矿遗址博物馆"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f774756a70",
+   "src-web-f44ad9a09b",
+   "src-web-38b19c979b"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-56bf3cbc55cf-04",
+  "heritage_id": "HER-56bf3cbc55cf",
+  "event_date_start": "1991",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "保护措施",
+  "title": "国务院为遗址'划定红线'",
+  "description": "1991年国务院下文'划定红线'，要求古铜矿遗址负185米以上及周边80亩范围内的矿产资源不予开采。",
+  "place_name": "湖北省黄石市大冶市",
+  "related_orgs": [
+   "国务院"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f774756a70"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-56bf3cbc55cf-05",
+  "heritage_id": "HER-56bf3cbc55cf",
+  "event_date_start": "2006",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "保护修缮",
+  "title": "遗址出现险情闭馆",
+  "description": "2006年8月遗址出现裂隙沉降险情面临坍塌危险，博物馆闭馆，2007年6月8日起停止对外开放。",
+  "place_name": "湖北省黄石市大冶市",
+  "related_orgs": [
+   "铜绿山古铜矿遗址博物馆"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f774756a70"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-56bf3cbc55cf-06",
+  "heritage_id": "HER-56bf3cbc55cf",
+  "event_date_start": "2009",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "保护启动",
+  "title": "管理权移交大冶市并启动修复改造",
+  "description": "2009年11月遗址管理权移交大冶市后，博物馆修复、改造及景点规划建设全面启动，并启动地质环境综合治理。",
+  "place_name": "湖北省黄石市大冶市",
+  "related_orgs": [
+   "大冶市"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f774756a70"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-56bf3cbc55cf-07",
+  "heritage_id": "HER-56bf3cbc55cf",
+  "event_date_start": "2011",
+  "event_date_end": "2012",
+  "date_precision": "year",
+  "event_type": "考古发掘",
+  "title": "岩阴山脚遗址发掘并发现古人脚印",
+  "description": "2011-2012年岩阴山脚遗址发掘为继1985年后时隔27年再次发掘，2012年8月发现35枚春秋中期古人脚印及冶铜炉基础、探矿井等遗迹。",
+  "place_name": "湖北省黄石市大冶市",
+  "related_orgs": [
+   "湖北省文物考古研究所"
+  ],
+  "related_people": [
+   "陈树祥"
+  ],
+  "source_ids": [
+   "src-web-f7372fc798"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
   "event_id": "EVT-56bf3cbc55cf-R2",
   "heritage_id": "HER-56bf3cbc55cf",
   "event_date_start": "2018-11-21",
@@ -3248,6 +3754,27 @@
   "confidence": "high",
   "disputed": true,
   "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-56bf3cbc55cf-08",
+  "heritage_id": "HER-56bf3cbc55cf",
+  "event_date_start": "2023",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "博物馆新馆开放",
+  "title": "遗址博物馆新馆开放",
+  "description": "2023年铜绿山古铜矿遗址博物馆新馆开放，设'铜山有宝''炼铜有术''青铜有源'等展厅，展出青铜钺等文物。",
+  "place_name": "湖北省黄石市大冶市",
+  "related_orgs": [
+   "铜绿山古铜矿遗址博物馆"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f44ad9a09b"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-57dc9be7a91b-R6",
@@ -7815,6 +8342,152 @@
   "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
  },
  {
+  "event_id": "EVT-d9f0c3cee4f8-01",
+  "heritage_id": "HER-d9f0c3cee4f8",
+  "event_date_start": "1898",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "建厂背景",
+  "title": "大船集团前身始建",
+  "description": "大船集团（大连造船厂前身）始建于1898年，最初为沙俄修理进出大连港船舶而设的修船基地（中东铁路公司轮船修理工场）。",
+  "place_name": "辽宁省大连市西岗区",
+  "related_orgs": [
+   "中东铁路公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f396d836ac",
+   "src-web-0308067d53"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "企业官方称始建于1898年；'中东铁路公司轮船修理工场'名称出自观察者网风闻社区文章。"
+ },
+ {
+  "event_id": "EVT-d9f0c3cee4f8-02",
+  "heritage_id": "HER-d9f0c3cee4f8",
+  "event_date_start": "1899",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "修船南坞动工兴建",
+  "description": "修船南坞于1899年动工兴建，位于大连市西岗区，为沙俄租借大连时期船舶修造基地的核心设施。",
+  "place_name": "辽宁省大连市西岗区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-777c4e8740",
+   "src-web-f396d836ac"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-d9f0c3cee4f8-03",
+  "heritage_id": "HER-d9f0c3cee4f8",
+  "event_date_start": "1902",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "建成",
+  "title": "修船南坞初建完工",
+  "description": "1902年底初建完工：坞长116米、底宽13米、深7.6米，采用两开式扉门并配电动排水泵，通体以取自周边群山的青灰色条石砌筑。",
+  "place_name": "辽宁省大连市西岗区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-777c4e8740",
+   "src-web-f396d836ac"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-d9f0c3cee4f8-04",
+  "heritage_id": "HER-d9f0c3cee4f8",
+  "event_date_start": "1908",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "扩建",
+  "title": "川崎造船所租借扩建（一说）",
+  "description": "观察者网风闻社区文章称，1908年日本川崎造船所从满铁租借船厂后将船坞扩建为5000吨级，并新建小型系泊码头和'引扬船坞'。",
+  "place_name": "辽宁省大连市西岗区",
+  "related_orgs": [
+   "川崎造船所",
+   "南满洲铁道株式会社"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-0308067d53"
+  ],
+  "confidence": "low",
+  "disputed": true,
+  "notes": "与百度百科'1913-1914年扩建至5000吨级'的记载冲突，存疑。"
+ },
+ {
+  "event_id": "EVT-d9f0c3cee4f8-05",
+  "heritage_id": "HER-d9f0c3cee4f8",
+  "event_date_start": "1913",
+  "event_date_end": "1914",
+  "date_precision": "year",
+  "event_type": "扩建",
+  "title": "修船南坞扩建至5000吨级",
+  "description": "1913年3月修船南坞开始扩建改造，1914年3月竣工，坞体前部加长6米，由3000吨级提升为5000吨级，坞门由两开式改为浮箱式。",
+  "place_name": "辽宁省大连市西岗区",
+  "related_orgs": [],
+  "related_people": [],
+  "source_ids": [
+   "src-web-777c4e8740"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-d9f0c3cee4f8-06",
+  "heritage_id": "HER-d9f0c3cee4f8",
+  "event_date_start": "1949",
+  "event_date_end": "1957",
+  "date_precision": "year",
+  "event_type": "生产任务",
+  "title": "建国初期承接修船任务",
+  "description": "建国初期，修船南坞承接大批苏联船只的维修保养任务；1957年前承担大连造船厂近半数的修造任务。",
+  "place_name": "辽宁省大连市西岗区",
+  "related_orgs": [
+   "大连造船厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-777c4e8740"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-d9f0c3cee4f8-07",
+  "heritage_id": "HER-d9f0c3cee4f8",
+  "event_date_start": "1960",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "军工保障",
+  "title": "承担人民海军舰艇修理任务",
+  "description": "1960年起，修船南坞承担人民海军炮艇、猎潜艇、登陆舰、扫雷艇等舰艇的修理保养、进坞改装与舾装任务。",
+  "place_name": "辽宁省大连市西岗区",
+  "related_orgs": [
+   "大连造船厂",
+   "人民海军"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-777c4e8740"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
   "event_id": "EVT-d9f0c3cee4f8-R4",
   "heritage_id": "HER-d9f0c3cee4f8",
   "event_date_start": "2020-12-24",
@@ -7981,6 +8654,181 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
+ },
+ {
+  "event_id": "EVT-e0dadacd727f-01",
+  "heritage_id": "HER-e0dadacd727f",
+  "event_date_start": "1953",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "洛阳重型矿山机械厂筹备处成立",
+  "description": "1953年7月，'洛阳重型矿山机械厂筹备处'在洛阳老城义勇街一号成立，属'一五'期间苏联援建重点工程。",
+  "place_name": "河南省洛阳市",
+  "related_orgs": [
+   "洛阳重型矿山机械厂筹备处"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-49dc97f0d7"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "国史网载洛矿最初在武汉选址，后转河南与一拖共同选址。"
+ },
+ {
+  "event_id": "EVT-e0dadacd727f-02",
+  "heritage_id": "HER-e0dadacd727f",
+  "event_date_start": "1954",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "选址批准",
+  "title": "定址涧西并经国家计委批准",
+  "description": "经七次选址定于洛阳涧西，1954年1月8日经国家计委正式批准建厂。",
+  "place_name": "河南省洛阳市涧西区",
+  "related_orgs": [
+   "国家计划委员会"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-49dc97f0d7",
+   "src-web-f1803da36a"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "国史网载1954年1月8日李富春就洛阳建厂条件向毛泽东汇报并获同意。"
+ },
+ {
+  "event_id": "EVT-e0dadacd727f-03",
+  "heritage_id": "HER-e0dadacd727f",
+  "event_date_start": "1958",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "试制成功新中国第一台直径2.5米矿井卷扬机",
+  "description": "1958年4月30日，焦裕禄带领一金工车间工人试制成功新中国第一台直径2.5米矿井卷扬机（重42吨、高2.8米），后在观音堂煤矿安全运行49年。",
+  "place_name": "河南省洛阳市涧西区",
+  "related_orgs": [
+   "洛阳矿山机器厂一金工车间"
+  ],
+  "related_people": [
+   "焦裕禄"
+  ],
+  "source_ids": [
+   "src-web-f1803da36a",
+   "src-web-49dc97f0d7",
+   "src-web-550a9f4f47"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-e0dadacd727f-04",
+  "heritage_id": "HER-e0dadacd727f",
+  "event_date_start": "1958",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "建成投产",
+  "title": "工厂建成投产",
+  "description": "1958年10月31日工厂提前14个月、节省211万元完成建设交付验收；11月1日举行开工生产典礼，两个月内生产17种产品共139台设备。",
+  "place_name": "河南省洛阳市涧西区",
+  "related_orgs": [
+   "洛阳矿山机器厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-f1803da36a",
+   "src-web-49dc97f0d7"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "国史网记10月31日交付验收，企业史料记11月1日开工生产典礼。"
+ },
+ {
+  "event_id": "EVT-e0dadacd727f-05",
+  "heritage_id": "HER-e0dadacd727f",
+  "event_date_start": "1961",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "试制出我国第一台牙轮钻机",
+  "description": "1961年12月试制出YZL-1型牙轮钻机（钻头直径190毫米），此后发展出KHY、HYZ、KY等系列潜孔钻机。",
+  "place_name": "河南省洛阳市涧西区",
+  "related_orgs": [
+   "洛阳矿山机器厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-49dc97f0d7"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-e0dadacd727f-06",
+  "heritage_id": "HER-e0dadacd727f",
+  "event_date_start": "1974",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "技术引进/技术突破",
+  "title": "8000吨水压机试锻成功",
+  "description": "1974年10月1日，8000吨水压机试锻成功，为当时国内第二大吨位锻造设备，2017年由新建5000吨自由锻造油压机接班退役。",
+  "place_name": "河南省洛阳市涧西区",
+  "related_orgs": [
+   "洛阳矿山机器厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-49dc97f0d7"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-e0dadacd727f-07",
+  "heritage_id": "HER-e0dadacd727f",
+  "event_date_start": "1994",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "合并重组",
+  "title": "整体并入中信集团",
+  "description": "1994年1月29日《河南日报》头版报道洛阳矿山机器厂整体并入中信集团，改制为中信重型机械公司。",
+  "place_name": "河南省洛阳市",
+  "related_orgs": [
+   "中国国际信托投资公司（中信集团）",
+   "中信重型机械公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-550a9f4f47"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "并入具体日期以企业档案为准，报纸报道时间为1994年1月29日。"
+ },
+ {
+  "event_id": "EVT-e0dadacd727f-08",
+  "heritage_id": "HER-e0dadacd727f",
+  "event_date_start": "2008",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制",
+  "title": "中信重工机械股份有限公司揭牌",
+  "description": "2008年2月29日中信重工机械股份有限公司揭牌，完成股份制改造；2012年7月7日公司A股在上海证券交易所挂牌上市。",
+  "place_name": "河南省洛阳市",
+  "related_orgs": [
+   "中信重工机械股份有限公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-550a9f4f47"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-e0dadacd727f-R2",

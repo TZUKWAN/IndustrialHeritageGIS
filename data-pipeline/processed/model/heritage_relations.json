@@ -677,6 +677,163 @@
   "inferred": false
  },
  {
+  "relation_id": "REL-061b2557d5fe-01",
+  "source_entity": "HER-061b2557d5fe",
+  "relation_type": "企业重组",
+  "target_entity": "马鞍山钢铁股份有限公司（马钢）",
+  "start_date": null,
+  "end_date": null,
+  "description": "2006年5月马钢股份出资3.55亿元持股71%，与合肥市工业投资控股公司重组合钢主业，成立马钢（合肥）钢铁有限责任公司。",
+  "source_ids": [
+   "src-web-0324f64d71"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-2986a1df182b-01",
+  "source_entity": "HER-2986a1df182b",
+  "relation_type": "企业并购",
+  "target_entity": "大日本麦酒株式会社",
+  "start_date": null,
+  "end_date": null,
+  "description": "1916年酒厂以约50万银元被大日本麦酒株式会社收购，更名'大日本麦酒株式会社青岛工场'。",
+  "source_ids": [
+   "src-web-455e179cd2",
+   "src-web-8580290ffa"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-2986a1df182b-02",
+  "source_entity": "HER-2986a1df182b",
+  "relation_type": "企业谱系",
+  "target_entity": "青岛啤酒股份有限公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "1993年6月由青岛啤酒厂改制创立青岛啤酒股份有限公司，为今青岛啤酒集团核心企业。",
+  "source_ids": [
+   "src-web-dfd4f95710"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-2986a1df182b-03",
+  "source_entity": "HER-2986a1df182b",
+  "relation_type": "创办背景",
+  "target_entity": "盎格鲁·日耳曼啤酒公司（香港）",
+  "start_date": null,
+  "end_date": null,
+  "description": "1903年由该公司英德商人合资创建，以德国资本为主，为便利德国驻军和侨民供应啤酒。",
+  "source_ids": [
+   "src-web-dfd4f95710"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-e0dadacd727f-01",
+  "source_entity": "HER-e0dadacd727f",
+  "relation_type": "一五计划/156项工程",
+  "target_entity": "苏联援建156项重点工程",
+  "start_date": null,
+  "end_date": null,
+  "description": "洛阳矿山机器厂为'一五'期间苏联援建156项重点工程之一，156项中有6项落户洛阳。",
+  "source_ids": [
+   "src-web-f1803da36a",
+   "src-web-49dc97f0d7"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-e0dadacd727f-02",
+  "source_entity": "HER-e0dadacd727f",
+  "relation_type": "技术援助",
+  "target_entity": "苏联煤矿部与乌克兰煤矿设计院",
+  "start_date": null,
+  "end_date": null,
+  "description": "洛矿厂房由苏联煤矿部和乌克兰煤矿设计院共同设计；1956年底派出53名职工赴苏联乌克兰斯大林诺城矿山机器厂对口学习。",
+  "source_ids": [
+   "src-web-f1803da36a"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-e0dadacd727f-03",
+  "source_entity": "HER-e0dadacd727f",
+  "relation_type": "企业谱系",
+  "target_entity": "中信重工机械股份有限公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "洛阳矿山机器厂为中信重工前身：1994年整体并入中信集团，2008年改制为中信重工机械股份有限公司。",
+  "source_ids": [
+   "src-web-550a9f4f47"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-e0dadacd727f-04",
+  "source_entity": "HER-e0dadacd727f",
+  "relation_type": "企业协作",
+  "target_entity": "第一拖拉机厂",
+  "start_date": null,
+  "end_date": null,
+  "description": "洛矿最初拟在武汉选址，后与第一拖拉机厂共同选址洛阳涧西，属同一工业基地配套布局。",
+  "source_ids": [
+   "src-web-f1803da36a"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-56bf3cbc55cf-01",
+  "source_entity": "HER-56bf3cbc55cf",
+  "relation_type": "原料供给",
+  "target_entity": "商周青铜文明（曾侯乙编钟等重器）",
+  "start_date": null,
+  "end_date": null,
+  "description": "报道称曾侯乙编钟等青铜重器的铜料源自铜绿山；所出粗铜纯度达93%以上。",
+  "source_ids": [
+   "src-web-f44ad9a09b"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-d9f0c3cee4f8-01",
+  "source_entity": "HER-d9f0c3cee4f8",
+  "relation_type": "企业谱系",
+  "target_entity": "大连船舶重工集团有限公司（大船集团）",
+  "start_date": null,
+  "end_date": null,
+  "description": "修船南坞隶属大船集团，是该集团1898年建厂以来留存至今的早期构筑物之一（另一处为中央发电所）。",
+  "source_ids": [
+   "src-web-f396d836ac",
+   "src-web-777c4e8740"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-d9f0c3cee4f8-02",
+  "source_entity": "HER-d9f0c3cee4f8",
+  "relation_type": "建造方",
+  "target_entity": "沙俄（中东铁路公司）",
+  "start_date": null,
+  "end_date": null,
+  "description": "船坞始建于沙俄租借大连时期，作为沙俄船舶修造基地的组成部分建设，1902年末由俄国主持的一期工程完工。",
+  "source_ids": [
+   "src-web-0308067d53"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
   "relation_id": "REL-0656fe1c09c5-01",
   "source_entity": "HER-0656fe1c09c5",
   "relation_type": "技术引进/国家引进项目",
