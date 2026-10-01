@@ -1328,6 +1328,265 @@
   "inferred": false
  },
  {
+  "relation_id": "REL-4b779c93fa7b-01",
+  "source_entity": "HER-4b779c93fa7b",
+  "relation_type": "技术援助/借款建设",
+  "target_entity": "德国",
+  "start_date": null,
+  "end_date": null,
+  "description": "清政府向德国借款营建，德国工程师负责勘察设计，德人道格米里任首任厂长。",
+  "source_ids": [
+   "src-web-0f14df56d3",
+   "src-web-57d32174b2"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-4b779c93fa7b-02",
+  "source_entity": "HER-4b779c93fa7b",
+  "relation_type": "企业谱系",
+  "target_entity": "中车山东机车车辆有限公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "该厂现名称为中车山东机车车辆有限公司，延续铁路装备制造业务。",
+  "source_ids": [
+   "src-web-92e4d499ee"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-4b779c93fa7b-03",
+  "source_entity": "HER-4b779c93fa7b",
+  "relation_type": "企业谱系",
+  "target_entity": "济南轨道交通装备有限责任公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "山东党史史志网载济南轨道交通装备有限责任公司前身为津浦铁路局济南机器厂。",
+  "source_ids": [
+   "src-web-0f14df56d3"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-22e1d21f698e-01",
+  "source_entity": "HER-22e1d21f698e",
+  "relation_type": "企业谱系",
+  "target_entity": "裕大纱厂、宝成纱厂",
+  "start_date": null,
+  "end_date": null,
+  "description": "天津第三棉纺织厂前身为1920年创办的裕大纱厂与1922年开工的宝成纱厂，1950年两厂合并。",
+  "source_ids": [
+   "src-web-3d58fa857b"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-3e17a22e3784-01",
+  "source_entity": "HER-3e17a22e3784",
+  "relation_type": "科研合作/技术引进",
+  "target_entity": "轻工业部",
+  "start_date": null,
+  "end_date": null,
+  "description": "国家轻工部将干白葡萄酒新工艺研究列为重点科研项目，由郭其昌负责，在沙城酒厂实施。",
+  "source_ids": [
+   "src-web-d9484cdbc5",
+   "src-web-ad0b6ba382"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-3e17a22e3784-02",
+  "source_entity": "HER-3e17a22e3784",
+  "relation_type": "企业谱系",
+  "target_entity": "张家口长城酿造（集团）有限责任公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "长城酿造集团前身为1949年成立的沙城酒厂。",
+  "source_ids": [
+   "src-web-df0ab39acd"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-3e17a22e3784-03",
+  "source_entity": "HER-3e17a22e3784",
+  "relation_type": "合资/企业谱系",
+  "target_entity": "中国长城葡萄酒有限公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "1983年由张家口地区长城酿酒公司等三方合资设立；长城酿酒公司与沙城酒厂的承继关系未见直接记载。",
+  "source_ids": [
+   "src-web-c62dfb798f"
+  ],
+  "confidence": "medium",
+  "inferred": true
+ },
+ {
+  "relation_id": "REL-d9992f44ad45-01",
+  "source_entity": "HER-d9992f44ad45",
+  "relation_type": "合资/联营",
+  "target_entity": "新加坡T&C公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "2000年10月联营组建沈阳天江老龙口酿酒有限公司，获外资注资复产。",
+  "source_ids": [
+   "src-web-bcab7574e2"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-d9992f44ad45-02",
+  "source_entity": "HER-d9992f44ad45",
+  "relation_type": "企业谱系",
+  "target_entity": "沈阳天江老龙口酿造有限公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "老龙口酒厂现为企业名称沈阳天江老龙口酿造有限公司，沿革自万隆泉烧锅与国营老龙口制酒厂。",
+  "source_ids": [
+   "src-web-bcab7574e2",
+   "src-web-d32e39c5ad"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-4c8ee8df1041-01",
+  "source_entity": "HER-4c8ee8df1041",
+  "relation_type": "资本合作/被控股",
+  "target_entity": "英美烟公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "1914年与英美烟公司合资，更名英商老巴夺父子烟草有限公司，成为其附属公司。",
+  "source_ids": [
+   "src-web-80f0f63ea6"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-4c8ee8df1041-02",
+  "source_entity": "HER-4c8ee8df1041",
+  "relation_type": "企业谱系",
+  "target_entity": "黑龙江烟草工业有限责任公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "哈尔滨卷烟厂现隶属于黑龙江烟草工业有限责任公司。",
+  "source_ids": [
+   "src-web-80f0f63ea6"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-90e03ce6c762-01",
+  "source_entity": "HER-90e03ce6c762",
+  "relation_type": "技术援助",
+  "target_entity": "苏联",
+  "start_date": null,
+  "end_date": null,
+  "description": "一五时期156项重点工程之一，由苏联专家援助建设。",
+  "source_ids": [
+   "src-web-5dd45abdfb",
+   "src-web-1346b43352"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-90e03ce6c762-02",
+  "source_entity": "HER-90e03ce6c762",
+  "relation_type": "设备来源",
+  "target_entity": "苏联",
+  "start_date": null,
+  "end_date": null,
+  "description": "自由锻3000吨水压机、825轧机、20吨电弧炉等大型生产设备自苏联运抵安装。",
+  "source_ids": [
+   "src-web-1346b43352"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-90e03ce6c762-03",
+  "source_entity": "HER-90e03ce6c762",
+  "relation_type": "企业谱系",
+  "target_entity": "东北特殊钢集团",
+  "start_date": null,
+  "end_date": null,
+  "description": "2004年起隶属东北特钢集团，曾名东北特钢集团北满特殊钢有限责任公司。",
+  "source_ids": [
+   "src-web-5dd45abdfb"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-90e03ce6c762-04",
+  "source_entity": "HER-90e03ce6c762",
+  "relation_type": "企业谱系",
+  "target_entity": "建龙北满特殊钢有限责任公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "2017年建龙重工集团成为大股东，现名建龙北满特殊钢有限责任公司。",
+  "source_ids": [
+   "src-web-5dd45abdfb",
+   "src-web-ee5bbf807b"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-b4f9e945075b-01",
+  "source_entity": "HER-b4f9e945075b",
+  "relation_type": "企业谱系",
+  "target_entity": "合山矿务局",
+  "start_date": null,
+  "end_date": null,
+  "description": "1962年1月11日合山煤矿改为合山矿务局。",
+  "source_ids": [
+   "src-web-defc8b5468"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-b4f9e945075b-02",
+  "source_entity": "HER-b4f9e945075b",
+  "relation_type": "基建配套",
+  "target_entity": "来合铁路",
+  "start_date": null,
+  "end_date": null,
+  "description": "1935年公司以官商合资方式修建来宾至合山窄轨铁路，用于煤炭外运。",
+  "source_ids": [
+   "src-web-1172ecf0c0",
+   "src-web-930aa59017"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-b4f9e945075b-03",
+  "source_entity": "HER-b4f9e945075b",
+  "relation_type": "再利用",
+  "target_entity": "广西合山国家矿山公园",
+  "start_date": null,
+  "end_date": null,
+  "description": "废弃矿区整合建成国家矿山公园，含东矿园区与里兰园区。",
+  "source_ids": [
+   "src-web-b9a4ae4adc",
+   "src-web-5592d90d6d"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
   "relation_id": "REL-0656fe1c09c5-01",
   "source_entity": "HER-0656fe1c09c5",
   "relation_type": "技术引进/国家引进项目",

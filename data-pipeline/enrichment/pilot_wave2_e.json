@@ -1,0 +1,1455 @@
+[
+  {
+    "heritage_id": "HER-4b779c93fa7b",
+    "name": "津浦铁路局济南机器厂",
+    "founded_year": { "value": 1910, "date_precision": "year", "source_idxs": [0, 2, 3] },
+    "production_start_year": { "value": 1913, "date_precision": "year", "source_idxs": [3, 5] },
+    "closure_year": null,
+    "current_use": "原址仍为铁路与风电装备制造企业（中车山东机车车辆有限公司），设厂史馆（2010年10月19日开馆）",
+    "events": [
+      {
+        "date_start": "1909",
+        "date_end": "1910",
+        "date_precision": "year",
+        "event_type": "创建/筹建",
+        "title": "选址大槐树庄并开工兴建",
+        "description": "经勘察选定济南西部大槐树庄厂址，由德国工程师负责勘察设计，1910年开工兴建，俗称大槐树机厂。",
+        "place_name": "山东省济南市槐荫区大槐树庄（今槐村街）",
+        "related_people": [],
+        "related_orgs": ["津浦铁路总局"],
+        "source_idxs": [3, 4, 0],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "个别报道记为1909年由德国工程司设计勘探兴建，与1910年开工说并存。"
+      },
+      {
+        "date_start": "1913-04-01",
+        "date_end": null,
+        "date_precision": "exact_date",
+        "event_type": "建成投产",
+        "title": "津浦铁路局济南机器厂建成投入使用",
+        "description": "1913年4月1日建成投用，主要修理津浦铁路北段机车、客货客车，德人道格米里任首任厂长，俗称铁路大厂。",
+        "place_name": "山东省济南市槐荫区",
+        "related_people": [],
+        "related_orgs": ["津浦铁路局"],
+        "source_idxs": [3, 5, 0],
+        "confidence": "high",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1914",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "战争影响",
+        "title": "一战爆发德国人离厂",
+        "description": "1914年第一次世界大战爆发，德国人离厂，工厂管理权交由北洋政府接管。",
+        "place_name": "山东省济南市",
+        "related_people": [],
+        "related_orgs": [],
+        "source_idxs": [3],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1921",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "工人运动",
+        "title": "津浦铁路大槐树机厂工人俱乐部成立",
+        "description": "在王尽美、王荷波等人指导下，工人俱乐部成立，为山东省第一个具有工会性质的组织，随后被查封。",
+        "place_name": "山东省济南市",
+        "related_people": ["王尽美", "王荷波"],
+        "related_orgs": [],
+        "source_idxs": [2],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "成立时间为1921年6月。"
+      },
+      {
+        "date_start": "1922-06-18",
+        "date_end": null,
+        "date_precision": "exact_date",
+        "event_type": "工人运动",
+        "title": "山东省第一个产业工会成立",
+        "description": "津浦铁路济南大槐树机厂工会成立，为山东省第一个产业工会，李广义当选会长。",
+        "place_name": "山东省济南市",
+        "related_people": ["李广义"],
+        "related_orgs": ["津浦铁路济南大槐树机厂工会"],
+        "source_idxs": [2, 1],
+        "confidence": "high",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1925",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "党组织建设",
+        "title": "山东省第一个企业党支部成立",
+        "description": "经中共山东地方执行委员会批准，中共津浦铁路大槐树机厂支部成立，有党员16名，刘子久临时任书记。",
+        "place_name": "山东省济南市中大槐树北街",
+        "related_people": ["刘子久", "李广义"],
+        "related_orgs": ["中共山东地方执行委员会"],
+        "source_idxs": [1, 2],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "山东省政府载为1925年2月，媒体报道作1925年初。"
+      },
+      {
+        "date_start": "1949",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "产品突破",
+        "title": "新中国号机车试车成功",
+        "description": "1949年10月，工厂职工抢修的新中国号机车试车圆满成功，11月又完成新中国号客车组抢修。",
+        "place_name": "山东省济南市",
+        "related_people": [],
+        "related_orgs": [],
+        "source_idxs": [2],
+        "confidence": "high",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1988",
+        "date_end": "1993",
+        "date_precision": "year",
+        "event_type": "技术转型",
+        "title": "由蒸汽机车转产铁路货车",
+        "description": "1988年铁道部提出牵引动力内燃化电气化，工厂决定转产货车；1993年底最后一台蒸汽机车驶离厂区。",
+        "place_name": "山东省济南市",
+        "related_people": [],
+        "related_orgs": ["铁道部"],
+        "source_idxs": [2],
+        "confidence": "high",
+        "disputed": false,
+        "notes": ""
+      }
+    ],
+    "people": [
+      { "name": "道格米里", "role": "德籍首任厂长", "source_idxs": [3] },
+      { "name": "王尽美", "role": "中共山东早期领导人，曾到厂宣传并指导工人运动", "source_idxs": [0, 2] },
+      { "name": "王荷波", "role": "工人运动领导人，指导成立工人俱乐部", "source_idxs": [2] },
+      { "name": "李广义", "role": "首任产业工会会长，后接任党支部书记", "source_idxs": [1, 2] },
+      { "name": "刘子久", "role": "临时担任党支部书记", "source_idxs": [1] }
+    ],
+    "relations": [
+      {
+        "relation_type": "技术援助/借款建设",
+        "target_entity": "德国",
+        "description": "清政府向德国借款营建，德国工程师负责勘察设计，德人道格米里任首任厂长。",
+        "source_idxs": [0, 3],
+        "inferred": false
+      },
+      {
+        "relation_type": "企业谱系",
+        "target_entity": "中车山东机车车辆有限公司",
+        "description": "该厂现名称为中车山东机车车辆有限公司，延续铁路装备制造业务。",
+        "source_idxs": [2],
+        "inferred": false
+      },
+      {
+        "relation_type": "企业谱系",
+        "target_entity": "济南轨道交通装备有限责任公司",
+        "description": "山东党史史志网载济南轨道交通装备有限责任公司前身为津浦铁路局济南机器厂。",
+        "source_idxs": [0],
+        "inferred": false
+      }
+    ],
+    "historical_period_tags": ["晚清近代工业", "民国时期", "新中国初期", "改革开放后"],
+    "sources": [
+      {
+        "title": "济南铁路大厂厂史馆",
+        "org": "中共山东省委党史研究院（山东党史史志网）",
+        "url": "https://www.sddsw.org.cn/articles/ch00030/202305/555ada89-cacc-4b8d-8cdd-0ee0649ed530.shtml",
+        "pub_date": "2023-06-06",
+        "authority": "B",
+        "source_type": "党史史志"
+      },
+      {
+        "title": "\"铁路大厂\"里山东党史上的两个\"第一\"",
+        "org": "山东省人民政府",
+        "url": "http://www.shandong.gov.cn/art/2021/3/15/art_201801_419319.html",
+        "pub_date": "2021-03-15",
+        "authority": "A",
+        "source_type": "政府网站"
+      },
+      {
+        "title": "这座百年铁路大厂，有着多少鲜为人知的往事？",
+        "org": "北京日报客户端（转载CCTV国家记忆，腾讯新闻发布）",
+        "url": "https://news.qq.com/rain/a/20250502A04IS900",
+        "pub_date": "2025-05-02",
+        "authority": "C",
+        "source_type": "媒体"
+      },
+      {
+        "title": "津浦铁路济南机器厂：百年记忆，大槐树机厂、铁路大厂、红色大厂",
+        "org": "搜狐号",
+        "url": "https://www.sohu.com/a/387737020_120592447",
+        "pub_date": "2020-04-13",
+        "authority": "C",
+        "source_type": "媒体"
+      },
+      {
+        "title": "红星耀百年丨济南\"铁路大厂\"的红色传奇故事",
+        "org": "齐鲁网·闪电新闻",
+        "url": "https://news.iqilu.com/shandong/kejiaoshehui/20210521/4860670.shtml",
+        "pub_date": "2021-05-21",
+        "authority": "C",
+        "source_type": "媒体"
+      },
+      {
+        "title": "津浦铁路局济南机器厂",
+        "org": "百度百科",
+        "url": "https://baike.baidu.com/item/%E6%B4%A5%E6%B5%A6%E9%93%81%E8%B7%AF%E5%B1%80%E6%B5%8E%E5%8D%97%E6%9C%BA%E5%99%A8%E5%8E%82/22362291",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      }
+    ]
+  },
+  {
+    "heritage_id": "HER-22e1d21f698e",
+    "name": "天津第三棉纺织厂",
+    "founded_year": { "value": 1920, "date_precision": "year", "source_idxs": [0, 1] },
+    "production_start_year": { "value": 1922, "date_precision": "year", "source_idxs": [0, 4] },
+    "closure_year": null,
+    "current_use": "老厂区于2015年保护性改造为棉3创意街区",
+    "events": [
+      {
+        "date_start": "1920",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "创建/筹建",
+        "title": "裕大纱厂创办",
+        "description": "陈承修创办裕大纱厂，1922年正式开工生产；股东包括王克敏、李宣威、冯应楷、梅兰芳、穆藕初等。",
+        "place_name": "天津市河东区海河东岸",
+        "related_people": ["陈承修", "梅兰芳"],
+        "related_orgs": ["裕大纱厂"],
+        "source_idxs": [0],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "另有始建于1921年之说。"
+      },
+      {
+        "date_start": "1922",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "创建/投产",
+        "title": "宝成纱厂开工生产",
+        "description": "刘柏森创办的宝成纱厂开工生产，注册资本300万元，与裕大纱厂仅一墙之隔，同属天津重要纱厂。",
+        "place_name": "天津市河东区海河东岸",
+        "related_people": ["刘柏森"],
+        "related_orgs": ["宝成纱厂"],
+        "source_idxs": [0, 4],
+        "confidence": "high",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1930-02-16",
+        "date_end": null,
+        "date_precision": "exact_date",
+        "event_type": "管理创新",
+        "title": "宝成纱厂率先实行八小时工作制",
+        "description": "宝成纱厂率先实行八小时工作制，改两班12小时为三班8小时，《大公报》称实开中国劳动界之创例。",
+        "place_name": "天津市河东区",
+        "related_people": ["吴敬仪", "陆绍云"],
+        "related_orgs": ["宝成纱厂"],
+        "source_idxs": [0, 3, 6, 4, 2],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "推行者记为经理吴敬仪，三班制改革多归功总工程师陆绍云。"
+      },
+      {
+        "date_start": "1936",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "企业转让",
+        "title": "宝成纱厂因亏损转让",
+        "description": "宝成纱厂因赔累不堪转手，被日资大福公司经理植松真经标得。",
+        "place_name": "天津市河东区",
+        "related_people": [],
+        "related_orgs": ["大福公司"],
+        "source_idxs": [0],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1945",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "接收/重组",
+        "title": "抗战胜利后改组为中纺三厂",
+        "description": "1945年日本投降后，厂改名中国纺织建设股份有限公司中纺三厂。",
+        "place_name": "天津市河东区",
+        "related_people": [],
+        "related_orgs": ["中国纺织建设股份有限公司"],
+        "source_idxs": [1],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": "该沿革仅见百度百科载。"
+      },
+      {
+        "date_start": "1950",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "合并重组",
+        "title": "裕大、宝成合并更名天津市第三棉纺织厂",
+        "description": "1950年宝成与裕大纱厂正式合并，更名天津市第三棉纺厂；百度百科载更名日期为1950年11月15日。",
+        "place_name": "天津市河东区",
+        "related_people": [],
+        "related_orgs": [],
+        "source_idxs": [0, 1],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "合并年份两源一致，具体日期仅百度百科载11月15日。"
+      },
+      {
+        "date_start": "2015",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "园区再利用",
+        "title": "老厂房改造为棉3创意街区",
+        "description": "天津住宅集团对闲置多年的老厂房实施保护性改造，2015年转型为棉3创意街区。",
+        "place_name": "天津市河东区海河东岸",
+        "related_people": [],
+        "related_orgs": ["天津住宅集团"],
+        "source_idxs": [0, 1, 5],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "企业此前整体搬迁，老厂房一度闲置。"
+      }
+    ],
+    "people": [
+      { "name": "陈承修", "role": "裕大纱厂创办人，曾任农商部工商司司长", "source_idxs": [0] },
+      { "name": "刘柏森", "role": "宝成纱厂创办人", "source_idxs": [0, 4] },
+      { "name": "吴敬仪", "role": "宝成纱厂经理，推行八小时工作制", "source_idxs": [0, 3] },
+      { "name": "陆绍云", "role": "宝成纱厂总工程师、厂长，改行三班8小时制", "source_idxs": [0] },
+      { "name": "梅兰芳", "role": "裕大纱厂股东", "source_idxs": [0] }
+    ],
+    "relations": [
+      {
+        "relation_type": "企业谱系",
+        "target_entity": "裕大纱厂、宝成纱厂",
+        "description": "天津第三棉纺织厂前身为1920年创办的裕大纱厂与1922年开工的宝成纱厂，1950年两厂合并。",
+        "source_idxs": [0],
+        "inferred": false
+      }
+    ],
+    "historical_period_tags": ["民国时期", "新中国初期", "改革开放后"],
+    "sources": [
+      {
+        "title": "8小时工作制 在天津这里诞生",
+        "org": "天津市人民政府国有资产监督管理委员会",
+        "url": "https://sasac.tj.gov.cn/GZJG8342/JGDT5617/202601/t20260127_7232693.html",
+        "pub_date": "2026-01-27",
+        "authority": "A",
+        "source_type": "政府网站"
+      },
+      {
+        "title": "天津第三棉纺织厂",
+        "org": "百度百科",
+        "url": "https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E7%AC%AC%E4%B8%89%E6%A3%89%E7%BA%BA%E7%BB%87%E5%8E%82/55587791",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      },
+      {
+        "title": "【天津制造 奋进坐标】一条河的工业史",
+        "org": "中国日报网天津频道",
+        "url": "https://tj.chinadaily.com.cn/a/202112/24/WS61c5d3baa3107be4979fef02.html",
+        "pub_date": "2021-12-24",
+        "authority": "C",
+        "source_type": "媒体"
+      },
+      {
+        "title": "【桥见中国】老遗迹变装创意街区 看引入八小时工作制的百年老厂破茧重生",
+        "org": "中国网",
+        "url": "http://photo.china.com.cn/2023-10/23/content_116766951.shtml",
+        "pub_date": "2023-10-23",
+        "authority": "C",
+        "source_type": "媒体"
+      },
+      {
+        "title": "8小时工作制，在天津这个街区诞生",
+        "org": "新浪新闻",
+        "url": "https://k.sina.cn/article_1893892941_70e2834d02001x5ge.html",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "媒体"
+      },
+      {
+        "title": "老厂房的华丽转身丨从棉三到棉3 工业锈带变身创意街区",
+        "org": "人民网",
+        "url": "https://app.people.cn/h5/detail/normal/5954181752734720",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "媒体"
+      },
+      {
+        "title": "纱厂工人先受益 一天只干八小时",
+        "org": "每日新报（新浪转载）",
+        "url": "https://news.sina.com.cn/c/2004-12-11/22195192905.shtml",
+        "pub_date": "2004-12-11",
+        "authority": "C",
+        "source_type": "媒体"
+      }
+    ]
+  },
+  {
+    "heritage_id": "HER-3e17a22e3784",
+    "name": "张家口沙城酒厂",
+    "founded_year": { "value": 1949, "date_precision": "year", "source_idxs": [0, 1] },
+    "production_start_year": null,
+    "closure_year": null,
+    "current_use": "现为张家口长城酿造（集团）有限责任公司，仍从事白酒、葡萄酒酿造",
+    "events": [
+      {
+        "date_start": "1949",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "创建/公营合并",
+        "title": "华北第四十六公营酒厂成立",
+        "description": "1949年6月察哈尔省政府接收沙城六家私营缸房，合并成立华北第四十六公营酒厂，后更名沙城酒厂。",
+        "place_name": "河北省张家口市怀来县沙城镇",
+        "related_people": [],
+        "related_orgs": ["察哈尔省政府", "华北第四十六公营酒厂"],
+        "source_idxs": [0, 1],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "成立月份为6月。"
+      },
+      {
+        "date_start": "1958",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "产品荣誉",
+        "title": "青梅煮酒获评全国第一",
+        "description": "1958年沙城青梅煮酒获评全国第一名。",
+        "place_name": "河北省张家口市怀来县沙城镇",
+        "related_people": [],
+        "related_orgs": [],
+        "source_idxs": [0],
+        "confidence": "low",
+        "disputed": false,
+        "notes": "仅见河北广播电视台专题文章载。"
+      },
+      {
+        "date_start": "1976",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "技术突破",
+        "title": "研制出中国第一瓶干白葡萄酒",
+        "description": "在郭其昌主持下，沙城酒厂研制出中国第一瓶干白葡萄酒（沙城龙眼干白），后成为外交部接待用酒。",
+        "place_name": "河北省张家口市怀来县沙城镇",
+        "related_people": ["郭其昌"],
+        "related_orgs": [],
+        "source_idxs": [0, 2, 3],
+        "confidence": "high",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1978",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "科研/技术引进",
+        "title": "国家干白新工艺科研项目落户",
+        "description": "《干白葡萄酒新工艺的研究》列为国家轻工部重点科研项目并设科研点于沙城酒厂，1978年成立科研所。",
+        "place_name": "河北省张家口市怀来县沙城镇",
+        "related_people": ["郭其昌"],
+        "related_orgs": ["轻工业部"],
+        "source_idxs": [2, 4, 3],
+        "confidence": "high",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1979",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "产品荣誉",
+        "title": "干白获全国名酒与国家质量金奖",
+        "description": "1979年沙城干白葡萄酒评为全国名酒，同获国家质量奖金奖，并列为外交部驻外使馆用酒。",
+        "place_name": "河北省张家口市怀来县沙城镇",
+        "related_people": [],
+        "related_orgs": [],
+        "source_idxs": [5],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": "企业官网载，另见沙城葡萄酒百科条目。"
+      },
+      {
+        "date_start": "1983",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "合资/联合",
+        "title": "中国长城葡萄酒有限公司成立",
+        "description": "1983年经外贸部批准，由张家口地区长城酿酒公司、中国粮油食品进出口总公司、香港远大公司合资成立。",
+        "place_name": "河北省张家口市怀来县",
+        "related_people": [],
+        "related_orgs": ["中国长城葡萄酒有限公司", "中国粮油食品进出口总公司", "香港远大公司"],
+        "source_idxs": [3],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1996",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "改制/集团化",
+        "title": "长城酿造集团成立",
+        "description": "张家口长城酿造（集团）有限责任公司于1996年成立，前身为1949年成立的沙城酒厂。",
+        "place_name": "河北省张家口市怀来县",
+        "related_people": [],
+        "related_orgs": ["张家口长城酿造（集团）有限责任公司"],
+        "source_idxs": [6],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": ""
+      }
+    ],
+    "people": [
+      { "name": "郭其昌", "role": "葡萄酒专家，主持研制中国第一瓶干白葡萄酒", "source_idxs": [0, 2, 4] },
+      { "name": "周恒刚", "role": "白酒专家，将北斗工艺科研项目落地沙城", "source_idxs": [0] }
+    ],
+    "relations": [
+      {
+        "relation_type": "科研合作/技术引进",
+        "target_entity": "轻工业部",
+        "description": "国家轻工部将干白葡萄酒新工艺研究列为重点科研项目，由郭其昌负责，在沙城酒厂实施。",
+        "source_idxs": [2, 4],
+        "inferred": false
+      },
+      {
+        "relation_type": "企业谱系",
+        "target_entity": "张家口长城酿造（集团）有限责任公司",
+        "description": "长城酿造集团前身为1949年成立的沙城酒厂。",
+        "source_idxs": [6],
+        "inferred": false
+      },
+      {
+        "relation_type": "合资/企业谱系",
+        "target_entity": "中国长城葡萄酒有限公司",
+        "description": "1983年由张家口地区长城酿酒公司等三方合资设立；长城酿酒公司与沙城酒厂的承继关系未见直接记载。",
+        "source_idxs": [3],
+        "inferred": true
+      }
+    ],
+    "historical_period_tags": ["新中国初期", "改革开放后"],
+    "sources": [
+      {
+        "title": "御酒八百年，一脉贯古今——沙城老窖以历史文脉与时代品质书写老名酒复兴新篇",
+        "org": "河北广播电视台冀时新闻",
+        "url": "https://web.cmc.hebtv.com/cms/rmt0336/0/0rmhlm/qy/jswh/whdj/12207474.shtml",
+        "pub_date": "2026-03-09",
+        "authority": "C",
+        "source_type": "媒体"
+      },
+      {
+        "title": "张家口沙城酒厂",
+        "org": "百度百科",
+        "url": "https://baike.baidu.com/item/%E5%BC%A0%E5%AE%B6%E5%8F%A3%E6%B2%99%E5%9F%8E%E9%85%92%E5%8E%82/55587898",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      },
+      {
+        "title": "第一瓶干白葡萄酒为什么诞生在沙城？",
+        "org": "搜狐号",
+        "url": "https://www.sohu.com/a/435394732_185719",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "媒体"
+      },
+      {
+        "title": "Shacheng-沙城产区",
+        "org": "红酒世界网",
+        "url": "https://m.wine-world.com/area/china/hebei/yanhuairivervalley/huailai/yanherivervalley",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "行业网站"
+      },
+      {
+        "title": "新中国第一瓶干白葡萄酒诞生记",
+        "org": "网易订阅",
+        "url": "https://www.163.com/dy/article/DT2QMVJN0522IO6H.html",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "媒体"
+      },
+      {
+        "title": "第一瓶干白诞生地",
+        "org": "河北沙城老窖酒业有限公司官网",
+        "url": "https://www.shachenglaojiao.com/The_birthplace.html",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "企业官网"
+      },
+      {
+        "title": "张家口长城酿造（集团）有限责任公司",
+        "org": "百度百科",
+        "url": "https://baike.baidu.com/item/%E5%BC%A0%E5%AE%B6%E5%8F%A3%E9%95%BF%E5%9F%8E%E9%85%BF%E9%80%A0%EF%BC%88%E9%9B%86%E5%9B%A2%EF%BC%89%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8/20935678",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      }
+    ]
+  },
+  {
+    "heritage_id": "HER-d9992f44ad45",
+    "name": "老龙口酒厂",
+    "founded_year": { "value": 1662, "date_precision": "year", "source_idxs": [0, 1, 2] },
+    "production_start_year": null,
+    "closure_year": null,
+    "current_use": "原址活态酿造（沈阳天江老龙口酿造有限公司），并开发老龙口旅游景区",
+    "events": [
+      {
+        "date_start": "1662",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "创建/筹建",
+        "title": "孟子敬创办义龙泉（义隆泉）烧锅",
+        "description": "清康熙元年（1662年）春，山西富商孟子敬在表兄张乐山帮助下，于沈阳小东门外购地建烧锅。",
+        "place_name": "辽宁省沈阳市大东区（盛京城小东门外）",
+        "related_people": ["孟子敬", "张乐山"],
+        "related_orgs": [],
+        "source_idxs": [0, 1, 2, 4],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "烧锅名称有义龙泉与义隆泉两种写法，厂志作义隆泉。"
+      },
+      {
+        "date_start": "1752",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "更名沿革",
+        "title": "改称德龙泉烧锅",
+        "description": "1752年义龙泉烧锅改为德龙泉烧锅。",
+        "place_name": "辽宁省沈阳市",
+        "related_people": [],
+        "related_orgs": [],
+        "source_idxs": [0, 1],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1871",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "更名沿革",
+        "title": "改称万隆泉烧锅",
+        "description": "1871年又改为万隆泉烧锅，因地处盛京龙城之口，民间一直沿用老龙口酒坊之称。",
+        "place_name": "辽宁省沈阳市",
+        "related_people": [],
+        "related_orgs": [],
+        "source_idxs": [0, 1],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": null,
+        "date_end": null,
+        "date_precision": "approximate",
+        "event_type": "贡酒/荣誉",
+        "title": "清代为盛京御用贡酒",
+        "description": "公司官网载老龙口白酒曾为康熙、乾隆、嘉庆、道光四帝东巡盛京的御用贡酒。",
+        "place_name": "辽宁省沈阳市",
+        "related_people": [],
+        "related_orgs": [],
+        "source_idxs": [3],
+        "confidence": "low",
+        "disputed": false,
+        "notes": "企业官网表述，未见独立史料佐证。"
+      },
+      {
+        "date_start": "1949-03-01",
+        "date_end": null,
+        "date_precision": "exact_date",
+        "event_type": "国营化/接管",
+        "title": "万隆泉烧锅资产被购买成立国营制酒厂",
+        "description": "1949年3月1日当局经专卖局购买万隆泉烧锅全部资产，成立沈阳特别市专卖局老龙口制酒厂。",
+        "place_name": "辽宁省沈阳市",
+        "related_people": [],
+        "related_orgs": ["沈阳特别市专卖局"],
+        "source_idxs": [0],
+        "confidence": "high",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1990",
+        "date_end": null,
+        "date_precision": "decade",
+        "event_type": "停产/经营困境",
+        "title": "市场体制双重冲击几近停产",
+        "description": "20世纪90年代，因市场和体制等问题，酒厂几近停产。",
+        "place_name": "辽宁省沈阳市",
+        "related_people": [],
+        "related_orgs": [],
+        "source_idxs": [0],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "2000",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "合资/改制",
+        "title": "与新加坡T&C公司联营组建合资公司",
+        "description": "2000年10月与新加坡T&C公司联营组建沈阳天江老龙口酿酒有限公司，称中国大陆首家白酒合资企业。",
+        "place_name": "辽宁省沈阳市",
+        "related_people": [],
+        "related_orgs": ["新加坡T&C公司", "沈阳天江老龙口酿酒有限公司"],
+        "source_idxs": [0],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "成立月份为10月。"
+      },
+      {
+        "date_start": "2017-05-22",
+        "date_end": null,
+        "date_precision": "exact_date",
+        "event_type": "并购/转制",
+        "title": "被民营八王寺厂家收购",
+        "description": "2017年5月22日，老龙口被已转为民企的八王寺汽水生产厂家收购，成为民营企业。",
+        "place_name": "辽宁省沈阳市",
+        "related_people": [],
+        "related_orgs": ["八王寺汽水生产厂家"],
+        "source_idxs": [0],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": ""
+      }
+    ],
+    "people": [
+      { "name": "孟子敬", "role": "山西富商，1662年创办烧锅", "source_idxs": [0, 2] },
+      { "name": "张乐山", "role": "孟子敬表兄，协助创建烧锅", "source_idxs": [0] }
+    ],
+    "relations": [
+      {
+        "relation_type": "合资/联营",
+        "target_entity": "新加坡T&C公司",
+        "description": "2000年10月联营组建沈阳天江老龙口酿酒有限公司，获外资注资复产。",
+        "source_idxs": [0],
+        "inferred": false
+      },
+      {
+        "relation_type": "企业谱系",
+        "target_entity": "沈阳天江老龙口酿造有限公司",
+        "description": "老龙口酒厂现为企业名称沈阳天江老龙口酿造有限公司，沿革自万隆泉烧锅与国营老龙口制酒厂。",
+        "source_idxs": [0, 3],
+        "inferred": false
+      }
+    ],
+    "historical_period_tags": ["新中国初期", "改革开放后"],
+    "sources": [
+      {
+        "title": "老龙口酒",
+        "org": "维基百科",
+        "url": "https://zh.wikipedia.org/wiki/%E8%80%81%E9%BE%99%E5%8F%A3%E9%85%92",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      },
+      {
+        "title": "老龙口酒厂",
+        "org": "百度百科",
+        "url": "https://baike.baidu.com/item/%E8%80%81%E9%BE%99%E5%8F%A3%E9%85%92%E5%8E%82/53301494",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      },
+      {
+        "title": "生命中的那瓶酒——关东第一窖沈阳老龙口酒",
+        "org": "搜狐号",
+        "url": "https://www.sohu.com/a/151204147_661131",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "媒体"
+      },
+      {
+        "title": "沈阳天江老龙口酿造有限公司官网",
+        "org": "沈阳天江老龙口酿造有限公司",
+        "url": "http://www.llkwine.com/",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "企业官网"
+      },
+      {
+        "title": "老龙口旅游景区",
+        "org": "百度百科",
+        "url": "https://baike.baidu.com/item/%E8%80%81%E9%BE%99%E5%8F%A3%E6%97%85%E6%B8%B8%E6%99%AF%E5%8C%BA/19929208",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      }
+    ]
+  },
+  {
+    "heritage_id": "HER-4c8ee8df1041",
+    "name": "哈尔滨卷烟厂旧址",
+    "founded_year": { "value": 1902, "date_precision": "year", "source_idxs": [0, 4] },
+    "production_start_year": { "value": 1902, "date_precision": "year", "source_idxs": [0] },
+    "closure_year": null,
+    "current_use": "旧址（一曼街69号）作为历史建筑保留，为哈尔滨市一类保护建筑、省市级文物保护单位；企业现隶属黑龙江烟草工业有限责任公司",
+    "events": [
+      {
+        "date_start": "1902",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "创建/筹建",
+        "title": "老巴夺兄弟创办制烟作坊",
+        "description": "波兰籍犹太老巴夺兄弟在埠头区马街（今道里区东风街）购房置设备，开办制烟手工作坊。",
+        "place_name": "黑龙江省哈尔滨市道里区",
+        "related_people": ["伊利奥·阿罗诺维奇·老巴夺", "阿勃拉·阿罗诺维奇·老巴夺"],
+        "related_orgs": [],
+        "source_idxs": [0],
+        "confidence": "high",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1904",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "扩建/建厂",
+        "title": "开办葛万那烟庄",
+        "description": "1904年5月在西十三道街16号玉顺成大院开办俄式纸嘴烟小工厂，取名葛万那烟庄。",
+        "place_name": "黑龙江省哈尔滨市道里区",
+        "related_people": [],
+        "related_orgs": ["葛万那烟庄"],
+        "source_idxs": [0, 4],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "月份为5月。"
+      },
+      {
+        "date_start": "1909",
+        "date_end": "1914",
+        "date_precision": "year",
+        "event_type": "公司化/合资",
+        "title": "公司化并与英美烟公司合资",
+        "description": "1909年改称老巴夺父子烟草公司；1914年与英美烟公司合资，更名英商老巴夺父子烟草有限公司。",
+        "place_name": "黑龙江省哈尔滨市",
+        "related_people": [],
+        "related_orgs": ["英美烟公司"],
+        "source_idxs": [0, 4],
+        "confidence": "high",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1920",
+        "date_end": "1922",
+        "date_precision": "year",
+        "event_type": "迁建/投产",
+        "title": "一曼街新厂房建成投产",
+        "description": "1920年在南岗山街（今一曼街65号）兴建新厂房，1922年投产使用；俄建筑师维萨恩设计，折衷主义风格，俗称大黄楼。",
+        "place_name": "黑龙江省哈尔滨市南岗区一曼街",
+        "related_people": [],
+        "related_orgs": [],
+        "source_idxs": [0, 1, 2],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "旧址动工年份另有1919年之说（维基百科旧址条目）。"
+      },
+      {
+        "date_start": null,
+        "date_end": null,
+        "date_precision": "approximate",
+        "event_type": "战争影响",
+        "title": "日据时期被霸占改称满洲烟草株式会社",
+        "description": "日据时期公司被日本人霸占，改称满洲烟草株式会社，经营人员全部为日本人。",
+        "place_name": "黑龙江省哈尔滨市",
+        "related_people": [],
+        "related_orgs": ["满洲烟草株式会社"],
+        "source_idxs": [0],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": "原文未载具体年份。"
+      },
+      {
+        "date_start": "1945",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "战后复业",
+        "title": "日本投降后恢复原公司名称",
+        "description": "1945年日本投降后，米哈伊勒·老巴夺（M·E·老巴夺）回厂任总办，恢复原公司名称。",
+        "place_name": "黑龙江省哈尔滨市",
+        "related_people": ["米哈伊勒·老巴夺"],
+        "related_orgs": [],
+        "source_idxs": [0],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1952",
+        "date_end": "1953",
+        "date_precision": "year",
+        "event_type": "国营化/更名",
+        "title": "收归国有更名国营哈尔滨卷烟厂",
+        "description": "1952年4月哈尔滨市政府将公司有偿收为国有，定名国营哈尔滨制烟厂；1953年更名国营哈尔滨卷烟厂。",
+        "place_name": "黑龙江省哈尔滨市",
+        "related_people": [],
+        "related_orgs": ["哈尔滨市政府"],
+        "source_idxs": [0],
+        "confidence": "high",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": null,
+        "date_end": null,
+        "date_precision": "approximate",
+        "event_type": "工人运动/红色历史",
+        "title": "红色活动与北满分局旧址",
+        "description": "赵一曼、杨靖宇等曾在此秘密组织工人运动，卢冬生在此牺牲；该址亦为中共东北局北满分局旧址。",
+        "place_name": "黑龙江省哈尔滨市南岗区一曼街",
+        "related_people": ["赵一曼", "杨靖宇", "卢冬生"],
+        "related_orgs": ["中共东北局北满分局"],
+        "source_idxs": [3],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": "原文未载具体年份。"
+      }
+    ],
+    "people": [
+      { "name": "伊利奥·阿罗诺维奇·老巴夺", "role": "创始人（E·A·LOPATO），波兰籍犹太人", "source_idxs": [0] },
+      { "name": "阿勃拉·阿罗诺维奇·老巴夺", "role": "联合创始人（A·A·LOPATO），老巴夺之弟", "source_idxs": [0] },
+      { "name": "米哈伊勒·老巴夺", "role": "老巴夺之子，1945年回厂任总办", "source_idxs": [0] }
+    ],
+    "relations": [
+      {
+        "relation_type": "资本合作/被控股",
+        "target_entity": "英美烟公司",
+        "description": "1914年与英美烟公司合资，更名英商老巴夺父子烟草有限公司，成为其附属公司。",
+        "source_idxs": [0],
+        "inferred": false
+      },
+      {
+        "relation_type": "企业谱系",
+        "target_entity": "黑龙江烟草工业有限责任公司",
+        "description": "哈尔滨卷烟厂现隶属于黑龙江烟草工业有限责任公司。",
+        "source_idxs": [0],
+        "inferred": false
+      }
+    ],
+    "historical_period_tags": ["晚清近代工业", "民国时期", "新中国初期", "改革开放后"],
+    "sources": [
+      {
+        "title": "哈尔滨卷烟厂",
+        "org": "维基百科",
+        "url": "https://zh.wikipedia.org/wiki/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%B7%E7%83%9F%E5%8E%82",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      },
+      {
+        "title": "老巴夺父子烟草公司旧址",
+        "org": "维基百科",
+        "url": "https://zh.wikipedia.org/wiki/%E8%80%81%E5%B7%B4%E5%A4%BA%E7%88%B6%E5%AD%90%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8%E6%97%A7%E5%9D%80",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      },
+      {
+        "title": "哈尔滨卷烟厂旧址",
+        "org": "百度百科",
+        "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E5%8D%B7%E7%83%9F%E5%8E%82%E6%97%A7%E5%9D%80/55589065",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      },
+      {
+        "title": "烟草工业文化 | 走进大黄楼 触摸哈尔滨的百年工业印记",
+        "org": "中国烟草总公司传媒中心（烟草微报，搜狐发布）",
+        "url": "https://www.sohu.com/a/1082671878_121107000",
+        "pub_date": "2026-09-30",
+        "authority": "C",
+        "source_type": "行业媒体"
+      },
+      {
+        "title": "老巴夺父子烟草股份公司",
+        "org": "百度百科",
+        "url": "https://baike.baidu.com/item/%E8%80%81%E5%B7%B4%E5%A4%BA%E7%88%B6%E5%AD%90%E7%83%9F%E8%8D%89%E8%82%A1%E4%BB%BD%E5%85%AC%E5%8F%B8/23424069",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      }
+    ]
+  },
+  {
+    "heritage_id": "HER-90e03ce6c762",
+    "name": "北满钢厂",
+    "founded_year": { "value": 1954, "date_precision": "year", "source_idxs": [1, 3] },
+    "production_start_year": { "value": 1957, "date_precision": "year", "source_idxs": [2, 1] },
+    "closure_year": null,
+    "current_use": "现为建龙北满特殊钢有限责任公司，仍从事特殊钢生产",
+    "events": [
+      {
+        "date_start": "1952",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "创建/筹建",
+        "title": "建厂初步设计获批",
+        "description": "1952年10月中财委党组审查富拉尔基特殊钢厂初步设计并呈报中央，陈云代表中央批准建厂初步设计。",
+        "place_name": "北京市（审批地）、黑龙江省齐齐哈尔市富拉尔基区",
+        "related_people": ["陈云"],
+        "related_orgs": ["中财委"],
+        "source_idxs": [4],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": "10月13日审查、19日行文呈送中央。"
+      },
+      {
+        "date_start": "1954",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "开工建设",
+        "title": "富拉尔基动工兴建",
+        "description": "1954年在齐齐哈尔市富拉尔基区开工建设，为新中国一五时期156项重点工程中唯一的特殊钢企业。",
+        "place_name": "黑龙江省齐齐哈尔市富拉尔基区",
+        "related_people": [],
+        "related_orgs": [],
+        "source_idxs": [1],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "百度百科建龙北满条目另记前身为1952年始建。"
+      },
+      {
+        "date_start": "1956-08-08",
+        "date_end": null,
+        "date_precision": "exact_date",
+        "event_type": "试生产",
+        "title": "开炉试炼钢",
+        "description": "1956年8月8日，北满钢厂开炉试炼钢。",
+        "place_name": "黑龙江省齐齐哈尔市富拉尔基区",
+        "related_people": [],
+        "related_orgs": [],
+        "source_idxs": [2],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1957-11-03",
+        "date_end": null,
+        "date_precision": "exact_date",
+        "event_type": "建成投产",
+        "title": "正式建成投产",
+        "description": "1957年11月3日正式投入生产，自由锻3000吨水压机、825轧机、20吨电弧炉等苏联设备安装使用。",
+        "place_name": "黑龙江省齐齐哈尔市富拉尔基区",
+        "related_people": [],
+        "related_orgs": [],
+        "source_idxs": [2, 1],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "百度百科记1957年建成投产。"
+      },
+      {
+        "date_start": "1967",
+        "date_end": "1970",
+        "date_precision": "year",
+        "event_type": "更名/体制变动",
+        "title": "两度更名并下放省管",
+        "description": "文化大革命中1967年易名反修钢厂，1970年定名齐齐哈尔钢厂并下放黑龙江省管理。",
+        "place_name": "黑龙江省齐齐哈尔市富拉尔基区",
+        "related_people": [],
+        "related_orgs": [],
+        "source_idxs": [3],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1992",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "股份制改造/上市",
+        "title": "北满特殊钢股份有限公司上市",
+        "description": "1992年10月成立子公司北满特殊钢股份有限公司，集团部分钢厂资产在上海证券交易所上市。",
+        "place_name": "黑龙江省齐齐哈尔市",
+        "related_people": [],
+        "related_orgs": ["北满特殊钢股份有限公司"],
+        "source_idxs": [0],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "月份为10月。"
+      },
+      {
+        "date_start": "2001",
+        "date_end": "2004",
+        "date_precision": "year",
+        "event_type": "重组/并购",
+        "title": "资产重组并入东北特钢",
+        "description": "2001年钢厂资产售回北钢集团，上市壳售予路桥集团；2004年黑龙江省国资委将北满特钢股份注入辽宁特钢，后属东北特殊钢集团。",
+        "place_name": "黑龙江省齐齐哈尔市",
+        "related_people": [],
+        "related_orgs": ["北钢集团", "东北特殊钢集团"],
+        "source_idxs": [0],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "2016",
+        "date_end": "2017",
+        "date_precision": "year",
+        "event_type": "重整/更名",
+        "title": "东北特钢违约后建龙入主",
+        "description": "2016年母公司东北特钢多次债务违约；2017年建龙重工集团成为新大股东，更名建龙北满特殊钢有限责任公司。",
+        "place_name": "黑龙江省齐齐哈尔市富拉尔基区",
+        "related_people": [],
+        "related_orgs": ["东北特殊钢集团", "建龙重工集团"],
+        "source_idxs": [0, 5],
+        "confidence": "high",
+        "disputed": false,
+        "notes": ""
+      }
+    ],
+    "people": [
+      { "name": "陈云", "role": "代表中央批准富拉尔基特殊钢厂建厂初步设计", "source_idxs": [4] }
+    ],
+    "relations": [
+      {
+        "relation_type": "技术援助",
+        "target_entity": "苏联",
+        "description": "一五时期156项重点工程之一，由苏联专家援助建设。",
+        "source_idxs": [0, 2],
+        "inferred": false
+      },
+      {
+        "relation_type": "设备来源",
+        "target_entity": "苏联",
+        "description": "自由锻3000吨水压机、825轧机、20吨电弧炉等大型生产设备自苏联运抵安装。",
+        "source_idxs": [2],
+        "inferred": false
+      },
+      {
+        "relation_type": "企业谱系",
+        "target_entity": "东北特殊钢集团",
+        "description": "2004年起隶属东北特钢集团，曾名东北特钢集团北满特殊钢有限责任公司。",
+        "source_idxs": [0],
+        "inferred": false
+      },
+      {
+        "relation_type": "企业谱系",
+        "target_entity": "建龙北满特殊钢有限责任公司",
+        "description": "2017年建龙重工集团成为大股东，现名建龙北满特殊钢有限责任公司。",
+        "source_idxs": [0, 5],
+        "inferred": false
+      }
+    ],
+    "historical_period_tags": ["一五二五时期", "改革开放后"],
+    "sources": [
+      {
+        "title": "北满特殊钢",
+        "org": "维基百科",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E6%BB%A1%E7%89%B9%E6%AE%8A%E9%92%A2",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      },
+      {
+        "title": "北满钢厂",
+        "org": "百度百科",
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E6%BB%A1%E9%92%A2%E5%8E%82/55621684",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      },
+      {
+        "title": "苏联援建新中国的156个项目第一批：富拉尔基北满钢厂",
+        "org": "搜狐号",
+        "url": "https://www.sohu.com/a/1000450390_122390162",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "媒体"
+      },
+      {
+        "title": "北满特殊钢股份有限公司",
+        "org": "搜搜钢（Mysteel）百科",
+        "url": "https://baike.mysteel.com/doc/view/78522.html",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "行业百科"
+      },
+      {
+        "title": "苏联援建的156个项目之北满特钢",
+        "org": "今日头条号",
+        "url": "https://www.toutiao.com/article/7324339372768756258/",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "自媒体"
+      },
+      {
+        "title": "建龙北满特殊钢有限责任公司",
+        "org": "百度百科",
+        "url": "https://baike.baidu.com/item/%E5%BB%BA%E9%BE%99%E5%8C%97%E6%BB%A1%E7%89%B9%E6%AE%8A%E9%92%A2%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8/24532829",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      }
+    ]
+  },
+  {
+    "heritage_id": "HER-b4f9e945075b",
+    "name": "合山煤矿",
+    "founded_year": { "value": 1905, "date_precision": "year", "source_idxs": [0, 1, 2] },
+    "production_start_year": { "value": 1905, "date_precision": "year", "source_idxs": [0, 1] },
+    "closure_year": null,
+    "current_use": "废弃矿区改造为合山国家矿山公园（东矿、里兰园区），2021年获评国家4A级旅游景区",
+    "events": [
+      {
+        "date_start": "1905",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "始采/创建",
+        "title": "广西第一口煤矿井开凿",
+        "description": "清光绪三十一年（1905年）武宣人刘统臣（刘炳宇）在合岭山首采煤炭，为广西近代煤矿开采的开端。",
+        "place_name": "广西壮族自治区来宾市合山市岭南镇合岭山",
+        "related_people": ["刘统臣"],
+        "related_orgs": [],
+        "source_idxs": [2, 1],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "人名亦写作刘统承、刘炳宇。"
+      },
+      {
+        "date_start": "1933",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "公司成立",
+        "title": "合山煤矿股份有限公司成立",
+        "description": "1933年廖百芳、周响晨等集资成立合山煤矿股份有限公司；此前1932年10月廖百芳与李楚凡已合股办矿。",
+        "place_name": "广西壮族自治区来宾市合山市",
+        "related_people": ["廖百芳", "周响晨", "李楚凡"],
+        "related_orgs": ["合山煤矿股份有限公司"],
+        "source_idxs": [8, 10],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": "集资额据知乎专栏载为2万元毫银。"
+      },
+      {
+        "date_start": "1938-12",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "基建/运输",
+        "title": "来合铁路全线通车（1938年说）",
+        "description": "1935年下半年官商合资开工修建来宾—合山米轨铁路，1938年12月全线建成通车，用于煤炭外运。",
+        "place_name": "广西来宾市至合山市",
+        "related_people": [],
+        "related_orgs": ["合山煤矿股份有限公司"],
+        "source_idxs": [3, 4],
+        "confidence": "high",
+        "disputed": true,
+        "notes": "通车年份与1941年9月说冲突，故分立两条事件。"
+      },
+      {
+        "date_start": "1941",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "基建/运输",
+        "title": "来合铁路全线通车（1941年说）",
+        "description": "另一记载称1941年9月合山煤矿股份两合公司修筑的来合轻便铁路全线通车，合山煤炭实现水陆并运。",
+        "place_name": "广西来宾市至合山市",
+        "related_people": [],
+        "related_orgs": ["合山煤矿股份两合公司"],
+        "source_idxs": [5],
+        "confidence": "medium",
+        "disputed": true,
+        "notes": "维基百科与百度百科记为1938年12月全线通车。"
+      },
+      {
+        "date_start": "1943",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "生产峰值",
+        "title": "年产9.4万吨，称西南第二大煤矿",
+        "description": "1943年产煤9.40万吨，被誉为西南第二大煤矿；煤层仅0.3至0.5米厚，全靠人力侧卧挥锄采掘。",
+        "place_name": "广西壮族自治区来宾市合山市",
+        "related_people": [],
+        "related_orgs": [],
+        "source_idxs": [0],
+        "confidence": "medium",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "1950",
+        "date_end": "1962",
+        "date_precision": "year",
+        "event_type": "接管/国营沿革",
+        "title": "军管接管与国营沿革",
+        "description": "1950年1月5日桂林军管会接管合山煤矿公司；1954年6月更名广西省合山煤矿；1962年1月11日改为合山矿务局。",
+        "place_name": "广西壮族自治区来宾市合山市",
+        "related_people": [],
+        "related_orgs": ["桂林军管会", "合山矿务局"],
+        "source_idxs": [0],
+        "confidence": "high",
+        "disputed": false,
+        "notes": ""
+      },
+      {
+        "date_start": "2009",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "资源枯竭/转型",
+        "title": "列为全国第二批资源枯竭城市",
+        "description": "因煤炭资源枯竭，合山市于2009年3月经国务院批准列为全国第二批资源枯竭城市。",
+        "place_name": "广西壮族自治区来宾市合山市",
+        "related_people": [],
+        "related_orgs": ["国务院"],
+        "source_idxs": [7],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "月份为3月。"
+      },
+      {
+        "date_start": "2010",
+        "date_end": null,
+        "date_precision": "year",
+        "event_type": "园区再利用",
+        "title": "获国家矿山公园资格并转型文旅",
+        "description": "2010年8月获国土资源部批文取得第二批国家矿山公园资格；后建成东矿、里兰园区，2021年获评国家4A级旅游景区。",
+        "place_name": "广西壮族自治区来宾市合山市",
+        "related_people": [],
+        "related_orgs": ["国土资源部", "合山国家矿山公园"],
+        "source_idxs": [6, 9],
+        "confidence": "high",
+        "disputed": false,
+        "notes": "批文报道时间为2010年8月12日。"
+      }
+    ],
+    "people": [
+      { "name": "刘统臣", "role": "1905年在合岭山首采煤炭（又名刘炳宇）", "source_idxs": [2] },
+      { "name": "廖百芳", "role": "合山煤矿股份有限公司发起人、董事兼监察人，主持修筑来合铁路", "source_idxs": [8] },
+      { "name": "李楚凡", "role": "1932年与廖百芳合股办矿", "source_idxs": [8] },
+      { "name": "周响晨", "role": "1933年参与集资创办合山煤矿股份有限公司", "source_idxs": [10] }
+    ],
+    "relations": [
+      {
+        "relation_type": "企业谱系",
+        "target_entity": "合山矿务局",
+        "description": "1962年1月11日合山煤矿改为合山矿务局。",
+        "source_idxs": [0],
+        "inferred": false
+      },
+      {
+        "relation_type": "基建配套",
+        "target_entity": "来合铁路",
+        "description": "1935年公司以官商合资方式修建来宾至合山窄轨铁路，用于煤炭外运。",
+        "source_idxs": [4, 3],
+        "inferred": false
+      },
+      {
+        "relation_type": "再利用",
+        "target_entity": "广西合山国家矿山公园",
+        "description": "废弃矿区整合建成国家矿山公园，含东矿园区与里兰园区。",
+        "source_idxs": [9, 7],
+        "inferred": false
+      }
+    ],
+    "historical_period_tags": ["晚清近代工业", "民国时期", "新中国初期", "改革开放后"],
+    "sources": [
+      {
+        "title": "合山煤田",
+        "org": "维基百科",
+        "url": "https://zh.wikipedia.org/wiki/%E5%90%88%E5%B1%B1%E7%85%A4%E7%94%B0",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      },
+      {
+        "title": "合山煤矿",
+        "org": "百度百科",
+        "url": "https://baike.baidu.com/item/%E5%90%88%E5%B1%B1%E7%85%A4%E7%9F%BF/15753387",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      },
+      {
+        "title": "探寻来宾文物 发现人文之美（七）| 合山煤矿第一口井遗址",
+        "org": "搜狐号",
+        "url": "https://www.sohu.com/a/1021678514_121106875",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "媒体"
+      },
+      {
+        "title": "来合铁路",
+        "org": "百度百科",
+        "url": "https://baike.baidu.com/item/%E6%9D%A5%E5%90%88%E9%93%81%E8%B7%AF/7430494",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      },
+      {
+        "title": "来合铁路",
+        "org": "维基百科",
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%9D%A5%E5%90%88%E9%93%81%E8%B7%AF",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      },
+      {
+        "title": "合山，百年煤都的红色烙印",
+        "org": "江苏省矿业协会（转载）",
+        "url": "http://www.jskx.org/news/31827.cshtml",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "行业协会转载"
+      },
+      {
+        "title": "合山国家矿山公园正式获国土部批文",
+        "org": "广西壮族自治区自然资源厅（来源：广西日报）",
+        "url": "https://dnr.gxzf.gov.cn/zfxxgk/fdzdgknr/dzhj/ksdzhj/t16007988.shtml",
+        "pub_date": "2010-08-13",
+        "authority": "A",
+        "source_type": "政府网站"
+      },
+      {
+        "title": "广西合山：百年煤都的蜕变",
+        "org": "新华社（光明网账号转载）",
+        "url": "https://www.sohu.com/a/454648128_162758",
+        "pub_date": "2021-03-08",
+        "authority": "C",
+        "source_type": "媒体"
+      },
+      {
+        "title": "廖百芳修建广西境内的第一条铁路",
+        "org": "今日头条号",
+        "url": "https://www.toutiao.com/article/7609507082676617779/",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "自媒体"
+      },
+      {
+        "title": "广西合山国家矿山公园",
+        "org": "百度百科",
+        "url": "https://baike.baidu.com/item/%E5%B9%BF%E8%A5%BF%E5%90%88%E5%B1%B1%E5%9B%BD%E5%AE%B6%E7%9F%BF%E5%B1%B1%E5%85%AC%E5%9B%AD/22577224",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "encyclopedia"
+      },
+      {
+        "title": "因煤矿而诞生的城市：合山煤矿百年兴衰",
+        "org": "知乎专栏",
+        "url": "https://zhuanlan.zhihu.com/p/1899420849351680288",
+        "pub_date": null,
+        "authority": "C",
+        "source_type": "自媒体"
+      }
+    ]
+  }
+]

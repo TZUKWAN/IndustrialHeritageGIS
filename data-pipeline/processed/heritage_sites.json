@@ -7772,10 +7772,14 @@
    "name_hit": false,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1920,
+  "production_start_year": 1922,
+  "historical_period": [
+   "民国时期",
+   "新中国初期",
+   "改革开放后"
+  ],
+  "current_use": "老厂区于2015年保护性改造为棉3创意街区",
   "longitude": 117.21991067538971,
   "latitude": 39.120234139557546,
   "coordinate_system": "WGS84",
@@ -7798,10 +7802,10 @@
   "source_ids": [
    "src-batch4"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 89,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {
@@ -7847,10 +7851,13 @@
    "name_hit": false,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
+  "founded_year": 1949,
   "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "historical_period": [
+   "新中国初期",
+   "改革开放后"
+  ],
+  "current_use": "现为张家口长城酿造（集团）有限责任公司，仍从事白酒、葡萄酒酿造",
   "longitude": 115.51418287005093,
   "latitude": 40.4042108275268,
   "coordinate_system": "WGS84",
@@ -7873,10 +7880,10 @@
   "source_ids": [
    "src-batch4"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {
@@ -8070,10 +8077,13 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
+  "founded_year": 1662,
   "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "historical_period": [
+   "新中国初期",
+   "改革开放后"
+  ],
+  "current_use": "原址活态酿造（沈阳天江老龙口酿造有限公司），并开发老龙口旅游景区",
   "longitude": 123.46342989780794,
   "latitude": 41.80689570707679,
   "coordinate_system": "WGS84",
@@ -8096,10 +8106,10 @@
   "source_ids": [
    "src-batch4"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {
@@ -8444,10 +8454,15 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1902,
+  "production_start_year": 1902,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期",
+   "改革开放后"
+  ],
+  "current_use": "旧址（一曼街69号）作为历史建筑保留，为哈尔滨市一类保护建筑、省市级文物保护单位；企业现隶属黑龙江烟草工业有限责任公司",
   "longitude": 126.64554677158704,
   "latitude": 45.75382843560094,
   "coordinate_system": "WGS84",
@@ -8470,10 +8485,10 @@
   "source_ids": [
    "src-batch4"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {
@@ -8736,10 +8751,13 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1954,
+  "production_start_year": 1957,
+  "historical_period": [
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "current_use": "现为建龙北满特殊钢有限责任公司，仍从事特殊钢生产",
   "longitude": 123.63174764482919,
   "latitude": 47.204986047839476,
   "coordinate_system": "WGS84",
@@ -8762,10 +8780,10 @@
   "source_ids": [
    "src-batch4"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {
@@ -9908,10 +9926,15 @@
    "name_hit": false,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1910,
+  "production_start_year": 1913,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期",
+   "改革开放后"
+  ],
+  "current_use": "原址仍为铁路与风电装备制造企业（中车山东机车车辆有限公司），设厂史馆（2010年10月19日开馆）",
   "longitude": 116.94191492444992,
   "latitude": 36.66661698047988,
   "coordinate_system": "WGS84",
@@ -9934,10 +9957,10 @@
   "source_ids": [
    "src-batch4"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {
@@ -13614,10 +13637,15 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1905,
+  "production_start_year": 1905,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期",
+   "改革开放后"
+  ],
+  "current_use": "废弃矿区改造为合山国家矿山公园（东矿、里兰园区），2021年获评国家4A级旅游景区",
   "longitude": 108.88444637323029,
   "latitude": 23.814845360193388,
   "coordinate_system": "WGS84",
@@ -13640,10 +13668,10 @@
   "source_ids": [
    "src-batch5"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {

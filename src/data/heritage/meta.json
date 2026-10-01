@@ -1,10 +1,10 @@
 {
  "data_version": "v1.1.0",
- "generated_at": "2026-10-01T07:27:00+00:00",
+ "generated_at": "2026-10-01T07:38:32+00:00",
  "site_count": 263,
- "event_count": 558,
- "relation_count": 110,
- "source_count": 153,
- "enriched_sites": 42,
+ "event_count": 612,
+ "relation_count": 128,
+ "source_count": 200,
+ "enriched_sites": 49,
  "sources_of_truth": "data-pipeline/ (raw -> interim -> processed -> src/data)"
 }
