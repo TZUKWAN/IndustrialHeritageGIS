@@ -1415,6 +1415,171 @@
   "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
  },
  {
+  "event_id": "EVT-2f21c0412b49-01",
+  "heritage_id": "HER-2f21c0412b49",
+  "event_date_start": "1898",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "山西机器局创立",
+  "description": "1898年（光绪二十四年）山西巡抚胡聘之奏请清政府批准，在太原小北门外柏树园千佛寺庙地创立山西机器局，建厂房22间，次年10月建成投产。",
+  "place_name": "山西省太原市小北门外柏树园",
+  "related_orgs": [
+   "山西机器局"
+  ],
+  "related_people": [
+   "胡聘之"
+  ],
+  "source_ids": [
+   "src-web-a592232e62",
+   "src-web-3428f22817"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2f21c0412b49-02",
+  "heritage_id": "HER-2f21c0412b49",
+  "event_date_start": "1914",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改组",
+  "title": "改称山西陆军修械所",
+  "description": "1914年阎锡山将山西机器局改组为山西陆军修械所，以避袁世凯猜疑，初期仅能修理旧式武器。",
+  "place_name": "山西省太原市",
+  "related_orgs": [
+   "山西陆军修械所"
+  ],
+  "related_people": [
+   "阎锡山"
+  ],
+  "source_ids": [
+   "src-web-a592232e62",
+   "src-web-3428f22817"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2f21c0412b49-03",
+  "heritage_id": "HER-2f21c0412b49",
+  "event_date_start": "1920",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "扩建/技术引进",
+  "title": "改称山西军人工艺实习厂，引进日德英设备",
+  "description": "1920年3月修械所与铜元局合并为山西军人工艺实习厂，系统引进日、德、英机器设备；次年购上海子弹机，日产子弹1万发，开山西自产军火之始。",
+  "place_name": "山西省太原市",
+  "related_orgs": [
+   "山西军人工艺实习厂"
+  ],
+  "related_people": [
+   "阎锡山",
+   "李蒙淑"
+  ],
+  "source_ids": [
+   "src-web-a592232e62"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2f21c0412b49-04",
+  "heritage_id": "HER-2f21c0412b49",
+  "event_date_start": "1927",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "扩建/更名",
+  "title": "升格命名太原兵工厂，跻身民国三大兵工厂",
+  "description": "1926至1927年间升格命名太原兵工厂，下设17个分厂、机器设备3800部、职工约1.5万人，与汉阳、沈阳（奉天）兵工厂并称民国三大兵工厂。",
+  "place_name": "山西省太原市",
+  "related_orgs": [
+   "太原兵工厂"
+  ],
+  "related_people": [
+   "阎锡山"
+  ],
+  "source_ids": [
+   "src-web-a592232e62",
+   "src-web-3428f22817"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2f21c0412b49-05",
+  "heritage_id": "HER-2f21c0412b49",
+  "event_date_start": "1930",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "合并重组/收缩",
+  "title": "中原大战后改组收缩，后纳入西北实业公司",
+  "description": "1930年中原大战后与太原火药厂合并为太原修械所，职工由约1.5万人减至1800人；1932年以壬申制造厂恢复军工，1934年纳入西北实业公司改称西北制造厂。",
+  "place_name": "山西省太原市",
+  "related_orgs": [
+   "西北实业公司",
+   "西北制造厂"
+  ],
+  "related_people": [
+   "张学良",
+   "阎锡山"
+  ],
+  "source_ids": [
+   "src-web-a592232e62"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2f21c0412b49-06",
+  "heritage_id": "HER-2f21c0412b49",
+  "event_date_start": "1937",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "战争影响",
+  "title": "太原沦陷，兵工厂被日军占据",
+  "description": "1937年11月8日日军占领太原，兵工厂仅约2%设备西迁，其余落入日军之手，部分优质设备被运往日本本土及伪满洲国。",
+  "place_name": "山西省太原市",
+  "related_orgs": [
+   "西北制造厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-a592232e62"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-2f21c0412b49-07",
+  "heritage_id": "HER-2f21c0412b49",
+  "event_date_start": "1949-04-24",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "接管/改制",
+  "title": "太原战役结束，解放军接管兵工厂",
+  "description": "1949年4月24日太原战役结束，解放军接管太原兵工厂；后沿革为华北兵工局修造厂、山西机床厂（1957年），2004年改制为山西北方机械制造有限公司。",
+  "place_name": "山西省太原市杏花岭区胜利街101号",
+  "related_orgs": [
+   "华北兵工局",
+   "山西机床厂",
+   "山西北方机械制造有限公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-a592232e62"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
   "event_id": "EVT-2f21c0412b49-R2",
   "heritage_id": "HER-2f21c0412b49",
   "event_date_start": "2018-11-21",
@@ -1434,6 +1599,28 @@
   "confidence": "high",
   "disputed": true,
   "notes": "通告成文日期为2018年11月15日，发布时间为2018-11-21。该通告已由工信部政法函〔2024〕301号宣布作废（第二批经复核后随第六批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-2f21c0412b49-08",
+  "heritage_id": "HER-2f21c0412b49",
+  "event_date_start": "2020",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "博物馆园区再利用",
+  "title": "旧址建设1898太原兵工厂文化产业园",
+  "description": "2020年底中国兵器工业集团与山西北方机械控股等单位在旧址建立1898太原兵工厂文化产业园，设兵器博物馆、晋造工业文化体验馆、现代火炮展览馆等。",
+  "place_name": "山西省太原市杏花岭区胜利街101号",
+  "related_orgs": [
+   "中国兵器工业集团",
+   "山西北方机械制造有限公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-a592232e62"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-302153de1606-R3",
@@ -2033,6 +2220,189 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
+ },
+ {
+  "event_id": "EVT-3f02e34f45ec-01",
+  "heritage_id": "HER-3f02e34f45ec",
+  "event_date_start": "1889",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "唐山细绵土厂创办",
+  "description": "1889年在直隶总督李鸿章支持下，开平矿务局总办唐廷枢创办唐山细绵土厂，为中国第一家水泥厂。",
+  "place_name": "河北省唐山市",
+  "related_orgs": [
+   "开平矿务局",
+   "唐山细绵土厂"
+  ],
+  "related_people": [
+   "唐廷枢",
+   "李鸿章"
+  ],
+  "source_ids": [
+   "src-web-ca4d217f22",
+   "src-web-428e66c474",
+   "src-web-82bea6bc21"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-3f02e34f45ec-02",
+  "heritage_id": "HER-3f02e34f45ec",
+  "event_date_start": "1893",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "停产",
+  "title": "细绵土厂早期停产",
+  "description": "细绵土厂创办初期因原料成本高、经营不善等原因，于1893年前后停产。",
+  "place_name": "河北省唐山市",
+  "related_orgs": [
+   "唐山细绵土厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-428e66c474"
+  ],
+  "confidence": "low",
+  "disputed": false,
+  "notes": "原页面编码读取受限，该年份经检索结果摘要与百科资料核对"
+ },
+ {
+  "event_id": "EVT-3f02e34f45ec-03",
+  "heritage_id": "HER-3f02e34f45ec",
+  "event_date_start": "1900",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "外资侵占",
+  "title": "庚子事变中细绵土厂被英商骗占",
+  "description": "1900年八国联军侵华期间，细绵土厂连同开平矿务局被英国人骗占，落入英方之手。",
+  "place_name": "河北省唐山市",
+  "related_orgs": [
+   "开平矿务局"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-428e66c474",
+   "src-web-8c6737d933"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-3f02e34f45ec-04",
+  "heritage_id": "HER-3f02e34f45ec",
+  "event_date_start": "1906",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "收回重组",
+  "title": "周学熙收回细绵土厂",
+  "description": "1906年7月，北洋大臣袁世凯命周学熙在德国工程师协助下收回细绵土厂，恢复生产，改为官督商办。",
+  "place_name": "河北省唐山市",
+  "related_orgs": [
+   "唐山细绵土厂"
+  ],
+  "related_people": [
+   "周学熙",
+   "袁世凯"
+  ],
+  "source_ids": [
+   "src-web-428e66c474",
+   "src-web-8c6737d933"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-3f02e34f45ec-06",
+  "heritage_id": "HER-3f02e34f45ec",
+  "event_date_start": "1906",
+  "event_date_end": "1920",
+  "date_precision": "approximate",
+  "event_type": "产品突破",
+  "title": "“马牌”水泥畅销，垄断国内市场14年",
+  "description": "启新“马牌”水泥质量优异，国内市场占有率一度达92%以上，垄断国内水泥市场14年之久。",
+  "place_name": "河北省唐山市",
+  "related_orgs": [
+   "启新洋灰股份有限公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-428e66c474"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "原文仅称“垄断国内市场14年”，起止年份为约略区间"
+ },
+ {
+  "event_id": "EVT-3f02e34f45ec-05",
+  "heritage_id": "HER-3f02e34f45ec",
+  "event_date_start": "1907",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制/更名",
+  "title": "成立唐山启新洋灰股份有限公司",
+  "description": "改制成立唐山启新洋灰股份有限公司，为中国人自办的第一家近代水泥生产企业；更名年份另有1906年一说。",
+  "place_name": "河北省唐山市",
+  "related_orgs": [
+   "启新洋灰股份有限公司"
+  ],
+  "related_people": [
+   "周学熙"
+  ],
+  "source_ids": [
+   "src-web-8c6737d933",
+   "src-web-82bea6bc21",
+   "src-web-ca4d217f22"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "维基百科记1906年清政府收回后即名“启新洋灰股份有限公司”，百度百科记1907年更名，年份记载存在出入"
+ },
+ {
+  "event_id": "EVT-3f02e34f45ec-07",
+  "heritage_id": "HER-3f02e34f45ec",
+  "event_date_start": "1954",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "公私合营",
+  "title": "启新水泥厂公私合营",
+  "description": "1954年8月开始公私合营，企业后为唐山启新水泥有限公司。",
+  "place_name": "河北省唐山市",
+  "related_orgs": [
+   "启新洋灰股份有限公司"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-8c6737d933"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-3f02e34f45ec-08",
+  "heritage_id": "HER-3f02e34f45ec",
+  "event_date_start": "2008",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "搬迁与再利用",
+  "title": "老厂搬迁，原址改建工业博物馆与文创园",
+  "description": "2008年因唐山城市改造，启新水泥厂拆迁、新厂迁至郊县，原厂址修复建设启新水泥工业博物馆暨1889文化创意产业园。",
+  "place_name": "河北省唐山市",
+  "related_orgs": [
+   "启新水泥工业博物馆"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-ca4d217f22"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-3f02e34f45ec-R2",
@@ -3536,6 +3906,197 @@
   "confidence": "high",
   "disputed": true,
   "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
+ },
+ {
+  "event_id": "EVT-61afd2c64f32-01",
+  "heritage_id": "HER-61afd2c64f32",
+  "event_date_start": "1898",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "张凤起创办井陉煤矿（创办年份两说）",
+  "description": "百度百科载1898年张凤起与德商筹建井陉煤矿；井陉区政府官网则记1899年德国人汉纳根与南正村张凤起合资在横涧一带开办井陉矿。",
+  "place_name": "河北省石家庄市井陉矿区",
+  "related_orgs": [
+   "井陉煤矿"
+  ],
+  "related_people": [
+   "张凤起",
+   "汉纳根"
+  ],
+  "source_ids": [
+   "src-web-a2c8916cb2",
+   "src-web-8b4d4263bb"
+  ],
+  "confidence": "medium",
+  "disputed": true,
+  "notes": "创办年份来源记载不一：1898年（百度百科）/1899年（井陉矿区官网）"
+ },
+ {
+  "event_id": "EVT-61afd2c64f32-02",
+  "heritage_id": "HER-61afd2c64f32",
+  "event_date_start": "1908",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "中外合办合同签订",
+  "title": "中德合办合同签订，定名井陉矿务局",
+  "description": "1908年汉纳根与清政府正式签订中德合办合同，定名井陉矿务局（办事机构设天津），汉纳根任洋总办；南井为矿区第一口机械化矿井。",
+  "place_name": "河北省石家庄市井陉矿区",
+  "related_orgs": [
+   "井陉矿务局"
+  ],
+  "related_people": [
+   "汉纳根"
+  ],
+  "source_ids": [
+   "src-web-8b4d4263bb",
+   "src-web-085b338d46"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "百度百科另记袁世凯此前将矿权收归官有改为官商合办"
+ },
+ {
+  "event_id": "EVT-61afd2c64f32-03",
+  "heritage_id": "HER-61afd2c64f32",
+  "event_date_start": "1912",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "新设/扩建",
+  "title": "段氏资本入主正丰煤矿公司",
+  "description": "1905年杜英魁等设正丰公司；1912年段祺瑞之弟段祺勋入股办矿任总经理，1913年段家建段家楼建筑群，1918年在凤山开凿大井扩大生产。",
+  "place_name": "河北省石家庄市井陉矿区凤山",
+  "related_orgs": [
+   "正丰煤矿股份有限公司"
+  ],
+  "related_people": [
+   "段祺瑞",
+   "段祺勋",
+   "杜英魁"
+  ],
+  "source_ids": [
+   "src-web-8b4d4263bb",
+   "src-web-085b338d46"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-61afd2c64f32-04",
+  "heritage_id": "HER-61afd2c64f32",
+  "event_date_start": "1914",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产业链延伸",
+  "title": "井陉矿在石家庄建立石门焦化厂",
+  "description": "1914年井陉矿在石家庄建立炼焦企业（石门焦化厂，报道称中国最早的炼焦企业），其清水焦炭远销日本和东南亚，助推石家庄工商业兴起。",
+  "place_name": "河北省石家庄市",
+  "related_orgs": [
+   "井陉矿",
+   "石门焦化厂"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-085b338d46"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-61afd2c64f32-05",
+  "heritage_id": "HER-61afd2c64f32",
+  "event_date_start": "1937",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "战争影响",
+  "title": "日军占领井陉煤矿",
+  "description": "1937年10月日军占领井陉煤矿，井陉矿改称兴中公司井陉采炭所；1940年段宏业将正丰矿出卖给日方，两矿合并为井陉炭矿股份有限公司。",
+  "place_name": "河北省石家庄市井陉矿区",
+  "related_orgs": [
+   "兴中公司",
+   "井陉炭矿股份有限公司"
+  ],
+  "related_people": [
+   "段宏业"
+  ],
+  "source_ids": [
+   "src-web-8b4d4263bb"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-61afd2c64f32-06",
+  "heritage_id": "HER-61afd2c64f32",
+  "event_date_start": "1940-08-20",
+  "event_date_end": null,
+  "date_precision": "exact_date",
+  "event_type": "战争影响",
+  "title": "百团大战中八路军攻克井陉煤矿",
+  "description": "1940年8月20日八路军攻克井陉煤矿，炸毁设备、烧毁存煤，使日军煤炭生产陷于瘫痪；战斗中救出日本小姑娘美穗子姐妹，聂荣臻致信送还。",
+  "place_name": "河北省石家庄市井陉矿区新井",
+  "related_orgs": [
+   "八路军"
+  ],
+  "related_people": [
+   "聂荣臻"
+  ],
+  "source_ids": [
+   "src-web-8b4d4263bb"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-61afd2c64f32-07",
+  "heritage_id": "HER-61afd2c64f32",
+  "event_date_start": "1947",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "解放/军管",
+  "title": "井陉煤矿解放，设备人力支援边区军工",
+  "description": "1947年4月井陉煤矿解放，成立井陉矿区管理委员会（杨成武任主任委员，姚依林、漆远渥任副主任委员）；矿山设备与60多名技工支援平山兵工厂和沕沕水发电厂。",
+  "place_name": "河北省石家庄市井陉矿区",
+  "related_orgs": [
+   "晋察冀军区井陉矿区管理委员会"
+  ],
+  "related_people": [
+   "杨成武",
+   "姚依林",
+   "漆远渥"
+  ],
+  "source_ids": [
+   "src-web-8b4d4263bb",
+   "src-web-085b338d46"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-61afd2c64f32-08",
+  "heritage_id": "HER-61afd2c64f32",
+  "event_date_start": "1947",
+  "event_date_end": null,
+  "date_precision": "approximate",
+  "event_type": "合并重组",
+  "title": "正丰矿、井陉矿合并组成井陉矿务局",
+  "description": "解放后正丰矿、井陉矿合并组成井陉矿务局，鼎盛时煤炭最高年产量达454万吨，1947至1965年累计生产原煤3266万吨。",
+  "place_name": "河北省石家庄市井陉矿区",
+  "related_orgs": [
+   "井陉矿务局"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-085b338d46"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "原文称“解放后”，未给出合并确切年份"
  },
  {
   "event_id": "EVT-61afd2c64f32-R2",
@@ -7737,6 +8298,143 @@
   "notes": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
  },
  {
+  "event_id": "EVT-efd17b0eab9d-01",
+  "heritage_id": "HER-efd17b0eab9d",
+  "event_date_start": "1890",
+  "event_date_end": "1893",
+  "date_precision": "year",
+  "event_type": "前身创建",
+  "title": "汉阳铁厂动工兴建并建成投产（重钢前身之源）",
+  "description": "1890年湖广总督张之洞主持在湖北龟山下动工兴建汉阳铁厂，1893年9月建成投产，为当时亚洲最早、最大的钢铁厂。",
+  "place_name": "湖北省汉阳",
+  "related_orgs": [
+   "汉阳铁厂"
+  ],
+  "related_people": [
+   "张之洞"
+  ],
+  "source_ids": [
+   "src-web-ff8e808524"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": "以企业谱系前身计，非型钢厂厂区本身"
+ },
+ {
+  "event_id": "EVT-efd17b0eab9d-02",
+  "heritage_id": "HER-efd17b0eab9d",
+  "event_date_start": "1938",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "迁建",
+  "title": "钢铁厂迁建委员会组建，设备西迁大渡口",
+  "description": "1938年3月1日钢铁厂迁建委员会（钢迁会，重钢集团前身）正式组建，将汉冶萍煤铁厂矿、上海炼钢厂、六河沟铁厂等数万吨设备西迁重庆大渡口。",
+  "place_name": "重庆市大渡口区",
+  "related_orgs": [
+   "钢铁厂迁建委员会",
+   "汉冶萍煤铁厂矿股份有限公司",
+   "上海炼钢厂",
+   "六河沟铁厂"
+  ],
+  "related_people": [
+   "张连科",
+   "杨继曾"
+  ],
+  "source_ids": [
+   "src-web-236652715c",
+   "src-web-ff8e808524"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-efd17b0eab9d-03",
+  "heritage_id": "HER-efd17b0eab9d",
+  "event_date_start": "1939",
+  "event_date_end": null,
+  "date_precision": "approximate",
+  "event_type": "投产",
+  "title": "大渡口新厂投产，成为抗战大后方最大钢铁基地",
+  "description": "约1939年钢迁会大渡口厂投产并成为抗战后方最大钢铁基地；日军持续轰炸6年多，上万名工人未停一天工，钢产量占大后方钢铁总量90%。",
+  "place_name": "重庆市大渡口区",
+  "related_orgs": [
+   "钢铁厂迁建委员会"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-236652715c",
+   "src-web-ff8e808524"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "投产年份据“一年后（1938年后）钢铁厂已在大渡口投产”记载推定"
+ },
+ {
+  "event_id": "EVT-efd17b0eab9d-04",
+  "heritage_id": "HER-efd17b0eab9d",
+  "event_date_start": "1952",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "产品突破",
+  "title": "轧出新中国第一根中华式38公斤重轨",
+  "description": "1905年英国制造的8000马力双缸卧式蒸汽原动机（1938年西迁至大渡口）于1952年驱动轧机，轧出新中国第一根中华式38公斤重轨。",
+  "place_name": "重庆市大渡口区",
+  "related_orgs": [
+   "重钢"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-236652715c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-efd17b0eab9d-05",
+  "heritage_id": "HER-efd17b0eab9d",
+  "event_date_start": "2011",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "环保搬迁/停产",
+  "title": "重钢环保搬迁，大渡口老厂区停产",
+  "description": "2011年重钢实施环保搬迁，大渡口厂区浇完最后一炉钢，结束工业生产使命。",
+  "place_name": "重庆市大渡口区",
+  "related_orgs": [
+   "重钢集团"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-236652715c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-efd17b0eab9d-06",
+  "heritage_id": "HER-efd17b0eab9d",
+  "event_date_start": "2011",
+  "event_date_end": "2019",
+  "date_precision": "year",
+  "event_type": "博物馆园区再利用",
+  "title": "原重钢型钢厂旧址建设重庆工业博物馆",
+  "description": "2011年市政府决定在原重钢型钢厂旧址建设重庆工业博物馆，2019年9月28日正式开放；“钢魂”主题馆由钢迁会生产车间旧址活化而成。",
+  "place_name": "重庆市大渡口区义渡路999号",
+  "related_orgs": [
+   "重庆工业博物馆",
+   "重钢集团"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-236652715c"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
   "event_id": "EVT-efd17b0eab9d-R1",
   "heritage_id": "HER-efd17b0eab9d",
   "event_date_start": "2017-12-22",
@@ -8226,6 +8924,140 @@
   "notes": "成文2020-12-17，发布2020-12-24；gov.cn转发2020-12-27。"
  },
  {
+  "event_id": "EVT-f6e0454fb02b-01",
+  "heritage_id": "HER-f6e0454fb02b",
+  "event_date_start": "1368",
+  "event_date_end": null,
+  "date_precision": "approximate",
+  "event_type": "早期采炼起源",
+  "title": "矾山明矾采炼肇始（明初）",
+  "description": "温州矾矿采炼有文字记载的历史可追溯至明初，矿区完整保存从手工开采到机械生产各阶段遗迹，呈现“采、炼、运、销”完整工艺链条。",
+  "place_name": "浙江省温州市苍南县矾山镇",
+  "related_orgs": [
+   "温州矾矿"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-11c9e09d1e",
+   "src-web-158e4a7075"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": "原文称“明初”，1368为明代起始纪年换算；另有报道称炼矾历史可追溯至明朝洪武年间"
+ },
+ {
+  "event_id": "EVT-f6e0454fb02b-02",
+  "heritage_id": "HER-f6e0454fb02b",
+  "event_date_start": "1956",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "创建/筹建",
+  "title": "温州矾矿成立",
+  "description": "新中国成立初期成立于1956年的温州矾矿，巅峰时工业生产总值占整个温州市的三分之一，是当时地区经济发展的重要支柱。",
+  "place_name": "浙江省温州市苍南县矾山镇",
+  "related_orgs": [
+   "温州矾矿"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-11c9e09d1e"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-f6e0454fb02b-03",
+  "heritage_id": "HER-f6e0454fb02b",
+  "event_date_start": "1990",
+  "event_date_end": null,
+  "date_precision": "decade",
+  "event_type": "市场衰落",
+  "title": "明矾市场萎缩，企业效益下滑",
+  "description": "20世纪90年代以来明矾替代品出现、应用场景逐步缩小，企业经济效益下滑，矿区开始走下坡路，人口外流、空心化加剧。",
+  "place_name": "浙江省温州市苍南县矾山镇",
+  "related_orgs": [
+   "温州矾矿"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-11c9e09d1e",
+   "src-web-62e22ee157"
+  ],
+  "confidence": "medium",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-f6e0454fb02b-04",
+  "heritage_id": "HER-f6e0454fb02b",
+  "event_date_start": "2010",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "保护启动",
+  "title": "学者首倡温州矾矿申报世界工业遗产",
+  "description": "时任北京大学世界遗产研究中心副主任阙维民首次提出“温州矾矿具备申报世界工业遗产的基本条件”，矾矿申遗顺势启动。",
+  "place_name": "浙江省温州市苍南县矾山镇",
+  "related_orgs": [
+   "北京大学世界遗产研究中心"
+  ],
+  "related_people": [
+   "阙维民"
+  ],
+  "source_ids": [
+   "src-web-11c9e09d1e"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-f6e0454fb02b-05",
+  "heritage_id": "HER-f6e0454fb02b",
+  "event_date_start": "2012",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "保护启动",
+  "title": "温州矾矿申报世界工业遗产研究促进会成立",
+  "description": "2012年6月温州矾矿申报世界工业遗产研究促进会成立，标志申遗正式拉开帷幕；苍南确立“文化立镇、旅游兴镇”转型发展方向并出台保护政策。",
+  "place_name": "浙江省温州市苍南县矾山镇",
+  "related_orgs": [
+   "温州矾矿申报世界工业遗产研究促进会",
+   "苍南县人民政府"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-11c9e09d1e",
+   "src-web-158e4a7075"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-f6e0454fb02b-06",
+  "heritage_id": "HER-f6e0454fb02b",
+  "event_date_start": "2017",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "停产",
+  "title": "温州矾矿停产",
+  "description": "2017年矾矿停产、明矾开采停止，同年10月最后一批工人离开矿硐，600余年明矾采炼史落幕。",
+  "place_name": "浙江省温州市苍南县矾山镇",
+  "related_orgs": [
+   "温州矾矿"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-11c9e09d1e",
+   "src-web-158e4a7075",
+   "src-web-550080f40f"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
   "event_id": "EVT-f6e0454fb02b-R1",
   "heritage_id": "HER-f6e0454fb02b",
   "event_date_start": "2017-12-22",
@@ -8245,6 +9077,51 @@
   "confidence": "high",
   "disputed": true,
   "notes": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
+ },
+ {
+  "event_id": "EVT-f6e0454fb02b-07",
+  "heritage_id": "HER-f6e0454fb02b",
+  "event_date_start": "2020",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "改制/移交",
+  "title": "矾矿成建制划转苍南县政府",
+  "description": "2020年4月，作为矾山矾矿工业文化遗产核心的矾矿，从温州市工业与能源发展集团有限公司成建制划转给苍南县政府统一管理和优化调整。",
+  "place_name": "浙江省温州市苍南县",
+  "related_orgs": [
+   "温州矾矿",
+   "温州市工业与能源发展集团有限公司",
+   "苍南县人民政府"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-550080f40f"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
+ },
+ {
+  "event_id": "EVT-f6e0454fb02b-08",
+  "heritage_id": "HER-f6e0454fb02b",
+  "event_date_start": "2020",
+  "event_date_end": null,
+  "date_precision": "year",
+  "event_type": "博物馆园区再利用",
+  "title": "矿硐开放与矾都博物馆群文旅再利用",
+  "description": "自2020年起312平硐逐步开放，轨道小火车载客观光；矾客工厂、矾矿博物馆、奇石馆、矿石馆等构成矾都博物馆群，矿区转型文旅融合。",
+  "place_name": "浙江省温州市苍南县矾山镇",
+  "related_orgs": [
+   "温州矾矿"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-web-158e4a7075",
+   "src-web-550080f40f"
+  ],
+  "confidence": "high",
+  "disputed": false,
+  "notes": ""
  },
  {
   "event_id": "EVT-fa234e8c25df-R2",

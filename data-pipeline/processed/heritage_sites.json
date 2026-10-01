@@ -567,10 +567,14 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
+  "founded_year": 1956,
   "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "historical_period": [
+   "新中国初期",
+   "一五二五时期",
+   "改革开放后"
+  ],
+  "current_use": "矾矿遗址转型文旅：312平硐开放观光小火车，矾客工厂、矾矿博物馆、矿石馆等组成矾都博物馆群，福德湾矿工村成为旅游村",
   "longitude": 120.40151663116272,
   "latitude": 27.506714374100522,
   "coordinate_system": "WGS84",
@@ -593,11 +597,11 @@
   "source_ids": [
    "src-batch1"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
-  "closure_year": null
+  "founded_year_precision": "year",
+  "closure_year": 2017
  },
  {
   "heritage_id": "HER-1d1453b43e34",
@@ -715,10 +719,15 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1938,
+  "production_start_year": 1939,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期",
+   "改革开放后"
+  ],
+  "current_use": "原址建成重庆工业博物馆（2019年9月28日开放），含“百年风华”主展馆、“钢魂”主题馆与工业遗址公园",
   "longitude": 106.48202254043427,
   "latitude": 29.480032497197136,
   "coordinate_system": "WGS84",
@@ -741,11 +750,11 @@
   "source_ids": [
    "src-batch1"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 89,
-  "founded_year_precision": null,
-  "closure_year": null
+  "founded_year_precision": "year",
+  "closure_year": 2011
  },
  {
   "heritage_id": "HER-3318e785a779",
@@ -1157,9 +1166,13 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
+  "founded_year": 1898,
   "production_start_year": null,
-  "historical_period": [],
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期"
+  ],
   "current_use": null,
   "longitude": 114.0513305219151,
   "latitude": 38.06774456135445,
@@ -1183,10 +1196,10 @@
   "source_ids": [
    "src-batch2"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {
@@ -1526,10 +1539,15 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
+  "founded_year": 1889,
   "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期",
+   "改革开放后"
+  ],
+  "current_use": "启新水泥工业博物馆暨1889文化创意产业园（旧厂房改造的文创园区，含书店、工作室、电商基地等业态）",
   "longitude": 118.16804467005824,
   "latitude": 39.62662325695999,
   "coordinate_system": "WGS84",
@@ -1552,11 +1570,11 @@
   "source_ids": [
    "src-batch2"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
-  "closure_year": null
+  "founded_year_precision": "year",
+  "closure_year": 2008
  },
  {
   "heritage_id": "HER-2f21c0412b49",
@@ -1598,10 +1616,15 @@
    "name_hit": true,
    "basis": "keyword_rule_v1"
   },
-  "founded_year": null,
-  "production_start_year": null,
-  "historical_period": [],
-  "current_use": null,
+  "founded_year": 1898,
+  "production_start_year": 1899,
+  "historical_period": [
+   "晚清近代工业",
+   "民国时期",
+   "新中国初期",
+   "改革开放后"
+  ],
+  "current_use": "旧址建“1898太原兵工厂文化产业园”（2020年底启动），设兵器博物馆、晋造工业文化体验馆等场馆",
   "longitude": 112.55415010265328,
   "latitude": 37.877570251848525,
   "coordinate_system": "WGS84",
@@ -1624,10 +1647,10 @@
   "source_ids": [
    "src-batch2"
   ],
-  "enrichment_status": "not_started",
+  "enrichment_status": "verified",
   "data_version": "v1.1.0",
   "field_completeness": 100,
-  "founded_year_precision": null,
+  "founded_year_precision": "year",
   "closure_year": null
  },
  {

@@ -435,6 +435,248 @@
   "inferred": false
  },
  {
+  "relation_id": "REL-f6e0454fb02b-01",
+  "source_entity": "HER-f6e0454fb02b",
+  "relation_type": "行业关联",
+  "target_entity": "庐江矾矿（安徽省庐江县矾山镇）",
+  "start_date": null,
+  "end_date": null,
+  "description": "报道称庐江矾山与温州曾是全国两大明矾生产基地。",
+  "source_ids": [
+   "src-web-5dcce023ca"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-f6e0454fb02b-02",
+  "source_entity": "HER-f6e0454fb02b",
+  "relation_type": "联合申遗合作",
+  "target_entity": "福建福鼎、安徽庐江",
+  "start_date": null,
+  "end_date": null,
+  "description": "2023年启动浙江苍南、福建福鼎、安徽庐江“三省三地”联合申遗。",
+  "source_ids": [
+   "src-web-11c9e09d1e"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-f6e0454fb02b-03",
+  "source_entity": "HER-f6e0454fb02b",
+  "relation_type": "企业谱系",
+  "target_entity": "温州市工业与能源发展集团有限公司→苍南县人民政府",
+  "start_date": null,
+  "end_date": null,
+  "description": "2020年4月矾矿由温州市工业与能源发展集团成建制划转苍南县政府管理。",
+  "source_ids": [
+   "src-web-550080f40f"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-efd17b0eab9d-01",
+  "source_entity": "HER-efd17b0eab9d",
+  "relation_type": "企业谱系",
+  "target_entity": "汉阳铁厂→汉冶萍公司→钢铁厂迁建委员会→重钢集团",
+  "start_date": null,
+  "end_date": null,
+  "description": "钢迁会为重钢集团前身，其设备源自汉冶萍煤铁厂矿等企业抗战西迁。",
+  "source_ids": [
+   "src-web-236652715c",
+   "src-web-ff8e808524"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-efd17b0eab9d-02",
+  "source_entity": "HER-efd17b0eab9d",
+  "relation_type": "设备来源",
+  "target_entity": "英国（1905年制造蒸汽原动机）",
+  "start_date": null,
+  "end_date": null,
+  "description": "镇馆之宝8000马力双缸卧式蒸汽原动机1905年由英国制造，1938年西迁至大渡口。",
+  "source_ids": [
+   "src-web-236652715c"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-efd17b0eab9d-03",
+  "source_entity": "HER-efd17b0eab9d",
+  "relation_type": "国家工程支援",
+  "target_entity": "成渝铁路",
+  "start_date": null,
+  "end_date": null,
+  "description": "1952年轧出的新中国第一根中华式38公斤重轨，为成渝铁路铺就“中国造”钢轨。",
+  "source_ids": [
+   "src-web-236652715c"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-61afd2c64f32-01",
+  "source_entity": "HER-61afd2c64f32",
+  "relation_type": "外资合办（中德）",
+  "target_entity": "汉纳根（德国）",
+  "start_date": null,
+  "end_date": null,
+  "description": "汉纳根为德国贵族后裔，在德国政府支持下与清政府合办井陉煤矿，任洋总办。",
+  "source_ids": [
+   "src-web-8b4d4263bb",
+   "src-web-085b338d46"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-61afd2c64f32-02",
+  "source_entity": "HER-61afd2c64f32",
+  "relation_type": "交通依托",
+  "target_entity": "正太铁路（石太铁路）",
+  "start_date": null,
+  "end_date": null,
+  "description": "当年石家庄转运物资中井陉矿煤炭居首位；1908年、1922年矿区两条铁路先后与石太铁路相接。",
+  "source_ids": [
+   "src-web-085b338d46",
+   "src-web-8b4d4263bb"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-61afd2c64f32-03",
+  "source_entity": "HER-61afd2c64f32",
+  "relation_type": "企业谱系",
+  "target_entity": "井陉矿务局",
+  "start_date": null,
+  "end_date": null,
+  "description": "解放后正丰矿与井陉矿合并组成井陉矿务局。",
+  "source_ids": [
+   "src-web-085b338d46"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-61afd2c64f32-04",
+  "source_entity": "HER-61afd2c64f32",
+  "relation_type": "设备/人才支援",
+  "target_entity": "平山兵工厂、沕沕水发电厂",
+  "start_date": null,
+  "end_date": null,
+  "description": "解放后矿山机床、气锤、电机等设备及大批技术工人支援边区兵工厂与水电站建设。",
+  "source_ids": [
+   "src-web-8b4d4263bb",
+   "src-web-085b338d46"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-3f02e34f45ec-01",
+  "source_entity": "HER-3f02e34f45ec",
+  "relation_type": "企业谱系",
+  "target_entity": "开平矿务局",
+  "start_date": null,
+  "end_date": null,
+  "description": "细绵土厂由开平矿务局总办唐廷枢创办，资金含开平矿务局等；1900年与开平矿务局同遭英商骗占。",
+  "source_ids": [
+   "src-web-428e66c474"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-3f02e34f45ec-02",
+  "source_entity": "HER-3f02e34f45ec",
+  "relation_type": "技术援助",
+  "target_entity": "德国技师/工程师",
+  "start_date": null,
+  "end_date": null,
+  "description": "1896年前后曾聘德国技师；1906年周学熙在德国工程师协助下收回工厂。",
+  "source_ids": [
+   "src-web-428e66c474"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-3f02e34f45ec-03",
+  "source_entity": "HER-3f02e34f45ec",
+  "relation_type": "企业谱系",
+  "target_entity": "冀东水泥",
+  "start_date": null,
+  "end_date": null,
+  "description": "百度百科称启新水泥现隶属于冀东水泥。",
+  "source_ids": [
+   "src-web-82bea6bc21"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-2f21c0412b49-01",
+  "source_entity": "HER-2f21c0412b49",
+  "relation_type": "技术/制度渊源",
+  "target_entity": "汉阳兵工厂",
+  "start_date": null,
+  "end_date": null,
+  "description": "山西机器局系仿照张之洞在湖北汉阳兴办兵工厂之例奏设。",
+  "source_ids": [
+   "src-web-a592232e62"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-2f21c0412b49-02",
+  "source_entity": "HER-2f21c0412b49",
+  "relation_type": "设备来源",
+  "target_entity": "日本、德国、英国",
+  "start_date": null,
+  "end_date": null,
+  "description": "1920年起山西军人工艺实习厂系统引进日、德、英机器设备并聘用外国技术人员。",
+  "source_ids": [
+   "src-web-a592232e62"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-2f21c0412b49-03",
+  "source_entity": "HER-2f21c0412b49",
+  "relation_type": "企业谱系",
+  "target_entity": "西北实业公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "1934年兵工厂纳入西北实业公司，以西北制造厂名义经营。",
+  "source_ids": [
+   "src-web-a592232e62"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
+  "relation_id": "REL-2f21c0412b49-04",
+  "source_entity": "HER-2f21c0412b49",
+  "relation_type": "企业谱系",
+  "target_entity": "山西机床厂→山西北方机械制造有限公司",
+  "start_date": null,
+  "end_date": null,
+  "description": "1949年后沿革为华北兵工局修造厂、山西机床厂（1957年），2004年改制为山西北方机械制造有限公司。",
+  "source_ids": [
+   "src-web-a592232e62"
+  ],
+  "confidence": "medium",
+  "inferred": false
+ },
+ {
   "relation_id": "REL-0656fe1c09c5-01",
   "source_entity": "HER-0656fe1c09c5",
   "relation_type": "技术引进/国家引进项目",
