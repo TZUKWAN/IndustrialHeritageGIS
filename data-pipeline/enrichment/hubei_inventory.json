@@ -2809,6 +2809,15 @@
       "url": "https://www.ezhou.gov.cn/gk/zc/gfxwj/ezzf/202012/t20201230_377265.html",
       "authority": "A",
       "notes": "鄂州政发〔2020〕13号将原人民银行鄂州支行（营业厅）等8处建筑确定为鄂州市第一批历史建筑，正文附名录表（含位置、年代与逐处简介）：第3项六十口闸（梁子湖区东沟镇六十村，1961年，灌排两用闸，顶部立“毛主席万岁”标语）、第4项磨刀矶节制闸（东沟镇磨刀矶村长港口，1977年动工1979年建成、1983年船闸通航，梁子湖通九十里长港咽喉、樊口电排站主要配套工程）；另有人民银行建筑2处、牛石岭礼堂、古井、老宅、祠堂。"
+    },
+    "jingmen_heritage_buildings_batch3_2024": {
+      "source_type": "municipal_official_media",
+      "title": "我市公布第三批历史建筑名录（23处）",
+      "org": "荆门新闻网",
+      "pub_date": null,
+      "url": "https://www.jmnews.cn/news/2024/10/409495.shtml",
+      "authority": "B",
+      "notes": "2024年10月荆门市政府确定李氏老屋、李宜云老屋等23处建筑为荆门市第三批历史建筑：名单含工人文化宫旧址、荆门啤酒厂旧址、荆门炼油厂厂部旧址、石龙村砖圆仓、罗汉寺老场部、荆门市雕“满弓待发”、湖心亭、岚光阁、长沟桥及多处老宅祠堂等；报道为名称列表未附逐处详情。"
     }
   },
   "records": [
@@ -4567,9 +4576,10 @@
       "geocode_status": "pending",
       "source_keys": [
         "jingmen_jinlongquan",
-        "jingmen_jinlongquan_democratic_street_2025"
+        "jingmen_jinlongquan_democratic_street_2025",
+        "jingmen_heritage_buildings_batch3_2024"
       ],
-      "notes": "省文旅厅2025年报道与既有来源共同确认金龙泉啤酒厂旧址位于民主街工业记忆空间，补足厂房、烟囱和工人文化宫的空间关系；不推断完整生产区或法定遗产级别。",
+      "notes": "省文旅厅2025年报道与既有来源共同确认金龙泉啤酒厂旧址位于民主街工业记忆空间，补足厂房、烟囱和工人文化宫的空间关系；不推断完整生产区或法定遗产级别。2024年荆门市第三批历史建筑名录（荆门新闻网报道名称列表）含“荆门啤酒厂旧址”，与本条金龙泉啤酒厂旧址（民主街）的空间关系按既有报道互证，名录详情核对后可确认同一性。",
       "cultural_evidence": {
         "material_carriers": "金龙泉啤酒厂旧址坚固厂房、烟囱及民主街工业空间；具体生产线、设备和厂界待测绘",
         "technical_memory": "啤酒酿造、食品饮料生产和荆门地方工业技术记忆；工艺、设备和厂志待补",
@@ -5976,7 +5986,8 @@
       "geocode_status": "pending",
       "source_keys": [
         "jingmen_jinlongquan",
-        "jingmen_jinlongquan_democratic_street_2025"
+        "jingmen_jinlongquan_democratic_street_2025",
+        "jingmen_heritage_buildings_batch3_2024"
       ],
       "cultural_evidence": {
         "material_carriers": "工人文化宫建筑、公共文化设施及民主街历史空间",
@@ -5984,7 +5995,7 @@
         "social_memory": "工人俱乐部、社区文化和市民共同记忆",
         "current_use_or_loss": "历史街区修缮后的公共文化空间，现状产权与开放方式待核"
       },
-      "notes": "省文旅厅报道明确民主街修缮后仍可见金龙泉啤酒厂旧址与工人文化宫共同记录荆门工业重镇记忆；本条作为工人文化与工业社区载体单列，建筑沿革、产权和开放方式待核。",
+      "notes": "省文旅厅报道明确民主街修缮后仍可见金龙泉啤酒厂旧址与工人文化宫共同记录荆门工业重镇记忆；本条作为工人文化与工业社区载体单列，建筑沿革、产权和开放方式待核。2024年荆门市第三批历史建筑名录（荆门新闻网报道名称列表）含“工人文化宫旧址”，与本条对象对应，市级历史建筑身份待官方名录详情进一步确认。",
       "aliases": [
         "工人文化宫",
         "民主街工人文化宫"
@@ -13318,6 +13329,52 @@
       "notes": "直接取自鄂州政发〔2020〕13号名录表（A级，逐处简介核读）；与底册荆江分洪闸（HBI-JZ-005）同属湖北水利枢纽脉络；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
       "aliases": [],
       "asset_kind": "industrial_utility_site"
+    },
+    {
+      "inventory_id": "HBI-JM-019",
+      "name": "石龙村砖圆仓",
+      "city": "荆门市",
+      "district_county": null,
+      "industry_category_l1": "粮食仓储工业",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "荆门市第三批历史建筑（2024年10月公布，23处之一）",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "jingmen_heritage_buildings_batch3_2024"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "砖砌圆筒粮仓（石龙村）；个数、容量与结构待现场测绘",
+        "technical_memory": "砖圆仓为集体化时期粮食储备的典型构筑物形制，砌筑工艺与通风防潮设计代表当时粮仓建造水平",
+        "social_memory": "乡村集体储粮与公粮征收记忆",
+        "current_use_or_loss": "以第三批历史建筑身份纳入保护体系；现状用途待核"
+      },
+      "notes": "直接取自荆门新闻网第三批名录报道（B级，名称列表）；石龙村所属乡镇、建造年代与所属粮站体系待官方名录详情核对；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [],
+      "asset_kind": "industrial_storage_site"
+    },
+    {
+      "inventory_id": "HBI-JM-020",
+      "name": "罗汉寺老场部",
+      "city": "荆门市",
+      "district_county": null,
+      "industry_category_l1": "综合工业",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "荆门市第三批历史建筑（2024年10月公布，23处之一）",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "jingmen_heritage_buildings_batch3_2024"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "老场部建筑本体（罗汉寺）；建筑面积与结构待现场测绘",
+        "technical_memory": "场部为计划经济时期国营场（农场/园艺场/蚕种场等）的管理中枢建筑；场属单位性质待核",
+        "social_memory": "场部职工与周边村组的场社往来记忆",
+        "current_use_or_loss": "以第三批历史建筑身份纳入保护体系；现状用途待核"
+      },
+      "notes": "直接取自荆门新闻网第三批名录报道（B级，名称列表）；名录仅载“罗汉寺老场部”，所属场单位、行业性质与建造年代待官方名录详情核对，行业分类暂列综合工业；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [],
+      "asset_kind": "industrial_site"
     }
   ]
 }
