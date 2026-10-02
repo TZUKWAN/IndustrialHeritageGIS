@@ -2866,12 +2866,12 @@
     },
     "enshi_heritage_buildings_batch1_2023": {
       "source_type": "county_city_government_notice",
-      "title": "恩施市人民政府关于公布第一批历史建筑的通知（恩市政发〔2023〕154号，13处）",
+      "title": "恩施市人民政府关于公布第一批历史建筑的通知（恩市政发〔2023〕54号，13处）",
       "org": "恩施市人民政府门户网站（政策文件PDF）",
-      "pub_date": "2023-12-29",
+      "pub_date": "2023-06-19",
       "url": "http://www.es.gov.cn/xxgk/zc/zcwj/202412/P020241226395463833880.pdf",
       "authority": "A",
-      "notes": "恩市政发〔2023〕154号公布湖北省邮电管理局旧址等第一批13处历史建筑，PDF含名录表与逐处简介（已下载文本核读，本地存档 raw/enshi_heritage/）：第4项湖北省邮电管理局旧址（六角亭街道和平街，抗战时期为国民党湖北省邮电管理局、解放后为恩施县邮电局，现房屋闲置，传统建筑与欧式风格结合）；第7项宜红茶厂旧址（芭蕉侗族乡集镇，1938年建，占地3818平方米，多层砖混结构，中国茶叶公司派范和均、冯绍裘等技士办机制厂、首开机制茶，解放前夕设备被撤后由居民购下继续作茶叶加工坊）；另有恩施地区农校分校教室/实验楼（1952-1954仿苏式）、公园街天主教堂及多处老屋祠堂。"
+      "notes": "恩市政发〔2023〕54号（2023年6月19日成文；2024年12月重新挂网PDF，其文本层将文号连读为“2023154”，现据市政府其他主动公开文件列表权威显示校正为〔2023〕54号）公布湖北省邮电管理局旧址等第一批13处历史建筑，PDF含名录表与逐处简介（已下载文本核读，本地存档 raw/enshi_heritage/）：第4项湖北省邮电管理局旧址（六角亭街道和平街，抗战时期为国民党湖北省邮电管理局、解放后为恩施县邮电局，现房屋闲置）；第7项宜红茶厂旧址（芭蕉侗族乡集镇，1938年建，中国茶叶公司技士办机制厂首开机制茶，占地3818平方米，多层砖混结构）；另有恩施地区农校分校教室/实验楼（1952-1954仿苏式）、公园街天主教堂及多处老屋祠堂。"
     },
     "enshi_heritage_buildings_batch2_2024": {
       "source_type": "county_city_government_notice",
@@ -13697,7 +13697,7 @@
       "district_county": "恩施市芭蕉侗族乡集镇",
       "industry_category_l1": "茶叶加工工业",
       "recognition_level": "municipal_historical_building",
-      "recognition_status": "恩施市第一批历史建筑（恩市政发〔2023〕154号名录第7项；1938年建）",
+      "recognition_status": "恩施市第一批历史建筑（恩市政发〔2023〕54号名录第7项；1938年建）",
       "record_status": "source_confirmed",
       "geocode_status": "pending",
       "source_keys": [
@@ -13723,7 +13723,7 @@
       "district_county": "恩施市六角亭街道和平街",
       "industry_category_l1": "通信与城市基础设施",
       "recognition_level": "municipal_historical_building",
-      "recognition_status": "恩施市第一批历史建筑（恩市政发〔2023〕154号名录第4项）",
+      "recognition_status": "恩施市第一批历史建筑（恩市政发〔2023〕54号名录第4项）",
       "record_status": "source_confirmed",
       "geocode_status": "pending",
       "source_keys": [
