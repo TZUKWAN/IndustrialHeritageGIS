@@ -13,12 +13,12 @@
 - 国家原始名单重新解析后共 265 条原始记录、265 条当前处理记录；第一批 XLS 中“汉冶萍公司--大冶铁厂”是空序号续行，已修复 parse_raw.py 以识别完整续行，不再漏掉该湖北对象。
 - 公开湖北国家主表当前为 13 处，含 HER-0127dfd1ca78 汉冶萍公司--大冶铁厂；官方来源明确湖北有 13 处国家工业遗产。
 - data-pipeline/enrichment/hubei_cultural_profiles.json 当前有 13 份文化档案；5 份 documented、8 份 baseline；每份至少四维文化字段和来源边界。
-- 全省扩展底册 data-pipeline/enrichment/hubei_inventory.json 当前 401 条、303 个原始来源键：377 条 source_confirmed，24 条 source_lead（十堰模具、车轮、泵业资料对象、神农架断江坪伐木队、沙市三厂、湖北省空压机厂、宜都矿山机械厂、罗田/英山缫丝对象、荆州机床厂、蕲春湖北链条厂等仍为待核线索）。第一轮目标下限为 170 条，当前已超过；316 条含四项来源约束文化证据，覆盖 17 个地市/林区。
+- 全省扩展底册 data-pipeline/enrichment/hubei_inventory.json 当前 402 条、304 个原始来源键：378 条 source_confirmed，24 条 source_lead（十堰模具、车轮、泵业资料对象、神农架断江坪伐木队、沙市三厂、湖北省空压机厂、宜都矿山机械厂、罗田/英山缫丝对象、荆州机床厂、蕲春湖北链条厂等仍为待核线索）。第一轮目标下限为 170 条，当前已超过；317 条含四项来源约束文化证据，覆盖 17 个地市/林区。
 - 第二轮新增迁移脚本 data-pipeline/scripts/add_inventory_wave_20261002_b.py：新增 29 条、15 个来源，并更新 7 条既有对象的来源/文化证据；脚本可重复运行，已运行两次未产生冲突。
 - 第二轮重点：大冶铁矿七类组成项、华新档案/五羊巷/湿法回转窑、汉冶萍档案、华中钢铁档案、荆江分洪档案、沙市洋码头、武汉 606/四美塘/小龟山/汉江湾、随州七个工业史企业线索、应城石膏档案、宜都茶厂档案和宜都三线建设档案。
-- 最近一次 build_enrichment.py：672 events / 144 relations / 524 全国网络来源 / 265 enriched sites / 401 inventory。
+- 最近一次 build_enrichment.py：672 events / 144 relations / 525 全国网络来源 / 265 enriched sites / 402 inventory。
 - 最近一次 analysis.py：湖北 ANN n=13、R=0.6799、z=-2.21；Moran's I 因单省级单元不适用；KDE 59×67。
-- 最近一次导出 export_frontend.py：公开包 13 sites、41 events、10 relations、292 sources、13 cultural profiles、401 inventory；原始底册有303个来源键，其中377条扩展记录为来源确认层级，24条为来源线索，162条达到名录认定统计口径，316条含四项文化证据；前后端数据副本已做一致性核对。
+- 最近一次导出 export_frontend.py：公开包 13 sites、41 events、10 relations、293 sources、13 cultural profiles、402 inventory；原始底册有304个来源键，其中378条扩展记录为来源确认层级，24条为来源线索，163条达到名录认定统计口径，317条含四项文化证据；前后端数据副本已做一致性核对。
 - 最近一次数据管线测试：python -m pytest data-pipeline/tests -q 通过 52/52。测试曾因既有武钢文化档案引用不存在的 src-web-c3e277960b 失败，已替换为现存的青山区政府来源 src-web-2dc5e1e716 并复测通过。
 - 2026-10-02 部署文档已补充到 README.zh.md 和 README.md：明确 Windows/macOS/Linux 支持、Node.js/Python/Git/网络/LLM/GDAL 条件，区分源码桌面部署、安装包部署和浏览器预览，记录动态本机端口、Python 虚拟环境路径、打包命令、发布验收清单和常见故障处理；本轮仅改文档，未改变代码和数据。
 - 已通过：python -m py_compile data-pipeline/scripts/parse_raw.py data-pipeline/scripts/analysis.py data-pipeline/scripts/build_enrichment.py data-pipeline/scripts/add_inventory_wave_20261002.py data-pipeline/scripts/add_inventory_wave_20261002_b.py data-pipeline/scripts/add_inventory_wave_20261002_c.py data-pipeline/scripts/add_inventory_wave_20261002_d.py data-pipeline/scripts/add_inventory_wave_20261002_e.py data-pipeline/scripts/add_inventory_wave_20261002_f.py data-pipeline/scripts/add_inventory_wave_20261002_g.py data-pipeline/scripts/add_inventory_wave_20261002_h.py data-pipeline/scripts/add_inventory_wave_20261002_i.py data-pipeline/scripts/add_inventory_wave_20261002_j.py data-pipeline/scripts/add_inventory_wave_20261002_k.py data-pipeline/scripts/add_inventory_wave_20261002_l.py data-pipeline/scripts/add_inventory_wave_20261002_m.py data-pipeline/scripts/add_inventory_wave_20261002_n.py data-pipeline/scripts/add_inventory_wave_20261002_o.py data-pipeline/scripts/add_inventory_wave_20261002_p.py data-pipeline/scripts/add_inventory_wave_20261002_q.py data-pipeline/scripts/add_inventory_wave_20261002_r.py data-pipeline/scripts/add_inventory_wave_20261002_s.py data-pipeline/scripts/add_inventory_wave_20261002_x.py data-pipeline/scripts/add_inventory_wave_20261002_y.py data-pipeline/scripts/add_inventory_wave_20261002_z.py data-pipeline/scripts/add_inventory_wave_20261002_aa.py data-pipeline/scripts/add_inventory_wave_20261002_ab.py data-pipeline/scripts/add_inventory_wave_20261002_ac.py data-pipeline/scripts/add_inventory_wave_20261002_ad.py data-pipeline/scripts/add_inventory_wave_20261002_ae.py data-pipeline/scripts/add_inventory_wave_20261002_af.py data-pipeline/scripts/add_inventory_wave_20261002_ag.py data-pipeline/scripts/add_inventory_wave_20261002_ah.py data-pipeline/scripts/add_inventory_wave_20261002_ai.py data-pipeline/scripts/add_inventory_wave_20261002_aj.py data-pipeline/scripts/add_inventory_wave_20261002_ak.py data-pipeline/scripts/add_inventory_wave_20261002_al.py data-pipeline/scripts/add_inventory_wave_20261002_am.py data-pipeline/scripts/add_inventory_wave_20261002_an.py data-pipeline/scripts/add_inventory_wave_20261002_ao.py data-pipeline/scripts/add_inventory_wave_20261002_ap.py data-pipeline/scripts/add_inventory_wave_20261002_aq.py data-pipeline/scripts/add_inventory_wave_20261002_aq2.py。
@@ -41,6 +41,7 @@
 - 第五十轮（wave ax，2026-10-03）扩展孝感（14条→17条）：下载并逐页视觉核读孝感政发〔2021〕7号《孝感市第一批优秀历史建筑名录》扫描件PDF全表（56处，孝感市政府官网附件，本地存档 raw/xiaogan_heritage_2021/）——新增3条水利对象：北泾咀泵站（孝南，名录27，县保）、陡山渡槽（孝昌，名录51，县保）、青山口渡槽（孝昌，名录54，登记文物点），均 county_relic_related；补强 HBI-XG-010 城隍潭码头遗址（名录25，省保）获市级优秀历史建筑身份。名录中红旗人民公社旧址（13）、裕丰公社礼堂（28）、旧港人民公社旧址（29）为公社年代史迹，生产性边界未明示，暂不入库待生产性证据。底册 394→397 条、来源 300→301 键。
 - 第五十一轮（wave ay，2026-10-03）扩展黄冈（14条→16条）：实读黄冈市政府《关于公布市区第三批历史建筑名录的通知》（2024-08-29，25处正文全表，A级）——新增2条：①叶路洲棉花采购站旧址建筑群（HBI-HG-015，名录第16-25项即棉朵朵微度假中心2-11号楼共10栋，轧花/剥绒车间、皮棉打包楼、籽棉/皮棉/储备仓库、储水塔视望台、职工宿舍办公楼的完整棉花采购工艺链建筑，1965年至八十年代末建设，2023年整体活化改造，名录逐栋载明原工业功能）；②原黄州区红星门市部（HBI-HG-016，名录第10项，1974年工商联门市部沿革现社区办公）。另核读黄石市第三批历史建筑通知及名录图（2024-08-30，12处）：全部为钟楼、团城山公园建筑群、澄心阁、牌坊等园林公共建筑，无工业对象——负结果已记录，后续无需重复检索该批。底册 397→399 条、来源 301→302 键。
 - 第五十二轮（wave az，2026-10-03）扩展英山县域（底册突破400条）：实读英山县住建局《关于英山县第二批10处历史建筑的公示》（2023-08-29公示，A级）并下载核读附件doc名录——新增2条：草盘地镇茶场村渡槽（HBI-HG-017，1958年人工石砌引水渡槽，高11米石柱、长15.6米水渠，引大沟水库水灌溉）、同二老茶场办公楼（HBI-HG-018，1975年，农业学大寨时期英山首个茶叶特色产业园唯一保留印证）。名录中另有石拱桥/青石桥/古山桥/瓦寺前石拱桥等交通构筑物与古民居、故居，非工业对象未入库。底册 399→401 条、来源 302→303 键。
+- 第五十三轮（wave ba，2026-10-03）罗田/团风县域核读：实读罗田县第三批历史建筑公示（2024-05-11至20公示，33处正文全表，A级）——新增1条：薄刀峰林场工区管理用房旧址（HBI-HG-019，60年代，林业开发与木材生产，与神农架林业系列同脉络）；罗田名录中“五七”干校旧址（32）与知青点（22）生产性构成未明示、按纪律暂不收。另实读团风县第二批历史建筑公示（2023-07-27，13处）：全部为水晶坳村民居，无工业对象（负结果记录）。底册 401→402 条、来源 303→304 键。
 
 ## 关键文件
 
@@ -99,6 +100,7 @@
 - 增量脚本：data-pipeline/scripts/add_inventory_wave_20261003_ax.py（第五十轮孝感第一批优秀历史建筑名录（孝感政发〔2021〕7号）：北泾咀泵站、陡山渡槽、青山口渡槽3条水利对象新增与城隍潭码头优秀历史建筑身份补强）
 - 增量脚本：data-pipeline/scripts/add_inventory_wave_20261003_ay.py（第五十一轮黄冈市区第三批历史建筑名录：叶路洲棉花采购站旧址建筑群（棉朵朵微度假中心10栋）与红星门市部2条新增；黄石第三批名录核读为负结果无工业对象）
 - 增量脚本：data-pipeline/scripts/add_inventory_wave_20261003_az.py（第五十二轮英山县第二批历史建筑名录：茶场村渡槽与同二老茶场办公楼2条新增）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261003_ba.py（第五十三轮罗田第三批历史建筑名录：薄刀峰林场工区管理用房旧址1条新增；团风第二批13处民居为负结果）
 - 构建/分析/导出：data-pipeline/scripts/build_enrichment.py、analysis.py、export_frontend.py
 - 发布前端：src/data/heritage/
 - 发布后端：python-backend/opengis_backend/data/heritage/
@@ -116,8 +118,8 @@
 
 ## 下一步最小任务单元
 
-1. 第五十二轮新增2条记录、增加1个底册来源键：英山县第二批历史建筑名录（茶场村渡槽、同二老茶场办公楼）。市州覆盖现状：武汉71、黄石40、襄阳36、十堰45、鄂州29、孝感17、黄冈18、宜昌20、恩施19、荆门18、荆州18、天门18、咸宁17、随州12、潜江10、仙桃8、神农架5——名录模式可持续套用：宜昌、襄阳、荆州、鄂州等市历史建筑名录，罗田县第三批与团风县第二批公示页（第51轮检索已发现URL未读取），宜昌/黄石第一批第二批名录。第四十九轮及更早波次仍在包内，脚本连续运行保持幂等。
-2. 待办跟进：省经信厅“2025年度湖北省工业遗产名单”正式认定通知未检索到（维持缺口记录）；23厂/25厂/102三团等代号厂企业全称待厂志核验；孝感名录人民公社类史迹（13/28/29）待生产性证据；叶路洲棉花采购站改造后设备留存待现场核验；英山两处公示层级后续是否正式认定待跟踪。
+1. 第五十三轮新增1条记录、增加1个底册来源键：罗田薄刀峰林场工区管理用房旧址；罗田/团风名录核读完毕（罗田“五七”干校与知青点待生产性证据、团风13处民居负结果）。市州覆盖现状：武汉71、黄石40、襄阳36、十堰45、鄂州29、孝感17、黄冈19、宜昌20、恩施19、荆门18、荆州18、天门18、咸宁17、随州12、潜江10、仙桃8、神农架5——名录模式下一批继续宜昌、襄阳、荆州、鄂州等市历史建筑名录。第五十轮及更早波次仍在包内，脚本连续运行保持幂等。
+2. 待办跟进：省经信厅“2025年度湖北省工业遗产名单”正式认定通知未检索到（维持缺口记录）；23厂/25厂/102三团等代号厂企业全称待厂志核验；孝感人民公社类史迹（13/28/29）、罗田“五七”干校（32）与知青点（22）待生产性证据；叶路洲棉花采购站设备留存、英山两处公示转正式认定待跟踪。
 2. 继续检索尚未覆盖或覆盖不足的地市（优先武汉、黄石、襄阳、宜昌、十堰、荆门、鄂州、咸宁、孝感、黄冈、荆州、随州、恩施、仙桃、潜江、天门、神农架），重点查政府名录、第四次文物普查、档案文献遗产、地方志、三线企业、历史建筑、港口/铁路/水利/矿山和企业厂志。
 3. 对只有企业史线索的对象，尽量找到官方地址、文保/规划或现场资料；在找到之前保持 research_candidate/source_lead，不升格。省经信厅“2025年度湖北省工业遗产名单”全省正式认定通知尚未检索到，孝感麻糖厂、宜都红茶厂层级维持现状，待官方文件发布后再升格。
 4. 每轮新增后依次执行：原始 JSON/重复/来源闭环审计 → build_enrichment.py → analysis.py → HERITAGE_PROVINCE=湖北省 export_frontend.py → 精准 pytest → 前后端一致性审计；第四十七轮381条底册已完成数据管线52/52、定向发布测试和前后端一致性（六文件逐一相等），前端全套门禁已在第三十一轮重新通过且数据结构未变。

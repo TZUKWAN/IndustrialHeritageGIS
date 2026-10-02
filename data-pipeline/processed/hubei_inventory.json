@@ -9895,6 +9895,29 @@
    "source_ids": [
     "src-web-d61865e4c0"
    ]
+  },
+  {
+   "inventory_id": "HBI-HG-019",
+   "name": "薄刀峰林场工区管理用房旧址",
+   "city": "黄冈市",
+   "district_county": "罗田县薄刀峰林场",
+   "industry_category_l1": "林业开发与木材生产",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "罗田县第三批历史建筑（2024年5月11日至20日公示，名录第33项；60年代建）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "薄刀峰林场工区管理用房旧址建筑本体（薄刀峰林场场部）；栋数、建筑面积与保存状态待现场测绘",
+    "technical_memory": "大别山山区国营林场开发时期的工区管理与木材生产组织载体；建场沿革与伐木、运输、育林工艺档案待补",
+    "social_memory": "林场职工扎根山区护林育林的生产生活记忆，与罗田山区林业开发史互证",
+    "current_use_or_loss": "以县级历史建筑身份纳入保护公示名单；旧址现状用途与保存边界待核"
+   },
+   "notes": "直接取自罗田县住建局第三批备选历史建筑名录正文表（A级，已核读）；与神农架林业系列、断江坪伐木队线索同属湖北林业工业脉络；公示层级后续是否正式认定待跟踪；名录未载林场建场年代与工区构成；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-7faa90ee42"
+   ]
   }
  ]
 }

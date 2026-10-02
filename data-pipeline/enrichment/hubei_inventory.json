@@ -2755,6 +2755,15 @@
       "url": "https://www.chinays.gov.cn/zwgk/grassroots/6636628/1381297.html",
       "authority": "A",
       "notes": "县住建局联合县文旅局经普查遴选拟将伍家冲村石拱桥等十处纳入英山县城区第二批历史建筑，公示期2023-08-29至09-04；附件doc名录载明：渡槽（草盘地镇茶场村一组，1958年，引大沟水库水灌溉，人工石砌，高11米石柱、长15.6米水渠）、同二老茶场（红山镇黄泥岗村二组，1975年，农业学大寨时期英山首个茶叶特色产业园的根据地与办公楼、唯一保留印证）；另含石拱桥、青石桥、古民居、故居等。附件doc已下载核读，本地存档 raw/yingshan_heritage/。"
+    },
+    "luotian_heritage_buildings_2024": {
+      "source_type": "county_government_notice",
+      "title": "关于罗田县第三批历史建筑的公示（附罗田县第三批备选历史建筑名录33处）",
+      "org": "罗田县住房和城乡建设局（罗田县政府网）",
+      "pub_date": "2024-05-11",
+      "url": "http://www.luotian.gov.cn/zwgk/grassroots/6636850/1376583.html",
+      "authority": "A",
+      "notes": "罗田县第三批33处县级历史建筑公示（公示期2024-05-11至20），正文附名录表：第33项薄刀峰林场工区管理用房旧址（薄刀峰林场，60年代）为林业工业对象；第32项罗田县“五七”干校旧址（九资河张家咀村，1972年）与第22项知青点（三里畈车潭畈村村部，60年代）为年代史迹，生产性构成未在名录中明示；其余30处为古民居、祠堂、寺庙、戏楼、故居等传统建筑。另核读团风县第二批历史建筑公示（2023-07-27，tfzf.gov.cn）：13处均为水晶坳村民居，无工业对象（负结果记录）。"
     }
   },
   "records": [
@@ -12647,6 +12656,29 @@
       "aliases": [
         "同二老茶场"
       ],
+      "asset_kind": "industrial_site"
+    },
+    {
+      "inventory_id": "HBI-HG-019",
+      "name": "薄刀峰林场工区管理用房旧址",
+      "city": "黄冈市",
+      "district_county": "罗田县薄刀峰林场",
+      "industry_category_l1": "林业开发与木材生产",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "罗田县第三批历史建筑（2024年5月11日至20日公示，名录第33项；60年代建）",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "luotian_heritage_buildings_2024"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "薄刀峰林场工区管理用房旧址建筑本体（薄刀峰林场场部）；栋数、建筑面积与保存状态待现场测绘",
+        "technical_memory": "大别山山区国营林场开发时期的工区管理与木材生产组织载体；建场沿革与伐木、运输、育林工艺档案待补",
+        "social_memory": "林场职工扎根山区护林育林的生产生活记忆，与罗田山区林业开发史互证",
+        "current_use_or_loss": "以县级历史建筑身份纳入保护公示名单；旧址现状用途与保存边界待核"
+      },
+      "notes": "直接取自罗田县住建局第三批备选历史建筑名录正文表（A级，已核读）；与神农架林业系列、断江坪伐木队线索同属湖北林业工业脉络；公示层级后续是否正式认定待跟踪；名录未载林场建场年代与工区构成；坐标未核验保持待核。",
+      "aliases": [],
       "asset_kind": "industrial_site"
     }
   ]
