@@ -1,0 +1,18 @@
+{
+  "version": "hubei-industry-override-v1",
+  "scope": "湖北省",
+  "overrides": {
+    "HER-407fe7b65baa": {
+      "industry_category_l1": "机械装备",
+      "reason": "官方核心物项以车床、机床、滚齿机、插齿机和精密光学设备为主，铁路专用线属于厂区物流设施，不应主导行业分类。"
+    },
+    "HER-d0daf5a12b29": {
+      "industry_category_l1": "纺织工业",
+      "reason": "官方核心物项以纺织厂房和1511M-44型织布机为主，原铁路交通分类仅由专用铁路线关键词触发。"
+    },
+    "HER-017dc5485fea": {
+      "industry_category_l1": "电力能源",
+      "reason": "官方核心物项以汽轮机转子、发电机铭牌、电气主盘和配电室为主，原铁路交通分类仅由厂区铁路关键词触发。"
+    }
+  }
+}

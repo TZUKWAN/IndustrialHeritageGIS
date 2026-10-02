@@ -17,22 +17,23 @@
 
 发布主体均为中华人民共和国工业和信息化部, 权威等级 **A**。
 
-## 2. 处理链 (raw → interim → processed → src/data + python-backend data)
+## 2. 处理链 (raw → interim → processed → 湖北发布包)
 
 ```
 raw/(原件, 只读)
  └─ parse_raw.py      字符级解析: pdf 表格线网格优先+字符聚类回退, 跨页续行/上下标/竖排文本处理
-    └─ interim/batch{1..7}.json   (序号连续性+关键字段+语义校验, 264条全部干净)
+    └─ interim/batch{1..7}.json   (序号连续性+关键字段+语义校验, 265条全部干净)
  └─ fetch_admin.py    DataV GeoAtlas 行政区划(3238条, GCJ-02, 磁盘缓存)
- └─ normalize.py      主表263条: 稳定ID/查重归并/行业分类/地理编码(GCJ-02→WGS84)/质检报告
+ └─ normalize.py      主表265条: 稳定ID/查重归并/行业分类/地理编码(GCJ-02→WGS84)/质检报告
     └─ processed/heritage_sites.json + heritage_sites.geojson + sources.json
     └─ reports/{normalize,geocoding_report}.json
- └─ analysis.py       KDE/ANN/Moran/省级统计/省界简化 (参数与版本写入输出)
- └─ build_enrichment.py  试点史实+官方认定事件 → events/relations/profiles/sources
- └─ export_frontend.py   打包 src/data/heritage/* + python-backend/opengis_backend/data/heritage/*
+ └─ analysis.py       默认按湖北省切片生成 KDE/ANN/描述统计/省界简化 (参数与版本写入输出)
+ └─ build_enrichment.py  试点史实+官方认定事件 → events/relations/profiles/sources（批次公告文号合并幂等）
+ └─ hubei_cultural_profiles.json 文化载体/技术/组织/记忆/利用/边界档案
+ └─ export_frontend.py   按湖北省切片，打包 src/data/heritage/* + python-backend/opengis_backend/data/heritage/*
 ```
 
-所有清洗规则编码于脚本, 无任何手工 Excel 修改; 重跑脚本链可完整复现。
+全国 265 条处理结果仍保存在 `processed/` 用于追溯；公开包只包含湖北 13 条。所有清洗规则和范围覆盖编码于脚本/配置，文化档案单独版本化，重跑导出链可复现湖北发布包。
 
 ## 3. 联网来源分级与使用注意
 
@@ -51,7 +52,7 @@ raw/(原件, 只读)
 
 ## 5. 已知数据边界(诚实声明)
 
-- 名单本身不含始建年份/人物/故事 — 这些字段来自第4阶段采集的 57 处站点(试点 13 处: 张裕、鞍钢、旅顺船坞、永利铔厂、大生纱厂、开滦赵各庄矿、福建船政、葛洲坝、狮子滩、首钢石景山、京张制造厂、华北制药、一汽; 波次2新增 44 处, 覆盖全部第1批及第2-7批代表性遗产), 其余 206 处 enrichment_status=not_started, 档案明确显示"资料待补"。
+- 湖北 13 处中，4 处已有事件史料并标记 `verified`；其余 9 处的历史档案仍标记 `not_started`。文化层为 13 处全部建立的独立档案：5 处 `documented`，8 处 `baseline`，后者只把官方核心物项转成带证据等级的文化载体解释，不把待补的社会记忆或保护利用写成事实。
 - "培城区"(绵阳, 实为涪城区)、"新丘区"(阜新, 实为新邱区)等源文件笔误以模糊匹配纠正并全部标记 needs_review。
 - 中核四〇四厂源地址仅写"甘肃省", 采用省级中心点并标记复核 — 未用城市中心点冒充。
 - 名单为行政区划级地址, 区县中心点是该数据可诚实达到的最高精度; 精确点位需后续实地采集。

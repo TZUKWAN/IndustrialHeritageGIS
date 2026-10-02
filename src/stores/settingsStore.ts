@@ -78,7 +78,8 @@ export const useSettingsStore = create<SettingsState>((set, get) => ({
   },
   appearance: {
     theme: 'system',
-    language: 'en',
+    // 湖北工业文化遗产面向中文资料与国内发布，首次启动默认中文；用户仍可在设置中切换 English。
+    language: 'zh',
     fontSize: 14,
     basemapId: 'osm-streets',
     customTileUrl: '',

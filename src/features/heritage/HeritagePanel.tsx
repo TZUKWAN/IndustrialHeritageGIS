@@ -73,6 +73,10 @@ export function HeritagePanel(): JSX.Element {
 
   return (
     <div className="flex flex-col h-full text-xs text-text-primary">
+      <div className="mx-2 mt-2 rounded-md border border-accent-primary/30 bg-accent-primary/10 px-2 py-1.5 text-[11px] text-text-secondary">
+        <span className="font-medium text-accent-primary">{t.heritage.scopeBanner}</span>
+        <span className="ml-1">{analysisMeta.scope ?? '湖北省'} · {analysisMeta.site_count}处 · {t.heritage.culturalArchive} · {t.heritage.inventoryCount.replace('{n}', String(analysisMeta.inventory_count ?? 0))}</span>
+      </div>
       {/* 视图切换 */}
       <div className="flex items-center gap-1 px-2 pt-2 pb-1">
         <button
@@ -341,9 +345,9 @@ function HeritageAnalysisView(): JSX.Element {
           <Play className="w-3 h-3" /> {t.heritage.annTitle}
         </div>
         <div className="text-text-secondary">
-          {t.heritage.annResult
-            .replace('{r}', ann.R.toFixed(3))
-            .replace('{z}', String(ann.z_score))}
+          {Math.abs(ann.z_score) >= 1.96
+            ? t.heritage.annResult.replace('{r}', ann.R.toFixed(3)).replace('{z}', String(ann.z_score))
+            : t.heritage.annDescriptive.replace('{r}', ann.R.toFixed(3)).replace('{z}', String(ann.z_score))}
         </div>
         <div className="text-text-muted text-[10px]">{t.heritage.annParams}</div>
       </div>
@@ -352,9 +356,11 @@ function HeritageAnalysisView(): JSX.Element {
       <div className="glass rounded-md p-2 space-y-1">
         <div className="font-medium">{t.heritage.moranTitle}</div>
         <div className="text-text-secondary">
-          {moran.z_value != null && moran.z_value > 1.96
-            ? t.heritage.annResult.replace('{r}', String(moran.I)).replace('{z}', String(moran.z_value))
-            : t.heritage.moranNotSignificant.replace('{z}', String(moran.z_value ?? '-'))}
+          {moran.I == null
+            ? t.heritage.moranUnavailable
+            : moran.z_value != null && Math.abs(moran.z_value) > 1.96
+              ? t.heritage.annResult.replace('{r}', String(moran.I)).replace('{z}', String(moran.z_value))
+              : t.heritage.moranNotSignificant.replace('{z}', String(moran.z_value ?? '-'))}
         </div>
         <div className="text-text-muted text-[10px]">{t.heritage.moranParams}</div>
       </div>

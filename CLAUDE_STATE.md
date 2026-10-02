@@ -1,0 +1,122 @@
+# CLAUDE_STATE.md
+
+更新时间：2026-10-02（Asia/Shanghai）
+任务状态：active；刘总未发送停止指令，必须继续检索、核验和增量丰富，不得把当前阶段当作最终完成。
+
+## 当前目标
+
+将项目收敛为可发布的湖北工业文化遗产 GIS：公开主表只保留湖北国家工业遗产；通过独立的工业文化档案和全省扩展底册，把工业建筑、设备、工艺、档案、职工社区、社会记忆、保护利用和待核验线索分层表达。底册持续纳入国家名录之外的省、市、县、文保/历史建筑、三线建设、央企/行业资料、档案文献和地方工业史对象。资料不足必须显式写成 pending/待核，不得把研究候选写成正式认定。
+
+## 已确认事实与当前数据
+
+- 工作区：D:\地理信息系统\IndustrialHeritageGIS；分支：feature/industrial-heritage-gis。
+- 国家原始名单重新解析后共 265 条原始记录、265 条当前处理记录；第一批 XLS 中“汉冶萍公司--大冶铁厂”是空序号续行，已修复 parse_raw.py 以识别完整续行，不再漏掉该湖北对象。
+- 公开湖北国家主表当前为 13 处，含 HER-0127dfd1ca78 汉冶萍公司--大冶铁厂；官方来源明确湖北有 13 处国家工业遗产。
+- data-pipeline/enrichment/hubei_cultural_profiles.json 当前有 13 份文化档案；5 份 documented、8 份 baseline；每份至少四维文化字段和来源边界。
+- 全省扩展底册 data-pipeline/enrichment/hubei_inventory.json 当前 377 条、286 个原始来源键：353 条 source_confirmed，24 条 source_lead（十堰模具、车轮、泵业资料对象、神农架断江坪伐木队、沙市三厂、湖北省空压机厂、宜都矿山机械厂、罗田/英山缫丝对象、荆州机床厂、蕲春湖北链条厂等仍为待核线索）。第一轮目标下限为 170 条，当前已超过；292 条含四项来源约束文化证据，覆盖 17 个地市/林区。
+- 第二轮新增迁移脚本 data-pipeline/scripts/add_inventory_wave_20261002_b.py：新增 29 条、15 个来源，并更新 7 条既有对象的来源/文化证据；脚本可重复运行，已运行两次未产生冲突。
+- 第二轮重点：大冶铁矿七类组成项、华新档案/五羊巷/湿法回转窑、汉冶萍档案、华中钢铁档案、荆江分洪档案、沙市洋码头、武汉 606/四美塘/小龟山/汉江湾、随州七个工业史企业线索、应城石膏档案、宜都茶厂档案和宜都三线建设档案。
+- 最近一次 build_enrichment.py：672 events / 144 relations / 508 全国网络来源 / 265 enriched sites / 377 inventory。
+- 最近一次 analysis.py：湖北 ANN n=13、R=0.6799、z=-2.21；Moran's I 因单省级单元不适用；KDE 59×67。
+- 最近一次导出 export_frontend.py：公开包 13 sites、41 events、10 relations、276 sources、13 cultural profiles、377 inventory；原始底册有286个来源键，其中353条扩展记录为来源确认层级，24条为来源线索，144条达到名录认定统计口径，292条含四项文化证据；前后端数据副本已做一致性核对。
+- 最近一次数据管线测试：python -m pytest data-pipeline/tests -q 通过 52/52。测试曾因既有武钢文化档案引用不存在的 src-web-c3e277960b 失败，已替换为现存的青山区政府来源 src-web-2dc5e1e716 并复测通过。
+- 已通过：python -m py_compile data-pipeline/scripts/parse_raw.py data-pipeline/scripts/analysis.py data-pipeline/scripts/build_enrichment.py data-pipeline/scripts/add_inventory_wave_20261002.py data-pipeline/scripts/add_inventory_wave_20261002_b.py data-pipeline/scripts/add_inventory_wave_20261002_c.py data-pipeline/scripts/add_inventory_wave_20261002_d.py data-pipeline/scripts/add_inventory_wave_20261002_e.py data-pipeline/scripts/add_inventory_wave_20261002_f.py data-pipeline/scripts/add_inventory_wave_20261002_g.py data-pipeline/scripts/add_inventory_wave_20261002_h.py data-pipeline/scripts/add_inventory_wave_20261002_i.py data-pipeline/scripts/add_inventory_wave_20261002_j.py data-pipeline/scripts/add_inventory_wave_20261002_k.py data-pipeline/scripts/add_inventory_wave_20261002_l.py data-pipeline/scripts/add_inventory_wave_20261002_m.py data-pipeline/scripts/add_inventory_wave_20261002_n.py data-pipeline/scripts/add_inventory_wave_20261002_o.py data-pipeline/scripts/add_inventory_wave_20261002_p.py data-pipeline/scripts/add_inventory_wave_20261002_q.py data-pipeline/scripts/add_inventory_wave_20261002_r.py data-pipeline/scripts/add_inventory_wave_20261002_s.py data-pipeline/scripts/add_inventory_wave_20261002_x.py data-pipeline/scripts/add_inventory_wave_20261002_y.py data-pipeline/scripts/add_inventory_wave_20261002_z.py data-pipeline/scripts/add_inventory_wave_20261002_aa.py data-pipeline/scripts/add_inventory_wave_20261002_ab.py data-pipeline/scripts/add_inventory_wave_20261002_ac.py data-pipeline/scripts/add_inventory_wave_20261002_ad.py data-pipeline/scripts/add_inventory_wave_20261002_ae.py data-pipeline/scripts/add_inventory_wave_20261002_af.py data-pipeline/scripts/add_inventory_wave_20261002_ag.py data-pipeline/scripts/add_inventory_wave_20261002_ah.py data-pipeline/scripts/add_inventory_wave_20261002_ai.py data-pipeline/scripts/add_inventory_wave_20261002_aj.py data-pipeline/scripts/add_inventory_wave_20261002_ak.py data-pipeline/scripts/add_inventory_wave_20261002_al.py data-pipeline/scripts/add_inventory_wave_20261002_am.py data-pipeline/scripts/add_inventory_wave_20261002_an.py data-pipeline/scripts/add_inventory_wave_20261002_ao.py data-pipeline/scripts/add_inventory_wave_20261002_ap.py data-pipeline/scripts/add_inventory_wave_20261002_aq.py data-pipeline/scripts/add_inventory_wave_20261002_aq2.py。
+- 第二十轮已完成原始层审计、数据管线52/52和发布包重建。本轮新增9条、增加12个来源键：葛店化工厂一号楼旧址、葛店化工厂机械厂旧址、恩施烟叶复烤厂航空路厂房、利川烟叶复烤厂、鹤峰中营红三军枪炮局与被服厂、恩施三星洞地下军工厂、巴东金果坪枪炮局、鹤峰五里坪革命生产性组成项。东湖高新区四普附件、葛化企业史、生态环境场地登记、恩施老厂房更新和恩施/鹤峰/巴东革命工业资料均按认定、研究和活化层级分开表达。第十九轮新增6条和15个来源仍保留。
+- 第二十一轮已完成原始层审计、数据管线52/52和发布包重建。本轮新增10条、增加6个来源键、补强14条既有记录：天门张港供销社、张港码头候船室、吴源茂商号、老搬运站办公楼、黄潭水塔、石河老供销社/老图书馆、干驿供销商店，鄂州原市麻纺厂规划片区，神农架开发建设声像档案；并补强仙桃1979街区、潜江五七油田会战指挥部、黄冈铝业社区和神农架林业历史馆。天门市政府历史建筑通知、红色湖北基地资料、湖北档案信息网和湖北日报等来源已按法定名录、规划对象、工业文化载体和研究边界分层表达。
+- 第二十二轮（wave v）已完成原始层审计、数据管线52/52和发布包重建。本轮新增4条、增加3个来源键：江汉油田职业技术学校旧址（现青少年综合实践学校）、盐化工业园区工业文化景观、广华职工社区与油地融合公共空间、潜江市石油化工厂历史谱系；同时登记仙桃、潜江第四次文物普查覆盖依据。潜江市政府、文旅局和国土空间规划资料确认油田工业文化线路、教育培训、盐化工景观、社区公共空间和石化企业谱系；四项文化证据仍按对象级证据边界填写。
+- 第二十三轮（wave w）已完成原始层审计、数据管线52/52和发布包重建。本轮新增7条、增加3个来源键：原东风公司59厂、62厂、6264厂旧址，房县恒达/华球纺织厂旧址，原东风公司54厂片区和东风小康一工厂旧厂房。十堰官方媒体、省住建厅和省自然资源厅资料确认东风专业厂群、三线工业社区、东风故里活化、房县纺织厂迁建和老厂房再利用；均按城市更新/工业文化对象分层，保护边界和实体物项继续待核。
+- 第二十四轮（wave x）已完成原始层审计、数据管线52/52和发布包重建。本轮新增6条、增加4个来源键：仙桃原第三服装厂旧厂房、三伏潭废弃无纺布厂区、大垸子—沙湖泵站老旧水利设施群、蒲纺一中旧厂房改建教学楼、蒲纺二三四八工业文化展览馆、柏墩生甡川砖茶厂清代老厂房。省自然资源厅、湖北档案信息网和咸宁地方官方媒体确认低效工业载体再利用、蒲纺工业文化展示和传统砖茶老厂房；均按城市更新、工业文化载体或研究候选分层，实体边界和认定层级继续待核。
+- 第二十五轮（wave y）已完成原始层审计、数据管线52/52和发布包重建。本轮新增3条、增加2个来源键：神农架伐木时代木材运输路（长坊片区）、随州老火车站旧址（汉丹铁路早期节点）、湖北黄冈地区缫丝厂历史谱系线索。国家林草局、随州日报和人民日报历史版资料分别确认林业运输路、铁路节点和区域缫丝企业史；黄冈缫丝厂保留 source_lead，前两条按研究候选分层，路线、站房、厂址和认定边界继续待核。
+- 第二十六轮（wave z）已完成原始层审计、数据管线52/52和发布包重建。本轮新增6条、增加6个来源键并补强2条既有记录：2250kV/9000kVA工频试验成套装置、青山热电厂1号汽轮机转子、青山热电厂首台发电机铭牌3件“共和国印记”见证物；葛洲坝水利枢纽、武钢一号高炉、航天066导弹基地3个国家工业遗产保护利用文化景观；同时为老虎洞水电站和大冶铁矿工业遗产群补入国家专题案例来源。湖北日报、湖北理工学院、湖北省自然资源厅、中国证券报和国家能源集团相关资料分别确认对象或案例层级，实物保管、核心物项边界和开放条件仍按记录中的待核边界表达。
+- 第二十七轮（wave aa）已完成原始层审计、数据管线52/52和发布包重建。本轮新增3条、增加6个来源键并补强1条既有记录、校正1个来源元数据：兴和铝业旧厂区—兴和全明星体育公园、浠水西门山氮肥厂旧工业片区、罗田纤维板厂职工住宅片区3个黄冈城市更新工业文化对象；补入随州塑料三厂地方媒体交叉来源；将神农架林业历史馆来源的发布日期和转载来源校正为国家林草局转载《新华每日电讯》的2025-08-15。城市更新和环境报料来源均保持研究/规划层级，厂址、设备、污染、产权和保护边界继续待核。
+- 第二十八轮（wave ab）已完成原始层审计、数据管线重建、湖北导出和前端全套门禁。本轮新增4条、增加4个来源键并补强2条既有记录：补入十堰46厂大岭路老厂区汽车工业遗产博物馆项目、模具冲压/车轮/泵业老厂区文化资料线索；用十堰广播电视台厂志与口述史报道补强44厂水井、液压机、电泳槽、红外线烘干室和冲压机等具体载体；同时在研究目标中登记官方答复确认的100处不可移动、300项可移动汽车工业文化遗产普查规模。模具、车轮、泵业保持source_lead，46厂和44厂的正式名录、边界、产权、设备清单与现状仍待普查/档案核验。
+- 第二十九轮（wave ac）已完成原始层审计、数据管线重建、湖北导出、数据测试和 Agent 精确检索。本轮新增1条、增加2个来源键：随州缫丝厂区—缫丝社区工业文化景观；随州日报2026年城市更新现场报道和2016年企业社区报道共同确认缫丝厂区的工业记忆、活化改造方向、老厂房/居民楼及企业社区社会记忆。正式厂界、设备、厂志、产权、环境风险和法定遗产级别仍待核验。
+
+## 关键文件
+
+- 原始名单：data-pipeline/raw/
+- 中间解析：data-pipeline/interim/
+- 全国处理主表：data-pipeline/processed/heritage_sites.json
+- 扩展原始底册：data-pipeline/enrichment/hubei_inventory.json
+- 文化档案原始层：data-pipeline/enrichment/hubei_cultural_profiles.json
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002.py、data-pipeline/scripts/add_inventory_wave_20261002_b.py、data-pipeline/scripts/add_inventory_wave_20261002_c.py
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_d.py（第四轮官方来源增量）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_e.py（第五轮革命文物生产性旧址与神农架林业工业文化增量）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_f.py（第六轮省级文保名录工业遗产组成项增量）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_g.py（第七轮第二批革命文物生产性旧址、茶业景观与鄂北手纺织训练所增量）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_h.py（第八轮京汉铁路总工会旧址与汉口平汉铁路局旧址增量）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_i.py（第九轮武汉电话局、大智门火车站、顺丰茶栈及既有电灯/火油/宜都红茶条目官方名录补证）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_j.py（第十轮湖泗瓷窑址群、鄂州窑业/矿冶小遗址、钟祥与郧阳古铜矿冶遗址及宗关水厂文化证据补证）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_k.py（第十一轮马口窑、传统榨油坊、白螺机场、盐运纤道、万里茶道茶园/线路、城隍潭码头考古与保护资料）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_l.py（第十二轮庞湾琉璃窑址、川鄂古盐道神农架段、坛子洞古茶园及名录别名/组成关系补全）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_m.py（第十三轮源泰洋行、盐业银行工业文化节点及水利/茶厂/传统作坊/炼硝场省保边界补证）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_n.py（第十四轮汉口赞育药房/赞育汽水厂名称合并、药业—化工—汽水—制冰企业谱系和保护风险证据）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_o.py（第十五轮鄂州矿冶/铸钱/古窑/机场考古工业遗址、七窑山纺织线索与江岸机厂铁路工业证据）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_p.py（第十六轮咸宁方圆船厂、荆门炼油厂、荆州石油四机/白云边、蕲春管窑及省级摸底与管理办法覆盖来源）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_q.py（第十七轮五峰归真/采花茶业、老河口光化特、襄阳红星/湖北化纤省级认定补证及健民商务部老字号文化档案）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_r.py（第十八轮二汽、文字605/603、石花、云盖寺、管窑、孝感麻糖认定后资料及国家第二书库组成项）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_s.py（第十九轮新屋李铸造、武汉探矿机械厂/二船厂/民生轮船、下陆机修厂工人俱乐部、应城膏盐矿遗址群及鄂州/十堰四普覆盖依据）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_t.py（第二十轮葛店化工厂四普新发现、恩施/利川烟叶复烤厂活化、鹤峰/巴东/恩施革命军工生产性旧址）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_u.py（第二十一轮天门历史建筑工业/商贸/交通节点、鄂州麻纺规划片区、神农架开发档案，以及仙桃/潜江/黄冈/神农架文化证据补强）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_v.py（第二十二轮潜江油田职业教育、盐化工业景观、广华职工社区、石化企业谱系，以及仙桃/潜江四普覆盖依据）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_w.py（第二十三轮十堰东风专业厂群、6264厂、房县恒达/华球纺织厂、54厂片区和东风小康一厂旧厂房）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_x.py（第二十四轮仙桃低效工业载体、泵站水利设施、蒲纺工业文化展示/再利用和柏墩砖茶老厂房）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_y.py（第二十五轮神农架木材运输路、随州老火车站和黄冈缫丝厂区域线索）、data-pipeline/scripts/add_inventory_wave_20261002_z.py（第二十六轮“共和国印记”实物与工业遗产保护利用案例）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_aa.py（第二十七轮黄冈城市更新工业对象、随州塑料三厂地方来源补证和神农架林业历史馆来源日期校正）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_ab.py（第二十八轮十堰汽车工业文化遗产普查规模、46厂博物馆项目、44厂具体物项和模具/车轮/泵业资料线索）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_ac.py（第二十九轮随州缫丝厂区—缫丝社区工业文化景观及城市更新/企业社区来源）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_ad.py（第三十轮阳新浮屠三线老工业园、神农架断江坪伐木队、黄石东钢/拖拉机厂补证，以及省档案馆1965—1966年工业设施题名线索）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_ae.py（第三十一轮随州缫丝厂连续档案、湖北机械工业设计任务书档案，以及沙市三厂、湖北省柴油机厂/空压机厂、郧县风动工具厂、宜都矿山机械厂档案线索）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_af.py（第三十二轮硚口区政府工业史、武汉文史资料湖北农具制造厂谱系、十堰三线建设论文地方志交叉核验，升级湖北省柴油机厂、郧县风动工具厂和武汉柴油机厂来源）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_ag.py（第三十三轮襄阳湖北空压机厂生活区第三方地址线索、宜都矿山机械厂枝城名称沿革交叉来源）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_ah.py（第三十四轮汉川马口省汽修老厂房、荆门金龙泉啤酒厂旧址和工人文化宫活化来源补强）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_ai.py（第三十五轮罗田县大河岸缫丝厂、英山县湖北制丝针织厂县域对象与企业改制/产业链来源）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_aj.py（第三十六轮沙市荧光灯厂旧厂区长港路苏式厂房、烟囱和保存状态来源补强）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_ak.py（第三十七轮京山市原机械厂生活区工业文化景观、荆州机床厂历史名单线索）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_al.py（第三十八轮京山机械厂生活区检索别名补全）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_am.py（第三十九轮湖北空压机厂生活区城市归属字段校正为襄阳市樊城区米公街道线索）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_an.py（第四十轮京山轻机官方企业史、沙市第一机床厂回忆资料补强京山机械厂和荆州机床厂）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_ao.py（第四十一轮蕲春湖北链条厂历史企业与漕河镇改制线索）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_ap.py（第四十二轮人民日报沙市机床专业化协作、机床一厂/三厂和空气压缩机生产谱系补强）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_aq.py（第四十三轮湖北工业大学档案馆全宗确认湖北第三内燃机配件厂档案与机械总厂谱系）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261002_aq2.py（第四十三轮武汉市政协文史资料确认华中工学院机械厂与实习工厂五车间、设备、校办生产和工人培养谱系）
+- 构建/分析/导出：data-pipeline/scripts/build_enrichment.py、analysis.py、export_frontend.py
+- 发布前端：src/data/heritage/
+- 发布后端：python-backend/opengis_backend/data/heritage/
+- 数据测试：data-pipeline/tests/test_pipeline.py、data-pipeline/tests/test_hubei_release.py
+- 范围和字段说明：docs/HUBEI_CULTURAL_SCOPE.md、docs/DATA_DICTIONARY.md、docs/DATA_PROVENANCE.md
+
+## 当前已验证的发布包审计
+
+- 前端/后端 sites.json、details.json、events.json、relations.json、profiles.json、cultural.json、sources.json、meta.json、inventory.json 已逐文件相等。
+- 13 个国家主表对象均为湖北省；文化档案键与 13 个主表 ID 完全一致；四维文化字段和 source_ids 闭合。
+- 底册无重复 inventory_id、无精确重复名称；底册 source_keys 全部能解析；有文化证据的记录均具备四个固定键；所有底册记录保持 geocode_status=pending，未把行政区中心点冒充精确遗址坐标。
+- 2025 年湖北省工业遗产公示 9 项已在底册中；公开网页、档案文献和市级工业遗产来源已纳入来源表。
+- 说明：data-pipeline/processed/heritage_sites.json 的 265 条是全国追溯处理结果；公开产品查询范围仍只切湖北，不把全国对象暴露为默认湖北数据。
+
+## 下一步最小任务单元
+
+1. 第四十三轮新增2条记录、增加2个底册来源键：湖北第三内燃机配件厂档案与工业文化谱系、华中工学院机械厂与实习工厂工业文化景观；分别绑定湖北工业大学档案馆、武汉市政协文史资料官方来源。第四十二轮及更早波次仍在包内，脚本连续运行保持幂等。
+2. 继续检索尚未覆盖或覆盖不足的地市（优先武汉、黄石、襄阳、宜昌、十堰、荆门、鄂州、咸宁、孝感、黄冈、荆州、随州、恩施、仙桃、潜江、天门、神农架），重点查政府名录、第四次文物普查、档案文献遗产、地方志、三线企业、历史建筑、港口/铁路/水利/矿山和企业厂志。
+3. 对只有企业史线索的对象，尽量找到官方地址、文保/规划或现场资料；在找到之前保持 research_candidate/source_lead，不升格。
+4. 每轮新增后依次执行：原始 JSON/重复/来源闭环审计 → build_enrichment.py → analysis.py → HERITAGE_PROVINCE=湖北省 export_frontend.py → 精准 pytest → 前后端一致性审计；第四十三轮377条底册已完成数据管线52/52、定向发布测试和前后端一致性，前端全套门禁已在第三十一轮重新通过且数据结构未变。
+5. 第三十一轮重新运行 npm run typecheck（exit 0）、npm test -- --run（173/173）、npm run lint（0 errors/28 existing warnings）、npm run build（exit 0）和浏览器烟测；第四十三轮导出后数据管线52/52通过，Agent `inventory` 精确查询“湖北第三内燃机配件厂”“华中工学院机械厂”“华中工学院实习工厂”应返回对象和官方来源；浏览器状态栏应刷新到“研究范围 湖北省 · 13处 · 工业文化档案 · 全量底册377条”。前序轮次对象查询继续保留，下一轮继续按县域四普附件、地方志/厂志和档案馆目录扩展。
+6. 每个实质阶段更新本文件；上下文接近 80% 时先写入最新证据、未解决问题和下一步。
+
+## 残余风险
+
+- 第十六轮新增5条、增加7个底册来源；第十七轮新增五峰归真/采花茶业、老河口光化特两条并补强襄阳红星/湖北化纤和健民文化档案；第十八轮新增国家第二书库组成项、增加8个来源并补强二汽、文字605/603、石花、云盖寺、管窑、孝感麻糖；第十九轮新增6条、增加15个来源并补强大冶钢厂职工俱乐部、应城石膏矿实体/档案关联；第二十轮新增9条、增加12个来源，补入葛店化工厂四普新发现、恩施/利川烟叶复烤厂活化对象和恩施州多处革命军工生产节点；第二十一轮新增10条、增加6个来源键并补强天门、仙桃、潜江、鄂州、黄冈、神农架对象；第二十二轮新增4条、增加3个来源键并补强潜江油田工业文化片区对象；第二十三轮新增7条、增加3个来源键并补强十堰东风专业厂群、6264厂、房县纺织厂和老厂房活化对象；第二十四轮新增6条、增加4个来源键并补强仙桃低效工业载体、泵站水利设施、蒲纺工业文化展示/再利用和柏墩砖茶老厂房；第二十五轮新增3条、增加2个来源键并补强神农架木材运输路、随州老火车站和黄冈缫丝区域线索；第二十六轮新增6条、增加6个来源键并补强老虎洞水电站和大冶铁矿工业遗产群的国家专题案例关系。葛店两处旧址的四普级别为尚未核定，原厂区部分地块仍有环境修复风险；恩施/利川烟叶复烤厂按城市更新对象处理；鹤峰中营枪炮局/被服厂属于省保旧址群组成项，巴东金果坪枪炮局有修缮项目但单体级别待核，三星洞和五里坪生产性组成项仍需文保档案与现场测绘；天门新增历史建筑虽有政府名单身份，工业功能、附属设施和保护边界仍需单体核验；鄂州麻纺片区仅为规划对象，神农架声像档案需进一步取得档号/开放目录；潜江盐化工业园区、广华职工社区和石化企业谱系目前是规划/工业文化或企业史对象，具体单体边界、厂址、权属、设备和档案仍待核；十堰59/62/6264厂、54厂片区、房县两家纺织厂和东风小康一厂的来源主要证明厂号谱系或城市更新关系，独立建筑、设备、产权、保护边界和现状仍待四普/厂志/现场补证；仙桃原第三服装厂、三伏潭无纺布厂区、大垸子—沙湖泵站为低效用地再开发报道对象，蒲纺一中和二三四八展览馆为工业文化再利用载体，柏墩生甡川砖茶厂为传统生产场所候选，神农架运输路和随州老火车站的路线/站房边界仍待测绘，黄冈缫丝厂只有区域报刊线索且不得推断具体厂址；2250kV装置、青山热电厂转子/铭牌的精确保管点和开放条件，葛洲坝/武钢/066案例的核心物项清单与保护边界仍需权属单位档案、保护规划和现场测绘。省级摸底答复、管理办法征求意见稿和普查报道只登记为覆盖依据，不替代对象证据。当前376条仍不是法律意义上的“湖北所有遗产最终名录”，必须继续补充县域普查、第四次文物普查和档案目录。
+- 第二十七轮新增的兴和铝业旧厂区、浠水西门山氮肥厂、罗田纤维板厂来自城市更新对象报道，前两者另有环境/产权/厂区边界待核风险；罗田对象目前只有职工住宅更新语境，不能推断原厂房仍存。多数扩展记录没有精确地址/坐标，当前全部 pending；武汉、黄石和黄冈的成片更新对象需要拆分边界和现场核验。
+- 第二十八轮十堰46厂记录由省级答复确认博物馆建设基础工作，不代表项目已建成或获得法定认定；44厂的水井、液压机、电泳槽、红外线烘干室和冲压机来自地方融媒体厂志/口述报道，仍需现场测绘、企业档案和产权核对；模具、车轮、泵业目前只有博物馆活动展板的老厂区照片/资料线索，原页面抓取超时，保持source_lead；官方100处/300项普查规模已登记，但逐项清单尚未取得。
+- 第二十九轮随州缫丝厂区—缫丝社区的两篇地方报纸报道确认工业记忆、老厂房/居民楼和活化改造方向，但未给出完整厂界、机器清单、厂志、产权或环境评估；页面抓取状态一篇超时，已按来源说明保留为城市更新/企业社区对象，不提前升级法定工业遗产。
+- 第三十轮阳新浮屠老铝厂、山下工业园、麻纺厂由县政府和省经信厅报道确认名称与再利用语境，但具体厂界、建筑设备和产权仍待核；神农架断江坪伐木队的官方页面抓取超时，保持 source_lead；省档案馆1965—1966年目录只证明历史文件题名，安陆、松滋、公安县、襄阳、枣阳、黄陂、随县对象均不得据此推断实体存续或法定级别；黄石东钢和拖拉机厂补证仍需厂区测绘、权属和环境资料。
+- 第三十一轮随州缫丝厂连续档案题名补强了搬迁基建、车间扩建、企业组织和劳动关系，但仍未提供完整厂界、机器清单、档案原件或现状测绘；湖北机械工业设计任务书确认若干企业名称与建设活动，沙市三厂、湖北省柴油机厂、湖北空压机厂、郧县风动工具厂和宜都矿山机械厂均保持 source_lead，不推断实体存续或法定级别；国防部木材厂来源已更正为正式页面和2022-11-02发布日期。
+- 第三十二轮硚口区政府工业史、武汉文史资料和十堰三线建设论文分别补强武汉柴油机厂、湖北农具制造厂—湖北省柴油机厂及郧县柳陂风动工具厂；湖北省柴油机厂和郧县风动工具厂升级为 source_confirmed 仅表示名称、历史沿革和地点语境已有来源，不表示完整厂界、设备、产权或法定遗产级别已经核实；湖北空压机厂、宜都矿山机械厂、沙市三厂仍为档案线索。
+- 8 份 baseline 文化档案仍缺公开口述史、完整人物/组织或现场利用证据；不能宣传为与 documented 档案同等深度。
+- 随州工业史七条中，避雷器厂只有第三方地址线索；不得升级为正式名录或精确旧址。
+- 外部页面可能下线；发布包保存来源标题、URL、访问时间和必要摘要，重要对象仍应补档案馆目录、现场照片或授权资料。
+
+
+
+
+

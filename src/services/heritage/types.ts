@@ -95,6 +95,35 @@ export interface HeritageProfile {
   people: { name: string; roles: string[]; source_ids: string[] }[]
 }
 
+export type CulturalProfileStatus = 'documented' | 'baseline'
+
+export interface CulturalDimension {
+  key: string
+  label: string
+  text: string
+  evidence_type: string
+  evidence_level: string
+  source_ids: string[]
+}
+
+export interface CulturalActor {
+  name: string
+  role: string
+  source_ids: string[]
+}
+
+export interface HeritageCulturalProfile {
+  cultural_status: CulturalProfileStatus
+  carrier_types: string[]
+  cultural_dimensions: CulturalDimension[]
+  actors: CulturalActor[]
+  organizations: string[]
+  social_memory_status: 'documented' | 'pending'
+  current_use_status: 'documented' | 'pending'
+  limitations: string
+  source_ids: string[]
+}
+
 export interface HeritageSource {
   source_id: string
   source_type: string
@@ -119,6 +148,29 @@ export interface AnalysisMeta {
   relation_count: number
   source_count: number
   enriched_sites: number
+  scope?: string
+  scope_type?: string
+  cultural_profile_count?: number
+  inventory_count?: number
+  inventory_source_confirmed_count?: number
+  inventory_recognized_count?: number
+  inventory_target_minimum?: number
+}
+
+export interface HeritageInventoryRecord {
+  inventory_id: string
+  name: string
+  aliases?: string[]
+  city: string | null
+  district_county?: string | null
+  industry_category_l1: string
+  recognition_level: string
+  recognition_status: string
+  record_status: string
+  geocode_status: string
+  related_heritage_ids?: string[]
+  source_ids: string[]
+  notes?: string
 }
 
 export interface AnnResult {
@@ -132,11 +184,12 @@ export interface AnnResult {
 }
 
 export interface MoranResult {
-  I: number
-  E_I: number
+  I: number | null
+  E_I: number | null
   z_value: number | null
   n_units: number
-  weights: string
+  weights: string | null
+  note?: string
 }
 
 export interface KdeMeta {

@@ -1,10 +1,17 @@
 {
  "data_version": "v1.1.0",
- "generated_at": "2026-10-01T08:04:27+00:00",
- "site_count": 263,
- "event_count": 670,
- "relation_count": 144,
- "source_count": 249,
- "enriched_sites": 57,
+ "scope": "湖北省",
+ "scope_type": "province",
+ "generated_at": "2026-10-02T09:36:50+00:00",
+ "site_count": 13,
+ "event_count": 41,
+ "relation_count": 10,
+ "source_count": 276,
+ "enriched_sites": 4,
+ "cultural_profile_count": 13,
+ "inventory_count": 377,
+ "inventory_source_confirmed_count": 353,
+ "inventory_recognized_count": 144,
+ "inventory_target_minimum": 170,
  "sources_of_truth": "data-pipeline/ (raw -> interim -> processed -> src/data)"
 }

@@ -1,7 +1,7 @@
 {
  "data_version": "v1.0.0",
- "raw_rows": 264,
- "records": 263,
+ "raw_rows": 266,
+ "records": 265,
  "auto_merged": [
   {
    "canonical": "北京卫星制造厂",
@@ -21,8 +21,8 @@
   }
  ],
  "geocoding": {
-  "total": 263,
-  "exact_district": 253,
+  "total": 265,
+  "exact_district": 255,
   "fuzzy_district": 2,
   "city_fallback": 7,
   "province_fallback": 1,
@@ -30,21 +30,21 @@
  },
  "industry_freq": {
   "食品酿酒": 35,
-  "冶金": 20,
+  "冶金": 21,
   "船舶工业": 4,
   "建材陶瓷": 10,
   "金属与非金属采矿": 15,
-  "煤炭工业": 20,
-  "纺织工业": 7,
+  "煤炭工业": 21,
+  "纺织工业": 8,
   "电子通信": 17,
-  "电力能源": 28,
+  "电力能源": 29,
   "航空航天": 19,
   "核工业军工": 20,
-  "铁路交通": 19,
+  "铁路交通": 16,
   "石油天然气": 13,
   "医药化工": 8,
   "轻工业": 8,
-  "机械装备": 20
+  "机械装备": 21
  },
  "needs_review_geo": 19,
  "needs_review_classification": 0,

@@ -42,6 +42,27 @@
   "notes": "成文2019-12-06，发布2019-12-19。该通告已由工信部政法函〔2025〕273号宣布作废（第三批经复核后随第七批通知重新公布）。"
  },
  {
+  "event_id": "EVT-0127dfd1ca78-R1",
+  "heritage_id": "HER-0127dfd1ca78",
+  "event_date_start": "2017-12-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第一批）",
+  "description": "被工业和信息化部公布为第1批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch1"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
+ },
+ {
   "event_id": "EVT-017dc5485fea-R5",
   "heritage_id": "HER-017dc5485fea",
   "event_date_start": "2021-12-13",
@@ -11137,6 +11158,27 @@
   "notes": "成文2025-10-17，发布2025-10-22。该通知同时宣布第三批通告作废（第三批经复核通过并重新公布）。"
  },
  {
+  "event_id": "EVT-bcc4f40bdac9-R1",
+  "heritage_id": "HER-bcc4f40bdac9",
+  "event_date_start": "2017-12-22",
+  "event_date_end": null,
+  "date_precision": "day",
+  "event_type": "遗产认定",
+  "title": "入选国家工业遗产名单（第一批）",
+  "description": "被工业和信息化部公布为第1批国家工业遗产。",
+  "place_name": null,
+  "related_orgs": [
+   "中华人民共和国工业和信息化部"
+  ],
+  "related_people": [],
+  "source_ids": [
+   "src-batch1"
+  ],
+  "confidence": "high",
+  "disputed": true,
+  "notes": "通告成文日期为2017年12月20日，工信部网站发布时间为2017-12-22。"
+ },
+ {
   "event_id": "EVT-bcd6809bc514-R2",
   "heritage_id": "HER-bcd6809bc514",
   "event_date_start": "2018-11-21",
@@ -11897,7 +11939,7 @@
   ],
   "related_people": [],
   "source_ids": [
-   "src-web-c3e277960b"
+   "src-web-2dc5e1e716"
   ],
   "confidence": "high",
   "disputed": false,
@@ -11921,9 +11963,9 @@
    "李一清"
   ],
   "source_ids": [
-   "src-web-6f43281674",
-   "src-web-248c633c95",
-   "src-web-d7296788d3"
+   "src-web-01a9c058db",
+   "src-web-122e3d2d0c",
+   "src-web-01b29edde3"
   ],
   "confidence": "high",
   "disputed": false,
@@ -11947,7 +11989,7 @@
   ],
   "related_people": [],
   "source_ids": [
-   "src-web-c3e277960b"
+   "src-web-2dc5e1e716"
   ],
   "confidence": "high",
   "disputed": false,
@@ -11968,7 +12010,7 @@
   ],
   "related_people": [],
   "source_ids": [
-   "src-web-78c23dde35"
+   "src-web-01a9c058db"
   ],
   "confidence": "high",
   "disputed": false,
@@ -12011,7 +12053,7 @@
   ],
   "related_people": [],
   "source_ids": [
-   "src-web-296b90db1c"
+   "src-web-a386f305c0"
   ],
   "confidence": "medium",
   "disputed": false,

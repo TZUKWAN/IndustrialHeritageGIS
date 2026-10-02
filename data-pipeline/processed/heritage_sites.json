@@ -856,6 +856,153 @@
   "closure_year": null
  },
  {
+  "heritage_id": "HER-0127dfd1ca78",
+  "name": "汉冶萍公司--大冶铁厂",
+  "aliases": [
+   "白银公司工业遗产群"
+  ],
+  "initial_batch": 1,
+  "batches": [
+   1
+  ],
+  "source_no": 12,
+  "recognition_years": [
+   2017
+  ],
+  "province": "湖北省",
+  "city": "黄石市",
+  "district_county": "西塞山区",
+  "address_raw": "湖北省黄石市西塞山区",
+  "address_components": {
+   "district_adcodes": [
+    "420203"
+   ],
+   "district_names": [
+    "西塞山区"
+   ]
+  },
+  "applicant_unit": "",
+  "core_items_raw": "1921年冶炼高炉残基、瞭望塔、水塔、高炉栈桥、日式建筑４栋、欧式建筑１栋、钢轨。",
+  "core_item_categories": [
+   "工业建筑与构筑物",
+   "生产设备与工具"
+  ],
+  "industry_category_l1": "冶金",
+  "classification_basis": {
+   "matched_keywords": [
+    "冶",
+    "铁厂",
+    "高炉"
+   ],
+   "name_hit": true,
+   "basis": "keyword_rule_v1"
+  },
+  "founded_year": null,
+  "production_start_year": null,
+  "historical_period": [],
+  "current_use": null,
+  "longitude": 115.08754808317853,
+  "latitude": 30.20395582564394,
+  "coordinate_system": "WGS84",
+  "geocode_source": "DataV_GeoAtlas_admin_center",
+  "geocode_source_crs": "GCJ-02",
+  "geocode_gcj02": [
+   115.093354,
+   30.205365
+  ],
+  "geocode_adcode": "420203",
+  "geocode_level": "district",
+  "geocode_quality": "exact",
+  "geocode_note": "",
+  "geocode_precision": "district_centroid",
+  "needs_review": {
+   "geocode": false,
+   "classification": false,
+   "duplicate": false
+  },
+  "source_ids": [
+   "src-batch1"
+  ],
+  "enrichment_status": "not_started",
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
+ },
+ {
+  "heritage_id": "HER-bcc4f40bdac9",
+  "name": "汉冶萍公司--安源煤矿",
+  "aliases": [
+   "白银公司工业遗产群"
+  ],
+  "initial_batch": 1,
+  "batches": [
+   1
+  ],
+  "source_no": 13,
+  "recognition_years": [
+   2017
+  ],
+  "province": "江西省",
+  "city": "萍乡市",
+  "district_county": "安源区",
+  "address_raw": "江西省萍乡市安源区",
+  "address_components": {
+   "district_adcodes": [
+    "360302"
+   ],
+   "district_names": [
+    "安源区"
+   ]
+  },
+  "applicant_unit": "",
+  "core_items_raw": "总平巷、盛公祠（萍矿总局旧址）、安源公务总汇（谈判大楼）、株萍铁路萍安段、萍乡煤矿工程全图、萍乡煤矿机土各矿周围界限图。",
+  "core_item_categories": [
+   "工业建筑与构筑物",
+   "生产设备与工具",
+   "基础设施"
+  ],
+  "industry_category_l1": "煤炭工业",
+  "classification_basis": {
+   "matched_keywords": [
+    "煤矿"
+   ],
+   "name_hit": true,
+   "basis": "keyword_rule_v1"
+  },
+  "founded_year": null,
+  "production_start_year": null,
+  "historical_period": [],
+  "current_use": null,
+  "longitude": 113.8494456942253,
+  "latitude": 27.62525456002244,
+  "coordinate_system": "WGS84",
+  "geocode_source": "DataV_GeoAtlas_admin_center",
+  "geocode_source_crs": "GCJ-02",
+  "geocode_gcj02": [
+   113.855044,
+   27.625826
+  ],
+  "geocode_adcode": "360302",
+  "geocode_level": "district",
+  "geocode_quality": "exact",
+  "geocode_note": "",
+  "geocode_precision": "district_centroid",
+  "needs_review": {
+   "geocode": false,
+   "classification": false,
+   "duplicate": false
+  },
+  "source_ids": [
+   "src-batch1"
+  ],
+  "enrichment_status": "not_started",
+  "data_version": "v1.1.0",
+  "field_completeness": 100,
+  "founded_year_precision": null,
+  "closure_year": null
+ },
+ {
   "heritage_id": "HER-9611e3ec365b",
   "name": "国营738厂",
   "aliases": [
@@ -6075,13 +6222,14 @@
    "生产设备与工具",
    "基础设施"
   ],
-  "industry_category_l1": "铁路交通",
+  "industry_category_l1": "机械装备",
   "classification_basis": {
    "matched_keywords": [
     "铁路"
    ],
    "name_hit": false,
-   "basis": "keyword_rule_v1"
+   "basis": "manual_scope_override_v1",
+   "reason": "官方核心物项以车床、机床、滚齿机、插齿机和精密光学设备为主，铁路专用线属于厂区物流设施，不应主导行业分类。"
   },
   "founded_year": null,
   "production_start_year": null,
@@ -10584,13 +10732,14 @@
    "生产设备与工具",
    "基础设施"
   ],
-  "industry_category_l1": "铁路交通",
+  "industry_category_l1": "纺织工业",
   "classification_basis": {
    "matched_keywords": [
     "铁路"
    ],
    "name_hit": false,
-   "basis": "keyword_rule_v1"
+   "basis": "manual_scope_override_v1",
+   "reason": "官方核心物项以纺织厂房和1511M-44型织布机为主，原铁路交通分类仅由专用铁路线关键词触发。"
   },
   "founded_year": null,
   "production_start_year": null,
@@ -13185,13 +13334,14 @@
    "基础设施",
    "档案文献"
   ],
-  "industry_category_l1": "铁路交通",
+  "industry_category_l1": "电力能源",
   "classification_basis": {
    "matched_keywords": [
     "铁路"
    ],
    "name_hit": false,
-   "basis": "keyword_rule_v1"
+   "basis": "manual_scope_override_v1",
+   "reason": "官方核心物项以汽轮机转子、发电机铭牌、电气主盘和配电室为主，原铁路交通分类仅由厂区铁路关键词触发。"
   },
   "founded_year": null,
   "production_start_year": null,

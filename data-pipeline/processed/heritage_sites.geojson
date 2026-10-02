@@ -3,7 +3,7 @@
  "metadata": {
   "crs": "EPSG:4326 (WGS84)",
   "note": "点坐标由 DataV 行政区划中心点(GCJ-02)转换为 WGS84",
-  "count": 263,
+  "count": 265,
   "data_version": "v1.0.0"
  },
  "features": [
@@ -223,6 +223,46 @@
     "province": "湖北省",
     "city": "武汉市",
     "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.08754808317853,
+     30.20395582564394
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-0127dfd1ca78",
+    "name": "汉冶萍公司--大冶铁厂",
+    "initial_batch": 1,
+    "province": "湖北省",
+    "city": "黄石市",
+    "industry_category_l1": "冶金",
+    "geocode_quality": "exact",
+    "geocode_precision": "district_centroid"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.8494456942253,
+     27.62525456002244
+    ]
+   },
+   "properties": {
+    "heritage_id": "HER-bcc4f40bdac9",
+    "name": "汉冶萍公司--安源煤矿",
+    "initial_batch": 1,
+    "province": "江西省",
+    "city": "萍乡市",
+    "industry_category_l1": "煤炭工业",
     "geocode_quality": "exact",
     "geocode_precision": "district_centroid"
    }
@@ -1642,7 +1682,7 @@
     "initial_batch": 3,
     "province": "湖北省",
     "city": "襄阳市",
-    "industry_category_l1": "铁路交通",
+    "industry_category_l1": "机械装备",
     "geocode_quality": "exact",
     "geocode_precision": "district_centroid"
    }
@@ -2862,7 +2902,7 @@
     "initial_batch": 4,
     "province": "湖北省",
     "city": "咸宁市",
-    "industry_category_l1": "铁路交通",
+    "industry_category_l1": "纺织工业",
     "geocode_quality": "exact",
     "geocode_precision": "district_centroid"
    }
@@ -3562,7 +3602,7 @@
     "initial_batch": 5,
     "province": "湖北省",
     "city": "武汉市",
-    "industry_category_l1": "铁路交通",
+    "industry_category_l1": "电力能源",
     "geocode_quality": "exact",
     "geocode_precision": "district_centroid"
    }

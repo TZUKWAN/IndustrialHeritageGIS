@@ -795,7 +795,7 @@
     "name": "武钢一号高炉",
     "founded_year": null,
     "production_start_year": { "value": 1958, "date_precision": "year", "source_idxs": [0, 1, 4] },
-    "closure_year": { "value": 2019, "date_precision": "year", "source_idxs": [2] },
+    "closure_year": { "value": 2019, "date_precision": "year", "source_idxs": [1] },
     "current_use": "一号高炉停炉后整体保存，改造为工业遗址公园，是以其为核心的武钢文化旅游区核心景点",
     "events": [
       {
@@ -853,7 +853,7 @@
         "place_name": "湖北省武汉市青山区",
         "related_people": [],
         "related_orgs": ["武钢有限"],
-        "source_idxs": [2],
+        "source_idxs": [1],
         "confidence": "high",
         "disputed": false,
         "notes": ""
@@ -897,52 +897,52 @@
     "historical_period_tags": ["一五二五时期", "改革开放后"],
     "sources": [
       {
-        "title": "武钢集团（历史沿革，参考武钢公司简介、国资委公告等）",
-        "org": "维基百科",
-        "url": "https://zh.wikipedia.org/wiki/%E6%AD%A6%E9%92%A2",
-        "pub_date": null,
-        "authority": "C",
-        "source_type": "encyclopedia"
+        "title": "武汉钢铁公司历史沿革与一号高炉资料",
+        "org": "武汉市青山区人民政府（美丽青山）",
+        "url": "https://www.qingshan.gov.cn/zjqs/mtqs/wlmt/201809/t20180917_312425.shtml",
+        "pub_date": "2018-09-17",
+        "authority": "B",
+        "source_type": "government_page"
       },
       {
-        "title": "新华每日电讯微报纸（1958年9月13日一号高炉投产、毛泽东亲临视察）",
-        "org": "新华每日电讯（mrdx.cn）",
-        "url": "http://mrdx.cn",
-        "pub_date": "2026-06-26",
-        "authority": "C",
-        "source_type": "media"
+        "title": "今天，武钢一号高炉宣布永久停产",
+        "org": "武汉市青山区人民政府（美丽青山）",
+        "url": "https://www.qingshan.gov.cn/zjqs/mtqs/wlmt/201910/t20191021_313017.shtml",
+        "pub_date": "2019-10-21",
+        "authority": "B",
+        "source_type": "government_page"
       },
       {
-        "title": "红钢永红 青山常青（一号高炉1958-09-13投产至2019-10-14停炉，服役61年1个月零1天）",
-        "org": "中国冶金报·中国钢铁新闻网（csteelnews.com）",
-        "url": "http://www.csteelnews.com",
-        "pub_date": "2025-03",
-        "authority": "C",
-        "source_type": "industry_media"
+        "title": "武钢一号高炉国家工业遗址公园开放",
+        "org": "武汉市人民政府门户网站（转引长江日报）",
+        "url": "https://www.wuhan.gov.cn/sy/tswh/202207/t20220702_1998650.shtml",
+        "pub_date": "2022-07-02",
+        "authority": "B",
+        "source_type": "government_page"
       },
       {
-        "title": "时光穿越70年，大武汉那些令人震撼的画面（李一清点燃一号高炉炉火、毛泽东登炉台）",
-        "org": "腾讯新闻",
-        "url": "https://news.qq.com",
-        "pub_date": null,
-        "authority": "C",
-        "source_type": "media"
+        "title": "武钢一号高炉：为新中国炼出第一炉铁水",
+        "org": "中国社会科学网（资料汇编）",
+        "url": "https://scei.org.cn/djgz/dqxddfh/kjcxzzlgsp/art/2022/art_e346ed9a03324cb2a801a291af9a1dd2.html",
+        "pub_date": "2022",
+        "authority": "B",
+        "source_type": "academic_media"
       },
       {
-        "title": "武汉钢铁（集团）公司（百科词条：1958年9月13日一号高炉建成投产，毛泽东亲临）",
-        "org": "抖音百科",
-        "url": "https://m.baike.com",
-        "pub_date": null,
-        "authority": "C",
-        "source_type": "encyclopedia"
+        "title": "武钢一号高炉建成投产与历史场景复原",
+        "org": "武汉市人民政府门户网站（转引长江日报）",
+        "url": "https://www.wuhan.gov.cn/sy/tswh/202207/t20220702_1998650.shtml",
+        "pub_date": "2022-07-02",
+        "authority": "B",
+        "source_type": "government_page"
       },
       {
-        "title": "马年新春遇见青山“红”（武钢一号高炉工业遗址公园开放信息）",
-        "org": "湖北日报（news.hubeidaily.net）",
-        "url": "https://news.hubeidaily.net",
-        "pub_date": "2026-02-21",
-        "authority": "C",
-        "source_type": "media"
+        "title": "这辈子，你一定要看一次武钢！",
+        "org": "湖北日报新闻客户端",
+        "url": "https://news.hubeidaily.net/mobile/c_4117346.html",
+        "pub_date": "2025-06-11",
+        "authority": "B",
+        "source_type": "provincial_media"
       }
     ]
   },

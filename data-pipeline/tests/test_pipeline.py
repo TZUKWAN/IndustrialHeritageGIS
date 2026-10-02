@@ -240,7 +240,7 @@ class TestDataRegression:
                               encoding='utf-8'))
 
     def test_count(self, sites):
-        assert 255 <= len(sites) <= 264
+        assert 255 <= len(sites) <= 265
 
     def test_unique_ids(self, sites):
         ids = [s['heritage_id'] for s in sites]

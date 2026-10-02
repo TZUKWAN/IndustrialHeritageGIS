@@ -18,6 +18,7 @@ import { useT } from '@/i18n'
 import { useHeritageStore } from '@/stores/heritageStore'
 import { INDUSTRY_COLORS } from '@/services/heritage/heritageLayer'
 import {
+  culturalProfileOf,
   eventsOf,
   peekDetail,
   sourcesOf,
@@ -29,7 +30,7 @@ import type { HeritageProfile, HeritageRelation } from '@/services/heritage/type
 const profiles = profilesRaw as unknown as Record<string, HeritageProfile>
 const relations = relationsRaw as unknown as HeritageRelation[]
 
-type Tab = 'overview' | 'story' | 'timeline' | 'core' | 'relations' | 'sources' | 'quality'
+type Tab = 'overview' | 'culture' | 'story' | 'timeline' | 'core' | 'relations' | 'sources' | 'quality'
 
 export function HeritageDetailPanel(): JSX.Element | null {
   const t = useT()
@@ -56,9 +57,11 @@ export function HeritageDetailPanel(): JSX.Element | null {
   if (!visible || !selectedId || !site) return null
 
   const profile = profiles[selectedId]
+  const cultural = culturalProfileOf(selectedId)
 
   const tabs: { key: Tab; label: string }[] = [
     { key: 'overview', label: t.heritage.overview },
+    { key: 'culture', label: t.heritage.culture },
     { key: 'story', label: t.heritage.story },
     { key: 'timeline', label: t.heritage.timeline },
     { key: 'core', label: t.heritage.coreItems },
@@ -138,6 +141,61 @@ export function HeritageDetailPanel(): JSX.Element | null {
             </Info>
             {profile && (
               <p className="pt-1 border-t border-border">{profile.overview}</p>
+            )}
+          </>
+        )}
+
+        {tab === 'culture' && (
+          <>
+            {cultural ? (
+              <>
+                <div className="flex items-center justify-between gap-2">
+                  <span className="font-medium">{t.heritage.culturalArchive}</span>
+                  <span className={`px-1.5 py-0.5 rounded text-[10px] ${cultural.cultural_status === 'documented' ? 'bg-emerald-400/15 text-emerald-300' : 'bg-amber-400/15 text-amber-300'}`}>
+                    {cultural.cultural_status === 'documented' ? t.heritage.culturalDocumented : t.heritage.culturalBaseline}
+                  </span>
+                </div>
+                <Section title={t.heritage.carriers}>
+                  <div className="flex flex-wrap gap-1">
+                    {cultural.carrier_types.map((item) => (
+                      <span key={item} className="px-1.5 py-0.5 rounded bg-bg-hover text-[10px]">{item}</span>
+                    ))}
+                  </div>
+                </Section>
+                <div className="space-y-2">
+                  {cultural.cultural_dimensions.map((dimension) => (
+                    <div key={dimension.key} className="glass rounded-md p-2 space-y-1">
+                      <div className="flex items-center justify-between gap-2">
+                        <span className="font-medium">{dimension.label}</span>
+                        <span className="text-[10px] text-text-muted">{dimension.evidence_level}</span>
+                      </div>
+                      <div className="text-text-secondary">{dimension.text}</div>
+                      <div className="text-[10px] text-text-muted">{dimension.evidence_type} · {dimension.source_ids.join('；')}</div>
+                    </div>
+                  ))}
+                </div>
+                {cultural.actors.length > 0 && (
+                  <Section title={t.heritage.actors}>
+                    {cultural.actors.map((actor) => (
+                      <div key={actor.name} className="mb-1 last:mb-0">
+                        {actor.name}：{actor.role}［{actor.source_ids.join('；')}］
+                      </div>
+                    ))}
+                  </Section>
+                )}
+                {cultural.organizations.length > 0 && (
+                  <Info label={t.heritage.organizations}>{cultural.organizations.join('、')}</Info>
+                )}
+                <Info label={t.heritage.socialMemory}>
+                  {cultural.social_memory_status === 'documented' ? t.heritage.evidenceDocumented : t.heritage.evidencePending}
+                </Info>
+                <Info label={t.heritage.currentUseEvidence}>
+                  {cultural.current_use_status === 'documented' ? t.heritage.evidenceDocumented : t.heritage.evidencePending}
+                </Info>
+                {cultural.limitations && <Section title={t.heritage.limitations}>{cultural.limitations}</Section>}
+              </>
+            ) : (
+              <div className="glass rounded-md p-2 text-text-secondary">{t.heritage.culturalNoRecord}</div>
             )}
           </>
         )}

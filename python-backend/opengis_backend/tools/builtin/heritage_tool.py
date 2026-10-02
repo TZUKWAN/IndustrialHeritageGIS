@@ -1,6 +1,6 @@
 """heritage_data tool — 工业文化遗产GIS智能体 内置数据集查询。
 
-让 Agent 能基于本地结构化数据回答国家工业遗产相关问题:
+让 Agent 能基于本地结构化数据回答湖北工业文化遗产相关问题:
 搜索/详情/时间线/统计。回答必须引用工具返回的 source_id;
 数据中没有的情报必须回答"当前数据库尚无足够证据", 不得补全。
 """
@@ -57,11 +57,39 @@ def _site_brief(s: dict) -> dict:
         'industry': s.get('industry_category_l1'),
         'founded_year': s.get('founded_year'),
         'enrichment_status': s.get('enrichment_status'),
+        'scope': '湖北省',
     }
 
 
 def _iter_sites() -> list[dict]:
     return _load('sites.json') or []
+
+
+def _iter_inventory() -> list[dict]:
+    data = _load('inventory.json') or {}
+    return data.get('records') or []
+
+
+def _match_inventory(query: str, city: str | None = None,
+                     recognition_level: str | None = None) -> list[dict]:
+    out = []
+    q = (query or '').strip().lower()
+    for row in _iter_inventory():
+        if city and city not in (row.get('city') or ''):
+            continue
+        if recognition_level and row.get('recognition_level') != recognition_level:
+            continue
+        if q:
+            hay = ' '.join(str(x) for x in [
+                row.get('name'), *(row.get('aliases') or []), row.get('city'),
+                row.get('district_county'), row.get('industry_category_l1'),
+                row.get('recognition_level'), row.get('recognition_status'),
+                row.get('notes'),
+            ] if x).lower()
+            if q not in hay:
+                continue
+        out.append(row)
+    return out
 
 
 def _match_sites(query: str, batch: int | None, province: str | None,
@@ -93,17 +121,19 @@ def _match_sites(query: str, batch: int | None, province: str | None,
     name='heritage_data',
     display_name='工业遗产数据查询',
     description=(
-        '查询内置的中国国家工业遗产数据集(第1-7批,263处)。'
+        '查询内置的湖北省国家工业文化遗产数据集(13处国家工业遗产,第1-7批)。'
         'actions: search=按关键词/批次/省份/行业/历史时期检索; '
         'detail=单处遗产完整档案(含事件与来源); '
         'timeline=单处遗产的时间线事件; stats=按当前筛选的统计。'
+        '另有 inventory 动作查询国家名录之外的湖北省级、市级、研究名录和来源确认候选底册。'
+        'detail 还返回文化载体、技术/技艺、组织与人物、社会记忆、保护利用和资料边界。'
         '回答历史问题时必须只使用本工具返回的内容并注明 source_id; '
         '数据未覆盖的内容要明确说"当前数据库尚无足够证据"。'
     ),
     category='heritage',
     params=[
         {'name': 'action', 'type': 'enum',
-         'options': ['search', 'detail', 'timeline', 'stats'],
+         'options': ['search', 'detail', 'timeline', 'stats', 'inventory'],
          'description': '查询动作。'},
         {'name': 'query', 'type': 'string',
          'description': 'search 的关键词(名称/别名/城市/行业/事件词)。'},
@@ -111,21 +141,26 @@ def _match_sites(query: str, batch: int | None, province: str | None,
          'description': '限定认定批次 1-7。'},
         {'name': 'province', 'type': 'string',
          'description': '限定省份(如 山东省)。'},
+        {'name': 'city', 'type': 'string',
+         'description': 'inventory 可限定地市(如 武汉市、黄石市)。'},
         {'name': 'industry', 'type': 'string',
          'description': '限定行业一级分类(如 煤炭工业)。'},
         {'name': 'period', 'type': 'string',
          'description': '限定历史时期(如 一五二五时期/三线建设时期)。'},
         {'name': 'heritage_id', 'type': 'string',
          'description': 'detail/timeline 需要的遗产ID(HER-开头, 先用 search 获得)。'},
+        {'name': 'recognition_level', 'type': 'string',
+         'description': 'inventory 可限定 national/provincial/municipal/county/provincial_proposed 等层级。'},
     ],
     returns=(
         'dict: search→results[]+total; detail→site+events+profile+sources; '
-        'timeline→events[]; stats→counts(by_batch/by_province/by_industry)+total'
+        'timeline→events[]; stats→counts(by_batch/by_province/by_industry)+total; '
+        'inventory→国家名录之外的扩展对象及来源ID'
     ),
     examples=[
         "heritage_data(action='search', query='钢铁', batch=1)",
-        "heritage_data(action='detail', heritage_id='HER-9583a27cb840')",
-        "heritage_data(action='stats', province='辽宁省')",
+        "heritage_data(action='detail', heritage_id='HER-3318e785a779')",
+        "heritage_data(action='stats', province='湖北省')",
     ],
     needs_context=False,
 )
@@ -134,9 +169,11 @@ def heritage_data(
     query: str | None = None,
     batch: float | None = None,
     province: str | None = None,
+    city: str | None = None,
     industry: str | None = None,
     period: str | None = None,
     heritage_id: str | None = None,
+    recognition_level: str | None = None,
 ) -> dict[str, Any]:
     b = int(batch) if batch is not None else None
     if action == 'search':
@@ -164,7 +201,15 @@ def heritage_data(
                         for e in events]}
 
         profile = (_load('profiles.json') or {}).get(heritage_id) or {}
-        src_ids = sorted({sid for e in events for sid in e.get('source_ids', [])})
+        cultural = (_load('cultural.json') or {}).get(heritage_id) or None
+        src_ids_set = {sid for e in events for sid in e.get('source_ids', [])}
+        if cultural:
+            src_ids_set.update(cultural.get('source_ids') or [])
+            for dimension in cultural.get('cultural_dimensions') or []:
+                src_ids_set.update(dimension.get('source_ids') or [])
+            for actor in cultural.get('actors') or []:
+                src_ids_set.update(actor.get('source_ids') or [])
+        src_ids = sorted(src_ids_set)
         all_sources = {s['source_id']: s for s in (_load('sources.json') or [])}
         detail = _load('details.json') or {}
         full = detail.get(heritage_id) or site
@@ -181,6 +226,7 @@ def heritage_data(
                 'transformation_story', 'recognition_story', 'research_status',
                 'note')} if profile else None,
             'people': profile.get('people', []) if profile else [],
+            'cultural_profile': cultural,
             'events': events,
             'sources': [all_sources.get(sid) for sid in src_ids if all_sources.get(sid)],
         }
@@ -205,6 +251,22 @@ def heritage_data(
             'by_province': count('province'),
             'by_industry': count('industry_category_l1'),
             'data_version': (_load('meta.json') or {}).get('data_version'),
+            'scope': (_load('meta.json') or {}).get('scope', '湖北省'),
+        }
+
+    if action == 'inventory':
+        matched = _match_inventory(query or '', city=city,
+                                   recognition_level=recognition_level)
+        data = _load('inventory.json') or {}
+        all_sources = {s['source_id']: s for s in (_load('sources.json') or [])}
+        return {
+            'total': len(matched),
+            'truncated': len(matched) > _MAX_RESULTS,
+            'target_minimum': (data.get('research_targets') or {}).get('first_pass_minimum'),
+            'results': matched[:_MAX_RESULTS],
+            'sources': [all_sources[sid] for row in matched[:_MAX_RESULTS]
+                        for sid in row.get('source_ids', []) if sid in all_sources],
+            'scope': data.get('scope', '湖北省'),
         }
 
     return {'error': f'unknown action: {action}'}

@@ -121,6 +121,12 @@ Internal-Agent-Projects.md
 
 # ===== Scripts (smoke tests, prechecks) =====
 scripts/
+!data-pipeline/scripts/
+!data-pipeline/scripts/add_inventory_wave_20261002.py
+!data-pipeline/scripts/add_inventory_wave_20261002_b.py
+!data-pipeline/scripts/add_inventory_wave_20261002_c.py
+!data-pipeline/scripts/add_inventory_wave_20261002_d.py
+!data-pipeline/scripts/add_inventory_wave_20261002_e.py
 
 # ===== Test Data & Scripts =====
 test/
@@ -141,3 +147,14 @@ python-backend/pytest_out.txt
 
 # Local experiments / external repos
 local/
+
+# Inventory enrichment waves
+!data-pipeline/scripts/add_inventory_wave_20261002_f.py
+!data-pipeline/scripts/add_inventory_wave_20261002_g.py
+!data-pipeline/scripts/add_inventory_wave_20261002_h.py
+!data-pipeline/scripts/add_inventory_wave_20261002_i.py
+!data-pipeline/scripts/add_inventory_wave_20261002_j.py
+!data-pipeline/scripts/add_inventory_wave_20261002_k.py
+!data-pipeline/scripts/add_inventory_wave_20261002_l.py
+!data-pipeline/scripts/add_inventory_wave_20261002_m.py
+!data-pipeline/scripts/add_inventory_wave_20261002_n.py

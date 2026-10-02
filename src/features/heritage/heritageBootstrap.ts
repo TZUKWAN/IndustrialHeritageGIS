@@ -17,9 +17,9 @@ import {
 import { buildHeritageLayerDef, compileHeritageFilter } from '@/services/heritage/heritageLayer'
 import { makeKdeLayerDef, makeProvinceLayerDef } from './heritageAssets' 
 let bootstrapped = false
-let chinaViewApplied = false
+let hubeiViewApplied = false
 
-const CHINA_BBOX = [73.5, 18.0, 135.0, 53.6] as [number, number, number, number]
+const HUBEI_BBOX = [108.2, 28.8, 116.4, 33.4] as [number, number, number, number]
 
 /**
  * 遗产图层生命周期与交互。必须在 MapView(持有 MapEngine 的组件)内调用一次。
@@ -37,20 +37,20 @@ export function useHeritageBootstrap(enabled: boolean): void {
     bootstrapped = true
   }, [enabled])
 
-  // 2) 首次就绪后定位到全国范围(不覆盖用户后续操作)
+  // 2) 首次就绪后定位到湖北范围(不覆盖用户后续操作)
   useEffect(() => {
-    if (!enabled || chinaViewApplied) return
+    if (!enabled || hubeiViewApplied) return
     const t = window.setInterval(() => {
       const map = mapEngine.getMap()
       if (map && mapEngine.isReady()) {
         window.clearInterval(t)
-        if (!chinaViewApplied) {
+        if (!hubeiViewApplied) {
           try {
-            mapEngine.fitBounds(CHINA_BBOX, { padding: 40 })
+            mapEngine.fitBounds(HUBEI_BBOX, { padding: 40 })
           } catch {
             // fitBounds 失败不阻塞
           }
-          chinaViewApplied = true
+          hubeiViewApplied = true
         }
       }
     }, 300)

@@ -11,12 +11,16 @@ import rawSites from '@/data/heritage/sites.json'
 import rawEvents from '@/data/heritage/events.json'
 import rawSources from '@/data/heritage/sources.json'
 import rawMeta from '@/data/heritage/meta.json'
+import rawCultural from '@/data/heritage/cultural.json'
+import rawInventory from '@/data/heritage/inventory.json'
 import type {
   HeritageSite,
   HeritageDetail,
   HeritageEvent,
   HeritageSource,
   AnalysisMeta,
+  HeritageCulturalProfile,
+  HeritageInventoryRecord,
   TemporalWindow,
 } from './types'
 
@@ -24,6 +28,30 @@ export const sites = rawSites as unknown as HeritageSite[]
 export const events = rawEvents as unknown as HeritageEvent[]
 export const sources = rawSources as unknown as HeritageSource[]
 export const analysisMeta = rawMeta as unknown as AnalysisMeta
+export const culturalProfiles = rawCultural as unknown as Record<string, HeritageCulturalProfile>
+export const inventory = (rawInventory as { records?: HeritageInventoryRecord[] }).records ?? []
+export const inventoryMeta = rawInventory as unknown as {
+  research_targets?: { first_pass_minimum?: number }
+}
+
+export function culturalProfileOf(heritageId: string): HeritageCulturalProfile | null {
+  return culturalProfiles[heritageId] ?? null
+}
+
+export function searchInventory(query: string, all: HeritageInventoryRecord[] = inventory): HeritageInventoryRecord[] {
+  const q = query.trim().toLowerCase()
+  if (!q) return []
+  return all.filter((r) => [
+    r.name,
+    ...(r.aliases ?? []),
+    r.city ?? '',
+    r.district_county ?? '',
+    r.industry_category_l1,
+    r.recognition_level,
+    r.recognition_status,
+    r.notes ?? '',
+  ].join(' ').toLowerCase().includes(q))
+}
 
 export const HERITAGE_LAYER_ID = 'heritage-sites'
 export const HERITAGE_PROVINCE_LAYER_ID = 'heritage-province-stats'

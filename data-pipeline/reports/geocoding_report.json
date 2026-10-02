@@ -1,6 +1,6 @@
 {
- "total": 263,
- "exact_district": 253,
+ "total": 265,
+ "exact_district": 255,
  "fuzzy_district": 2,
  "city_fallback": 7,
  "province_fallback": 1,
@@ -147,6 +147,32 @@
    "note": "",
    "lon": 114.26008576900142,
    "lat": 30.548003691045967,
+   "needs_review": false
+  },
+  {
+   "heritage_id": "HER-0127dfd1ca78",
+   "name": "汉冶萍公司--大冶铁厂",
+   "batch": 1,
+   "address_raw": "湖北省黄石市西塞山区",
+   "quality": "exact",
+   "level": "district",
+   "precision": "district_centroid",
+   "note": "",
+   "lon": 115.08754808317853,
+   "lat": 30.20395582564394,
+   "needs_review": false
+  },
+  {
+   "heritage_id": "HER-bcc4f40bdac9",
+   "name": "汉冶萍公司--安源煤矿",
+   "batch": 1,
+   "address_raw": "江西省萍乡市安源区",
+   "quality": "exact",
+   "level": "district",
+   "precision": "district_centroid",
+   "note": "",
+   "lon": 113.8494456942253,
+   "lat": 27.62525456002244,
    "needs_review": false
   },
   {

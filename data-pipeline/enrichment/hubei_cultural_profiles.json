@@ -1,0 +1,922 @@
+{
+  "schema_version": "hubei-cultural-profile-v1",
+  "scope": "湖北省",
+  "method": "官方核心物项作为一手载体证据；已有事件和来源用于补充技术、组织、记忆与利用叙述；只有明确标注为interpretive的文字才属于研究解释。",
+  "profiles": {
+    "HER-3318e785a779": {
+      "cultural_status": "documented",
+      "carrier_types": [
+        "工业建筑与构筑物",
+        "生产设备与工具",
+        "工业产品",
+        "档案文献",
+        "工业景观"
+      ],
+      "cultural_dimensions": [
+        {
+          "key": "technology",
+          "label": "技术与工艺",
+          "text": "高炉、转炉、电炉、钢轨和矿砂码头共同呈现从矿料输入到钢铁产品输出的联合生产链。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch1",
+            "src-web-d80ce7070a"
+          ]
+        },
+        {
+          "key": "organization",
+          "label": "组织与人物",
+          "text": "张之洞主持创办，盛宣怀承办并推动汉冶萍公司合并，组织谱系与近代国家工业化进程相连。",
+          "evidence_type": "documented_event",
+          "evidence_level": "B/C",
+          "source_ids": [
+            "src-web-d80ce7070a",
+            "src-web-fb1327e646"
+          ]
+        },
+        {
+          "key": "memory",
+          "label": "社会记忆",
+          "text": "凝铁、1894年铸铁纪念碑、钢轨及汉阳铁厂造砖瓦构成可识别的物质记忆节点；遗址园区和张之洞与武汉博物馆承担当代解释。",
+          "evidence_type": "official_core_item_and_current_use",
+          "evidence_level": "A/C",
+          "source_ids": [
+            "src-batch1",
+            "src-web-d80ce7070a"
+          ]
+        },
+        {
+          "key": "continuity",
+          "label": "保护与利用",
+          "text": "现为汉阳铁厂工业遗址园区，含“1890拾光”艺术馆、张之洞与武汉博物馆等利用节点。",
+          "evidence_type": "documented_current_use",
+          "evidence_level": "C",
+          "source_ids": [
+            "src-web-d80ce7070a"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "name": "张之洞",
+          "role": "倡议并主持创办",
+          "source_ids": [
+            "src-web-d80ce7070a",
+            "src-web-fb1327e646"
+          ]
+        },
+        {
+          "name": "盛宣怀",
+          "role": "官督商办承办人及汉冶萍公司总理",
+          "source_ids": [
+            "src-web-d80ce7070a"
+          ]
+        }
+      ],
+      "organizations": [
+        "清政府",
+        "汉冶萍煤铁厂矿有限公司",
+        "武汉钢铁公司"
+      ],
+      "social_memory_status": "documented",
+      "current_use_status": "documented",
+      "limitations": "部分遗存的现状开放范围和展示文本仍需以现场或管理机构最新资料复核。",
+      "source_ids": [
+        "src-batch1",
+        "src-web-d80ce7070a",
+        "src-web-fb1327e646"
+      ]
+    },
+    "HER-56bf3cbc55cf": {
+      "cultural_status": "documented",
+      "carrier_types": [
+        "采矿遗址",
+        "冶炼遗址",
+        "考古遗址",
+        "博物馆",
+        "工业景观"
+      ],
+      "cultural_dimensions": [
+        {
+          "key": "technology",
+          "label": "技术与工艺",
+          "text": "竖井、斜井、平巷、冶炼炉和炉渣遗存共同保留古代采矿与冶炼技术链。",
+          "evidence_type": "documented_archaeology",
+          "evidence_level": "B/C",
+          "source_ids": [
+            "src-web-38b19c979b",
+            "src-web-f44ad9a09b"
+          ]
+        },
+        {
+          "key": "organization",
+          "label": "组织与人物",
+          "text": "1970年代以来由考古机构、地方政府和矿业单位共同完成发现、发掘、保护和展示。",
+          "evidence_type": "documented_event",
+          "evidence_level": "B/C",
+          "source_ids": [
+            "src-web-f7372fc798",
+            "src-web-f774756a70"
+          ]
+        },
+        {
+          "key": "memory",
+          "label": "社会记忆",
+          "text": "古人脚印、墓葬区和古矿井把矿冶劳动、技术传承与青铜文明联系为可感知的遗址记忆。",
+          "evidence_type": "documented_archaeology",
+          "evidence_level": "B/C",
+          "source_ids": [
+            "src-web-f44ad9a09b",
+            "src-web-f774756a70"
+          ]
+        },
+        {
+          "key": "continuity",
+          "label": "保护与利用",
+          "text": "已建成国家考古遗址公园，遗址博物馆新馆于2023年开放，承担考古展示与公众教育。",
+          "evidence_type": "documented_current_use",
+          "evidence_level": "C",
+          "source_ids": [
+            "src-web-38b19c979b"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "name": "陈树祥",
+          "role": "岩阴山脚遗址考古发掘领队",
+          "source_ids": [
+            "src-web-f774756a70"
+          ]
+        }
+      ],
+      "organizations": [
+        "湖北省文物考古研究所",
+        "大冶市",
+        "铜绿山古铜矿遗址博物馆"
+      ],
+      "social_memory_status": "documented",
+      "current_use_status": "documented",
+      "limitations": "古代矿冶年代和青铜器原料关联应继续以考古报告和博物馆正式展签核对。",
+      "source_ids": [
+        "src-batch2",
+        "src-web-38b19c979b",
+        "src-web-f44ad9a09b",
+        "src-web-f7372fc798",
+        "src-web-f774756a70"
+      ]
+    },
+    "HER-407fe7b65baa": {
+      "cultural_status": "baseline",
+      "carrier_types": [
+        "工业建筑与构筑物",
+        "生产设备与工具",
+        "铁路专用线",
+        "工人生活设施"
+      ],
+      "cultural_dimensions": [
+        {
+          "key": "technology",
+          "label": "技术与工艺",
+          "text": "车床、机床、滚齿机、量测设备等核心物项构成机械加工技术载体；官方报道进一步确认六七十年代加工和试验设备保存情况，具体产品、工艺流程和技术人员档案尚待补证。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch3",
+            "src-web-b8d2cb8a63",
+            "src-web-ecdb16e46f"
+          ]
+        },
+        {
+          "key": "organization",
+          "label": "组织与人物",
+          "text": "建设指挥部、办公楼、工人俱乐部和招待所表明该厂同时具有建设组织与职工生活空间；生产、办公、生活三区及三线靠山隐蔽分散布局得到官方来源印证，组织沿革和人物名单尚待补证。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch3",
+            "src-web-b8d2cb8a63",
+            "src-web-ecdb16e46f"
+          ]
+        },
+        {
+          "key": "memory",
+          "label": "社会记忆",
+          "text": "工人俱乐部、篮球场、溜冰场、火箭炮总装厂旧址和三线建设布局构成职工共同体与军工记忆的物质入口；公开口述史和影像材料仍需继续补入。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A/B",
+          "source_ids": [
+            "src-batch3",
+            "src-web-ecdb16e46f"
+          ]
+        },
+        {
+          "key": "continuity",
+          "label": "保护与利用",
+          "text": "江山重工已制定保护方案，对重点建筑、设备、文件和历史资料登记造册并开展修缮，规划发挥军工文化教育基地作用；实际开放边界和长期运营信息仍需最新管理方资料复核。",
+          "evidence_type": "documented_current_use",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch3",
+            "src-web-b8d2cb8a63"
+          ]
+        }
+      ],
+      "actors": [],
+      "organizations": [
+        "湖北江山重工有限责任公司",
+        "中国兵器工业集团"
+      ],
+      "social_memory_status": "pending",
+      "current_use_status": "pending",
+      "limitations": "需要补充厂志、地方志、职工口述史、现状照片和保护管理信息。",
+      "source_ids": [
+        "src-batch3",
+        "src-web-b8d2cb8a63",
+        "src-web-ecdb16e46f"
+      ]
+    },
+    "HER-0577e36e0167": {
+      "cultural_status": "baseline",
+      "carrier_types": [
+        "工业建筑与构筑物",
+        "生产设备与工具",
+        "工业景观"
+      ],
+      "cultural_dimensions": [
+        {
+          "key": "technology",
+          "label": "技术与工艺",
+          "text": "卸石坑、储库、浆池、湿法回转窑和包装车间共同呈现石灰石入厂、制浆、熟料烧成和水泥包装流程。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch3"
+          ]
+        },
+        {
+          "key": "organization",
+          "label": "组织与人物",
+          "text": "联合储库、生产车间和水泥库构成连续生产组织的空间证据；企业沿革和工人群体资料尚待补证。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch3"
+          ]
+        },
+        {
+          "key": "memory",
+          "label": "社会记忆",
+          "text": "老窑线和包装车间可作为城市建材工业记忆的展示对象，暂无公开口述史材料入库。",
+          "evidence_type": "research_gap",
+          "evidence_level": "pending",
+          "source_ids": [
+            "src-batch3"
+          ]
+        },
+        {
+          "key": "continuity",
+          "label": "保护与利用",
+          "text": "现状利用、开放状态和保护责任主体尚未取得可公开核验的来源。",
+          "evidence_type": "research_gap",
+          "evidence_level": "pending",
+          "source_ids": [
+            "src-batch3"
+          ]
+        }
+      ],
+      "actors": [],
+      "organizations": [],
+      "social_memory_status": "pending",
+      "current_use_status": "pending",
+      "limitations": "需要补充华新厂志、地方志、厂区现状和展示利用资料。",
+      "source_ids": [
+        "src-batch3"
+      ]
+    },
+    "HER-f578fba063bf": {
+      "cultural_status": "documented",
+      "carrier_types": [
+        "水利基础设施",
+        "电力设施",
+        "航运设施",
+        "工程档案",
+        "工业景观"
+      ],
+      "cultural_dimensions": [
+        {
+          "key": "technology",
+          "label": "技术与工艺",
+          "text": "坝体、泄洪冲沙闸、船闸和电站构成水利枢纽的综合工程技术体系。",
+          "evidence_type": "official_core_item_and_documented_event",
+          "evidence_level": "A/C",
+          "source_ids": [
+            "src-batch4",
+            "src-web-3444509a4b",
+            "src-web-440c1da4ac"
+          ]
+        },
+        {
+          "key": "organization",
+          "label": "组织与人物",
+          "text": "三三〇工程指挥部、葛洲坝工程技术委员会及张体学、林一山等人物体现大型工程的组织与技术协作。",
+          "evidence_type": "documented_event",
+          "evidence_level": "A/C",
+          "source_ids": [
+            "src-web-3444509a4b",
+            "src-web-46dd168dbc"
+          ]
+        },
+        {
+          "key": "memory",
+          "label": "社会记忆",
+          "text": "大江截流、通航发电和“万里长江第一坝”的公共叙事构成工程建设记忆。",
+          "evidence_type": "documented_event",
+          "evidence_level": "A/C",
+          "source_ids": [
+            "src-web-440c1da4ac",
+            "src-web-50678b9c9b"
+          ]
+        },
+        {
+          "key": "continuity",
+          "label": "保护与利用",
+          "text": "枢纽仍由中国长江三峡集团运行管理，持续承担发电和通航功能。",
+          "evidence_type": "documented_current_use",
+          "evidence_level": "C",
+          "source_ids": [
+            "src-web-440c1da4ac",
+            "src-web-50678b9c9b"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "name": "张体学",
+          "role": "开工典礼指挥长",
+          "source_ids": [
+            "src-web-3444509a4b"
+          ]
+        },
+        {
+          "name": "林一山",
+          "role": "工程技术委员会牵头人",
+          "source_ids": [
+            "src-web-3444509a4b"
+          ]
+        }
+      ],
+      "organizations": [
+        "三三〇工程指挥部",
+        "葛洲坝工程技术委员会",
+        "中国长江三峡集团"
+      ],
+      "social_memory_status": "documented",
+      "current_use_status": "documented",
+      "limitations": "工程运行数据应以管理机构最新公开信息为准；工程技术细节需继续补充档案来源。",
+      "source_ids": [
+        "src-batch4",
+        "src-web-3444509a4b",
+        "src-web-440c1da4ac",
+        "src-web-46dd168dbc",
+        "src-web-50678b9c9b"
+      ]
+    },
+    "HER-d0daf5a12b29": {
+      "cultural_status": "baseline",
+      "carrier_types": [
+        "工业建筑与构筑物",
+        "生产设备与工具",
+        "铁路专用线",
+        "职工文化设施"
+      ],
+      "cultural_dimensions": [
+        {
+          "key": "technology",
+          "label": "技术与工艺",
+          "text": "纺织厂房和1511M-44型织布机构成纺织生产技术载体，热电厂和专用铁路线补足厂区能源与物流系统。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch4"
+          ]
+        },
+        {
+          "key": "organization",
+          "label": "组织与人物",
+          "text": "针织一厂俱乐部、跃进门等物项提示生产组织与职工共同体空间，企业沿革和人物资料尚待补证。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch4"
+          ]
+        },
+        {
+          "key": "memory",
+          "label": "社会记忆",
+          "text": "俱乐部、厂门和织布机可作为蒲纺职工生活与地方纺织记忆的访谈入口，暂无公开口述史入库。",
+          "evidence_type": "research_gap",
+          "evidence_level": "pending",
+          "source_ids": [
+            "src-batch4"
+          ]
+        },
+        {
+          "key": "continuity",
+          "label": "保护与利用",
+          "text": "现状利用、开放状态和保护责任主体尚未取得可公开核验的来源。",
+          "evidence_type": "research_gap",
+          "evidence_level": "pending",
+          "source_ids": [
+            "src-batch4"
+          ]
+        }
+      ],
+      "actors": [],
+      "organizations": [],
+      "social_memory_status": "pending",
+      "current_use_status": "pending",
+      "limitations": "需补充蒲纺厂志、纺织工艺资料、职工口述史及遗址现状资料。",
+      "source_ids": [
+        "src-batch4"
+      ]
+    },
+    "HER-61bb352b4593": {
+      "cultural_status": "baseline",
+      "carrier_types": [
+        "工业建筑与构筑物",
+        "生产设备与工具",
+        "工业产品",
+        "技艺载体"
+      ],
+      "cultural_dimensions": [
+        {
+          "key": "technology",
+          "label": "技术与技艺",
+          "text": "青砖生产线、推斗机、开栓机、预压机、主压机和出砖机构成砖茶压制及包装工艺的设备链。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch4"
+          ]
+        },
+        {
+          "key": "organization",
+          "label": "组织与人物",
+          "text": "原料仓库、复制车间和烘包车间体现原料供应、加工复制和成品包装的组织分工；技师与工人名单尚待补证。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch4"
+          ]
+        },
+        {
+          "key": "memory",
+          "label": "社会记忆",
+          "text": "砖茶产品和压制设备是鄂南茶业生产与边销茶贸易记忆的关键物质入口，暂无公开口述史入库。",
+          "evidence_type": "research_gap",
+          "evidence_level": "pending",
+          "source_ids": [
+            "src-batch4"
+          ]
+        },
+        {
+          "key": "continuity",
+          "label": "保护与利用",
+          "text": "现状生产、技艺传承和开放展示状态尚未取得可公开核验的来源。",
+          "evidence_type": "research_gap",
+          "evidence_level": "pending",
+          "source_ids": [
+            "src-batch4"
+          ]
+        }
+      ],
+      "actors": [],
+      "organizations": [],
+      "social_memory_status": "pending",
+      "current_use_status": "pending",
+      "limitations": "需补充赵李桥茶厂企业资料、砖茶制作技艺传承人资料、产品谱系和现状利用信息。",
+      "source_ids": [
+        "src-batch4"
+      ]
+    },
+    "HER-017dc5485fea": {
+      "cultural_status": "baseline",
+      "carrier_types": [
+        "工业建筑与构筑物",
+        "生产设备与工具",
+        "档案文献",
+        "铁路专用线"
+      ],
+      "cultural_dimensions": [
+        {
+          "key": "technology",
+          "label": "技术与工艺",
+          "text": "汽轮机转子、发电机铭牌、电气主盘和110KV配电室构成火力发电技术系统的实物证据。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch5"
+          ]
+        },
+        {
+          "key": "organization",
+          "label": "组织与人物",
+          "text": "生产办公楼、苏联专家文献和设备图纸反映建设管理、技术引进与运行组织的资料线索；具体人物和班组史尚待补证。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch5"
+          ]
+        },
+        {
+          "key": "memory",
+          "label": "社会记忆",
+          "text": "七号机组档案、电视剧《老梅外传》相关资料和设备铭牌具备厂史与城市记忆展示价值，暂无口述史入库。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch5"
+          ]
+        },
+        {
+          "key": "continuity",
+          "label": "保护与利用",
+          "text": "现状保存、开放状态和保护责任主体尚未取得可公开核验的来源。",
+          "evidence_type": "research_gap",
+          "evidence_level": "pending",
+          "source_ids": [
+            "src-batch5"
+          ]
+        }
+      ],
+      "actors": [],
+      "organizations": [
+        "国电青山热电有限公司"
+      ],
+      "social_memory_status": "pending",
+      "current_use_status": "pending",
+      "limitations": "需补充青山热电厂厂志、苏联援建档案、职工口述史和现状保护利用资料。",
+      "source_ids": [
+        "src-batch5"
+      ]
+    },
+    "HER-d3a06065269d": {
+      "cultural_status": "documented",
+      "carrier_types": [
+        "工业建筑与构筑物",
+        "生产设备与工具",
+        "档案文献",
+        "工业景观"
+      ],
+      "cultural_dimensions": [
+        {
+          "key": "technology",
+          "label": "技术与工艺",
+          "text": "一号高炉、热风炉、重力除尘器和上料斜桥完整指向炼铁生产及其物料输送系统。",
+          "evidence_type": "official_core_item_and_documented_event",
+          "evidence_level": "A/B",
+          "source_ids": [
+            "src-batch5",
+            "src-web-01a9c058db",
+            "src-web-122e3d2d0c"
+          ]
+        },
+        {
+          "key": "organization",
+          "label": "组织与人物",
+          "text": "武钢作为“一五”重点工程建设，一号高炉投产与企业重组体现国家工程组织和企业谱系。",
+          "evidence_type": "documented_event",
+          "evidence_level": "B/C",
+          "source_ids": [
+            "src-web-2dc5e1e716",
+            "src-web-2dc5e1e716",
+            "src-web-01a9c058db"
+          ]
+        },
+        {
+          "key": "memory",
+          "label": "社会记忆",
+          "text": "1958年首炉铁水和2019年停炉形成跨越生产年代的城市工业记忆，档案资料与炉体共同构成记忆载体。",
+          "evidence_type": "documented_event",
+          "evidence_level": "B",
+          "source_ids": [
+            "src-web-01a9c058db",
+            "src-web-122e3d2d0c",
+            "src-web-01b29edde3"
+          ]
+        },
+        {
+          "key": "continuity",
+          "label": "保护与利用",
+          "text": "停炉后整体保存并改造为工业遗址公园，武钢文化旅游区承担公众展示。",
+          "evidence_type": "documented_current_use",
+          "evidence_level": "B",
+          "source_ids": [
+            "src-web-01b29edde3",
+            "src-web-a386f305c0"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "name": "李一清",
+          "role": "时任武钢总经理，点燃一号高炉炉火",
+          "source_ids": [
+            "src-web-01a9c058db",
+            "src-web-122e3d2d0c"
+          ]
+        },
+        {
+          "name": "毛泽东",
+          "role": "观看第一炉铁水出炉",
+          "source_ids": [
+            "src-web-01a9c058db",
+            "src-web-122e3d2d0c",
+            "src-web-01b29edde3"
+          ]
+        }
+      ],
+      "organizations": [
+        "武汉钢铁公司",
+        "中国宝武钢铁集团",
+        "武钢文化旅游区"
+      ],
+      "social_memory_status": "documented",
+      "current_use_status": "documented",
+      "limitations": "园区开放时间、展陈内容和安全边界应以管理方最新公告为准。",
+      "source_ids": [
+        "src-batch5",
+        "src-web-01a9c058db",
+        "src-web-a386f305c0",
+        "src-web-122e3d2d0c",
+        "src-web-01b29edde3"
+      ]
+    },
+    "HER-7eefab99baa1": {
+      "cultural_status": "baseline",
+      "carrier_types": [
+        "生产线",
+        "生产设备与工具",
+        "工业产品",
+        "档案文献"
+      ],
+      "cultural_dimensions": [
+        {
+          "key": "technology",
+          "label": "技术与工艺",
+          "text": "加热炉、粗轧机、精轧机和卷取机构成连续轧制生产线，首次试轧纪念碑与钢卷样品保留技术成就的实物见证。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch6"
+          ]
+        },
+        {
+          "key": "organization",
+          "label": "组织与人物",
+          "text": "工程文件、技术手册、厂志和获奖证书为工程建设与技术团队研究提供档案入口，具体人物尚待补证。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch6"
+          ]
+        },
+        {
+          "key": "memory",
+          "label": "社会记忆",
+          "text": "一次试轧成功纪念碑和首次轧制钢卷样品具备集体技术记忆价值，暂无公开口述史入库。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "pending",
+          "source_ids": [
+            "src-batch6"
+          ]
+        },
+        {
+          "key": "continuity",
+          "label": "保护与利用",
+          "text": "现状保存、开放状态和保护责任主体尚未取得可公开核验的来源。",
+          "evidence_type": "research_gap",
+          "evidence_level": "pending",
+          "source_ids": [
+            "src-batch6"
+          ]
+        }
+      ],
+      "actors": [],
+      "organizations": [
+        "武汉钢铁有限公司"
+      ],
+      "social_memory_status": "pending",
+      "current_use_status": "pending",
+      "limitations": "需补充工程档案目录、技术人员资料、现状照片和保护利用信息。",
+      "source_ids": [
+        "src-batch6"
+      ]
+    },
+    "HER-4343cf13a43c": {
+      "cultural_status": "baseline",
+      "carrier_types": [
+        "工业建筑与构筑物",
+        "科研生产设施",
+        "档案文献",
+        "工业产品",
+        "职工生活设施"
+      ],
+      "cultural_dimensions": [
+        {
+          "key": "technology",
+          "label": "技术与工艺",
+          "text": "工具精加车间、426库房、设计楼和模样弹、教学弹构成航天科研试制和产品实物链条。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch6"
+          ]
+        },
+        {
+          "key": "organization",
+          "label": "组织与人物",
+          "text": "机关办公、资料、通讯和印刷设施，以及大礼堂、幼儿园、露天电影院，呈现三线军工基地的生产组织与单位生活共同体；人物史尚待补证。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch6"
+          ]
+        },
+        {
+          "key": "memory",
+          "label": "社会记忆",
+          "text": "基地空间和教学弹为三线建设军工记忆提供物质入口，暂无公开口述史或解密档案入库。",
+          "evidence_type": "research_gap",
+          "evidence_level": "pending",
+          "source_ids": [
+            "src-batch6"
+          ]
+        },
+        {
+          "key": "continuity",
+          "label": "保护与利用",
+          "text": "现状开放、涉密边界和保护责任主体尚未取得可公开核验的来源。",
+          "evidence_type": "research_gap",
+          "evidence_level": "pending",
+          "source_ids": [
+            "src-batch6"
+          ]
+        }
+      ],
+      "actors": [
+        {
+          "name": "王振华",
+          "role": "核心物项所列人物纪念对象，具体事迹待补证",
+          "source_ids": [
+            "src-batch6"
+          ]
+        }
+      ],
+      "organizations": [
+        "中国航天三江集团有限公司"
+      ],
+      "social_memory_status": "pending",
+      "current_use_status": "pending",
+      "limitations": "涉密单位资料须遵循开放范围，需优先补充公开出版物、地方志和经授权的展示资料。",
+      "source_ids": [
+        "src-batch6"
+      ]
+    },
+    "HER-4c71d600d918": {
+      "cultural_status": "baseline",
+      "carrier_types": [
+        "工业建筑与构筑物",
+        "生产设备与工具",
+        "工业产品",
+        "档案文献",
+        "传统医药文化载体"
+      ],
+      "cultural_dimensions": [
+        {
+          "key": "technology",
+          "label": "技术与技艺",
+          "text": "原料仓库、制剂与糖浆车间、产品药方及生产工艺资料共同构成中药生产技术和配方传承的证据链；商务部老字号数字博物馆补充健民品牌、叶开泰文化和现行传承展示。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch7",
+            "src-web-cb5dc409c2"
+          ]
+        },
+        {
+          "key": "organization",
+          "label": "组织与人物",
+          "text": "“叶开泰”历史人物文献、公司制度档案和三大品牌商标资料为企业组织与老字号谱系研究提供入口；商务部页面确认健民老字号、非遗传承与企业文化展示。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch7",
+            "src-web-cb5dc409c2"
+          ]
+        },
+        {
+          "key": "memory",
+          "label": "社会记忆",
+          "text": "叶开泰、健民和龙牡品牌及相关产品构成武汉医药工业与城市日常健康记忆的公共入口；商务部老字号页面补充企业品牌沿革和叶开泰文化，具体口述史仍待补证。",
+          "evidence_type": "official_core_item_interpretation",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch7",
+            "src-web-cb5dc409c2"
+          ]
+        },
+        {
+          "key": "continuity",
+          "label": "保护与利用",
+          "text": "商务部老字号数字博物馆记录健民品牌现行传承、叶开泰文化展示和企业持续经营，为保护利用连续性提供公开证据；国家工业遗产核心物项的现状开放范围仍待企业和现场核验。",
+          "evidence_type": "documented_current_use_and_brand_continuity",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch7",
+            "src-web-cb5dc409c2"
+          ]
+        }
+      ],
+      "actors": [],
+      "organizations": [
+        "健民药业集团股份有限公司"
+      ],
+      "social_memory_status": "pending",
+      "current_use_status": "documented",
+      "limitations": "商务部页面补充了现行品牌、非遗传承和文化展示证据；仍需补充叶开泰历史档案、配方与工艺授权边界、厂区核心物项现状和公众开放信息。",
+      "source_ids": [
+        "src-batch7",
+        "src-web-cb5dc409c2"
+      ]
+    },
+    "HER-0127dfd1ca78": {
+      "cultural_status": "documented",
+      "carrier_types": [
+        "工业建筑与构筑物",
+        "生产设备与工具",
+        "工业档案",
+        "工业景观"
+      ],
+      "cultural_dimensions": [
+        {
+          "key": "technology",
+          "label": "技术与工艺",
+          "text": "1921年高炉残基、瞭望塔、水塔、高炉栈桥、钢轨及日式/欧式建筑共同指向近代高炉炼铁、供水、物料输送和厂区工程技术体系。",
+          "evidence_type": "official_core_item",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch1",
+            "src-web-96f66b8af7"
+          ]
+        },
+        {
+          "key": "organization",
+          "label": "组织与人物",
+          "text": "汉冶萍公司—大冶铁厂的企业组织、近代招商承办和矿铁联合生产关系，是湖北近代工业化与黄石城市形成的重要组织载体；企业档案全宗仍需继续核对。",
+          "evidence_type": "official_core_item_and_documentary_heritage",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-batch1",
+            "src-web-96f66b8af7"
+          ]
+        },
+        {
+          "key": "memory",
+          "label": "社会记忆",
+          "text": "高炉残基、老建筑、铁路和汉冶萍档案为矿工、工程师、企业管理者及黄石近代冶金城市记忆提供可追溯的物质与文献载体；公开口述史仍需补入。",
+          "evidence_type": "official_core_item_and_documentary_heritage",
+          "evidence_level": "A/B",
+          "source_ids": [
+            "src-batch1",
+            "src-web-96f66b8af7"
+          ]
+        },
+        {
+          "key": "continuity",
+          "label": "保护与利用",
+          "text": "大冶铁厂核心物项已由官方页面明确记录并纳入工业遗产叙事；各建筑、设备和档案的现状边界、开放方式及管理责任需以现场和管理机构资料继续核验。",
+          "evidence_type": "documented_current_use_boundary",
+          "evidence_level": "A",
+          "source_ids": [
+            "src-web-96f66b8af7"
+          ]
+        }
+      ],
+      "actors": [],
+      "organizations": [
+        "汉冶萍煤铁厂矿有限公司",
+        "大冶铁厂"
+      ],
+      "social_memory_status": "documented",
+      "current_use_status": "pending",
+      "limitations": "官方核心物项和国家级档案身份已核实；仍需补充厂址分区、现存建筑/设备清单、档案馆藏定位、口述史和开放管理资料。",
+      "source_ids": [
+        "src-batch1",
+        "src-web-96f66b8af7"
+      ]
+    }
+  }
+}
