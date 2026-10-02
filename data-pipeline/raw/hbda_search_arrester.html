@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <title>搜索结果</title>
+  <meta name="keywords" content="搜索结果"/>
+  <meta name="description" content="搜索结果"/>
+  <script src="/static/view_v2/js/jquery@3.7.1.min.js"></script>
+  <script src="/static/view_v2/js/swiper-bundle@11.min.js"></script>
+  <link href="/static/view_v2/fontawesome-free-7.1.0-web/css/all.min.css" rel="stylesheet" />
+  <link href="/static/view_v2/css/swiper-bundle@11.min.css" rel="stylesheet" />
+  <link href="/static/view_v2/css/tailwindcss-output.css" rel="stylesheet" />
+  <!-- <script src="/static/view_v2/js/tailwindcss@3.4.17.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            customred: '#CC3333',
+            'gray-850': '#1f1f1f'
+          }
+        }
+      }
+    };
+  </script> -->
+  <style>
+    /*:root {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+      line-height: 1.5;
+      font-weight: 400;
+
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .scroll-hidden::-webkit-scrollbar { display: none; }
+*/
+    .text-content img{
+        height: auto!important;
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        max-width: 100%;
+        display: inline-block;
+    }
+    .text-content .text-detail a{
+      color: #50a8ff;
+      text-decoration: underline;
+    }
+    .text-content .text-detail table{
+        max-width: 100%;
+    }
+    img,
+    svg,
+    video,
+    canvas,
+    audio,
+    iframe,
+    embed,
+    object {
+      display: inline-block;
+      /* 1 */
+      vertical-align: middle;
+      /* 2 */
+    }
+  </style>
+
+  <script>
+    document.write(unescape("%3Cscript src='/visit_log%3Furl%3D")+document.location.href+unescape("%26referrer%3D")+document.referrer+unescape("' type='text/javascript'%3E%3C/script%3E"));
+      var _hmt = _hmt || [];
+    $(function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?992b56daabf1dc7137d0fd08f3329eb3";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+      new Swiper('.hero-swiper', {
+        modules: [],
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false
+        },
+        effect: 'fade',
+        fadeEffect: {
+          crossFade: true
+        },
+        speed: 2000
+      });
+      $('.share-btn').click(function(){
+        const link = document.location.href;
+
+        const title=$('title').text();
+       // const url='https://connect.qq.com/widget/shareqq/index.html?url=' + link + '&title='+title+'&pics=&summary=&desc=';
+       // window.open(url);
+        if (navigator.share) {
+            navigator.share({
+                title: title,
+                text: title,
+                url: link
+            })
+            .then(() => console.log('成功分享'))
+            .catch((error) => console.log('分享失败', error));
+        } else {
+            alert('当前浏览器不支持分享功能');
+        }
+      })
+      
+      
+
+    });
+  </script>
+</head>
+<body class="bg-white text-gray-800">
+  <div class="min-h-screen flex flex-col">
+    <header class="shadow-md">
+        <!-- 顶部大图 -->
+        <div class="bg-white">
+            <div class="relative w-full mx-auto flex items-center justify-between sm:px-0">
+              <div class="swiper hero-swiper w-full">
+                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                    <div class="w-full aspect-[5/1] bg-cover bg-center" style="background-image:url('/static/view_v2/images/banner1.jpg');"></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="w-full aspect-[5/1] bg-cover bg-center" style="background-image:url('/static/view_v2/images/banner2.jpg');"></div>
+                  </div>
+                                    
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- 顶部导航 -->
+        <div class="w-full mx-auto bg-customred text-white flex justify-center">
+            <nav class="w-full max-w-[1400px] flex items-center justify-center py-2 bg-customred px-4 md:px-16">
+              <div class="flex gap-0 w-full justify-between items-center overflow-x-auto md:overflow-visible scroll-hidden">
+                <a href="/" class="text-lg px-4 py-2 whitespace-nowrap hover:bg-red-800 transition-colors">首页</a>
+                                    <div class="relative group">
+                      <a href="/node/112"  class="text-lg px-4 py-2 whitespace-nowrap flex items-center hover:bg-red-800 transition-colors">
+                        机构概况                        <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                      </a>
+                      <div class="absolute left-0 mt-1 w-60 bg-white text-gray-800 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 transform origin-top-left scale-95 group-hover:scale-100">
+                         
+                        <a href="/node/112"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">省馆简介</a>
+                         
+                        <a href="/node/113"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">领导分工</a>
+                         
+                        <a href="/node/114"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">机构设置</a>
+                                              </div>
+                    </div>
+                                        <div class="relative group">
+                      <a href="/node/117"  class="text-lg px-4 py-2 whitespace-nowrap flex items-center hover:bg-red-800 transition-colors">
+                        政务信息                        <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                      </a>
+                      <div class="absolute left-0 mt-1 w-60 bg-white text-gray-800 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 transform origin-top-left scale-95 group-hover:scale-100">
+                         
+                        <a href="/node/117" target="_blank" class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">通知公告</a>
+                         
+                        <a href="/node/191"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">图片新闻</a>
+                         
+                        <a href="/node/200" target="_blank" class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">鄂档资讯</a>
+                         
+                        <a href="/node/120" target="_blank" class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">地方动态</a>
+                         
+                        <a href="/node/125" target="_blank" class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">信息公开</a>
+                         
+                        <a href="/node/118"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">主题活动</a>
+                                              </div>
+                    </div>
+                                        <div class="relative group">
+                      <a href="/node/123"  class="text-lg px-4 py-2 whitespace-nowrap flex items-center hover:bg-red-800 transition-colors">
+                        政策法规                        <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                      </a>
+                      <div class="absolute left-0 mt-1 w-60 bg-white text-gray-800 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 transform origin-top-left scale-95 group-hover:scale-100">
+                         
+                        <a href="/node/127"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">法律</a>
+                         
+                        <a href="/node/231"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">法规规章</a>
+                         
+                        <a href="/node/129"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">标准规范</a>
+                         
+                        <a href="/node/128"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">规范性文件</a>
+                                              </div>
+                    </div>
+                                        <div class="relative group">
+                      <a href="/node/166"  class="text-lg px-4 py-2 whitespace-nowrap flex items-center hover:bg-red-800 transition-colors">
+                        档案业务                        <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                      </a>
+                      <div class="absolute left-0 mt-1 w-60 bg-white text-gray-800 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 transform origin-top-left scale-95 group-hover:scale-100">
+                         
+                        <a href="/node/160"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">业务指导</a>
+                         
+                        <a href="/node/162"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">档案科技和信息化</a>
+                         
+                        <a href="/node/161"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">职称评审</a>
+                         
+                        <a href="/node/246"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">归档系统</a>
+                                              </div>
+                    </div>
+                                        <div class="relative group">
+                      <a href="/node/153"  class="text-lg px-4 py-2 whitespace-nowrap flex items-center hover:bg-red-800 transition-colors">
+                        档案查阅                        <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                      </a>
+                      <div class="absolute left-0 mt-1 w-60 bg-white text-gray-800 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 transform origin-top-left scale-95 group-hover:scale-100">
+                         
+                        <a href="/node/153"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">馆藏介绍</a>
+                         
+                        <a href="/node/154"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">查档指南</a>
+                         
+                        <a href="http://wx.hbda.gov.cn:8088/hbdaly/book!book.action?t=1681981529217"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">跨馆查档预约</a>
+                         
+                        <a href="/searchitem/208_9"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">开放档案</a>
+                         
+                        <a href="http://zwfw.hubei.gov.cn/s/web/bszn/bmsy.html?department=12420000011043698W" target="_blank" class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">部门事项</a>
+                                              </div>
+                    </div>
+                                        <div class="relative group">
+                      <a href="/node/144"  class="text-lg px-4 py-2 whitespace-nowrap flex items-center hover:bg-red-800 transition-colors">
+                        档案文化                        <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                      </a>
+                      <div class="absolute left-0 mt-1 w-60 bg-white text-gray-800 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 transform origin-top-left scale-95 group-hover:scale-100">
+                         
+                        <a href="/node/144"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">珍档荟萃</a>
+                         
+                        <a href="/node/149"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">编研成果</a>
+                         
+                        <a href="/node/150"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">视频广角</a>
+                         
+                        <a href="/node/145" target="_blank" class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">网上展览</a>
+                         
+                        <a href="/node/147" target="_blank" class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">档案记忆杂志</a>
+                                              </div>
+                    </div>
+                                        <div class="relative group">
+                      <a href="/apply/142_19/create"  class="text-lg px-4 py-2 whitespace-nowrap flex items-center hover:bg-red-800 transition-colors">
+                        公众参与                        <i class="fa-solid fa-chevron-down ml-1 text-xs"></i>
+                      </a>
+                      <div class="absolute left-0 mt-1 w-60 bg-white text-gray-800 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 transform origin-top-left scale-95 group-hover:scale-100">
+                         
+                        <a href="/apply/142_19/create"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">档案征集</a>
+                         
+                        <a href="/node/136"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">资料下载</a>
+                         
+                        <a href="/apply/134_3/create"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">继续教育培训报名</a>
+                         
+                        <a href="http://baoming.hbda.gov.cn"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">水平能力测试报名</a>
+                         
+                        <a href="/apply/240_16/create"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">《档案记忆》杂志订阅</a>
+                         
+                        <a href="/apply/250_20/create"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">国际档案日宣传挂图订购</a>
+                         
+                        <a href="/apply/279_31/create"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">湖北省档案系统第二届行业技能大赛</a>
+                         
+                        <a href="/apply/280_33/create"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">2026年全省档案管理人员履职能力提升培训班</a>
+                         
+                        <a href="/apply/281_34/create"  class="block text-lg px-4 py-2 hover:bg-gray-100 hover:text-customred transition-colors">2026年全省档案馆馆长培训班</a>
+                                              </div>
+                    </div>
+                                    <form action="/search" method="get" class="w-50 relative hidden sm:block">
+                  <input type="text" name="q" value=""  placeholder="搜索..." class="text-gray-700 w-full py-2 px-4 pr-10 rounded-full text-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-customred focus:border-transparent transition-all" />
+                  <button type="submit" class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500">
+                    <i class="fa-solid fa-search"></i>
+                  </button>
+                </form>
+              </div>
+            </nav>
+        </div>
+    </header>
+
+  
+    <main class="flex-grow bg-gray-100 dark:bg-gray-850 py-4 dark:text-gray-400">
+      <div class="max-w-[1400px] mx-auto px-4">
+       
+
+        <!-- 页面标题 -->
+        <div class="bg-white dark:bg-gray-900 rounded shadow-md p-4 mb-4">
+          <div class="flex items-center">
+            <div class="w-2 h-6 bg-customred dark:bg-customred mr-2"></div>
+            <h2 class="text-2xl font-bold">为您找到相关结果 6211 条</h2>
+          </div>
+        </div>
+        <!-- 内容区域  -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+		  
+          <!-- 列表内容 -->
+          <div class="md:col-span-4 bg-white dark:bg-gray-900 rounded shadow-md p-6">
+
+            <ul class="space-y-6">
+                            <li class="pb-6 border-b border-gray-100 dark:border-gray-800 last:border-0 last:pb-0">
+                <a href="/info/7081" class="block group" >
+                  <div class="flex justify-between items-start mb-2">
+                    <h3 class="text-xl font-semibold group-hover:text-customred dark:group-hover:text-red-400 transition-colors">
+                      省档案馆开展国庆节前安全大检查                    </h3>
+                    <span class="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap ml-4">
+                      2026-09-30 19:11                    </span>
+                  </div>
+
+                  <p class="text-gray-600 dark:text-gray-300 mt-2">
+                                      </p>
+                </a>
+              </li>
+                            <li class="pb-6 border-b border-gray-100 dark:border-gray-800 last:border-0 last:pb-0">
+                <a href="/info/7080" class="block group" >
+                  <div class="flex justify-between items-start mb-2">
+                    <h3 class="text-xl font-semibold group-hover:text-customred dark:group-hover:text-red-400 transition-colors">
+                      面对面听心声  实打实谋提升——湖北省直机关档案联络专员服务对接单位座谈会召开                    </h3>
+                    <span class="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap ml-4">
+                      2026-09-30 12:40                    </span>
+                  </div>
+
+                  <p class="text-gray-600 dark:text-gray-300 mt-2">
+                                      </p>
+                </a>
+              </li>
+                            <li class="pb-6 border-b border-gray-100 dark:border-gray-800 last:border-0 last:pb-0">
+                <a href="/info/7079" class="block group" >
+                  <div class="flex justify-between items-start mb-2">
+                    <h3 class="text-xl font-semibold group-hover:text-customred dark:group-hover:text-red-400 transition-colors">
+                      襄阳市档案馆：探索打造四个档案文化宣传品牌                    </h3>
+                    <span class="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap ml-4">
+                      2026-09-29 17:42                    </span>
+                  </div>
+
+                  <p class="text-gray-600 dark:text-gray-300 mt-2">
+                                      </p>
+                </a>
+              </li>
+                            <li class="pb-6 border-b border-gray-100 dark:border-gray-800 last:border-0 last:pb-0">
+                <a href="/info/7078" class="block group" >
+                  <div class="flex justify-between items-start mb-2">
+                    <h3 class="text-xl font-semibold group-hover:text-customred dark:group-hover:text-red-400 transition-colors">
+                      武当山特区档案馆扎实推进2026国际武当太极文化节档案收集工作                    </h3>
+                    <span class="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap ml-4">
+                      2026-09-29 17:39                    </span>
+                  </div>
+
+                  <p class="text-gray-600 dark:text-gray-300 mt-2">
+                                      </p>
+                </a>
+              </li>
+                            <li class="pb-6 border-b border-gray-100 dark:border-gray-800 last:border-0 last:pb-0">
+                <a href="/info/7077" class="block group" >
+                  <div class="flex justify-between items-start mb-2">
+                    <h3 class="text-xl font-semibold group-hover:text-customred dark:group-hover:text-red-400 transition-colors">
+                      档案事业发展“十五五”规划解读暨档案综合业务能力提升培训班在孝感举办                    </h3>
+                    <span class="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap ml-4">
+                      2026-09-29 17:30                    </span>
+                  </div>
+
+                  <p class="text-gray-600 dark:text-gray-300 mt-2">
+                                      </p>
+                </a>
+              </li>
+                            <li class="pb-6 border-b border-gray-100 dark:border-gray-800 last:border-0 last:pb-0">
+                <a href="/info/7076" class="block group" >
+                  <div class="flex justify-between items-start mb-2">
+                    <h3 class="text-xl font-semibold group-hover:text-customred dark:group-hover:text-red-400 transition-colors">
+                      《高等学校档案管理办法》修订调研咨询会在湖北省档案馆召开                    </h3>
+                    <span class="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap ml-4">
+                      2026-09-28 09:17                    </span>
+                  </div>
+
+                  <p class="text-gray-600 dark:text-gray-300 mt-2">
+                                      </p>
+                </a>
+              </li>
+                            <li class="pb-6 border-b border-gray-100 dark:border-gray-800 last:border-0 last:pb-0">
+                <a href="/info/7074" class="block group" >
+                  <div class="flex justify-between items-start mb-2">
+                    <h3 class="text-xl font-semibold group-hover:text-customred dark:group-hover:text-red-400 transition-colors">
+                      赋能行业提质  优化营商环境——湖北省档案学会成功举办全省档案服务企业业务培训交流活动                    </h3>
+                    <span class="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap ml-4">
+                      2026-09-28 08:44                    </span>
+                  </div>
+
+                  <p class="text-gray-600 dark:text-gray-300 mt-2">
+                                      </p>
+                </a>
+              </li>
+                            <li class="pb-6 border-b border-gray-100 dark:border-gray-800 last:border-0 last:pb-0">
+                <a href="/info/7072" class="block group" >
+                  <div class="flex justify-between items-start mb-2">
+                    <h3 class="text-xl font-semibold group-hover:text-customred dark:group-hover:text-red-400 transition-colors">
+                      鄂州市举办档案服务企业负责人培训班                    </h3>
+                    <span class="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap ml-4">
+                      2026-09-24 17:20                    </span>
+                  </div>
+
+                  <p class="text-gray-600 dark:text-gray-300 mt-2">
+                                      </p>
+                </a>
+              </li>
+                            <li class="pb-6 border-b border-gray-100 dark:border-gray-800 last:border-0 last:pb-0">
+                <a href="/info/7071" class="block group" >
+                  <div class="flex justify-between items-start mb-2">
+                    <h3 class="text-xl font-semibold group-hover:text-customred dark:group-hover:text-red-400 transition-colors">
+                      恩施州档案馆举办《兰台讲堂》读书分享会                    </h3>
+                    <span class="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap ml-4">
+                      2026-09-24 09:20                    </span>
+                  </div>
+
+                  <p class="text-gray-600 dark:text-gray-300 mt-2">
+                                      </p>
+                </a>
+              </li>
+                            <li class="pb-6 border-b border-gray-100 dark:border-gray-800 last:border-0 last:pb-0">
+                <a href="/info/7070" class="block group" >
+                  <div class="flex justify-between items-start mb-2">
+                    <h3 class="text-xl font-semibold group-hover:text-customred dark:group-hover:text-red-400 transition-colors">
+                      活化红色档案资源   赋能思政育人课堂 ——省档案馆公开发布首部标准化档案思政课件                    </h3>
+                    <span class="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap ml-4">
+                      2026-09-22 17:27                    </span>
+                  </div>
+
+                  <p class="text-gray-600 dark:text-gray-300 mt-2">
+                                      </p>
+                </a>
+              </li>
+                          </ul>
+
+            <!-- 分页控件 -->
+
+            <div class='pager -space-x-px flex flex-wrap justify-center  mt-8'><span class='px-3 py-1 border border-gray-300 bg-gray-100 text-gray-500 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400 pointer-events-none rounded-l-md'>首页</span><span class='px-3 py-1 border border-gray-300 bg-gray-100 text-gray-500 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400 pointer-events-none'><i class='fa-solid fa-angle-left mr-1'></i>上一页</span><span class='px-4 py-1 border border-red-800 bg-customred text-white transition-colors'>1</span><a class='px-4 py-1 border border-gray-300 bg-white text-gray-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors' href='/search?page=2'>2</a><a class='px-4 py-1 border border-gray-300 bg-white text-gray-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors' href='/search?page=3'>3</a><a class='px-4 py-1 border border-gray-300 bg-white text-gray-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors' href='/search?page=4'>4</a><a class='px-4 py-1 border border-gray-300 bg-white text-gray-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors' href='/search?page=5'>5</a><a class='px-4 py-1 border border-gray-300 bg-white text-gray-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors' href='/search?page=6'>6</a><a class='px-4 py-1 border border-gray-300 bg-white text-gray-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors' href='/search?page=7'>7</a><a class='px-4 py-1 border border-gray-300 bg-white text-gray-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors' href='/search?page=8'>8</a><a class='px-4 py-1 border border-gray-300 bg-white text-gray-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors' href='/search?page=9'>9</a><a class='px-3 py-1 border border-gray-300 bg-white text-gray-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors' href='/search?page=2'>下一页<i class='fa-solid fa-angle-right ml-1'></i></a><a class='px-3 py-1 border border-gray-300 bg-white text-gray-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors rounded-r-md' href='/search?page=622'>末页</a></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+<footer class="bg-gray-800 text-white pt-10 pb-6">
+        <!-- 底部信息 -->
+      <div class="max-w-[1400px] mx-auto px-4">
+        <!-- 友情链接 -->
+        <div class="mb-4 grid grid-cols-4 gap-4">
+                     <select aria-label="国内档案链接网址" class="p-2 border border-gray-300 rounded bg-white text-gray-800 friend-select">
+                <option value="">国内档案链接网址</option>
+                                <option value="http://www.saac.gov.cn/">国家档案局</option>
+                                <option value="http://www.bjma.org.cn">北京档案</option>
+                                <option value="https://www.tjdag.cn/">天津档案</option>
+                                <option value="http://www.hebdag.org.cn/">河北档案</option>
+                                <option value="http://www.sxsdaj.gov.cn/">山西档案</option>
+                                <option value="http://www.archives.nm.cn/">内蒙古档案</option>
+                                <option value="https://www.lnsdag.org.cn/">辽宁档案</option>
+                                <option value="http://www.jlsda.cn/">吉林档案</option>
+                                <option value="http://www.hljsdag.org.cn/">黑龙江档案</option>
+                                <option value="https://www.shda.gov.cn/archives/">上海档案</option>
+                                <option value="http://www.dajs.gov.cn/">江苏档案</option>
+                                <option value="https://www.zjda.gov.cn/">浙江档案</option>
+                                <option value="https://www.ahsdag.org.cn/">安徽档案</option>
+                                <option value="http://www.fj-archives.org.cn/">福建档案</option>
+                                <option value="https://www.jxdag.gov.cn/Index.shtml">江西档案</option>
+                                <option value="http://dag.shandong.gov.cn/">山东档案</option>
+                                <option value="https://www.hada.gov.cn/">河南档案</option>
+                                <option value="https://www.hbda.gov.cn/">湖北档案</option>
+                                <option value="http://sdaj.hunan.gov.cn/">湖南档案</option>
+                                <option value="https://www.da.gd.gov.cn/portal_home/">广东档案</option>
+                                <option value="https://www.gxdag.org.cn/">广西档案</option>
+                                <option value="https://www.hainan.gov.cn/szfbgt/sdaj/">海南档案</option>
+                                <option value="https://jda.cq.gov.cn/">重庆档案</option>
+                                <option value="https://www.scsdag.cn/">四川档案</option>
+                                <option value="https://www.gzdafzxx.cn/">贵州档案</option>
+                                <option value="http://www.ynda.yn.gov.cn/">云南档案</option>
+                                <option value="https://da.xzdw.gov.cn/">西藏档案</option>
+                                <option value="https://www.sxdag.cn/">陕西档案</option>
+                                <option value="https://www.cngsda.net/">甘肃档案</option>
+                                <option value="http://www.qhda.net/zrzy/web/index.html">青海档案</option>
+                                <option value="https://www.nxda.org.cn/nxdafw_new/web/index.html">宁夏档案</option>
+                                <option value="https://www.xjaa.gov.cn/">新疆档案</option>
+                            </select>
+                     <select aria-label="省内档案链接网址" class="p-2 border border-gray-300 rounded bg-white text-gray-800 friend-select">
+                <option value="">省内档案链接网址</option>
+                                <option value="https://www.whda.org.cn/">武汉档案</option>
+                                <option value="http://www.hssdag.com/">黄石档案</option>
+                                <option value="http://dag.shiyan.gov.cn/">十堰档案</option>
+                                <option value="http://www.xydag.cn/">襄阳档案</option>
+                                <option value="http://daj.yichang.gov.cn/">宜昌档案</option>
+                                <option value="http://daj.jingzhou.gov.cn/">荆州档案</option>
+                                <option value="http://www.jmdaxxw.com/">荆门档案</option>
+                                <option value="http://www.xgsdag.org.cn/">孝感档案</option>
+                                <option value="http://www.hgdag.cn/">黄冈档案</option>
+                                <option value="http://dag.xnnews.com.cn/">咸宁档案</option>
+                                <option value="https://www.hbszda.org/">随州档案</option>
+                                <option value="http://www.esda.hb.cn/">恩施档案</option>
+                                <option value="http://xtdasz.cnxiantao.com/">仙桃档案</option>
+                            </select>
+                     <select aria-label="国外档案链接网址" class="p-2 border border-gray-300 rounded bg-white text-gray-800 friend-select">
+                <option value="">国外档案链接网址</option>
+                                <option value="http://www.ica.org/">国际档案理事会</option>
+                                <option value="http://www.unesco.org/">联合国教科文组织档案网站</option>
+                            </select>
+                     <select aria-label="著名网站链接网址" class="p-2 border border-gray-300 rounded bg-white text-gray-800 friend-select">
+                <option value="">著名网站链接网址</option>
+                                <option value="http://www.gov.cn/">中国政府网</option>
+                                <option value="http://www.npc.gov.cn/">全国人民代表大会</option>
+                                <option value="http://www.cppcc.gov.cn/">人民政治全国委员会</option>
+                                <option value="http://www.court.gov.cn/">最高人民法院</option>
+                                <option value="http://www.cri.cn/">国际在线_读懂国际 点赞中国</option>
+                            </select>
+                </div>
+        <!-- 联系方式 -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="md:col-span-1">
+            <h3 class="text-xl font-semibold mb-4 pb-2 border-b border-gray-700 dark:border-gray-600">关于湖北省档案馆</h3>
+            <div class="space-y-3 text-sm">
+              <p class="flex items-center"><i class="fa-solid fa-envelope mr-2 text-red-400 w-5 text-center"></i><span class="opacity-80">信息投稿邮箱：daxx33853@163.com</span></p>
+              <p class="flex items-center"><i class="fa-solid fa-phone mr-2 text-red-400 w-5 text-center"></i><span class="opacity-80">湖北省档案馆值班电话：027-87233715</span></p>
+              <p class="flex items-center"><i class="fa-solid fa-phone mr-2 text-red-400 w-5 text-center"></i><span class="opacity-80">档案查阅咨询电话：027-63493384；027-87233921</span></p>
+              <p class="flex items-center"><i class="fa-solid fa-phone mr-2 text-red-400 w-5 text-center"></i><span class="opacity-80">展览参观联系电话：027-87238837</span></p>
+              <p class="flex items-start"><i class="fa-solid fa-map-marker-alt mt-1 mr-2 text-red-400 w-5 text-center"></i><span class="opacity-80">通讯地址：武汉市水果湖洪山路83号</span></p>
+              <p class="flex items-start"><i class="fa-solid fa-map-marker-alt mt-1 mr-2 text-red-400 w-5 text-center"></i><span class="opacity-80">邮编：430071</span></p>
+            </div>
+          </div>
+          <!-- 版权备案 -->
+          <div class="md:col-span-1 flex items-center">
+            <div class="text-center text-sm opacity-70">
+              <div class="flex justify-center items-center mb-3">
+                <img src="/static/view_v2/images/logo.png" alt="湖北省档案馆" class="h-10 mr-3" />
+                <span class="font-semibold text-base">湖北省档案馆</span>
+              </div>
+              <div class="flex flex-wrap justify-center gap-4">
+                <p>版权所有：Copyright@ 2010 湖北省档案馆</p>
+                <p>网站备案号：鄂ICP备05006984号-1</p>
+              </div>
+            </div>
+          </div>
+          <!-- 事业单位与官方微信 -->
+          <div class="md:col-span-1 flex justify-end items-center">
+            <div class="flex flex-col items-center pr-8">
+              <div class="w-20 h-20  rounded-md mb-3">
+                  <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='https://dcs.conac.cn/js/18/000/0000/40706549/CA180000000407065490002.js' type='text/javascript'%3E%3C/script%3E"));</script>
+              </div>
+              <p class="text-sm text-center opacity-80">事业单位</p>
+            </div>
+            <div class="flex flex-col items-center border-l border-gray-700 dark:border-gray-600 pl-8">
+              <div class="w-20 h-20 bg-white p-2 rounded-md shadow-lg mb-3">
+                <img src="/static/view_v2/images/dag_gzh.png" alt="湖北省档案馆官方微信二维码" class="w-full h-full object-contain" />
+              </div>
+              <p class="text-sm text-center opacity-80">扫描二维码关注<br />湖北省档案馆官方微信</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  <script>
+    $(function () {
+      const loadFriend = function (url) {
+        if (url) {
+          window.open(url, '_blank', 'noopener,noreferrer');
+        }
+      };
+
+      $('.friend-select').on('change', function () {
+        loadFriend(this.value);
+        this.value = '';
+      });
+        $('.text-detail>p').each(function() {
+            const $this=$(this);
+        // 1. 获取当前元素的字号，用于将 2em 转换为等效的 px
+            var fontSize = parseFloat($this.css('font-size'));
+            var minLineHeight = fontSize * 2; // 2em 的像素值
+            // 2. 获取当前计算后的行高
+            var currentLineHeight = parseFloat($this.css('line-height'));
+        
+            // 3. 如果当前行高小于 2em，则进行设置
+            if (isNaN(currentLineHeight) || currentLineHeight < minLineHeight) {
+                $this.css('line-height', '2em');
+            }
+            var minMarginBottom = 15; // 设定的最小值 15px
+            var currentMarginBottom = parseFloat($this.css('margin-bottom'));
+            // 如果当前 margin-bottom 小于 15px，则强制设为 15px
+            if (isNaN(currentMarginBottom) || currentMarginBottom < minMarginBottom) {
+                $this.css('margin-bottom', minMarginBottom + 'px');
+            }
+        });
+        // --- 2. 处理下外边距 (Margin Bottom) ---
+       
+    
+        // $('.text-detail p span').each(function() {
+        //     $(this).css('font-family', '"Microsoft YaHei", "微软雅黑", sans-serif');
+        //     // // 1. 处理字体：如果是宋体，则改为微软雅黑
+        //     // // 获取当前字体（转为小写以便匹配）
+        //     // var currentFont = $this.css('font-family').toLowerCase();
+        //     // console.log(currentFont);
+        //     // if (currentFont.indexOf('simsun') !== -1 || currentFont.indexOf('宋体') !== -1) {
+        //     //     $this.css('font-family', '"Microsoft YaHei", "微软雅黑", sans-serif');
+        //     // }
+        // });
+    });
+  </script>
+</body>
+</html>
+
+
