@@ -10761,6 +10761,54 @@
    "source_ids": [
     "src-web-e93178cdb6"
    ]
+  },
+  {
+   "inventory_id": "HBI-ES-020",
+   "name": "恩施棉纺厂厂房（薛家巷69号，3栋）",
+   "city": "恩施州",
+   "district_county": "恩施市六角亭街道薛家巷",
+   "industry_category_l1": "纺织工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "恩施市第四批历史建筑（2025年10月28日公布，名录第8项：棉纺厂3栋厂房，建筑类型旧厂房）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "棉纺厂厂房3栋（薛家巷69号）；厂房跨度、锯齿/桁架屋面形制与设备留存待现场测绘",
+    "technical_memory": "恩施城区棉纺织工业的纺纱织布生产脉络；建厂与停产年代、企业全称待厂志与档案核验",
+    "social_memory": "棉纺厂职工与恩施老城六角亭工业街区记忆",
+    "current_use_or_loss": "以第四批历史建筑身份纳入保护体系，市政府要求做好挂牌、测绘和建档；现状用途待核"
+   },
+   "notes": "直接取自恩施市政府第四批名录正文表（A级，含建筑类型列）；名录未载棉纺厂建厂年代与企业沿革；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "恩施市棉纺厂"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-bf0fa7f0a5"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-021",
+   "name": "四维街44号旧厂房",
+   "city": "恩施州",
+   "district_county": "恩施市六角亭街道四维街",
+   "industry_category_l1": "综合工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "恩施市第四批历史建筑（2025年10月28日公布，名录第2项，建筑类型标注旧厂房）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "旧厂房建筑本体（四维街44号）；面积、结构与原生产行业待现场测绘",
+    "technical_memory": "名录建筑类型列标注“旧厂房”而名称作“民居”，名称与分类存在矛盾——原厂房所属企业与行业待官方档案核验，行业分类暂列综合工业",
+    "social_memory": "四维街街区生产生活记忆",
+    "current_use_or_loss": "以第四批历史建筑身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自恩施市政府第四批名录正文表（A级，视觉核读原文）；名录第2项名称“四维街44号民居”与建筑类型“旧厂房”矛盾，按类型列收录并以旧厂房表述，名称矛盾待官方澄清；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-bf0fa7f0a5"
+   ]
   }
  ]
 }
