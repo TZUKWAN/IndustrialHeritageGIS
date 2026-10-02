@@ -1808,7 +1808,7 @@
    "recognition_status": "来源确认候选",
    "record_status": "source_confirmed",
    "geocode_status": "pending",
-   "notes": "官方报道确认老厂房、原料罐、烟囱和生产设备用于沙市工业成就展，保留活力28工业文化记忆。",
+   "notes": "官方报道确认老厂房、原料罐、烟囱和生产设备用于沙市工业成就展，保留活力28工业文化记忆。2024年新增35处历史建筑名录（编号113-122）将活力28集团建筑群10栋（保全车间、香皂车间、一号/二号/三号/四号仓库、包装车间、肥皂皂化间、成品仓库、一号办公楼）列为市级历史建筑，本条活力28老厂房（沙市日化旧厂区）获得逐栋载明的市级历史建筑保护身份。",
    "cultural_evidence": {
     "material_carriers": "活力28老厂房、原料罐、烟囱、办公楼和生产设备",
     "technical_memory": "日化生产、原料储存和沙市轻工业生产组织",
@@ -1817,6 +1817,7 @@
    },
    "source_ids": [
     "src-web-649dfcd57d",
+    "src-web-77a3efc8cb",
     "src-web-bb92da21bb",
     "src-web-f05dd50476"
    ]
@@ -10636,6 +10637,102 @@
    "asset_kind": "industrial_building",
    "source_ids": [
     "src-web-b6c1a2834b"
+   ]
+  },
+  {
+   "inventory_id": "HBI-JZ-023",
+   "name": "沙市装卸大楼",
+   "city": "荆州市",
+   "district_county": "沙市区",
+   "industry_category_l1": "港口与水运工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "荆州市历史建筑（2024年新增35处名录第105项，编号105）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "港口装卸作业大楼建筑本体；建筑面积、结构与建造年代待现场测绘",
+    "technical_memory": "沙市长江码头货物装卸组织与机械化装卸工艺的指挥中枢载体，与洋码头—打包厂码头仓储带同属港口作业谱系",
+    "social_memory": "码头装卸工人与沙市港航运贸易集体记忆",
+    "current_use_or_loss": "以市级历史建筑身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自2024年新增35处名录附件图（A级，视觉核读）；名录仅载名称；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-77a3efc8cb"
+   ]
+  },
+  {
+   "inventory_id": "HBI-JZ-024",
+   "name": "富友实业建筑群（一号、二号、三号仓库）",
+   "city": "荆州市",
+   "district_county": "沙市区",
+   "industry_category_l1": "工业仓储与运输",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "荆州市历史建筑（2024年新增35处名录第106-108项，共3栋）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "仓库建筑3栋（一号、二号、三号仓库）；仓型、结构与保存状态待现场测绘",
+    "technical_memory": "富友实业仓储建筑的储存工艺与结构形制；企业沿革（富友实业经营门类）待地方志核验",
+    "social_memory": "仓储职工与沙市工商业流通记忆",
+    "current_use_or_loss": "以市级历史建筑身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自2024年新增35处名录附件图（A级，视觉核读）；名录仅载名称；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "富友实业建筑群"
+   ],
+   "asset_kind": "industrial_storage_site",
+   "source_ids": [
+    "src-web-77a3efc8cb"
+   ]
+  },
+  {
+   "inventory_id": "HBI-JZ-025",
+   "name": "港务集团建筑群（一号、二号、三号仓库）",
+   "city": "荆州市",
+   "district_county": "沙市区",
+   "industry_category_l1": "港口与水运工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "荆州市历史建筑（2024年新增35处名录第110-112项，共3栋）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "港务仓库建筑3栋（一号、二号、三号仓库）；仓型、跨度与保存状态待现场测绘",
+    "technical_memory": "荆州港务集团的港口后方仓储体系，与沙市装卸大楼、洋码头码头带构成港口作业—仓储完整链条",
+    "social_memory": "港务职工与长江航运物流记忆",
+    "current_use_or_loss": "以市级历史建筑身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自2024年新增35处名录附件图（A级，视觉核读）；名录仅载名称；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "港务集团建筑群"
+   ],
+   "asset_kind": "industrial_storage_site",
+   "source_ids": [
+    "src-web-77a3efc8cb"
+   ]
+  },
+  {
+   "inventory_id": "HBI-JZ-026",
+   "name": "怡和洋行",
+   "city": "荆州市",
+   "district_county": "沙市区",
+   "industry_category_l1": "近代航运与民族工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "荆州市历史建筑（2024年新增35处名录第109项）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "怡和洋行建筑本体；建造年代、结构与保存状态待现场测绘",
+    "technical_memory": "怡和洋行为近代英国综合商行，沙市开埠（1895年《马关条约》开埠语境）后外资洋行在长江中游口岸的航运贸易经营载体；与源泰洋行（HBI-WUHAN 记录）同属湖北近代洋行谱系",
+    "social_memory": "沙市开埠与近代口岸贸易记忆",
+    "current_use_or_loss": "以市级历史建筑身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自2024年新增35处名录附件图（A级，视觉核读）；名录仅载名称，洋行在沙的具体经营年代与建筑沿革待地方志核验；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_trade_site",
+   "source_ids": [
+    "src-web-77a3efc8cb"
    ]
   }
  ]
