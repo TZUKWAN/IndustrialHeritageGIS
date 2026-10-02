@@ -4313,20 +4313,22 @@
    "district_county": "曾都区",
    "industry_category_l1": "电力器材工业",
    "recognition_level": "research_candidate",
-   "recognition_status": "第三方地址线索与随州工业史报道对应的候选（待官方核验）",
-   "record_status": "source_lead",
+   "recognition_status": "随州避雷器厂厂址与厂史双固化：聚玉街358号多源一致（黄页+房产网），市政府网2017年聚玉街改造报道官方确认“避雷器厂桥梁”地标；企业官网自述1976年建厂（原名随州避雷器厂）、机械部电力部定点、1978年国内率先生产无间隙金属氧化物避雷器",
+   "record_status": "source_confirmed",
    "geocode_status": "pending",
    "cultural_evidence": {
-    "material_carriers": "聚玉街358号原厂房线索，建筑和设备待核",
+    "material_carriers": "厂址（聚玉街358号及聚玉街十四号）厂房与“避雷器厂桥梁”地标；桥梁现状与厂房留存待现场核验",
     "technical_memory": "避雷器制造、绝缘/电力器材生产技术待档案补证",
     "social_memory": "避雷器厂职工、城市供电和电力工业记忆",
     "current_use_or_loss": "仅有第三方地址线索，现状、产权和可见遗存必须现场核验"
    },
-   "notes": "随州日报记载避雷器厂曾落地随州；第三方房产页面将聚玉街358号标注为原避雷器厂。地址与企业对应关系尚未由官方档案或现场核定，保持线索级状态。",
+   "notes": "随州日报记载避雷器厂曾落地随州；第三方房产页面将聚玉街358号标注为原避雷器厂。地址与企业对应关系尚未由官方档案或现场核定，保持线索级状态。2026-10-03复核升格：随州市政府网2017年改造报道（A）+企业官网厂史（C）+黄页地址多源互证，自 research_candidate 升格为 source_confirmed（升格表示厂址与厂史语境坐实，不表示建筑本体与法定认定）；1976年建厂批文建议赴随州市档案馆补A级文件。",
    "asset_kind": "industrial_site",
    "source_ids": [
+    "src-web-02b984cc16",
     "src-web-07d37939eb",
-    "src-web-63b69ec915"
+    "src-web-63b69ec915",
+    "src-web-69ee782dc6"
    ]
   },
   {
@@ -8959,26 +8961,27 @@
    "inventory_id": "HBI-JZ-017",
    "name": "沙市三厂（拖拉机厂）旧址（档案线索）",
    "city": "荆州市",
-   "district_county": "沙市区（具体厂址待核）",
+   "district_county": "沙市区塔桥路一带（塔桥小区原址）",
    "industry_category_l1": "农业机械与机械制造工业",
    "recognition_level": "archive_lead",
-   "recognition_status": "湖北省档案馆开放目录档号SZ 90-1-279（1966年批复，永久）题名《关于湖北省油泵厂、湖北省齿轮厂、沙市三厂(拖拉机厂)、长江配件厂、湖北省柴油机厂设计任务书的批复》——档案题名明确“沙市三厂”即拖拉机厂建设主体；未见实体和法定工业遗产认定",
-   "record_status": "source_lead",
+   "recognition_status": "沙市拖拉机厂沿革获国家地名信息库实证：1954铁木农具厂→1964沙市农业机械厂→1970沙市拖拉机厂→1973柴油机厂→1978柴油机总厂→1997原址建塔桥小区；与省档案馆SZ 90-1-279（1966）“沙市三厂(拖拉机厂)”批复时间线吻合，旧址位置候选沙市区塔桥路一带",
+   "record_status": "source_confirmed",
    "geocode_status": "pending",
    "cultural_evidence": {
-    "material_carriers": "档案题名确认历史企业或厂建项目，厂房、设备、生活设施和厂界待档案调阅、地方志及现场核验",
+    "material_carriers": "原厂址已建塔桥小区（1997年），拖拉机厂时期建筑无存证；档案图纸与设备清单待省档案馆调档",
     "technical_memory": "对应行业生产、设计和基建技术记忆；工艺流程、产品谱系和设备型号待厂志与企业档案核实",
     "social_memory": "企业与湖北工业化、工人群体和地方产业组织相连；职工社区、口述史和老照片待采集",
     "current_use_or_loss": "档案可确认设计、基建或管理活动，投产、搬迁、停产、遗址存续和现用途待核"
    },
-   "notes": "本条来自省档案馆开放目录的档案题名，先保留为来源线索，不将历史文件题名直接等同于现存遗产实体。",
+   "notes": "本条来自省档案馆开放目录的档案题名，先保留为来源线索，不将历史文件题名直接等同于现存遗产实体。2026-10-03复核升格：百度百科转载国家地名信息库沿革条目（A-，2026-10-03经WAP版全文核读）证实沙市拖拉机厂（1970-1973）真实存在且原址在塔桥路一带，与省档案馆1966年批复题名时间线吻合；自 archive_lead 升格为 source_confirmed（升格表示沿革与旧址位置语境坐实，“沙市三厂”称谓与农机厂/拖拉机厂的对应细节仍待调阅档案原文，建筑本体已无存）；同名异厂“沙市农业机械厂”（1979-1999，产银锄）需区分。",
    "aliases": [
     "沙市三厂",
     "沙市拖拉机厂"
    ],
    "asset_kind": "industrial_site",
    "source_ids": [
-    "src-web-44f9dd83ac"
+    "src-web-44f9dd83ac",
+    "src-web-bf4fcb8f06"
    ]
   },
   {
@@ -9098,19 +9101,19 @@
    "inventory_id": "HBI-HG-012",
    "name": "罗田县大河岸缫丝厂旧址（线索）",
    "city": "黄冈市",
-   "district_county": "罗田县大河岸镇（具体厂址待核）",
+   "district_county": "罗田县大河岸镇永兴街",
    "industry_category_l1": "缫丝与丝绸工业",
    "recognition_level": "research_candidate",
-   "recognition_status": "公开报道确认的国营缫丝厂及改制谱系线索；未见实体和法定工业遗产认定",
-   "record_status": "source_lead",
+   "recognition_status": "罗田大河岸缫丝厂厂址语境坐实：大河岸镇永兴街63号（永兴茧丝2002年注册、经营范围首项缫丝、已吊销；厂办预制板厂条目行业标注缫丝厂反证母厂）；法定遗产认定仍无",
+   "record_status": "source_confirmed",
    "geocode_status": "pending",
    "cultural_evidence": {
-    "material_carriers": "罗田县国营缫丝厂及大河岸缫丝厂厂房、车间、设备和职工生活设施待地方志、档案与现场核验",
+    "material_carriers": "缫丝厂厂址（大河岸镇永兴街63号及永兴街沿线原厂区）；厂房设备留存待现场核验",
     "technical_memory": "机器缫丝、生丝生产、蚕茧收购和茧丝加工技术记忆；工艺流程、设备型号和产品谱系待厂志补证",
     "social_memory": "罗田缫丝厂工人、蚕农、蚕桑供应链和县域工业化记忆；职工社区、口述史和老照片待采集",
     "current_use_or_loss": "1999年公开报道确认罗田县国营缫丝厂曾濒临破产并被租赁改制，现厂区、停产/搬迁和再利用状态待核"
    },
-   "notes": "罗田具体厂名和大河岸企业线索分别来自湖北日报转载报道、行业准产证名单搜索结果和黄冈地区历史报刊；暂不把‘大河岸’直接等同完整厂界，保持来源线索层级。",
+   "notes": "罗田具体厂名和大河岸企业线索分别来自湖北日报转载报道、行业准产证名单搜索结果和黄冈地区历史报刊；暂不把‘大河岸’直接等同完整厂界，保持来源线索层级。2026-10-03复核升格：搜了网企业目录（C）厂址信息与顺企网预制板厂条目互证，自 research_candidate 升格为 source_confirmed（升格表示厂址语境坐实，不表示建筑本体与法定认定）；县缫丝有限责任公司（凤山镇义水北路383号）为县厂法人化主体线索。",
    "aliases": [
     "罗田县缫丝厂",
     "罗田县国营缫丝厂",
@@ -9119,26 +9122,27 @@
    "asset_kind": "industrial_site",
    "source_ids": [
     "src-web-08072f72ba",
-    "src-web-5c86d2cbab"
+    "src-web-5c86d2cbab",
+    "src-web-dc76352ee6"
    ]
   },
   {
    "inventory_id": "HBI-HG-013",
    "name": "英山县湖北制丝针织厂旧址（线索）",
    "city": "黄冈市",
-   "district_county": "英山县（具体厂址待核）",
+   "district_county": "英山县温泉镇温泉路",
    "industry_category_l1": "缫丝与纺织工业",
    "recognition_level": "research_candidate",
-   "recognition_status": "行业媒体和省级媒体报道确认的历史企业谱系线索；未见实体和法定工业遗产认定",
-   "record_status": "source_lead",
+   "recognition_status": "湖北制丝针织厂厂址候选坐实：英山县温泉镇温泉路41号（主营白厂丝+针织，与厂名完全吻合，状态在业）；法定遗产认定仍无",
+   "record_status": "source_confirmed",
    "geocode_status": "pending",
    "cultural_evidence": {
-    "material_carriers": "湖北制丝针织厂原厂房、缫丝车间、针织设施和职工生活配套待地方志、厂志和现场核验",
+    "material_carriers": "制丝针织厂厂址（温泉镇温泉路41号）；厂房设备留存与在业状态待实地踏勘",
     "technical_memory": "缫丝、制丝、针织和蚕桑加工技术；行业媒体报道原有13200绪缫丝规模，设备与工艺清单待补",
     "social_memory": "英山缫丝女工、蚕农、企业改制和县域蚕桑产业链记忆；职工社区、口述史和老照片待采集",
     "current_use_or_loss": "公开报道显示英山缫丝、丝绸和绢纺企业经历改制与产业转型，原厂区保存、搬迁和现用途待核"
    },
-   "notes": "英山多家丝绸企业名称由省级媒体报道列出，行业媒体补充湖北制丝针织厂规模；未取得原厂址和厂界资料，保持来源线索层级。",
+   "notes": "英山多家丝绸企业名称由省级媒体报道列出，行业媒体补充湖北制丝针织厂规模；未取得原厂址和厂界资料，保持来源线索层级。2026-10-03复核升格：顺企网企业目录（C，搜狗摘要+跳转URL双重解析核读）厂址与主营信息坐实，自 research_candidate 升格为 source_confirmed（升格表示厂址语境坐实，不表示建筑本体与法定认定）；建厂年代待英山县工业志核验，可顺带核查湖北桑宝集团谱系。",
    "aliases": [
     "湖北制丝针织厂",
     "英山缫丝厂",
@@ -9148,6 +9152,7 @@
    "asset_kind": "industrial_site",
    "source_ids": [
     "src-web-561e1309fd",
+    "src-web-651e2f6267",
     "src-web-f678cc616e"
    ]
   },
@@ -9185,19 +9190,19 @@
    "inventory_id": "HBI-JZ-018",
    "name": "荆州机床厂旧址（省志线索）",
    "city": "荆州市",
-   "district_county": "荆州市（具体厂址待核）",
+   "district_county": "荆州区安心桥（荆州城东门外）",
    "industry_category_l1": "机床制造工业",
    "recognition_level": "archive_lead",
-   "recognition_status": "省政府公报历史工业企业名单线索；未见实体和法定工业遗产认定",
-   "record_status": "source_lead",
+   "recognition_status": "荆州机床厂名称对应解决：系1958年建、荆州城东门外（荆州区安心桥38号）的独立机床厂（产C5112/C5116立式车床、荷花牌出口），2002年改制为荆州荷花机床有限公司——非沙市第一机床厂；1989年省政府公报名单“荆州机床厂”大概率对应此厂（建议调名单原文终核）",
+   "record_status": "source_confirmed",
    "geocode_status": "pending",
    "cultural_evidence": {
-    "material_carriers": "荆州/沙市机床厂厂房、老厂门、办公楼和机床设备待档案与现场核验；回忆资料提供第一机床厂老厂门和办公楼图像线索",
+    "material_carriers": "机床厂厂址（安心桥38号）厂房与机床设备；改制后厂区现状待现场核验",
     "technical_memory": "摇臂钻床、磨床、空气压缩机和机床专业化协作技术；人民日报1980年报道补足沙市机床一厂钻床、机床三厂空压机和机床公司协作生产关系，设备档案待补",
     "social_memory": "沙市机械工业、机床工人、技术培训和地方工业化记忆；职工社区与口述史待采集",
     "current_use_or_loss": "1989年省政府公报确认荆州机床厂名称，回忆资料涉及沙市第一/第二机床厂，现厂址、改制、搬迁和再利用状态待核"
    },
-   "notes": "省政府公报提供荆州机床厂历史名单线索，区域回忆资料补足沙市第一机床厂建厂、老厂门和摇臂钻床生产记忆，人民日报1980年报道补足机床一厂/三厂专业化协作与空压机生产；名称对应关系、厂址和实体边界待档案核对。",
+   "notes": "省政府公报提供荆州机床厂历史名单线索，区域回忆资料补足沙市第一机床厂建厂、老厂门和摇臂钻床生产记忆，人民日报1980年报道补足机床一厂/三厂专业化协作与空压机生产；名称对应关系、厂址和实体边界待档案核对。2026-10-03复核升格：天眼查工商镜像（B）+企业自介/百科（C）+荆州新闻网沙市一机报道（B，排除证据）三重证据解决名称对应问题，自 archive_lead 升格为 source_confirmed（升格表示名称对应与厂址坐实，不表示建筑本体与法定认定）。",
    "aliases": [
     "荆州机床厂",
     "沙市第一机床厂",
@@ -9210,26 +9215,28 @@
    "source_ids": [
     "src-web-852f172a5a",
     "src-web-a79f74666d",
-    "src-web-d9aea2c715"
+    "src-web-c5389e6b12",
+    "src-web-d9aea2c715",
+    "src-web-e6d6fed366"
    ]
   },
   {
    "inventory_id": "HBI-HG-014",
    "name": "蕲春县湖北链条厂旧址（线索）",
    "city": "黄冈市",
-   "district_county": "蕲春县漕河镇（具体厂址待核）",
+   "district_county": "蕲春县漕河镇蕲阳北路（新建居委会片区）",
    "industry_category_l1": "机械传动与链条制造工业",
    "recognition_level": "archive_lead",
-   "recognition_status": "省政府公报与低权重企业资料共同提供的历史企业线索；未见实体和法定工业遗产认定",
-   "record_status": "source_lead",
+   "recognition_status": "湖北链条厂沿革与旧址完整闭环：农具厂改名湖北链条厂（七八十年代）→1989年三机厂并入设分厂→1997年衰败→2005年破产改制→虎牌链条延续（漕河镇蕲阳北路319号）；曾获机械工业部部优、湖北省优",
+   "record_status": "source_confirmed",
    "geocode_status": "pending",
    "cultural_evidence": {
-    "material_carriers": "湖北链条厂/后续链条企业的厂房、车间、设备和职工设施待地方志、档案与现场核验",
+    "material_carriers": "链条厂厂址（漕河镇蕲阳北路319号，厂区实景见21世纪经济报道2012年报道）；厂房设备现状待现场核验",
     "technical_memory": "工业链条、滚子链、输送链和机械传动产品制造技术；设备、工艺和产品谱系待厂志核实",
     "social_memory": "蕲春漕河镇国有工业、链条厂职工和企业改制记忆；职工社区、口述史和老照片待采集",
     "current_use_or_loss": "省政府公报确认历史企业名称，第三方资料提示后续改制与漕河镇地址线索；现厂区、产权、停产/改制和利用状态待核"
    },
-   "notes": "省政府公报的‘湖北链条厂’名单线索与低权重企业资料对蕲春漕河镇、三虎/虎牌链条改制的描述尚未完成档案交叉核验；本条严格保持source_lead，不将企业新闻或黄页信息直接写成正式遗产事实。",
+   "notes": "省政府公报的‘湖北链条厂’名单线索与低权重企业资料对蕲春漕河镇、三虎/虎牌链条改制的描述尚未完成档案交叉核验；本条严格保持source_lead，不将企业新闻或黄页信息直接写成正式遗产事实。2026-10-03复核升格：黄冈新闻网（B）两篇与21世纪经济报道（C，含厂区实景）构成完整证据链（农具厂改名沿革、1989并入、2005破产改制、蕲阳北路319号厂址、部优省优荣誉），自 archive_lead 升格为 source_confirmed；新建居委会老厂区与蕲阳北路319号地块关系待核。",
    "aliases": [
     "湖北链条厂",
     "蕲春链条厂",
@@ -9238,9 +9245,11 @@
    ],
    "asset_kind": "industrial_site",
    "source_ids": [
+    "src-web-4b66c38527",
     "src-web-56790fc68e",
     "src-web-74107106d3",
-    "src-web-a79f74666d"
+    "src-web-a79f74666d",
+    "src-web-b04f6f17f3"
    ]
   },
   {
@@ -11200,6 +11209,54 @@
    "asset_kind": "industrial_transport_site",
    "source_ids": [
     "src-web-1f7cefb9bd"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-033",
+   "name": "建始县老电厂旧址（“和美小镇”城市更新项目）",
+   "city": "恩施州",
+   "district_county": "建始县（业州镇，具体厂址待核）",
+   "industry_category_l1": "火力发电",
+   "recognition_level": "city_update",
+   "recognition_status": "州住建局“县市联播”报道的老电厂城市更新活化项目（“和美小镇”）；未见历史建筑或工业遗产法定认定",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "老电厂厂房与设备遗存（业州镇，具体厂址与保留范围待现场测绘）",
+    "technical_memory": "县域小火电的发电供电技术记忆与建始县电气化历程",
+    "social_memory": "电厂职工与县城“点灯记忆”",
+    "current_use_or_loss": "州住建局“县市联播”2026年8月报道老电厂改造“和美小镇”城市更新项目；改造方案与保留清单待核"
+   },
+   "notes": "直接取自州住建局县市联播报道（A级，智能体核读）；活化项目参照层级入库（同仙桃低效工业载体模式），不推断法定认定；厂址门牌与建设年代待核；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-a3c904c87b"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-034",
+   "name": "利川市原复烤仓储基地烟囱（38米，改造“温度计”地标）",
+   "city": "恩施州",
+   "district_county": "利川市（复烤仓储基地片区）",
+   "industry_category_l1": "烟叶复烤与烟草加工",
+   "recognition_level": "city_update",
+   "recognition_status": "州住建局“县市联播”报道的复烤仓储基地城市更新活化项目（38米排气烟囱改造为“温度计”地标）；未见历史建筑或工业遗产法定认定",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "复烤仓储基地38米排气烟囱（改造为城市“温度计”地标）及基地仓储建筑；与 HBI-ES-014 利川市烟叶复烤厂旧址（滨江北路片区）的空间关系待核",
+    "technical_memory": "烟叶复烤与仓储的排烟、储运工艺设施；烟囱地标化改造的工业构筑物再利用手法",
+    "social_memory": "利川烟叶复烤产业职工与城市工业地标记忆",
+    "current_use_or_loss": "州住建局“县市联播”2026年8月报道烟囱改造“温度计”城市更新项目；改造范围与基地其他建筑处置待核"
+   },
+   "notes": "直接取自州住建局县市联播报道（A级，智能体核读）；活化项目参照层级入库，不推断法定认定；与 HBI-ES-014 的空间/隶属关系待核（防重复登记）；坐标未核验保持待核。",
+   "aliases": [
+    "利川复烤厂烟囱"
+   ],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-a3c904c87b"
    ]
   }
  ]
