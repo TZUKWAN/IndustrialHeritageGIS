@@ -586,13 +586,25 @@ OpenGIS/
 
 ### 4.1 前置依赖
 
-| 依赖 | 版本 | 必需 | 说明 |
+| 依赖 | 版本/条件 | 必需场景 | 说明 |
 |---|---|---|---|
-| Node.js | >= 18 | 是 | 前端、Electron、构建 |
-| Python | >= 3.11 | 是 | Python sidecar 和 GIS 工具 |
-| Git | 任意 | 是 | workspace snapshot / run 回滚 |
-| LLM API Key | OpenAI / Anthropic / DeepSeek / MiniMax / GLM / Ollama 等 | Agent 必需 | 地图基础功能不依赖 LLM |
-| GDAL / Rasterio 相关 wheel | 与 Python 环境匹配 | 推荐 | 栅格 / Shapefile / GeoPandas 能力 |
+| 操作系统 | Windows / macOS / Linux | 运行必需 | Electron Builder 已配置 Windows、macOS、Linux 的发行包目标 |
+| Node.js + npm | Node.js >= 18 | 源码安装、开发、构建必需 | 用于 React/Vite/Electron 依赖和桌面安装包构建 |
+| Python | >= 3.11 | Python sidecar、Agent 工具和 GIS 分析必需 | 首次启动会优先寻找系统 Python；也可以由应用自动准备独立运行时 |
+| Git | 任意较新版本 | 源码部署和 workspace 快照功能需要 | 仅运行最终安装包时通常不需要 |
+| 网络与 HTTPS | 可访问 npm/PyPI 或企业镜像 | 首次安装/首次初始化需要 | 模型 API、在线底图和外部数据工具还需要对应网络访问 |
+| LLM API Key | OpenAI / Anthropic / DeepSeek / MiniMax / GLM / Ollama 等 | Agent 智能问答需要 | 地图、内置湖北数据和基础遗产浏览不依赖 LLM |
+| GDAL / Rasterio 相关 wheel | 与 Python 版本、平台匹配 | 栅格、Shapefile、GeoPandas 分析需要 | 通常由 Python 依赖安装；二进制安装失败时建议使用 conda-forge |
+
+#### 部署形态与运行边界
+
+项目当前有三种运行方式：
+
+1. **源码桌面部署（完整功能）**：安装 Node.js、Python 后执行 `npm install`、`npm run setup:python` 和 `npm run dev:electron`。这是开发、数据更新和完整 Agent/GIS 功能验证的标准方式。
+2. **桌面安装包部署（面向使用者）**：使用构建机生成 Windows、macOS 或 Linux 安装包后，终端用户不需要 Node.js 和 Git。应用会在用户数据目录准备 Python 虚拟环境；如果找不到可用的系统 Python，会尝试下载独立 Python 运行时，因此首次启动需要可写用户目录，且通常需要网络。
+3. **浏览器预览**：`npm run dev` 只启动前端开发服务器，适合查看页面和内置静态数据；需要 Python sidecar、Agent、空间分析和完整桌面能力时必须使用 Electron 模式。
+
+项目没有配置固定公网服务端口。Electron 会为本机 FastAPI sidecar 动态寻找可用端口，并通过本机 WebSocket 与前端通信；部署环境需要允许回环通信，但不需要把后端端口暴露到公网。仓库当前也没有声明固定的 CPU、内存和磁盘最低值，实际资源消耗取决于 Electron、GIS 数据规模、栅格处理和用户运行的分析任务。
 
 ### 4.2 克隆仓库
 
@@ -628,6 +640,23 @@ Linux:   ~/.config/opengis/venv
 ```bash
 conda install -c conda-forge geopandas rasterio fiona pyproj shapely -y
 npm run setup:python
+```
+
+后端依赖由 `python-backend/pyproject.toml` 统一声明，主要包括：
+
+```text
+运行核心：FastAPI、Uvicorn、WebSockets、LiteLLM、Pydantic、orjson
+GIS 栈：GeoPandas、Rasterio、Fiona、Shapely、PyProj、NumPy、Pandas
+制图与分析：Contextily、Matplotlib、Tabulate
+完整分析可选：Whitebox、SciPy、scikit-learn、Cartopy、PySAL
+```
+
+不要在系统 Python 中手工混装这些包。优先使用 `npm run setup:python` 创建的项目虚拟环境；需要清理环境时，删除用户数据目录下的 `opengis/venv` 后重新运行初始化命令即可。典型虚拟环境位置为：
+
+```text
+Windows: %APPDATA%/opengis/venv
+macOS:   ~/Library/Application Support/opengis/venv
+Linux:   ~/.config/opengis/venv
 ```
 
 ### 4.5 启动开发模式
@@ -675,6 +704,33 @@ npm run dev:electron
 ```
 
 不同 workspace 的图层、run、operation、workflow 和 memory 独立管理。
+
+### 4.8 构建安装包与部署验收
+
+构建机完成依赖安装和 Python 环境初始化后，按目标平台执行：
+
+```bash
+npm run build       # 构建 main / preload / renderer
+npm run dist:win    # Windows：NSIS + portable
+npm run dist:mac    # macOS：DMG + ZIP
+npm run dist:linux  # Linux：AppImage + DEB
+```
+
+安装包发布前至少检查以下流程：
+
+1. 安装包能够正常启动，加载页能显示 Python ready 状态。
+2. “工业遗产”面板能加载湖北国家主表、文化档案和扩展底册；检索结果与地图详情一致。
+3. 在不配置模型的情况下，地图、内置数据、来源和本地分析仍可使用。
+4. 配置模型服务后，Settings / Model 的 Test Connection 成功，Agent 能调用 `heritage_data` 查询湖北数据。
+5. 关闭并重新打开应用后，项目配置、日志和用户数据仍能保存；用户目录没有写权限时应先修复权限或更换用户数据目录。
+
+常见部署问题：
+
+- **提示 Python backend not set up**：在源码部署中运行 `npm run setup:python`；安装包首次启动则检查用户目录写权限和网络连接。
+- **GDAL、Fiona 或 Rasterio 安装失败**：先执行上面的 conda-forge 安装，再重新运行 `npm run setup:python`。
+- **地图底图为空**：底图依赖在线瓦片服务；网络不可达时，湖北内置点位、文化档案、来源和分析数据仍可使用。
+- **Agent 无法回答**：检查 Provider、Protocol、Base URL、API Key 和 Model Name，并点击 Test Connection；这不影响本地遗产数据浏览。
+- **打包后找不到后端**：确认 `python-backend/` 已随安装包的 extraResources 一起打入，并重新执行对应平台的 `npm run dist:*`。
 
 ## 5. 开发指南
 

@@ -584,13 +584,25 @@ OpenGIS/
 
 ### 4.1 Prerequisites
 
-| Dependency | Version | Required | Description |
+| Dependency | Version / condition | Required for | Description |
 |---|---|---|---|
-| Node.js | >= 18 | Yes | Frontend, Electron, build |
-| Python | >= 3.11 | Yes | Python sidecar and GIS tools |
-| Git | Any | Yes | Workspace snapshot / run rollback |
-| LLM API Key | OpenAI / Anthropic / DeepSeek / MiniMax / GLM / Ollama, etc. | Required for Agent | Basic map features do not require LLM |
-| GDAL / Rasterio wheels | Matching Python environment | Recommended | Raster / Shapefile / GeoPandas capabilities |
+| Operating system | Windows / macOS / Linux | Runtime | Electron Builder has targets for Windows, macOS, and Linux packages |
+| Node.js + npm | Node.js >= 18 | Source install, development, and build | React/Vite/Electron dependencies and desktop packaging |
+| Python | >= 3.11 | Python sidecar, Agent tools, and GIS analysis | The app first looks for system Python and can also prepare a standalone runtime |
+| Git | Any recent version | Source deployment and workspace snapshots | Usually unnecessary for end users running a packaged app |
+| Network and HTTPS | Access to npm/PyPI or an internal mirror | First install / first initialization | Model APIs, online basemaps, and external data tools need their own access |
+| LLM API key | OpenAI / Anthropic / DeepSeek / MiniMax / GLM / Ollama, etc. | Agent chat | Maps, bundled Hubei data, and basic heritage browsing work without an LLM |
+| GDAL / Rasterio wheels | Matching Python and platform | Raster, Shapefile, and GeoPandas workflows | Normally installed through Python dependencies; use conda-forge if binary wheels fail |
+
+#### Deployment modes and boundaries
+
+The project supports three ways to run:
+
+1. **Source desktop deployment (full capability)**: install Node.js and Python, then run `npm install`, `npm run setup:python`, and `npm run dev:electron`. This is the standard path for development, data updates, and full Agent/GIS validation.
+2. **Packaged desktop deployment (end users)**: build a Windows, macOS, or Linux package on a build machine. End users do not need Node.js or Git. The app prepares a Python virtual environment in the user data directory; if no usable system Python is found, it can try to download a standalone Python runtime, so the first launch needs a writable user directory and usually network access.
+3. **Browser preview**: `npm run dev` starts only the frontend development server and is suitable for viewing the UI and bundled static data. The Electron mode is required for the Python sidecar, Agent, spatial analysis, and full desktop features.
+
+The app does not use a fixed public service port. Electron finds an available local port for the FastAPI sidecar and connects through a local WebSocket. The deployment environment must allow loopback traffic, but the backend does not need to be exposed to the public internet. The repository does not define fixed CPU, memory, or disk minimums; actual usage depends on Electron, GIS data size, raster processing, and user analysis tasks.
 
 ### 4.2 Clone the Repository
 
@@ -626,6 +638,23 @@ If GDAL, Fiona, or Rasterio fail to install on Windows / macOS, use conda for bi
 ```bash
 conda install -c conda-forge geopandas rasterio fiona pyproj shapely -y
 npm run setup:python
+```
+
+Backend dependencies are declared in `python-backend/pyproject.toml`:
+
+```text
+Runtime core: FastAPI, Uvicorn, WebSockets, LiteLLM, Pydantic, orjson
+GIS stack: GeoPandas, Rasterio, Fiona, Shapely, PyProj, NumPy, Pandas
+Mapping and analysis: Contextily, Matplotlib, Tabulate
+Optional full analysis: Whitebox, SciPy, scikit-learn, Cartopy, PySAL
+```
+
+Do not mix these packages manually into the system Python. Prefer the project virtual environment created by `npm run setup:python`. To rebuild it, remove `opengis/venv` from the user data directory and run the setup command again. Typical locations are:
+
+```text
+Windows: %APPDATA%/opengis/venv
+macOS:   ~/Library/Application Support/opengis/venv
+Linux:   ~/.config/opengis/venv
 ```
 
 ### 4.5 Start Development Mode
@@ -673,6 +702,33 @@ Use File / Open Workspace to select a project directory. OpenGIS creates `.openg
 ```
 
 Different workspaces have independent layers, runs, Operations, workflows, and memory.
+
+### 4.8 Build, package, and acceptance checks
+
+After installing dependencies and preparing the Python environment on the build machine, run the target packaging command:
+
+```bash
+npm run build       # Build main / preload / renderer
+npm run dist:win    # Windows: NSIS + portable
+npm run dist:mac    # macOS: DMG + ZIP
+npm run dist:linux  # Linux: AppImage + DEB
+```
+
+Before publishing an installer, verify at least:
+
+1. The app starts and the loading screen reaches Python ready.
+2. The Industrial Heritage panel loads the Hubei national table, cultural profiles, and extended inventory; search results match map details.
+3. Maps, bundled data, sources, and local analysis remain usable without a model configuration.
+4. After configuring a model, Settings / Model → Test Connection succeeds and the Agent can call `heritage_data` for Hubei queries.
+5. After restarting the app, project settings, logs, and user data remain writable and persistent.
+
+Common deployment issues:
+
+- **Python backend not set up**: run `npm run setup:python` for a source deployment; for an installer, check user-directory permissions and network access during first launch.
+- **GDAL, Fiona, or Rasterio installation failure**: install the packages from conda-forge, then rerun `npm run setup:python`.
+- **Missing basemap**: basemaps use online tile services; bundled Hubei points, cultural profiles, sources, and analysis data remain available offline.
+- **Agent cannot answer**: check Provider, Protocol, Base URL, API Key, and Model Name, then use Test Connection. This does not affect local heritage browsing.
+- **Backend missing after packaging**: confirm `python-backend/` is included through the package `extraResources` and rebuild with the matching `npm run dist:*` command.
 
 ## 5. Development Guide
 
