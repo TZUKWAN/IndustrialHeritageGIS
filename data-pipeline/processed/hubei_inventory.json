@@ -10734,6 +10734,33 @@
    "source_ids": [
     "src-web-77a3efc8cb"
    ]
+  },
+  {
+   "inventory_id": "HBI-SZ-013",
+   "name": "齐星公司草甸子街车间仓库建筑群（打磨、模具、冲压车间及仓库）",
+   "city": "随州市",
+   "district_county": "曾都区西城街道草甸子街",
+   "industry_category_l1": "机械制造与汽车零部件工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "拟列入随州市历史建筑名录（2025年8月5日市自然资源和城乡建设局征求意见公示，曾都区30处之编号1、2、3、4、7；公示层级，正式公布待跟踪）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "名录档案表载明5栋砖混建筑：1号打磨车间（273平方米）、2号模具车间、3号仓库、4号职工仓库、7号冲压车间（草甸子街东面，产权齐星公司）；各栋建筑面积与设备留存待现场测绘",
+    "technical_memory": "齐星集团（随州汽车车身与专用车制造企业）钣金冲压、打磨、模具加工车间组群，反映汽车零部件配套生产的工艺布局；80年代建、2024年修缮",
+    "social_memory": "齐星公司职工生产记忆与草甸子街老城工业街区记忆；车间现作为非遗产品展示空间，工业遗存与非遗活化叠加",
+    "current_use_or_loss": "修缮后作为非遗产品展示使用，工业骨架保存于展示空间内；拟列入名录公示后正式认定、保护范围与活化边界待跟踪核验"
+   },
+   "notes": "直接取自市自然资源和城乡建设局征求意见公示附件docx逐栋档案表（A级，已下载解析）；公示层级不等于正式公布，record_status 的 source_confirmed 指档案表来源确凿；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "齐星公司打磨车间",
+    "齐星公司模具车间",
+    "齐星公司冲压车间"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-e93178cdb6"
+   ]
   }
  ]
 }
