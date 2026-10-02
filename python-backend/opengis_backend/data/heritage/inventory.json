@@ -1871,7 +1871,7 @@
    "recognition_status": "来源确认候选",
    "record_status": "source_confirmed",
    "geocode_status": "pending",
-   "notes": "沙市洋码头核心老厂房，官方报道记录工业遗产肌理和改造后的沙市记忆展馆；需补建成年代、仓储流程和建筑清单。",
+   "notes": "沙市洋码头核心老厂房，官方报道记录工业遗产肌理和改造后的沙市记忆展馆；需补建成年代、仓储流程和建筑清单。2019年荆州市中心城区100处历史建筑名录第5-8项将沙市打包厂建筑群南北主楼、经理楼、物料仓库、动力车间4栋单体列为市级历史建筑（荆州日报/澎湃转载全文核读）。",
    "cultural_evidence": {
     "material_carriers": "1927年打包厂、两主楼、红砖外墙、夹丝玻璃、消防/喷淋设备和50余处老建筑",
     "technical_memory": "棉花打包、港口仓储和沿江装卸物流组织",
@@ -1881,6 +1881,7 @@
    "source_ids": [
     "src-web-649dfcd57d",
     "src-web-bb92da21bb",
+    "src-web-cac82586cd",
     "src-web-f05dd50476"
    ]
   },
@@ -10369,6 +10370,100 @@
    "asset_kind": "industrial_utility_site",
    "source_ids": [
     "src-web-6df650b836"
+   ]
+  },
+  {
+   "inventory_id": "HBI-JZ-019",
+   "name": "白云机电建筑群",
+   "city": "荆州市",
+   "district_county": "沙市区",
+   "industry_category_l1": "机械制造工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "荆州市中心城区历史建筑（2019年9月30日市政府公布100处名录第11-19项，共9栋）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "名录载明9栋：办公大楼、西区一号厂房、西区二号联排厂房、西区三号厂房、中区一号厂房、中区二号厂房、中区三号厂房、东区一号厂房、北区联排厂房；各栋跨度、结构与企业全称待现场测绘与厂志核验",
+    "technical_memory": "白云机电的机械制造厂房群按西、中、东、北区分区布局，反映原地规模化机械工业的生产组织；产品谱系与停产沿革待补",
+    "social_memory": "白云机电职工与沙市机械工业街区记忆",
+    "current_use_or_loss": "以中心城区历史建筑身份纳入保护体系；厂区现状用途待核"
+   },
+   "notes": "直接取自2019年市政府100处名录（荆州日报/澎湃转载全文核读）；转载来源为B级，通知主体为市政府；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "白云机电"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-cac82586cd"
+   ]
+  },
+  {
+   "inventory_id": "HBI-JZ-020",
+   "name": "供电公司建筑群（办公楼、仓库）",
+   "city": "荆州市",
+   "district_county": "沙市区",
+   "industry_category_l1": "电力能源",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "荆州市中心城区历史建筑（2019年9月30日市政府公布100处名录第9-10项，共2栋）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "供电公司办公楼与仓库2栋；建造年代与结构待现场测绘",
+    "technical_memory": "沙市电力供应体系的经营与仓储设施；与永耀电灯公司（宜昌）、汉口电灯公司共同构成湖北电力工业城市谱系的荆州节点",
+    "social_memory": "供电职工与城市照明记忆",
+    "current_use_or_loss": "以中心城区历史建筑身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自2019年市政府100处名录（转载全文核读）；名录未载具体门牌与年代；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-cac82586cd"
+   ]
+  },
+  {
+   "inventory_id": "HBI-JZ-021",
+   "name": "荆州粮食加工厂稻谷圆库",
+   "city": "荆州市",
+   "district_county": "荆州区",
+   "industry_category_l1": "粮食加工工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "荆州市中心城区历史建筑（2019年9月30日市政府公布100处名录第49项）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "稻谷圆库（立式圆筒粮仓）建筑本体；容量、个数与结构待现场测绘",
+    "technical_memory": "圆筒仓是粮食加工厂散粮储存的典型构筑物，代表机械化粮食加工的仓储环节",
+    "social_memory": "荆州粮食加工与江汉平原稻米集散记忆",
+    "current_use_or_loss": "以中心城区历史建筑身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自2019年市政府100处名录（转载全文核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_storage_site",
+   "source_ids": [
+    "src-web-cac82586cd"
+   ]
+  },
+  {
+   "inventory_id": "HBI-JZ-022",
+   "name": "沙市修防处办公大楼旧址",
+   "city": "荆州市",
+   "district_county": "沙市区",
+   "industry_category_l1": "水利工程与泵站",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "荆州市中心城区历史建筑（2019年9月30日市政府公布100处名录第92项）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "修防处办公大楼旧址建筑本体；建造年代与结构待现场测绘",
+    "technical_memory": "长江荆江段堤防修防管理机构（修防处）的办公指挥设施，承载荆江大堤防洪工程建设管理记忆；与荆江分洪闸（HBI-JZ-005）同属荆江水利脉络",
+    "social_memory": "修防职工与沿江居民防洪保安全集体记忆",
+    "current_use_or_loss": "以中心城区历史建筑身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自2019年市政府100处名录（转载全文核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-cac82586cd"
    ]
   }
  ]
