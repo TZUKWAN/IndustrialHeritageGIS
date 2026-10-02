@@ -151,13 +151,13 @@
    "recognition_status": "湖北省第二批省级工业遗产（2025年度）",
    "record_status": "source_confirmed",
    "geocode_status": "pending",
-   "notes": "郧阳网报道确认云盖寺绿松石矿入选2025年度湖北省工业遗产名单，并记录明代以来开采史、绿松石文化和矿山公园的博物馆、文创中心、游客服务中心与民宿体验。工业遗产核心矿坑、巷道、选矿设施和矿权边界仍需专业测绘与安全核验。",
+   "notes": "湖北省第二批省级工业遗产（2025年度）与2024年十堰市历史建筑名录双身份对象；名录第101-103项为矿区建筑提供市级历史建筑保护身份。坐标未核验保持待核。",
    "aliases": [
     "云盖寺绿松石矿",
     "郧阳云盖寺矿山公园"
    ],
    "cultural_evidence": {
-    "material_carriers": "云盖寺矿山矿脉、采掘地貌、矿坑/巷道及矿山公园博物馆、文创中心和游客服务设施；报道未给出完整核心物项清单，保留待核标记",
+    "material_carriers": "云盖寺矿山矿脉、采掘地貌、矿坑/巷道及矿山公园博物馆、文创中心和游客服务设施；2024年十堰市历史建筑名录（十政发〔2024〕10号）第101-103项载明矿区工艺厂房、办公区、宿舍三处建筑（鲍峡镇云盖寺村）；完整核心物项清单仍待申报材料复核",
     "technical_memory": "明代以来绿松石开采、矿脉识别、采掘和宝石加工技术传统；现代工业化开采设备与工艺谱系待补档案",
     "social_memory": "郧阳绿松石产地身份、矿工与工匠、宝石贸易和‘东方绿宝石’地方文化记忆；矿山公园以展示和体验方式对外解释",
     "current_use_or_loss": "矿山已转型为集工业遗产展示、生态旅游和文化体验于一体的矿山公园；开放线路、矿坑安全边界和持续保护主体待核"
@@ -165,6 +165,7 @@
    "source_ids": [
     "src-web-3bdc8add96",
     "src-web-b408439ba7",
+    "src-web-b719716ca6",
     "src-web-d9e181dfac"
    ]
   },
@@ -2919,7 +2920,7 @@
     "social_memory": "车厢厂职工、家庭和四四厂城市生活记忆；厂志和老职工口述保留1969年百二河畔建厂、芦席棚、马灯和干打垒等三线建设记忆",
     "current_use_or_loss": "四四厢遇创意街区，需继续记录原构件和改造边界；2021年整体搬迁，部分旧厂区用于城市工程，报道同时记载核心区域拟建工业遗产博物馆或文创产业园"
    },
-   "notes": "高校现场调研和省自然资源厅报道均确认44厂（二汽车厢厂）旧址；1969年建厂、2021年搬迁后保留车间桁架和斑驳墙面并活化为四四厢遇街区；十堰广播电视台进一步记录44厂厂志和老职工口述：厂内水井、芦席棚、三座近9米液压机、94吨底漆电泳槽、124米红外线烘干室和冲压机等物项；2021年整体搬迁后部分厂区面临城市工程，核心区域拟保护开发。",
+   "notes": "高校现场调研和省自然资源厅报道均确认44厂（二汽车厢厂）旧址；1969年建厂、2021年搬迁后保留车间桁架和斑驳墙面并活化为四四厢遇街区；十堰广播电视台进一步记录44厂厂志和老职工口述：厂内水井、芦席棚、三座近9米液压机、94吨底漆电泳槽、124米红外线烘干室和冲压机等物项；2021年整体搬迁后部分厂区面临城市工程，核心区域拟保护开发。2024年十堰市历史建筑名录（十政发〔2024〕10号）第20项“四四厂旧址”（茅箭区二堰街道朝阳南路10号）与本条44厂（二汽车厢厂，茅箭区）对象对应，提供市级历史建筑保护身份。",
    "aliases": [
     "44厂",
     "四四厂",
@@ -2928,7 +2929,8 @@
    "source_ids": [
     "src-web-1cf4392055",
     "src-web-36a14124c2",
-    "src-web-b3fd63cfef"
+    "src-web-b3fd63cfef",
+    "src-web-b719716ca6"
    ]
   },
   {
@@ -9403,6 +9405,182 @@
    "asset_kind": "industrial_utility_site",
    "source_ids": [
     "src-web-0324de59f3"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-030",
+   "name": "郧阳区原食用油加工厂建筑群",
+   "city": "十堰市",
+   "district_county": "郧阳区城关镇北门社区",
+   "industry_category_l1": "传统油料加工",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "十堰市历史建筑（十政发〔2024〕10号2024年度名录第94-100项：原食用油加工厂1-4号车间、1-2号仓库、办公楼）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "名录载明7处单体：1-4号车间、1号仓库、2号仓库、办公楼，均位于城关镇北门社区；单体建筑面积、结构与保存状态待现场测绘",
+    "technical_memory": "县城食用油加工的车间、仓储与办公功能分区完整，代表计划经济时期县域粮油加工体系的工艺布局；加工设备与工艺档案待补",
+    "social_memory": "郧阳县城粮油供应与职工生产记忆；厂区改制后沿革与职工口述待采集",
+    "current_use_or_loss": "以2024年历史建筑身份纳入十堰市保护体系，市住房和城市更新局会同属地政府负责保护利用；现状用途与活化方向待核"
+   },
+   "notes": "直接取自十政发〔2024〕10号附件名录表（2024-12-15郧西县政府网转载页实读）；历史建筑保护不等于文物保护单位或工业遗产法定认定；建筑本体保存状况与产权待核；坐标未核验保持待核。",
+   "aliases": [
+    "郧县原食用油加工厂"
+   ],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-b719716ca6"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-031",
+   "name": "梨花村酒厂老厂区建筑群（一号、二号车间及谷壳仓库）",
+   "city": "十堰市",
+   "district_county": "郧阳区大柳乡杨家村",
+   "industry_category_l1": "酿酒工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "十堰市历史建筑（十政发〔2024〕10号2024年度名录第72-74项：梨花村酒厂一号车间、二号车间、谷壳仓库）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "名录载明3处单体：一号车间、二号车间、谷壳仓库，均位于大柳乡杨家村二组378号；建筑面积与保存状态待现场测绘",
+    "technical_memory": "白酒酿造车间与谷壳辅料仓储的功能组合，记录郧阳地方酿酒工业的原料处理与生产布局；酿造工艺与设备谱系待厂志补充",
+    "social_memory": "梨花村酒为郧阳地方名酒，老厂区承载地方白酒产业与职工记忆；企业沿革与口述史待采集",
+    "current_use_or_loss": "以2024年历史建筑身份纳入保护体系；老厂区现用途（停产/转产/活化）待核"
+   },
+   "notes": "直接取自十政发〔2024〕10号附件名录表；历史建筑保护不等于文物保护单位或工业遗产法定认定；与现梨花村酒业生产经营厂区的关系待核；坐标未核验保持待核。",
+   "aliases": [
+    "梨花村酒厂一号车间",
+    "梨花村酒厂二号车间",
+    "梨花村酒厂谷壳仓库"
+   ],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-b719716ca6"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-032",
+   "name": "23厂老办公楼与工人俱乐部（含马灯精神教育馆）",
+   "city": "十堰市",
+   "district_county": "张湾区车城西路、大炉子沟",
+   "industry_category_l1": "三线军工工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "十堰市历史建筑（十政发〔2024〕10号2024年度名录第54-57项：23厂退休办老办公楼、23厂老办公楼、马灯精神教育馆、23厂工人俱乐部）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "名录载明4处单体：车城西路140号23厂老办公楼与退休办老办公楼，大炉子沟路5号马灯精神教育馆与23厂工人俱乐部；建筑年代与结构待现场测绘",
+    "technical_memory": "三线建设时期专业厂办公与工人文化建筑的形制与建造工艺；23厂企业全称与产品谱系待档案核验",
+    "social_memory": "二汽专业厂职工的办公、文娱与马灯精神传统——马灯精神教育馆延续三线建设者艰苦创业记忆",
+    "current_use_or_loss": "以2024年历史建筑身份纳入保护体系；马灯精神教育馆已承担展教功能，其余建筑现状用途待核"
+   },
+   "notes": "直接取自十政发〔2024〕10号附件名录表；名录仅以代号“23厂”表述，企业全称与沿革待十堰厂志/档案核验后补注；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "23厂工人俱乐部",
+    "马灯精神教育馆",
+    "23厂老办公楼"
+   ],
+   "asset_kind": "industrial_social_site",
+   "source_ids": [
+    "src-web-b719716ca6"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-033",
+   "name": "25厂原厂房（含二五厂半山公园）",
+   "city": "十堰市",
+   "district_county": "张湾区东岳路",
+   "industry_category_l1": "三线军工工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "十堰市历史建筑（十政发〔2024〕10号2024年度名录第46、48项：25厂原厂房、二五厂半山公园）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "名录载明东岳路96号25厂原厂房与东岳路100号二五厂半山公园；厂房结构、规模与公园工业元素待现场测绘",
+    "technical_memory": "三线时期专业厂房的空间形制；25厂企业全称与产品谱系待档案核验",
+    "social_memory": "专业厂职工生产生活记忆；半山公园为厂区工业景观与职工休闲记忆的当代延续",
+    "current_use_or_loss": "以2024年历史建筑身份纳入保护体系；厂房现用途与公园开放状态待核"
+   },
+   "notes": "直接取自十政发〔2024〕10号附件名录表；名录仅以代号“25厂”表述，企业全称待厂志核验；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "二五厂半山公园",
+    "25厂原厂房"
+   ],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-b719716ca6"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-034",
+   "name": "大川镇麻纤厂旧址",
+   "city": "十堰市",
+   "district_county": "茅箭区大川镇大川村",
+   "industry_category_l1": "纺织工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "十堰市历史建筑（十政发〔2024〕10号2024年度名录第11项：大川镇麻纤厂旧址）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "麻纤（麻纺织）生产厂旧址，位于大川镇大川村一组；建筑遗存范围与保存状态待现场测绘",
+    "technical_memory": "县域麻纤维加工与纺织的原料工艺传统；设备与工艺档案待补",
+    "social_memory": "山区乡镇社队/集体工业的生产者记忆；建厂与停产年代待地方志核验",
+    "current_use_or_loss": "以2024年历史建筑身份纳入保护体系；现状用途与保存边界待核"
+   },
+   "notes": "直接取自十政发〔2024〕10号附件名录表；历史建筑保护不等于文物保护单位或工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-b719716ca6"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-035",
+   "name": "原十堰市第二砖瓦厂职工住房",
+   "city": "十堰市",
+   "district_county": "张湾区西城路",
+   "industry_category_l1": "建材工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "十堰市历史建筑（十政发〔2024〕10号2024年度名录第45项：原十堰市第二砖瓦厂职工住房）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "原市第二砖瓦厂职工住房（西城路88号里）；栋数、形制与保存状态待现场测绘",
+    "technical_memory": "砖瓦建材企业自建职工住房的建造形制，与砖瓦生产工业社区配套传统",
+    "social_memory": "砖瓦厂职工与家属的居住社区记忆；企业沿革与职工口述待采集",
+    "current_use_or_loss": "以2024年历史建筑身份纳入保护体系；居住使用现状与修缮计划待核"
+   },
+   "notes": "直接取自十政发〔2024〕10号附件名录表；历史建筑保护不等于文物保护单位或工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_residential_landscape",
+   "source_ids": [
+    "src-web-b719716ca6"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-036",
+   "name": "京能东风大烟囱",
+   "city": "十堰市",
+   "district_county": "张湾区车城西路",
+   "industry_category_l1": "火力发电",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "十堰市历史建筑（十政发〔2024〕10号2024年度名录第53项：京能东风大烟囱）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "热电联产大烟囱（车城西路68号），十堰东风工业天际线标志性构筑物；高度、建造年代与结构待现场测绘",
+    "technical_memory": "东风公司自备热电与集中供热系统的工程技术记忆；烟囱所属电厂沿革与设备档案待补",
+    "social_memory": "“十里车城”供热供电与职工生活的共同记忆标志物",
+    "current_use_or_loss": "以2024年历史建筑身份纳入保护体系；所属京能东风热电设施运行/退役状态与烟囱在用情况待核"
+   },
+   "notes": "直接取自十政发〔2024〕10号附件名录表；历史建筑保护不等于文物保护单位或工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "东风大烟囱"
+   ],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-b719716ca6"
    ]
   }
  ]
