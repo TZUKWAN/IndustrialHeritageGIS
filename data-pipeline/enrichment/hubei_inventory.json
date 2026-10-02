@@ -2728,6 +2728,15 @@
       "url": "http://www.yunxi.gov.cn/xxgk/fdzdgk/zdmsxx/jdzf/202412/t20241215_4658818.shtml",
       "authority": "A",
       "notes": "十政发〔2024〕10号确定嘉庆桥、胡家大院等104处建筑为十堰市历史建筑并附完整名录表：含大川镇麻纤厂旧址（11）、四四厂旧址（20，茅箭区二堰街道朝阳南路10号）、102三团土楼旧址（21）、工人文化宫（22）、五一厂电影院旧址（31）、十堰工厂羽毛球馆（33）、原十堰市第二砖瓦厂职工住房（45）、25厂原厂房（46）、二五厂半山公园（48）、技术中心办公楼（49）、京能东风大烟囱（53）、23厂退休办老办公楼（54）、23厂老办公楼（55）、马灯精神教育馆（56）、23厂工人俱乐部（57）、余河村老供销社仓库（71）、梨花村酒厂一号/二号车间与谷壳仓库（72-74）、冻青沟村老供销社（92）、原食用油加工厂1-4号车间/1-2号仓库/办公楼（94-100）、原云盖寺绿松石矿区工艺厂房/办公区/宿舍（101-103）、郧阳汉江公路大桥（104）。"
+    },
+    "xiaogan_heritage_buildings_2021": {
+      "source_type": "municipal_government_notice",
+      "title": "孝感市人民政府关于公布孝感市第一批优秀历史建筑名录的通知（孝感政发〔2021〕7号）",
+      "org": "孝感市人民政府门户网站",
+      "pub_date": "2021-12-21",
+      "url": "https://www.xiaogan.gov.cn/c/www/gfxwj/221399.jhtml",
+      "authority": "A",
+      "notes": "孝感政发〔2021〕7号公布56处第一批优秀历史建筑并附PDF名录表（扫描件已下载逐页视觉核读，本地存档 raw/xiaogan_heritage_2021/）：第25项城隍潭码头遗址（市直，省保）、第27项北泾咀泵站（孝南，县保）、第51项陡山渡槽（孝昌，县保）、第54项青山口渡槽（孝昌，登记文物点）；另含人民公社/礼堂旧址（13、28、29）等年代史迹。"
     }
   },
   "records": [
@@ -8116,7 +8125,8 @@
         "hubei_provincial_relics_1098",
         "hubei_8th_relics_2021",
         "hubei_chenghuang_boundary_2024",
-        "xiaogan_chenghuang_2022"
+        "xiaogan_chenghuang_2022",
+        "xiaogan_heritage_buildings_2021"
       ],
       "cultural_evidence": {
         "material_carriers": "老澴河石砌码头、石矶、石阶、车辙印痕、驳岸和周边水陆衔接空间；省政府公报已给出保护范围方向，细部遗存待测绘",
@@ -8124,7 +8134,7 @@
         "social_memory": "孝感老城商贾、船队、挑夫、麻糖米酒等地方产业与城隍潭码头相互塑造的城市记忆；商号、船队和口述史可继续补证",
         "current_use_or_loss": "省级文保身份、保护范围和考古发掘已确认；遗址公园、展示工程、岸线安全和开放管理需按最新资料复核"
       },
-      "notes": "省政府公报确认孝南区城隍潭码头遗址为第八批省级文物保护单位，后续公报明确保护范围和建设控制地带；湖北日报报道记录2020年考古发掘、明清交通枢纽功能和保护利用工程。本条合并名录简名与考古报道名称，作为水运基础设施与城市工业文化景观纳入底册。",
+      "notes": "省政府公报确认孝南区城隍潭码头遗址为第八批省级文物保护单位，后续公报明确保护范围和建设控制地带；湖北日报报道记录2020年考古发掘、明清交通枢纽功能和保护利用工程。本条合并名录简名与考古报道名称，作为水运基础设施与城市工业文化景观纳入底册。孝感政发〔2021〕7号第一批优秀历史建筑名录第25项（扫描件核读）将城隍潭码头遗址列为市级优秀历史建筑（文物级别标注省保），补充市级优秀历史建筑身份。",
       "aliases": [
         "城隍潭码头旧址",
         "孝感城隍潭码头",
@@ -12451,6 +12461,75 @@
       "notes": "直接取自十政发〔2024〕10号附件名录表；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
       "aliases": [],
       "asset_kind": "industrial_trade_site"
+    },
+    {
+      "inventory_id": "HBI-XG-014",
+      "name": "北泾咀泵站",
+      "city": "孝感市",
+      "district_county": "孝南区",
+      "industry_category_l1": "水利工程与泵站",
+      "recognition_level": "county_relic_related",
+      "recognition_status": "孝感市第一批优秀历史建筑（孝感政发〔2021〕7号名录第27项）；县级文物保护单位",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "xiaogan_heritage_buildings_2021"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "泵站建筑与设备本体（孝南区）；机组型号、装机与站房结构待现场测绘",
+        "technical_memory": "府澴河流域农田排灌泵站的机电提水技术记忆；建站年代与工程档案待补",
+        "social_memory": "孝南平原湖区排涝保丰收的集体记忆与泵站职工运行值守传统",
+        "current_use_or_loss": "以县保与市级优秀历史建筑双重身份纳入保护体系；在用/退役状态与保护范围待核"
+      },
+      "notes": "直接取自孝感政发〔2021〕7号附件名录表第27项（扫描件视觉核读）；名录未载建站年代与机组参数；坐标未核验保持待核。",
+      "aliases": [],
+      "asset_kind": "industrial_utility_site"
+    },
+    {
+      "inventory_id": "HBI-XG-015",
+      "name": "陡山渡槽",
+      "city": "孝感市",
+      "district_county": "孝昌县",
+      "industry_category_l1": "水利工程与泵站",
+      "recognition_level": "county_relic_related",
+      "recognition_status": "孝感市第一批优秀历史建筑（孝感政发〔2021〕7号名录第51项）；县级文物保护单位",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "xiaogan_heritage_buildings_2021"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "渡槽建筑本体（孝昌县）；长度、跨径、结构形式与保存状态待现场测绘",
+        "technical_memory": "丘陵灌区渡槽输水工程技术，代表农业水利建设时期的架空输水构造工艺；建设年代与灌区档案待补",
+        "social_memory": "灌区乡镇农业灌溉与水利建设者的集体记忆",
+        "current_use_or_loss": "以县保与市级优秀历史建筑双重身份纳入保护体系；在用/停用状态与保护范围待核"
+      },
+      "notes": "直接取自孝感政发〔2021〕7号附件名录表第51项（扫描件视觉核读）；与咸宁八燕渡槽、大市渡槽（HBI-XN-002/003）同为鄂渡槽水利遗存记录模式；坐标未核验保持待核。",
+      "aliases": [],
+      "asset_kind": "industrial_utility_site"
+    },
+    {
+      "inventory_id": "HBI-XG-016",
+      "name": "青山口渡槽",
+      "city": "孝感市",
+      "district_county": "孝昌县",
+      "industry_category_l1": "水利工程与泵站",
+      "recognition_level": "county_relic_related",
+      "recognition_status": "孝感市第一批优秀历史建筑（孝感政发〔2021〕7号名录第54项）；登记文物点",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "xiaogan_heritage_buildings_2021"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "渡槽建筑本体（孝昌县）；长度、结构形式与保存状态待现场测绘",
+        "technical_memory": "丘陵灌区渡槽输水工程技术；建设年代与所属灌区待核",
+        "social_memory": "当地农业灌溉与水利建设记忆",
+        "current_use_or_loss": "以登记文物点与市级优秀历史建筑身份纳入保护体系（登记文物点为未定级文物）；在用/停用状态待核"
+      },
+      "notes": "直接取自孝感政发〔2021〕7号附件名录表第54项（扫描件视觉核读）；名录标注其为登记文物点（未定级）；坐标未核验保持待核。",
+      "aliases": [],
+      "asset_kind": "industrial_utility_site"
     }
   ]
 }

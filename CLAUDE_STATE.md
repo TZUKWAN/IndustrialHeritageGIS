@@ -13,12 +13,12 @@
 - 国家原始名单重新解析后共 265 条原始记录、265 条当前处理记录；第一批 XLS 中“汉冶萍公司--大冶铁厂”是空序号续行，已修复 parse_raw.py 以识别完整续行，不再漏掉该湖北对象。
 - 公开湖北国家主表当前为 13 处，含 HER-0127dfd1ca78 汉冶萍公司--大冶铁厂；官方来源明确湖北有 13 处国家工业遗产。
 - data-pipeline/enrichment/hubei_cultural_profiles.json 当前有 13 份文化档案；5 份 documented、8 份 baseline；每份至少四维文化字段和来源边界。
-- 全省扩展底册 data-pipeline/enrichment/hubei_inventory.json 当前 394 条、300 个原始来源键：370 条 source_confirmed，24 条 source_lead（十堰模具、车轮、泵业资料对象、神农架断江坪伐木队、沙市三厂、湖北省空压机厂、宜都矿山机械厂、罗田/英山缫丝对象、荆州机床厂、蕲春湖北链条厂等仍为待核线索）。第一轮目标下限为 170 条，当前已超过；309 条含四项来源约束文化证据，覆盖 17 个地市/林区。
+- 全省扩展底册 data-pipeline/enrichment/hubei_inventory.json 当前 397 条、301 个原始来源键：373 条 source_confirmed，24 条 source_lead（十堰模具、车轮、泵业资料对象、神农架断江坪伐木队、沙市三厂、湖北省空压机厂、宜都矿山机械厂、罗田/英山缫丝对象、荆州机床厂、蕲春湖北链条厂等仍为待核线索）。第一轮目标下限为 170 条，当前已超过；312 条含四项来源约束文化证据，覆盖 17 个地市/林区。
 - 第二轮新增迁移脚本 data-pipeline/scripts/add_inventory_wave_20261002_b.py：新增 29 条、15 个来源，并更新 7 条既有对象的来源/文化证据；脚本可重复运行，已运行两次未产生冲突。
 - 第二轮重点：大冶铁矿七类组成项、华新档案/五羊巷/湿法回转窑、汉冶萍档案、华中钢铁档案、荆江分洪档案、沙市洋码头、武汉 606/四美塘/小龟山/汉江湾、随州七个工业史企业线索、应城石膏档案、宜都茶厂档案和宜都三线建设档案。
-- 最近一次 build_enrichment.py：672 events / 144 relations / 521 全国网络来源 / 265 enriched sites / 394 inventory。
+- 最近一次 build_enrichment.py：672 events / 144 relations / 522 全国网络来源 / 265 enriched sites / 397 inventory。
 - 最近一次 analysis.py：湖北 ANN n=13、R=0.6799、z=-2.21；Moran's I 因单省级单元不适用；KDE 59×67。
-- 最近一次导出 export_frontend.py：公开包 13 sites、41 events、10 relations、289 sources、13 cultural profiles、394 inventory；原始底册有300个来源键，其中370条扩展记录为来源确认层级，24条为来源线索，158条达到名录认定统计口径，309条含四项文化证据；前后端数据副本已做一致性核对。
+- 最近一次导出 export_frontend.py：公开包 13 sites、41 events、10 relations、290 sources、13 cultural profiles、397 inventory；原始底册有301个来源键，其中373条扩展记录为来源确认层级，24条为来源线索，158条达到名录认定统计口径，312条含四项文化证据；前后端数据副本已做一致性核对。
 - 最近一次数据管线测试：python -m pytest data-pipeline/tests -q 通过 52/52。测试曾因既有武钢文化档案引用不存在的 src-web-c3e277960b 失败，已替换为现存的青山区政府来源 src-web-2dc5e1e716 并复测通过。
 - 2026-10-02 部署文档已补充到 README.zh.md 和 README.md：明确 Windows/macOS/Linux 支持、Node.js/Python/Git/网络/LLM/GDAL 条件，区分源码桌面部署、安装包部署和浏览器预览，记录动态本机端口、Python 虚拟环境路径、打包命令、发布验收清单和常见故障处理；本轮仅改文档，未改变代码和数据。
 - 已通过：python -m py_compile data-pipeline/scripts/parse_raw.py data-pipeline/scripts/analysis.py data-pipeline/scripts/build_enrichment.py data-pipeline/scripts/add_inventory_wave_20261002.py data-pipeline/scripts/add_inventory_wave_20261002_b.py data-pipeline/scripts/add_inventory_wave_20261002_c.py data-pipeline/scripts/add_inventory_wave_20261002_d.py data-pipeline/scripts/add_inventory_wave_20261002_e.py data-pipeline/scripts/add_inventory_wave_20261002_f.py data-pipeline/scripts/add_inventory_wave_20261002_g.py data-pipeline/scripts/add_inventory_wave_20261002_h.py data-pipeline/scripts/add_inventory_wave_20261002_i.py data-pipeline/scripts/add_inventory_wave_20261002_j.py data-pipeline/scripts/add_inventory_wave_20261002_k.py data-pipeline/scripts/add_inventory_wave_20261002_l.py data-pipeline/scripts/add_inventory_wave_20261002_m.py data-pipeline/scripts/add_inventory_wave_20261002_n.py data-pipeline/scripts/add_inventory_wave_20261002_o.py data-pipeline/scripts/add_inventory_wave_20261002_p.py data-pipeline/scripts/add_inventory_wave_20261002_q.py data-pipeline/scripts/add_inventory_wave_20261002_r.py data-pipeline/scripts/add_inventory_wave_20261002_s.py data-pipeline/scripts/add_inventory_wave_20261002_x.py data-pipeline/scripts/add_inventory_wave_20261002_y.py data-pipeline/scripts/add_inventory_wave_20261002_z.py data-pipeline/scripts/add_inventory_wave_20261002_aa.py data-pipeline/scripts/add_inventory_wave_20261002_ab.py data-pipeline/scripts/add_inventory_wave_20261002_ac.py data-pipeline/scripts/add_inventory_wave_20261002_ad.py data-pipeline/scripts/add_inventory_wave_20261002_ae.py data-pipeline/scripts/add_inventory_wave_20261002_af.py data-pipeline/scripts/add_inventory_wave_20261002_ag.py data-pipeline/scripts/add_inventory_wave_20261002_ah.py data-pipeline/scripts/add_inventory_wave_20261002_ai.py data-pipeline/scripts/add_inventory_wave_20261002_aj.py data-pipeline/scripts/add_inventory_wave_20261002_ak.py data-pipeline/scripts/add_inventory_wave_20261002_al.py data-pipeline/scripts/add_inventory_wave_20261002_am.py data-pipeline/scripts/add_inventory_wave_20261002_an.py data-pipeline/scripts/add_inventory_wave_20261002_ao.py data-pipeline/scripts/add_inventory_wave_20261002_ap.py data-pipeline/scripts/add_inventory_wave_20261002_aq.py data-pipeline/scripts/add_inventory_wave_20261002_aq2.py。
@@ -38,6 +38,7 @@
 - 第四十七轮（wave au，2026-10-03）聚焦最薄弱市州仙桃（7条→8条）：实读中国仙桃网2024-07-12历史建筑挂牌调查报道（市住房和城市更新局2024-07-09对认定公示的32处历史建筑实地挂牌）——①新增 HBI-XT-008 合心水塔（沙湖原种场火脑沟分场，1991年始建，曾供7个村民小组生活用水，现停用但塔体完好；municipal_historical_building）；②补强 HBI-XT-007 大垸子—沙湖泵站老旧水利设施群：material_carriers 与 notes 补入沙湖泵站通顺河节制闸（始建于1974年、至今汛期正常使用），节制闸是否属32处挂牌名单报道未明示、待官方名单核对。省档案馆站内 /search 为全站新闻检索、与开放档案目录（searchitembykey/207_8.jspx 按页浏览）不互通，第3518页为农机制度类档案无新厂矿题名。底册 380→381 条、来源 298→299 键。
 - 第四十八轮（wave av，2026-10-03）实读十堰市政府《关于公布2024年度104处历史建筑名录的通知》（十政发〔2024〕10号，2024-08-01，郧西县政府网转载页附完整名录表）——新增7条十堰历史建筑工业对象：郧阳区原食用油加工厂建筑群（名录94-100，7处单体）、梨花村酒厂老厂区建筑群（72-74）、23厂老办公楼与工人俱乐部含马灯精神教育馆（54-57，企业全称待厂志核验）、25厂原厂房含二五厂半山公园（46/48）、大川镇麻纤厂旧址（11）、原十堰市第二砖瓦厂职工住房（45）、京能东风大烟囱（53）；补强2条：HBI-PROV-005 云盖寺绿松石矿获名录101-103（矿区工艺厂房/办公区/宿舍）市级历史建筑双身份，HBI-SY-007 44厂旧址对应名录第20项“四四厂旧址”（茅箭区二堰街道朝阳南路10号）。名录中尚未入库的对象（五一厂电影院旧址31、十堰工厂羽毛球馆33、102三团土楼21、工人文化宫22、技术中心办公楼49、余河村老供销社仓库71、冻青沟村老供销社92等）留待下批。底册 381→388 条、来源 299→300 键。GitHub 推送于第47-48轮间遭遇 TLS 通道中断（github.com 不可达、baidu 正常），本地提交保持，待通道恢复后推送。
 - 第四十九轮（wave aw，2026-10-03）完成十堰104处名录第二批6条（同一 A 级来源 shiyan_heritage_buildings_2024，复用第48轮来源键）：五一厂电影院旧址与十堰工厂羽毛球馆（31/33，黑龙江路9号同址）、102三团土楼旧址（21，三线施工建制语境待档案核验）、茅箭工人文化宫（22）、东风技术中心办公楼（49，车城西路4号）、余河村老供销社仓库（71）、冻青沟村老供销社（92）——编号 HBI-SY-037~042。至此十政发〔2024〕10号名录中工业及相关对象已全部入库（四四厂旧址、云盖寺矿区建筑经补强并入既有记录）。GitHub 通道已恢复，第47-48轮提交（86e8928、a8c4d3d）已推送并核对远端一致。底册 388→394 条。
+- 第五十轮（wave ax，2026-10-03）扩展孝感（14条→17条）：下载并逐页视觉核读孝感政发〔2021〕7号《孝感市第一批优秀历史建筑名录》扫描件PDF全表（56处，孝感市政府官网附件，本地存档 raw/xiaogan_heritage_2021/）——新增3条水利对象：北泾咀泵站（孝南，名录27，县保）、陡山渡槽（孝昌，名录51，县保）、青山口渡槽（孝昌，名录54，登记文物点），均 county_relic_related；补强 HBI-XG-010 城隍潭码头遗址（名录25，省保）获市级优秀历史建筑身份。名录中红旗人民公社旧址（13）、裕丰公社礼堂（28）、旧港人民公社旧址（29）为公社年代史迹，生产性边界未明示，暂不入库待生产性证据。底册 394→397 条、来源 300→301 键。
 
 ## 关键文件
 
@@ -93,6 +94,7 @@
 - 增量脚本：data-pipeline/scripts/add_inventory_wave_20261003_au.py（第四十七轮仙桃合心水塔新增（1991年水塔、2024年历史建筑挂牌）与大垸子—沙湖泵站设施群节制闸补强，绑定中国仙桃网挂牌调查报道）
 - 增量脚本：data-pipeline/scripts/add_inventory_wave_20261003_av.py（第四十八轮十堰104处历史建筑名录（十政发〔2024〕10号）：食用油加工厂/梨花村酒厂/23厂/25厂/麻纤厂/二砖瓦厂/京能大烟囱7条新增与云盖寺矿、44厂双身份补强）
 - 增量脚本：data-pipeline/scripts/add_inventory_wave_20261003_aw.py（第四十九轮十堰名录第二批：五一厂电影院/十堰工厂羽毛球馆/102三团土楼/工人文化宫/技术中心办公楼/余河村与冻青沟老供销社6条）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261003_ax.py（第五十轮孝感第一批优秀历史建筑名录（孝感政发〔2021〕7号）：北泾咀泵站、陡山渡槽、青山口渡槽3条水利对象新增与城隍潭码头优秀历史建筑身份补强）
 - 构建/分析/导出：data-pipeline/scripts/build_enrichment.py、analysis.py、export_frontend.py
 - 发布前端：src/data/heritage/
 - 发布后端：python-backend/opengis_backend/data/heritage/
@@ -110,8 +112,8 @@
 
 ## 下一步最小任务单元
 
-1. 第四十九轮新增6条记录（十堰104处名录第二批，HBI-SY-037~042）；十政发〔2024〕10号名录工业对象至此全部入库。市州覆盖现状：武汉71、黄石40、襄阳36、十堰45、鄂州29、宜昌20、恩施19、荆门18、荆州18、天门18、咸宁17、黄冈14、孝感14、随州12、潜江10、仙桃8、神农架5——下一批优先黄冈/孝感县域或薄弱市州。第四十八轮及更早波次仍在包内，脚本连续运行保持幂等。
-2. 待办跟进：省经信厅“2025年度湖北省工业遗产名单”正式认定通知未检索到（维持缺口记录）；23厂/25厂/102三团等代号厂企业全称待厂志核验；GitHub 推送通道曾于第47-48轮间中断，第49轮起推送前先核对通道。
+1. 第五十轮新增3条记录、增加1个底册来源键并补强1条：孝感第一批优秀历史建筑名录水利对象（北泾咀泵站/陡山渡槽/青山口渡槽）与城隍潭码头身份补强。市州覆盖现状：武汉71、黄石40、襄阳36、十堰45、鄂州29、孝感17、宜昌20、恩施19、荆门18、荆州18、天门18、咸宁17、黄冈14、随州12、潜江10、仙桃8、神农架5——下一批优先黄冈县域或薄弱市州（神农架、仙桃、潜江、随州）；各市州历史建筑/历史建筑名录政府文件模式（十堰104处、孝感56处）可持续套用于黄石、宜昌、襄阳、荆州等市。第四十九轮及更早波次仍在包内，脚本连续运行保持幂等。
+2. 待办跟进：省经信厅“2025年度湖北省工业遗产名单”正式认定通知未检索到（维持缺口记录）；23厂/25厂/102三团等代号厂企业全称待厂志核验；孝感名录中人民公社/礼堂类史迹（13/28/29）待生产性证据再定。
 2. 继续检索尚未覆盖或覆盖不足的地市（优先武汉、黄石、襄阳、宜昌、十堰、荆门、鄂州、咸宁、孝感、黄冈、荆州、随州、恩施、仙桃、潜江、天门、神农架），重点查政府名录、第四次文物普查、档案文献遗产、地方志、三线企业、历史建筑、港口/铁路/水利/矿山和企业厂志。
 3. 对只有企业史线索的对象，尽量找到官方地址、文保/规划或现场资料；在找到之前保持 research_candidate/source_lead，不升格。省经信厅“2025年度湖北省工业遗产名单”全省正式认定通知尚未检索到，孝感麻糖厂、宜都红茶厂层级维持现状，待官方文件发布后再升格。
 4. 每轮新增后依次执行：原始 JSON/重复/来源闭环审计 → build_enrichment.py → analysis.py → HERITAGE_PROVINCE=湖北省 export_frontend.py → 精准 pytest → 前后端一致性审计；第四十七轮381条底册已完成数据管线52/52、定向发布测试和前后端一致性（六文件逐一相等），前端全套门禁已在第三十一轮重新通过且数据结构未变。
