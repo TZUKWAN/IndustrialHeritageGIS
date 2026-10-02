@@ -7162,7 +7162,7 @@
     "social_memory": "恩施烟草工人、国有烟草企业和航空路工业片区记忆；街区保留工业构件并通过新业态吸引公众，职工口述与企业档案待补",
     "current_use_or_loss": "2020年公开招租后转为航空路1988街区，已形成商业、运动和创业空间；原厂房保护边界、产权责任和开放管理需现场核验"
    },
-   "notes": "湖北广播电视台/恩施日报报道确认航空路1988街区前身为恩施市烟叶复烤厂厂房旧址，1988年奠基，空间约25983平方米，曾因行业调控闲置，2020年通过公开招租引入运营商；铁楼梯和厂房空间被保留并改造为餐饮、音乐、运动和创业街区。省政府消防资料补充恩施复烤厂原烟库、联合工房和挑选车间等功能建筑线索。当前按城市更新对象表达，不把活化报道升格为法定工业遗产认定。",
+   "notes": "湖北广播电视台/恩施日报报道确认航空路1988街区前身为恩施市烟叶复烤厂厂房旧址，1988年奠基，空间约25983平方米，曾因行业调控闲置，2020年通过公开招租引入运营商；铁楼梯和厂房空间被保留并改造为餐饮、音乐、运动和创业街区。省政府消防资料补充恩施复烤厂原烟库、联合工房和挑选车间等功能建筑线索。当前按城市更新对象表达，不把活化报道升格为法定工业遗产认定。2026年州住建局会办意见（A级）确认全州428处历史建筑确权挂牌覆盖率100%，并载恩施1988街区改造老旧厂房3.2万平方米（即本条烟叶复烤厂厂房旧址活化），补充官方活化规模数据。",
    "aliases": [
     "恩施烟叶复烤厂旧址",
     "航空路1988街区",
@@ -7171,6 +7171,7 @@
    "asset_kind": "industrial_site",
    "source_ids": [
     "src-web-855efbe0e3",
+    "src-web-a3c904c87b",
     "src-web-c72113674d"
    ]
   },
@@ -10983,6 +10984,222 @@
    "asset_kind": "industrial_transport_site",
    "source_ids": [
     "src-web-77a3efc8cb"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-024",
+   "name": "汪营镇火电厂烟囱（一号、二号）",
+   "city": "恩施州",
+   "district_county": "利川市汪营镇齐跃桥村",
+   "industry_category_l1": "火力发电",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "利川市新增历史建筑（2024年5月公示，名录No.20、21；一号1970年、二号1980年建）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "火电厂烟囱两座（一号1970年、二号1980年，汪营镇齐跃桥村）；公示备注载同场地原有州市国营水泥厂、煤厂、火电厂、钢厂、焦化厂等建筑群；烟囱高度与保存状态待现场测绘",
+    "technical_memory": "利川县域火力发电与“五小工业”建设时期的动力设施遗存，建筑群备注记录民族工业发展历程",
+    "social_memory": "汪营工业区职工与县域工业化记忆",
+    "current_use_or_loss": "公示拟确定为历史建筑（公示层级，正式公布待跟踪）；电厂停产年代与烟囱在用状态待核"
+   },
+   "notes": "直接取自利川市政府网新增历史建筑公示名单（A级，智能体核读原文）；公示层级不等于正式公布；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "利川汪营火电厂"
+   ],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-8edb8ef742"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-025",
+   "name": "凉雾乡60公社供销社",
+   "city": "恩施州",
+   "district_county": "利川市凉雾乡诸天村",
+   "industry_category_l1": "供销商贸与基层物资供应",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "利川市新增历史建筑（2024年5月公示，名录No.7；1959年建）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "公社供销社建筑本体（诸天村，1959年）；公示备注称其为公社时期标志性建筑；面积与形制待现场测绘",
+    "technical_memory": "人民公社时期基层供销合作商业的建筑形制与商品供应体系",
+    "social_memory": "公社社员凭票供应与赶集购销的集体记忆",
+    "current_use_or_loss": "公示拟确定为历史建筑（公示层级，正式公布待跟踪）；现状用途待核"
+   },
+   "notes": "直接取自利川市政府网新增历史建筑公示名单（A级，智能体核读原文）；与天门/襄阳供销社记录同为基层商贸遗存模式；公示层级；坐标未核验保持待核。",
+   "aliases": [
+    "60公社供销社"
+   ],
+   "asset_kind": "industrial_trade_site",
+   "source_ids": [
+    "src-web-8edb8ef742"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-026",
+   "name": "建南天桥（灌溉水渠）",
+   "city": "恩施州",
+   "district_county": "利川市建南镇",
+   "industry_category_l1": "水利工程与泵站",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "利川市新增历史建筑（2024年5月公示，名录No.2；1958年建）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "灌溉水渠天桥（建南镇，1958年）；跨度、高度与结构待现场测绘",
+    "technical_memory": "1958年农田水利建设高潮时期的引水灌溉渡槽/水渠工艺，与底册孝感渡槽系列同谱系",
+    "social_memory": "灌区农业灌溉与水利建设集体记忆",
+    "current_use_or_loss": "公示拟确定为历史建筑（公示层级，正式公布待跟踪）；在用/停用状态待核"
+   },
+   "notes": "直接取自利川市政府网新增历史建筑公示名单（A级，智能体核读原文）；公示层级；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-8edb8ef742"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-027",
+   "name": "容貌坪大队办公室（含加工房）",
+   "city": "恩施州",
+   "district_county": "利川市建南镇",
+   "industry_category_l1": "工业社区",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "利川市新增历史建筑（2024年5月公示，名录No.6；1966-67年建）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "大队办公室建筑本体（内设卫生室和加工房）；面积与保存状态待现场测绘",
+    "technical_memory": "人民公社大队综合办公与农副加工一体化的功能布局",
+    "social_memory": "大队治理、合作医疗与农副加工的集体记忆",
+    "current_use_or_loss": "公示拟确定为历史建筑（公示层级，正式公布待跟踪）；现状用途待核"
+   },
+   "notes": "直接取自利川市政府网新增历史建筑公示名单（A级，智能体核读原文）；收录角度为其加工房生产性构成与大队工业社区属性；公示层级；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_social_site",
+   "source_ids": [
+    "src-web-8edb8ef742"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-028",
+   "name": "宣恩上湖塘综合厂厂房",
+   "city": "恩施州",
+   "district_county": "宣恩县珠山镇上湖塘社区",
+   "industry_category_l1": "综合工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "宣恩县历史建筑拟确定对象（2023年6月公示18处之一；公示称“我县保存最完整的厂房”；90年代建）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "综合厂厂房建筑本体（上湖塘社区，90年代）；生产行业、面积与设备留存待现场测绘与档案核验",
+    "technical_memory": "县域综合厂（多业经营集体企业）的厂房形制；宣恩保存最完整厂房的样本价值",
+    "social_memory": "县城集体企业职工生产记忆",
+    "current_use_or_loss": "公示拟确定为历史建筑（公示层级，正式公布文件未检索到，待跟踪）；现状用途待核"
+   },
+   "notes": "直接取自宣恩县政府网公示附件（A级，智能体解析doc）；综合厂生产行业未载明；公示层级；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-6bc2ffd536"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-029",
+   "name": "宣恩工农街粮食局老办公楼（一楼粮仓）",
+   "city": "恩施州",
+   "district_county": "宣恩县珠山镇工农街",
+   "industry_category_l1": "粮食仓储工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "宣恩县历史建筑拟确定对象（2023年6月公示18处之一；仿苏建筑，新中国成立初期）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "粮食局老办公楼（一楼为粮食仓库，仿苏建筑，新中国成立初期）；建筑面积与保存状态待现场测绘",
+    "technical_memory": "县域粮食管理机构办公与仓储一体化的功能组合，仿苏建筑形制反映五十年代建设背景",
+    "social_memory": "粮食统购统销时期县域粮政记忆",
+    "current_use_or_loss": "公示拟确定为历史建筑（公示层级，正式公布文件未检索到，待跟踪）；现状用途待核"
+   },
+   "notes": "直接取自宣恩县政府网公示附件（A级，智能体解析doc）；公示层级；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_storage_site",
+   "source_ids": [
+    "src-web-6bc2ffd536"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-030",
+   "name": "沙道沟镇姚家寨仓库",
+   "city": "恩施州",
+   "district_county": "宣恩县沙道沟镇",
+   "industry_category_l1": "粮食仓储工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "宣恩县历史建筑拟新增对象（2024年4月统计表30处之No.20；60年代初建）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "生产大队粮仓（石木结构，60年代初）；仓容与保存状态待现场测绘",
+    "technical_memory": "生产大队集体储粮的石木结构粮仓营造工艺",
+    "social_memory": "大队集体储粮与公粮缴纳记忆",
+    "current_use_or_loss": "统计表拟新增层级（正式公布文件未检索到，待跟踪）；现状用途待核"
+   },
+   "notes": "直接取自宣恩县政府网2024年拟新增历史建筑统计表（A级，智能体核读）；统计表层级较公示更前置；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_storage_site",
+   "source_ids": [
+    "src-web-6bc2ffd536"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-031",
+   "name": "燕子镇石龙街驿站",
+   "city": "恩施州",
+   "district_county": "鹤峰县燕子镇",
+   "industry_category_l1": "盐运交通与山地贸易路线",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "鹤峰县第一批历史建筑（2023年1月8日公布，名录第11项）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "四合天井式驿站建筑（客栈与运茶骡马道组合）；建筑面积与保存状态待现场测绘",
+    "technical_memory": "武陵山区茶马古道驿运体系的客栈—骡马道组合设施，山地商路转运节点形制",
+    "social_memory": "鹤峰茶叶外运与骡马商队过往记忆，与万里茶道、容美土司贡茶历史脉络相关",
+    "current_use_or_loss": "以第一批历史建筑身份正式公布保护；现状用途与活化方向待核"
+   },
+   "notes": "直接取自鹤峰县政府第一批历史建筑公布通知名录（A级，正式公布）；与底册川鄂古盐道神农架段（HBI-SNJ 系列）同属山地商路遗存模式；坐标未核验保持待核。",
+   "aliases": [
+    "石龙街客栈"
+   ],
+   "asset_kind": "industrial_trade_site",
+   "source_ids": [
+    "src-web-1f7cefb9bd"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-032",
+   "name": "鹤峰茶马古道桥梁（关口石拱桥、刘公桥）",
+   "city": "恩施州",
+   "district_county": "鹤峰县太平镇、走马镇",
+   "industry_category_l1": "茶业生产与贸易交通",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "鹤峰县第一批历史建筑（2023年1月8日公布，名录第1、2项）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "两座古石拱桥：关口石拱桥（太平镇，清康熙十三年）、刘公桥（走马镇，光绪十三年）；桥体跨度与保存状态待现场测绘",
+    "technical_memory": "茶马古道与万里茶道干道上的石拱桥营建工艺，山地商路跨溪交通节点",
+    "social_memory": "鹤峰茶号运茶骡马队与商旅往来记忆，见证武陵山区茶叶外销通道",
+    "current_use_or_loss": "以第一批历史建筑身份正式公布保护；通行状态与保护范围待核"
+   },
+   "notes": "直接取自鹤峰县政府第一批历史建筑公布通知名录（A级，正式公布）；两桥合并记录以保持茶马古道交通脉络完整；与底册万里茶道系列（HBI-XN 等）同谱系；坐标未核验保持待核。",
+   "aliases": [
+    "关口石拱桥",
+    "刘公桥"
+   ],
+   "asset_kind": "industrial_transport_site",
+   "source_ids": [
+    "src-web-1f7cefb9bd"
    ]
   }
  ]
