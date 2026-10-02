@@ -13,12 +13,12 @@
 - 国家原始名单重新解析后共 265 条原始记录、265 条当前处理记录；第一批 XLS 中“汉冶萍公司--大冶铁厂”是空序号续行，已修复 parse_raw.py 以识别完整续行，不再漏掉该湖北对象。
 - 公开湖北国家主表当前为 13 处，含 HER-0127dfd1ca78 汉冶萍公司--大冶铁厂；官方来源明确湖北有 13 处国家工业遗产。
 - data-pipeline/enrichment/hubei_cultural_profiles.json 当前有 13 份文化档案；5 份 documented、8 份 baseline；每份至少四维文化字段和来源边界。
-- 全省扩展底册 data-pipeline/enrichment/hubei_inventory.json 当前 413 条、307 个原始来源键：389 条 source_confirmed，24 条 source_lead（十堰模具、车轮、泵业资料对象、神农架断江坪伐木队、沙市三厂、湖北省空压机厂、宜都矿山机械厂、罗田/英山缫丝对象、荆州机床厂、蕲春湖北链条厂等仍为待核线索）。第一轮目标下限为 170 条，当前已超过；328 条含四项来源约束文化证据，覆盖 17 个地市/林区。
+- 全省扩展底册 data-pipeline/enrichment/hubei_inventory.json 当前 420 条、307 个原始来源键：396 条 source_confirmed，24 条 source_lead（十堰模具、车轮、泵业资料对象、神农架断江坪伐木队、沙市三厂、湖北省空压机厂、宜都矿山机械厂、罗田/英山缫丝对象、荆州机床厂、蕲春湖北链条厂等仍为待核线索）。第一轮目标下限为 170 条，当前已超过；335 条含四项来源约束文化证据，覆盖 17 个地市/林区。
 - 第二轮新增迁移脚本 data-pipeline/scripts/add_inventory_wave_20261002_b.py：新增 29 条、15 个来源，并更新 7 条既有对象的来源/文化证据；脚本可重复运行，已运行两次未产生冲突。
 - 第二轮重点：大冶铁矿七类组成项、华新档案/五羊巷/湿法回转窑、汉冶萍档案、华中钢铁档案、荆江分洪档案、沙市洋码头、武汉 606/四美塘/小龟山/汉江湾、随州七个工业史企业线索、应城石膏档案、宜都茶厂档案和宜都三线建设档案。
-- 最近一次 build_enrichment.py：672 events / 144 relations / 528 全国网络来源 / 265 enriched sites / 413 inventory。
+- 最近一次 build_enrichment.py：672 events / 144 relations / 528 全国网络来源 / 265 enriched sites / 420 inventory。
 - 最近一次 analysis.py：湖北 ANN n=13、R=0.6799、z=-2.21；Moran's I 因单省级单元不适用；KDE 59×67。
-- 最近一次导出 export_frontend.py：公开包 13 sites、41 events、10 relations、296 sources、13 cultural profiles、413 inventory；原始底册有307个来源键，其中389条扩展记录为来源确认层级，24条为来源线索，174条达到名录认定统计口径，328条含四项文化证据；前后端数据副本已做一致性核对。
+- 最近一次导出 export_frontend.py：公开包 13 sites、41 events、10 relations、296 sources、13 cultural profiles、420 inventory；原始底册有307个来源键，其中396条扩展记录为来源确认层级，24条为来源线索，181条达到名录认定统计口径，335条含四项文化证据；前后端数据副本已做一致性核对。
 - 最近一次数据管线测试：python -m pytest data-pipeline/tests -q 通过 52/52。测试曾因既有武钢文化档案引用不存在的 src-web-c3e277960b 失败，已替换为现存的青山区政府来源 src-web-2dc5e1e716 并复测通过。
 - 2026-10-02 部署文档已补充到 README.zh.md 和 README.md：明确 Windows/macOS/Linux 支持、Node.js/Python/Git/网络/LLM/GDAL 条件，区分源码桌面部署、安装包部署和浏览器预览，记录动态本机端口、Python 虚拟环境路径、打包命令、发布验收清单和常见故障处理；本轮仅改文档，未改变代码和数据。
 - 已通过：python -m py_compile data-pipeline/scripts/parse_raw.py data-pipeline/scripts/analysis.py data-pipeline/scripts/build_enrichment.py data-pipeline/scripts/add_inventory_wave_20261002.py data-pipeline/scripts/add_inventory_wave_20261002_b.py data-pipeline/scripts/add_inventory_wave_20261002_c.py data-pipeline/scripts/add_inventory_wave_20261002_d.py data-pipeline/scripts/add_inventory_wave_20261002_e.py data-pipeline/scripts/add_inventory_wave_20261002_f.py data-pipeline/scripts/add_inventory_wave_20261002_g.py data-pipeline/scripts/add_inventory_wave_20261002_h.py data-pipeline/scripts/add_inventory_wave_20261002_i.py data-pipeline/scripts/add_inventory_wave_20261002_j.py data-pipeline/scripts/add_inventory_wave_20261002_k.py data-pipeline/scripts/add_inventory_wave_20261002_l.py data-pipeline/scripts/add_inventory_wave_20261002_m.py data-pipeline/scripts/add_inventory_wave_20261002_n.py data-pipeline/scripts/add_inventory_wave_20261002_o.py data-pipeline/scripts/add_inventory_wave_20261002_p.py data-pipeline/scripts/add_inventory_wave_20261002_q.py data-pipeline/scripts/add_inventory_wave_20261002_r.py data-pipeline/scripts/add_inventory_wave_20261002_s.py data-pipeline/scripts/add_inventory_wave_20261002_x.py data-pipeline/scripts/add_inventory_wave_20261002_y.py data-pipeline/scripts/add_inventory_wave_20261002_z.py data-pipeline/scripts/add_inventory_wave_20261002_aa.py data-pipeline/scripts/add_inventory_wave_20261002_ab.py data-pipeline/scripts/add_inventory_wave_20261002_ac.py data-pipeline/scripts/add_inventory_wave_20261002_ad.py data-pipeline/scripts/add_inventory_wave_20261002_ae.py data-pipeline/scripts/add_inventory_wave_20261002_af.py data-pipeline/scripts/add_inventory_wave_20261002_ag.py data-pipeline/scripts/add_inventory_wave_20261002_ah.py data-pipeline/scripts/add_inventory_wave_20261002_ai.py data-pipeline/scripts/add_inventory_wave_20261002_aj.py data-pipeline/scripts/add_inventory_wave_20261002_ak.py data-pipeline/scripts/add_inventory_wave_20261002_al.py data-pipeline/scripts/add_inventory_wave_20261002_am.py data-pipeline/scripts/add_inventory_wave_20261002_an.py data-pipeline/scripts/add_inventory_wave_20261002_ao.py data-pipeline/scripts/add_inventory_wave_20261002_ap.py data-pipeline/scripts/add_inventory_wave_20261002_aq.py data-pipeline/scripts/add_inventory_wave_20261002_aq2.py。
@@ -45,6 +45,7 @@
 - 第五十四轮（wave bb，2026-10-03）扩展宜昌（20条→23条）：实读宜昌市政府《关于公布宜昌市第二批历史建筑名录的通知》（宜府发〔2022〕22号，2022-12-07，26处正文全表含逐处简介，A级）——新增3条：①普溪河老渡槽遗址（HBI-YC-020，夷陵区分乡镇，1966年始建、1970年通水23小时后倒塌致42死4重伤、1971年复建再通水、2017年新渡槽替代、2019年拆除上层渠槽现存公路桥遗址，全长1005.3米最大高57.6米钢混简支梁式——全国罕有的以倒塌事故与复建史完整记载的渡槽遗产）；②永耀电灯公司营业部旧址（HBI-YC-021，西陵区解放路3号，1930年代宜昌最大民族实业公司，与汉口电灯公司构成湖北近代电力谱系）；③古老背织布街纺织业商号建筑群（HBI-YC-022，猇亭区，汪泰丰花行1803/郑记染坊/刘发记商行/彭和祥商号4处合并，清代花行—作坊—公私合营—棉织厂完整脉络，屋墙残存《鞍钢宪法》标语）。底册 402→405 条、来源 304→305 键。
 - 第五十五轮（wave bc，2026-10-03）实读襄城区政府网《全省第三批历史文化街区名单出炉》（2026-06-18，A级）：①补强 HBI-PROV-007 文字六〇三厂——获湖北省第三批历史文化街区（省级工业遗产+省级历史文化街区双身份），current_use 补入活化数据（60余家企业、3000余人就业、年产值近3亿元）；②新增 HBI-XIANGYANG-034 六〇九研究所旧址（中国航空工业第609研究所，60年代初迁址、2005年迁南京后厂区修旧如旧改造为文旅地标，近20家企业落户）。底册 405→406 条、来源 305→306 键。
 - 第五十六轮（wave bd，2026-10-03）襄阳市第二批历史建筑名录核读启动（襄政发〔2024〕6号，154处，名录表以10张图片附件嵌入，已全部下载逐张视觉核读，本地存档 raw/xiangyang_heritage/）：第一批新增7条（HBI-XIANGYANG-035~041）——原襄阳卷烟厂厂房（名录27）、原襄樊车桥股份有限公司厂房（28）、原襄樊市第一针织厂厂房2栋（29-30）、原襄樊市五一棉纺厂棉花仓库（31）、原襄樊橡胶厂建筑群5栋（32-36）、原襄樊内燃机车厂厂房2栋（39-40）、原襄阳轴承厂锻工/机修/磨一二三分厂建筑群（64-68）。名录中文字603厂21栋（69-89）、六〇九研究所11处（90-101）、第四织布厂（102-106）、襄樊日报社印刷厂（107-111）、化六建（112-114）、卫东机械厂（115-121）、青山机械厂（122-127）、汉丹电器厂（128-132）、渡槽管理处（142-148）留待第57轮第二批入库或补强。底册 406→413 条、来源 306→307 键。
+- 第五十七轮（wave be，2026-10-03）完成襄阳154处名录第二批（复用来源 xiangyang_heritage_buildings_2024）：新增7条（HBI-XIANGYANG-042~048）——原襄樊市第四织布厂厂房5栋（102-106）、原襄樊日报社印刷厂5栋（107-111，1949年）、原中国化学工程第六建设有限公司建筑群（112-114，1969年三线迁建）、原卫东机械厂厂前区建筑群7处（115-121，1964年）、原青山机械厂建筑群6处（122-127，1969年）、汉丹电器厂建筑群5处（128-132，1965年）、襄阳市渡槽管理处建筑群含水塔（142-148，1973年）；补强2条——HBI-PROV-007 文字六〇三厂获名录69-89共21栋市级历史建筑（省级工业遗产+省级历史文化街区+市级历史建筑三重保护身份），HBI-XIANGYANG-034 六〇九研究所获名录90-101共12处市级历史建筑。至此襄政发〔2024〕6号名录工业及相关对象全部处理完毕。底册 413→420 条。
 
 ## 关键文件
 
@@ -107,6 +108,7 @@
 - 增量脚本：data-pipeline/scripts/add_inventory_wave_20261003_bb.py（第五十四轮宜昌第二批历史建筑名录（宜府发〔2022〕22号）：普溪河老渡槽遗址、永耀电灯公司营业部旧址、古老背织布街纺织商号建筑群3条新增）
 - 增量脚本：data-pipeline/scripts/add_inventory_wave_20261003_bc.py（第五十五轮湖北省第三批历史文化街区：六〇九研究所旧址新增与文字六〇三厂双身份/活化数据补强）
 - 增量脚本：data-pipeline/scripts/add_inventory_wave_20261003_bd.py（第五十六轮襄阳市第二批历史建筑名录第一批：卷烟厂/车桥/一针织/五一棉纺仓库/橡胶厂/内燃机车厂/襄阳轴承厂7条）
+- 增量脚本：data-pipeline/scripts/add_inventory_wave_20261003_be.py（第五十七轮襄阳市第二批名录第二批：四织布厂/日报印刷厂/化六建/卫东机械厂/青山机械厂/汉丹电器厂/渡槽管理处7条新增与文字603厂21栋、六〇九12处市级历史建筑身份补强）
 - 构建/分析/导出：data-pipeline/scripts/build_enrichment.py、analysis.py、export_frontend.py
 - 发布前端：src/data/heritage/
 - 发布后端：python-backend/opengis_backend/data/heritage/
@@ -124,8 +126,8 @@
 
 ## 下一步最小任务单元
 
-1. 第五十六轮新增7条记录、增加1个底册来源键：襄阳市第二批历史建筑名录第一批（HBI-XIANGYANG-035~041）。第57轮待办：同一名录第二批——第四织布厂、襄樊日报社印刷厂、化六建、卫东机械厂、青山机械厂、汉丹电器厂、渡槽管理处入库，文字603厂21栋与六〇九研究所11处补强既有记录。第五十三轮及更早波次仍在包内，脚本连续运行保持幂等。
-2. 待办跟进：省经信厅“2025年度湖北省工业遗产名单”正式认定通知未检索到（维持缺口记录）；23厂/25厂/102三团等代号厂企业全称待厂志核验；孝感人民公社类史迹、罗田“五七”干校与知青点待生产性证据；叶路洲棉花采购站设备留存、英山两处公示转正式认定待跟踪；永耀电灯公司发电厂厂址待补录；六〇九街区保护规划与核心物项待核；GitHub 推送通道偶发 TLS 瞬断（等待后重试即恢复）。
+1. 第五十七轮新增7条记录并补强2条：襄阳154处名录第二批（HBI-XIANGYANG-042~048）与文字603厂、六〇九研究所市级历史建筑身份补强；襄政发〔2024〕6号名录工业对象全部处理完毕。市州覆盖现状：武汉71、黄石40、襄阳44、十堰45、鄂州29、宜昌23、孝感17、黄冈19、恩施19、荆门18、荆州18、天门18、咸宁17、随州12、潜江10、仙桃8、神农架5——后续轮次可做荆州、鄂州、荆门等市名录与荆州/黄石第一批名录核读。第五十四轮及更早波次仍在包内，脚本连续运行保持幂等。
+2. 待办跟进：省经信厅“2025年度湖北省工业遗产名单”正式认定通知未检索到（维持缺口记录）；23厂/25厂/102三团、卫东/青山/汉丹等三线厂企业代号全称待厂志核验；孝感人民公社类史迹、罗田“五七”干校与知青点待生产性证据；叶路洲棉花采购站设备留存、英山两处公示转正式认定待跟踪；永耀电灯公司发电厂厂址待补录；六〇九街区保护规划与核心物项待核；GitHub 推送通道偶发 TLS 瞬断（等待后重试即恢复）。
 2. 继续检索尚未覆盖或覆盖不足的地市（优先武汉、黄石、襄阳、宜昌、十堰、荆门、鄂州、咸宁、孝感、黄冈、荆州、随州、恩施、仙桃、潜江、天门、神农架），重点查政府名录、第四次文物普查、档案文献遗产、地方志、三线企业、历史建筑、港口/铁路/水利/矿山和企业厂志。
 3. 对只有企业史线索的对象，尽量找到官方地址、文保/规划或现场资料；在找到之前保持 research_candidate/source_lead，不升格。省经信厅“2025年度湖北省工业遗产名单”全省正式认定通知尚未检索到，孝感麻糖厂、宜都红茶厂层级维持现状，待官方文件发布后再升格。
 4. 每轮新增后依次执行：原始 JSON/重复/来源闭环审计 → build_enrichment.py → analysis.py → HERITAGE_PROVINCE=湖北省 export_frontend.py → 精准 pytest → 前后端一致性审计；第四十七轮381条底册已完成数据管线52/52、定向发布测试和前后端一致性（六文件逐一相等），前端全套门禁已在第三十一轮重新通过且数据结构未变。
