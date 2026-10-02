@@ -10809,6 +10809,57 @@
    "source_ids": [
     "src-web-bf0fa7f0a5"
    ]
+  },
+  {
+   "inventory_id": "HBI-ES-022",
+   "name": "宜红茶厂旧址（芭蕉机制茶厂）",
+   "city": "恩施州",
+   "district_county": "恩施市芭蕉侗族乡集镇",
+   "industry_category_l1": "茶叶加工工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "恩施市第一批历史建筑（恩市政发〔2023〕154号名录第7项；1938年建）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "机制茶厂旧址建筑群（占地3818平方米、建筑面积3275平方米，多层砖混结构、机制红瓦顶、悬山式，位于芭蕉中街桥头河沿边）；厂房内制茶设备留存待现场测绘",
+    "technical_memory": "1938年中国茶叶公司派副总技士冯绍裘率技士到恩施办机制厂、在芭蕉设分厂，有史以来官办茶厂首开机制茶；1940年起芭蕉成为全县茶叶主产区，并在朱砂溪等地增设五个制茶所；解放前夕设备被撤后由8户居民买下茶厂继续作茶叶加工坊——机制茶工艺引入鄂西的完整过程记忆",
+    "social_memory": "芭蕉茶农、茶厂职工与抗战时期茶叶统制经济下的生产记忆；宜红茶产制销脉络与鄂西茶区 wartime 产业史",
+    "current_use_or_loss": "以第一批历史建筑身份纳入保护体系，市政府要求挂牌、测绘和建档；现状用途与保存边界待核"
+   },
+   "notes": "直接取自恩市政发〔2023〕154号名录表及逐处简介（A级，PDF文本核读）；与本底册宜都红茶厂（HBI-PROV-002）、赵李桥茶厂（HBI-XN-017）同属湖北茶叶加工工业谱系；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "芭蕉茶厂",
+    "恩施宜红茶厂"
+   ],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-7ba0e4701b"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-023",
+   "name": "湖北省邮电管理局旧址（和平街）",
+   "city": "恩施州",
+   "district_county": "恩施市六角亭街道和平街",
+   "industry_category_l1": "通信与城市基础设施",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "恩施市第一批历史建筑（恩市政发〔2023〕154号名录第4项）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "邮电管理机构旧址建筑（和平街东端高地，传统建筑与近代欧式风格结合，镂空门墙、防火马头墙、圆弧形门窗带花纹石膏线）；建筑本体保存与闲置状态待现场测绘",
+    "technical_memory": "抗日战争时期国民党湖北省邮电管理局驻地、解放后为恩施县邮电局——战时省域邮电通信指挥机构西迁恩施的通信史记忆",
+    "social_memory": "老城邮电职工与和平街机构驻地记忆；建筑选址文化（大圈椅地形、石级阶梯）为多文化结合样本",
+    "current_use_or_loss": "名录载房屋现已闲置；以第一批历史建筑身份纳入保护体系，活化方案待属地推进"
+   },
+   "notes": "直接取自恩市政发〔2023〕154号名录表及逐处简介（A级，PDF文本核读）；与汉口电灯公司、永耀电灯公司同属湖北近现代通信/电力基础设施谱系的恩施节点；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "恩施县邮电局"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-7ba0e4701b"
+   ]
   }
  ]
 }
