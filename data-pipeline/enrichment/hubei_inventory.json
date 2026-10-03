@@ -3152,6 +3152,24 @@
       "url": "http://syrb.10yan.com/",
       "authority": "A",
       "notes": "党报载明2018年11月17日东风汽车底盘系统有限公司挂牌（注册资本4.79亿元），由东风车轮、东风传动轴、东风悬架弹簧、东风泵业4家整合而成；历史沿革明确：42厂=东风汽车车轮有限公司（前身二汽车轮厂，1970年9月十堰城区中心神定河畔兴建）、45厂=东风汽车泵业（前身1969年二汽底盘零件厂，汉江路）、46厂=东风汽车悬架弹簧（前身1969年二汽钢板弹簧厂）、54厂=东风汽车传动轴（前身1969年二汽传动轴厂，三堰杨家沟）。秦楚网2018-11-21《东风六家单位整合》另载“东风车轮(42)、东风泵业(45)、东风悬架弹簧(46)、东风传动轴(54)、东风电子(63)、东风电气(65)数字代号厂名最后一次被叫响”及子公司名录（东风车轮随州有限公司、东风襄阳旋压件、上海欧雷法弹簧）。"
+    },
+    "shishou_heritage_batch1_2022": {
+      "source_type": "county_city_government_notice",
+      "title": "石首市人民政府关于公布我市历史建筑的通知（石政函〔2022〕43号，11处）及市住建局认定公示附件详情",
+      "org": "石首市人民政府门户网站（政府信息公开平台）",
+      "pub_date": "2022-12-19",
+      "url": "http://zwgk.shishou.gov.cn/32823/202212/t20221219/247410.shtml",
+      "authority": "A",
+      "notes": "石政函〔2022〕43号公布11处历史建筑（公示2022-12-05，http://zwgk.shishou.gov.cn/38400/202212/t20221205/244538.shtml）；附件《石首市拟公布的历史建筑详细情况》PDF（18页）已下载OCR，逐处含地址/面积/年代/沿革：调关缝纫社旧址（调关镇解放大道西段北街，房屋1930年代，缝纫社50年代创办职工32人，90年代中解散，215.84㎡）、调关粮管所旧址（希望路段西片132号，50年代建，1986年停运，529.29㎡，粮库7栋存万吨，70-80年代职工230余人）、调关三机械厂旧址（解放大道东街，1962年调关机电社起家，1972年更名石首县第三机械厂，地方国营，1995年产值340万元/职工130人）、焦山河粮站仓库（东升镇焦山河社区15组，1958年苏联援建项目，1092.25㎡砖木结构）、天鹅洲新码头粮库（天鹅洲开发区新堤村一组，1972年3月，3个圆顶仓+1平房仓，736.41㎡）、卫星大队大礼堂（高陵镇三字岗村，1971年10月，约700㎡）、拦河坝大礼堂（横沟市镇拦河坝村，70年代，643.57㎡砖混）、团山寺镇大礼堂旧址（解放路125号，约1972年，616.81㎡，现租用为美莎克服装厂厂房）。"
+    },
+    "shishou_heritage_batch2_2024": {
+      "source_type": "county_city_government_notice",
+      "title": "石首市人民政府关于公布我市历史建筑的通知（石政函〔2024〕12号，21处37栋）及名录扫描件",
+      "org": "石首市人民政府门户网站（政府信息公开平台）",
+      "pub_date": "2024-07-05",
+      "url": "http://zwgk.shishou.gov.cn/sszjj/22318/107220243/t117220243074/508376.shtml",
+      "authority": "A",
+      "notes": "石政函〔2024〕12号（依鄂建〔2024〕423号“百日行动”）公布21处37栋，公示2024-06-26（http://zwgk.shishou.gov.cn/sszjj/22318/106220243/t126220243064/501959.shtml），名录扫描件已OCR核对：新厂粮库（6栋）、焦山河粮库（6栋）、梅田湖粮库（2栋）、天鹅洲新码头粮库（3栋）、梅田湖供销社、石首县委办公楼、三户街礼堂、物资局仓库、调关镇影剧院、过脉岭窑厂（2栋）、新厂弹药堡、石首师范学校（3栋）、思源亭、江波古居、新风水塔、新厂供销社水塔、江波渡老水塔、高基庙老水厂塔、六虎山泵站等。"
     }
   },
   "records": [
@@ -14686,6 +14704,365 @@
         "粮机记忆馆"
       ],
       "asset_kind": "industrial_social_site"
+    },
+    {
+      "inventory_id": "HBI-JZ-042",
+      "name": "观音矶",
+      "city": "荆州市",
+      "district_county": "沙市区（荆江大堤）",
+      "industry_category_l1": "水利工程与泵站",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "荆州市中心城区历史建筑（2019年9月30日市政府公布100处名录第60项）",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "jingzhou_heritage_buildings_2019"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "荆江大堤重要矶头（观音矶，又名象鼻矶），矶头挑流石砌体与矶身条石护坡；矶长与砌体规模待水利部门资料核补",
+        "technical_memory": "荆江防洪工程体系的关键挑流节点，矶头挑流护岸的水工技术，为新中国成立后荆江分洪与大堤加固工程的重要观测点",
+        "social_memory": "1998年抗洪等历次荆江防汛的集体记忆地标，沙市市民江边观水 first 地标",
+        "current_use_or_loss": "以中心城区历史建筑身份纳入保护体系；水利工程运行管理现状待水利部门核"
+      },
+      "notes": "直接取自2019年市政府100处名录（B级转载全文核读）；观音矶为荆江大堤著名险工段矶头，水利技术参数待水利志核补；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [
+        "象鼻矶"
+      ],
+      "asset_kind": "industrial_utility_site"
+    },
+    {
+      "inventory_id": "HBI-JZ-043",
+      "name": "总工会职工剧场",
+      "city": "荆州市",
+      "district_county": "沙市区",
+      "industry_category_l1": "工业社区文化",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "荆州市中心城区历史建筑（2019年9月30日市政府公布100处名录第58项）",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "jingzhou_heritage_buildings_2019"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "职工剧场建筑本体（总工会所属），观众厅与舞台格局待现场测绘",
+        "technical_memory": "工会系统职工文化设施的剧场建筑形制，职工文艺汇演与电影放映功能载体",
+        "social_memory": "沙市工业系统职工文艺生活与工会文化服务记忆",
+        "current_use_or_loss": "以中心城区历史建筑身份纳入保护体系；现状用途（演出/放映/改造）待核"
+      },
+      "notes": "直接取自2019年市政府100处名录（B级转载全文核读）；与茅箭工人文化宫（HBI-SY-039）、荆门工人文化宫（HBI-JM-012）同为职工文化设施记录模式；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [],
+      "asset_kind": "industrial_social_site"
+    },
+    {
+      "inventory_id": "HBI-JZ-044",
+      "name": "黄州会馆",
+      "city": "荆州市",
+      "district_county": "沙市区",
+      "industry_category_l1": "历史水运、码头与城市商贸",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "荆州市中心城区历史建筑（2019年9月30日市政府公布100处名录第99项）",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "jingzhou_heritage_buildings_2019"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "会馆建筑本体，戏楼/正殿/厢房格局待现场测绘",
+        "technical_memory": "黄州商帮在沙市的行会会馆，见证长江中游商帮贸易与码头集散的组织形态（同类参照汉口黄州会馆脉络）",
+        "social_memory": "黄州商帮客商聚议、寄寓与乡土认同的商贸组织记忆",
+        "current_use_or_loss": "以中心城区历史建筑身份纳入保护体系；现状用途待核"
+      },
+      "notes": "直接取自2019年市政府100处名录（B级转载全文核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [],
+      "asset_kind": "industrial_trade_site"
+    },
+    {
+      "inventory_id": "HBI-JZ-045",
+      "name": "调关缝纫社旧址",
+      "city": "荆州市",
+      "district_county": "石首市调关镇解放大道西段北街",
+      "industry_category_l1": "服装与纺织工业",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "石首市历史建筑（石政函〔2022〕43号名录（缝纫社50年代创办，90年代中解散））",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "shishou_heritage_batch1_2022"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "缝纫社旧址建筑（215.84平方米，职工32人）；缝纫设备无存证",
+        "technical_memory": "集体缝纫社的服装来料加工与统购统销经营形制",
+        "social_memory": "调关镇缝纫社女职工与集镇成衣消费记忆",
+        "current_use_or_loss": "90年代中解散后房屋留存；以市级历史建筑身份纳入保护体系，现状用途待核"
+      },
+      "notes": "直接取自石政函〔2022〕43号附件详情PDF（A级，已下载OCR逐处核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [],
+      "asset_kind": "industrial_building"
+    },
+    {
+      "inventory_id": "HBI-JZ-046",
+      "name": "调关粮管所旧址",
+      "city": "荆州市",
+      "district_county": "石首市调关镇希望路段西片132号",
+      "industry_category_l1": "粮食仓储工业",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "石首市历史建筑（石政函〔2022〕43号名录（50年代建，1986年停运））",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "shishou_heritage_batch1_2022"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "粮管所旧址（529.29平方米），粮库7栋、仓储能力约万吨；建筑保存状况待现场测绘",
+        "technical_memory": "区乡粮管所的收购、储存、调运体系，计划经济粮食统购统销的基层节点",
+        "social_memory": "调关镇粮管所职工230余人（70-80年代）与四乡售粮农民记忆",
+        "current_use_or_loss": "1986年停运；以市级历史建筑身份纳入保护体系，现状用途待核"
+      },
+      "notes": "直接取自石政函〔2022〕43号附件详情PDF（A级，OCR核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [
+        "调关粮管所"
+      ],
+      "asset_kind": "industrial_storage_site"
+    },
+    {
+      "inventory_id": "HBI-JZ-047",
+      "name": "调关三机械厂旧址",
+      "city": "荆州市",
+      "district_county": "石首市调关镇解放大道东街",
+      "industry_category_l1": "机械制造工业",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "石首市历史建筑（石政函〔2022〕43号名录（1962年调关机电社起家，1972年更名石首县第三机械厂））",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "shishou_heritage_batch1_2022"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "三机械厂旧址厂房；机床设备无存证，厂房保存状况待现场测绘",
+        "technical_memory": "从乡镇机电社到地方国营机械厂的升级脉络（1995年产值340万元、职工130人）",
+        "social_memory": "三机械厂职工与调关镇机械工业记忆",
+        "current_use_or_loss": "以市级历史建筑身份纳入保护体系；停产年代与现状用途待核"
+      },
+      "notes": "直接取自石政函〔2022〕43号附件详情PDF（A级，OCR核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [
+        "石首县第三机械厂",
+        "调关机电社"
+      ],
+      "asset_kind": "industrial_building"
+    },
+    {
+      "inventory_id": "HBI-JZ-048",
+      "name": "焦山河粮站仓库",
+      "city": "荆州市",
+      "district_county": "石首市东升镇焦山河社区15组",
+      "industry_category_l1": "粮食仓储工业",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "石首市历史建筑（石政函〔2022〕43号名录（1958年，苏联援建项目））",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "shishou_heritage_batch1_2022"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "粮站仓库（1092.25平方米，砖木结构）；保存状况待现场测绘",
+        "technical_memory": "1958年苏联援建背景的粮站仓储建筑，砖木结构大跨度仓房工艺",
+        "social_memory": "焦山河粮站统购统销时期四乡售粮记忆",
+        "current_use_or_loss": "以市级历史建筑身份纳入保护体系；在用/停用状态待核"
+      },
+      "notes": "直接取自石政函〔2022〕43号附件详情PDF（A级，OCR核读，“苏联援建项目”表述引自名录简介）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [
+        "焦山河粮站"
+      ],
+      "asset_kind": "industrial_storage_site"
+    },
+    {
+      "inventory_id": "HBI-JZ-049",
+      "name": "天鹅洲新码头粮库（圆顶仓群）",
+      "city": "荆州市",
+      "district_county": "石首市天鹅洲开发区新堤村一组",
+      "industry_category_l1": "粮食仓储工业",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "石首市历史建筑（石政函〔2022〕43号名录（1972年3月建））",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "shishou_heritage_batch1_2022"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "粮库3个圆顶仓+1栋平房仓（736.41平方米）；圆顶仓形制与保存状态待现场测绘",
+        "technical_memory": "圆顶仓（穹顶粮仓）仓储工艺，1970年代粮仓建设的典型形制",
+        "social_memory": "天鹅洲垦区粮储与农场记忆",
+        "current_use_or_loss": "以市级历史建筑身份纳入保护体系；在用/停用状态待核"
+      },
+      "notes": "直接取自石政函〔2022〕43号附件详情PDF（A级，OCR核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [],
+      "asset_kind": "industrial_storage_site"
+    },
+    {
+      "inventory_id": "HBI-JZ-050",
+      "name": "卫星大队大礼堂",
+      "city": "荆州市",
+      "district_county": "石首市高陵镇三字岗村",
+      "industry_category_l1": "工业社区",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "石首市历史建筑（石政函〔2022〕43号名录（1971年10月建））",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "shishou_heritage_batch1_2022"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "大队大礼堂（约700平方米）；保存状况待现场测绘",
+        "technical_memory": "生产大队礼堂的集会、文艺与农副加工分配功能空间形制",
+        "social_memory": "卫星大队集体劳动、开会与文艺活动记忆",
+        "current_use_or_loss": "以市级历史建筑身份纳入保护体系；现状用途待核"
+      },
+      "notes": "直接取自石政函〔2022〕43号附件详情PDF（A级，OCR核读）；收录角度为其大队工业社区属性；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [],
+      "asset_kind": "industrial_social_site"
+    },
+    {
+      "inventory_id": "HBI-JZ-051",
+      "name": "拦河坝大礼堂",
+      "city": "荆州市",
+      "district_county": "石首市横沟市镇拦河坝村",
+      "industry_category_l1": "工业社区",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "石首市历史建筑（石政函〔2022〕43号名录（70年代建））",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "shishou_heritage_batch1_2022"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "大队/生产队礼堂（643.57平方米，砖混结构）；保存状况待现场测绘",
+        "technical_memory": "70年代砖混结构礼堂的建筑工艺",
+        "social_memory": "拦河坝村集体集会与分配记忆",
+        "current_use_or_loss": "以市级历史建筑身份纳入保护体系；现状用途待核"
+      },
+      "notes": "直接取自石政函〔2022〕43号附件详情PDF（A级，OCR核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [],
+      "asset_kind": "industrial_social_site"
+    },
+    {
+      "inventory_id": "HBI-JZ-052",
+      "name": "团山寺镇大礼堂旧址（现服装厂厂房）",
+      "city": "荆州市",
+      "district_county": "石首市团山寺镇解放路125号",
+      "industry_category_l1": "工业社区",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "石首市历史建筑（石政函〔2022〕43号名录（约1972年建））",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "shishou_heritage_batch1_2022"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "大礼堂旧址（616.81平方米），现租用为美莎克服装厂厂房——礼堂空间活态工业利用",
+        "technical_memory": "礼堂大空间结构承接现代服装生产的空间再利用样本",
+        "social_memory": "团山寺镇集体集会记忆与当代服装生产叠合",
+        "current_use_or_loss": "以市级历史建筑身份纳入保护体系；租用关系与工业生产现状待核"
+      },
+      "notes": "直接取自石政函〔2022〕43号附件详情PDF（A级，OCR核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [],
+      "asset_kind": "industrial_social_site"
+    },
+    {
+      "inventory_id": "HBI-JZ-053",
+      "name": "新厂粮库建筑群（6栋）",
+      "city": "荆州市",
+      "district_county": "石首市新厂镇",
+      "industry_category_l1": "粮食仓储工业",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "石首市历史建筑（石政函〔2024〕12号名录（新厂粮库6栋））",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "shishou_heritage_batch2_2024"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "新厂粮库6栋仓房；栋型与保存状态待现场测绘",
+        "technical_memory": "新厂镇为石首江北粮棉集散重镇，粮库群体现区域仓储布局",
+        "social_memory": "新厂镇粮储职工与江北粮棉集散记忆",
+        "current_use_or_loss": "以市级历史建筑身份纳入保护体系；在用/停用状态待核"
+      },
+      "notes": "直接取自石政函〔2024〕12号名录扫描件（A级，OCR核对）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [],
+      "asset_kind": "industrial_storage_site"
+    },
+    {
+      "inventory_id": "HBI-JZ-054",
+      "name": "焦山河粮库建筑群（6栋）",
+      "city": "荆州市",
+      "district_county": "石首市东升镇焦山河社区",
+      "industry_category_l1": "粮食仓储工业",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "石首市历史建筑（石政函〔2024〕12号名录（焦山河粮库6栋））",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "shishou_heritage_batch2_2024"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "焦山河粮库6栋仓房；与 HBI-JZ-048 焦山河粮站仓库（1958年）的组团关系待现场核验",
+        "technical_memory": "焦山河片区粮站+粮库的组合仓储体系",
+        "social_memory": "焦山河粮储职工记忆",
+        "current_use_or_loss": "以市级历史建筑身份纳入保护体系；在用/停用状态待核"
+      },
+      "notes": "直接取自石政函〔2024〕12号名录扫描件（A级，OCR核对）；与1958年粮站仓库的先后沿革待核；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [],
+      "asset_kind": "industrial_storage_site"
+    },
+    {
+      "inventory_id": "HBI-JZ-055",
+      "name": "梅田湖供销社",
+      "city": "荆州市",
+      "district_county": "石首市梅田湖镇",
+      "industry_category_l1": "供销商贸与基层物资供应",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "石首市历史建筑（石政函〔2024〕12号名录（梅田湖供销社））",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "shishou_heritage_batch2_2024"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "供销社建筑本体；门面与柜台格局待现场测绘",
+        "technical_memory": "基层供销社的商品供应与农资回收功能形制",
+        "social_memory": "梅田湖镇供销社购物记忆",
+        "current_use_or_loss": "以市级历史建筑身份纳入保护体系；现状用途待核"
+      },
+      "notes": "直接取自石政函〔2024〕12号名录扫描件（A级，OCR核对）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [],
+      "asset_kind": "industrial_trade_site"
+    },
+    {
+      "inventory_id": "HBI-JZ-056",
+      "name": "石首历史建筑水塔群（新风水塔、新厂供销社水塔、江波渡老水塔、高基庙老水厂塔）",
+      "city": "荆州市",
+      "district_county": "石首市新厂镇、江波渡、高基庙镇",
+      "industry_category_l1": "城镇供水基础设施",
+      "recognition_level": "municipal_historical_building",
+      "recognition_status": "石首市历史建筑（石政函〔2024〕12号名录（新风水塔、新厂供销社水塔、江波渡老水塔、高基庙老水厂塔））",
+      "record_status": "source_confirmed",
+      "geocode_status": "pending",
+      "source_keys": [
+        "shishou_heritage_batch2_2024"
+      ],
+      "cultural_evidence": {
+        "material_carriers": "4处水塔构筑物（新风水塔、新厂供销社水塔、江波渡老水塔、高基庙老水厂塔）；高度与保存状态待现场测绘",
+        "technical_memory": "石首乡镇供水体系的水塔群，集中供水时代的基础设施标本",
+        "social_memory": "各集镇居民饮水与供水站值守记忆",
+        "current_use_or_loss": "以市级历史建筑身份纳入保护体系；在用/退役状态待核"
+      },
+      "notes": "直接取自石政函〔2024〕12号名录扫描件（A级，OCR核对）；4处合并记录以保持乡镇供水遗存群组完整；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+      "aliases": [
+        "新风水塔",
+        "新厂供销社水塔",
+        "江波渡老水塔",
+        "高基庙老水厂塔"
+      ],
+      "asset_kind": "industrial_utility_site"
     }
   ]
 }
