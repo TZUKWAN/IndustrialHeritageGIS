@@ -12108,6 +12108,30 @@
    "source_ids": [
     "src-web-879645cb7a"
    ]
+  },
+  {
+   "inventory_id": "HBI-SZ-014",
+   "name": "应办八一渡槽",
+   "city": "随州市",
+   "district_county": "广水市应山街道",
+   "industry_category_l1": "水利工程与泵站",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "广水市新增历史建筑（2024年，广政函〔2024〕6号批复新增20处之一，政采合同附件按典型测绘列名；正式名录文件政府门户未公开）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "八一渡槽渡槽本体（应山街道）；长度、跨径、结构形式与保存状态待测绘建档成果核验",
+    "technical_memory": "1970年代农田水利建设高潮时期的引水渡槽构筑物工艺，与孝感八燕渡槽（HBI-XN-002）、英山茶场村渡槽（HBI-HG-017）、利川建南天桥（HBI-ES-026）同谱系",
+    "social_memory": "广水灌区农业灌溉与水利建设集体记忆",
+    "current_use_or_loss": "2024年经广政函〔2024〕6号批复新增为历史建筑（以所在地区人民政府名义公布挂牌），2025年完成测绘建档（应山房地产测绘中心承做，成果已汇交部级平台）；在用/停用状态待核"
+   },
+   "notes": "名单源自政采合同附件（政府门户暂无名录公布文件，批复广政函〔2024〕6号未见主动公开版本）；广水20处中其余为革命旧址、古民居、老街铺面及麻市豆腐作坊/手工面条铺两处传统作坊（传统食品手工业，暂不单独入库可后续议定）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-1d850401d9",
+    "src-web-95f0168ab2"
+   ]
   }
  ]
 }
