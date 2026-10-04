@@ -13746,6 +13746,79 @@
    "source_ids": [
     "src-web-3f1e724fa6"
    ]
+  },
+  {
+   "inventory_id": "HBI-HG-041",
+   "name": "康桥粮库（31-32号）",
+   "city": "黄冈市",
+   "district_county": "蕲春县彭思镇康桥村",
+   "industry_category_l1": "粮食仓储工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "蕲春县第四批历史建筑名录（2025-09-22正式公布，7处之一；1958年建）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "康桥粮库31-32号仓房两栋；仓房型制与保存状态待现场测绘",
+    "technical_memory": "1958年公社时期粮仓的仓储建筑形制，与底册蕲春链条厂（HBI-HG-014）同县域工业谱系",
+    "social_memory": "彭思镇粮储职工与统购统销年代售粮记忆",
+    "current_use_or_loss": "以第四批历史建筑身份正式公布保护；在用/停用状态待核"
+   },
+   "notes": "直接取自蕲春县政府第四批名录通知（A级，正式公布）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_storage_site",
+   "source_ids": [
+    "src-web-ea2787c91e"
+   ]
+  },
+  {
+   "inventory_id": "HBI-HG-042",
+   "name": "禹王公社星火大礼堂",
+   "city": "黄冈市",
+   "district_county": "黄冈市黄州区禹王街道汪家冲社区",
+   "industry_category_l1": "工业社区",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "黄冈市市区第四批历史建筑名录（公示期2026-07-13至07-17，拟确定5处之一；1978年建）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "公社大礼堂建筑本体（汪家冲社区）；观众厅与舞台格局待现场测绘",
+    "technical_memory": "1978年公社礼堂的集会、文艺与放映功能空间形制",
+    "social_memory": "禹王公社集体劳动、开会与文娱活动的年代记忆",
+    "current_use_or_loss": "公示拟确定层级（正式公布通知截至2026-10-05未见，入库标注待转正跟踪）；现状用途待核"
+   },
+   "notes": "直接取自黄州区住建局第四批公示附件doc（A级，已下载WPS COM解析）；公示层级参照浠水/麻城公示批次先例入库；坐标未核验保持待核。",
+   "aliases": [
+    "星火大礼堂"
+   ],
+   "asset_kind": "industrial_social_site",
+   "source_ids": [
+    "src-web-728dc976f8"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XG-030",
+   "name": "汪岗镇前进村“大寨型”建筑村部",
+   "city": "黄冈市",
+   "district_county": "孝感市浠水县汪岗镇前进村",
+   "industry_category_l1": "工业社区",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "浠水县第二批历史建筑公示（2023-09-26至10-02公示，11处之一；1974年建）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "“大寨型”建筑村部本体（前进村）；形制与保存状态待现场测绘",
+    "technical_memory": "农业学大寨时期的村部建筑范式（与大寨梯田/集体劳动思潮对应的公共建筑类型）",
+    "social_memory": "前进村集体化治理与农业学大寨运动记忆",
+    "current_use_or_loss": "以第二批历史建筑公示层级纳入保护体系（正式公布通知未检索到，待跟踪）；现状用途待核"
+   },
+   "notes": "直接取自浠水县第二批公示（A级，第85轮同源批次补录——工业/集体化3处已入库，本条为该村部类型补录）；坐标未核验保持待核。",
+   "aliases": [
+    "前进村村部"
+   ],
+   "asset_kind": "industrial_social_site",
+   "source_ids": [
+    "src-web-c5cd5a02dd"
+   ]
   }
  ]
 }
