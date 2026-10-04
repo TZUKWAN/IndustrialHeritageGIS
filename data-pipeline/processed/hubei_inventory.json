@@ -14061,6 +14061,285 @@
    "source_ids": [
     "src-web-dae77c5e96"
    ]
+  },
+  {
+   "inventory_id": "HBI-YC-059",
+   "name": "老搬运站",
+   "city": "宜昌市",
+   "district_county": "枝江市江口镇沿江路",
+   "industry_category_l1": "货运搬运与仓储服务",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "枝江市历史建筑（枝府发〔2024〕2号整合名录79处之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "老搬运站建筑本体（江口沿江路）；站房与货场格局待现场测绘",
+    "technical_memory": "解放初期码头搬运行业的基层组织建筑，江口港货运装卸的组织中枢",
+    "social_memory": "江口港搬运工人（俗称“扁担帮”）集体劳动记忆",
+    "current_use_or_loss": "以市级历史建筑身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自枝府发〔2024〕2号整合名录第71项（A级，智能体核读原文）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "江口搬运站"
+   ],
+   "asset_kind": "industrial_transport_site",
+   "source_ids": [
+    "src-web-ec13d1b5c1"
+   ]
+  },
+  {
+   "inventory_id": "HBI-YC-060",
+   "name": "襄阳铁路分局旧址",
+   "city": "宜昌市",
+   "district_county": "枝江市安福寺镇紫荆岭社区",
+   "industry_category_l1": "铁路交通工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "枝江市历史建筑（枝府发〔2024〕2号整合名录79处之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "铁路分局旧址建筑本体（紫荆岭社区，70年代）；建筑规模与站场关联待现场测绘",
+    "technical_memory": "焦柳铁路沿线地区铁路管理机构旧址（襄阳铁路分局分支驻点），焦柳线1970年代建设史的地方节点",
+    "social_memory": "铁路职工驻站工作与紫荆岭铁路社区记忆",
+    "current_use_or_loss": "以市级历史建筑身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自枝府发〔2024〕2号整合名录第79项（A级，智能体核读原文）；名录未载建筑明细；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "焦柳铁路紫荆岭站"
+   ],
+   "asset_kind": "industrial_transport_site",
+   "source_ids": [
+    "src-web-ec13d1b5c1"
+   ]
+  },
+  {
+   "inventory_id": "HBI-YC-061",
+   "name": "同意大队综合厂",
+   "city": "宜昌市",
+   "district_county": "枝江市（大队属综合加工厂）",
+   "industry_category_l1": "综合工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "枝江市历史建筑（枝府发〔2024〕2号整合名录79处之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "大队综合厂厂房（1963年建）；加工门类与设备留存待现场测绘",
+    "technical_memory": "人民公社大队综合厂的多业经营模式（农副加工/五金/编织等）",
+    "social_memory": "同意大队社员集体办厂与工分制生产记忆",
+    "current_use_or_loss": "以市级历史建筑身份纳入保护体系；停产年代与现状用途待核"
+   },
+   "notes": "直接取自枝府发〔2024〕2号整合名录（A级，智能体核读原文）；综合厂具体加工门类待地方志核验；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-ec13d1b5c1"
+   ]
+  },
+  {
+   "inventory_id": "HBI-YC-062",
+   "name": "枝江纺织与踹布遗存（张涛然纺织厂亮瓦亭、胡安汉踹坊）",
+   "city": "宜昌市",
+   "district_county": "枝江市（董市镇/江口镇）",
+   "industry_category_l1": "纺织工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "枝江市历史建筑（枝府发〔2024〕2号整合名录79处之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "2处纺织加工遗存：张涛然纺织厂（亮瓦亭——亮瓦采光屋顶的纺织车间形制）、胡安汉踹坊（踹布整理作坊）；设备留存待现场测绘",
+    "technical_memory": "枝江棉纺织业的织布（亮瓦采光车间）与踹布整理（元宝石碾压）传统工艺",
+    "social_memory": "枝江纺织工人与董市/江口棉布集散记忆",
+    "current_use_or_loss": "以市级历史建筑身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自枝府发〔2024〕2号整合名录（A级，智能体核读原文）；2处合并记录以保持纺织加工谱系；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "张涛然纺织厂",
+    "胡安汉踹坊"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-ec13d1b5c1"
+   ]
+  },
+  {
+   "inventory_id": "HBI-YC-063",
+   "name": "枝江食品加工作坊（毛氏苕粉作坊、焦家磨坊）",
+   "city": "宜昌市",
+   "district_county": "枝江市",
+   "industry_category_l1": "食品加工工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "枝江市历史建筑（枝府发〔2024〕2号整合名录79处之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "2处食品加工作坊：毛氏苕粉作坊（红薯淀粉粉丝制作）、焦家磨坊（粮食磨粉加工）；设备与作坊格局待现场测绘",
+    "technical_memory": "县域传统食品加工作坊的水磨/苕粉制作工艺",
+    "social_memory": "枝江苕粉、面粉地方食品与作坊主家族经营记忆",
+    "current_use_or_loss": "以市级历史建筑身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自枝府发〔2024〕2号整合名录（A级，智能体核读原文）；2处合并记录；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "毛氏苕粉作坊",
+    "焦家磨坊"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-ec13d1b5c1"
+   ]
+  },
+  {
+   "inventory_id": "HBI-YC-064",
+   "name": "枝江百纺五金商贸遗存（老百纺公司、五金公司江口门市部）",
+   "city": "宜昌市",
+   "district_county": "枝江市江口镇",
+   "industry_category_l1": "供销商贸与基层物资供应",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "枝江市历史建筑（枝府发〔2024〕2号整合名录79处之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "2处商贸建筑：老百纺公司、五金公司江口门市部；门面与仓储格局待现场测绘",
+    "technical_memory": "国营百纺公司与五金专业门市的商品流通业态",
+    "social_memory": "枝江百货纺织品与五金商品供应的国营商业记忆",
+    "current_use_or_loss": "以市级历史建筑身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自枝府发〔2024〕2号整合名录（A级，智能体核读原文）；2处合并记录；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "老百纺公司",
+    "五金公司江口门市部"
+   ],
+   "asset_kind": "industrial_trade_site",
+   "source_ids": [
+    "src-web-ec13d1b5c1"
+   ]
+  },
+  {
+   "inventory_id": "HBI-YC-065",
+   "name": "枝江木板屋躲水楼",
+   "city": "宜昌市",
+   "district_county": "枝江市下街130号",
+   "industry_category_l1": "防洪水利构筑物",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "枝江市历史建筑（枝府发〔2024〕2号整合名录79处之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "木板屋躲水楼建筑（下街130号，明清）；躲水楼层构造与撤离通道形制待现场测绘",
+    "technical_memory": "长江洪泛区“躲水楼”建筑类型——洪水期居民携物上楼避洪的民居防洪智慧（枝江沿江特有建筑类型）",
+    "social_memory": "枝江沿江居民世代避洪迁居的水患记忆",
+    "current_use_or_loss": "以市级历史建筑身份纳入保护体系；建筑保存与展示待核"
+   },
+   "notes": "直接取自枝府发〔2024〕2号整合名录（A级，智能体核读原文）；躲水楼为长江洪泛区特有建筑类型，底册首例；坐标未核验保持待核。",
+   "aliases": [
+    "躲水楼"
+   ],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-ec13d1b5c1"
+   ]
+  },
+  {
+   "inventory_id": "HBI-YC-066",
+   "name": "秭归桑坪公社时期建筑",
+   "city": "宜昌市",
+   "district_county": "秭归县水田坝乡姜家坡村四组",
+   "industry_category_l1": "工业社区",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "秭归县首批历史建筑（2020-11-16县住建局公示7处之一，2021年市政府汇总公布）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "桑坪公社时期建筑本体（姜家坡村四组）；建筑形制与公社功能空间待现场测绘",
+    "technical_memory": "人民公社时期基层治理与公共活动的建筑载体",
+    "social_memory": "桑坪公社社员集体化生产生活记忆",
+    "current_use_or_loss": "以首批历史建筑身份纳入保护体系（秭归县政府正式公布通知未检索到，以县住建局公示为准）；现状用途待核"
+   },
+   "notes": "直接取自秭归县住建局首批历史建筑公示（A级，智能体核读原文）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "桑坪公社"
+   ],
+   "asset_kind": "industrial_social_site",
+   "source_ids": [
+    "src-web-ad2e4cfac6"
+   ]
+  },
+  {
+   "inventory_id": "HBI-YC-067",
+   "name": "秭归永乐水库",
+   "city": "宜昌市",
+   "district_county": "秭归县归州镇周家湾村",
+   "industry_category_l1": "水利工程与泵站",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "秭归县首批历史建筑（2020-11-16县住建局公示7处之一，2021年市政府汇总公布）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "永乐水库大坝与灌溉设施（周家湾村）；坝型、库容与灌溉范围待水利部门资料核补",
+    "technical_memory": "峡江山地水库蓄水灌溉工程的建设工艺",
+    "social_memory": "归州镇水利建设与农田灌溉集体记忆",
+    "current_use_or_loss": "以首批历史建筑身份纳入保护体系；水库运行状态待水利部门核"
+   },
+   "notes": "直接取自秭归县住建局首批历史建筑公示（A级，智能体核读原文）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-ad2e4cfac6"
+   ]
+  },
+  {
+   "inventory_id": "HBI-YC-068",
+   "name": "武钢职工宿舍石头屋",
+   "city": "宜昌市",
+   "district_county": "长阳土家族自治县火烧坪乡青树包村",
+   "industry_category_l1": "矿山采选工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "长阳土家族自治县第三批历史建筑（长政发〔2024〕3号，2024-06-26公布，38处之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "武钢职工宿舍石头屋建筑本体（青树包村）；石砌工艺与内部格局待现场测绘",
+    "technical_memory": "武钢（武汉钢铁集团）在长阳火烧坪矿区开采矿石的职工生活配套建筑，石砌墙体适应高山气候的营造工艺",
+    "social_memory": "武钢矿山开采期职工驻矿生活记忆；火烧坪为武钢矿石原料供应地之一",
+    "current_use_or_loss": "以第三批历史建筑身份正式公布保护；现状用途待核"
+   },
+   "notes": "直接取自长政发〔2024〕3号第三批名录（A级，智能体核读原文）；武钢在长阳的具体矿山名称与开采年代待档案核验；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "火烧坪武钢宿舍"
+   ],
+   "asset_kind": "industrial_residential_landscape",
+   "source_ids": [
+    "src-web-1994c3cca4"
+   ]
+  },
+  {
+   "inventory_id": "HBI-YC-069",
+   "name": "长阳第三批供销金融与公社遗存（王家棚信用社邮政所、沿头溪公社、都镇湾供销社杨柘坪分店、璞岭大队榨坊、曲溪公社、渔峡口供销社龙池分店）",
+   "city": "宜昌市",
+   "district_county": "长阳土家族自治县（龙舟坪镇、大堰乡、都镇湾镇等）",
+   "industry_category_l1": "供销商贸与基层物资供应",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "长阳土家族自治县第三批历史建筑（长政发〔2024〕3号，2024-06-26公布，38处之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "6处遗存：王家棚信用社、邮政所旧址（龙舟坪镇王家棚村）、原沿头溪公社旧址、都镇湾镇供销合作社杨柘坪分店旧址、原璞岭大队榨坊旧址、原曲溪公社旧址、渔峡口镇供销社龙池分店旧址；保存状态待现场测绘",
+    "technical_memory": "县域基层信用社、邮政所、供销社分店、公社治理与大队榨坊的组合遗存——长阳山区基层经济服务网络标本",
+    "social_memory": "山区供销购物、邮政汇兑、信用存贷与公社榨坊生产的组合记忆",
+    "current_use_or_loss": "以第三批历史建筑身份正式公布保护；现状用途待核"
+   },
+   "notes": "直接取自长政发〔2024〕3号第三批名录（A级，智能体核读原文）；6处合并记录以保持基层经济服务网络完整；榨坊为油料加工遗存可细究；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "王家棚信用社",
+    "沿头溪公社",
+    "杨柘坪分店",
+    "璞岭大队榨坊",
+    "曲溪公社",
+    "龙池分店"
+   ],
+   "asset_kind": "industrial_trade_site",
+   "source_ids": [
+    "src-web-1994c3cca4"
+   ]
   }
  ]
 }
