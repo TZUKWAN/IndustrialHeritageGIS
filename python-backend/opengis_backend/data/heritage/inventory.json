@@ -14340,6 +14340,109 @@
    "source_ids": [
     "src-web-1994c3cca4"
    ]
+  },
+  {
+   "inventory_id": "HBI-JM-024",
+   "name": "五三农场罐头厂与农垦工业体系",
+   "city": "荆门市",
+   "district_county": "屈家岭管理区",
+   "industry_category_l1": "食品加工工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "屈家岭管理区历史建筑（管理区官网2026年更新载明农场沿革；罐头厂为历史设施，现由田野农谷公司承续）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "五三农场罐头厂（注册仙品桃品牌）及农场场办工业体系建筑（98家工商企业，工业产值占工农业总产值68%）；厂房保存状况待现场测绘",
+    "technical_memory": "国营农场罐头食品加工（黄桃罐头等果蔬加工）与种养加一条龙、农工贸一体化的农垦工业体系",
+    "social_memory": "李先念奠基、王震三次亲临的五三农场创建记忆；农垦第二代职工与仙品桃品牌消费记忆",
+    "current_use_or_loss": "农场企业化改革后成立湖北五三农场集团公司，罐头品牌由田野农谷公司承续（3条果蔬汁生产线，年加工5.8万吨）；原厂房保存状况待核"
+   },
+   "notes": "直接取自屈家岭管理区官网（A级）与百家号报道（C级）；罐头厂原厂房本体保存与仙品桃品牌沿革待档案核验；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "五三农场罐头厂",
+    "仙品桃"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-542bb0a69f"
+   ]
+  },
+  {
+   "inventory_id": "HBI-JZ-070",
+   "name": "松宜矿区陈家河煤矿旧址群",
+   "city": "荆州市",
+   "district_county": "松滋市刘家场镇（跨宜昌宜都市）",
+   "industry_category_l1": "煤炭工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "松滋市历史建筑认定对象（松滋市政府网2024-08矿洞治理报道确认矿址；陈家河煤矿旧址修旧如旧活化研学基地经三峡宜昌网/中国日报网/宜昌市自规局多源确认；正式历史建筑名录公布通知未检索到）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "松宜矿区核心矿井遗存（尖岩河/陈家河两对矿井，2017年关闭）；陈家河煤矿旧址厂房群（修旧如旧改造，建筑齐整、园林景观错落有致）；矿洞酸性废水预处理池+人工湿地（总投资7462万元，34.4平方公里）；矿区铁路专用线（铁路社区即因专用线得名）；官渡坪/松木坪职工安置与康养建筑",
+    "technical_memory": "1835年起民间土法采煤→民国民营煤矿→解放后宜昌专区接管→计划经济扭转北煤南运夺煤保电→最高年产7500多万吨累计→2017年去产能关闭→矿区生态修复与研学转型——湖北煤炭工业的完整生命周期样本",
+    "social_memory": "松宜矿区2万职工民工与4000多户矿工家庭安置记忆；刘家场镇因煤而兴的矿区集镇记忆；矿区闭矿遗留的酸性废水治理与生态修复记忆",
+    "current_use_or_loss": "2017年全部矿井关闭；陈家河煤矿旧址已活化采煤研学基地（宜昌市自规局2025-12-01导入研学科普教育产业）；矿洞废水治理试点持续运行"
+   },
+   "notes": "核心证据链：宜都市政府矿区管委会简介（A）+松滋市政府矿洞治理报道（A）+湖北日报转型路（B）+人民网矿区叫停报道（B）——4个全文页直读构成完整证据链；矿区跨松滋/宜都两市108平方公里；陈家河煤矿旧址活化研学基地状态待实地核验；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "松宜煤矿",
+    "松宜矿区",
+    "陈家河煤矿",
+    "尖岩河煤矿"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-da6bbaf595"
+   ]
+  },
+  {
+   "inventory_id": "HBI-HS-057",
+   "name": "七约山煤炭矿务局旧址群",
+   "city": "黄石市",
+   "district_county": "矿区跨黄石开发区·铁山区与阳新县交界",
+   "industry_category_l1": "煤炭工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "黄石市工业遗产候选（2019年首批黄石市工业遗产名录未含七约山；矿区设施待黄石市文保中心认定程序确认）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "矿址（凡庄村）、6公里采空塌陷区（现存地貌）、矿区职工医院、高峰期村办小矿井30多处、煤炭输出专用码头（黄石新港港址起源）；矿址建筑保存状况待现场测绘",
+    "technical_memory": "湖北省三大煤炭基地之一的矿务局建制与煤炭输出专用码头体系；七约山煤矿关停后黄石新港因煤炭输出需求在坡岸发现良港——工业遗产与港口发展交织",
+    "social_memory": "七约山矿区3万职工家属与矿地社区记忆；矿山关停后千余亩塌陷区修复茶园的生态转型记忆",
+    "current_use_or_loss": "1993年矿井全部关停；采空区塌陷地貌存留；矿区设施活化方向（茶园修复/矿山遗址）待现场核验"
+   },
+   "notes": "直接取自黄石市自规局转载湖北日报2019-09-27报道（A级）与头条搜索佐证（七约山煤炭输出与黄石新港起源直接相关）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "七约山煤炭矿务局",
+    "七约山煤矿"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-f049926850"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-050",
+   "name": "竹山桥东煤矿旧址",
+   "city": "十堰市",
+   "district_county": "竹山县城关镇桥东村",
+   "industry_category_l1": "煤炭工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "竹山县矿山关闭退出验收对象（今日竹山网报道，2018年关闭退出；无历史建筑或工业遗产名录认定）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "桥东煤矿矿址（城关镇桥东村，15万吨矿井）；矿洞口、提升设施与矿区建筑留存待现场测绘",
+    "technical_memory": "三线时期兴建的县属国营煤矿开采工艺与地方管理体制（1970年兴建→1981年移交地方→2018年去产能关闭退出）",
+    "social_memory": "竹山煤矿工人与县城能源供应记忆",
+    "current_use_or_loss": "2018年关闭退出后矿址保存状况待现场核验"
+   },
+   "notes": "直接取自今日竹山网报道（B级，全文核读）；无历史建筑或工业遗产名录认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-4f34befa5d"
+   ]
   }
  ]
 }
