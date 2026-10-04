@@ -13452,6 +13452,199 @@
    "source_ids": [
     "src-web-ed792c7fb1"
    ]
+  },
+  {
+   "inventory_id": "HBI-XG-022",
+   "name": "双峰渡槽",
+   "city": "孝感市",
+   "district_county": "孝昌县周巷镇双峰村下份湾",
+   "industry_category_l1": "水利工程与泵站",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "孝昌县第三批历史建筑（2024-04-29公布，名录编号HB-XG-XC-0026）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "渡槽本体（全长200余米、高约15米），1974年龙卷风垮塌后重建；结构形式与保存状态待现场测绘",
+    "technical_memory": "山区引水灌溉渡槽工艺与灾后重建工程史（引观音湖水灌溉周巷、丰山、邹岗三镇90%农田）",
+    "social_memory": "三镇农业灌溉命脉与渡槽建设者的集体记忆",
+    "current_use_or_loss": "以第三批历史建筑身份正式公布保护；在用/停用状态待核"
+   },
+   "notes": "直接取自孝昌县第三批名录附件xlsx（A级，省级上报详表已核读）；与底册陡山/青山口渡槽（HBI-XG-015/016）同县域水利谱系；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-1cbe15bc49"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XG-023",
+   "name": "新四军第五师被服厂旧址（含枪械维修所）",
+   "city": "孝感市",
+   "district_county": "孝昌县小悟乡项庙村大阳湾",
+   "industry_category_l1": "军需纺织工业",
+   "recognition_level": "county_relic_related",
+   "recognition_status": "孝昌县第三批历史建筑（2024-04-29公布，名录编号HB-XG-XC-0020；1943年）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "被服厂旧址建筑本体，与枪械维修所和练兵场并设；厂房形制与设备遗迹待现场测绘",
+    "technical_memory": "新四军第五师军需被服生产与枪械维修的战时军工组合设施",
+    "social_memory": "新四军五师（李先念部）随军军工生产与根据地支前记忆",
+    "current_use_or_loss": "以第三批历史建筑身份正式公布保护；保存状况与展示利用待核"
+   },
+   "notes": "直接取自孝昌县第三批名录附件xlsx（A级，已核读）；革命军需工业对象，记录边界含枪械维修所组合；坐标未核验保持待核。",
+   "aliases": [
+    "新四军第五师枪械维修所"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-1cbe15bc49"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XG-024",
+   "name": "边区消费合作社旧址",
+   "city": "孝感市",
+   "district_county": "大悟县芳畈镇大悟山村",
+   "industry_category_l1": "供销商贸与基层物资供应",
+   "recognition_level": "county_relic_related",
+   "recognition_status": "大悟县文物保护单位（文保名录No.71）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "消费合作社旧址建筑本体（芳畈镇大悟山村）；门面与柜面格局待现场测绘",
+    "technical_memory": "边区消费合作社的统购统销与合作社经济组织形制",
+    "social_memory": "鄂豫边区合作社经济与根据地物资供应记忆",
+    "current_use_or_loss": "以县保身份纳入保护体系；保存与展示状态待核"
+   },
+   "notes": "直接取自大悟县文旅局文保名录（A级）；供销合作类对象与底册供销社系列同谱系；坐标未核验保持待核。",
+   "aliases": [
+    "边区合作社"
+   ],
+   "asset_kind": "industrial_trade_site",
+   "source_ids": [
+    "src-web-9c65531532"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XG-025",
+   "name": "兵工厂旧址",
+   "city": "孝感市",
+   "district_county": "大悟县芳畈镇大悟山村",
+   "industry_category_l1": "军工修配工业",
+   "recognition_level": "county_relic_related",
+   "recognition_status": "大悟县文物保护单位（文保名录No.72）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "兵工厂旧址建筑本体（芳畈镇大悟山村）；厂房与设备遗迹待现场测绘",
+    "technical_memory": "地方兵工厂的修械制造工艺与隐蔽生产布局",
+    "social_memory": "根据地军工生产与民兵武装记忆",
+    "current_use_or_loss": "以县保身份纳入保护体系；建造年代与生产谱系待档案核验"
+   },
+   "notes": "直接取自大悟县文旅局文保名录（A级）；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-9c65531532"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XG-026",
+   "name": "南闸泵站",
+   "city": "孝感市",
+   "district_county": "孝感市孝南区",
+   "industry_category_l1": "水利工程与泵站",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "孝感市第二批历史建筑（孝感政办函〔2024〕29号，2024-06-22公布，25处之一；1960年）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "泵站建筑与机组设施；装机与结构待现场测绘",
+    "technical_memory": "1960年排灌泵站的机电提水工艺",
+    "social_memory": "孝南区排涝保丰收与泵站职工值守记忆",
+    "current_use_or_loss": "以市级历史建筑身份正式公布保护；在用/退役状态待核"
+   },
+   "notes": "直接取自孝感政办函〔2024〕29号名录（A级，PDF原件已核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-d4b7a507b0"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XG-027",
+   "name": "三汊埠火车站",
+   "city": "孝感市",
+   "district_county": "孝感市孝南区三汊镇",
+   "industry_category_l1": "铁路交通工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "孝感市第二批历史建筑（孝感政办函〔2024〕29号，2024-06-22公布，25处之一；1901年）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "火车站站房与站场设施（三汊镇）；站房立面与轨道形制待现场测绘",
+    "technical_memory": "1901年建站的铁路车站——孝感境内最早铁路站之一（京汉铁路沿线支线或车站谱系待铁路志核验）",
+    "social_memory": "三汊埠铁路客货运与集镇因站而兴的记忆",
+    "current_use_or_loss": "以市级历史建筑身份正式公布保护；运营状态与保留范围待铁路部门核"
+   },
+   "notes": "直接取自孝感政办函〔2024〕29号名录（A级，PDF原件已核读）；1901年建站早于京汉铁路全线通车（1906年），所属线路待核；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "三汊埠站"
+   ],
+   "asset_kind": "industrial_transport_site",
+   "source_ids": [
+    "src-web-d4b7a507b0"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XG-028",
+   "name": "三汊粮油公司老仓库与三汊供销社",
+   "city": "孝感市",
+   "district_county": "孝感市孝南区三汊镇",
+   "industry_category_l1": "粮食仓储工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "孝感市第二批历史建筑（孝感政办函〔2024〕29号，2024-06-22公布，25处之列；1960/1970年）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "2处建筑：三汊粮油公司老仓库（1960年）与孝感县三汊供销社（1970年）；仓型与保存状态待现场测绘",
+    "technical_memory": "粮油统购统销仓库与供销社双系统的集镇布局",
+    "social_memory": "三汊镇粮储职工与供销社员记忆",
+    "current_use_or_loss": "以市级历史建筑身份正式公布保护；现状用途待核"
+   },
+   "notes": "直接取自孝感政办函〔2024〕29号名录（A级，PDF原件已核读）；2处合并记录；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "三汊粮油公司",
+    "三汊供销社"
+   ],
+   "asset_kind": "industrial_storage_site",
+   "source_ids": [
+    "src-web-d4b7a507b0"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XG-029",
+   "name": "孝感米酒馆",
+   "city": "孝感市",
+   "district_county": "孝感市孝南区",
+   "industry_category_l1": "食品加工工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "孝感市第二批历史建筑（孝感政办函〔2024〕29号，2024-06-22公布，25处之一；1956年）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "米酒馆建筑本体；门面与酿造作坊格局待现场测绘",
+    "technical_memory": "孝感米酒（糊汤酒酿）的商业酿造与堂售传统，1956年公私合营背景的米酒馆业态",
+    "social_memory": "孝感米酒城市名片与早酒饮食习俗记忆",
+    "current_use_or_loss": "以市级历史建筑身份正式公布保护；经营延续与建筑保存待核"
+   },
+   "notes": "直接取自孝感政办函〔2024〕29号名录（A级，PDF原件已核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_trade_site",
+   "source_ids": [
+    "src-web-d4b7a507b0"
+   ]
   }
  ]
 }
