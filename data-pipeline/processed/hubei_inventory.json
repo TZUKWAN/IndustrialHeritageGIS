@@ -2700,7 +2700,7 @@
    "recognition_status": "湖北省第九批省级文物保护单位（2025）",
    "record_status": "source_confirmed",
    "geocode_status": "pending",
-   "notes": "省政府第九批名单列为1977年近现代重要史迹；需补渡槽结构、灌溉系统、施工资料和社区记忆。",
+   "notes": "省政府第九批名单列为1977年近现代重要史迹；需补渡槽结构、灌溉系统、施工资料和社区记忆。2026-10-05通城县2022年历史建筑认定公示名单（A级）亦列“关刀八燕渡槽”（关刀镇八燕村），与本条省保八燕渡槽为同一对象的不同批次认定，县保/省保层级沿革互证。",
    "source_ids": [
     "src-web-4293df14dc"
    ]
@@ -13818,6 +13818,248 @@
    "asset_kind": "industrial_social_site",
    "source_ids": [
     "src-web-c5cd5a02dd"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XN-018",
+   "name": "北港岭源湖北省长石矿旧址",
+   "city": "咸宁市",
+   "district_county": "通城县北港镇姜家垅",
+   "industry_category_l1": "矿山采选工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "通城县历史建筑（2022-03-22认定公示38处名录之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "长石矿旧址矿区建筑与采矿设施（姜家垅）；矿洞、堆场与选矿遗迹待现场测绘",
+    "technical_memory": "湖北省属长石矿的采矿选矿工艺与县域非金属矿开发史",
+    "social_memory": "通城长石矿职工与矿区集镇记忆",
+    "current_use_or_loss": "以历史建筑身份纳入保护体系；停产年代与矿权现状待核"
+   },
+   "notes": "直接取自通城县2022年历史建筑认定公示名单（A级，智能体核读原文）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "湖北省长石矿"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-9b6e7143d5"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XN-019",
+   "name": "关刀高冲公社",
+   "city": "咸宁市",
+   "district_county": "通城县关刀镇高冲村",
+   "industry_category_l1": "工业社区",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "通城县历史建筑（2022-03-22认定公示38处名录之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "高冲公社建筑本体（关刀镇高冲村）；公社办公与公共活动空间格局待现场测绘",
+    "technical_memory": "人民公社基层治理建筑的保存样本",
+    "social_memory": "高冲村公社集体化治理与生产生活记忆",
+    "current_use_or_loss": "以历史建筑身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自通城县2022年历史建筑认定公示名单（A级，智能体核读原文）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_social_site",
+   "source_ids": [
+    "src-web-9b6e7143d5"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XN-020",
+   "name": "沙堆九井峰茶场",
+   "city": "咸宁市",
+   "district_county": "通城县沙堆镇沙堆村",
+   "industry_category_l1": "茶业生产与工业社区",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "通城县历史建筑（2022-03-22认定公示38处名录之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "九井峰茶场建筑与茶园（沙堆镇沙堆村）；制茶车间与厂房保存状态待现场测绘",
+    "technical_memory": "县域国营/集体茶场的种植—采摘—制茶生产链",
+    "social_memory": "沙堆镇茶场职工与通城茶叶产业记忆",
+    "current_use_or_loss": "以历史建筑身份纳入保护体系；茶场经营延续状态待核"
+   },
+   "notes": "直接取自通城县2022年历史建筑认定公示名单（A级，智能体核读原文）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "九井峰茶场"
+   ],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-9b6e7143d5"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XN-021",
+   "name": "石家渡槽",
+   "city": "咸宁市",
+   "district_county": "通城县北港镇桂家村一组",
+   "industry_category_l1": "水利工程与泵站",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "通城县历史建筑（2024年5月20日“百日行动”认定公示52处名录之列，名录载约100年以上）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "石家渡槽本体（桂家村一组）；跨度、结构形式与保存状态待现场测绘",
+    "technical_memory": "山区引水灌溉渡槽工艺（名录载约100年以上，早于集体化高潮期的稀有早期渡槽）",
+    "social_memory": "通城北港灌区农业灌溉记忆",
+    "current_use_or_loss": "以历史建筑身份纳入保护体系；在用/停用状态待核"
+   },
+   "notes": "直接取自通城县2024年“百日行动”认定公示附件PDF（A级，智能体核读）；名录载年代约100年以上；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-9b6e7143d5"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XN-022",
+   "name": "永逸闸",
+   "city": "咸宁市",
+   "district_county": "嘉鱼县鱼岳镇木鱼山东护城干堤桩号298+600",
+   "industry_category_l1": "水利工程与泵站",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "嘉鱼县第一批历史建筑保护名单（2023-05-26成文公布，11处之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "水闸建筑本体（护城干堤）；闸孔规模、启闭设施与闸体结构待现场测绘",
+    "technical_memory": "长江干堤护城水闸的排灌调蓄工艺",
+    "social_memory": "嘉鱼县城防洪排涝与水闸值守记忆",
+    "current_use_or_loss": "以第一批历史建筑身份正式公布保护；在用状态待水利部门核"
+   },
+   "notes": "直接取自嘉鱼县政府第一批历史建筑保护名单PDF（A级，智能体完整核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-e0d59d1324"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XN-023",
+   "name": "八斗渡槽",
+   "city": "咸宁市",
+   "district_county": "嘉鱼县高铁岭镇九龙村下屋孙家至石塘村",
+   "industry_category_l1": "水利工程与泵站",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "嘉鱼县第一批历史建筑保护名单（2023-05-26成文公布，11处之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "渡槽本体（横跨大岩畈）；跨度与结构待现场测绘",
+    "technical_memory": "丘陵灌区渡槽输水工艺，与麻城/孝感/利川/通城渡槽群同谱系",
+    "social_memory": "嘉鱼丘陵灌区农业灌溉记忆",
+    "current_use_or_loss": "以第一批历史建筑身份正式公布保护；在用/停用状态待核"
+   },
+   "notes": "直接取自嘉鱼县政府第一批历史建筑保护名单PDF（A级，智能体完整核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-e0d59d1324"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XN-024",
+   "name": "崇阳县刘家渡槽",
+   "city": "咸宁市",
+   "district_county": "咸宁市崇阳县（路口镇或白霓镇，分布待核）",
+   "industry_category_l1": "水利工程与泵站",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "崇阳县第一批历史建筑（2024年挂牌保护20处之一，媒体核读）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "刘家渡槽本体；跨度与结构待现场测绘",
+    "technical_memory": "山区引水灌溉渡槽工艺",
+    "social_memory": "崇阳灌区农业灌溉与水利建设记忆",
+    "current_use_or_loss": "以第一批历史建筑身份挂牌保护（媒体核读，政府网正式通知原文未检索到）；在用/停用状态待核"
+   },
+   "notes": "媒体核读（B级），崇阳县政府网无正式通知原文——政府网正式公布文件待查；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-d41d8cd98f"
+   ]
+  },
+  {
+   "inventory_id": "HBI-JZ-067",
+   "name": "监利粮站粮库群（白螺镇粮站、余埠粮管所、严场粮库、莲台粮库、红瓦仓库）",
+   "city": "荆州市",
+   "district_county": "监利市白螺镇、黄歇口镇、汪桥镇、毛市镇",
+   "industry_category_l1": "粮食仓储工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "监利市历史建筑（市住建局2023-05-31认定公示30处之列，2024年6月市政府公布程序生效）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "5处粮站/粮管所/粮库/仓库：白螺镇粮站、黄歇口镇余埠粮管所、汪桥镇严场粮库、汪桥镇莲台粮库、毛市镇红瓦仓库；各处仓房型制与保存状态待现场测绘",
+    "technical_memory": "监利（全国产粮大县）县域粮站—粮管所两级粮食储运网络标本",
+    "social_memory": "监利粮农售粮与粮站职工的统购统销记忆",
+    "current_use_or_loss": "30处已与产权人签订保护协议并进入市政府公布程序（2024年6月）；在用/停用状态待核"
+   },
+   "notes": "直接取自监利市住建局认定公示（A级，智能体核读原文）；5处合并记录以保持县域粮储网络完整；坐标未核验保持待核。",
+   "aliases": [
+    "白螺镇粮站",
+    "余埠粮管所",
+    "严场粮库",
+    "莲台粮库",
+    "红瓦仓库"
+   ],
+   "asset_kind": "industrial_storage_site",
+   "source_ids": [
+    "src-web-8c2be4c4af"
+   ]
+  },
+  {
+   "inventory_id": "HBI-JZ-068",
+   "name": "毛市镇砖瓦厂渡口",
+   "city": "荆州市",
+   "district_county": "监利市毛市镇",
+   "industry_category_l1": "工业仓储与运输",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "监利市历史建筑（市住建局2023-05-31认定公示30处之列，2024年6月市政府公布程序生效）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "砖瓦厂配套渡口设施；渡口形制与使用状态待现场测绘",
+    "technical_memory": "砖瓦厂产品水路外运的配套渡口运输节点",
+    "social_memory": "毛市镇砖瓦生产与水路运输记忆",
+    "current_use_or_loss": "以市级历史建筑身份纳入保护体系；渡口使用状态待核"
+   },
+   "notes": "直接取自监利市住建局认定公示（A级，智能体核读原文）；工业运输配套遗存类型在底册为首例；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_transport_site",
+   "source_ids": [
+    "src-web-8c2be4c4af"
+   ]
+  },
+  {
+   "inventory_id": "HBI-JZ-069",
+   "name": "乌林粮管所仓库",
+   "city": "荆州市",
+   "district_county": "洪湖市乌林镇黄蓬老街",
+   "industry_category_l1": "粮食仓储工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "洪湖市第二批历史建筑（洪政函〔2023〕14号，2023-04-19公布，11处之一；1968年建）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "粮管所仓库建筑本体（1090平方米，黄蓬老街）；仓房型制与保存状态待现场测绘",
+    "technical_memory": "县域粮食收储仓库建筑，后为叶家门国家粮库乌林收购点——公社粮仓到国家粮库收购点的功能演变",
+    "social_memory": "乌林镇粮储职工与黄蓬老街粮食收购记忆（名录载其“功能特殊，具有一定标志性”）",
+    "current_use_or_loss": "以第二批历史建筑身份正式公布保护；在用/停用状态待核"
+   },
+   "notes": "直接取自洪政函〔2023〕14号名录全表（A级，智能体核读原文）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "乌林粮管所"
+   ],
+   "asset_kind": "industrial_storage_site",
+   "source_ids": [
+    "src-web-dae77c5e96"
    ]
   }
  ]
