@@ -13279,6 +13279,179 @@
    "source_ids": [
     "src-web-5aafa2caf5"
    ]
+  },
+  {
+   "inventory_id": "HBI-SY-043",
+   "name": "国营三六一一厂生活配套建筑群（电影院、办公楼、商场）",
+   "city": "十堰市",
+   "district_county": "丹江口市浪河镇土门沟村",
+   "industry_category_l1": "三线军工工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "丹江口市第三批历史建筑（丹政发〔2024〕6号，2024-05-29公布，名录3处：电影院2160㎡、办公楼3550㎡、商场2360㎡，70年代）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "三六一一厂生活配套建筑3处（电影院、办公楼、商场，土门沟村）；建筑形制与内部格局待现场测绘",
+    "technical_memory": "三线军工企业厂前区生活配套（文娱/办公/商业）的完整组群形制",
+    "social_memory": "三六一厂职工与浪河镇三线厂区生活记忆",
+    "current_use_or_loss": "以第三批历史建筑身份正式公布保护；现状用途与产权待核"
+   },
+   "notes": "直接取自丹政发〔2024〕6号红头文件扫描图（A级，逐页识读）；3处合并记录以保持厂区配套完整；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "三六一一厂"
+   ],
+   "asset_kind": "industrial_social_site",
+   "source_ids": [
+    "src-web-28d3dfb024"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-044",
+   "name": "国营三六零七厂生活配套建筑群（电影院、办公楼、商场）",
+   "city": "十堰市",
+   "district_county": "丹江口市浪河镇代湾村",
+   "industry_category_l1": "三线军工工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "丹江口市第三批历史建筑（丹政发〔2024〕6号，名录3处：电影院1260㎡、办公楼2870㎡、商场1590㎡，60年代）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "三六零七厂生活配套建筑3处（电影院、办公楼、商场，代湾村）；保存状况待现场测绘",
+    "technical_memory": "三线厂厂前区建筑群（代湾村）",
+    "social_memory": "三六零七厂职工与代湾村三线生活记忆",
+    "current_use_or_loss": "以第三批历史建筑身份正式公布保护；现状用途与产权待核"
+   },
+   "notes": "直接取自丹政发〔2024〕6号红头文件扫描图（A级，逐页识读）；3处合并记录；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "三六零七厂"
+   ],
+   "asset_kind": "industrial_social_site",
+   "source_ids": [
+    "src-web-28d3dfb024"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-045",
+   "name": "国营三六零二厂生活配套建筑群（电影院、百货大楼、办公楼）",
+   "city": "十堰市",
+   "district_county": "丹江口市浪河镇青莫社区",
+   "industry_category_l1": "三线军工工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "丹江口市第三批历史建筑（丹政发〔2024〕6号，名录3处：电影院1375㎡、百货大楼1790㎡、办公楼3586㎡，70年代）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "三六零二厂生活配套建筑3处（电影院、百货大楼、办公楼，青莫社区）；保存状况待现场测绘",
+    "technical_memory": "三线厂厂前区含百货大楼的商业配套形态",
+    "social_memory": "三六零二厂职工与青莫社区三线生活记忆",
+    "current_use_or_loss": "以第三批历史建筑身份正式公布保护；现状用途与产权待核"
+   },
+   "notes": "直接取自丹政发〔2024〕6号红头文件扫描图（A级，逐页识读）；3处合并记录；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "三六零二厂"
+   ],
+   "asset_kind": "industrial_social_site",
+   "source_ids": [
+    "src-web-28d3dfb024"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-046",
+   "name": "原64厂建筑群（5栋）",
+   "city": "十堰市",
+   "district_county": "十堰市张湾区",
+   "industry_category_l1": "三线军工工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "十堰市2025年度历史建筑名录（十政发〔2026〕4号，2026-02-08公布，14处之列，张湾区原64厂5栋建筑）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "原64厂5栋建筑（张湾区）；64厂为东风设备制造（修造）脉络专业厂，栋型与保存状态待现场测绘",
+    "technical_memory": "二汽专业厂设备制造与修配工艺脉络",
+    "social_memory": "64厂职工与张湾区三线厂区记忆",
+    "current_use_or_loss": "以2025年度历史建筑身份正式公布保护；现状用途待核"
+   },
+   "notes": "直接取自十政发〔2026〕4号名录（A级，智能体核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "64厂"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-fa59c80b3a"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-047",
+   "name": "62厂体育馆",
+   "city": "十堰市",
+   "district_county": "十堰市张湾区",
+   "industry_category_l1": "三线军工工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "十堰市2025年度历史建筑名录（十政发〔2026〕4号，2026-02-08公布，14处之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "62厂体育馆建筑本体；规模与保存状态待现场测绘",
+    "technical_memory": "三线专业厂体育设施的建筑形制",
+    "social_memory": "62厂职工体育文娱记忆",
+    "current_use_or_loss": "以2025年度历史建筑身份正式公布保护；现状用途待核"
+   },
+   "notes": "直接取自十政发〔2026〕4号名录（A级，智能体核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "62厂"
+   ],
+   "asset_kind": "industrial_social_site",
+   "source_ids": [
+    "src-web-fa59c80b3a"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-048",
+   "name": "霍河大坝坝沿",
+   "city": "十堰市",
+   "district_county": "十堰市竹山县城关镇刘家山村",
+   "industry_category_l1": "水利水电工程",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "竹山县第一批历史建筑保护名单（竹政办发〔2023〕27号，2023-08-09公布，名录第11项，20世纪70年代）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "霍河水库大坝坝体及相关设施（刘家山村）；坝长、坝高与砌筑形式待现场测绘",
+    "technical_memory": "70年代县域水利水电枢纽的大坝筑造工艺（竹山名录中唯一大型水利水电构筑物）",
+    "social_memory": "霍河水库建设者与堵河流域水利开发记忆",
+    "current_use_or_loss": "以第一批历史建筑身份正式公布保护；水库运行状态待水利部门核"
+   },
+   "notes": "直接取自竹政办发〔2023〕27号名单（A级，智能体核读原文）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "霍河大坝"
+   ],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-ed792c7fb1"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-049",
+   "name": "竹山堵河大桥",
+   "city": "十堰市",
+   "district_county": "十堰市竹山县城关镇人民路",
+   "industry_category_l1": "公路交通工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "竹山县第二批历史建筑保护名单（竹政办发〔2024〕19号，2024-07-11公布，名录第20项，建国后）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "堵河大桥建筑本体（人民路，跨堵河）；桥型、跨径与保存状态待现场测绘",
+    "technical_memory": "建国后堵河干流大桥的公路桥梁工艺（竹山两批31处中唯一现代基础设施）",
+    "social_memory": "堵河两岸通行与竹山县城交通门户记忆",
+    "current_use_or_loss": "以第二批历史建筑身份正式公布保护；通行状态待核"
+   },
+   "notes": "直接取自竹政办发〔2024〕19号名单（A级，智能体核读原文）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_transport_site",
+   "source_ids": [
+    "src-web-ed792c7fb1"
+   ]
   }
  ]
 }
