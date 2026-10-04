@@ -12430,6 +12430,184 @@
    "source_ids": [
     "src-web-6046b64cb9"
    ]
+  },
+  {
+   "inventory_id": "HBI-ES-035",
+   "name": "三八八厂车间与科技楼建筑群（二、三、六、七车间，科技楼、工具室、理化室）",
+   "city": "恩施州",
+   "district_county": "宜都市高坝洲镇中光社区",
+   "industry_category_l1": "三线军工工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "宜都市第二批历史建筑（都政发〔2024〕6号，2024-08-05公布，27处之一）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "中南光学仪器厂（代号三八八厂）车间与科技楼建筑群7处（二、三、六、七车间，科技楼、工具室、理化室），砖混结构共约8590平方米",
+    "technical_memory": "三线建设时期光学仪器制造的精密加工车间组群（车、铣、磨、装配与理化检测功能分区）",
+    "social_memory": "三线军工科技人员与“好人好马上三线”的建设者记忆",
+    "current_use_or_loss": "以第二批历史建筑身份纳入保护体系；厂区停产/转型状态与设备留存待核"
+   },
+   "notes": "直接取自都政发〔2024〕6号名录表（A级，智能体核读原文）；7处合并记录以保持厂区功能分区完整；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "中南光学仪器厂",
+    "三八八厂"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-18dc340c44"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-036",
+   "name": "枝城火车站",
+   "city": "恩施州",
+   "district_county": "宜都市枝城镇沿江路",
+   "industry_category_l1": "铁路交通工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "宜都市第二批历史建筑（都政发〔2024〕6号，2024-08-05公布，27处之一）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "焦柳铁路二等客货运站站房与站场设施（沿江路）；站房立面与站场轨道待现场测绘",
+    "technical_memory": "焦柳铁路（1970年通车）与长江港口的铁水联运枢纽——“唯一同时连通港口专用线和支线铁路的国家干线车站”，铁路-水运转运工艺节点",
+    "social_memory": "枝城港铁水联运职工与鄂西南货物集散记忆",
+    "current_use_or_loss": "以第二批历史建筑身份纳入保护体系；车站运营状态与保留范围待铁路部门核"
+   },
+   "notes": "直接取自都政发〔2024〕6号名录表（A级，智能体核读原文）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "枝城站"
+   ],
+   "asset_kind": "industrial_transport_site",
+   "source_ids": [
+    "src-web-18dc340c44"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-037",
+   "name": "宜都候船室（陆城城河大道、红花套老河街）",
+   "city": "恩施州",
+   "district_county": "宜都市陆城街道、红花套镇",
+   "industry_category_l1": "港口与水运工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "宜都市第二批历史建筑（都政发〔2024〕6号，2024-08-05公布，27处之一）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "候船室2处：陆城城河大道1号（1980年代，宜红茶水运出口曾在此装船）、红花套老河街31号（1953年，318国道进川码头候船设施）",
+    "technical_memory": "长江客运候船建筑的班轮候船与行李托运功能形制；宜红茶水运出口与进川码头的航运节点",
+    "social_memory": "宜红茶出口水运与川鄂往来旅客的候船记忆",
+    "current_use_or_loss": "以第二批历史建筑身份纳入保护体系；候船功能是否延续待核"
+   },
+   "notes": "直接取自都政发〔2024〕6号名录表（A级，智能体核读原文）；2处合并记录以保持长江客运候船谱系完整；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "陆城候船室",
+    "红花套候船室"
+   ],
+   "asset_kind": "industrial_transport_site",
+   "source_ids": [
+    "src-web-18dc340c44"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-038",
+   "name": "油榨坪村油榨坊与生产大队原址",
+   "city": "恩施州",
+   "district_county": "宜都市姚家店镇油榨坪村一组",
+   "industry_category_l1": "油料加工工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "宜都市第二批历史建筑（都政发〔2024〕6号，2024-08-05公布，27处之一）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "油榨坊（1980年代，墙存“工业学大庆、农业学大寨”标语，两台木制榨油机）与生产大队原址（1950年代，原生产大队库房）",
+    "technical_memory": "木制榨油机榨油工艺与生产大队库房的村办加工业组合",
+    "social_memory": "油榨坪村地名来源的榨油产业记忆与标语墙时代印记",
+    "current_use_or_loss": "以第二批历史建筑身份纳入保护体系；木制榨油机为稀缺实物，保护展示方案待核"
+   },
+   "notes": "直接取自都政发〔2024〕6号名录表（A级，智能体核读原文）；2处合并记录；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "油榨坊"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-18dc340c44"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-039",
+   "name": "骡马行与国营旅行社（陆城·枝城）",
+   "city": "恩施州",
+   "district_county": "宜都市陆城街道唐家巷、枝城镇滨江路",
+   "industry_category_l1": "商贸服务与基层文化供应",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "宜都市第二批历史建筑（都政发〔2024〕6号，2024-08-05公布，27处之一）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "骡马行（陆城唐家巷14号，民国，为福星玉茶漆行提供运输住宿）与国营旅行社（枝城滨江路，1950年代，老码头旁）",
+    "technical_memory": "茶漆贸易骡马运输住宿服务与国营旅游服务业态的建筑形制",
+    "social_memory": "宜红茶漆骡马运输与新中国国营旅行社的业态变迁记忆",
+    "current_use_or_loss": "以第二批历史建筑身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自都政发〔2024〕6号名录表（A级，智能体核读原文）；2处合并记录以保持茶道运输—国营服务谱系；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "骡马行",
+    "国营旅行社"
+   ],
+   "asset_kind": "industrial_trade_site",
+   "source_ids": [
+    "src-web-18dc340c44"
+   ]
+  },
+  {
+   "inventory_id": "HBI-YC-042",
+   "name": "董市供销社",
+   "city": "宜昌市",
+   "district_county": "枝江市董市镇老正街",
+   "industry_category_l1": "供销商贸与基层物资供应",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "枝江市第三批历史建筑（枝府发〔2022〕2号，2022-01-28公布，名录编号12；民国）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "供销社建筑本体（老正街上街67号东南侧，民国建筑）；门面与柜台格局待现场测绘",
+    "technical_memory": "董市古镇供销合作商业的建筑形制，由民国商号到供销社的功能演变",
+    "social_memory": "董市老正街商埠与供销社凭票供应记忆（董市老正街为湖北省历史文化街区）",
+    "current_use_or_loss": "以第三批历史建筑身份正式公布保护；现状用途待核"
+   },
+   "notes": "直接取自枝府发〔2022〕2号名录（A级）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_trade_site",
+   "source_ids": [
+    "src-web-bba311dd5d"
+   ]
+  },
+  {
+   "inventory_id": "HBI-ES-041",
+   "name": "长阳马家坪粮站与麻池人民公社旧址、渔峡口陶器厂遗址",
+   "city": "宜昌市",
+   "district_county": "长阳土家族自治县",
+   "industry_category_l1": "粮食仓储工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "长阳土家族自治县第三批历史建筑（2024年挂牌保护，38处之一组）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "3处对象：原马家坪粮站（粮食系统）、原麻池人民公社旧址（麻池为革命根据地粮油生产供给地）、渔峡口镇陶器厂遗址（陶器厂）；保存状态待现场测绘",
+    "technical_memory": "县域粮食购销、公社治理与陶器制造的多业态组合，麻池公社为湘鄂西根据地供给体系节点",
+    "social_memory": "长阳粮站职工、公社社员与陶器工匠记忆",
+    "current_use_or_loss": "第三批历史建筑已挂牌保护（38处完整名单未公开，3处经官方媒体报道明确列举）；现状与保护范围待核"
+   },
+   "notes": "直接取自长阳政府网第三批挂牌报道（A级，明确列举3处名称）；陶器厂遗址本体保存程度待核；坐标未核验保持待核。",
+   "aliases": [
+    "马家坪粮站",
+    "麻池人民公社旧址",
+    "渔峡口陶器厂"
+   ],
+   "asset_kind": "industrial_storage_site",
+   "source_ids": [
+    "src-web-92581748a0"
+   ]
   }
  ]
 }
