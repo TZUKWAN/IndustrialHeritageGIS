@@ -15469,12 +15469,14 @@
     "social_memory": "老下陆工业区轴承工人记忆",
     "current_use_or_loss": "老厂区正处拆迁（2024年获拆迁补偿款公示线索），抢救记录紧迫"
    },
-   "notes": "人本官网核读（B级）确认前身与地址；拆迁信息仅政府公示搜索摘录未核读原文，区域归属待核；建厂年代待厂志补考；坐标未核验保持待核。",
+   "notes": "人本官网核读（B级）确认前身与下陆区地址；2026-10-05月度复核修正口径：头条'黑镜头'2019-04-07标题级+黄石港区2024-03摩尔城安置房公示摘要级佐证老厂地块（黄石港区湖滨大道一带）已于2019年前拆除建中商百货/摩尔城——与下陆区168号现用厂区非同一地块；区政府网征收补偿栏7条均无轴承厂公示，'2024年获拆迁补偿款'线索维持未核读待函询；建厂年代待厂志补考；坐标未核验保持待核。",
    "aliases": [
     "黄石市轴承厂",
     "人本黄石园区"
    ],
    "asset_kind": "industrial_site",
+   "material_carriers": "下陆区老下陆街168号现用厂区（人本黄石园区，2008年接续经营）；原黄石港区湖滨大道一带老厂地块已于2019年前拆除、原址建中商百货与黄石摩尔城——两地块关系与遗存边界待核",
+   "current_use_or_loss": "下陆区现用厂区在产；黄石港区老厂地块已拆除建商业体；此前'2024年获拆迁补偿款'公示线索经区政府网站内核查未获原文，维持未核读",
    "source_ids": [
     "src-web-5fc95693ad",
     "src-web-d41d8cd98f"
@@ -15587,7 +15589,7 @@
    "inventory_id": "HBI-JZ-077",
    "name": "沙市农药厂旧址",
    "city": "荆州市",
-   "district_county": "沙市区（原厂区待精确核验）",
+   "district_county": "沙市区北京东路97号（省土壤修复名录2025年第七批核读）",
    "industry_category_l1": "化工工业",
    "recognition_level": "research_candidate",
    "recognition_status": "无法定遗产认定；官方媒体搬迁报道（老厂区装置拆除及土地修复阶段）",
@@ -15599,14 +15601,18 @@
     "social_memory": "沙隆达与沙市化工城的工业城市记忆",
     "current_use_or_loss": "老厂区已关闭搬迁，拆除与土地修复推进中（2019年报道），遗存抢救紧迫"
    },
-   "notes": "荆州新闻网经头条转载核读（B级）；搬迁改造总投资51.9亿元；老厂区拆除进度需持续跟踪；坐标未核验保持待核。",
+   "notes": "荆州新闻网经头条转载核读（B级）；2026-10-05月度跟踪补强：修复节点链全部核读原文（2019年搬迁中→2020-12-30关停并拆主要反应装置→2023年土壤修复实施→2025-12省名录'正在实施修复'）；省名录同列'沙隆达（荆州）农药化工（原江陵农药厂）地块'（荆州区西环路）为另一地块勿混同；拆除改造总投资51.9亿元；下次按月复查。",
    "aliases": [
     "沙隆达",
     "沙市农药厂",
     "安道麦荆州基地"
    ],
    "asset_kind": "industrial_site",
+   "current_use_or_loss": "2020年12月30日老厂区全部关闭停产、主要反应装置已拆除（荆州日报2021核读）；2023年7月土壤修复实施中（沙市区政府核读）；截至2025-12-15省级名录口径北京东路97号地块'正在实施修复'、2023-12-28列入未移出",
    "source_ids": [
+    "src-web-11c5c6e0ce",
+    "src-web-3dfb1b9327",
+    "src-web-9bf40cd9c0",
     "src-web-ad7829ac33"
    ]
   },
@@ -15714,7 +15720,7 @@
    "inventory_id": "HBI-JZ-079",
    "name": "沙市第二机床厂旧址（帝尔机床前身）",
    "city": "荆州市",
-   "district_county": "沙市区金龙路6号（方志类文章摘录，待核）",
+   "district_county": "沙市区金龙路6号（方志类文章摘录，待核；另一口径为西区南湖）",
    "industry_category_l1": "机械工业",
    "recognition_level": "research_candidate",
    "recognition_status": "无法定遗产认定；承继企业官网与机床行业平台沿革核读（机电部定点磨床专业厂）",
@@ -15726,7 +15732,7 @@
     "social_memory": "'中南地区唯一生产磨床厂家'（摘录级）的行业地位与沙市机械工业记忆；'7·21'工人大学—沙市职工大学教育谱系旁证",
     "current_use_or_loss": "原厂改制为荆州市沙市帝尔机床有限公司（2007年注册），迁荆州开发区跃进工业园在产；金龙路6号老厂区现状空缺"
    },
-   "notes": "承继企业官网经r.jina.ai核读（B级）证实1952年始建与机电部定点磨床厂口径；厂址金龙路6号、1950年利民机器厂前身、职工695人等方志细节仅微信公众号摘录级（微信验证拦截未核读原文），待《沙市市志》核校；原厂注销时间未证（工商平台封锁）；与在册沙市第一机床厂（HBI-JZ-078）、荆州机床厂（HBI-JZ-018）为独立企业；坐标未核验保持待核。",
+   "notes": "承继企业官网经r.jina.ai核读（B级）证实1952年始建与机电部定点磨床厂口径；2026-10-05志书核校：武汉方志馆书库无《沙市市志》、省地方志办在线版不可达，志书原文未命中，公众号原文仍被验证拦截——两套口径并列存注（'花在雾里'2026：695人/45233㎡/金龙路6号 vs '荆州记忆'2018：676人/45000㎡/西区南湖，或系不同年份统计口径）；刘珩（后任副省级领导）曾任该厂工程师（新华网2018讣告，摘要级旁证）；与在册沙市第一机床厂（HBI-JZ-078）、荆州机床厂（HBI-JZ-018）为独立企业；坐标未核验保持待核。",
    "aliases": [
     "沙市市第二机床厂",
     "荆州市沙市第二机床厂",
@@ -15738,6 +15744,7 @@
    "source_ids": [
     "src-web-2464a3502d",
     "src-web-42470b3b2e",
+    "src-web-91b00c5c39",
     "src-web-d41d8cd98f"
    ]
   },
@@ -15797,6 +15804,259 @@
    "asset_kind": "industrial_site",
    "source_ids": [
     "src-web-84144d69b2"
+   ]
+  },
+  {
+   "inventory_id": "HBI-WUHAN-096",
+   "name": "燮昌火柴厂旧址",
+   "city": "武汉市",
+   "district_county": "汉口日租界（今芦沟桥路一带）",
+   "industry_category_l1": "轻工业",
+   "recognition_level": "research_candidate",
+   "recognition_status": "无本体遗存法定认定；武汉市志工业志专记沿革（武汉第一家民族资本近代工厂）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "占地1.7万平方米厂区旧址（地上遗存待踏勘）与双狮牌火柴产品谱系",
+    "technical_memory": "武汉民族资本机器火柴工业发端；1927年停业后厂房机件作价30万银元售上海大中华火柴公司",
+    "social_memory": "宋炜臣实业救国谱系记忆（与扬子机器厂创办同一实业界人士，互见HBI-WUHAN-089）",
+    "current_use_or_loss": "1927年停业，原址融入汉口城区，遗存待踏勘"
+   },
+   "notes": "武汉市志工业志专记核读（A级方志馆）；遗存本体未核验；坐标未核验保持待核。",
+   "aliases": [
+    "燮昌火柴公司"
+   ],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-c9d2a880f8"
+   ]
+  },
+  {
+   "inventory_id": "HBI-WUHAN-097",
+   "name": "武汉火柴厂旧址",
+   "city": "武汉市",
+   "district_county": "硚口区仁寿路（厂区）；遗存宿舍：仁寿路/双厂巷7栋、汉西路汉水四村10栋",
+   "industry_category_l1": "轻工业",
+   "recognition_level": "research_candidate",
+   "recognition_status": "无法定遗产认定；武汉市志工业志节+影像纪实沿革（厂区已拆，宿舍群抢救紧迫）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "仁寿路厂区（已拆建仁硚新村、航天星苑小区）；遗存职工宿舍仁寿路/双厂巷7栋与汉西路汉水四村10栋（已见拆迁标记）",
+    "technical_memory": "航空牌火柴制造（1985年产51万件）——武汉火柴工业主力厂工艺记忆",
+    "social_memory": "从1917年燧华火柴公司到国营武汉火柴厂的民族工业—国营厂沿革与火柴厂职工社区记忆",
+    "current_use_or_loss": "厂区已拆建住宅小区；两处宿舍群存续且已见拆迁标记，抢救记录紧迫"
+   },
+   "notes": "武汉市志工业志节核读（A级）+周国献大武汉系列之292经r.jina.ai核读（B级）；宿舍群拆迁动态需持续跟踪；坐标未核验保持待核。",
+   "aliases": [
+    "燧华火柴公司"
+   ],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-58b6b5a788",
+    "src-web-cba07b17a5"
+   ]
+  },
+  {
+   "inventory_id": "HBI-WUHAN-098",
+   "name": "武汉电池厂",
+   "city": "武汉市",
+   "district_county": "江汉区循礼门（1961年迁入，原宇宙烟厂厂址）；起源地汉正街",
+   "industry_category_l1": "轻工业",
+   "recognition_level": "research_candidate",
+   "recognition_status": "无法定遗产认定；武汉市志工业志节沿革（民族电池工业起源）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "循礼门厂区（遗存待核）与大公牌R20干电池产品谱系",
+    "technical_memory": "干电池制造工艺（大公牌获湖北省优质产品）",
+    "social_memory": "1925年大明电池厂民族电池工业起源与1956年13家私营厂公私合营的社会主义改造记忆",
+    "current_use_or_loss": "厂区下落待查（周国献大武汉系列之115原文已404）"
+   },
+   "notes": "武汉市志工业志节核读（A级方志馆）；厂区现状与遗存未核验，后续经城市留言板/长报档案补查；坐标未核验保持待核。",
+   "aliases": [
+    "大明电池厂"
+   ],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-a67a6ca373"
+   ]
+  },
+  {
+   "inventory_id": "HBI-WUHAN-099",
+   "name": "武汉灯泡厂",
+   "city": "武汉市",
+   "district_county": "武昌区马房山",
+   "industry_category_l1": "轻工业",
+   "recognition_level": "research_candidate",
+   "recognition_status": "无法定遗产认定；武汉市志工业志节沿革（武汉电光源工业）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "马房山厂区（遗存待核）与灯泡产品谱系（1985年产2933万只）",
+    "technical_memory": "普通灯泡/日光灯/三基色荧光灯制造工艺演进",
+    "social_memory": "从第一灯泡合作工厂到国营厂的武汉电光源工业记忆",
+    "current_use_or_loss": "厂区下落待查（大武汉系列之126原文已404）"
+   },
+   "notes": "武汉市志工业志节核读（A级方志馆）；遗存未核验；坐标未核验保持待核。",
+   "aliases": [
+    "第一灯泡合作工厂"
+   ],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-804c5112cd"
+   ]
+  },
+  {
+   "inventory_id": "HBI-WUHAN-100",
+   "name": "武汉玻璃厂（八分山停建工程）",
+   "city": "武汉市",
+   "district_county": "江夏区纸坊八分山（停建工程地）；实际投产者为大军山省新生玻璃厂",
+   "industry_category_l1": "建材工业",
+   "recognition_level": "research_candidate",
+   "recognition_status": "无法定遗产认定；武汉市志工业志节沿革（未建成工程按工业史迹沿革收录）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "纸坊八分山筹建工程（1961年停建未建成，无实体遗存）；实际投产者省新生玻璃厂（1969年，大军山）",
+    "technical_memory": "平板玻璃工业布局记忆——'200项重点项目'停建与大军山迁建的工业地理调整",
+    "social_memory": "大跃进工业布局调整的停建史与省新生玻璃厂投产记忆",
+    "current_use_or_loss": "停建工程无实体遗存；省新生玻璃厂承继投产，与武汉长利玻璃承继改制关系为摘录级待核"
+   },
+   "notes": "武汉市志工业志节核读（A级方志馆）；未建成工程按沿革条目收录；长利玻璃承继关系待核；坐标未核验保持待核。",
+   "aliases": [
+    "省新生玻璃厂",
+    "武汉长利玻璃"
+   ],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-a8f66fc136"
+   ]
+  },
+  {
+   "inventory_id": "HBI-WUHAN-101",
+   "name": "武汉制革厂",
+   "city": "武汉市",
+   "district_county": "江岸区中山大道1541号",
+   "industry_category_l1": "轻工业",
+   "recognition_level": "research_candidate",
+   "recognition_status": "无法定遗产认定；武汉市志工业志节沿革（全市最大国营制革厂）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "中山大道1541号厂区（遗存待核）与滨江牌猪皮彩色面革产品谱系",
+    "technical_memory": "制革工艺（全市最大国营制革厂）",
+    "social_memory": "1903年南湖制皮厂起源的武汉制革工业世纪记忆与1965年一分为三的工业调整",
+    "current_use_or_loss": "厂区下落待查"
+   },
+   "notes": "武汉市志工业志节核读（A级方志馆）；遗存未核验；坐标未核验保持待核。",
+   "aliases": [
+    "南湖制皮厂"
+   ],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-bf1df17c95"
+   ]
+  },
+  {
+   "inventory_id": "HBI-WUHAN-102",
+   "name": "武汉印刷厂",
+   "city": "武汉市",
+   "district_county": "江汉区民意四路101号",
+   "industry_category_l1": "印刷工业",
+   "recognition_level": "research_candidate",
+   "recognition_status": "无法定遗产认定；武汉市志工业志节沿革（包装印刷骨干厂）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "民意四路101号占地1.7万平方米厂区（遗存待核）",
+    "technical_memory": "1968年造出国内首台塑料四色凹印机的包装印刷技术记忆",
+    "social_memory": "从市财政局供应社印刷部到包装印刷骨干厂的国营印刷工业记忆",
+    "current_use_or_loss": "厂区下落待查（大武汉系列之38原文已404）"
+   },
+   "notes": "武汉市志工业志节核读（A级方志馆）；遗存未核验；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-68b6bb4d1b"
+   ]
+  },
+  {
+   "inventory_id": "HBI-WUHAN-103",
+   "name": "湖北新华印刷厂",
+   "city": "武汉市",
+   "district_county": "硚口区解放大道79号（1954年迁入）",
+   "industry_category_l1": "印刷工业",
+   "recognition_level": "research_candidate",
+   "recognition_status": "无法定遗产认定；武汉市志工业志节沿革（全国四大印刷基地之一）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "解放大道79号厂区（遗存待核）与教科书/图书印制谱系",
+    "technical_memory": "全国四大印刷基地之一的书刊印刷工艺；现改制湖北新华印务打造'智慧工厂'（摘录级）",
+    "social_memory": "华中新华印刷厂随军进城建厂的红色印刷工业记忆",
+    "current_use_or_loss": "企业存续转型（湖北新华印务有限公司）；老厂区建筑遗存待核"
+   },
+   "notes": "武汉市志工业志节核读（A级方志馆）；转型信息为摘录级；遗存未核验；坐标未核验保持待核。",
+   "aliases": [
+    "华中新华印刷厂",
+    "湖北新华印务"
+   ],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-b3da3d2157"
+   ]
+  },
+  {
+   "inventory_id": "HBI-WUHAN-104",
+   "name": "武汉油脂化学厂",
+   "city": "武汉市",
+   "district_county": "汉阳区月湖堤202号（志书作月湖路202号）",
+   "industry_category_l1": "化工工业",
+   "recognition_level": "research_candidate",
+   "recognition_status": "无法定遗产认定；武汉市志工业志节沿革（一枝花牌洗衣粉）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "月湖堤厂区（已随琴台文化区改造消失——摘录级）与一枝花牌洗衣粉产品谱系（1985年产3.5万吨）",
+    "technical_memory": "从油脂加工到合成洗涤剂的日化工艺演进",
+    "social_memory": "一枝花品牌的大众生活记忆与后改组武汉一枝花集团（摘录级）、企业注销的国企兴衰记忆",
+    "current_use_or_loss": "厂区随月湖—琴台文化区改造消失（摘录级），按沿革条目收录，基本无实体遗存"
+   },
+   "notes": "武汉市志工业志节核读（A级方志馆）；改组与厂区消失均为摘录级（汉阳区志/公众号）；坐标未核验保持待核。",
+   "aliases": [
+    "福和油厂",
+    "武汉一枝花集团"
+   ],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-a40e6967be"
+   ]
+  },
+  {
+   "inventory_id": "HBI-WUHAN-105",
+   "name": "武汉食品厂（长江食品厂）",
+   "city": "武汉市",
+   "district_county": "汉口（志书未载详址）",
+   "industry_category_l1": "食品工业",
+   "recognition_level": "research_candidate",
+   "recognition_status": "无法定遗产认定；武汉市志工业志节沿革（国营糖果糕点工业）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "糖果糕点产品谱系（详址与厂区遗存待核）",
+    "technical_memory": "武汉国营糖果糕点工业化生产记忆",
+    "social_memory": "1951年市合作社购置'小苏州'食品店建社、1958年改国营长江食品厂的食品工业社会主义改造记忆",
+    "current_use_or_loss": "厂区下落待查"
+   },
+   "notes": "武汉市志工业志节核读（A级方志馆）；同卷冠生园（1928年）、英商赞育汽水厂（1921年车站路9号）、和利汽水厂（岳飞街44号）线索留待后续轮；坐标未核验保持待核。",
+   "aliases": [
+    "长江食品厂",
+    "小苏州食品店"
+   ],
+   "asset_kind": "industrial_site",
+   "source_ids": [
+    "src-web-fffee40c09"
    ]
   }
  ]
