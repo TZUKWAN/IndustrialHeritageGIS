@@ -14443,6 +14443,222 @@
    "source_ids": [
     "src-web-4f34befa5d"
    ]
+  },
+  {
+   "inventory_id": "HBI-WUHAN-073",
+   "name": "槐山矶驳岸",
+   "city": "武汉市",
+   "district_county": "江夏区金口街（长江南岸）",
+   "industry_category_l1": "港口与水运工业",
+   "recognition_level": "provincial_relic_related",
+   "recognition_status": "湖北省文物保护单位（省保3-52）；2013年并入第七批全国重点文物保护单位",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "长江航运纤道/驳岸工程（槐山矶矶头条石砌筑驳岸），明代航运水工构筑物；驳岸长度与砌筑形式待现场测绘",
+    "technical_memory": "长江航运纤道/驳岸工程的明代水工构筑物——纤夫拉纤行船的航道整治设施",
+    "social_memory": "金口古镇长江航运与纤夫拉纤的集体记忆",
+    "current_use_or_loss": "以省保身份纳入保护体系（2013年升国保）；保护范围与建控地带待文物部门核"
+   },
+   "notes": "直接取自1098处省级文保总名录（A级，智能体curl解析核读）；槐山矶驳岸2013年升国保——与底册长江航运谱系互补；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_transport_site",
+   "source_ids": [
+    "src-web-02ecf06a10"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XIANGYANG-072",
+   "name": "长渠遗址（白起渠）",
+   "city": "襄阳市",
+   "district_county": "宜城市、南漳县",
+   "industry_category_l1": "水利工程与泵站",
+   "recognition_level": "provincial_relic_related",
+   "recognition_status": "湖北省文物保护单位（省保5-44，东周）；2018年世界灌溉工程遗产",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "长渠（白起渠）灌溉渠系遗址（分布在宜城市和南漳县境内）；渠首、干渠与分水设施待现场测绘",
+    "technical_memory": "公元前279年白起攻鄢时所筑的军事水利工程，后转化为灌溉渠系——中国最早的大型无坝引水灌溉工程之一，2018年获世界灌溉工程遗产",
+    "social_memory": "宜城/南漳灌区农业灌溉与白起渠的持续利用记忆",
+    "current_use_or_loss": "以省保身份纳入保护体系；2018年获世界灌溉工程遗产（与都江堰同批）；灌溉功能延续使用"
+   },
+   "notes": "直接取自1098处省级文保总名录（A级，智能体curl解析核读）；世界灌溉工程遗产为国际权威认定；坐标未核验保持待核。",
+   "aliases": [
+    "白起渠",
+    "武镇百里长渠"
+   ],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-02ecf06a10"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XN-025",
+   "name": "羊楼洞、新店明清石板街",
+   "city": "咸宁市",
+   "district_county": "赤壁市羊楼洞镇、新店镇",
+   "industry_category_l1": "历史水运、码头与城市商贸",
+   "recognition_level": "provincial_relic_related",
+   "recognition_status": "湖北省文物保护单位（省保4-58，明清）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "羊楼洞明清石板街与新店石板街（万里茶道源头茶贸街区，独轮车车辙印迹石板路面）；街区范围与建筑保存待现场测绘",
+    "technical_memory": "万里茶道源头的茶叶加工—集散—运输商贸街区形制，独轮车运茶的车辙石板路面为茶贸运输的实物见证",
+    "social_memory": "羊楼洞茶庄帮、新店码头茶贸与万里茶道起点记忆",
+    "current_use_or_loss": "以省保身份纳入保护体系；街区保护规划与建筑修缮待文物部门核"
+   },
+   "notes": "直接取自1098处省级文保总名录（A级，智能体curl解析核读）；与底册赵李桥茶厂（HBI-XN-017）、万里茶道系列互补；坐标未核验保持待核。",
+   "aliases": [
+    "羊楼洞石板街",
+    "新店石板街"
+   ],
+   "asset_kind": "industrial_trade_site",
+   "source_ids": [
+    "src-web-02ecf06a10"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-051",
+   "name": "大丰仓",
+   "city": "十堰市",
+   "district_county": "郧阳区",
+   "industry_category_l1": "粮食仓储工业",
+   "recognition_level": "provincial_relic_related",
+   "recognition_status": "湖北省文物保护单位（省保5-156，清）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "大丰仓建筑本体（郧阳区古代官仓）；仓房形制、容量与保存状态待现场测绘",
+    "technical_memory": "清代官仓的储粮建筑形制与管理体制",
+    "social_memory": "郧阳府官仓储粮与赈济记忆",
+    "current_use_or_loss": "以省保身份纳入保护体系；保存状况待文物部门核"
+   },
+   "notes": "直接取自1098处省级文保总名录（A级，智能体curl解析核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_storage_site",
+   "source_ids": [
+    "src-web-02ecf06a10"
+   ]
+  },
+  {
+   "inventory_id": "HBI-WUHAN-074",
+   "name": "石骨山人民公社办公楼",
+   "city": "武汉市",
+   "district_county": "新洲区",
+   "industry_category_l1": "工业社区",
+   "recognition_level": "provincial_relic_related",
+   "recognition_status": "湖北省文物保护单位（省保7-12，第七批）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "人民公社办公楼建筑本体（新洲区石骨山）；建筑形制与保存状态待现场测绘",
+    "technical_memory": "人民公社基层治理的办公建筑形制",
+    "social_memory": "公社治理与集体化生产生活记忆",
+    "current_use_or_loss": "以省保身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自1098处省级文保总名录（A级，智能体curl解析核读）；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_social_site",
+   "source_ids": [
+    "src-web-02ecf06a10"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XG-032",
+   "name": "红旗人民公社旧址",
+   "city": "孝感市",
+   "district_county": "应城市",
+   "industry_category_l1": "工业社区",
+   "recognition_level": "provincial_relic_related",
+   "recognition_status": "湖北省文物保护单位（省保5-329）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "红旗人民公社旧址建筑本体；建筑形制与保存状态待现场测绘",
+    "technical_memory": "1958年人民公社化运动的基层组织建筑标本",
+    "social_memory": "应城红旗公社集体化治理与生产生活记忆",
+    "current_use_or_loss": "以省保身份纳入保护体系；现状用途待核"
+   },
+   "notes": "直接取自1098处省级文保总名录（A级，智能体curl解析核读）；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_social_site",
+   "source_ids": [
+    "src-web-02ecf06a10"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SY-052",
+   "name": "鄂陕第四军分区兵工厂旧址",
+   "city": "十堰市",
+   "district_county": "郧西县观音镇万寿寺村",
+   "industry_category_l1": "军工修配工业",
+   "recognition_level": "county_relic_related",
+   "recognition_status": "郧西县文物保护单位（1985年8月公布）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "兵工厂旧址建筑群8组房屋（一进三栋依山而建，清代中期、民国初年）；9个车间分布与设备遗迹待现场测绘",
+    "technical_memory": "1948年鄂陕第四军分区兵工厂的枪械修配与制炸弹工艺，130余人的战时军工生产体系",
+    "social_memory": "解放战争时期随县军工生产与根据地武器自给记忆",
+    "current_use_or_loss": "以县级文保身份纳入保护体系；保存状况与展示利用待核"
+   },
+   "notes": "直接取自十堰市政府门户网站国防教育栏转十堰日报2023-06-01（A级，智能体核读原文）；与底册陕南军区枪械修配厂旧址（HBI-SY 系列）同一性待核；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-1533d4bd75"
+   ]
+  },
+  {
+   "inventory_id": "HBI-JZ-073",
+   "name": "公安县红星粮仓",
+   "city": "荆州市",
+   "district_county": "公安县甘家厂乡红双村2组",
+   "industry_category_l1": "粮食仓储工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "公安县历史建筑（湖北日报客户端2024-07-18名录系列四报道；1968年建）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "石砌薄壳拱顶粮仓两座（建筑面积约500㎡，猪毛山红色岩石砌筑），2021年改造为村史馆和农耕馆",
+    "technical_memory": "石砌薄壳拱顶粮仓建筑工艺（猪毛山红色岩石砌筑），1960-70年代集体储粮设施样本",
+    "social_memory": "红星粮仓改造为村史馆和农耕馆的活化利用——工业遗产功能转型的社区样本",
+    "current_use_or_loss": "2021年改造活化；以历史建筑身份纳入保护体系"
+   },
+   "notes": "直接取自湖北日报客户端2024-07-18报道（B级，全文核读）；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_storage_site",
+   "source_ids": [
+    "src-web-1c0513986d"
+   ]
+  },
+  {
+   "inventory_id": "HBI-JZ-074",
+   "name": "公安县历史建筑工业群（黄山头镇原粮管所粮仓、章庄铺镇联兴村圆仓库等11处）",
+   "city": "荆州市",
+   "district_county": "公安县（各乡镇）",
+   "industry_category_l1": "粮食仓储工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "公安县历史建筑（公政函〔2023〕1号，2023-01-03公布，11处之列）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "11处中工业相关：黄山头镇原粮管所粮仓、章庄铺镇联兴村圆仓库等（其余8处在PDF附件中待解析）；保存状态待现场测绘",
+    "technical_memory": "公安县县域粮站—粮管所—圆仓的三级粮食储运网络标本",
+    "social_memory": "公安县粮农售粮与粮站职工记忆",
+    "current_use_or_loss": "以市级历史建筑身份正式公布保护；在用/停用状态待核"
+   },
+   "notes": "直接取自公政函〔2023〕1号通知（A级，正文+PDF附件名已核读）；11处中非工业对象（民居等）不计入本条；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
+   "aliases": [
+    "黄山头镇原粮管所粮仓",
+    "联兴村圆仓库"
+   ],
+   "asset_kind": "industrial_storage_site",
+   "source_ids": [
+    "src-web-65a113cd29"
+   ]
   }
  ]
 }
