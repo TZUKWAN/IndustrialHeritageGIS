@@ -12134,58 +12134,6 @@
    ]
   },
   {
-   "inventory_id": "HBI-SZ-015",
-   "name": "麻市老豆腐作坊",
-   "city": "随州市",
-   "district_county": "广水市（具体门牌待测绘建档成果核验）",
-   "industry_category_l1": "食品加工工业",
-   "recognition_level": "municipal_historical_building",
-   "recognition_status": "广水市新增历史建筑（2024年，广政函〔2024〕6号批复新增20处之一，政采合同附件按典型测绘列名；正式名录文件政府门户未公开）",
-   "record_status": "source_confirmed",
-   "geocode_status": "pending",
-   "cultural_evidence": {
-    "material_carriers": "传统豆腐制作作坊建筑本体（麻市，即广水马坪/麻竹市一带传统集镇称谓待测绘成果核验）；石磨、灶台与晾晒设施留存待现场测绘",
-    "technical_memory": "广水传统豆腐手工制作工艺（泡豆、磨浆、点卤、压制成型）",
-    "social_memory": "麻市集镇豆制品供应与乡宴饮食记忆",
-    "current_use_or_loss": "2024年经广政函〔2024〕6号批复新增为历史建筑（典型测绘），2025年完成测绘建档；经营是否延续待核"
-   },
-   "notes": "名单源自政采合同附件（政府门户暂无名录公布文件，批复广政函〔2024〕6号未见主动公开版本）；传统食品手工作坊（合同测绘分项标注），作坊本体保存与经营延续待测绘建档成果核验；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
-   "aliases": [
-    "麻市豆腐坊"
-   ],
-   "asset_kind": "industrial_building",
-   "source_ids": [
-    "src-web-1d850401d9",
-    "src-web-95f0168ab2"
-   ]
-  },
-  {
-   "inventory_id": "HBI-SZ-016",
-   "name": "麻市老手工面条铺",
-   "city": "随州市",
-   "district_county": "广水市（具体门牌待测绘建档成果核验）",
-   "industry_category_l1": "食品加工工业",
-   "recognition_level": "municipal_historical_building",
-   "recognition_status": "广水市新增历史建筑（2024年，广政函〔2024〕6号批复新增20处之一，政采合同附件按典型测绘列名；正式名录文件政府门户未公开）",
-   "record_status": "source_confirmed",
-   "geocode_status": "pending",
-   "cultural_evidence": {
-    "material_carriers": "传统手工面条铺建筑本体（铺面、晾晒架与和面灶台）；保存状态待现场测绘",
-    "technical_memory": "广水传统手工切面/银丝面制作工艺（和面、揉压、晾晒、切制）",
-    "social_memory": "麻市集镇面条铺与广待人早餐（热干面/汤面）食材供应记忆",
-    "current_use_or_loss": "2024年经广政函〔2024〕6号批复新增为历史建筑（典型测绘），2025年完成测绘建档；经营是否延续待核"
-   },
-   "notes": "名单源自政采合同附件（政府门户暂无名录公布文件，批复广政函〔2024〕6号未见主动公开版本）；传统食品手工作坊（合同测绘分项标注），作坊本体保存与经营延续待测绘建档成果核验；历史建筑保护不等于工业遗产法定认定；坐标未核验保持待核。",
-   "aliases": [
-    "麻市面条铺"
-   ],
-   "asset_kind": "industrial_building",
-   "source_ids": [
-    "src-web-1d850401d9",
-    "src-web-95f0168ab2"
-   ]
-  },
-  {
    "inventory_id": "HBI-HG-020",
    "name": "傅家山渡槽",
    "city": "黄冈市",
@@ -14866,6 +14814,288 @@
    "asset_kind": "industrial_building",
    "source_ids": [
     "src-web-c2be22c2b1"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SZ-015",
+   "name": "湖北卫东府河化工厂老厂区",
+   "city": "随州市",
+   "district_county": "曾都区南郊街道涢水南路5号",
+   "industry_category_l1": "化工工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "随州市老旧小区改造对象（曾都区南郊街道2021年改造报道确认老厂区原貌保存较好）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "化工厂老厂区建筑群（涢水南路5号），原貌保存较好、部分车间废弃",
+    "technical_memory": "1966年三线化工企业的军工资质与民品转型",
+    "social_memory": "与襄阳卫东机械厂同属一家总公司；改造中保留厂区原有面貌留住李焕英情怀",
+    "current_use_or_loss": "老旧小区改造中保留厂区原有面貌；部分车间废弃"
+   },
+   "notes": "网易2021年报道+随州市政府2021-04-26改造报道（B级，全文核读）；现名随州卫东化工有限公司；坐标未核验保持待核。",
+   "aliases": [
+    "卫东化工厂",
+    "随州卫东化工"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-54dfa3718d"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SZ-016",
+   "name": "随州老火车站（汉丹铁路随县站旧址）",
+   "city": "随州市",
+   "district_county": "曾都区交通大道与解放路交汇处",
+   "industry_category_l1": "铁路交通工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "随州站（1958年始建1961年通车，2009年东迁后闲置未拆）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "老火车站站房与站场设施（交通大道与解放路交汇处旁）；闲置未拆",
+    "technical_memory": "汉丹铁路1958年始建、1961年通车的随州首站",
+    "social_memory": "随州市民老火车站出行与城市铁路发展记忆",
+    "current_use_or_loss": "2009年火车站东迁后老站淡出客运，闲置未拆"
+   },
+   "notes": "百度百科+头条报道（B级，全文核读）；铁路遗产强候选；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_transport_site",
+   "source_ids": [
+    "src-web-76fb5007b8"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SZ-017",
+   "name": "广水老火车站旧址",
+   "city": "随州市",
+   "district_county": "广水市武胜关镇",
+   "industry_category_l1": "铁路交通工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "广水站旧址（卢汉铁路广水站，1899年动工1902年开站，2007年迁现址）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "卢汉铁路广水站旧址站房（武胜关镇）；百年铁路建筑",
+    "technical_memory": "卢汉铁路最早一批车站之一、进入南方省份第一站",
+    "social_memory": "1958、1959年毛主席南巡专列曾两次停靠；广水老镇因站而兴的记忆",
+    "current_use_or_loss": "2007年迁现址后旧址闲置"
+   },
+   "notes": "百度百科+头条报道（B级，全文核读）；百年铁路建筑强候选；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_transport_site",
+   "source_ids": [
+    "src-web-0ee394883e"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SZ-018",
+   "name": "湖北省委战备大院旧址（张体学在随县纪念馆）",
+   "city": "随州市",
+   "district_county": "随县洪山镇温泉村",
+   "industry_category_l1": "三线备战工业",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "随州市爱国主义教育基地（随县政府2021年红色地名+随州市政府2022-03-14报道确认）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "省委战备大院旧址建筑群（青砖瓦房和老标语极富年代感）；纪念馆在原址上建设",
+    "technical_memory": "1964年前后张体学主持修建的战时湖北省后方基地",
+    "social_memory": "绝密级省委战备大院与三线备战年代记忆",
+    "current_use_or_loss": "在原省委战备大院旧址上建设张体学在随县纪念馆，系湖北省爱国主义教育基地"
+   },
+   "notes": "随县政府2021年红色地名+随州市政府2022-03-14报道（A级，全文核读）；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_social_site",
+   "source_ids": [
+    "src-web-f269db58e8"
+   ]
+  },
+  {
+   "inventory_id": "HBI-XT-009",
+   "name": "愚山闸",
+   "city": "仙桃市",
+   "district_county": "仙桃市西流河镇（何帮至消泗公路下）",
+   "industry_category_l1": "水利工程与泵站",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "仙桃市四普新发现（仙桃市政府网2024-07-17转仙桃日报，2024年6月实地调查新发现）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "青石砌筑水闸（闸北嵌愚山闸石碑，民国二十九年立）；闸孔规模与砌筑工艺待现场测绘",
+    "technical_memory": "民国时期水利闸站建设工艺，至今仍在沿用",
+    "social_memory": "仙桃水利事业发展史重要篇章（仙桃日报评语）",
+    "current_use_or_loss": "至今仍在沿用；四普新发现"
+   },
+   "notes": "仙桃市政府网2024-07-17报道（A级，全文核读）；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_utility_site",
+   "source_ids": [
+    "src-web-cf7a30e8ca"
+   ]
+  },
+  {
+   "inventory_id": "HBI-QJ-012",
+   "name": "潜江化肥厂旧址（金华润前身）",
+   "city": "潜江市",
+   "district_county": "潜江经开区化工园区（竹泽路6号）",
+   "industry_category_l1": "化肥化工",
+   "recognition_level": "municipal_historical_building",
+   "recognition_status": "潜江市工业遗产候选（企业官网2024年核读确认1970年建厂沿革；正式名录未公布）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "化肥厂厂房与生产设施（竹泽路6号）；设备与建筑保存状态待现场测绘",
+    "technical_memory": "1970年县域化肥工业的合成氨/尿素生产工艺，2001年改制民营",
+    "social_memory": "潜江化肥厂职工与县域化工产业记忆",
+    "current_use_or_loss": "2001年改制为民营企业，2009年与晋煤金石合作、2018年三宁化工托管"
+   },
+   "notes": "企业官网自述（B级，全文核读）；在产企业按在用工业遗产处理；坐标未核验保持待核。",
+   "aliases": [
+    "潜江化肥厂",
+    "金华润化肥"
+   ],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-c0dedeee58"
+   ]
+  },
+  {
+   "inventory_id": "HBI-QJ-013",
+   "name": "三桥粮仓旧址",
+   "city": "潜江市",
+   "district_county": "潜江市老新镇三桥村十组",
+   "industry_category_l1": "粮食仓储工业",
+   "recognition_level": "county_relic_related",
+   "recognition_status": "潜江市第四批市级重点文物保护单位（潜政发〔2011〕38号，2011-09-21公布，103处之一；1963年）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "粮仓旧址（20×60m，1204㎡）；保存状态待现场测绘",
+    "technical_memory": "1963年县域粮仓建设工艺",
+    "social_memory": "潜江粮食产区储粮与公粮缴纳记忆",
+    "current_use_or_loss": "以县级文物保护单位身份纳入保护体系；保存状态待文物部门核"
+   },
+   "notes": "直接取自潜政发〔2011〕38号市保四批公示全表（A级，智能体核读原文）；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_storage_site",
+   "source_ids": [
+    "src-web-2e457cee7c"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SNJ-006",
+   "name": "神农架林区木材加工厂旧址",
+   "city": "神农架林区",
+   "district_county": "神农架林区松柏镇",
+   "industry_category_l1": "木材加工工业",
+   "recognition_level": "county_relic_related",
+   "recognition_status": "神农架林区一般不可移动文物保护单位（区文旅局2022-11-21名录109处之一；70年代）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "木材加工厂旧址厂房与设备遗存（松柏镇）；保存状态待现场测绘",
+    "technical_memory": "神农架伐木时代木材加工——从原木到板材的锯切加工链条",
+    "social_memory": "林区伐木工人与木材加工的集体记忆，与长坊运输路/断江坪伐木队互补",
+    "current_use_or_loss": "以区级一般不可移动文物身份纳入保护体系；保存状况待核"
+   },
+   "notes": "直接取自神农架林区文旅局文保名录（A级，智能体核读全表）；与在册长坊运输路/断江坪伐木队互补加工环节；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-b174ed24b1"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SNJ-007",
+   "name": "神农架林区鞋楦厂旧址",
+   "city": "神农架林区",
+   "district_county": "神农架林区松柏镇",
+   "industry_category_l1": "轻工业",
+   "recognition_level": "county_relic_related",
+   "recognition_status": "神农架林区一般不可移动文物保护单位（区文旅局2022-11-21名录109处之一；70年代）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "鞋楦厂旧址厂房与设备遗存（松柏镇）；保存状态待现场测绘",
+    "technical_memory": "林区轻工业鞋楦制造的木工车削工艺",
+    "social_memory": "林区轻工业多样性与职工记忆",
+    "current_use_or_loss": "以区级一般不可移动文物身份纳入保护体系；保存状况待核"
+   },
+   "notes": "直接取自神农架林区文旅局文保名录（A级，智能体核读全表）；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-b174ed24b1"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SNJ-008",
+   "name": "神农架林区家俱厂旧址",
+   "city": "神农架林区",
+   "district_county": "神农架林区松柏镇",
+   "industry_category_l1": "木材加工工业",
+   "recognition_level": "county_relic_related",
+   "recognition_status": "神农架林区一般不可移动文物保护单位（区文旅局2022-11-21名录109处之一；70年代）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "家俱厂旧址厂房与木工设备遗存（松柏镇）；保存状态待现场测绘",
+    "technical_memory": "林区木材深加工（家具制造）的木工工艺",
+    "social_memory": "林区家具生产与职工生活配套记忆",
+    "current_use_or_loss": "以区级一般不可移动文物身份纳入保护体系；保存状况待核"
+   },
+   "notes": "直接取自神农架林区文旅局文保名录（A级，智能体核读全表）；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-b174ed24b1"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SNJ-009",
+   "name": "神农架林区印刷厂旧址",
+   "city": "神农架林区",
+   "district_county": "神农架林区松柏镇",
+   "industry_category_l1": "印刷工业",
+   "recognition_level": "county_relic_related",
+   "recognition_status": "神农架林区一般不可移动文物保护单位（区文旅局2022-11-21名录109处之一；70年代）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "印刷厂旧址厂房与印刷设备遗存（松柏镇）；保存状态待现场测绘",
+    "technical_memory": "林区印刷工业的铅印/胶印工艺",
+    "social_memory": "林区报刊文书印刷与职工记忆",
+    "current_use_or_loss": "以区级一般不可移动文物身份纳入保护体系；保存状况待核"
+   },
+   "notes": "直接取自神农架林区文旅局文保名录（A级，智能体核读全表）；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-b174ed24b1"
+   ]
+  },
+  {
+   "inventory_id": "HBI-SNJ-010",
+   "name": "黑水河糖厂旧址",
+   "city": "神农架林区",
+   "district_county": "神农架林区木鱼镇木鱼村",
+   "industry_category_l1": "食品加工工业",
+   "recognition_level": "county_relic_related",
+   "recognition_status": "神农架林区一般不可移动文物保护单位（区文旅局2022-11-21名录109处之一；1950年建）",
+   "record_status": "source_confirmed",
+   "geocode_status": "pending",
+   "cultural_evidence": {
+    "material_carriers": "糖厂旧址厂房与制糖设备遗存（木鱼镇木鱼村）；保存状态待现场测绘",
+    "technical_memory": "1950年林区制糖工业的早期地方工业样本（名录中年代最早的地方工业点）",
+    "social_memory": "神农架早期地方工业与糖业供应记忆",
+    "current_use_or_loss": "以区级一般不可移动文物身份纳入保护体系；保存状况待核"
+   },
+   "notes": "直接取自神农架林区文旅局文保名录（A级，智能体核读全表）；名录中年代最早的地方工业点；坐标未核验保持待核。",
+   "aliases": [],
+   "asset_kind": "industrial_building",
+   "source_ids": [
+    "src-web-b174ed24b1"
    ]
   }
  ]
